@@ -5,6 +5,9 @@
  */
 import type { NewsEnvelope, NewsItem } from "./schema";
 
+const MINIMUM_DAILY_PUBLICATION_DATE = "2026-07-26";
+const MINIMUM_VISIBLE_ITEMS = 3;
+
 /**
  * News evidence bar (authority-weighted, stricter than memes — "未证实宁可不发"):
  * at least one `official`/`state_media` source IS enough; otherwise require >=2 distinct-URL
@@ -24,6 +27,22 @@ export function visibleNews(envelope: NewsEnvelope): NewsItem[] {
     return [];
   }
   return envelope.items.filter((item) => item.published && hasPublishableEvidence(item));
+}
+
+/**
+ * Preserve historical skipped/held archives while enforcing the owner's minimum-output
+ * contract for every new day. Only reader-visible, evidence-qualified items count.
+ */
+export function minimumDailyPublicationIssues(envelope: NewsEnvelope): string[] {
+  if (envelope.date < MINIMUM_DAILY_PUBLICATION_DATE) return [];
+
+  const visibleCount = visibleNews(envelope).length;
+  const publishableStatus = envelope.status === "published" || envelope.status === "partial";
+  if (publishableStatus && visibleCount >= MINIMUM_VISIBLE_ITEMS) return [];
+
+  return [
+    `${envelope.date} requires status published/partial with at least ${MINIMUM_VISIBLE_ITEMS} visible items; got ${envelope.status} with ${visibleCount}`,
+  ];
 }
 
 function normalizeHeadline(value: string): string {
@@ -140,6 +159,8 @@ export function internationalCoverageWarnings(envelope: NewsEnvelope): string[] 
 
 export function envelopeIssueSummary(envelope: NewsEnvelope): string[] {
   const issues: string[] = [];
+
+  issues.push(...minimumDailyPublicationIssues(envelope));
 
   if (envelope.status === "published" && envelope.items.length === 0) {
     issues.push("published envelope cannot have zero items");

@@ -78,6 +78,29 @@ function envelopeWith(item: MemeItem, status: DailyEnvelope["status"]): DailyEnv
   };
 }
 
+function minimumDay(
+  date: string,
+  status: DailyEnvelope["status"],
+  itemCount: number,
+): DailyEnvelope {
+  const items = Array.from({ length: itemCount }, (_, index) => ({
+    ...baseItem,
+    id: `${date}-verified-${index + 1}`,
+    title: `合格梗${index + 1}`,
+    sources: baseItem.sources.map((source, sourceIndex) => ({
+      ...source,
+      url: `https://example.com/${date}/meme-${index + 1}/source-${sourceIndex + 1}`,
+    })),
+  }));
+  const envelope = envelopeWith(items[0] ?? baseItem, status);
+  envelope.date = date;
+  envelope.items = items;
+  envelope.run_report.candidates_scanned = itemCount;
+  envelope.run_report.published =
+    status === "published" || status === "partial" ? itemCount : 0;
+  return envelope;
+}
+
 describe("MemeDaily publication rules", () => {
   it("accepts two independent URLs with platform or aggregator evidence", () => {
     expect(hasPublishableEvidence(baseItem)).toBe(true);
@@ -141,6 +164,32 @@ describe("MemeDaily publication rules", () => {
 
     expect(envelopeIssueSummary(envelope)).toContain("published envelope cannot have zero items");
   });
+
+  it("keeps a historical skipped day valid before the minimum-output cutoff", () => {
+    expect(envelopeIssueSummary(minimumDay("2026-07-25", "skipped", 0))).toHaveLength(0);
+  });
+
+  it.each(["skipped", "held"] as const)(
+    "rejects post-cutoff status %s even with no filler",
+    (status) => {
+      expect(envelopeIssueSummary(minimumDay("2026-07-26", status, 0))).toContain(
+        `2026-07-26 requires status published/partial with at least 3 visible items; got ${status} with 0`,
+      );
+    },
+  );
+
+  it("rejects a post-cutoff day with fewer than 3 visible items", () => {
+    expect(envelopeIssueSummary(minimumDay("2026-07-26", "partial", 2))).toContain(
+      "2026-07-26 requires status published/partial with at least 3 visible items; got partial with 2",
+    );
+  });
+
+  it.each(["published", "partial"] as const)(
+    "accepts post-cutoff status %s with 3 verified visible items",
+    (status) => {
+      expect(envelopeIssueSummary(minimumDay("2026-07-26", status, 3))).toHaveLength(0);
+    },
+  );
 
   it("flags an item that lacks publishable evidence", () => {
     const weak = {

@@ -6,6 +6,8 @@
 import type { DailyEnvelope, EvidenceTier, MemeItem } from "./schema";
 
 const primaryEvidenceTiers: EvidenceTier[] = ["platform_public", "aggregator"];
+const MINIMUM_DAILY_PUBLICATION_DATE = "2026-07-26";
+const MINIMUM_VISIBLE_ITEMS = 3;
 
 export function hasPublishableEvidence(item: MemeItem): boolean {
   const uniqueUrls = new Set(item.sources.map((source) => source.url));
@@ -22,6 +24,23 @@ export function visibleItems(envelope: DailyEnvelope): MemeItem[] {
   }
 
   return envelope.items.filter((item) => item.published && hasPublishableEvidence(item));
+}
+
+/**
+ * Historical skipped/held envelopes remain readable, but the owner's minimum-output
+ * contract applies to every new day from 2026-07-26 onward. Count only truly visible,
+ * evidence-qualified items so hidden or weak filler can never satisfy the gate.
+ */
+export function minimumDailyPublicationIssues(envelope: DailyEnvelope): string[] {
+  if (envelope.date < MINIMUM_DAILY_PUBLICATION_DATE) return [];
+
+  const visibleCount = visibleItems(envelope).length;
+  const publishableStatus = envelope.status === "published" || envelope.status === "partial";
+  if (publishableStatus && visibleCount >= MINIMUM_VISIBLE_ITEMS) return [];
+
+  return [
+    `${envelope.date} requires status published/partial with at least ${MINIMUM_VISIBLE_ITEMS} visible items; got ${envelope.status} with ${visibleCount}`,
+  ];
 }
 
 function normalizeName(value: string): string {
@@ -316,6 +335,8 @@ export function platformDiversityWarnings(envelope: DailyEnvelope): string[] {
 
 export function envelopeIssueSummary(envelope: DailyEnvelope): string[] {
   const issues: string[] = [];
+
+  issues.push(...minimumDailyPublicationIssues(envelope));
 
   if (envelope.status === "published" && envelope.items.length === 0) {
     issues.push("published envelope cannot have zero items");
