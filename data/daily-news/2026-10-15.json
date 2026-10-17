@@ -1,0 +1,895 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-100point-domestic-majority",
+  "date": "2026-10-15",
+  "generated_at": "2026-10-18T02:19:27+08:00",
+  "published_at": "2026-10-18T02:19:27+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 35,
+    "published": 7,
+    "dropped_safety": {
+      "controversy": 1,
+      "geopolitics": 1,
+      "politics": 1,
+      "public_safety": 1
+    },
+    "dropped_low_confidence": 22,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 14,
+      "official_sources": 1,
+      "state_media_sources": 7,
+      "major_media_sources": 6,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 2
+    },
+    "selection": {
+      "evaluated_at": "2026-10-15T21:00:00+08:00",
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 7,
+        "relaxed_48h": 9,
+        "relaxed_72h": 9
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 35,
+          "cumulative_unique_candidates": 35,
+          "source_scope": [
+            "央媒与政府站点：新华社/新华网、人民网、央视网、中国网、中央气象台、国家发改委、海关总署、商务部",
+            "持牌媒体：财新、澎湃新闻、南方日报、新京报、中新经纬、观点网、证券时报",
+            "公共热榜与聚合：百度热搜、微博热搜（仅佐证热度，不单独成立）",
+            "地方政务与融媒体：通辽/乌海/沈阳市政府站点、泰兴融媒体、西安粮食交易中心"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-10-15-canton-fair-140-opens",
+          "story_identity": "canton-fair-140-phase1-opens-oct15",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-15-canton-fair-140-opens",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-15-fuel-price-unchanged",
+          "story_identity": "fuel-price-oct15-window-unchanged-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T17:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-10-15-fuel-price-unchanged",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 19,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-15-china-dprk-bridge-opens",
+          "story_identity": "china-dprk-new-yalu-bridge-opens-oct15",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-10-15-china-dprk-bridge-opens",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-15-zunjie-v800-probe",
+          "story_identity": "zunjie-v800-brake-pedal-joint-probe",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-15-zunjie-v800-probe",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 19,
+            "everyday_relevance": 18,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-15-heating-season-starts",
+          "story_identity": "north-heating-season-starts-oct15-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-10-15-heating-season-starts",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-15-cold-wave-blue-warning",
+          "story_identity": "cold-wave-rainstorm-blue-warning-oct15",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T06:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-10-15-cold-wave-blue-warning",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-15-gold-price-drop",
+          "story_identity": "gold-price-plunge-below-4100-oct15",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T07:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-15-gold-price-drop",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 19,
+            "everyday_relevance": 16,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "yanzhao-2027-formal-registration-start",
+          "story_identity": "postgraduate-exam-2027-formal-registration",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 13,
+            "evidence": 6
+          },
+          "drop_reason": "研考报名安排已于10月9日信封覆盖，正式报名启动属周期性考务提醒"
+        },
+        {
+          "candidate_key": "guokao-registration-day2-progress",
+          "story_identity": "guokao-2027-registration-day2-progress",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T16:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 19,
+            "everyday_relevance": 12,
+            "evidence": 5
+          },
+          "drop_reason": "国考报名进入第二天，无主管部门当日汇总数据，属例行进展"
+        },
+        {
+          "candidate_key": "customs-q3-import-export-briefing",
+          "story_identity": "china-q3-import-export-3994trn-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-14T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 18,
+            "everyday_relevance": 18,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "前三季度进出口数据于10月14日发布，超出当日24小时严选时效窗，未达所选层级"
+        },
+        {
+          "candidate_key": "september-cpi-ppi-release",
+          "story_identity": "china-september-cpi-09pct-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-14T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 18,
+            "everyday_relevance": 17,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "9月CPI同比上涨0.9%读数平稳，10月14日发布，增量信息有限且未达所选层级"
+        },
+        {
+          "candidate_key": "zheng-qinwen-osaka-withdrawal",
+          "story_identity": "zheng-qinwen-osaka-wta250-withdrawal",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 9,
+            "evidence": 6
+          },
+          "drop_reason": "郑钦文退出大阪站为运动员参赛安排动态，中网夺冠消息前期已覆盖"
+        },
+        {
+          "candidate_key": "cheerleading-championship-yinchuan",
+          "story_identity": "national-cheerleading-championship-yinchuan-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 7,
+            "evidence": 4
+          },
+          "drop_reason": "全国啦啦操冠军赛为群众性赛事，公共关注度有限"
+        },
+        {
+          "candidate_key": "diving-championship-womens-3m",
+          "story_identity": "national-diving-championship-3m-yang-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 54,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 19,
+            "everyday_relevance": 8,
+            "evidence": 4
+          },
+          "drop_reason": "全国跳水锦标赛单项结果，非顶级国际赛事，关注度有限"
+        },
+        {
+          "candidate_key": "shenyang-weekend-cold-rain",
+          "story_identity": "shenyang-weekend-cold-rain-oct2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 19,
+            "everyday_relevance": 9,
+            "evidence": 4
+          },
+          "drop_reason": "沈阳周末降温为地方天气服务信息，已并入全国冷空气条目考量"
+        },
+        {
+          "candidate_key": "fugu-heating-start-oct15",
+          "story_identity": "fugu-county-heating-start-oct15-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 19,
+            "everyday_relevance": 7,
+            "evidence": 3
+          },
+          "drop_reason": "府谷县供暖启动为县域事项，已并入北方供暖季条目"
+        },
+        {
+          "candidate_key": "mofcom-eu-hybrid-response",
+          "story_identity": "mofcom-eu-hybrid-vehicle-response-oct15",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 18,
+            "everyday_relevance": 11,
+            "evidence": 6
+          },
+          "drop_reason": "商务部例行发布会回应，中欧混动汽车共识10月12日已有报道，增量有限"
+        },
+        {
+          "candidate_key": "mofcom-eu-rareearth-license",
+          "story_identity": "mofcom-rare-earth-export-license-response",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 56,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 18,
+            "everyday_relevance": 9,
+            "evidence": 5
+          },
+          "drop_reason": "稀土出口许可回应为例行发布会表态，无新政策出台"
+        },
+        {
+          "candidate_key": "us-stocks-close-lower-oct15",
+          "story_identity": "us-stocks-cpi-selloff-oct15-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T05:00:00+08:00",
+          "scope": "international",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 48,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 5,
+            "evidence": 3
+          },
+          "drop_reason": "美股例行波动，对境内读者直接日常影响有限"
+        },
+        {
+          "candidate_key": "taixing-local-news-roundup",
+          "story_identity": "taixing-local-newscast-oct15-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T17:10:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 45,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 18,
+            "everyday_relevance": 5,
+            "evidence": 2
+          },
+          "drop_reason": "地方融媒体日常播报合集，无区域性重大事项"
+        },
+        {
+          "candidate_key": "xian-grain-trading-bulletin",
+          "story_identity": "xian-grain-reserve-auction-bulletin-oct15",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 42,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 18,
+            "everyday_relevance": 3,
+            "evidence": 2
+          },
+          "drop_reason": "地方储备粮竞价交易例行公告，无价格异动信息"
+        },
+        {
+          "candidate_key": "huangpu-marathon-dec27-announce",
+          "story_identity": "huangpu-marathon-2026-dec27-announcement",
+          "research_pass": 1,
+          "occurred_at": "2026-10-13T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 15,
+            "everyday_relevance": 9,
+            "evidence": 5
+          },
+          "drop_reason": "黄埔马拉松定档12月27日为赛事预告，非当日举行"
+        },
+        {
+          "candidate_key": "gba-culture-art-festival-preview",
+          "story_identity": "gba-culture-art-festival-6th-preview-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-13T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 54,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 15,
+            "everyday_relevance": 10,
+            "evidence": 5
+          },
+          "drop_reason": "粤港澳大湾区文化艺术节月底开幕，当前为预告阶段"
+        },
+        {
+          "candidate_key": "autumn-grain-harvest-followup",
+          "story_identity": "autumn-grain-harvest-followup-oct15",
+          "research_pass": 1,
+          "occurred_at": "2026-10-14T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 17,
+            "everyday_relevance": 12,
+            "evidence": 6
+          },
+          "drop_reason": "秋粮收获进度10月14日信封已覆盖同类信息，避免连续重复"
+        },
+        {
+          "candidate_key": "q3-gdp-forecast-poll",
+          "story_identity": "q3-gdp-forecast-caixin-survey-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-13T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 15,
+            "everyday_relevance": 8,
+            "evidence": 5
+          },
+          "drop_reason": "三季度GDP为机构预测汇总，官方数据尚未发布"
+        },
+        {
+          "candidate_key": "imf-wb-annual-meeting-bangkok",
+          "story_identity": "imf-worldbank-annual-meeting-bangkok-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T09:00:00+08:00",
+          "scope": "international",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 18,
+            "everyday_relevance": 7,
+            "evidence": 5
+          },
+          "drop_reason": "IMF与世行年会为例行议程，当日无对华直接结论"
+        },
+        {
+          "candidate_key": "ucl-matchday-fixtures-oct15",
+          "story_identity": "ucl-matchday-oct15-2026-fixtures",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T03:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 45,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 18,
+            "everyday_relevance": 4,
+            "evidence": 2
+          },
+          "drop_reason": "欧冠常规轮次，境外赛事日常赛程"
+        },
+        {
+          "candidate_key": "vietnam-women-volleyball-league",
+          "story_identity": "vietnam-women-volleyball-championship-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T14:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 40,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 17,
+            "everyday_relevance": 3,
+            "evidence": 2
+          },
+          "drop_reason": "越南女排锦标赛为境外地方赛事，无代表性"
+        },
+        {
+          "candidate_key": "gold-jewelry-selfmedia-tips",
+          "story_identity": "gold-jewelry-buying-tips-selfmedia-oct15",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 44,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 18,
+            "everyday_relevance": 4,
+            "evidence": 2
+          },
+          "drop_reason": "金饰选购提示为自媒体稿件，无事件性"
+        },
+        {
+          "candidate_key": "nev-export-tax-rebate-cut",
+          "story_identity": "nev-export-tax-rebate-cut-apr2027",
+          "research_pass": 1,
+          "occurred_at": "2026-10-13T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "新能源汽车出口退税率调整仅见行业自媒体转述，未检索到主管部门或权威媒体原文"
+        },
+        {
+          "candidate_key": "guokao-day1-national-total",
+          "story_identity": "guokao-2027-day1-national-signup-total",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T17:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "国考报名当日全国总数仅有培训机构分省统计，无官方当日汇总发布"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "public_safety"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-10-15-canton-fair-140-opens",
+      "story_identity": "canton-fair-140-phase1-opens-oct15",
+      "headline": "🛍️ 第140届广交会开展，3万多家企业参展",
+      "summary": "新华社广州10月15日电，第140届广交会15日起在广州开展，至11月4日分三期举办。本届适逢创办70周年，全程3万多家企业参展、约34万名境外采购商到会；第一期以“先进制造”为主题，参展企业超1.2万家，服务机器人、智慧医疗等新兴产业首发新品增长约20%。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 88,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 13
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-10-15T09:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "大型展会开展报道，以新华社通稿与广交会新闻中心信息为准"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.news.cn/20261015/543e4d512e21467688695d7f890d038c/c.html",
+          "title": "第140届广交会开展吸引境外采购商约34万名",
+          "captured_at": "2026-10-18T02:11:00+08:00",
+          "note": "新华社广州10月15日电：第140届广交会15日开展，3万多家企业参展，约34万名境外采购商到会"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "南方日报",
+          "url": "https://epaper.nfnews.com/nfdaily/html/202610/15/content_10183538.html",
+          "title": "广交会首期参展企业超1.2万家",
+          "captured_at": "2026-10-18T02:11:20+08:00",
+          "note": "南方日报10月15日：第一期15日率先开展，展览总面积52万平方米、展位超2.5万个"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-15-fuel-price-unchanged",
+      "story_identity": "fuel-price-oct15-window-unchanged-2026",
+      "headline": "⛽ 国内成品油价格本轮不作调整",
+      "summary": "国家发展改革委10月15日发布通知：根据国际市场油价变化情况，本次汽、柴油价格不作调整。发改委要求中石油、中石化、中海油等企业组织好成品油生产和调运，确保市场稳定供应，消费者可通过12315平台举报价格违法行为。下一轮调价窗口为10月29日24时。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 85,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 19,
+        "everyday_relevance": 22,
+        "evidence": 13
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-10-15T17:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "成品油价格机制通知，以国家发展改革委发布为准"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家发展改革委",
+          "url": "https://www.ndrc.gov.cn/xwdt/xwfb/202610/t20261015_1408170.html",
+          "title": "2026年10月15日国内成品油价格不作调整",
+          "captured_at": "2026-10-18T02:11:40+08:00",
+          "note": "发改委10月15日通知：根据国际市场油价变化情况，本次汽、柴油价格不作调整"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国网",
+          "url": "http://guoqing.china.com.cn/2026-10/16/content_118735943.shtml",
+          "title": "国家发改委：2026年10月15日国内成品油价格不作调整",
+          "captured_at": "2026-10-18T02:12:00+08:00",
+          "note": "中国网转载发改委通知：要求企业确保稳定供应，消费者可通过12315平台举报价格违法行为"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-15-china-dprk-bridge-opens",
+      "story_identity": "china-dprk-new-yalu-bridge-opens-oct15",
+      "headline": "🌉 中朝新鸭绿江大桥正式开通",
+      "summary": "新华社沈阳10月15日电，15日上午，中朝新鸭绿江大桥正式开通，中朝双方在新大桥上共同举行开通仪式。新鸭绿江大桥是两国互联互通重要设施，开通后将进一步促进两国经贸交流和人员往来。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 20,
+        "everyday_relevance": 17,
+        "evidence": 13
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-10-15T10:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "跨境基础设施开通报道，以新华社通稿为准，仅陈述设施与通行信息，不作延伸解读"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.news.cn/world/20261015/cbd37c7ebde546cdbba2caae850fb6c5/c.html",
+          "title": "新华社快讯：10月15日上午，中朝新鸭绿江大桥开通仪式举行",
+          "captured_at": "2026-10-18T02:12:20+08:00",
+          "note": "新华社快讯10月15日：中朝新鸭绿江大桥开通仪式举行"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "人民网",
+          "url": "http://world.people.com.cn/n1/2026/1015/c1002-40815354.html",
+          "title": "10月15日上午，中朝新鸭绿江大桥开通仪式举行",
+          "captured_at": "2026-10-18T02:12:40+08:00",
+          "note": "人民网10月15日转新华社快讯：大桥是两国互联互通重要设施，将促进经贸交流和人员往来"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-15-zunjie-v800-probe",
+      "story_identity": "zunjie-v800-brake-pedal-joint-probe",
+      "headline": "🚗 三部门联合调查尊界V800刹车踏板支架断裂问题",
+      "summary": "新华社北京10月15日电，针对网络反映的“尊界V800汽车刹车踏板支架断裂问题”，工业和信息化部、中央网信办、市场监管总局在前期调查基础上成立联合调查组开展核查，将依法依规处理并及时公布情况。尊界汽车当晚声明，积极响应、全力配合调查，坚决维护消费者合法权益。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 79,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 19,
+        "everyday_relevance": 18,
+        "evidence": 13
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-10-15T20:00:00+08:00",
+      "risk": {
+        "level": "medium",
+        "note": "产品质量监管调查进行中，结论未出，以联合调查组后续通报为准，不预判责任"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "人民网",
+          "url": "http://finance.people.com.cn/n1/2026/1015/c1004-40815578.html",
+          "title": "三部门联合调查有关车辆刹车踏板支架断裂问题",
+          "captured_at": "2026-10-18T02:13:00+08:00",
+          "note": "人民网10月15日据新华社：工信部、中央网信办、市场监管总局成立联合调查组开展核查"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "财新网",
+          "url": "https://mini.caixin.com/2026-10-15/102493557.html",
+          "title": "三部门成立联合调查组，核查“尊界V800汽车刹车踏板支架断裂问题”",
+          "captured_at": "2026-10-18T02:13:20+08:00",
+          "note": "财新10月15日：据工信微报，三部门成立联合调查组；尊界汽车声明全力配合"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-15-heating-season-starts",
+      "story_identity": "north-heating-season-starts-oct15-2026",
+      "headline": "🔥 北方多地15日起开栓供暖",
+      "summary": "随着气温持续走低，10月15日内蒙古、新疆北部等地全面进入2026至2027年度采暖季，通辽、乌海等城市同日起正式供热。各地提前完成供热设备检修、管网试压和隐患排查，多措并举保障群众温暖过冬。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 77,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 19,
+        "everyday_relevance": 20,
+        "evidence": 12
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-10-15T08:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "冬季供暖民生服务信息，以各地政府与供热部门公告为准"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国网",
+          "url": "http://www.china.com.cn/txt/2026-10/15/content_118734851.shtml",
+          "title": "新一股冷空气将至多地提前开启供暖保障群众温暖过冬",
+          "captured_at": "2026-10-18T02:13:40+08:00",
+          "note": "中国网10月15日：新疆北部15日全面进入供暖季，各地提前完成检修与隐患排查"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://tv.cctv.com/2026/10/15/VIDErkEghpe1B8wAS0zQbFDB261015.shtml",
+          "title": "内蒙古今起进入供暖季 智慧供热破解冷热不均",
+          "captured_at": "2026-10-18T02:14:00+08:00",
+          "note": "央视网10月15日：内蒙古10月15日起进入供暖季，多地开栓供热"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-15-cold-wave-blue-warning",
+      "story_identity": "cold-wave-rainstorm-blue-warning-oct15",
+      "headline": "🌧️ 暴雨蓝色预警继续，新一轮冷空气影响我国大部",
+      "summary": "中央气象台10月15日6时继续发布暴雨蓝色预警，江南北部等地有较强降雨，需防范次生灾害。15日至19日，新一轮冷空气将自西向东影响我国大部，带来大风、降温与雨雪天气，北方高海拔地区局地有暴雪，渤海、黄海有大风，公众出行请注意交通安全、及时添衣保暖。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 75,
+      "score_breakdown": {
+        "heat": 25,
+        "freshness": 20,
+        "everyday_relevance": 18,
+        "evidence": 12
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-10-15T06:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "气象预警与冷空气服务信息，以中央气象台发布为准"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "新浪财经",
+          "url": "https://finance.sina.cn/2026-10-15/detail-inivhawy1306315.d.html",
+          "title": "中央气象台：天气公报（2026年10月15日）",
+          "captured_at": "2026-10-18T02:14:20+08:00",
+          "note": "中央气象台10月15日公报：15日江南北部有较强降雨，15日至19日冷空气自西向东影响我国大部"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "澎湃新闻",
+          "url": "https://m.thepaper.cn/newsDetail_forward_34247264",
+          "title": "中央气象台：新一轮冷空气将自西向东影响全国大部地区",
+          "captured_at": "2026-10-18T02:14:40+08:00",
+          "note": "澎湃新闻10月14日据中央气象台：15日起冷空气开始影响新疆，16日至19日影响我国大部"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-15-gold-price-drop",
+      "story_identity": "gold-price-plunge-below-4100-oct15",
+      "headline": "📉 国际金价跳水，国内金饰报价同步走低",
+      "summary": "中新经纬报道，北京时间10月15日凌晨，受美国9月CPI数据超预期影响，国际现货黄金大幅跳水，盘中跌破4100美元/盎司。中国银行金市观察显示，上海黄金交易所现货黄金下跌1.1%至894.5元/克，国内金店足金饰品报价随之下调，准备购金的消费者可关注阶段性回调。",
+      "category": "文化数字经济",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 75,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 19,
+        "everyday_relevance": 16,
+        "evidence": 12
+      },
+      "heat_rank": 7,
+      "occurred_at": "2026-10-15T07:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "贵金属行情报道，不构成投资建议，以交易所与机构行情数据为准"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "中新经纬",
+          "url": "https://www.jwview.com/jingwei/html/10-15/692639.shtml",
+          "title": "专家：金价可能下探至4000美元，10月加息概率还没到板上钉钉程度",
+          "captured_at": "2026-10-18T02:15:00+08:00",
+          "note": "中新经纬10月15日：凌晨国际金价大幅跳水，现货黄金盘中跌破4100美元/盎司"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "观点网",
+          "url": "https://www.guandian.cn/article/20261015/613508.html",
+          "title": "现货黄金10月15日冲高回落日内大跌超2%报4077.7美元/盎司",
+          "captured_at": "2026-10-18T02:15:20+08:00",
+          "note": "观点网10月15日：现货黄金日内下跌2%，国内金价同步走低"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
