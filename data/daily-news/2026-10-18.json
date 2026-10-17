@@ -1,0 +1,824 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-100point-domestic-majority",
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T06:41:42+08:00",
+  "published_at": "2026-10-18T06:41:42+08:00",
+  "status": "partial",
+  "run_report": {
+    "candidates_scanned": 36,
+    "published": 5,
+    "dropped_safety": {
+      "politics": 1,
+      "geopolitics": 1,
+      "minors": 1,
+      "celebrity_dispute": 1
+    },
+    "dropped_low_confidence": 24,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 10,
+      "official_sources": 0,
+      "state_media_sources": 3,
+      "major_media_sources": 7,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 3
+    },
+    "selection": {
+      "tier": "relaxed_48h",
+      "qualified": {
+        "strict_24h": 1,
+        "relaxed_48h": 5,
+        "relaxed_72h": 10
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 36,
+          "cumulative_unique_candidates": 36,
+          "source_scope": [
+            "公共热榜：百度热搜（仅热度佐证）",
+            "央媒与全国性媒体：人民网/中国新闻网/新华网",
+            "持牌媒体：第一财经/财联社/新浪财经/华商网/封面新闻",
+            "港澳台媒体：香港电台/星岛头条",
+            "政府机构与赛事公开信息",
+            "搜索引擎全网交叉检索"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-10-18-railway-train-number-reform",
+          "story_identity": "railway-train-numbering-reform-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-10-18-railway-train-number-reform",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 14,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-10-18-high-school-direct-admission-pilots",
+          "story_identity": "high-school-direct-admission-pilots-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T21:30:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "selected",
+          "item_id": "2026-10-18-high-school-direct-admission-pilots",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 15,
+            "everyday_relevance": 23,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-10-18-hk-iphone-duo-card-fraud",
+          "story_identity": "hk-iphone-duo-credit-card-fraud-oct17",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-10-18-hk-iphone-duo-card-fraud",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 19,
+            "everyday_relevance": 21,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-18-five-depts-job-scam-warning",
+          "story_identity": "five-departments-yangqi-neitui-scam-warning",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T16:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-18-five-depts-job-scam-warning",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 14,
+            "everyday_relevance": 24,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-10-18-bank-deposit-rates-rise",
+          "story_identity": "bank-deposit-rates-sep2026-uptick",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T13:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-18-bank-deposit-rates-rise",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 13,
+            "everyday_relevance": 22,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "cba-sichuan-first-win-580days",
+          "story_identity": "cba-sichuan-ends-47game-losing-streak",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T21:30:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 16,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "四川男篮时隔580天终结连败取开门红，单项赛事结果，综合热度与日常相关性未达所选层级"
+        },
+        {
+          "candidate_key": "kaoyan-2027-formal-registration",
+          "story_identity": "kaoyan-2027-registration-opens",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 11,
+            "everyday_relevance": 23,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "2027考研正式报名15日开启属周期性提醒，本周已选用国考报名条目，避免同类题材重复"
+        },
+        {
+          "candidate_key": "peizhen-national-standard-impl",
+          "story_identity": "peizhen-gb47801-implementation-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 8,
+            "everyday_relevance": 23,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "陪诊服务国标8月已发布，当前仅为11月实施前提示，缺乏实质性新进展"
+        },
+        {
+          "candidate_key": "wuhan-open-semifinal-upsets",
+          "story_identity": "wta-wuhan-open-2026-semifinals",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T22:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 18,
+            "everyday_relevance": 15,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "武网半决赛决出决赛阵容但无中国选手晋级，读者关注度中等"
+        },
+        {
+          "candidate_key": "demacia-cup-bfx-champion",
+          "story_identity": "demacia-cup-2026-bfx-champion",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T21:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 15,
+            "evidence": 8
+          },
+          "drop_reason": "德玛西亚杯决赛为电竞垂直赛事，综合热度不足"
+        },
+        {
+          "candidate_key": "eason-chan-26-concerts",
+          "story_identity": "eason-chan-hk-concert-series-dec2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 12,
+            "everyday_relevance": 16,
+            "evidence": 8
+          },
+          "drop_reason": "陈奕迅香港演唱会安排属文娱资讯，公共新闻价值有限"
+        },
+        {
+          "candidate_key": "drink-water-health-warning",
+          "story_identity": "massive-water-drinking-trend-health-warning",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 14,
+            "everyday_relevance": 15,
+            "evidence": 7
+          },
+          "drop_reason": "“全民喝大水”为网络跟风话题，医生提醒属常规健康科普，事件性不足"
+        },
+        {
+          "candidate_key": "high-sugar-vegetables-study",
+          "story_identity": "high-sugar-vegetables-research-oct16",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 10,
+            "everyday_relevance": 20,
+            "evidence": 8
+          },
+          "drop_reason": "蔬菜升糖风险为研究解读稿，新闻事件性弱"
+        },
+        {
+          "candidate_key": "xian-naan-stall-viral",
+          "story_identity": "xian-xinjiang-naan-stall-viral-queue",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 13,
+            "everyday_relevance": 16,
+            "evidence": 8
+          },
+          "drop_reason": "西安卖馕小伙走红属个体故事，公共影响有限"
+        },
+        {
+          "candidate_key": "beijing-ai-traffic-signal-pilot",
+          "story_identity": "beijing-ai-traffic-signal-control-pilot",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 11,
+            "everyday_relevance": 21,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "北京AI智能信控试点为进展性报道，未见权威机构首发信息"
+        },
+        {
+          "candidate_key": "retired-military-dogs-adoption",
+          "story_identity": "retired-military-dogs-public-adoption-oct2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-14T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 8,
+            "everyday_relevance": 22,
+            "evidence": 8
+          },
+          "drop_reason": "军犬退役公开领养启事体量较小，时效与热度有限"
+        },
+        {
+          "candidate_key": "phone-number-auction-280k",
+          "story_identity": "phone-number-8899999-judicial-auction",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 57,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 13,
+            "everyday_relevance": 13,
+            "evidence": 8
+          },
+          "drop_reason": "手机靓号司法拍卖成交为个案，日常相关性不足"
+        },
+        {
+          "candidate_key": "double-11-launch",
+          "story_identity": "double-11-2026-presale-launch",
+          "research_pass": 1,
+          "occurred_at": "2026-10-12T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 6,
+            "everyday_relevance": 22,
+            "evidence": 8
+          },
+          "drop_reason": "双11首轮促销12日已启动，超出72小时时效窗且已过首轮报道期"
+        },
+        {
+          "candidate_key": "cinema-diversification-policy-old",
+          "story_identity": "cinema-diversified-operation-notice-jul2026",
+          "research_pass": 1,
+          "occurred_at": "2026-07-03T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 2,
+            "everyday_relevance": 23,
+            "evidence": 8
+          },
+          "drop_reason": "电影院多样化经营通知为7月文件，不按新事件报道"
+        },
+        {
+          "candidate_key": "world-vocational-education-conf",
+          "story_identity": "world-vocational-education-dev-conf-tianjin-oct15",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 11,
+            "everyday_relevance": 19,
+            "evidence": 8
+          },
+          "drop_reason": "世界职业技术教育发展大会15日开幕，会议类报道读者实用性一般"
+        },
+        {
+          "candidate_key": "granny-101-visits-bestie",
+          "story_identity": "centenarian-granny-daily-visit-bestie",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 56,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 10,
+            "everyday_relevance": 14,
+            "evidence": 8
+          },
+          "drop_reason": "百岁老人串门日常为暖心短视频内容，新闻增量有限"
+        },
+        {
+          "candidate_key": "veteran-94-pushups",
+          "story_identity": "hangzhou-94yo-veteran-50-pushups",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 12,
+            "everyday_relevance": 12,
+            "evidence": 8
+          },
+          "drop_reason": "高龄老兵健身故事属人物花絮，公共性不足"
+        },
+        {
+          "candidate_key": "shy-boy-high-five",
+          "story_identity": "shy-boy-stranger-high-five-challenge",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T16:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 48,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 12,
+            "everyday_relevance": 12,
+            "evidence": 8
+          },
+          "drop_reason": "内向男孩击掌挑战为亲子互动短视频，非新闻事件"
+        },
+        {
+          "candidate_key": "model-fishing-base-business",
+          "story_identity": "ex-model-fishing-base-changsha-business",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 54,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 10,
+            "everyday_relevance": 15,
+            "evidence": 8
+          },
+          "drop_reason": "前模特创业钓鱼基地为自媒体人物稿，未经权威渠道核实"
+        },
+        {
+          "candidate_key": "feng-yuanzheng-arts-exam-looks",
+          "story_identity": "feng-yuanzheng-yikao-looks-comments",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 13,
+            "everyday_relevance": 15,
+            "evidence": 8
+          },
+          "drop_reason": "冯远征谈艺考选材为访谈观点，非政策变动"
+        },
+        {
+          "candidate_key": "health-supplement-blue-hat-tips",
+          "story_identity": "health-supplement-blue-hat-consumer-tips",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 59,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 12,
+            "everyday_relevance": 19,
+            "evidence": 8
+          },
+          "drop_reason": "保健食品“蓝帽子”选购提示为常规消费科普，缺少新信息"
+        },
+        {
+          "candidate_key": "prune-drink-weight-loss-check",
+          "story_identity": "prune-drink-weight-loss-fact-check",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T11:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 12,
+            "everyday_relevance": 16,
+            "evidence": 8
+          },
+          "drop_reason": "西梅饮减重功效核查为科普稿，事件性弱"
+        },
+        {
+          "candidate_key": "rizhao-marathon-traffic-control",
+          "story_identity": "rizhao-marathon-2026-traffic-control",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T17:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 17,
+            "freshness": 15,
+            "everyday_relevance": 12,
+            "evidence": 8
+          },
+          "drop_reason": "日照马拉松交通管控为地市赛事例行安排，影响范围有限"
+        },
+        {
+          "candidate_key": "zhangxue-wsbk-jerez",
+          "story_identity": "zhangxue-team-wsbk-jerez-round",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T18:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 14,
+            "everyday_relevance": 10,
+            "evidence": 8
+          },
+          "drop_reason": "世界超级摩托车锦标赛分站常规成绩，属国际地方性赛事，相关性与热度不足"
+        },
+        {
+          "candidate_key": "fake-village-cadre-livestream-case",
+          "story_identity": "fake-village-cadre-livestream-fraud-case",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "假冒村干部助农直播被立案仅见热搜转述，未检索到立案机关一手通报，证据不足不采用"
+        },
+        {
+          "candidate_key": "mother-cuts-son-allowance",
+          "story_identity": "mother-cuts-freshman-son-allowance-debate",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "母亲下调儿子生活费为社交媒体个案讨论，无权威媒体报道，不采用"
+        },
+        {
+          "candidate_key": "tesla-flying-roadster-alef",
+          "story_identity": "tesla-roadster-alef-flying-car-rivalry",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T20:00:00+08:00",
+          "scope": "international",
+          "topic": "科技AI",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "特斯拉飞行跑车与Alef“踢馆”为国际科技趣闻，缺国内主流媒体报道与直接读者相关性，不采用"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "minors"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "celebrity_dispute"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-10-18-railway-train-number-reform",
+      "story_identity": "railway-train-numbering-reform-2026",
+      "headline": "🚄 全国铁路车次编排改革启动，最快高铁将挂“X”字头",
+      "summary": "国铁集团10月16日宣布启动全国铁路列车车次编排改革，将于11月下旬、12月下旬分两批调整车次字头与号段。新增X字头专用于时速350公里以上复兴号动车组，动车组车次字头由4个增至7个，可编排车次数量增长近40%，旅客看车次即可识别列车速度等级。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 83,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 14,
+        "everyday_relevance": 23,
+        "evidence": 13
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-10-16T12:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "铁路客运服务信息，以人民网、中国新闻网报道为准，仅陈述改革安排，无争议内容"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "人民网",
+          "url": "http://society.people.com.cn/n1/2026/1017/c1008-40816334.html",
+          "title": "国铁集团启动全国铁路列车车次编排改革",
+          "captured_at": "2026-10-18T06:25:00+08:00",
+          "note": "人民网10月17日报道：国铁集团16日宣布启动车次编排改革，11月下旬、12月下旬分两批优化调整"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715566.shtml",
+          "title": "适应铁路快速发展需要 国铁集团启动全国铁路列车车次编排改革",
+          "captured_at": "2026-10-18T06:25:00+08:00",
+          "note": "中新网10月16日：动车组车次字头由4个增至7个，可编排车次数量增长近40%"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-18-high-school-direct-admission-pilots",
+      "story_identity": "high-school-direct-admission-pilots-2026",
+      "headline": "🎓 高中学龄人口2029年达峰，多地试点直升高中",
+      "summary": "高中学龄人口预计2029年达峰，多地探索多元升学路径：浙江嵊泗中考改革实现普高“愿读尽读”，湖南娄底、四川成都等地试点十二年一贯制贯通培养，武汉、南通等地继续新建扩建普通高中、扩充优质学位，缓解家长普职分流焦虑。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "教育考试",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 15,
+        "everyday_relevance": 23,
+        "evidence": 10
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-10-16T21:30:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "教育升学改革报道，信息来自第一财经两个平台账号同一稿件，属试点进展而非全国政策变动"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "第一财经",
+          "url": "https://finance.sina.cn/2026-10-16/detail-inivmyex7489224.d.html",
+          "title": "高中学龄人口2029年达峰 多地已试点直升高中",
+          "captured_at": "2026-10-18T06:32:00+08:00",
+          "note": "第一财经10月16日稿件（新浪财经平台）：嵊泗普高“愿读尽读”，娄底、成都等地试点贯通培养"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "第一财经资讯",
+          "url": "https://www.163.com/dy/article/L9CQ0SN60519DDQ2.html",
+          "title": "高中学龄人口2029年达峰 多地试点直升高中",
+          "captured_at": "2026-10-18T06:32:00+08:00",
+          "note": "第一财经资讯网易号10月16日21时29分发布同一报道，武汉、南通等地继续扩充高中学位"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-18-hk-iphone-duo-card-fraud",
+      "story_identity": "hk-iphone-duo-credit-card-fraud-oct17",
+      "headline": "📱 香港警方通报抢购折叠iPhone信用卡盗刷案，涉460万港元",
+      "summary": "香港警方10月17日通报，苹果首款折叠屏手机iPhone Duo于16日晚开放预购后，接获超过110宗信用卡疑遭盗用订购报案，涉款约460万港元，单笔最大损失近23万港元；案件暂列“以欺骗手段取得财产”，警方敦促苹果尽快落实风控措施。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 79,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 19,
+        "everyday_relevance": 21,
+        "evidence": 11
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-10-17T12:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "消费安全提醒，以香港警方通报与香港电台报道为准，不渲染个案细节"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "香港电台",
+          "url": "https://gbcode.rthk.hk/TuniS/news.rthk.hk/rthk/ch/component/k2/1874309-20261017.htm",
+          "title": "警方接逾110人报案疑信用卡被盗用订苹果手机涉款约460万",
+          "captured_at": "2026-10-18T06:32:00+08:00",
+          "note": "香港电台10月17日：警方接逾110宗报案，涉款约460万港元，最大一宗损失近23万港元"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "新浪财经",
+          "url": "https://finance.sina.cn/2026-10-17/detail-inivqccx7046611.d.html",
+          "title": "多名香港市民抢折叠iPhone时信用卡被盗用，涉案总金额460万港元",
+          "captured_at": "2026-10-18T06:32:00+08:00",
+          "note": "新浪财经10月17日：警方通报累计110多宗报案，敦促苹果尽快落实风控措施"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-18-five-depts-job-scam-warning",
+      "story_identity": "five-departments-yangqi-neitui-scam-warning",
+      "headline": "💼 五部门发布风险提示：警惕“央国企内推”招聘骗局",
+      "summary": "人力资源社会保障部等五部门10月16日发布风险提示：求职招聘旺季，不法分子冒用央国企名义发布虚假招聘信息，打着“内部推荐”“直签保录”幌子诱导求职者支付高额费用；提醒求职者通过官方渠道核实招聘信息，谨防上当受骗。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 14,
+        "everyday_relevance": 24,
+        "evidence": 11
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-10-16T16:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "求职防骗服务信息，以五部门风险提示与中国新闻网报道为准，无争议内容"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.hn.chinanews.com.cn/news/cjxx/2026/1016/535009.html",
+          "title": "五部门发布警惕“央国企内推”等骗局风险提示",
+          "captured_at": "2026-10-18T06:31:00+08:00",
+          "note": "中国新闻网10月16日：人社部等五部门发布风险提示，警惕冒用央国企名义的招聘骗局"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "华商网",
+          "url": "https://news.hsw.cn/system/2026/1017/1967384.shtml",
+          "title": "五部门发布风险提示警惕“央国企内推”等骗局",
+          "captured_at": "2026-10-18T06:31:00+08:00",
+          "note": "华商网10月17日报道：骗局多以“公域引流、私域转化”模式诱导高额付费"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-18-bank-deposit-rates-rise",
+      "story_identity": "bank-deposit-rates-sep2026-uptick",
+      "headline": "🏦 9月银行存款利率普遍上调，五年期定存涨幅最高",
+      "summary": "融360数字科技研究院报告显示，2026年9月银行存款利率普遍上调，其中五年期涨幅最高；部分城商行、农商行和民营银行将五年期定存利率提至1.8%至1.9%区间，个别大额存单产品利率接近2.1%，长期存款吸引力阶段性回升。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 75,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 13,
+        "everyday_relevance": 22,
+        "evidence": 9
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-10-16T13:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "市场利率信息，以融360报告与财联社、新浪财经报道为准，提示数据为9月统计口径"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "财联社",
+          "url": "https://app.myzaker.com/news/article.php?pk=6ad308a08e9f09533e2a8861",
+          "title": "9月银行存款利率普遍上调 5年期涨幅最高",
+          "captured_at": "2026-10-18T06:28:00+08:00",
+          "note": "财联社10月16日电：融360数字科技研究院发布2026年9月银行存款利率报告，普遍上调、五年期涨幅最高"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "新浪财经",
+          "url": "https://finance.sina.cn/2026-10-16/detail-inivmiic6954839.d.html",
+          "title": "多家银行上调存款利率，五年期定存高至2.1%",
+          "captured_at": "2026-10-18T06:28:00+08:00",
+          "note": "新浪财经10月16日：部分中小银行五年期定存提至1.8%至1.9%，个别大额存单接近2.1%"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
