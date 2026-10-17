@@ -1,0 +1,809 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-100point-domestic-majority",
+  "date": "2026-10-17",
+  "generated_at": "2026-10-18T03:17:37+08:00",
+  "published_at": "2026-10-18T03:17:37+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 38,
+    "published": 4,
+    "dropped_safety": {
+      "geopolitics": 1,
+      "politics": 2,
+      "rumor": 1
+    },
+    "dropped_low_confidence": 26,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 8,
+      "official_sources": 2,
+      "state_media_sources": 5,
+      "major_media_sources": 1,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 4
+    },
+    "selection": {
+      "evaluated_at": "2026-10-17T21:00:00+08:00",
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 4,
+        "relaxed_48h": 8,
+        "relaxed_72h": 9
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 38,
+          "cumulative_unique_candidates": 38,
+          "source_scope": [
+            "央媒：新华社/新华网/人民网/央视网/央广网/中国新闻网/中国网",
+            "政府站点：国家发展改革委/农业农村部/中央气象台/国家中医药管理局/地方政府网",
+            "持牌媒体：财新/21经济网/北京商报/新京报/每日经济新闻/中国科技网",
+            "公共热榜：百度热搜/微博热搜（仅佐证热度）",
+            "地方融媒与政务站点：北京怀柔/沈阳市/湖北日报/南方网等"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-10-17-traditional-medicine-congress",
+          "story_identity": "world-traditional-medicine-congress-2026-opening",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-10-17-traditional-medicine-congress",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-17-autumn-grain-harvest-70pct",
+          "story_identity": "autumn-grain-harvest-over-70pct-oct17",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-10-17-autumn-grain-harvest-70pct",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-17-rainstorm-peak-15-provinces",
+          "story_identity": "rainstorm-strongest-period-15-provinces-oct17",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-10-17-rainstorm-peak-15-provinces",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-17-commercial-housing-sales-reform",
+          "story_identity": "commercial-housing-sales-reform-local-rules-landing",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-10-17-commercial-housing-sales-reform",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "elderly-care-pricing-guideline-1476",
+          "story_identity": "elderly-care-pricing-mechanism-guideline-1476",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T17:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 18,
+            "everyday_relevance": 24,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "三部门普惠养老价格指导意见10月16日印发，超出所选strict_24h层级时效窗"
+        },
+        {
+          "candidate_key": "world-vocational-education-conf-tianjin",
+          "story_identity": "world-vocational-education-dev-conf-tianjin-oct16",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 18,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "世界职业技术教育发展大会16日在天津开幕，超出所选层级时效窗"
+        },
+        {
+          "candidate_key": "wuhan-open-semifinal-kartal",
+          "story_identity": "wuhan-open-2026-women-semifinal-results",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T20:30:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 19,
+            "everyday_relevance": 16,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "武汉网球公开赛半决赛为境外选手对决，未达所选层级分数线"
+        },
+        {
+          "candidate_key": "huairou-triathlon-world-cup-kickoff",
+          "story_identity": "huairou-triathlon-world-cup-2026-kickoff",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "怀柔铁人三项世界杯17日开赛，单项赛事公共覆盖面有限，未达所选层级分数线"
+        },
+        {
+          "candidate_key": "world-marine-equipment-conf-fuzhou",
+          "story_identity": "world-marine-equipment-conference-fuzhou-oct16",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 17,
+            "everyday_relevance": 16,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "世界航海装备大会16日在福州开幕，行业专业展会，公众直接相关性有限"
+        },
+        {
+          "candidate_key": "shenzhen-apec-30day-countdown",
+          "story_identity": "shenzhen-apec-china-30day-countdown-event",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 13,
+            "evidence": 10
+          },
+          "drop_reason": "深圳APEC倒计时30天主题活动为节点性宣传，公众日常相关性不足15分下限"
+        },
+        {
+          "candidate_key": "food-security-week-anhui-main-venue",
+          "story_identity": "food-security-week-2026-anhui-main-venue",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 14,
+            "evidence": 10
+          },
+          "drop_reason": "世界粮食日主题已在10月16日信封覆盖，宣传周主会场活动为同一宣传周期延续"
+        },
+        {
+          "candidate_key": "jakarta-bandung-hsr-third-anniversary",
+          "story_identity": "jakarta-bandung-hsr-3rd-anniversary-oct17",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T09:00:00+08:00",
+          "scope": "international",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 11,
+            "evidence": 9
+          },
+          "drop_reason": "雅万高铁开通三周年为境外项目周年回顾，对境内读者日常影响有限"
+        },
+        {
+          "candidate_key": "belt-road-media-forum-nanjing",
+          "story_identity": "belt-road-media-organizations-forum-nanjing-oct17",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 12,
+            "evidence": 9
+          },
+          "drop_reason": "一带一路记者组织论坛为媒体行业交流活动，公众日常相关性有限"
+        },
+        {
+          "candidate_key": "world-gymnastics-champs-rotterdam-start",
+          "story_identity": "world-gymnastics-championships-rotterdam-2026-opening",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T16:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 10,
+            "evidence": 8
+          },
+          "drop_reason": "世界体操锦标赛鹿特丹开赛日为境外赛事开局，中国看点尚未展开"
+        },
+        {
+          "candidate_key": "guangdong-195-genai-model-filings",
+          "story_identity": "guangdong-195-genai-models-filed-oct16",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 18,
+            "everyday_relevance": 12,
+            "evidence": 10
+          },
+          "drop_reason": "广东大模型备案数据为行业进展发布，非公众事件性新闻"
+        },
+        {
+          "candidate_key": "shenyang-talent-ai-conference-opening",
+          "story_identity": "shenyang-ne-asia-talent-ai-conference-oct17",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 19,
+            "everyday_relevance": 10,
+            "evidence": 9
+          },
+          "drop_reason": "东北亚人才交流大会为地方性人才招聘活动，影响范围有限"
+        },
+        {
+          "candidate_key": "jma-false-quake-alert-retraction",
+          "story_identity": "jma-emergency-quake-alert-false-retraction",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T13:00:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 17,
+            "everyday_relevance": 9,
+            "evidence": 8
+          },
+          "drop_reason": "日本气象厅误报地震速报并取消，属境外机构技术事件，境内影响有限"
+        },
+        {
+          "candidate_key": "canton-fair-140-phase1-day3",
+          "story_identity": "canton-fair-140-phase1-day3-progress",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 57,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 9,
+            "evidence": 7
+          },
+          "drop_reason": "广交会第一期持续推进，开展消息10月15日信封已覆盖，当日无重大增量"
+        },
+        {
+          "candidate_key": "guokao-2027-registration-day4",
+          "story_identity": "guokao-2027-registration-day4-progress",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T17:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 56,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 10,
+            "evidence": 5
+          },
+          "drop_reason": "国考报名第四日，无主管部门当日汇总发布，属例行进展"
+        },
+        {
+          "candidate_key": "csl-dalian-yingbo-3-1-shenzhen",
+          "story_identity": "csl-2026-round28-dalian-yingbo-shenzhen",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T19:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 8,
+            "evidence": 6
+          },
+          "drop_reason": "中超常规轮次赛果，公共关注度有限"
+        },
+        {
+          "candidate_key": "yanzhao-2027-formal-registration-day2",
+          "story_identity": "yanzhao-2027-formal-registration-day2-oct17",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 10,
+            "evidence": 5
+          },
+          "drop_reason": "研考正式报名第二日，周期性考务进展，报名安排前期已覆盖"
+        },
+        {
+          "candidate_key": "digital-lifelong-learning-conf-shanghai",
+          "story_identity": "digital-lifelong-learning-intl-conf-shanghai-oct16",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 18,
+            "everyday_relevance": 8,
+            "evidence": 8
+          },
+          "drop_reason": "数字化终身学习国际会议为专业学术会议，公众相关性有限"
+        },
+        {
+          "candidate_key": "csl-shandong-taishan-vs-zhejiang",
+          "story_identity": "csl-2026-round28-shandong-taishan-zhejiang",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 19,
+            "everyday_relevance": 7,
+            "evidence": 5
+          },
+          "drop_reason": "中超常规轮次对决，非争冠关键战"
+        },
+        {
+          "candidate_key": "global-developer-pioneer-conf-preview",
+          "story_identity": "global-developer-pioneer-conference-shanghai-preview",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 18,
+            "everyday_relevance": 6,
+            "evidence": 6
+          },
+          "drop_reason": "2026全球开发者先锋大会为会前预热报道，大会尚未开幕"
+        },
+        {
+          "candidate_key": "tianshan-economic-forum-sixth-urumqi",
+          "story_identity": "tianshan-economic-forum-6th-urumqi-oct17",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 48,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 18,
+            "everyday_relevance": 6,
+            "evidence": 8
+          },
+          "drop_reason": "天山经济论坛为区域性经济研讨活动，公众影响有限"
+        },
+        {
+          "candidate_key": "movie-chongsheng2-box-office-60m",
+          "story_identity": "movie-chongsheng2-total-box-office-60m",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 46,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 18,
+            "everyday_relevance": 5,
+            "evidence": 5
+          },
+          "drop_reason": "单部影片票房节点，属常规市场数据"
+        },
+        {
+          "candidate_key": "xinjiang-wushi-m3-earthquake",
+          "story_identity": "xinjiang-wushi-m3-earthquake-oct17",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T15:44:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 44,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 19,
+            "everyday_relevance": 4,
+            "evidence": 5
+          },
+          "drop_reason": "新疆乌什县3.0级地震震级轻微，无影响报告"
+        },
+        {
+          "candidate_key": "henan-tv-chongyang-gala-broadcast",
+          "story_identity": "henan-tv-chongyang-gala-2026-broadcast",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T19:30:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 42,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 18,
+            "everyday_relevance": 4,
+            "evidence": 4
+          },
+          "drop_reason": "卫视重阳节综艺晚会播出，属常规节目安排"
+        },
+        {
+          "candidate_key": "rizhao-marathon-traffic-control-preview",
+          "story_identity": "rizhao-marathon-2026-traffic-control-notice",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 40,
+          "score_breakdown": {
+            "heat": 14,
+            "freshness": 18,
+            "everyday_relevance": 4,
+            "evidence": 4
+          },
+          "drop_reason": "日照马拉松18日举行，17日起部分路段管控属赛事配套通告"
+        },
+        {
+          "candidate_key": "chongqing-banan-chongyang-elder-care",
+          "story_identity": "chongqing-banan-chongyang-elder-care-activity",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 38,
+          "score_breakdown": {
+            "heat": 14,
+            "freshness": 16,
+            "everyday_relevance": 4,
+            "evidence": 4
+          },
+          "drop_reason": "重庆巴南重阳敬老为地方性社区活动，传播范围有限"
+        },
+        {
+          "candidate_key": "pension-adjustment-rumor-oct17",
+          "story_identity": "pension-2026-adjustment-unconfirmed-rumor-oct17",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "2026年养老金调整说法仅见自媒体推测内容，人社部、财政部未发布正式文件，不采用"
+        },
+        {
+          "candidate_key": "shanghai-grand-opera-house-opening",
+          "story_identity": "shanghai-grand-opera-house-official-opening",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T19:30:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "上海大歌剧院10月17日正式开幕仅检索到单一媒体报道，未见官方发布或第二家权威来源核实"
+        },
+        {
+          "candidate_key": "zhijie-auto-independent-manufacturing",
+          "story_identity": "zhijie-auto-independent-manufacturing-claim",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "智界汽车独立造车说法来自单一匿名内部人士信源，企业未官宣，不采用"
+        },
+        {
+          "candidate_key": "potato-diet-weight-loss-hot-topic",
+          "story_identity": "potato-staple-diet-weight-loss-hot-topic",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "土豆当主食瘦身话题为热榜内容，无权威媒体核实与专业医学背书，不采用"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-10-17-traditional-medicine-congress",
+      "story_identity": "world-traditional-medicine-congress-2026-opening",
+      "headline": "🌿 2026世界传统医药大会在京开幕，聚焦科技赋能",
+      "summary": "10月17日，2026世界传统医药大会在北京国家会议中心开幕，主题为“科技赋能 融合发展：推动人人享有传统医药”，会期两天。大会由北京市人民政府、国家卫生健康委员会、国家中医药管理局、国家药品监督管理局共同主办，世界卫生组织联合举办，90多个国家和地区的数千名代表参会。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 85,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 20,
+        "everyday_relevance": 18,
+        "evidence": 14
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-10-17T10:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "国际会议开幕信息，以新华社报道与主办方发布为准，仅陈述会议安排"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家中医药管理局",
+          "url": "http://www.natcm.gov.cn/xinxifabu/guowuyuanxinxi/2026-10-17/38932.html",
+          "title": "李强出席2026世界传统医药大会开幕式并致辞",
+          "captured_at": "2026-10-18T03:10:00+08:00",
+          "note": "国家中医药管理局10月17日转发新华社稿：2026世界传统医药大会当日上午在北京开幕"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "http://www.bj.news.cn/20261017/77486320104d40028bccead42909f1b8/c.html",
+          "title": "2026世界传统医药大会在北京启幕",
+          "captured_at": "2026-10-18T03:10:00+08:00",
+          "note": "新华网10月17日：全球90多个国家和地区数千名代表参会，主题为科技赋能融合发展"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-17-autumn-grain-harvest-70pct",
+      "story_identity": "autumn-grain-harvest-over-70pct-oct17",
+      "headline": "🌾 农业农村部：全国秋粮收获过七成",
+      "summary": "记者10月17日从农业农村部获悉，据最新农情调度，全国秋粮收获已过七成。分地区看，东北地区收获过六成，黄淮海、西南地区过八成，西北地区近八成，长江中下游地区过六成，各地正抢抓农时推进秋收，确保颗粒归仓。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 83,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 22,
+        "evidence": 13
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-10-17T10:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "农业生产进度权威发布，以农业农村部农情调度数据为准"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.news.cn/politics/20261017/48c3a93bd3ce4d7fb666948b6a87f974/c.html",
+          "title": "全国秋粮收获过七成",
+          "captured_at": "2026-10-18T03:10:00+08:00",
+          "note": "新华社北京10月17日电：据农业农村部最新农情调度，全国秋粮收获过七成"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央广网",
+          "url": "http://news.cnr.cn/native/gd/kx/20261017/t20261017_527844962.shtml",
+          "title": "全国秋粮收获过七成",
+          "captured_at": "2026-10-18T03:10:00+08:00",
+          "note": "央广网10月17日：分地区看东北过六成，黄淮海、西南过八成，西北近八成"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-17-rainstorm-peak-15-provinces",
+      "story_identity": "rainstorm-strongest-period-15-provinces-oct17",
+      "headline": "🌧️ 15省份大到暴雨，本轮降雨进入最强时段",
+      "summary": "中央气象台10月17日继续发布暴雨蓝色预警：17日至18日，内蒙古中东部、黑龙江西南部、吉林西部、辽宁大部、河北中北部、北京、天津、山东、河南、安徽、江苏、湖北、湖南、重庆等15省份部分地区有大到暴雨，局地大暴雨，伴有短时强降水和雷暴大风；较强冷空气同时影响中东部，公众需注意添衣防雨、防范次生灾害。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 80,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 12
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-10-17T15:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "气象预警服务信息，以中央气象台发布为准，聚焦防范提示，不渲染灾情"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "人民网",
+          "url": "http://society.people.com.cn/n1/2026/1017/c1008-40816581.html",
+          "title": "15个省份大到暴雨 降雨进入最强时段",
+          "captured_at": "2026-10-18T03:10:00+08:00",
+          "note": "人民网10月17日据新华社：15省份大到暴雨，本轮降雨进入最强时段"
+        },
+        {
+          "tier": "official",
+          "outlet": "中央气象台",
+          "url": "https://www.nmc.cn/publish/country/warning/index.html",
+          "title": "中央气象台10月17日继续发布暴雨蓝色预警",
+          "captured_at": "2026-10-18T03:10:00+08:00",
+          "note": "中央气象台10月17日6时、10时、18时继续发布暴雨蓝色预警，局地大暴雨100至150毫米"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-17-commercial-housing-sales-reform",
+      "story_identity": "commercial-housing-sales-reform-local-rules-landing",
+      "headline": "🏠 多地发布细则，商品住房销售制度改革落地实施",
+      "summary": "新华社10月17日报道，商品住房销售制度改革落地实施，全国已有北京、上海、广州、武汉、天津、杭州、深圳等多个城市出台地方细则：统一以8月28日为分界点设置过渡期，预售门槛抬升至主体结构封顶，预售资金实行全额全过程监管，现房销售有序推进，更好保障购房人权益。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 77,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 19,
+        "everyday_relevance": 20,
+        "evidence": 12
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-10-17T09:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "住房政策报道，以新华社综述与各城市正式文件为准，不构成购房投资建议"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "人民网",
+          "url": "http://finance.people.com.cn/n1/2026/1017/c1004-40816519.html",
+          "title": "多地发布细则，商品住房销售制度改革落地实施",
+          "captured_at": "2026-10-18T03:10:00+08:00",
+          "note": "人民网10月17日新华社稿：北京、上海、广州、武汉、天津、杭州、深圳等多城出台细则，现房销售进入落地实施阶段"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "财新网",
+          "url": "https://www.caixin.com/2026-10-16/102494116.html",
+          "title": "又有两城出台住房销售细则 杭州允许现售项目带押销售",
+          "captured_at": "2026-10-18T03:10:00+08:00",
+          "note": "财新网10月16日：全国已有七城落地实施细则，杭州和深圳于10月15日同日发布文件"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
