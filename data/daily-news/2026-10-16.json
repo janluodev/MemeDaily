@@ -1,0 +1,773 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-100point-domestic-majority",
+  "date": "2026-10-16",
+  "generated_at": "2026-10-18T02:47:30+08:00",
+  "published_at": "2026-10-18T02:47:30+08:00",
+  "status": "partial",
+  "run_report": {
+    "candidates_scanned": 34,
+    "published": 5,
+    "dropped_safety": {
+      "geopolitics": 1,
+      "politics": 2,
+      "public_safety": 1
+    },
+    "dropped_low_confidence": 20,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 10,
+      "official_sources": 3,
+      "state_media_sources": 4,
+      "major_media_sources": 3,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 5
+    },
+    "selection": {
+      "evaluated_at": "2026-10-16T21:00:00+08:00",
+      "tier": "relaxed_48h",
+      "qualified": {
+        "strict_24h": 2,
+        "relaxed_48h": 5,
+        "relaxed_72h": 7
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 34,
+          "cumulative_unique_candidates": 34,
+          "source_scope": [
+            "央媒：新华社/人民网/央视网/中国网/中国经济网",
+            "政府站点：国新网/应急管理部/市场监管总局",
+            "持牌媒体：财新/澎湃/21经济网/北京商报/南方网",
+            "公共热榜：百度热搜/微博热搜（仅佐证热度）",
+            "地方融媒与政务站点：怀柔/石景山/合肥等"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-10-16-diaper-formamide-all-clear",
+          "story_identity": "diaper-formamide-joint-probe-all-clear",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T17:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-16-diaper-formamide-all-clear",
+          "score": 90,
+          "score_breakdown": {
+            "heat": 35,
+            "freshness": 18,
+            "everyday_relevance": 24,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-10-16-ciie-9th-briefing",
+          "story_identity": "ciie-9th-preparation-briefing-oct16",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-16-ciie-9th-briefing",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-16-world-food-day",
+          "story_identity": "world-food-day-46-grain-security-week-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-10-16-world-food-day",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 19,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-16-emergency-mgmt-briefing",
+          "story_identity": "mem-q4-safety-briefing-fireworks-oct16",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-10-16-emergency-mgmt-briefing",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 18,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-10-16-csrc-insider-trading-fine",
+          "story_identity": "csrc-chen-qiuhang-insider-trading-penalty",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-16-csrc-insider-trading-fine",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 19,
+            "everyday_relevance": 15,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "biomed-export-catalog-comment",
+          "story_identity": "biomed-export-catalog-biomed-tech-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 15,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "技术出口目录拟增列生物医药技术为行业政策信号，公众直接相关性有限，未达所选层级"
+        },
+        {
+          "candidate_key": "rainstorm-blue-warning-oct16",
+          "story_identity": "rainstorm-blue-warning-continue-oct16",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T06:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 65,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 18,
+            "everyday_relevance": 15,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "暴雨蓝色预警继续发布，冷空气与降雨影响已在10月15日信封覆盖，增量信息有限"
+        },
+        {
+          "candidate_key": "canton-fair-140-day2",
+          "story_identity": "canton-fair-140-day2-progress",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 9,
+            "evidence": 8
+          },
+          "drop_reason": "广交会第一期持续推进，开展消息已于10月15日信封覆盖，当日无重大增量"
+        },
+        {
+          "candidate_key": "guokao-2027-registration-day3",
+          "story_identity": "guokao-2027-registration-day3",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T17:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 10,
+            "evidence": 5
+          },
+          "drop_reason": "国考报名第三日，无主管部门当日汇总发布，属例行进展"
+        },
+        {
+          "candidate_key": "yanzhao-2027-registration-day2",
+          "story_identity": "yanzhao-2027-formal-registration-day2",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 59,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 18,
+            "everyday_relevance": 11,
+            "evidence": 5
+          },
+          "drop_reason": "研考正式报名第二日，周期性考务进展，报名安排前期已覆盖"
+        },
+        {
+          "candidate_key": "tianjin-jinmenhu-four-wins",
+          "story_identity": "csl-tianjin-jinmenhu-4-win-streak",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T18:30:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 10,
+            "evidence": 5
+          },
+          "drop_reason": "中超常规轮次赛果，公共关注度有限"
+        },
+        {
+          "candidate_key": "huairou-triathlon-world-cup-preview",
+          "story_identity": "huairou-triathlon-world-cup-2026-preview",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T11:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 45,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 18,
+            "everyday_relevance": 6,
+            "evidence": 3
+          },
+          "drop_reason": "铁人三项世界杯17日开赛，当日为赛前媒体见面会，属预告阶段"
+        },
+        {
+          "candidate_key": "scs-2026-chengdu-finals",
+          "story_identity": "scs-2026-snk-finals-chengdu",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 43,
+          "score_breakdown": {
+            "heat": 17,
+            "freshness": 18,
+            "everyday_relevance": 5,
+            "evidence": 3
+          },
+          "drop_reason": "格斗电竞年度总决赛落地成都，受众圈层化"
+        },
+        {
+          "candidate_key": "csl-rongcheng-title-point-preview",
+          "story_identity": "csl-2026-round28-rongcheng-title-preview",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T09:30:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 8,
+            "evidence": 4
+          },
+          "drop_reason": "中超冠军点前瞻，比赛18日进行，属赛前预热"
+        },
+        {
+          "candidate_key": "happy-chengdu-football-final",
+          "story_identity": "happy-chengdu-amateur-football-final",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T19:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 40,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 17,
+            "everyday_relevance": 4,
+            "evidence": 3
+          },
+          "drop_reason": "城市业余足球联赛收官，地方性群众赛事"
+        },
+        {
+          "candidate_key": "beijing-wind-power-conference",
+          "story_identity": "beijing-wind-conference-2026-diversification",
+          "research_pass": 1,
+          "occurred_at": "2026-10-14T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 15,
+            "everyday_relevance": 15,
+            "evidence": 10
+          },
+          "drop_reason": "北京国际风能大会14日举办，16日报道为会后综述，行业专业性较强"
+        },
+        {
+          "candidate_key": "zhuque2-y4-ten-satellites",
+          "story_identity": "zhuque2-y4-one-rocket-ten-satellites",
+          "research_pass": 1,
+          "occurred_at": "2026-10-14T19:40:00+08:00",
+          "scope": "domestic",
+          "topic": "太空航天",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 14,
+            "everyday_relevance": 12,
+            "evidence": 10
+          },
+          "drop_reason": "朱雀二号改进型遥四14日发射成功，超出所选层级时效窗"
+        },
+        {
+          "candidate_key": "gpu-satellite-startup-profile",
+          "story_identity": "guangzhou-compute-satellite-startup-profile",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 43,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 18,
+            "everyday_relevance": 5,
+            "evidence": 4
+          },
+          "drop_reason": "商业航天企业专访报道，非事件性新闻"
+        },
+        {
+          "candidate_key": "people-daily-bad-review-comment",
+          "story_identity": "people-daily-professional-bad-review-comment",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 53,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 18,
+            "everyday_relevance": 9,
+            "evidence": 6
+          },
+          "drop_reason": "人民日报评论文章，观点性内容，非当日事件性新闻"
+        },
+        {
+          "candidate_key": "msci-indonesia-downgrade",
+          "story_identity": "msci-indonesia-standalone-market-selloff",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T15:00:00+08:00",
+          "scope": "international",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 54,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 18,
+            "everyday_relevance": 7,
+            "evidence": 5
+          },
+          "drop_reason": "印尼股市重挫为境外区域性市场事件，对境内读者日常直接影响有限"
+        },
+        {
+          "candidate_key": "us-fy2026-deficit-record",
+          "story_identity": "us-fy2026-deficit-199trn",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T04:00:00+08:00",
+          "scope": "international",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 6,
+            "evidence": 4
+          },
+          "drop_reason": "美国财政赤字例行数据发布，对境内读者日常影响有限"
+        },
+        {
+          "candidate_key": "sea-haze-school-suspension",
+          "story_identity": "se-asia-haze-school-suspension-oct16",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T08:00:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 45,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 16,
+            "everyday_relevance": 5,
+            "evidence": 4
+          },
+          "drop_reason": "东南亚烟霾停课为境外区域性事件，无境内直接影响"
+        },
+        {
+          "candidate_key": "lol-s16-worlds-kickoff",
+          "story_identity": "lol-s16-worlds-play-in-kickoff",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T02:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 51,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 18,
+            "everyday_relevance": 6,
+            "evidence": 3
+          },
+          "drop_reason": "英雄联盟全球总决赛入围赛境外开赛，受众圈层化"
+        },
+        {
+          "candidate_key": "wuhan-open-sf-results",
+          "story_identity": "wuhan-open-2026-semifinal-results",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T16:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 51,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 7,
+            "evidence": 4
+          },
+          "drop_reason": "网球巡回赛半决赛结果，中网热点前期已覆盖"
+        },
+        {
+          "candidate_key": "europa-league-matchday",
+          "story_identity": "europa-conference-league-matchday-oct16",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T03:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 43,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 17,
+            "everyday_relevance": 4,
+            "evidence": 2
+          },
+          "drop_reason": "欧联、欧协联常规轮次，境外赛事日常赛程"
+        },
+        {
+          "candidate_key": "pension-adjustment-rumor-oct16",
+          "story_identity": "pension-2026-adjustment-unconfirmed-rumor",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "2026年养老金调整方案传言仅见自媒体内容，人社部、财政部未发布正式文件，不采用"
+        },
+        {
+          "candidate_key": "hefei-medical-insurance-flexible",
+          "story_identity": "hefei-flexible-workers-medical-insurance",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T16:31:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "合肥医保新政仅见地方媒体单源报道，未检索到医保部门原文或第二家权威媒体核实"
+        },
+        {
+          "candidate_key": "anticancer-drug-price-claim",
+          "story_identity": "anticancer-drug-factory-price-claim-hot",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "热搜词条指向药品价格说法，未检索到权威媒体核实报道，不采用"
+        },
+        {
+          "candidate_key": "cinema-experience-innovation-hot",
+          "story_identity": "cinema-experience-innovation-hot-search",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T13:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "影院新玩法为热榜话题词，无具体事件与权威信源支撑"
+        },
+        {
+          "candidate_key": "beidou-upgrade-unverified",
+          "story_identity": "beidou-system-upgrade-unverified-claim",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "太空航天",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "北斗系统在轨升级说法仅见AI生成日报，无官方或权威媒体信源"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "public_safety"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-10-16-diaper-formamide-all-clear",
+      "story_identity": "diaper-formamide-joint-probe-all-clear",
+      "headline": "🍼 四部门通报：368批次婴幼儿纸尿裤均未检出甲酰胺",
+      "summary": "市场监管总局等四部门联合调查组10月15日通报婴幼儿纸尿裤甲酰胺问题核查情况：对国内全部168家生产企业（含代工）开展抽检，180个品牌368批次成品及32批次重点部位样品均未检出甲酰胺；自媒体测评反映的检出结果经核实存在检测方法缺陷，不能成立。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 90,
+      "score_breakdown": {
+        "heat": 35,
+        "freshness": 18,
+        "everyday_relevance": 24,
+        "evidence": 13
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-10-15T17:00:00+08:00",
+      "risk": {
+        "level": "medium",
+        "note": "消费品安全舆情核查通报，结论以四部门联合调查组为准，仅陈述核查结果，不延伸解读"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "市场监管总局",
+          "url": "https://www.samr.gov.cn/xw/zj/art/2026/art_e87254f9f3e8478d846182eb08fc2b63.html",
+          "title": "四部门联合调查组关于婴幼儿纸尿裤甲酰胺问题调查核实情况的通报",
+          "captured_at": "2026-10-18T02:44:58+08:00",
+          "note": "市场监管总局10月15日通报：368批次成品及32批次分部位样品均未检出甲酰胺"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "人民网",
+          "url": "http://society.people.com.cn/n1/2026/1016/c1008-40815623.html",
+          "title": "四部门联合调查组发布婴幼儿纸尿裤甲酰胺问题核查情况通报",
+          "captured_at": "2026-10-18T02:44:58+08:00",
+          "note": "人民网10月16日：联合调查组对168家企业、180个品牌368批次样品全面抽检"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-16-ciie-9th-briefing",
+      "story_identity": "ciie-9th-preparation-briefing-oct16",
+      "headline": "🌐 第九届进博会筹备基本就绪，11月5日起在上海举办",
+      "summary": "国务院新闻办公室10月16日举行新闻发布会，介绍第九届中国国际进口博览会筹备情况。本届进博会将于11月5日至10日在上海举办，虹桥论坛同期举行；目前已有162个国家、地区和国际组织参与，4142家境外企业参展，展览面积首次超过44万平方米，各项筹备工作基本就绪。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 86,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 20,
+        "everyday_relevance": 19,
+        "evidence": 14
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-10-16T10:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "国新办发布会经贸会展信息，以发布会实录与央视报道为准"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国务院新闻办公室",
+          "url": "http://www.scio.gov.cn/live/2026/39723/index.html",
+          "title": "国新办举行新闻发布会介绍第九届中国国际进口博览会筹备情况",
+          "captured_at": "2026-10-18T02:44:58+08:00",
+          "note": "国新办10月16日10时发布会：商务部副部长鄢东、上海市副市长卢山介绍筹备情况"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国经济网",
+          "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261016_3260304.shtml",
+          "title": "第九届进博会筹备基本就绪 4142家境外企业参展",
+          "captured_at": "2026-10-18T02:44:58+08:00",
+          "note": "中国经济网10月16日据央视新闻：162个国家、地区和国际组织参与，展览面积首次超44万平方米"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-16-world-food-day",
+      "story_identity": "world-food-day-46-grain-security-week-2026",
+      "headline": "🌾 第46个世界粮食日，全国粮食安全宣传周进行时",
+      "summary": "10月16日是第46个世界粮食日，全球主题为“创新当下，粮安未来”；10月12日至18日为全国粮食安全宣传周，主题为“实施全谷物行动计划 促进节粮减损和营养健康”。黑龙江、山西、广东等地当天举行主会场活动，通过科普宣传、全谷物推广等形式普及粮食安全与营养健康知识。",
+      "category": "节日节气",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 19,
+        "everyday_relevance": 21,
+        "evidence": 12
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-10-16T09:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "粮食安全宣传科普信息，以国家粮食和物资储备局发布与各地活动报道为准"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国经济网",
+          "url": "http://tuopin.ce.cn/news/202610/t20261015_3259183.shtml",
+          "title": "2026年世界粮食日和全国粮食安全宣传周主题海报",
+          "captured_at": "2026-10-18T02:44:58+08:00",
+          "note": "中国经济网10月15日据国家粮食和物资储备局：10月16日是第46个世界粮食日，宣传周10月12日至18日"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "南方网",
+          "url": "https://news.southcn.com/node_54a44f01a2/fb957343fd.shtml",
+          "title": "创新当下 粮安未来——广东开展2026年世界粮食日和全国粮食安全宣传周系列宣传活动",
+          "captured_at": "2026-10-18T02:44:58+08:00",
+          "note": "南方网10月16日：广东系列活动启动，线上线下宣传同步铺开"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-16-emergency-mgmt-briefing",
+      "story_identity": "mem-q4-safety-briefing-fireworks-oct16",
+      "headline": "🛡️ 应急管理部通报四季度安全安排，严管烟花爆竹旺季",
+      "summary": "应急管理部10月16日举行季度例行新闻发布会，通报前三季度全国安全生产形势与四季度防范安排。针对烟花爆竹生产经营旺季，应急管理部表示个别地区非法违法生产经营现象有所反弹，将深入研判旺季安全形势，强化安全监管和“打非”工作，防范遏制事故发生。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 74,
+      "score_breakdown": {
+        "heat": 24,
+        "freshness": 19,
+        "everyday_relevance": 18,
+        "evidence": 13
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-10-16T10:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "安全生产部署信息，以应急管理部发布会实录为准，不渲染事故细节"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "应急管理部",
+          "url": "https://www.mem.gov.cn/xw/xwfbh/2026n10y16xwfbh/",
+          "title": "2026年10月16日季度例行新闻发布会",
+          "captured_at": "2026-10-18T02:44:58+08:00",
+          "note": "应急管理部10月16日发布会实录：通报贯彻落实全国安全生产视频会议精神情况，部署烟花爆竹旺季安全监管"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国网",
+          "url": "http://www.china.com.cn/zhibo/content_118734174.htm",
+          "title": "应急管理部举行季度例行新闻发布会",
+          "captured_at": "2026-10-18T02:44:58+08:00",
+          "note": "中国网10月16日直播：通报国务院安委办、应急管理部贯彻落实情况并答记者问"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-16-csrc-insider-trading-fine",
+      "story_identity": "csrc-chen-qiuhang-insider-trading-penalty",
+      "headline": "⚖️ 内幕交易获利2581万元，证监会罚没约1.82亿元",
+      "summary": "中国证监会近日发布行政处罚决定书：陈秋航内幕交易、泄露内幕信息案调查终结，其于2024年10月9日至10日控制多个证券账户买入相关公司股票，内幕信息公开后全部卖出，获利2581.15万元。证监会决定没收违法所得并处罚款合计约1.82亿元，同时对其采取5年证券市场禁入措施。",
+      "category": "文化数字经济",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 74,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 19,
+        "everyday_relevance": 15,
+        "evidence": 12
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-10-16T14:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "证券监管行政处罚报道，以证监会处罚决定书为准，不构成投资建议"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "21经济网",
+          "url": "https://www.21jingji.com/article/20261016/herald/4e191924126f6a6c10eaba616041396b.html",
+          "title": "逾1.5亿，证监会巨额罚款",
+          "captured_at": "2026-10-18T02:44:58+08:00",
+          "note": "21经济网10月16日：陈秋航内幕交易获利2581.15万元，证监会罚没合计约1.82亿元"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "北京商报",
+          "url": "https://www.bbtnews.com.cn/2026/1016/608197.shtml",
+          "title": "证监会出手！自然人陈秋航内幕交易获利约2581.15万元",
+          "captured_at": "2026-10-18T02:44:58+08:00",
+          "note": "北京商报10月16日：没收违法所得并处罚款，采取5年证券市场禁入"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
