@@ -1,0 +1,1458 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v4-editorial-completeness",
+  "rubric_version": "v4-100-point-dynamic",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T07:45:04+08:00",
+  "published_at": "2026-10-19T07:45:04+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 86,
+    "published": 10,
+    "dropped_safety": {
+      "时事政治": 7,
+      "社会事件灾难事故": 8,
+      "明星争议": 4,
+      "涉及具体人物": 12,
+      "涉及具体品牌公司": 4,
+      "纯体育赛事结果": 8,
+      "剧集综艺内容": 7
+    },
+    "dropped_low_confidence": 8,
+    "dropped_capacity": 1,
+    "sources": [
+      "douyin",
+      "weibo",
+      "bilibili",
+      "zhihu",
+      "other"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 19,
+      "platform_public_sources": 0,
+      "aggregator_sources": 19,
+      "search_media_sources": 0,
+      "spillover_sources": 0,
+      "dropped_insufficient_evidence": 17
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 11,
+        "relaxed_48h": 13,
+        "relaxed_72h": 14
+      },
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-10-02-quanwang-jinru-bushaoxin-shidai",
+          "canonical_phrase": "全网进入不烧心时代",
+          "outcome": "selected",
+          "item_id": "2026-10-02-quanwang-jinru-bushaoxin-shidai",
+          "score": 91,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 29,
+            "reusability": 20,
+            "evidence": 9
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/lonnyzhang423/douyin-hot-hub/main/archives/2026-10-19.md",
+            "observed_at": "2026-10-19T06:17:58+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-19-nizai-tangli-fangle-shenme",
+          "canonical_phrase": "你在汤里放了什么",
+          "outcome": "selected",
+          "item_id": "2026-10-19-nizai-tangli-fangle-shenme",
+          "score": 87,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 28,
+            "reusability": 18,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://hotflashnews.com/archive/2026-10-19",
+            "observed_at": "2026-10-19T00:04:43+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-19-yong-pindou-dakai-zhongshi-meixue",
+          "canonical_phrase": "用拼豆打开中式美学",
+          "outcome": "selected",
+          "item_id": "2026-10-19-yong-pindou-dakai-zhongshi-meixue",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 29,
+            "reusability": 17,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/main/archives/douyin/2026-10-19.md",
+            "observed_at": "2026-10-19T07:17:33+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-17-adaxi-nang-jiekaimo",
+          "canonical_phrase": "阿达西的馕真是馕界楷模",
+          "outcome": "selected",
+          "item_id": "2026-10-17-adaxi-nang-jiekaimo",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 28,
+            "reusability": 17,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/lonnyzhang423/douyin-hot-hub/main/archives/2026-10-19.md",
+            "observed_at": "2026-10-19T06:17:58+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-19-danhonggao-zhuliren-quanwei",
+          "canonical_phrase": "蛋烘糕主理人就是如此权威",
+          "outcome": "selected",
+          "item_id": "2026-10-19-danhonggao-zhuliren-quanwei",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 28,
+            "reusability": 18,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/main/archives/douyin/2026-10-19.md",
+            "observed_at": "2026-10-19T07:17:33+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-09-08-dou-beikun-zai-jimo-yewan",
+          "canonical_phrase": "我们都被困在这寂寞的夜晚",
+          "outcome": "selected",
+          "item_id": "2026-09-08-dou-beikun-zai-jimo-yewan",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 28,
+            "reusability": 17,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/main/archives/douyin/2026-10-19.md",
+            "observed_at": "2026-10-19T07:17:33+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-19-jieguohun-wo-yeren",
+          "canonical_phrase": "结过婚我也认",
+          "outcome": "selected",
+          "item_id": "2026-10-19-jieguohun-wo-yeren",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 27,
+            "reusability": 18,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://hotflashnews.com/archive/2026-10-19",
+            "observed_at": "2026-10-19T00:27:48+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-13-meidian-yishu-xijun",
+          "canonical_phrase": "没点艺术细菌都刷不到",
+          "outcome": "selected",
+          "item_id": "2026-10-13-meidian-yishu-xijun",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 27,
+            "reusability": 18,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/main/archives/bilibili/2026-10-19.md",
+            "observed_at": "2026-10-19T07:17:33+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-19-qibing-yes-xuefan-no",
+          "canonical_phrase": "起兵yes削藩no",
+          "outcome": "selected",
+          "item_id": "2026-10-19-qibing-yes-xuefan-no",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 27,
+            "reusability": 17,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/main/archives/bilibili/2026-10-19.md",
+            "observed_at": "2026-10-19T07:17:33+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-19-wenxin-wukui",
+          "canonical_phrase": "问薪无愧",
+          "outcome": "selected",
+          "item_id": "2026-10-19-wenxin-wukui",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 27,
+            "reusability": 19,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/justjavac/weibo-trending-hot-search/master/archives/2026-10-19.md",
+            "observed_at": "2026-10-19T06:15:19+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-19-wobukuqi-wobutaobi",
+          "canonical_phrase": "我不哭泣我不逃避",
+          "outcome": "dropped_capacity",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 27,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/lonnyzhang423/douyin-hot-hub/main/archives/2026-10-19.md",
+            "observed_at": "2026-10-19T06:17:58+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "cong-hangdao-la-ruiping",
+          "canonical_phrase": "从夯到拉",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 26,
+            "reusability": 16,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://hotflashnews.com/archive/2026-10-18",
+            "observed_at": "2026-10-18T20:24:20+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "zhongguoshi-lvyou-guding-muban",
+          "canonical_phrase": "中国式旅游已经被玩成固定模板",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 26,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/justjavac/weibo-trending-hot-search/master/archives/2026-10-19.md",
+            "observed_at": "2026-10-19T06:15:19+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "ganxie-xianyi",
+          "canonical_phrase": "感谢现役",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 24,
+            "reusability": 16,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://www.163.com/dy/article/L9BU47OP0526D7OK.html",
+            "observed_at": "2026-10-16T10:40:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "jintian-shige-huaitianqi",
+          "canonical_phrase": "今天是个坏天气",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 26,
+            "reusability": 14,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/lonnyzhang423/douyin-hot-hub/main/archives/2026-10-19.md",
+            "observed_at": "2026-10-19T06:17:58+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "women-de-shehui-zhi-shaixuan",
+          "canonical_phrase": "我们的社会只筛选不培养",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 26,
+            "reusability": 14,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/justjavac/weibo-trending-hot-search/master/archives/2026-10-19.md",
+            "observed_at": "2026-10-19T06:15:19+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "jiuyuejiu-de-jiu-youzi-xin",
+          "canonical_phrase": "九月九的酒唱出游子心",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 27,
+            "reusability": 15,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/main/archives/douyin/2026-10-19.md",
+            "observed_at": "2026-10-19T07:17:33+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "shaxian-aiqing-gushi",
+          "canonical_phrase": "沙县爱情故事",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 25,
+            "reusability": 14,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://hotflashnews.com/archive/2026-10-18",
+            "observed_at": "2026-10-18T20:24:20+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "erlang-xiansheng-dunhuangwu-tiaozhan",
+          "canonical_phrase": "二郎显圣真君敦煌舞挑战",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 25,
+            "reusability": 13,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/lonnyzhang423/douyin-hot-hub/main/archives/2026-10-19.md",
+            "observed_at": "2026-10-19T06:17:58+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "shanshen-bu-jinri-huixiang",
+          "canonical_phrase": "展示我新学的闪身步",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "wo-shi-renlei",
+          "canonical_phrase": "我是人类",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "tongnian-huoban-you-jianmianle",
+          "canonical_phrase": "那个熟悉的童年伙伴又见面了",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "pa-bei-wendao-duoloudao-mangguo",
+          "canonical_phrase": "怕被闻到躲楼道吃芒果",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "yuanlai-zheyang-jiating-cunzai",
+          "canonical_phrase": "原来这样的家庭真的存在啊",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "xiaogou-fangxue-meirenmo",
+          "canonical_phrase": "小狗放学没人摸快委屈哭了",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "youzi-mantou-wanmei-huanyuan",
+          "canonical_phrase": "女子做柚子馒头从皮到果粒完美还原",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "riben-quxiao-chifan-xianxiang",
+          "canonical_phrase": "日本出现取消吃饭现象",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "wanghong-canting-gengyi-cailei",
+          "canonical_phrase": "为什么4.8分网红餐厅更容易踩雷",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "zhanglangfen-tidai-danbaifen",
+          "canonical_phrase": "蛋白粉大涨价网友找到了蟑螂粉",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "baijiu-fangdi-shenduan",
+          "canonical_phrase": "白酒放低身段",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "yanjingpian-pifajia-30",
+          "canonical_phrase": "建议售价1980的眼镜片批发价30",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "nianqingren-aishang-ganchang",
+          "canonical_phrase": "年轻人为何爱上了赶场",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "shengzaozi-huang-172hua",
+          "canonical_phrase": "172画生造字huang被字海收录",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "jiabaoyu-chi-yanzhi",
+          "canonical_phrase": "贾宝玉吃丫鬟嘴上的胭脂",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "ningmengnai-baitan-chuangye",
+          "canonical_phrase": "杭州大三女生摆摊卖柠檬奶",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "gugong-gaofang-guobao",
+          "canonical_phrase": "为什么故宫不做一些高仿的国宝",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-1",
+          "outcome": "dropped_safety",
+          "drop_reason": "时事政治",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-2",
+          "outcome": "dropped_safety",
+          "drop_reason": "时事政治",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-3",
+          "outcome": "dropped_safety",
+          "drop_reason": "时事政治",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-4",
+          "outcome": "dropped_safety",
+          "drop_reason": "时事政治",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-5",
+          "outcome": "dropped_safety",
+          "drop_reason": "时事政治",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-6",
+          "outcome": "dropped_safety",
+          "drop_reason": "时事政治",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-7",
+          "outcome": "dropped_safety",
+          "drop_reason": "时事政治",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-8",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难事故",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-9",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难事故",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-10",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难事故",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-11",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难事故",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-12",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难事故",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-13",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难事故",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-14",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难事故",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-15",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难事故",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-16",
+          "outcome": "dropped_safety",
+          "drop_reason": "明星争议",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-17",
+          "outcome": "dropped_safety",
+          "drop_reason": "明星争议",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-18",
+          "outcome": "dropped_safety",
+          "drop_reason": "明星争议",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-19",
+          "outcome": "dropped_safety",
+          "drop_reason": "明星争议",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-20",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-21",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-22",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-23",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-24",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-25",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-26",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-27",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-28",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-29",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-30",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-31",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-32",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体品牌公司",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-33",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体品牌公司",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-34",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体品牌公司",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-35",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体品牌公司",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-36",
+          "outcome": "dropped_safety",
+          "drop_reason": "纯体育赛事结果",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-37",
+          "outcome": "dropped_safety",
+          "drop_reason": "纯体育赛事结果",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-38",
+          "outcome": "dropped_safety",
+          "drop_reason": "纯体育赛事结果",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-39",
+          "outcome": "dropped_safety",
+          "drop_reason": "纯体育赛事结果",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-40",
+          "outcome": "dropped_safety",
+          "drop_reason": "纯体育赛事结果",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-41",
+          "outcome": "dropped_safety",
+          "drop_reason": "纯体育赛事结果",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-42",
+          "outcome": "dropped_safety",
+          "drop_reason": "纯体育赛事结果",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-43",
+          "outcome": "dropped_safety",
+          "drop_reason": "纯体育赛事结果",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-44",
+          "outcome": "dropped_safety",
+          "drop_reason": "剧集综艺内容",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-45",
+          "outcome": "dropped_safety",
+          "drop_reason": "剧集综艺内容",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-46",
+          "outcome": "dropped_safety",
+          "drop_reason": "剧集综艺内容",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-47",
+          "outcome": "dropped_safety",
+          "drop_reason": "剧集综艺内容",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-48",
+          "outcome": "dropped_safety",
+          "drop_reason": "剧集综艺内容",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-49",
+          "outcome": "dropped_safety",
+          "drop_reason": "剧集综艺内容",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-50",
+          "outcome": "dropped_safety",
+          "drop_reason": "剧集综艺内容",
+          "research_pass": 1
+        }
+      ],
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 86,
+          "cumulative_unique_candidates": 86,
+          "sources_checked": [
+            "douyin",
+            "weibo",
+            "bilibili",
+            "zhihu",
+            "other"
+          ]
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-10-02-quanwang-jinru-bushaoxin-shidai",
+      "title": "🥙 这一口香河肉饼地道不烧心",
+      "aliases": [
+        "全网进入不烧心时代",
+        "这一口香河肉饼地道不烧心",
+        "X了不烧心",
+        "忆西游主题公园逛着不烧心",
+        "这一口X地道不烧心"
+      ],
+      "canonical_phrase": "全网进入不烧心时代",
+      "platform": [
+        "douyin",
+        "other"
+      ],
+      "type": "口头禅梗",
+      "summary": "「不烧心」第17天在榜：抖音热榜06:17快照「这一口香河肉饼地道不烧心」列第37位、07:17快照列第39位，「忆西游主题公园逛着不烧心」同日在榜，上次评选时钟之后仍有新变种上榜。",
+      "origin": "已验证：douyin-hot-hub归档10-19 06:17快照「这一口香河肉饼地道不烧心」列第37位、「忆西游主题公园逛着不烧心」列第44位；website-hot-hub抖音归档07:17快照两词分列第39、42位。该梗2026-10-02首上本站。",
+      "usage": "万能收尾判词「X了不烧心」：这肉饼地道不烧心、这公园逛着不烧心、这奶茶喝了不烧心——给任何吃得舒坦、玩得顺心的体验盖章，评论区排队套用自己今天的小确幸。",
+      "fun_point": "「烧心」本是身体不适，被全网反着用成「舒坦到不烧心」的肯定句；一句大白话给一切好评收尾，土味又上头。",
+      "why_spread": "已验证：抖音热榜连续多快照在榜、每日都有新主体变种；推测：句式零门槛、人人有东西可夸，和「纯过日子」情绪合流，已成为固定夸物口头禅。",
+      "lifecycle": "peak",
+      "brand_usage": "餐饮、文旅、本地生活账号可直接用「这X地道不烧心」做种草标题；只借句式做体验背书，不要硬蹭具体摊主。",
+      "risk": {
+        "level": "safe",
+        "note": "纯吃喝体验口头禅，无争议点。"
+      },
+      "days_on_list": 17,
+      "score": 91,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 29,
+        "reusability": 20,
+        "evidence": 9
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://raw.githubusercontent.com/lonnyzhang423/douyin-hot-hub/main/archives/2026-10-19.md",
+          "title": "douyin-hot-hub 抖音热榜归档 2026-10-19（06:17 快照）",
+          "observed_at": "2026-10-19T06:17:58+08:00",
+          "captured_at": "2026-10-19T07:18:10+08:00",
+          "note": "抖音热榜归档10-19 06:17快照：「这一口香河肉饼地道不烧心」列第37位、「忆西游主题公园逛着不烧心」列第44位，均在上次评选时钟（10-18 07:31）之后。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/main/archives/douyin/2026-10-19.md",
+          "title": "website-hot-hub 抖音热点归档 2026-10-19（07:17 快照）",
+          "observed_at": "2026-10-19T07:17:33+08:00",
+          "captured_at": "2026-10-19T07:18:40+08:00",
+          "note": "抖音热点归档10-19 07:17快照：「这一口香河肉饼地道不烧心」列第39位、「忆西游主题公园逛着不烧心」列第42位。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "other",
+          "url": "https://canadacardguide.com/hot/",
+          "captured_at": "2026-10-19T07:31:30+08:00",
+          "note": "canadacardguide聚合页当前抖音热榜：「这一口香河肉饼地道不烧心」766.2万热度列第42位。﻿"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-19-nizai-tangli-fangle-shenme",
+      "title": "🥣 你在汤里放了什么",
+      "aliases": [
+        "你在汤里放了什么",
+        "回娘娘是海带",
+        "你在X里放了什么"
+      ],
+      "canonical_phrase": "你在汤里放了什么",
+      "platform": [
+        "douyin",
+        "xiaohongshu",
+        "other"
+      ],
+      "type": "句式梗",
+      "summary": "一段23年前老剧里围绕海带汤来回确认的「废话对白」被网友考古翻红：「你在汤里放了什么」「回娘娘，是海带」，一问一答的废话体成全网新模板，登上百度热搜。",
+      "origin": "已验证：百度热搜10-19凌晨快照「时隔23年《大长今》又翻红了」列第21位；新浪娱乐10-19报道网友把剧中汤里加什么的来回确认改编成废话文学二创，抖音、小红书出现模仿赛道；观察者网风闻10-17已跟进报道。",
+      "usage": "废话问答模板「你在X里放了什么」「是X」：问奶茶里放了什么、问方案里放了什么、问简历里放了什么——明知故问、来回确认，用来调侃一切「看似简单却反复确认」的场景。",
+      "fun_point": "老译制片腔调+车轱辘话来回确认，正经事被问出荒诞感；「是海带」这种答案越朴素越好笑，谁都能接一句。",
+      "why_spread": "已验证：百度热搜在榜、多家媒体10-17至10-19连续报道、短视频与小红书出现模仿赛道；推测：怀旧考古叠加废话文学母体，慢节奏老剧成倍速生活的情绪出口，模仿门槛极低。",
+      "lifecycle": "peak",
+      "brand_usage": "美食、茶饮账号可用「你在X里放了什么」做配料悬念标题；内容账号可做「来回确认体」短剧；不绑定原剧与演员。",
+      "risk": {
+        "level": "low",
+        "note": "经典老剧考古梗，无争议；借用时聚焦句式本身即可。"
+      },
+      "days_on_list": 1,
+      "score": 87,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 28,
+        "reusability": 18,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "other",
+          "url": "https://hotflashnews.com/archive/2026-10-19",
+          "title": "2026年10月19日全网热搜汇总",
+          "observed_at": "2026-10-19T00:04:43+08:00",
+          "captured_at": "2026-10-19T07:21:00+08:00",
+          "note": "hotflashnews 10-19归档：百度榜00:04快照「时隔23年《大长今》又翻红了」列第21位。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "cross_platform",
+          "platform": "other",
+          "url": "https://ent.sina.cn/2026-10-19/detail-inivsstc6347718.d.html?vt=4",
+          "title": "《大长今》重播后观众为何怀念剧中慢节奏的烹饪和学医场景？",
+          "observed_at": "2026-10-19T02:06:00+08:00",
+          "captured_at": "2026-10-19T07:37:00+08:00",
+          "note": "新浪娱乐10-19凌晨报道：海带汤对白被改编成废话文学版本，抖音、小红书模仿赛道从服化道卷到口音。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "origin",
+          "platform": "other",
+          "url": "https://user.guancha.cn/main/content?id=1754847&s=fwzlwzbt",
+          "title": "时隔23年又翻红的《大长今》，到底往剧里放了什么？",
+          "captured_at": "2026-10-19T07:33:00+08:00",
+          "note": "观察者网风闻社区10-17发文复盘该老剧翻红路径与废话对白出处。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-19-yong-pindou-dakai-zhongshi-meixue",
+      "title": "🧩 用拼豆打开中式美学",
+      "aliases": [
+        "用拼豆打开中式美学",
+        "拼豆打开中式美学",
+        "用拼豆打开X"
+      ],
+      "canonical_phrase": "用拼豆打开中式美学",
+      "platform": [
+        "douyin"
+      ],
+      "type": "生活方式梗",
+      "summary": "拼豆热再升级：网友用拼豆复刻中式纹样、古建筑与国宝图案，「用拼豆打开中式美学」登抖音热榜第6位（07:17快照），918万热度。",
+      "origin": "已验证：website-hot-hub抖音归档10-19 07:17快照「用拼豆打开中式美学」列第6位；douyin-hot-hub归档06:17快照列第10位；hotflashnews 10-19归档抖音榜05:15快照列第2位。",
+      "usage": "「用X打开中式美学」造句模板：用拼豆打开中式美学、用剪纸打开中式美学、用食堂菜打开中式美学；手工区博主晒拼豆复刻的窗花、屋脊、青花瓷纹样。",
+      "fun_point": "像素感小豆子撞上最讲究的中式纹样，粗犷颗粒感反而成就反差萌；手工门槛低，人人可晒同款。",
+      "why_spread": "已验证：抖音热榜多快照在榜且排名上行；推测：拼豆玩法连续多周发酵（饰品自由、服装界之后轮到中式美学），手工二创+国风审美双流量池叠加。",
+      "lifecycle": "rising",
+      "brand_usage": "文创、手工、博物馆账号可借「用X打开中式美学」做复刻挑战；手工材料品牌可做拼豆纹样模板互动。",
+      "risk": {
+        "level": "safe",
+        "note": "正向手工二创，无争议点。"
+      },
+      "days_on_list": 1,
+      "score": 85,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 29,
+        "reusability": 17,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/main/archives/douyin/2026-10-19.md",
+          "title": "website-hot-hub 抖音热点归档 2026-10-19（07:17 快照）",
+          "observed_at": "2026-10-19T07:17:33+08:00",
+          "captured_at": "2026-10-19T07:18:40+08:00",
+          "note": "抖音热点归档10-19 07:17快照：「用拼豆打开中式美学」列第6位。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://raw.githubusercontent.com/lonnyzhang423/douyin-hot-hub/main/archives/2026-10-19.md",
+          "title": "douyin-hot-hub 抖音热榜归档 2026-10-19（06:17 快照）",
+          "observed_at": "2026-10-19T06:17:58+08:00",
+          "captured_at": "2026-10-19T07:18:10+08:00",
+          "note": "抖音热榜归档10-19 06:17快照：「用拼豆打开中式美学」列第10位。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://hotflashnews.com/archive/2026-10-19",
+          "title": "2026年10月19日全网热搜汇总",
+          "observed_at": "2026-10-19T05:15:47+08:00",
+          "captured_at": "2026-10-19T07:21:00+08:00",
+          "note": "hotflashnews 10-19归档：抖音榜05:15快照「用拼豆打开中式美学」列第2位。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-17-adaxi-nang-jiekaimo",
+      "title": "🫓 阿达西的馕真是馕界楷模",
+      "aliases": [
+        "阿达西的馕真是馕界楷模",
+        "馕界楷模",
+        "X界楷模",
+        "阿达西都是这么打馕的吗",
+        "西安阿达西烤完你的烤你的"
+      ],
+      "canonical_phrase": "阿达西的馕真是馕界楷模",
+      "platform": [
+        "douyin",
+        "other"
+      ],
+      "type": "短视频梗",
+      "summary": "「馕界楷模」第3天在榜：摊主本人回应走红再上榜——「新疆阿达西回应烤馕走红」登抖音热榜第19位（06:17快照），785万热度。",
+      "origin": "已验证：douyin-hot-hub归档10-19 06:17快照「新疆阿达西回应烤馕走红」列第19位；website-hot-hub抖音归档07:17快照列第21位；当前聚合页显示785.8万热度。该梗2026-10-17首上本站。",
+      "usage": "封神体「X界楷模」+称呼「阿达西」：馕界楷模、烤串界楷模、煎饼界楷模；给任何实在好吃的良心小店封顶评价，评论区排队晒自己遇到的「阿达西」。",
+      "fun_point": "一声阿达西（朋友）喊得全网心软，10元3个把实在写进馕里；「楷模」这种正经词砸在街边小摊上，反差拉满。",
+      "why_spread": "已验证：抖音热榜连续三日多快照在榜，摊主回应视频再登榜；推测：高性价比加质朴人设击中大众情绪，「X界楷模」句式零门槛，可迁移到一切良心小店。",
+      "lifecycle": "rising",
+      "brand_usage": "餐饮、文旅账号可借「X界楷模」做良心卖点标题、借「阿达西」做亲切称呼；只借句式，不绑定具体摊主。",
+      "risk": {
+        "level": "low",
+        "note": "涉及地域美食与民族称呼，借用时保持尊重、不刻板化。"
+      },
+      "days_on_list": 3,
+      "score": 83,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 28,
+        "reusability": 17,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://raw.githubusercontent.com/lonnyzhang423/douyin-hot-hub/main/archives/2026-10-19.md",
+          "title": "douyin-hot-hub 抖音热榜归档 2026-10-19（06:17 快照）",
+          "observed_at": "2026-10-19T06:17:58+08:00",
+          "captured_at": "2026-10-19T07:18:10+08:00",
+          "note": "抖音热榜归档10-19 06:17快照：「新疆阿达西回应烤馕走红」列第19位，在上次评选时钟（10-18 07:31）之后。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/main/archives/douyin/2026-10-19.md",
+          "title": "website-hot-hub 抖音热点归档 2026-10-19（07:17 快照）",
+          "observed_at": "2026-10-19T07:17:33+08:00",
+          "captured_at": "2026-10-19T07:18:40+08:00",
+          "note": "抖音热点归档10-19 07:17快照：「新疆阿达西回应烤馕走红」列第21位。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "other",
+          "url": "https://canadacardguide.com/hot/",
+          "captured_at": "2026-10-19T07:31:30+08:00",
+          "note": "canadacardguide聚合页当前抖音热榜：「新疆阿达西回应烤馕走红」785.8万热度列第20位。﻿"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-19-danhonggao-zhuliren-quanwei",
+      "title": "🥞 蛋烘糕主理人就是如此权威",
+      "aliases": [
+        "蛋烘糕主理人就是如此权威",
+        "蛋烘糕主理人",
+        "XX主理人就是如此权威"
+      ],
+      "canonical_phrase": "蛋烘糕主理人就是如此权威",
+      "platform": [
+        "douyin",
+        "other"
+      ],
+      "type": "句式梗",
+      "summary": "「主理人」称号卷到街头小吃摊：成都蛋烘糕摊主被封「蛋烘糕主理人」，「蛋烘糕主理人就是如此权威」登抖音热榜，766万热度。",
+      "origin": "已验证：douyin-hot-hub归档10-19 06:17快照「蛋烘糕主理人就是如此权威」列第42位；website-hot-hub抖音归档07:17快照列第35位，10-18晚间快照已在榜；新华社2026-01报道佐证成都温江蛋烘糕摊主因实惠价格与个人风格走红、被称「蛋烘糕主理人」。",
+      "usage": "「XX主理人就是如此权威」造句模板：咖啡主理人、煎饼主理人、宿舍泡面主理人——给一切小摊主/小能手封官许愿式点赞；也可反讽自称主理人的精致包装。",
+      "fun_point": "「主理人」本是精品店洋气场域的title，套在街边蛋烘糕摊上瞬间反差萌；「权威」收尾把市井烟火夸出殿堂感。",
+      "why_spread": "已验证：抖音热榜多快照在榜，主流媒体年初已报道该摊主走红；推测：「主理人」从咖啡店黑话一路贬值滥用成万能封号，网友享受把高大上的词按到烟火小摊上的错位快感。",
+      "lifecycle": "rising",
+      "brand_usage": "本地生活、小吃餐饮账号可玩「XX主理人」自封梗做亲民人设；内容账号可做「主理人体」探店标题；避免指向具体摊主本人商业化。",
+      "risk": {
+        "level": "low",
+        "note": "涉及真实摊主，玩梗保持善意、不打扰本人经营。"
+      },
+      "days_on_list": 1,
+      "score": 82,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 28,
+        "reusability": 18,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/main/archives/douyin/2026-10-19.md",
+          "title": "website-hot-hub 抖音热点归档 2026-10-19（07:17 快照）",
+          "observed_at": "2026-10-19T07:17:33+08:00",
+          "captured_at": "2026-10-19T07:18:40+08:00",
+          "note": "抖音热点归档10-19 07:17快照：「蛋烘糕主理人就是如此权威」列第35位。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://raw.githubusercontent.com/lonnyzhang423/douyin-hot-hub/main/archives/2026-10-19.md",
+          "title": "douyin-hot-hub 抖音热榜归档 2026-10-19（06:17 快照）",
+          "observed_at": "2026-10-19T06:17:58+08:00",
+          "captured_at": "2026-10-19T07:18:10+08:00",
+          "note": "抖音热榜归档10-19 06:17快照：「蛋烘糕主理人就是如此权威」列第42位。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "origin",
+          "platform": "other",
+          "url": "https://www.news.cn/politics/20260112/ceedf21c7173491c81544f72991c7e2f/c.html",
+          "title": "半月谈丨2025，人间烟火流量燃旺人气经济",
+          "captured_at": "2026-10-19T07:30:30+08:00",
+          "note": "新华社2026-01报道：成都温江蛋烘糕摊主彭先生以实惠价格与有趣风格走红，被称为「蛋烘糕主理人」。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-09-08-dou-beikun-zai-jimo-yewan",
+      "title": "🌃 我们都被困在这寂寞的夜晚",
+      "aliases": [
+        "我们都被困在这寂寞的夜晚",
+        "浴室",
+        "我们都被困在这寂寞的夜晚手势舞"
+      ],
+      "canonical_phrase": "我们都被困在这寂寞的夜晚",
+      "platform": [
+        "douyin"
+      ],
+      "type": "情绪梗",
+      "summary": "老歌情绪梗二波：「我们都被困在这寂寞的夜晚」手势舞版登抖音热榜第38位（07:17快照），768万热度，距首上本站已一个多月。",
+      "origin": "已验证：douyin-hot-hub归档10-19 06:17快照「我们都被困在这寂寞的夜晚手势舞」列第39位；website-hot-hub抖音归档07:17快照列第38位；hotflashnews 10-19归档抖音榜01:07快照列第27位。该梗2026-09-08首上本站。",
+      "usage": "配夜景、车窗、加班楼灯的视频文案与手势舞BGM：我们都被困在这寂寞的夜晚——表达 emo、孤独、想逃班的深夜情绪，评论区接龙各自被困在哪。",
+      "fun_point": "一句老歌歌词把「深夜 emo」唱出集体感；手势舞把抽象情绪变成可模仿的动作，孤独也能组队。",
+      "why_spread": "已验证：抖音热榜凌晨至清晨多快照在榜；推测：换季深夜情绪节点+手势舞低门槛翻跳，老歌情怀与 emo 表达双驱动。",
+      "lifecycle": "rising",
+      "brand_usage": "情绪向账号、夜经济场景（便利店、夜宵）可借歌词做深夜文案；避免过度贩卖焦虑。",
+      "risk": {
+        "level": "safe",
+        "note": "情绪向歌词梗，无争议点。"
+      },
+      "days_on_list": 2,
+      "score": 81,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 28,
+        "reusability": 17,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/main/archives/douyin/2026-10-19.md",
+          "title": "website-hot-hub 抖音热点归档 2026-10-19（07:17 快照）",
+          "observed_at": "2026-10-19T07:17:33+08:00",
+          "captured_at": "2026-10-19T07:18:40+08:00",
+          "note": "抖音热点归档10-19 07:17快照：「我们都被困在这寂寞的夜晚手势舞」列第38位，在上次评选时钟（09-08 07:36）之后。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://raw.githubusercontent.com/lonnyzhang423/douyin-hot-hub/main/archives/2026-10-19.md",
+          "title": "douyin-hot-hub 抖音热榜归档 2026-10-19（06:17 快照）",
+          "observed_at": "2026-10-19T06:17:58+08:00",
+          "captured_at": "2026-10-19T07:18:10+08:00",
+          "note": "抖音热榜归档10-19 06:17快照：「我们都被困在这寂寞的夜晚手势舞」列第39位。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://hotflashnews.com/archive/2026-10-19",
+          "title": "2026年10月19日全网热搜汇总",
+          "observed_at": "2026-10-19T01:07:55+08:00",
+          "captured_at": "2026-10-19T07:21:00+08:00",
+          "note": "hotflashnews 10-19归档：抖音榜01:07快照「我们都被困在这寂寞的夜晚手势舞」列第27位。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-19-jieguohun-wo-yeren",
+      "title": "💍 结过婚我也认",
+      "aliases": [
+        "结过婚我也认",
+        "结过婚我也认是什么梗",
+        "XX我也认"
+      ],
+      "canonical_phrase": "结过婚我也认",
+      "platform": [
+        "bilibili"
+      ],
+      "type": "二创梗",
+      "summary": "老剧台词二创翻红：「结过婚我也认」登B站热搜（「结过婚我也认是什么梗」在榜），梗指南类视频播放超21万，成表白/接纳一切的宠溺句式。",
+      "origin": "已验证：hotflashnews 10-19归档B站热搜00:27快照「结过婚我也认是什么梗」列第17位；搜索结果佐证B站梗指南视频《结过婚我也认》播放超21万。出自一部早年热播国产电视剧中角色追求心上人的经典台词，近期被UP主剪辑二创翻红。",
+      "usage": "「XX我也认」宠溺句式：结过婚我也认、带娃我也认、工资三千我也认——先抑后扬表达「我全接纳」；也用于反串调侃朋友间的离谱包容。",
+      "fun_point": "老剧角色一本正经说出离谱包容宣言，土味深情反差拉满；句式越夸张越显宠溺，评论区排队比谁能「认」得更狠。",
+      "why_spread": "已验证：B站热搜在榜、梗科普视频播放超21万；推测：老剧考古二创叠加「宠溺体」表达需求，表白与反串两相宜，造句门槛极低。",
+      "lifecycle": "rising",
+      "brand_usage": "情感向、婚恋向内容可用「XX我也认」做宠溺文案；整活账号可做「认栽体」接龙；不绑定原剧与演员形象。",
+      "risk": {
+        "level": "low",
+        "note": "老剧台词二创，注意勿用于消费他人婚恋隐私。"
+      },
+      "days_on_list": 1,
+      "score": 79,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 27,
+        "reusability": 18,
+        "evidence": 7
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "bilibili",
+          "url": "https://hotflashnews.com/archive/2026-10-19",
+          "title": "2026年10月19日全网热搜汇总",
+          "observed_at": "2026-10-19T00:27:48+08:00",
+          "captured_at": "2026-10-19T07:21:00+08:00",
+          "note": "hotflashnews 10-19归档：B站热搜00:27快照「结过婚我也认是什么梗」列第17位。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "usage_context",
+          "platform": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1ysJ16HECt/",
+          "title": "【梗知识】结过婚我也认",
+          "captured_at": "2026-10-19T07:28:00+08:00",
+          "note": "搜索结果佐证：B站梗指南视频《结过婚我也认》播放量超21万，收录该梗出处与用法。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-13-meidian-yishu-xijun",
+      "title": "🎨 没点艺术细菌都刷不到",
+      "aliases": [
+        "没点艺术细菌都刷不到",
+        "艺术细菌",
+        "没点X细菌都刷不到",
+        "没点艺术细胞的人刷不到这条视频"
+      ],
+      "canonical_phrase": "没点艺术细菌都刷不到",
+      "platform": [
+        "weibo",
+        "bilibili"
+      ],
+      "type": "句式梗",
+      "summary": "「艺术细菌」二次登榜：B站热门「友情提示：没点艺术细胞的人刷不到这条视频！」229万播放列全站第4位，上次入选本站是10-13。",
+      "origin": "已验证：website-hot-hub B站热门归档10-19 07:17快照「友情提示：没点艺术细胞的人刷不到这条视频！」列第4位；当前聚合页显示229.0万播放。该梗2026-10-13首上本站。",
+      "usage": "「没点X细菌都刷不到」自夸过滤器句式：没点艺术细菌刷不到这条、没点文化细菌刷不到这个展——给抽象/小众内容贴「懂的自然懂」标签，评论区排队证明自己刷到了。",
+      "fun_point": "故意把「细胞」写成「细菌」，一本正经地没文化；把算法推荐包装成身份认证，刷到就是缘分也是资历。",
+      "why_spread": "已验证：B站热门当前在榜第4位、播放超229万；推测：抽象内容创作者爱用它当标题钩子，观众也乐于认领「艺术细菌携带者」身份，双向奔赴。",
+      "lifecycle": "rising",
+      "brand_usage": "展陈、设计、文创账号可用「没点X细菌都刷不到」做圈层钩子标题；注意别真把内容做得让人看不懂。",
+      "risk": {
+        "level": "safe",
+        "note": "自夸式圈层梗，无争议点。"
+      },
+      "days_on_list": 2,
+      "score": 80,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 27,
+        "reusability": 18,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "bilibili",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/main/archives/bilibili/2026-10-19.md",
+          "title": "website-hot-hub B站热门归档 2026-10-19（07:17 快照）",
+          "observed_at": "2026-10-19T07:17:33+08:00",
+          "captured_at": "2026-10-19T07:20:30+08:00",
+          "note": "B站热门归档10-19 07:17快照：「友情提示：没点艺术细胞的人刷不到这条视频！」列第4位，在上次评选时钟（10-13 07:27）之后。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "bilibili",
+          "url": "https://canadacardguide.com/hot/",
+          "captured_at": "2026-10-19T07:31:30+08:00",
+          "note": "canadacardguide聚合页当前B站热门：「友情提示：没点艺术细胞的人刷不到这条视频！」229.0万播放列第4位。﻿"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-19-qibing-yes-xuefan-no",
+      "title": "⚔️ 起兵yes削藩no",
+      "aliases": [
+        "起兵yes削藩no",
+        "奉天靖难gogogo",
+        "X yes Y no Z gogogo"
+      ],
+      "canonical_phrase": "起兵yes削藩no",
+      "platform": [
+        "bilibili"
+      ],
+      "type": "二创梗",
+      "summary": "历史鬼畜新句式：「起兵yes削藩no，奉天靖难gogogo！」登B站热门第6位，241万播放——明初靖难之役被改编成中英混杂口号，评论区集体跟读。",
+      "origin": "已验证：website-hot-hub B站热门归档10-19 07:17快照「起兵yes削藩no，奉天靖难gogogo！」列第6位；当前聚合页显示241.4万播放；多个聚合镜像站同日在榜。",
+      "usage": "「X yes，Y no，Z gogogo」行动口号模板：加班yes调休no、减肥yes戒糖no——把纠结的选择题喊成出征口号；历史区、学习区评论区用来给重大决定壮行。",
+      "fun_point": "最庄重的历史事件配上最塑料的中英混杂口号，严肃与魔性对撞；「gogogo」收尾自带冲锋画面感。",
+      "why_spread": "已验证：B站热门在榜、播放超241万；推测：历史二创是B站长青赛道，中英混杂口号天然适合弹幕跟读与评论区接龙。",
+      "lifecycle": "rising",
+      "brand_usage": "学习、效率、运动账号可借「X yes Y no Z gogogo」做目标口号海报；内容账号可做历史人物反差配音二创。",
+      "risk": {
+        "level": "low",
+        "note": "涉及古代历史事件改编，保持戏说属性、不影射现实即可。"
+      },
+      "days_on_list": 1,
+      "score": 78,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 27,
+        "reusability": 17,
+        "evidence": 7
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "bilibili",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/main/archives/bilibili/2026-10-19.md",
+          "title": "website-hot-hub B站热门归档 2026-10-19（07:17 快照）",
+          "observed_at": "2026-10-19T07:17:33+08:00",
+          "captured_at": "2026-10-19T07:20:30+08:00",
+          "note": "B站热门归档10-19 07:17快照：「起兵yes削藩no，奉天靖难gogogo！」列第6位。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "bilibili",
+          "url": "https://canadacardguide.com/hot/",
+          "captured_at": "2026-10-19T07:31:30+08:00",
+          "note": "canadacardguide聚合页当前B站热门：「起兵yes削藩no，奉天靖难gogogo！」241.4万播放列第7位。﻿"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "cross_platform",
+          "platform": "bilibili",
+          "url": "https://spatxos.com/hotsearch",
+          "title": "实时热搜 - spatxos",
+          "captured_at": "2026-10-19T07:33:30+08:00",
+          "note": "搜索结果佐证：spatxos实时热搜聚合页同日在榜，显示该视频播放超188万（另一镜像快照）。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-19-wenxin-wukui",
+      "title": "💰 问薪无愧",
+      "aliases": [
+        "问薪无愧",
+        "大家都问薪无愧",
+        "问心无愧谐音"
+      ],
+      "canonical_phrase": "问薪无愧",
+      "platform": [
+        "weibo",
+        "other"
+      ],
+      "type": "职场梗",
+      "summary": "打工人谐音梗上热榜：「问薪无愧」（问心无愧谐音）登微博热搜「大家都问薪无愧」——薪资让人摸鱼时毫无愧疚感，已被词典类词条收录。",
+      "origin": "已验证：微博热搜归档10-19 06:15快照「大家都问薪无愧」在榜；搜索结果佐证百度百科已收录「问薪无愧」词条（10-17更新）；网易号9月已有文章复盘其自赛事安保场景走红的路径。",
+      "usage": "「薪」谐音成语造句：问薪无愧、死薪塌地、薪火相传、力不从薪——工资多少决定工作态度的自嘲式职场黑话，摸鱼、谈薪、离职场景万能接话。",
+      "fun_point": "一字之差把成语改成薪资判词，体面地说出「给多少干多少」；打工人集体心声被翻译成体面的古文腔。",
+      "why_spread": "已验证：微博热搜在榜、词典类词条已收录；推测：谈薪是永恒职场议题，谐音成语改造成本低、接龙空间大，易跨平台迁移到评论区与表情包。",
+      "lifecycle": "rising",
+      "brand_usage": "职场、招聘、效率工具账号可借「薪」谐音做共鸣海报（注意别变成压价暗示）；自媒体可做「薪成语」接龙选题。",
+      "risk": {
+        "level": "low",
+        "note": "职场自嘲梗，避免用于真实劳资对抗语境。"
+      },
+      "days_on_list": 1,
+      "score": 78,
+      "score_breakdown": {
+        "heat": 24,
+        "freshness": 27,
+        "reusability": 19,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "weibo",
+          "url": "https://raw.githubusercontent.com/justjavac/weibo-trending-hot-search/master/archives/2026-10-19.md",
+          "title": "weibo-trending-hot-search 微博热搜归档 2026-10-19（06:15 快照）",
+          "observed_at": "2026-10-19T06:15:19+08:00",
+          "captured_at": "2026-10-19T07:34:20+08:00",
+          "note": "微博热搜归档10-19 06:15快照：「大家都问薪无愧」在榜（band_rank 40）。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://baike.baidu.com/item/%E9%97%AE%E8%96%AA%E6%97%A0%E6%84%A7/22097928",
+          "title": "问薪无愧_百度百科",
+          "captured_at": "2026-10-19T07:35:30+08:00",
+          "note": "搜索结果佐证：百度百科已收录「问薪无愧」词条（10-17更新），释义为问心无愧谐音、调侃薪资低。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "origin",
+          "platform": "other",
+          "url": "https://www.163.com/dy/article/L6QF3IGI0556PNBY.html",
+          "title": "从问心无愧到问薪无愧：当代打工人的清醒与坚守",
+          "captured_at": "2026-10-19T07:36:00+08:00",
+          "note": "搜索结果佐证：网易号9-14文章复盘该词自赛事安保场景走红并成职场信条的路径。"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
