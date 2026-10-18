@@ -1,0 +1,898 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-100point-domestic-majority",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T06:33:55+08:00",
+  "published_at": "2026-10-19T06:33:55+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 44,
+    "published": 4,
+    "dropped_safety": {
+      "politics": 2,
+      "geopolitics": 1,
+      "public_safety": 1,
+      "minors": 1,
+      "celebrity_dispute": 1
+    },
+    "dropped_low_confidence": 31,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media",
+      "aggregator"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 14,
+      "official_sources": 1,
+      "state_media_sources": 5,
+      "major_media_sources": 8,
+      "aggregator_sources": 2,
+      "dropped_insufficient_evidence": 3
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 4,
+        "relaxed_48h": 6,
+        "relaxed_72h": 8
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 44,
+          "cumulative_unique_candidates": 44,
+          "source_scope": [
+            "公共热榜：百度热搜（仅热度佐证）",
+            "央媒：新华社/新华网/央视网/中国新闻网",
+            "持牌媒体：澎湃新闻/新京报/中新经纬/南方都市报/界面新闻/长江日报",
+            "地方主流媒体：新湖南/厦门网/华龙网/华商网",
+            "政府机构：海关总署/市场监管总局/中国气象局发布与通报",
+            "搜索引擎全网交叉检索"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-10-19-danyang-myopia-lens-probe",
+          "story_identity": "danyang-myopia-lens-price-probe-cctv",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T20:30:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-19-danyang-myopia-lens-probe",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-19-shanghai-masters-fokina-title",
+          "story_identity": "shanghai-masters-2026-fokina-first-title",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T21:30:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-10-19-shanghai-masters-fokina-title",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-19-chongyang-elderly-care-services",
+          "story_identity": "chongyang-2026-elderly-care-activities",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T11:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-10-19-chongyang-elderly-care-services",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 19,
+            "everyday_relevance": 21,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-19-qinghuayuan-school-renames",
+          "story_identity": "minban-qinghuayuan-schools-renaming-oct2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T17:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "selected",
+          "item_id": "2026-10-19-qinghuayuan-school-renames",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 19,
+            "everyday_relevance": 18,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "swisse-lead-warning-recall",
+          "story_identity": "swisse-antioxidant-lead-recall-warning",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 17,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "海关总署10月17日发布SWISSE铅超标风险警示，发生时间超出所选strict_24h层级的24小时时效窗"
+        },
+        {
+          "candidate_key": "fuel-dispenser-cheating-crackdown",
+          "story_identity": "samr-fuel-dispenser-cheating-cases-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 12,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "市场监管总局10月16日专题发布会通报加油机作弊查处，发生时间超出所选层级时效窗"
+        },
+        {
+          "candidate_key": "cold-air-oct19-21-forecast",
+          "story_identity": "nmc-strong-cold-air-oct19-21-forecast",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 18,
+            "everyday_relevance": 15,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "19-21日新一股较强冷空气预报，近一周已三次选用天气条目，为避免题材重复本轮不选"
+        },
+        {
+          "candidate_key": "social-security-104-services",
+          "story_identity": "national-social-security-104-cross-region-services",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 9,
+            "everyday_relevance": 24,
+            "evidence": 15
+          },
+          "drop_reason": "人社部社保平台104项跨地区服务信息10月15日首发，超出72小时时效窗，不作为新事件"
+        },
+        {
+          "candidate_key": "luotian-identity-loan-case",
+          "story_identity": "luotian-jailed-man-identity-loan-case",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 17,
+            "everyday_relevance": 12,
+            "evidence": 8
+          },
+          "drop_reason": "罗田男子服刑期间被冒名网贷案仍处侦办阶段，目前以当事人陈述为主，公共增量有限"
+        },
+        {
+          "candidate_key": "wuhan-liquor-expo-young-baijiu",
+          "story_identity": "wuhan-liquor-expo-2026-baijiu-youth-trend",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 15,
+            "everyday_relevance": 14,
+            "evidence": 8
+          },
+          "drop_reason": "武汉酒博会白酒年轻化为行业展会消费趋势报道，公共新闻价值一般"
+        },
+        {
+          "candidate_key": "iphone-duo-resale-price-drop",
+          "story_identity": "iphone-duo-resale-premium-shrinks",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 18,
+            "everyday_relevance": 12,
+            "evidence": 8
+          },
+          "drop_reason": "iPhone Duo二手回收报价回落与昨日香港预购盗刷案同属一个新品题材，避免连续两日同类"
+        },
+        {
+          "candidate_key": "canton-fair-robots-highlight",
+          "story_identity": "canton-fair-140-robots-highlight-orders",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 16,
+            "everyday_relevance": 15,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "广交会机器人展区火热与10月15日广交会开幕条目同题材，属展会花絮延展"
+        },
+        {
+          "candidate_key": "hairy-crab-origin-ip-report",
+          "story_identity": "hairy-crab-origin-ip-competition",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 57,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 13,
+            "everyday_relevance": 13,
+            "evidence": 8
+          },
+          "drop_reason": "大闸蟹产地打造IP为产业观察稿，事件性弱"
+        },
+        {
+          "candidate_key": "chongqing-ganchang-young-consumers",
+          "story_identity": "chongqing-ganchang-market-young-consumers",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T11:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 13,
+            "everyday_relevance": 10,
+            "evidence": 8
+          },
+          "drop_reason": "重庆传统赶场成年轻人新消费场景为软性观察，无实质新进展"
+        },
+        {
+          "candidate_key": "restaurant-rating-trap-discussion",
+          "story_identity": "high-rating-restaurant-trap-discussion",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 12,
+            "everyday_relevance": 14,
+            "evidence": 8
+          },
+          "drop_reason": "高分网红餐厅踩雷讨论引用2025年旧案例，非新事件"
+        },
+        {
+          "candidate_key": "minsu-full-refund-fee-dispute",
+          "story_identity": "minsu-cancel-full-fee-format-clause-case",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T16:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 13,
+            "everyday_relevance": 13,
+            "evidence": 8
+          },
+          "drop_reason": "民宿退订全额扣费为个案投诉与既有司法观点复述，非新发布规则"
+        },
+        {
+          "candidate_key": "dae-jang-geum-meme-revival",
+          "story_identity": "dae-jang-geum-meme-revival-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 48,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 11,
+            "everyday_relevance": 9,
+            "evidence": 8
+          },
+          "drop_reason": "韩剧《大长今》玩梗考古属文娱话题，非新闻事件"
+        },
+        {
+          "candidate_key": "japan-cancel-eating-trend",
+          "story_identity": "japan-gen-z-skip-meals-trend",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T10:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 11,
+            "everyday_relevance": 10,
+            "evidence": 8
+          },
+          "drop_reason": "日本年轻人“取消吃饭”风潮为海外生活话题，不构成新闻事件"
+        },
+        {
+          "candidate_key": "tesla-roadster-flying-details",
+          "story_identity": "tesla-roadster-new-tech-details-oct16",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T20:00:00+08:00",
+          "scope": "international",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 54,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 13,
+            "everyday_relevance": 9,
+            "evidence": 9
+          },
+          "drop_reason": "特斯拉新车技术细节披露为国际企业资讯，国内读者日常相关性不足"
+        },
+        {
+          "candidate_key": "disney-character-ai-acquisition",
+          "story_identity": "disney-character-ai-asset-acquisition",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T18:00:00+08:00",
+          "scope": "international",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 53,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 13,
+            "everyday_relevance": 9,
+            "evidence": 9
+          },
+          "drop_reason": "迪士尼拟收购Character.AI资产为海外商业动态，与中文读者日常生活距离较远"
+        },
+        {
+          "candidate_key": "indonesia-haze-palm-oil",
+          "story_identity": "indonesia-haze-palm-oil-market",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T09:00:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 12,
+            "everyday_relevance": 10,
+            "evidence": 9
+          },
+          "drop_reason": "印尼烟霾为区域环境事件，暂未见对国内的直接影响"
+        },
+        {
+          "candidate_key": "canada-military-base-fire",
+          "story_identity": "canada-wainwright-base-fire-oct18",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T06:00:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 49,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 13,
+            "everyday_relevance": 8,
+            "evidence": 8
+          },
+          "drop_reason": "加拿大军事基地火灾属外国地方突发事件，与中国读者无直接关联"
+        },
+        {
+          "candidate_key": "wsbk-zhangxue-season-runner-up",
+          "story_identity": "zhangxue-wsbk-2026-season-runner-up",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T17:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 16,
+            "everyday_relevance": 10,
+            "evidence": 8
+          },
+          "drop_reason": "世界超级摩托车锦标赛年度亚军为垂直赛事成绩，昨日账本已记录同类分站候选"
+        },
+        {
+          "candidate_key": "shanghai-performing-arts-group-launch",
+          "story_identity": "shanghai-performing-arts-group-three-year-plan",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T11:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 13,
+            "everyday_relevance": 13,
+            "evidence": 10
+          },
+          "drop_reason": "上海演艺集团成立与戏剧振兴三年计划为地方文化机构动态，全国公共性一般"
+        },
+        {
+          "candidate_key": "suzhou-manufacturing-analysis",
+          "story_identity": "suzhou-manufacturing-40-percent-analysis",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 56,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 11,
+            "everyday_relevance": 14,
+            "evidence": 8
+          },
+          "drop_reason": "苏州坚守制造业比重为城市产业分析稿，无具体新事件"
+        },
+        {
+          "candidate_key": "ulanchab-computing-hub-report",
+          "story_identity": "ulanchab-ai-computing-cluster-report",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T11:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 11,
+            "everyday_relevance": 13,
+            "evidence": 9
+          },
+          "drop_reason": "乌兰察布算力集群报道为成果展示稿，事件性不足"
+        },
+        {
+          "candidate_key": "wedding-meets-running-show",
+          "story_identity": "guangzhou-wedding-running-show-fans",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T16:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 45,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 11,
+            "everyday_relevance": 7,
+            "evidence": 8
+          },
+          "drop_reason": "婚礼偶遇综艺节目录制为娱乐花絮，无公共新闻价值"
+        },
+        {
+          "candidate_key": "lin-feng-family-fiji-vacation",
+          "story_identity": "lin-feng-family-fiji-vacation-post",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 42,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 10,
+            "everyday_relevance": 6,
+            "evidence": 8
+          },
+          "drop_reason": "明星家庭度假日常属娱乐资讯"
+        },
+        {
+          "candidate_key": "malatang-napkin-complaint",
+          "story_identity": "shenyang-malatang-napkin-complaint",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T19:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 40,
+          "score_breakdown": {
+            "heat": 17,
+            "freshness": 10,
+            "everyday_relevance": 5,
+            "evidence": 8
+          },
+          "drop_reason": "麻辣烫用餐纸巾吐槽为餐饮琐事，无公共价值"
+        },
+        {
+          "candidate_key": "detective-cui-daozhi-film-prototype",
+          "story_identity": "cui-daozhi-film-prototype-attention",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 51,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 12,
+            "everyday_relevance": 10,
+            "evidence": 8
+          },
+          "drop_reason": "电影人物原型受关注为影视宣传延展报道"
+        },
+        {
+          "candidate_key": "doubao-ai-phone-app-standoff",
+          "story_identity": "doubao-ai-phone-app-access-standoff",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 59,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 12,
+            "everyday_relevance": 13,
+            "evidence": 9
+          },
+          "drop_reason": "AI手机助手遭应用拒绝接入为行业分析稿，未见权威部门新进展"
+        },
+        {
+          "candidate_key": "uk-visitor-exoskeleton-canton-fair",
+          "story_identity": "british-visitor-exoskeleton-canton-fair",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 56,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 13,
+            "everyday_relevance": 11,
+            "evidence": 9
+          },
+          "drop_reason": "英国观众体验国产外骨骼为广交会现场花絮，产品新闻性有限"
+        },
+        {
+          "candidate_key": "zhangxue-water-surf-guinness-teaser",
+          "story_identity": "zhangxue-water-surf-guinness-oct25-teaser",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 54,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 14,
+            "everyday_relevance": 10,
+            "evidence": 8
+          },
+          "drop_reason": "摩托冲浪吉尼斯挑战为10月25日活动预告，尚未举行"
+        },
+        {
+          "candidate_key": "apple-iphone-shipwreck-hormuz",
+          "story_identity": "iphone-cargo-shipwreck-hormuz-salvage",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T14:00:00+08:00",
+          "scope": "international",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 12,
+            "everyday_relevance": 9,
+            "evidence": 9
+          },
+          "drop_reason": "霍尔木兹海峡货轮沉没iPhone漂浮为海外事故衍生趣闻，与国内读者无直接关联"
+        },
+        {
+          "candidate_key": "laoling-sms-greeting-viral",
+          "story_identity": "laoling-office-sms-greeting-discussion",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 57,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 14,
+            "everyday_relevance": 11,
+            "evidence": 8
+          },
+          "drop_reason": "年轻人收到老龄办问候短信为重阳插曲讨论，未构成政策或服务变动"
+        },
+        {
+          "candidate_key": "protein-powder-roach-powder-survey",
+          "story_identity": "protein-powder-price-roach-powder-survey",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "蛋白粉涨价与“蟑螂粉”替代多为自媒体调查转述，未见监管部门或权威媒体核实，证据不足不采用"
+        },
+        {
+          "candidate_key": "ai-face-swap-celebrity-ads-probe",
+          "story_identity": "ai-face-swap-celebrity-ads-gray-chain",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "AI仿冒名人带货灰产调查与名人维权争议绑定，暂无监管处置通报，不作独立条目"
+        },
+        {
+          "candidate_key": "mini-drama-back-to-miniprogram",
+          "story_identity": "mini-drama-return-to-miniprogram-analysis",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T19:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "短剧回归小程序趋势为行业自媒体评论，缺权威信源，不采用"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "public_safety"
+        },
+        {
+          "candidate_key": "candidate-5",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "minors"
+        },
+        {
+          "candidate_key": "candidate-6",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "celebrity_dispute"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-10-19-danyang-myopia-lens-probe",
+      "story_identity": "danyang-myopia-lens-price-probe-cctv",
+      "headline": "🔍 央视曝光近视防控镜片乱象，丹阳连夜通报立案调查",
+      "summary": "央视《每周质量报告》10月18日报道，丹阳部分商户销售的近视防控镜片存在标识标签不规范、发布虚假广告等问题，一副多点离焦镜片批发价仅30元而零售参考价达1980元。当晚丹阳市市场监督管理局通报报道情况基本属实，已对4家涉事经营主体立案调查，并将开展眼镜行业规范整治专项行动。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 88,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 20,
+        "everyday_relevance": 22,
+        "evidence": 12
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-10-18T20:30:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "消费监督报道，以丹阳市监局通报与央视调查为准，仅陈述通报事实，不点名评价具体品牌"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "澎湃新闻",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34277492",
+          "title": "央视报道近视防控镜相关问题，江苏丹阳通报",
+          "captured_at": "2026-10-19T06:21:00+08:00",
+          "note": "澎湃新闻10月19日凌晨刊发：丹阳市监局18日晚通报，报道涉及4家经营主体，情况基本属实，已依法立案调查"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "长安街知事",
+          "url": "https://finance.sina.cn/2026-10-18/detail-inivsnmc7692684.d.html",
+          "title": "江苏丹阳连夜通报：同款近视镜片批发价30元",
+          "captured_at": "2026-10-19T06:23:00+08:00",
+          "note": "长安街知事10月18日晚经新浪财经发布：央视《每周质量报告》调查，多点离焦镜片批发价仅30元、零售参考价1980元"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-19-shanghai-masters-fokina-title",
+      "story_identity": "shanghai-masters-2026-fokina-first-title",
+      "headline": "🎾 弗基纳逆转夺上海大师赛冠军，生涯首捧大师赛奖杯",
+      "summary": "2026上海网球大师赛10月18日晚在旗忠网球中心收官。西班牙球员弗基纳以2比1逆转同胞霍达尔，职业生涯首夺ATP1000大师赛冠军，成为赛会历史上首位西班牙男单冠军；男双冠军由奥地利组合米德勒/奥伯莱特纳摘得。本届赛事现场观众约24.8万人次，票房收入创新高。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 20,
+        "everyday_relevance": 18,
+        "evidence": 12
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-10-18T21:30:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "体育赛事结果报道，以新华社、中国新闻网赛事通稿为准，无争议内容"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/ty/2026/10-18/10716888.shtml",
+          "title": "上海网球大师赛收官弗基纳首夺大师赛冠军",
+          "captured_at": "2026-10-19T06:21:00+08:00",
+          "note": "中新社上海10月18日电：弗基纳2比1逆转霍达尔夺冠，成赛会首位西班牙男单冠军"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://m.163.com/dy/article/L9IE55JV05346RC6.html",
+          "title": "弗基纳夺得上海网球大师赛男单冠军",
+          "captured_at": "2026-10-19T06:25:00+08:00",
+          "note": "新华社上海10月18日电（网易号同步）：弗基纳职业生涯首夺ATP1000级别冠军，世界排名将升至第13位"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-19-chongyang-elderly-care-services",
+      "story_identity": "chongyang-2026-elderly-care-activities",
+      "headline": "🌼 重阳节各地开展敬老服务，助浴义诊进社区",
+      "summary": "10月18日重阳节，各地开展形式多样的敬老爱老活动：安徽宣城为行动不便老人提供公益助浴，吉林长春建成敬老餐厅600余家，河南多地组织专家义诊进乡镇敬老院，广西柳州试点“物业+养老”防跌倒监测，社区老年大学开设声乐、太极拳等课程，让尊老敬老风尚深入人心。",
+      "category": "节日节气",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 80,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 19,
+        "everyday_relevance": 21,
+        "evidence": 11
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-10-18T11:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "重阳节敬老服务综合报道，以新华社通稿为准，内容温暖平实"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.news.cn/politics/20261018/41a49138850040a7a05c26c01c610cc0/c.html",
+          "title": "九九重阳 情暖桑榆——各地多形式开展重阳敬老活动",
+          "captured_at": "2026-10-19T06:22:00+08:00",
+          "note": "新华社北京10月18日电：各地开展公益助浴、敬老餐厅、义诊下乡、智慧养老、老年大学等服务"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "厦门网",
+          "url": "https://www.xmnn.cn/news/xmxw/202610/t20261016_456211.html",
+          "title": "厦门发布2026年重阳节敬老助老活动倡议书",
+          "captured_at": "2026-10-19T06:20:00+08:00",
+          "note": "厦门网10月16日：10月18日重阳节是全国第14个法定老年节，厦门将向困难失能老人发放护理补助金"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-19-qinghuayuan-school-renames",
+      "story_identity": "minban-qinghuayuan-schools-renaming-oct2026",
+      "headline": "🏫 多所民办“清华园学校”陆续更名，齐河校区改称江山实验学校",
+      "summary": "山东齐河县清华园学校10月18日宣布，经教育主管部门正式批准，学校更名为齐河县江山实验学校，办学性质、举办者、师资团队、招生范围、学籍资质等均保持不变。此前山东、河南已有多所民办“清华园学校”陆续更名，民办学校名称与知名高校品牌的关系引发关注。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "教育考试",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 19,
+        "everyday_relevance": 18,
+        "evidence": 11
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-10-18T17:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "学校更名公告类报道，以校方公告与澎湃新闻报道为准，仅陈述事实不作侵权定性"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "澎湃新闻",
+          "url": "https://finance.sina.cn/2026-10-18/detail-inivrvpm7831548.d.html",
+          "title": "山东、河南多所民办“清华园学校”陆续更名",
+          "captured_at": "2026-10-19T06:23:00+08:00",
+          "note": "澎湃新闻10月18日18时18分经新浪财经发布：齐河县清华园学校更名为江山实验学校，办学资质不变"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "新湖南",
+          "url": "https://m.voc.com.cn/xhn/news/202610/34017878.html",
+          "title": "多所民办“清华园学校”陆续更名",
+          "captured_at": "2026-10-19T06:25:00+08:00",
+          "note": "新湖南10月18日报道：郓城、商河、汝南等地多所“清华园”民办学校此前已陆续更名"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
