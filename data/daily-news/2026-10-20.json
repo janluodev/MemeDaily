@@ -1,0 +1,940 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-100point-domestic-majority",
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T06:31:01+08:00",
+  "published_at": "2026-10-20T06:31:01+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 45,
+    "published": 5,
+    "dropped_safety": {
+      "politics": 2,
+      "geopolitics": 1,
+      "controversy": 1,
+      "public_safety": 2,
+      "minors": 1,
+      "celebrity_dispute": 1,
+      "privacy": 1
+    },
+    "dropped_low_confidence": 28,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media",
+      "aggregator"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 16,
+      "official_sources": 1,
+      "state_media_sources": 5,
+      "major_media_sources": 7,
+      "aggregator_sources": 2,
+      "dropped_insufficient_evidence": 3
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 5,
+        "relaxed_48h": 8,
+        "relaxed_72h": 8
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 45,
+          "cumulative_unique_candidates": 45,
+          "source_scope": [
+            "公共热榜：百度热搜（仅热度佐证）",
+            "央媒：新华社/新华网/央视新闻/中国新闻网/光明网",
+            "持牌媒体：澎湃新闻/新京报/极目新闻/上观新闻/财新/第一财经/北京日报/长江日报系",
+            "政府机构：国家统计局/国家医保局/中国人民银行/中国气象局发布",
+            "搜索引擎全网交叉检索"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-10-20-medical-insurance-wallet-2",
+          "story_identity": "medical-insurance-wallet-2-cross-province",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T17:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-10-20-medical-insurance-wallet-2",
+          "score": 90,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-20-gdp-q3-4-6-percent",
+          "story_identity": "china-gdp-first-three-quarters-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-20-gdp-q3-4-6-percent",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-20-pboc-policy-package",
+          "story_identity": "pboc-policy-package-benchmark-rate-exit",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T16:30:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-20-pboc-policy-package",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-20-nantaihang-hiker-found",
+          "story_identity": "nantaihang-hiker-fang-found-deceased",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T14:30:00+08:00",
+          "scope": "domestic",
+          "topic": "重大事件",
+          "outcome": "selected",
+          "item_id": "2026-10-20-nantaihang-hiker-found",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 10
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-20-wang-manyu-commendation",
+          "story_identity": "wang-manyu-heilongjiang-commendation-proposal",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-10-20-wang-manyu-commendation",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 19,
+            "everyday_relevance": 16,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "shijiazhuang-health-product-probe",
+          "story_identity": "cctv-expose-sjz-kenglao-case-filing",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T20:30:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 17,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "总台《财经调查》10月18日晚曝光石家庄会销坑老、当地立案调查，发生时间超出所选strict_24h层级时效窗，且与昨日丹阳镜片同属曝光加立案模式题材"
+        },
+        {
+          "candidate_key": "wuhan-open-2026-final",
+          "story_identity": "wta-wuhan-open-2026-hwalinska-title",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T21:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 16,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "武网10月18日晚收官赫瓦林斯卡夺冠，昨日已选上海大师赛，网球赛事连续两日且超出24小时时效窗"
+        },
+        {
+          "candidate_key": "ai-xiaohai-sad-harvest-investigation",
+          "story_identity": "ai-xiaohai-sad-content-harvest-elderly",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 12,
+            "everyday_relevance": 22,
+            "evidence": 9
+          },
+          "drop_reason": "新京报10月16日调查AI数字人小海卖惨带货收割中老年，事件首发已超出72小时时效窗，不作为新事件，继续跟踪监管处置进展"
+        },
+        {
+          "candidate_key": "cold-air-oct19-21-forecast",
+          "story_identity": "nmc-cold-air-oct19-21-forecast",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 18,
+            "everyday_relevance": 15,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "中央气象台预报19-21日新一股冷空气影响中东部，近一周已多次选用天气条目，避免题材重复"
+        },
+        {
+          "candidate_key": "iphone-duo-resale-price-crash",
+          "story_identity": "iphone-duo-resale-premium-crash-5days",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 18,
+            "everyday_relevance": 10,
+            "evidence": 8
+          },
+          "drop_reason": "得物数据显示iPhone Duo成交均价5天跌超5000元，18日已选该机盗刷案、19日账本已记溢价回落，避免连续三日同一新品题材"
+        },
+        {
+          "candidate_key": "food-safety-1775-standards",
+          "story_identity": "food-safety-national-standards-1775",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 12,
+            "everyday_relevance": 20,
+            "evidence": 8
+          },
+          "drop_reason": "全国食品安全宣传周披露累计发布1775项国标，与16日纸尿裤条目同属消费品安全宣传口径，事件增量有限"
+        },
+        {
+          "candidate_key": "shark-clip-safety-warning-hangzhou",
+          "story_identity": "shark-clip-rear-collision-safety-warning",
+          "research_pass": 1,
+          "occurred_at": "2026-10-15T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 10,
+            "everyday_relevance": 19,
+            "evidence": 8
+          },
+          "drop_reason": "杭州网友追尾致鲨鱼夹碎裂热议引用2023年义乌旧案例，混合旧闻且以网友发帖为主，事件性弱"
+        },
+        {
+          "candidate_key": "cta-mixed-team-world-cup-selection",
+          "story_identity": "cta-mixed-team-world-cup-2026-selection",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 17,
+            "everyday_relevance": 11,
+            "evidence": 8
+          },
+          "drop_reason": "中国乒协公布混团世界杯选拔办法为队内规则公示，公共新闻价值一般"
+        },
+        {
+          "candidate_key": "kunming-security-guard-work-injury",
+          "story_identity": "kunming-security-guard-death-injury-dispute",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 13,
+            "everyday_relevance": 15,
+            "evidence": 8
+          },
+          "drop_reason": "昆明保安夜班死亡工伤认定争议为个案诉讼，目前一审阶段以家属陈述为主"
+        },
+        {
+          "candidate_key": "wuhan-xiaoxin-parent-salary",
+          "story_identity": "wuhan-company-parent-xiaoxin-salary",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 17,
+            "everyday_relevance": 8,
+            "evidence": 8
+          },
+          "drop_reason": "武汉一公司给员工父母发孝心工资为企业个案福利，公共增量有限"
+        },
+        {
+          "candidate_key": "court-cases-q3-statistics",
+          "story_identity": "court-cases-first-three-quarters-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T11:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 12,
+            "everyday_relevance": 16,
+            "evidence": 8
+          },
+          "drop_reason": "最高法前三季度收案数据为例行司法统计发布，读者实用性一般"
+        },
+        {
+          "candidate_key": "france-protests-spread-europe",
+          "story_identity": "france-cost-of-living-protests-europe",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T18:00:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 13,
+            "everyday_relevance": 12,
+            "evidence": 9
+          },
+          "drop_reason": "法国抗议生活成本骚乱蔓延欧洲为海外社会事件，与国内读者日常无直接关联，不作条目"
+        },
+        {
+          "candidate_key": "moonton-gold-bracelet-employees",
+          "story_identity": "moonton-employee-gold-bracelet-promise",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 57,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 17,
+            "everyday_relevance": 6,
+            "evidence": 8
+          },
+          "drop_reason": "沐瞳科技兑现承诺给员工发金手链为企业福利花絮"
+        },
+        {
+          "candidate_key": "luxun-90th-anniversary-quotes",
+          "story_identity": "luxun-90th-anniversary-quotes-revisit",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 57,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 15,
+            "everyday_relevance": 11,
+            "evidence": 8
+          },
+          "drop_reason": "鲁迅逝世90周年为纪念日名言重温，无实质性新事件"
+        },
+        {
+          "candidate_key": "nanyang-wasteland-fitness-equipment",
+          "story_identity": "nanyang-wasteland-fitness-equipment-removed",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 56,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 14,
+            "everyday_relevance": 11,
+            "evidence": 8
+          },
+          "drop_reason": "南阳荒地健身器材质疑经报道后镇政府已拆除整改，为基层个案且已闭环"
+        },
+        {
+          "candidate_key": "ittf-latest-world-rankings",
+          "story_identity": "ittf-rankings-oct2026-update",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 16,
+            "everyday_relevance": 7,
+            "evidence": 8
+          },
+          "drop_reason": "国际乒联最新世界排名为例行更新，事件性弱"
+        },
+        {
+          "candidate_key": "wuhan-hotel-hidden-staircase",
+          "story_identity": "wuhan-hotel-hidden-space-complaint",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T22:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 54,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 15,
+            "everyday_relevance": 8,
+            "evidence": 8
+          },
+          "drop_reason": "武汉酒店房间装饰画后暗藏空间为消费投诉个案，酒店已致歉解释"
+        },
+        {
+          "candidate_key": "flood-1998-baoshu-girl-revisit",
+          "story_identity": "flood-1998-baoshu-girl-jiangshan-revisit",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T11:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 53,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 15,
+            "everyday_relevance": 8,
+            "evidence": 8
+          },
+          "drop_reason": "98洪水抱树女孩告慰亲人为人物回访情感稿，新闻增量有限"
+        },
+        {
+          "candidate_key": "musk-spacex-stock-children",
+          "story_identity": "musk-spacex-stock-for-us-children",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T08:00:00+08:00",
+          "scope": "international",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 15,
+            "everyday_relevance": 7,
+            "evidence": 7
+          },
+          "drop_reason": "马斯克称明年向全美儿童赠SpaceX股票为美国国内事务，与中国读者无直接关联"
+        },
+        {
+          "candidate_key": "qinghai-academic-misconduct-response",
+          "story_identity": "qinghai-college-academic-misconduct-response",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T16:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 14,
+            "everyday_relevance": 9,
+            "evidence": 8
+          },
+          "drop_reason": "青海高校回应学术不端举报为校级舆情，认定工作进行中暂无结论"
+        },
+        {
+          "candidate_key": "yueyunpeng-changzhou-sound-complaints",
+          "story_identity": "yueyunpeng-changzhou-show-sound-complaints",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 51,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 13,
+            "everyday_relevance": 8,
+            "evidence": 8
+          },
+          "drop_reason": "岳云鹏常州专场音响效果投诉为演出体验个案"
+        },
+        {
+          "candidate_key": "ningbo-open-first-round-results",
+          "story_identity": "ningbo-open-2026-first-round-upsets",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T16:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 16,
+            "everyday_relevance": 7,
+            "evidence": 7
+          },
+          "drop_reason": "WTA500宁波站首轮赛果为垂直赛事日常进展"
+        },
+        {
+          "candidate_key": "shanghai-driver-crooked-tree-dispute",
+          "story_identity": "shanghai-driver-crooked-tree-liability-dispute",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 49,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 14,
+            "everyday_relevance": 6,
+            "evidence": 8
+          },
+          "drop_reason": "上海司机撞树质疑树木歪斜为交通事故个案花絮"
+        },
+        {
+          "candidate_key": "victoria-secret-2026-show",
+          "story_identity": "victoria-secret-2026-plus-size-model",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T20:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 48,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 13,
+            "everyday_relevance": 6,
+            "evidence": 7
+          },
+          "drop_reason": "维密大秀为海外文娱活动，无中国读者直接关联"
+        },
+        {
+          "candidate_key": "zhangxue-canteen-rice-consultation",
+          "story_identity": "zhangxue-canteen-rice-help-video",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 47,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 15,
+            "everyday_relevance": 5,
+            "evidence": 8
+          },
+          "drop_reason": "张雪发视频求助食堂米饭做法为网络互动花絮"
+        },
+        {
+          "candidate_key": "baotou-concert-fillin-singer-viral",
+          "story_identity": "baotou-concert-houlang-fill-in-viral",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T21:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 46,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 13,
+            "everyday_relevance": 5,
+            "evidence": 8
+          },
+          "drop_reason": "草根歌手救场李克勤演唱会走红为文娱花絮"
+        },
+        {
+          "candidate_key": "gucheng-waiheke-house-sale",
+          "story_identity": "gucheng-waiheke-former-house-sale",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T09:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 45,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 14,
+            "everyday_relevance": 6,
+            "evidence": 7
+          },
+          "drop_reason": "新西兰激流岛疑似顾城旧居出售为海外房产趣闻"
+        },
+        {
+          "candidate_key": "wangkai-acting-money-response",
+          "story_identity": "wangkai-response-acting-money-comments",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 44,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 12,
+            "everyday_relevance": 5,
+            "evidence": 8
+          },
+          "drop_reason": "王凯回应催拍戏赚钱为演员访谈观点，非新闻事件"
+        },
+        {
+          "candidate_key": "luoyang-museum-closure-rumor",
+          "story_identity": "luoyang-museum-closure-rumor-debunk",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "洛阳博物馆闭馆说法经媒体辟谣栏目核实为误读，传闻本身不构成可报道事件，不采用"
+        },
+        {
+          "candidate_key": "china-us-token-chart-debate",
+          "story_identity": "china-us-token-consumption-chart-debate",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "网传中美Token消耗对比图数据来源无法核实，仅有评论辟谣无权威统计佐证，不采用"
+        },
+        {
+          "candidate_key": "liaoning-huanren-case-procedure",
+          "story_identity": "liaoning-huanren-robbery-case-procedural-dispute",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "辽宁桓仁父子遇劫案程序争议以当事人单方陈述为主，未见司法机关公开回应，证据不足不采用"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        },
+        {
+          "candidate_key": "candidate-5",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "public_safety"
+        },
+        {
+          "candidate_key": "candidate-6",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "public_safety"
+        },
+        {
+          "candidate_key": "candidate-7",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "minors"
+        },
+        {
+          "candidate_key": "candidate-8",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "celebrity_dispute"
+        },
+        {
+          "candidate_key": "candidate-9",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "privacy"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-10-20-medical-insurance-wallet-2",
+      "story_identity": "medical-insurance-wallet-2-cross-province",
+      "headline": "💊 医保钱包2.0版全国上线，个人账户可跨省共济近亲属",
+      "summary": "国家医保局10月19日介绍，医保钱包已迭代升级至2.0版，自10月16日起在全国各省份及新疆生产建设兵团全部上线运行，职工医保个人账户资金跨省共济给近亲属全面落地。新版强化身份核验、共济关系绑定与额度管控，严格限定共济对象为近亲属，支持就医购药及居民医保、长护险缴费，线上App与线下窗口均可办理。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 90,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 13
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-10-19T17:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "医保公共服务信息，以新华社、央视新闻与国家医保局发布为准，无争议内容"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.xinhuanet.com/20261019/f4a05140b06c436498fcd3c35764c2c0/c.html",
+          "title": "新版医保钱包升级 个人账户跨省共济全面落地",
+          "captured_at": "2026-10-20T06:19:00+08:00",
+          "note": "新华社北京10月19日电（记者彭韵佳）：医保钱包2.0版自10月16日起在全国各省份及新疆生产建设兵团全部上线运行，试运行以来共济额度2.9亿元"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717296.shtml",
+          "title": "医保钱包2.0版上线 个人账户跨省共济落地全国",
+          "captured_at": "2026-10-20T06:19:30+08:00",
+          "note": "中新网10月19日据央视新闻客户端：医保个人账户资金跨省共济给近亲属已在全国全面落地，支持国家医保服务平台App及支付宝小程序办理"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-20-gdp-q3-4-6-percent",
+      "story_identity": "china-gdp-first-three-quarters-2026",
+      "headline": "📈 前三季度GDP同比增长4.6%，居民收入增速加快",
+      "summary": "国家统计局10月19日发布，前三季度国内生产总值1071071亿元，按不变价格计算同比增长4.6%，其中三季度增长4.5%、较二季度回升。前三季度全国居民人均可支配收入34230元，名义增长5.3%；9月社会消费品零售总额同比增长1.1%，增速较8月回升0.7个百分点。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 88,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 13
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-10-19T10:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "宏观经济数据发布，以国家统计局国新办发布会与新华社报道为准，仅陈述数据事实"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.news.cn/20261019/c3cfef3914e24f08939ff1b399e1c245/c.html",
+          "title": "前三季度我国GDP同比增长4.6%",
+          "captured_at": "2026-10-20T06:18:00+08:00",
+          "note": "新华社北京10月19日电：前三季度GDP1071071亿元、同比增长4.6%，三季度增长4.5%"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717105.shtml",
+          "title": "国家统计局谈前三季度GDP增速：符合全年经济预期增长目标",
+          "captured_at": "2026-10-20T06:18:30+08:00",
+          "note": "中新网10月19日电：国新办新闻发布会，国家统计局新闻发言人毛盛勇介绍前三季度国民经济运行情况"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "财新网",
+          "url": "https://economy.caixin.com/2026-10-19/102494690.html",
+          "title": "前三季度居民人均可支配收入同比增速加快至5.3%",
+          "captured_at": "2026-10-20T06:18:40+08:00",
+          "note": "财新网10月19日：前三季度全国居民人均可支配收入34230元，名义增长5.3%、扣除价格因素实际增长4.5%"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-20-pboc-policy-package",
+      "story_identity": "pboc-policy-package-benchmark-rate-exit",
+      "headline": "🏦 央行宣布将出台系列新政，推动退出存贷款基准利率",
+      "summary": "中国人民银行行长潘功胜10月19日在2026金融街论坛年会开幕式上宣布，央行将推动出台一系列政策措施：会同金融监管总局、证监会设立应对非银机构大额赎回的流动性支持工具，建立债券市场稳定机制；随着利率市场化改革推进，将推动退出存贷款基准利率，以市场化定价基准替代，存贷款定价将更透明。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 83,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 19,
+        "everyday_relevance": 20,
+        "evidence": 13
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-10-19T16:30:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "金融政策发布信息，以新华社、财新、新京报报道为准，仅陈述政策方向不作市场建议"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "中证网",
+          "url": "https://www.cs.com.cn/xwzx/01/2026/10/19/detail_2026101910045587.html",
+          "title": "中国人民银行将推动实现退出存贷款基准利率",
+          "captured_at": "2026-10-20T06:20:00+08:00",
+          "note": "中证网10月19日转新华社电：潘功胜在金融街论坛年会表示将推动退出存贷款基准利率，以市场化定价基准替代"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "财新网",
+          "url": "https://finance.caixin.com/2026-10-19/102494878.html",
+          "title": "央行宣布多项新政：设立非银大额赎回流动性支持工具、SLF扩围",
+          "captured_at": "2026-10-20T06:20:30+08:00",
+          "note": "财新网10月19日：央行将会同金融监管总局、证监会设立应对非银机构大额赎回的流动性支持工具"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "新京报",
+          "url": "https://www.bjnews.com.cn/detail/1792414812129844.html",
+          "title": "金融街论坛年会，潘功胜讲话透露这三个信号",
+          "captured_at": "2026-10-20T06:20:40+08:00",
+          "note": "新京报10月19日：2026金融街论坛年会开幕式，人民银行即将出台的几项政策举措解读"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-20-nantaihang-hiker-found",
+      "story_identity": "nantaihang-hiker-fang-found-deceased",
+      "headline": "⛰️ 南太行徒步失联女子已被找到，野线徒步安全再引关注",
+      "summary": "河南辉县斑马应急救援队10月19日证实，17日夜间在南太行山西陵川锡崖沟一带徒步失联的33岁安徽籍女子方某已被找到，不幸遇难，遗体在其扎营点十几米外的水潭被打捞上岸，家属已赶到现场。事发区域属未开发野线，近年来已发生多起徒步伤亡事故，救援人员提醒切勿独自走野线、携带定位设备。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "重大事件",
+      "score": 80,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 20,
+        "everyday_relevance": 17,
+        "evidence": 10
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-10-19T14:30:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "户外事故报道，以极目新闻采访与救援队信息为准，克制陈述事实并侧重安全提醒，不渲染现场与家属细节"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "极目新闻",
+          "url": "https://www.ctdsb.net/c1476_202610/2883136.html",
+          "title": "南太行徒步失联的33岁女子已找到，多名目击者称，遗体从水潭被打捞上来",
+          "captured_at": "2026-10-20T06:21:00+08:00",
+          "note": "极目新闻10月19日18时09分：辉县斑马应急救援队证实人已找到，多位目击者称遗体从水潭被打捞上来"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "中华网",
+          "url": "https://news.china.com/socialgd/10000169/20261019/49803861.html",
+          "title": "南太行徒步失联的33岁女子已找到 不幸遇难",
+          "captured_at": "2026-10-20T06:21:30+08:00",
+          "note": "中华网10月19日：方某17日夜间在山西陵川锡崖沟村附近走失，19日被找到但不幸遇难"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-20-wang-manyu-commendation",
+      "story_identity": "wang-manyu-heilongjiang-commendation-proposal",
+      "headline": "🏓 王曼昱亚运包揽三金，黑龙江拟为其记大功",
+      "summary": "黑龙江省体育局10月19日发布公示，拟推荐王曼昱、孙瑜浓、孙文涛3名运动员记大功，公示期至10月23日。在刚刚落幕的爱知·名古屋亚运会上，王曼昱出战乒乓球女团、女单、女双三个项目全部夺冠，成就个人亚运“三金王”；此前她还在WTT中国大满贯卫冕女单冠军，并登上国际乒联女单世界第一。",
+      "category": "国家高光",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 76,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 19,
+        "everyday_relevance": 16,
+        "evidence": 11
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-10-19T15:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "体育表彰公示信息，以黑龙江省体育局公示与新京报报道为准，无争议内容"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "新湖南",
+          "url": "https://www.hunantoday.cn/news/xhn/202610/34028203.html",
+          "title": "王曼昱，拟记大功",
+          "captured_at": "2026-10-20T06:22:00+08:00",
+          "note": "新湖南10月19日转新京报报道：黑龙江省体育局发布公示，拟推荐王曼昱等3名运动员给予记大功"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "上观新闻",
+          "url": "https://m.163.com/news/article/L9K98KRE055040N3.html",
+          "title": "王曼昱，拟记大功",
+          "captured_at": "2026-10-20T06:22:30+08:00",
+          "note": "上观新闻10月19日：王曼昱在爱知·名古屋亚运会参加女团、女单、女双三项完成个人三金王成就"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
