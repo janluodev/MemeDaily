@@ -1,0 +1,858 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-100point-domestic-majority",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T06:30:58+08:00",
+  "published_at": "2026-10-21T06:30:58+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 45,
+    "published": 3,
+    "dropped_safety": {
+      "politics": 2,
+      "geopolitics": 3,
+      "controversy": 1,
+      "harassment": 1,
+      "celebrity_dispute": 1,
+      "rumor": 1,
+      "minors": 1,
+      "public_safety": 1
+    },
+    "dropped_low_confidence": 28,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media",
+      "aggregator"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 18,
+      "official_sources": 2,
+      "state_media_sources": 3,
+      "major_media_sources": 9,
+      "aggregator_sources": 2,
+      "dropped_insufficient_evidence": 3
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 3,
+        "relaxed_48h": 9,
+        "relaxed_72h": 11
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 30,
+          "cumulative_unique_candidates": 30,
+          "source_scope": [
+            "公共热榜：百度热搜（仅热度佐证）",
+            "央媒：新华社/新华网/央视新闻/中国新闻网",
+            "持牌媒体：财新/澎湃新闻/上观新闻/21世纪经济报道/观察者网/经济观察网/每日经济新闻",
+            "政府机构：中央气象台/国家统计局/国新办发布会",
+            "搜索引擎全网交叉检索"
+          ]
+        },
+        {
+          "pass": 2,
+          "candidates_added": 15,
+          "cumulative_unique_candidates": 45,
+          "source_scope": [
+            "地方媒体：上游新闻/齐鲁网/地方日报系报道",
+            "知乎热榜与微博热议等社交平台公开榜单",
+            "短视频与社区平台公开热点线索"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-10-21-typhoon-qiaopi-shanghai",
+          "story_identity": "typhoon-qiaopi-shanghai-level-iv-response",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-10-21-typhoon-qiaopi-shanghai",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-21-national-data-group-established",
+          "story_identity": "national-data-group-xiongan-established",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T10:30:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "selected",
+          "item_id": "2026-10-21-national-data-group-established",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 19,
+            "everyday_relevance": 18,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-21-auto-testing-verification-rules",
+          "story_identity": "miit-auto-innovation-testing-verification-rules",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-21-auto-testing-verification-rules",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 19,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "yunda-courier-pregnant-customer-apology",
+          "story_identity": "yto-courier-pregnant-customer-doorstep-apology",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T22:30:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 17,
+            "everyday_relevance": 20,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "圆通10月19日深夜就客户取消订单被登记为投诉事件致歉并整改，发生时间超出所选strict_24h层级时效窗，且属单个加盟网点个案舆情，继续跟踪行业整改"
+        },
+        {
+          "candidate_key": "satellite-internet-three-poles-link",
+          "story_identity": "domestic-satellite-internet-three-poles-communication",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 16,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "国产卫星互联网19日完成北极、南极、青藏高原三极联网通信验证，新华社报道，超出24小时时效窗，与今日科技条目择优留待后续进展"
+        },
+        {
+          "candidate_key": "yangchenghu-crab-oversupply-rebuttal",
+          "story_identity": "yangchenghu-crab-association-rebuts-price-crash",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 16,
+            "everyday_relevance": 18,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "阳澄湖大闸蟹行业协会19日辟谣行情崩盘传言，北京商报等报道，超出24小时时效窗，辟谣类题材公共增量有限"
+        },
+        {
+          "candidate_key": "sixteen-depts-consumption-environment-month",
+          "story_identity": "sixteen-depts-optimize-consumption-environment-month",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 16,
+            "everyday_relevance": 21,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "16部门部署2026年全国优化消费环境月活动，含养老服务消费补贴等项目，为专项行动部署类发布，超出24小时时效窗"
+        },
+        {
+          "candidate_key": "sept-70-city-housing-prices",
+          "story_identity": "nbs-september-70-city-housing-price-data",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T09:30:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 16,
+            "everyday_relevance": 20,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "国家统计局19日发布9月70城房价数据，一线环比继续上涨、二三线降幅收窄，为例行月度数据发布，超出24小时时效窗"
+        },
+        {
+          "candidate_key": "cold-air-central-eastern-cooling",
+          "story_identity": "nmc-cold-air-central-eastern-cooling-oct20",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T16:49:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 18,
+            "everyday_relevance": 18,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "中央气象台20日提示冷空气致中东部多地降温超8℃，为例行天气提醒，同日已选台风蔷琵条目覆盖天气主题，避免重复"
+        },
+        {
+          "candidate_key": "double-11-first-sale-oct20",
+          "story_identity": "taobao-jd-double-11-first-sale-oct20",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "淘宝京东双11于10月20日晚8点开启开门红现货场，目前仅见平台营销稿与地方融媒转发，缺少权威媒体独立报道，证据不足不采用"
+        },
+        {
+          "candidate_key": "flight-winter-spring-season-change",
+          "story_identity": "caac-winter-spring-season-schedule-oct25",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 15,
+            "everyday_relevance": 21,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "全国民航10月25日起执行冬春航季航班计划，各地机场陆续发布新航线，为年度例行换季提醒，正式换季后如有实质新线再报"
+        },
+        {
+          "candidate_key": "csl-haigang-3-0-rongcheng",
+          "story_identity": "csl-round28-shanghai-port-chengdu-rongcheng",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T21:30:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 67,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 12,
+            "everyday_relevance": 17,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "中超第28轮上海海港3比0胜成都蓉城为18日晚赛事，临近72小时窗口且属联赛常规轮次结果"
+        },
+        {
+          "candidate_key": "escort-service-national-standard",
+          "story_identity": "medical-escort-service-first-national-standard",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 11,
+            "everyday_relevance": 24,
+            "evidence": 8
+          },
+          "drop_reason": "陪诊服务首项国家标准即将实施为17日报道，题材贴近老年就医但已临近72小时时效窗边缘，待正式施行节点再报"
+        },
+        {
+          "candidate_key": "national-cancer-center-top5-cancers",
+          "story_identity": "national-cancer-center-top5-incidence-report",
+          "research_pass": 1,
+          "occurred_at": "2026-10-12T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 10,
+            "everyday_relevance": 18,
+            "evidence": 7
+          },
+          "drop_reason": "国家癌症中心发病前五癌症数据登热搜，但报告发布于更早日期，超出72小时时效窗，不作为新事件"
+        },
+        {
+          "candidate_key": "ielts-cancellation-followup",
+          "story_identity": "ielts-test-cancellation-makeup-arrangement",
+          "research_pass": 1,
+          "occurred_at": "2026-10-13T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 8,
+            "everyday_relevance": 20,
+            "evidence": 8
+          },
+          "drop_reason": "雅思考试临时取消后续安排为10月13日前后进展，已超出72小时时效窗"
+        },
+        {
+          "candidate_key": "minimax-m3-flash-release",
+          "story_identity": "minimax-m31-flash-model-release",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 10,
+            "evidence": 8
+          },
+          "drop_reason": "MiniMax发布M3.1 Flash模型为企业产品发布，普通读者日常关联度一般"
+        },
+        {
+          "candidate_key": "chery-global-innovation-conference",
+          "story_identity": "chery-2026-global-innovation-conference-wuhu",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 18,
+            "everyday_relevance": 9,
+            "evidence": 7
+          },
+          "drop_reason": "2026奇瑞全球创新大会在芜湖举办并发布车规芯片等，为企业发布会活动"
+        },
+        {
+          "candidate_key": "beijing-office-rent-q3-report",
+          "story_identity": "beijing-office-rent-q3-jll-report",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T11:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 53,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 17,
+            "everyday_relevance": 9,
+            "evidence": 7
+          },
+          "drop_reason": "仲量联行20日发布三季度北京办公楼租金报告，为商业地产机构研究数据，读者面较窄"
+        },
+        {
+          "candidate_key": "indonesia-ferry-fire",
+          "story_identity": "indonesia-passenger-ferry-fire-evacuation",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T20:47:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 48,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 17,
+            "everyday_relevance": 5,
+            "evidence": 6
+          },
+          "drop_reason": "印尼客运渡轮起火为海外地方事故，与中国读者日常无直接关联，不作条目"
+        },
+        {
+          "candidate_key": "a-share-expensive-divorce-case",
+          "story_identity": "a-share-company-executive-expensive-divorce",
+          "research_pass": 1,
+          "occurred_at": "2026-10-13T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 8,
+            "everyday_relevance": 9,
+            "evidence": 8
+          },
+          "drop_reason": "A股公司高管离婚分割股份为资本市场个案，且发生在10月13日前后已超72小时"
+        },
+        {
+          "candidate_key": "sam-club-ai-fake-video-response",
+          "story_identity": "sam-club-quality-video-ai-fake-response",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 15,
+            "everyday_relevance": 12,
+            "evidence": 8
+          },
+          "drop_reason": "山姆回应品质暴跌热搜视频系AI造假，为企业舆情回应，事件性与公共增量一般"
+        },
+        {
+          "candidate_key": "gopro-stake-sale-progress",
+          "story_identity": "gopro-controlling-stake-sale-progress",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T09:00:00+08:00",
+          "scope": "international",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 44,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 16,
+            "everyday_relevance": 4,
+            "evidence": 6
+          },
+          "drop_reason": "GoPro出售控股权交易推进为海外公司资本事件，与中国读者日常无直接关联"
+        },
+        {
+          "candidate_key": "li-auto-chip-subsidiary-financing",
+          "story_identity": "li-auto-chip-subsidiary-independent-financing",
+          "research_pass": 1,
+          "occurred_at": "2026-10-17T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 12,
+            "everyday_relevance": 10,
+            "evidence": 8
+          },
+          "drop_reason": "理想汽车芯片子公司独立融资为企业资本动作，公开信息以财新报道为主，日常关联度一般"
+        },
+        {
+          "candidate_key": "shanghai-masters-final-wrap",
+          "story_identity": "atp-shanghai-masters-2026-final-wrap",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 12,
+            "everyday_relevance": 11,
+            "evidence": 8
+          },
+          "drop_reason": "上海大师赛18日收官，19日信封已选弗基纳夺冠条目，不再重复"
+        },
+        {
+          "candidate_key": "wuhan-open-final-wrap",
+          "story_identity": "wta-wuhan-open-2026-final-wrap",
+          "research_pass": 1,
+          "occurred_at": "2026-10-18T21:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 12,
+            "everyday_relevance": 10,
+            "evidence": 7
+          },
+          "drop_reason": "武网18日晚收官，前日账本已记录并因时效与网球连选未采用，今日仍超48小时"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-5",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "apple-oct29-event-announcement",
+          "story_identity": "apple-october-29-product-event-announcement",
+          "research_pass": 2,
+          "occurred_at": "2026-10-20T13:25:00+08:00",
+          "scope": "international",
+          "topic": "科技AI",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "苹果官宣10月29日新品发布目前仅见科技自媒体转述，缺少可核实的官方页面与主流媒体报道，证据不足不采用"
+        },
+        {
+          "candidate_key": "mc-download-block-rumor",
+          "story_identity": "mc-download-restriction-rumor-zhihu",
+          "research_pass": 2,
+          "occurred_at": "2026-10-20T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "知乎热议疑似相关下载受限，仅见网友发帖与猜测，无任何权威信息源核实，传闻不采用"
+        },
+        {
+          "candidate_key": "feng-yuanzheng-theater-recruitment",
+          "story_identity": "feng-yuanzheng-theater-actress-height-topic",
+          "research_pass": 2,
+          "occurred_at": "2026-10-18T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 12,
+            "everyday_relevance": 8,
+            "evidence": 6
+          },
+          "drop_reason": "冯远征谈话剧院招生话题登知乎热榜，为访谈观点类讨论，非新闻事件"
+        },
+        {
+          "candidate_key": "auto-hold-feature-debate",
+          "story_identity": "auto-hold-feature-user-experience-debate",
+          "research_pass": 2,
+          "occurred_at": "2026-10-18T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 46,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 12,
+            "everyday_relevance": 6,
+            "evidence": 6
+          },
+          "drop_reason": "自动驻车功能使用体验讨论为社区话题，无事件性进展"
+        },
+        {
+          "candidate_key": "changxin-tech-earnings-forecast",
+          "story_identity": "changxin-tech-2026-q3-earnings-forecast",
+          "research_pass": 2,
+          "occurred_at": "2026-10-18T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 48,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 12,
+            "everyday_relevance": 7,
+            "evidence": 6
+          },
+          "drop_reason": "长鑫科技业绩预期为产业财经消息，公开核实渠道有限"
+        },
+        {
+          "candidate_key": "xiamen-heritage-day-events",
+          "story_identity": "xiamen-intangible-heritage-day-events",
+          "research_pass": 2,
+          "occurred_at": "2026-10-19T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 44,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 14,
+            "everyday_relevance": 6,
+            "evidence": 5
+          },
+          "drop_reason": "厦门国际非物质文化遗产日系列活动开幕为地方文旅活动预告"
+        },
+        {
+          "candidate_key": "shijingshan-heritage-week",
+          "story_identity": "beijing-shijingshan-heritage-exhibition-week",
+          "research_pass": 2,
+          "occurred_at": "2026-10-20T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 40,
+          "score_breakdown": {
+            "heat": 17,
+            "freshness": 15,
+            "everyday_relevance": 4,
+            "evidence": 4
+          },
+          "drop_reason": "北京石景山区非遗展览周为区级文化活动预告，公共新闻价值有限"
+        },
+        {
+          "candidate_key": "houpeng-tech-stock-limit-up",
+          "story_identity": "houpeng-tech-stock-limit-up-analysis",
+          "research_pass": 2,
+          "occurred_at": "2026-10-20T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 38,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 14,
+            "everyday_relevance": 3,
+            "evidence": 5
+          },
+          "drop_reason": "个股涨停分析为股市行情内容，不符合民生新闻定位"
+        },
+        {
+          "candidate_key": "wuxi-ai-conference-embodied",
+          "story_identity": "xuzhou-ai-conference-embodied-intelligence",
+          "research_pass": 2,
+          "occurred_at": "2026-10-19T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 41,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 13,
+            "everyday_relevance": 5,
+            "evidence": 5
+          },
+          "drop_reason": "徐州人工智能大会发布行业具身智能方案，为地方性行业会议"
+        },
+        {
+          "candidate_key": "candidate-6",
+          "research_pass": 2,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        },
+        {
+          "candidate_key": "candidate-7",
+          "research_pass": 2,
+          "outcome": "dropped_safety",
+          "drop_reason": "harassment"
+        },
+        {
+          "candidate_key": "candidate-8",
+          "research_pass": 2,
+          "outcome": "dropped_safety",
+          "drop_reason": "celebrity_dispute"
+        },
+        {
+          "candidate_key": "candidate-9",
+          "research_pass": 2,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        },
+        {
+          "candidate_key": "candidate-10",
+          "research_pass": 2,
+          "outcome": "dropped_safety",
+          "drop_reason": "minors"
+        },
+        {
+          "candidate_key": "candidate-11",
+          "research_pass": 2,
+          "outcome": "dropped_safety",
+          "drop_reason": "public_safety"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-10-21-typhoon-qiaopi-shanghai",
+      "story_identity": "typhoon-qiaopi-shanghai-level-iv-response",
+      "headline": "🌀 超强台风“蔷琵”逼近，上海启动Ⅳ级防台应急响应",
+      "summary": "中央气象台10月20日通报，今年第30号台风“蔷琵”已达超强台风级，预计23日夜间到24日进入东海，不排除登陆台湾后二次登陆福建沿海。上海海事局已启动Ⅳ级防台应急响应。受外围云系与冷空气共同影响，23日下午到25日上海有连续降水，沿江沿海阵风可达8到9级，市民周末出行注意防风避雨。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 85,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 19,
+        "everyday_relevance": 20,
+        "evidence": 13
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-10-20T15:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "台风预警与应急响应信息，以中央气象台通报及澎湃新闻、上观新闻报道为准，克制陈述路径与防御提示，不渲染灾情"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "澎湃新闻",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34288294",
+          "title": "受台风“蔷琵”外围云系和冷空气影响，上海本周五至周六或迎暴雨",
+          "captured_at": "2026-10-21T06:17:00+08:00",
+          "note": "澎湃新闻10月20日：受蔷琵外围云系和冷空气共同影响，23日下午到25日上海有连续降水过程，沿江沿海地区风力可达8至9级"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "上观新闻",
+          "url": "https://www.jfdaily.com/news/detail?id=1197488",
+          "title": "台风“蔷琵”外围云系将影响上海，或出现暴雨天气！Ⅳ级防台应急响应启动",
+          "captured_at": "2026-10-21T06:17:30+08:00",
+          "note": "上观新闻10月20日：中央气象台发布蔷琵为超强台风级，预计23日夜间到24日进入东海，上海海事局启动Ⅳ级防台应急响应"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "看看新闻",
+          "url": "https://www.kankanews.com/detail/LMwVGaaY02z",
+          "title": "台风“蔷琵”外围云系将影响上海！上海海事局已启动Ⅳ级防台应急响应",
+          "captured_at": "2026-10-21T06:18:00+08:00",
+          "note": "看看新闻10月20日：蔷琵20日08时位于台北东偏南约1780公里洋面，中心最低气压915百帕，不排除登陆台湾后二次登陆福建沿海"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-21-national-data-group-established",
+      "story_identity": "national-data-group-xiongan-established",
+      "headline": "🏛️ 新央企国家数据集团在雄安新区成立",
+      "summary": "10月20日，国家数据集团有限公司在河北雄安新区正式成立。该集团是以数据资源开发利用为主责主业的国有全资中央企业，由国务院、雄安新区管委会及中国电信、中国联通、中国移动、国家电网、南方电网共同出资组建，将推进优质数据资源整合与数据基础设施建设，助力数据要素市场化配置。",
+      "category": "文化数字经济",
+      "scope": "domestic",
+      "topic": "科技AI",
+      "score": 84,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 19,
+        "everyday_relevance": 18,
+        "evidence": 13
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-10-20T10:30:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "央企组建公开报道，以新华社消息与财新、每日经济新闻核实为准，仅陈述成立事实与出资结构"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "财新网",
+          "url": "https://www.caixin.com/2026-10-20/102495376.html",
+          "title": "国家数据集团成立 计划推进数据资源开发利用",
+          "captured_at": "2026-10-21T06:18:30+08:00",
+          "note": "财新网10月20日：国家数据集团为国有全资公司，由国务院、河北雄安新区管委会、三大运营商及两家电网共同出资组建，总部注册地位于雄安新区"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "每日经济新闻",
+          "url": "https://www.nbd.com.cn/articles/2026-10-20/4609957.html",
+          "title": "国家数据集团成立",
+          "captured_at": "2026-10-21T06:19:00+08:00",
+          "note": "每经10月20日快讯：国家数据集团有限公司10月20日在河北雄安新区成立，以数据资源开发利用为主责主业"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "凤凰网",
+          "url": "https://news.ifeng.com/c/8xNgkSvK4ku",
+          "title": "国家数据集团成立",
+          "captured_at": "2026-10-21T06:19:30+08:00",
+          "note": "凤凰网10月20日转引新华社消息：国家数据集团有限公司在河北雄安新区成立"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-21-auto-testing-verification-rules",
+      "story_identity": "miit-auto-innovation-testing-verification-rules",
+      "headline": "🚗 工信部：防范未经充分测试验证的汽车产品入市",
+      "summary": "10月20日国新办发布会上，工业和信息化部总工程师王卫明表示，安全是汽车企业的生命线，将坚决防范不合理创新设计和未经充分测试验证的汽车产品入市。工信部已会同公安部、生态环境部、市场监管总局就相关管理通知公开征求意见，拟要求电吸门具备防夹功能、禁止行车中使用零重力座椅等，保障消费者用车安全。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 19,
+        "everyday_relevance": 21,
+        "evidence": 12
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-10-20T10:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "部委发布会与征求意见稿公开信息，以国新办发布会实录及21世纪经济报道、观察者网报道为准，仅陈述监管要求"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "21世纪经济报道",
+          "url": "https://www.21jingji.com/article/20261020/herald/40eabb55a09b6e2331e4da2944749b75.html",
+          "title": "坚决防范不合理创新设计和未经充分研发测试验证的汽车产品入市",
+          "captured_at": "2026-10-21T06:20:00+08:00",
+          "note": "21世纪经济报道10月20日：国新办发布会上工信部总工程师王卫明明确表态，同日四部门发布相关管理通知征求意见稿，新增隐藏式门把手、电吸门等技术参数申报要求"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "观察者网",
+          "url": "https://www.guancha.cn/CaiJing/2026_10_20_905113.shtml",
+          "title": "“坚决防范不合理创新设计和未经充分研发测试验证的汽车进入市场”",
+          "captured_at": "2026-10-21T06:20:30+08:00",
+          "note": "观察者网10月20日：工信部就进一步加强汽车产品创新设计和研发测试验证管理征求意见，回应部分企业跟风推出新产品、测试验证不充分问题"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "经济观察网",
+          "url": "http://www.eeo.com.cn/2026/1020/1071216.shtml",
+          "title": "坚决防范不合理创新设计和未经充分研发测试验证的汽车产品入市",
+          "captured_at": "2026-10-21T06:21:00+08:00",
+          "note": "经济观察网10月20日：新规拟要求电吸门必须具备防夹功能，禁止车辆行驶状态下使用零重力座椅、座椅放倒成床等功能"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
