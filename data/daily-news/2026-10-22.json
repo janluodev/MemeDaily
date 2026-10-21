@@ -1,0 +1,975 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-100point-domestic-majority",
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T06:39:03+08:00",
+  "published_at": "2026-10-22T06:39:03+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 45,
+    "published": 6,
+    "dropped_safety": {
+      "politics": 2,
+      "geopolitics": 4,
+      "propaganda": 1,
+      "rumor": 1,
+      "celebrity_dispute": 1,
+      "minors": 1,
+      "privacy": 1,
+      "controversy": 1
+    },
+    "dropped_low_confidence": 24,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media",
+      "aggregator"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 33,
+      "official_sources": 2,
+      "state_media_sources": 7,
+      "major_media_sources": 11,
+      "aggregator_sources": 3,
+      "dropped_insufficient_evidence": 3
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 6,
+        "relaxed_48h": 11,
+        "relaxed_72h": 17
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 30,
+          "cumulative_unique_candidates": 30,
+          "source_scope": [
+            "搜索引擎全网交叉检索与公共热榜线索（百度/微博热搜仅热度佐证）",
+            "央媒：新华社/人民网/央视网/中国新闻网/央广网",
+            "持牌媒体：财新/澎湃新闻/21世纪经济报道/经济观察网/观察者网",
+            "政府机构与发布：中央气象台/中国人民银行/市场监管总局"
+          ]
+        },
+        {
+          "pass": 2,
+          "candidates_added": 15,
+          "cumulative_unique_candidates": 45,
+          "source_scope": [
+            "财经媒体每日汇总（财新mini财新闻/东方财富专题/聚合日报线索）",
+            "地方持牌媒体：新黄河/大河财立方/新京报/北方网",
+            "社交平台热议与传闻核查"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-10-22-typhoon-qiaopi-min-zhe-response",
+          "story_identity": "typhoon-qiaopi-fujian-zhejiang-emergency-response",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T11:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-10-22-typhoon-qiaopi-min-zhe-response",
+          "score": 87,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 19,
+            "everyday_relevance": 21,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-22-starbucks-dine-in-policy",
+          "story_identity": "starbucks-china-dine-in-consumption-policy-oct22",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T11:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-22-starbucks-dine-in-policy",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 19,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-22-guokao-registration-halfway",
+          "story_identity": "2027-guokao-registration-halfway-2800-ratio",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T07:25:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "selected",
+          "item_id": "2026-10-22-guokao-registration-halfway",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 17,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-22-hitch-ride-compliance-probe",
+          "story_identity": "ride-hitch-compliance-boundary-investigation",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T08:40:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-10-22-hitch-ride-compliance-probe",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 17,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-22-long-march-90th-coins",
+          "story_identity": "pbc-long-march-90th-anniversary-gold-silver-coins",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T17:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-10-22-long-march-90th-coins",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 18,
+            "everyday_relevance": 17,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-22-online-food-ads-cases",
+          "story_identity": "samr-second-batch-online-food-false-ads-cases",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-22-online-food-ads-cases",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 18,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "cmef-pharmchina-expos-beijing-open",
+          "story_identity": "cmef-94-pharmchina-93-beijing-expos",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 17,
+            "everyday_relevance": 17,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "医药双展10月21日在京开幕，新京报报道，行业展会属性为主、评分未达所选strict_24h层级75分线"
+        },
+        {
+          "candidate_key": "temperature-rebound-oct22",
+          "story_identity": "nmc-cold-air-ends-warming-oct22",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T11:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 15,
+            "everyday_relevance": 16,
+            "evidence": 7
+          },
+          "drop_reason": "冷空气影响基本结束、22日起气温自北向南回升为常规天气回眸，公共增量有限"
+        },
+        {
+          "candidate_key": "tibet-wildlife-compensation",
+          "story_identity": "tibet-wildlife-damage-compensation-regulation",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 15,
+            "everyday_relevance": 21,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "西藏野生动物致害补偿规定20日发布、2027年元旦起施行，为地域性法规进展且超出24小时时效窗"
+        },
+        {
+          "candidate_key": "hk-late-october-heat-record",
+          "story_identity": "hong-kong-late-october-heat-record",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 16,
+            "everyday_relevance": 17,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "香港10月下旬酷热天气打破历史最晚纪录为区域性天气纪录，评分未达所选层级"
+        },
+        {
+          "candidate_key": "innovative-drugs-80-percent",
+          "story_identity": "china-innovative-drugs-80-percent-q3",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 67,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 15,
+            "everyday_relevance": 15,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "前三季度我国获批创新药国产占比达80%为产业数据发布，普通读者日常关联度一般"
+        },
+        {
+          "candidate_key": "long-march-relics-survey",
+          "story_identity": "long-march-cultural-relics-national-survey",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 14,
+            "everyday_relevance": 18,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "长征文物资源家底摸清为文物普查成果发布，与今日长征纪念币条目题材相近，择优保留其一"
+        },
+        {
+          "candidate_key": "liangzhu-mausoleum-finding",
+          "story_identity": "liangzhu-archaeology-mausoleum-system-finding",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 15,
+            "everyday_relevance": 17,
+            "evidence": 7
+          },
+          "drop_reason": "良渚考古公布新进展为学术性考古成果，大众新闻增量有限"
+        },
+        {
+          "candidate_key": "expressway-escape-lane-cooking-fine",
+          "story_identity": "expressway-escape-lane-cooking-fine",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 14,
+            "everyday_relevance": 12,
+            "evidence": 6
+          },
+          "drop_reason": "车辆故障后高速避险车道生火做饭被交警处罚为个案趣闻，公共价值有限"
+        },
+        {
+          "candidate_key": "ridehail-driver-overcharge-case",
+          "story_identity": "ridehail-driver-overcharge-150-yuan-case",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 13,
+            "everyday_relevance": 12,
+            "evidence": 6
+          },
+          "drop_reason": "网约车司机多收车费150元被立案查处为单个执法个案"
+        },
+        {
+          "candidate_key": "china-u16-football-two-wins",
+          "story_identity": "china-u16-football-two-wins",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T19:30:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 15,
+            "everyday_relevance": 11,
+            "evidence": 7
+          },
+          "drop_reason": "U16国足两连胜为青少年赛事常规战报"
+        },
+        {
+          "candidate_key": "carbon-market-1-billion-tonnes",
+          "story_identity": "national-carbon-market-volume-1-billion",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 15,
+            "everyday_relevance": 15,
+            "evidence": 9
+          },
+          "drop_reason": "全国碳排放权交易市场成交量突破10亿吨为市场里程碑数据，日常关联度一般"
+        },
+        {
+          "candidate_key": "mother-river-recovery-standard",
+          "story_identity": "water-ministry-mother-river-recovery-standard",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 56,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 14,
+            "everyday_relevance": 15,
+            "evidence": 7
+          },
+          "drop_reason": "水利部出台母亲河复苏行动标准为行业管理文件，读者面较窄"
+        },
+        {
+          "candidate_key": "jiangxi-ev-exports-record",
+          "story_identity": "jiangxi-ev-exports-record-q3",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 12,
+            "everyday_relevance": 13,
+            "evidence": 8
+          },
+          "drop_reason": "南昌海关公布江西电动车出口创历史同期新高为地方外贸数据"
+        },
+        {
+          "candidate_key": "jjj-trade-record-q3",
+          "story_identity": "beijing-tianjin-hebei-trade-record-q3",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 56,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 12,
+            "everyday_relevance": 13,
+            "evidence": 8
+          },
+          "drop_reason": "京津冀前三季度进出口总值创历史同期新高为区域外贸数据"
+        },
+        {
+          "candidate_key": "brand-internationalization-forum",
+          "story_identity": "china-brand-internationalization-forum-haikou",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 12,
+            "everyday_relevance": 11,
+            "evidence": 6
+          },
+          "drop_reason": "中国品牌国际化论坛在海口开幕为行业会议活动"
+        },
+        {
+          "candidate_key": "financial-street-forum-jjj",
+          "story_identity": "financial-street-forum-jingjinji-innovation",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 12,
+            "everyday_relevance": 12,
+            "evidence": 6
+          },
+          "drop_reason": "金融街论坛年会专场发布京津冀科创金融方案为行业会议成果"
+        },
+        {
+          "candidate_key": "bund-green-finance-report",
+          "story_identity": "bund-green-finance-report-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 48,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 12,
+            "everyday_relevance": 10,
+            "evidence": 6
+          },
+          "drop_reason": "外滩绿色金融报告发布为机构研究成果，读者面较窄"
+        },
+        {
+          "candidate_key": "daocheng-yading-trek-death",
+          "story_identity": "daocheng-yading-illegal-trek-death",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 16,
+            "everyday_relevance": 17,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "男子非法穿越稻城亚丁因高反身亡为户外事故个案，前日已选徒步安全题材，避免同类重复与悲剧消费"
+        },
+        {
+          "candidate_key": "apple-oct28-event-rumor",
+          "story_identity": "apple-october-pro-and-tell-event",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T13:25:00+08:00",
+          "scope": "international",
+          "topic": "科技AI",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "苹果官宣10月下旬新品发布会目前仅见财经门户专题与自媒体转述，日期口径不一，缺官方页面与主流媒体独立核实"
+        },
+        {
+          "candidate_key": "guangdong-ashes-room-rumor",
+          "story_identity": "guangdong-residential-ashes-room-rumor",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T17:19:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "广东一小区疑似骨灰房说法仅见自媒体账号发布，无任何权威信息源核实"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "langlang-vienna-philharmonic-reunion",
+          "story_identity": "langlang-vienna-philharmonic-reunion",
+          "research_pass": 2,
+          "occurred_at": "2026-10-20T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 16,
+            "everyday_relevance": 15,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "郎朗与维也纳爱乐乐团时隔8年再度同台为演出文化消息，受众偏圈层且超24小时时效窗"
+        },
+        {
+          "candidate_key": "cracked-ai-apps-investigation",
+          "story_identity": "secondhand-platform-cracked-ai-investigation",
+          "research_pass": 2,
+          "occurred_at": "2026-10-21T08:55:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 17,
+            "everyday_relevance": 20,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "二手平台破解版AI调查为消费警示题材，与已选市场监管典型案例部分重叠，择优保留证据更完整条目"
+        },
+        {
+          "candidate_key": "qudian-founder-back-tax",
+          "story_identity": "qudian-luomin-back-tax-790-million",
+          "research_pass": 2,
+          "occurred_at": "2026-10-21T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 14,
+            "everyday_relevance": 12,
+            "evidence": 8
+          },
+          "drop_reason": "趣店创始人补缴个税7.9亿元为企业个案税务事项，民生关联有限"
+        },
+        {
+          "candidate_key": "tianjin-housing-fund-new-rule",
+          "story_identity": "tianjin-housing-provident-fund-new-rule",
+          "research_pass": 2,
+          "occurred_at": "2026-10-21T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 16,
+            "everyday_relevance": 20,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "天津出台公积金新规新增提取情形为地方公积金调整，评分未达所选strict_24h层级"
+        },
+        {
+          "candidate_key": "banks-remote-deposit-restrictions",
+          "story_identity": "14-banks-remote-deposit-restrictions",
+          "research_pass": 2,
+          "occurred_at": "2026-10-20T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 15,
+            "everyday_relevance": 21,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "14家银行叫停或限制个人异地存款，存量业务不受即时影响，报道总量口径有限且超出24小时窗，继续观察"
+        },
+        {
+          "candidate_key": "south-north-water-annual-transfer",
+          "story_identity": "south-to-north-water-east-route-annual-transfer",
+          "research_pass": 2,
+          "occurred_at": "2026-10-21T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 15,
+            "everyday_relevance": 18,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "南水北调东线一期年度全线调水启动为年度例行工程进展"
+        },
+        {
+          "candidate_key": "phone-price-crash-rumor",
+          "story_identity": "mobile-phone-price-crash-rumor-selfmedia",
+          "research_pass": 2,
+          "occurred_at": "2026-10-21T09:21:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "手机暴跌说法为自媒体演绎的传闻式标题，缺乏权威数据与主流媒体核实"
+        },
+        {
+          "candidate_key": "candidate-5",
+          "research_pass": 2,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-6",
+          "research_pass": 2,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-7",
+          "research_pass": 2,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-8",
+          "research_pass": 2,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        },
+        {
+          "candidate_key": "candidate-9",
+          "research_pass": 2,
+          "outcome": "dropped_safety",
+          "drop_reason": "celebrity_dispute"
+        },
+        {
+          "candidate_key": "candidate-10",
+          "research_pass": 2,
+          "outcome": "dropped_safety",
+          "drop_reason": "minors"
+        },
+        {
+          "candidate_key": "candidate-11",
+          "research_pass": 2,
+          "outcome": "dropped_safety",
+          "drop_reason": "privacy"
+        },
+        {
+          "candidate_key": "candidate-12",
+          "research_pass": 2,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-10-22-typhoon-qiaopi-min-zhe-response",
+      "story_identity": "typhoon-qiaopi-fujian-zhejiang-emergency-response",
+      "headline": "🌀 超强台风“蔷琵”逼近，闽浙启动防台风应急响应",
+      "summary": "新华社消息，福建省防指10月21日11时启动防台风四级应急响应，浙江省防指同日9时启动海上防台风应急响应。“蔷琵”预计22日中午前后进入福建台风警戒区，23日夜间至26日福建、浙江、上海等地有大到暴雨，沿海居民注意防范。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 87,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 19,
+        "everyday_relevance": 21,
+        "evidence": 13
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-10-21T11:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "台风预警与应急响应信息，以新华社、中央气象台通报为准，克制陈述路径与防御提示，不渲染灾情"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.news.cn/local/20261021/fc4b425e3a5242f3b38276c3ba278e3e/c.html",
+          "title": "防范“蔷琵” 福建启动防台风四级应急响应",
+          "captured_at": "2026-10-22T06:11:00+08:00",
+          "note": "新华社福州10月21日电：福建省防指21日11时启动防台风四级应急响应，蔷琵预计22日中午前后进入福建省台风警戒区"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "经济观察网",
+          "url": "http://www.eeo.com.cn/2026/1021/1071982.shtml",
+          "title": "超强台风“蔷琵”逼近 浙江启动海上防台风应急响应",
+          "captured_at": "2026-10-22T06:11:30+08:00",
+          "note": "经济观察网10月21日：浙江省防指21日9时启动海上防台风应急响应，预计23日夜间至26日闽浙沪等地有大到暴雨"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "北方网",
+          "url": "http://news.enorth.com.cn/system/2026/10/21/059914304.shtml",
+          "title": "超强台风“蔷琵”逼近 浙江启动海上防台风应急响应",
+          "captured_at": "2026-10-22T06:12:00+08:00",
+          "note": "北方网10月21日：中央气象台21日10时继续发布台风蓝色预警，东海及台湾海峡等海域有6至8级大风"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-22-starbucks-dine-in-policy",
+      "story_identity": "starbucks-china-dine-in-consumption-policy-oct22",
+      "headline": "☕ 星巴克中国今起在全国门店施行“消费入座”",
+      "summary": "星巴克中国10月21日宣布，自10月22日起在全国门店施行消费入座，门店将摆放提示牌，未消费顾客将无法使用座位；遇孕妇、行动不便者等将优先给予帮助。公司同时披露新财年将投入超3亿元焕新约1000家门店设施与服务。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 84,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 19,
+        "everyday_relevance": 22,
+        "evidence": 12
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-10-21T11:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "企业公开宣布的门店规则调整，以财新、21世纪经济报道、观察者网核实为准，仅陈述规则与配套安排，不作消费引导"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "财新网",
+          "url": "https://www.caixin.com/2026-10-21/102495694.html",
+          "title": "星巴克中国实施入座消费 将投入3亿元升级门店",
+          "captured_at": "2026-10-22T06:09:00+08:00",
+          "note": "财新网10月21日：星巴克中国宣布10月22日起在全国施行消费入座，门店会摆放相关提示牌"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "21世纪经济报道",
+          "url": "https://www.21jingji.com/article/20261021/herald/7bc973c3d618b1d900caf2891a3d48ff.html",
+          "title": "星巴克中国：10月22日起全国施行消费入座",
+          "captured_at": "2026-10-22T06:19:00+08:00",
+          "note": "21世纪经济报道10月21日：遇孕妇、行动不便者等需要帮助的顾客，店员将优先给予帮助"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "观察者网",
+          "url": "https://www.guancha.cn/CaiJing/2026_10_21_905206.shtml",
+          "title": "星巴克确认：10月22日起消费入座",
+          "captured_at": "2026-10-22T06:19:30+08:00",
+          "note": "观察者网10月21日从星巴克中国方面获悉全国门店消费入座安排"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-22-guokao-registration-halfway",
+      "story_identity": "2027-guokao-registration-halfway-2800-ratio",
+      "headline": "📝 2027年度国考报名过半，热门岗位报录比超2800:1",
+      "summary": "据中国新闻网报道，2027年度国考报名已经过半，本次计划招录3.57万人，继续向应届生和基层一线倾斜，并新增实名实人认证防范“公考围岗”舞弊。截至10月20日16时，已有热门岗位报录比超过2800:1。报名将于10月24日18时截止。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "教育考试",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 17,
+        "everyday_relevance": 21,
+        "evidence": 12
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-10-21T07:25:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "国考报名公开进度数据，以中国新闻网报道为准，客观陈述不含报考建议"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718213.shtml",
+          "title": "国考报名时间过半，热门岗位报录比超2800:1",
+          "captured_at": "2026-10-22T06:13:00+08:00",
+          "note": "中新网北京10月21日电：2027年度国考报名过半，计划招录3.57万人，新增实名实人认证打击“公考围岗”舞弊"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "澎湃新闻",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34297093",
+          "title": "国考报名时间过半，部分热门岗位报录比超2800:1",
+          "captured_at": "2026-10-22T06:13:30+08:00",
+          "note": "澎湃新闻10月21日转引中新网：截至10月20日16时最热岗位报录比2862:1，报名24日18时截止"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-22-hitch-ride-compliance-probe",
+      "story_identity": "ride-hitch-compliance-boundary-investigation",
+      "headline": "🚗 跨城接单20次进“黑名单”？顺风车合规边界引关注",
+      "summary": "中国新闻网10月21日调查报道，部分车主以顺风车之名高频接单、行营运之实，南京等地已查处日均接单超20单仍自称“顺风合乘”的案例，多地正加大非法营运整治力度。专家提示顺风车与网约车法律属性不同，职业化接单存在保险与安全隐患。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 17,
+        "everyday_relevance": 21,
+        "evidence": 12
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-10-21T08:40:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "媒体调查报道，以中国新闻网、新黄河核实为准，客观呈现合规讨论，不针对具体平台与司机个人"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718286.shtml",
+          "title": "跨城接单20次就进“黑名单”？顺风车的合规边界该怎么划",
+          "captured_at": "2026-10-22T06:14:00+08:00",
+          "note": "中新网10月21日调查：部分车主以顺风车之名行营运之实，多地加大对假借顺风车名义非法营运的整治力度"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "新黄河",
+          "url": "https://www.jinantimes.com.cn/news-235-5334885.html",
+          "title": "跨城接单20次就进“黑名单”？顺风车的合规边界该怎么划",
+          "captured_at": "2026-10-22T06:14:30+08:00",
+          "note": "新黄河10月21日：东南大学专家顾大松解读顺风车与网约车法律属性区别，职业化接单存在保险与安全隐患"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-22-long-march-90th-coins",
+      "story_identity": "pbc-long-march-90th-anniversary-gold-silver-coins",
+      "headline": "🪙 央行10月22日发行长征胜利90周年金银纪念币",
+      "summary": "中国人民银行10月21日公告，定于10月22日发行中国工农红军长征胜利90周年金银纪念币一套，共2枚，均为法定货币。8克圆形金质纪念币最大发行量1万枚，背面为红军过雪山草地场景；30克圆形银质纪念币背面为长征到陕北雕塑、延安宝塔山图案。",
+      "category": "文化数字经济",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 77,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 18,
+        "everyday_relevance": 17,
+        "evidence": 13
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-10-21T17:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "央行法定货币发行公告，以人民网、央视网、中国新闻网为准，不含购买引导与升值暗示"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "人民网",
+          "url": "http://politics.people.com.cn/n1/2026/1021/c461001-40819126.html",
+          "title": "中国工农红军长征胜利90周年金银纪念币即将发行",
+          "captured_at": "2026-10-22T06:22:00+08:00",
+          "note": "人民网10月21日：中国人民银行21日发布公告，定于10月22日发行该套纪念币，8克金币最大发行量1万枚"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://news.cctv.com/2026/10/21/ARTIfIMdAkONpCw9RM9OWdlM261021.shtml",
+          "title": "中国人民银行定于10月22日发行中国工农红军长征胜利90周年金银纪念币一套",
+          "captured_at": "2026-10-22T06:22:30+08:00",
+          "note": "央视网10月21日：该套金银纪念币共2枚，金质、银质各1枚，均为中华人民共和国法定货币"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "http://www.chinanews.com.cn/cj/2026/10-21/10718610.shtml",
+          "title": "中国工农红军长征胜利90周年金银纪念币10月22日发行",
+          "captured_at": "2026-10-22T06:23:00+08:00",
+          "note": "中新网10月21日：据中国人民银行微信公众号消息发布发行安排"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-22-online-food-ads-cases",
+      "story_identity": "samr-second-batch-online-food-false-ads-cases",
+      "headline": "🛒 市场监管总局公布第二批网售食品虚假宣传典型案例",
+      "summary": "市场监管总局10月21日公布第二批网络食品销售虚假宣传典型案例，共6起，聚焦网络食品销售虚假宣传、误导消费等突出问题，涉及山西晋城弘华养生馆保健食品虚假宣传案等。今年以来监管部门持续治理网售食品营销乱象，提醒消费者警惕普通食品“保健功效”话术。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 77,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 18,
+        "everyday_relevance": 21,
+        "evidence": 12
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-10-21T12:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "监管部门公开通报，以大河财立方、新浪财经核实为准，客观陈述案件公布信息"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "大河财立方",
+          "url": "https://app.dahecube.com/article.html?artid=290503",
+          "title": "市场监管总局发布第二批网络食品销售虚假宣传典型案例",
+          "captured_at": "2026-10-22T06:23:30+08:00",
+          "note": "大河财立方10月21日：市场监管总局发布第二批共6起典型案例，聚焦保健食品虚假宣传、误导消费等突出问题"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "新浪财经",
+          "url": "https://finance.sina.com.cn/jjxw/2026-10-21/doc-inivynsm5510121.shtml",
+          "title": "聚焦网络食品销售虚假宣传等问题 市场监管总局公布6起典型案例",
+          "captured_at": "2026-10-22T06:24:00+08:00",
+          "note": "新浪财经10月21日：山西晋城弘华养生馆等6起案件被公布"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
