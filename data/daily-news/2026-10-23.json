@@ -1,0 +1,817 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T06:36:17+08:00",
+  "published_at": "2026-10-23T06:36:17+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 43,
+    "published": 4,
+    "dropped_safety": {
+      "politics": 2,
+      "propaganda": 4,
+      "geopolitics": 2,
+      "rumor": 3,
+      "minors": 1,
+      "controversy": 1
+    },
+    "dropped_low_confidence": 23,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 30,
+      "official_sources": 1,
+      "state_media_sources": 3,
+      "major_media_sources": 6,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 3
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 4,
+        "relaxed_48h": 7,
+        "relaxed_72h": 7
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 43,
+          "cumulative_unique_candidates": 43,
+          "source_scope": [
+            "公共热榜线索（百度热搜仅热度佐证）",
+            "央媒：新华社/央视网/央广网/中国新闻网",
+            "持牌媒体：21世纪经济报道/极目新闻/文汇报/蓝鲸新闻/凤凰网/新京报",
+            "政府机构与发布：应急管理部/中国地震台网/中央气象台"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-10-23-naqu-baqing-m7-earthquake",
+          "story_identity": "xizang-naqu-baqing-m7-earthquake",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T22:33:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-10-23-naqu-baqing-m7-earthquake",
+          "score": 92,
+          "score_breakdown": {
+            "heat": 38,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-23-table-tennis-mens-team-fourpeat",
+          "story_identity": "table-tennis-asian-championships-mens-team-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T22:30:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-10-23-table-tennis-mens-team-fourpeat",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 19,
+            "everyday_relevance": 16,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-23-guangzhou-metro-overtime-fee",
+          "story_identity": "guangzhou-metro-270min-overtime-fee",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-10-23-guangzhou-metro-overtime-fee",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 18,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-23-double11-ai-model-images",
+          "story_identity": "ecommerce-ai-generated-model-images",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-23-double11-ai-model-images",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 18,
+            "everyday_relevance": 21,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "typhoon-qiangpi-path-update",
+          "story_identity": "typhoon-qiangpi-approach-and-turn",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T06:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 17,
+            "everyday_relevance": 17,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "台风蔷琵已连续两日入选，22日预警与转向预报无实质新进展，控制题材重复"
+        },
+        {
+          "candidate_key": "hongguo-short-drama-coin-feature-exit",
+          "story_identity": "hongguo-short-drama-coin-feature-phaseout",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T16:12:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 16,
+            "everyday_relevance": 18,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "平台公告类行业调整，事件时点已满48小时内但评分未达当日strict_24h层级75分线"
+        },
+        {
+          "candidate_key": "table-tennis-womens-team-final-runner-up",
+          "story_identity": "table-tennis-asian-championships-womens-team-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T20:30:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 18,
+            "everyday_relevance": 15,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "与已选男团夺冠同属亚锦赛团体决赛日，评分未达strict_24h线，控制同题材集中度"
+        },
+        {
+          "candidate_key": "qinghai-yushu-m43-quake",
+          "story_identity": "qinghai-yushu-zaduo-m43-quake",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T23:12:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 12,
+            "evidence": 6
+          },
+          "drop_reason": "4.3级地震无灾情报告，公共重要性不足"
+        },
+        {
+          "candidate_key": "us-stocks-chip-selloff",
+          "story_identity": "us-stocks-chip-optical-selloff",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T04:30:00+08:00",
+          "scope": "international",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 16,
+            "everyday_relevance": 12,
+            "evidence": 8
+          },
+          "drop_reason": "美股科技股回调属常规行情波动，对国内读者日常生活直接影响有限"
+        },
+        {
+          "candidate_key": "php2shell-vulnerability",
+          "story_identity": "php2shell-critical-vulnerability",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T08:00:00+08:00",
+          "scope": "international",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 17,
+            "everyday_relevance": 12,
+            "evidence": 8
+          },
+          "drop_reason": "漏洞影响以网站运维人群为主，权威中文报道与面向普通读者的补救指引尚不充分"
+        },
+        {
+          "candidate_key": "zhang-ben-0-11-loss",
+          "story_identity": "zhang-benzhihe-0-11-game-loss",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 45,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 16,
+            "everyday_relevance": 6,
+            "evidence": 5
+          },
+          "drop_reason": "单场比分花絮，民生相关性低"
+        },
+        {
+          "candidate_key": "cba-shougang-58-point-win",
+          "story_identity": "cba-shougang-shenzhen-58-point-win",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T21:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 42,
+          "score_breakdown": {
+            "heat": 17,
+            "freshness": 16,
+            "everyday_relevance": 5,
+            "evidence": 4
+          },
+          "drop_reason": "常规赛单场分差纪录，受众面窄"
+        },
+        {
+          "candidate_key": "audi-china-first-chinese-president",
+          "story_identity": "audi-china-first-chinese-president",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 16,
+            "everyday_relevance": 11,
+            "evidence": 7
+          },
+          "drop_reason": "车企人事任命，与普通读者日常生活关联较弱"
+        },
+        {
+          "candidate_key": "jetta-m6-launch",
+          "story_identity": "jetta-m6-chengdu-launch",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T19:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 48,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 15,
+            "everyday_relevance": 9,
+            "evidence": 5
+          },
+          "drop_reason": "新车上市商业发布，公共属性不足"
+        },
+        {
+          "candidate_key": "victoria-secret-2026-show",
+          "story_identity": "victoria-secret-2026-fashion-show",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T20:00:00+08:00",
+          "scope": "international",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 44,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 14,
+            "everyday_relevance": 7,
+            "evidence": 5
+          },
+          "drop_reason": "境外商业大秀娱乐属性为主，对中国读者日常决策无实质影响"
+        },
+        {
+          "candidate_key": "nba-blazers-suns-yang-hansen",
+          "story_identity": "nba-blazers-suns-yang-hansen-debut-week",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T12:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 16,
+            "everyday_relevance": 8,
+            "evidence": 6
+          },
+          "drop_reason": "境外联赛常规赛单场，未达国际条目代表性门槛"
+        },
+        {
+          "candidate_key": "uefa-bayern-arsenal-draw",
+          "story_identity": "uefa-bayern-arsenal-2-2",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T05:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 40,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 15,
+            "everyday_relevance": 5,
+            "evidence": 4
+          },
+          "drop_reason": "境外足球联赛常规轮次，属例行长赛程"
+        },
+        {
+          "candidate_key": "uefa-como-man-utd",
+          "story_identity": "uefa-como-man-utd-4-1",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T05:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 38,
+          "score_breakdown": {
+            "heat": 15,
+            "freshness": 15,
+            "everyday_relevance": 4,
+            "evidence": 4
+          },
+          "drop_reason": "境外足球联赛常规轮次，属例行长赛程"
+        },
+        {
+          "candidate_key": "uefa-real-madrid-leipzig",
+          "story_identity": "uefa-real-madrid-leipzig-4-1",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T05:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 37,
+          "score_breakdown": {
+            "heat": 15,
+            "freshness": 15,
+            "everyday_relevance": 4,
+            "evidence": 3
+          },
+          "drop_reason": "境外足球联赛常规轮次，属例行长赛程"
+        },
+        {
+          "candidate_key": "uefa-inter-shakhtar",
+          "story_identity": "uefa-inter-shakhtar-1-0",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T05:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 35,
+          "score_breakdown": {
+            "heat": 14,
+            "freshness": 15,
+            "everyday_relevance": 3,
+            "evidence": 3
+          },
+          "drop_reason": "境外足球联赛常规轮次，属例行长赛程"
+        },
+        {
+          "candidate_key": "liu-jialing-liang-zhuowei-interview",
+          "story_identity": "liu-jialing-marriage-interview",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 30,
+          "score_breakdown": {
+            "heat": 12,
+            "freshness": 13,
+            "everyday_relevance": 3,
+            "evidence": 2
+          },
+          "drop_reason": "艺人访谈话题，不构成民生新闻"
+        },
+        {
+          "candidate_key": "zhou-bichang-deleted-friends",
+          "story_identity": "zhou-bichang-variety-deleted-friends",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T16:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 28,
+          "score_breakdown": {
+            "heat": 11,
+            "freshness": 13,
+            "everyday_relevance": 2,
+            "evidence": 2
+          },
+          "drop_reason": "综艺花絮话题，不构成民生新闻"
+        },
+        {
+          "candidate_key": "sun-jian-debt-repayment",
+          "story_identity": "sun-jian-filming-debt-repayment",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 27,
+          "score_breakdown": {
+            "heat": 11,
+            "freshness": 12,
+            "everyday_relevance": 2,
+            "evidence": 2
+          },
+          "drop_reason": "艺人个人经历自述，不构成民生新闻"
+        },
+        {
+          "candidate_key": "cao-jun-concert-announcement",
+          "story_identity": "cao-jun-30th-anniversary-concert",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T11:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 33,
+          "score_breakdown": {
+            "heat": 13,
+            "freshness": 14,
+            "everyday_relevance": 3,
+            "evidence": 3
+          },
+          "drop_reason": "演唱会官宣属商业演出信息，公共属性不足"
+        },
+        {
+          "candidate_key": "fengxue-weilai-scholarship-donation",
+          "story_identity": "fengxue-weilai-qqu-scholarship-donation",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T16:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 46,
+          "score_breakdown": {
+            "heat": 17,
+            "freshness": 13,
+            "everyday_relevance": 10,
+            "evidence": 6
+          },
+          "drop_reason": "企业助学金捐赠规模有限，受益面较窄"
+        },
+        {
+          "candidate_key": "chip-talent-million-salary",
+          "story_identity": "chip-industry-talent-salary-trend",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 14,
+            "everyday_relevance": 12,
+            "evidence": 7
+          },
+          "drop_reason": "行业薪酬趋势稿，无具体新近事件支点"
+        },
+        {
+          "candidate_key": "xiao-cheng-liang-fang-drama",
+          "story_identity": "xiao-cheng-liang-fang-dongbei-drama",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T13:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 34,
+          "score_breakdown": {
+            "heat": 13,
+            "freshness": 14,
+            "everyday_relevance": 4,
+            "evidence": 3
+          },
+          "drop_reason": "剧集口碑话题，文娱属性为主"
+        },
+        {
+          "candidate_key": "changsha-zero-violation-gas-prize",
+          "story_identity": "changsha-100-day-zero-violation-prize",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "挑战活动抽奖具体时点不明，仅见热榜线索与转载，未找到主办方或权威媒体原始发布"
+        },
+        {
+          "candidate_key": "wuhan-hsr-new-progress",
+          "story_identity": "wuhan-bound-hsr-construction-progress",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T09:30:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "仅见政务新媒体转述与门户聚合，未获取铁路部门或权威媒体原文，关键提速口径待核实"
+        },
+        {
+          "candidate_key": "kuaidi-waybill-privacy-risk",
+          "story_identity": "express-waybill-privacy-leak-risk",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "科普提醒类内容，无具体新近事件时点，栏目原始出处不明"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-5",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-6",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-7",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-8",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-9",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        },
+        {
+          "candidate_key": "candidate-10",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        },
+        {
+          "candidate_key": "candidate-11",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        },
+        {
+          "candidate_key": "candidate-12",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "minors"
+        },
+        {
+          "candidate_key": "candidate-13",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-10-23-naqu-baqing-m7-earthquake",
+      "story_identity": "xizang-naqu-baqing-m7-earthquake",
+      "headline": "🟤 西藏那曲巴青县发生7.0级地震，国家四级应急响应启动",
+      "summary": "中国地震台网测定，10月22日22时33分西藏那曲市巴青县发生7.0级地震，震中周边人口稀少。国务院抗震救灾指挥部办公室、应急管理部启动国家地震灾害四级应急响应并派工作组赶赴震区。据通报，截至23日凌晨地震已致18人遇难、11人重伤、21人轻伤，救援力量正全力搜救并安置受灾群众。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 92,
+      "score_breakdown": {
+        "heat": 38,
+        "freshness": 20,
+        "everyday_relevance": 20,
+        "evidence": 14
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-10-22T22:33:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "重大自然灾害报道，以官方通报口径为准，伤亡数字仅置于正文简述、保持克制，不渲染灾情"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "应急管理部",
+          "url": "https://www.mem.gov.cn/xw/yjyw/202610/t20261022_736710.shtml",
+          "title": "西藏那曲巴青县发生7.0级地震 国务院抗震救灾指挥部办公室、应急管理部启动国家地震灾害四级应急响应",
+          "captured_at": "2026-10-23T06:19:00+08:00",
+          "note": "应急管理部官网：10月22日22时33分巴青县发生7.0级地震，启动国家地震灾害四级应急响应，派出工作组赶赴震区"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://news.cctv.com/2026/10/23/ARTIYocaa8V72yzD4T5HWSch261023.shtml",
+          "title": "西藏那曲巴青县发生7.0级地震 两部门启动国家地震灾害四级应急响应 派出工作组赶赴震区",
+          "captured_at": "2026-10-23T06:19:30+08:00",
+          "note": "央视网：应急管理部视频调度当地情况，要求全力做好抢险救援、群众转移安置和震情监测"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央广网",
+          "url": "https://news.cnr.cn/native/gd/kx/20261023/t20261023_527850382.shtml",
+          "title": "西藏那曲市巴青县发生7.0级地震 中国地震局启动二级应急响应",
+          "captured_at": "2026-10-23T06:20:00+08:00",
+          "note": "央广网：中国地震局启动二级应急响应，本次地震为今年以来我国最大地震"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "凤凰网",
+          "url": "https://news.ifeng.com/c/8xRZirKotSi",
+          "title": "西藏那曲市巴青县7.0级地震已致18人遇难",
+          "captured_at": "2026-10-23T06:20:30+08:00",
+          "note": "凤凰网援引总台记者自自治区应急指挥部消息：截至23日凌晨已致18人遇难、11人重伤、21人轻伤"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-23-table-tennis-mens-team-fourpeat",
+      "story_identity": "table-tennis-asian-championships-mens-team-2026",
+      "headline": "🏓 国乒男团3比0胜韩国队，亚锦赛实现四连冠",
+      "summary": "新华社塔什干10月22日电，2026年亚洲乒乓球锦标赛男团决赛，中国队以3:0战胜韩国队成功卫冕，实现亚锦赛男团四连冠，周启豪、林诗栋、向鹏依次建功。在当日稍早的女团决赛中，中国队2:3不敌日本队，获得亚军。",
+      "category": "国家高光",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 19,
+        "everyday_relevance": 16,
+        "evidence": 13
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-10-22T22:30:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "体育赛事结果报道，以新华社电讯为准，客观陈述比分"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.news.cn/sports/20261023/b5f8d1916e14474a84367f097138fbb4/c.html",
+          "title": "国乒卫冕乒乓球亚锦赛男团冠军",
+          "captured_at": "2026-10-23T06:21:00+08:00",
+          "note": "新华社塔什干10月22日电：中国队3:0战胜韩国队，成功卫冕亚锦赛男团冠军"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "文汇报",
+          "url": "https://m.163.com/dy/article/L9T7IKV505506BEH.html",
+          "title": "乒乓亚锦赛｜掀翻日本队的韩国男队没能再造冷门，国乒男团卫冕成功进步不小",
+          "captured_at": "2026-10-23T06:21:30+08:00",
+          "note": "文汇报10月23日报道：10月22日晚国乒男队3比0击败韩国队成功卫冕，当日早些时候韩国队在半决赛3比1淘汰日本队"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-23-guangzhou-metro-overtime-fee",
+      "story_identity": "guangzhou-metro-270min-overtime-fee",
+      "headline": "🚇 广州地铁回应“超时费”：乘车时限270分钟",
+      "summary": "近日有乘客反映，在广州地铁站内停留近5小时，出站时除车费外被扣15元“超时费”，引发广泛关注。广州地铁回应称，线网乘车时限为270分钟，按线网规模测算可满足任意两站间行程需求；超过时限须按出闸站线网单程最高票价补交费用。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 80,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 18,
+        "everyday_relevance": 20,
+        "evidence": 12
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-10-22T12:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "民生出行提示类报道，引述地铁方回应口径，客观呈现规则，不作收费合理性评判"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "21世纪经济报道",
+          "url": "https://www.21jingji.com/article/20261022/herald/c32ecb0e8ea585f1a7552a0486335748.html",
+          "title": "地铁站内看书5个小时，女子出站时被扣15元“超时费”，广州地铁回应：设有270分钟乘车时限，超时须补交最高票价",
+          "captured_at": "2026-10-23T06:22:00+08:00",
+          "note": "21经济网10月22日报道：乘客停留近5小时被扣15元超时费，广州地铁称270分钟时限按线网规模测算"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "极目新闻",
+          "url": "https://www.ctdsb.net/c1476_202610/2885373.html",
+          "title": "地铁站内看书5个小时，女子出站时被扣15元；广州地铁回应：设有270分钟乘车时限，超时须补交最高票价",
+          "captured_at": "2026-10-23T06:22:30+08:00",
+          "note": "极目新闻10月22日报道：超时除当次车费外须按出闸站线网单程最高票价补交"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-23-double11-ai-model-images",
+      "story_identity": "ecommerce-ai-generated-model-images",
+      "headline": "🛍️ 双十一女装模特“可能不是人”，AI图乱象引关注",
+      "summary": "双十一临近，多家电商平台女装店被曝使用AI生成模特图，出现模特转身后背面仍是正面、手臂缺失、“没有头”“三只手”等问题，部分商家无真实样衣便生成图片上架。媒体提醒消费者注意甄别，并呼吁平台加强审核与标识。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 18,
+        "everyday_relevance": 21,
+        "evidence": 11
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-10-22T09:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "消费提醒类报道，客观陈述媒体调查现象，不指向具体商家与品牌"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/shipin/2026/10-22/news1072679.shtml",
+          "title": "你的“双十一”女装模特，可能不是人",
+          "captured_at": "2026-10-23T06:23:00+08:00",
+          "note": "中国新闻网10月22日视频报道：AI虚拟模特渗透多家电商平台服装店，出现背面仍是正面、手臂缺失等问题"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "蓝鲸新闻",
+          "url": "https://k.sina.com.cn/article_5953190046_162d6789e06703v1i8.html",
+          "title": "无头、三臂模特“上岗”，近八成商家使用AI生图",
+          "captured_at": "2026-10-23T06:23:30+08:00",
+          "note": "蓝鲸新闻10月21日讯：双十一大促期间AI模特图占领女装行业引热议，部分商家无真实样衣便生成图片上架"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
