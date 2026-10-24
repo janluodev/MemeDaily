@@ -1,0 +1,1029 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v4-editorial-completeness",
+  "rubric_version": "v4-100-point-dynamic",
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T07:45:00+08:00",
+  "published_at": "2026-10-25T07:45:00+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 40,
+    "published": 6,
+    "dropped_safety": {
+      "时事政治": 1,
+      "社会事件灾难事故": 1,
+      "涉及具体人物": 1,
+      "涉及具体品牌公司": 1
+    },
+    "dropped_low_confidence": 26,
+    "dropped_capacity": 0,
+    "sources": [
+      "weibo",
+      "other"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 32,
+      "platform_public_sources": 3,
+      "aggregator_sources": 5,
+      "search_media_sources": 6,
+      "spillover_sources": 0,
+      "dropped_insufficient_evidence": 4
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 6,
+        "relaxed_48h": 20,
+        "relaxed_72h": 32
+      },
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-10-25-checihui-yige",
+          "canonical_phrase": "撤回一个××",
+          "outcome": "selected",
+          "item_id": "2026-10-25-checihui-yige",
+          "score": 89,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 29,
+            "reusability": 18,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://weibo.zhaoyizhe.com/date/20261024/",
+            "observed_at": "2026-10-24T14:30:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-25-yuequan-bazong",
+          "canonical_phrase": "粤圈霸总",
+          "outcome": "selected",
+          "item_id": "2026-10-25-yuequan-bazong",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 28,
+            "reusability": 17,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://weibo.com/a/hot/6c8f1f526698ab7a_0.html?type=grab",
+            "observed_at": "2026-10-24T15:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-25-liupaizi-cixiangnang",
+          "canonical_phrase": "留牌子赐香囊",
+          "outcome": "selected",
+          "item_id": "2026-10-25-liupaizi-cixiangnang",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 28,
+            "reusability": 18,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://weibo.zhaoyizhe.com/date/20261024/",
+            "observed_at": "2026-10-24T16:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-25-shenzhi-n-miao",
+          "canonical_phrase": "神之N秒",
+          "outcome": "selected",
+          "item_id": "2026-10-25-shenzhi-n-miao",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 27,
+            "reusability": 17,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://www.ablesci.com/tophot",
+            "observed_at": "2026-10-24T18:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-25-zhangzheyang-meirenchi",
+          "canonical_phrase": "我长成这样应该不会有人吃吧",
+          "outcome": "selected",
+          "item_id": "2026-10-25-zhangzheyang-meirenchi",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 29,
+            "reusability": 17,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://www.weibo.com/a/hot/realtime/b4b687ba63764819_0.html?type=grab",
+            "observed_at": "2026-10-24T15:30:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-25-gongfu-xiaomao",
+          "canonical_phrase": "功夫小猫",
+          "outcome": "selected",
+          "item_id": "2026-10-25-gongfu-xiaomao",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 26,
+            "reusability": 18,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://weibo.com/a/hot/27340e0a220e22fa_0.html?type=grab",
+            "observed_at": "2026-10-24T13:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "langxi-kaile-jiushigou",
+          "canonical_phrase": "狼想开了就是狗",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 24,
+            "reusability": 17,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.dancihu.com/liuxingyu/17139.html",
+            "observed_at": "2026-10-24T20:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "jie-haoyun-jielong",
+          "canonical_phrase": "接好运",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 23,
+            "reusability": 17,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.gengwh.com/list/4/1",
+            "observed_at": "2026-10-24T22:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "renyidan-you-ditie-chengshi",
+          "canonical_phrase": "人一旦在有地铁的城市待久了",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 23,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://weibo.com/a/hot/9a73292ff72d369c_0.html?type=grab",
+            "observed_at": "2026-10-24T16:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "daxiongmao-shengle-haozizai",
+          "canonical_phrase": "大熊猫生了个耗子崽",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 23,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://weibo.com/a/hot/706a5a57fc4dff29_0.html?type=grab",
+            "observed_at": "2026-10-24T14:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "baijuyi-jinnian-dezuishui",
+          "canonical_phrase": "白居易今年到底得罪谁了",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 24,
+            "reusability": 17,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://weibo.com/a/hot/e0095e5e756bd60d_0.html?type=grab",
+            "observed_at": "2026-10-24T18:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "pengyouquan-maican-wanshengjie",
+          "canonical_phrase": "朋友圈卖惨被当成万圣节预热",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 23,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://weibo.zhaoyizhe.com/date/20261024/",
+            "observed_at": "2026-10-24T17:44:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "haiwo-xiaole-yixiawu",
+          "canonical_phrase": "害我笑了一下午",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 23,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.gengwh.com/list/4/1",
+            "observed_at": "2026-10-24T22:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "banwei-jianceyi",
+          "canonical_phrase": "班味检测仪",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 24,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.gengwh.com/list/4/1",
+            "observed_at": "2026-10-24T20:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "banwei-jinghua",
+          "canonical_phrase": "班味净化",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 23,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.gengwh.com/list/4/1",
+            "observed_at": "2026-10-24T20:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "ban-dazi",
+          "canonical_phrase": "班搭子",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 23,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.gengwh.com/list/4/1",
+            "observed_at": "2026-10-24T20:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "jiuwu-jiaman",
+          "canonical_phrase": "95加满",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 23,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.gengwh.com/list/4/1",
+            "observed_at": "2026-10-24T21:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "rentaiju-jutairen",
+          "canonical_phrase": "人抬剧剧抬人",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 24,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://k.sina.cn/article_7879776328_1d5abd84806802c94s.html?from=ent",
+            "observed_at": "2026-10-24T19:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "suchao-liansai",
+          "canonical_phrase": "苏超",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 23,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://weibo.zhaoyizhe.com/date/20261024/",
+            "observed_at": "2026-10-24T20:30:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "lingzhen-qishou",
+          "canonical_phrase": "零帧起手",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 24,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://weibo.zhaoyizhe.com/date/20261024/",
+            "observed_at": "2026-10-24T13:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "dianzi-zhacai-xufei",
+          "canonical_phrase": "电子榨菜续费",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 22,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.gengwh.com/list/4/1",
+            "observed_at": "2026-10-24T21:30:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "xiaoxi-yanchizheng",
+          "canonical_phrase": "消息延迟症",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 22,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.gengwh.com/list/4/1",
+            "observed_at": "2026-10-24T21:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "xiari-yanyan-yezhu-xiatian",
+          "canonical_phrase": "夏日炎炎野猪下田",
+          "outcome": "dropped_low_confidence",
+          "score": 65,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 21,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.gengwh.com/list/4/1",
+            "observed_at": "2026-10-24T20:30:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "laodeng-dengwei",
+          "canonical_phrase": "老登登味",
+          "outcome": "dropped_low_confidence",
+          "score": 67,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 22,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://finance.cctv.com/2026/10/23/ARTIDdcIspMSJxxmVcvVZIom261023.shtml",
+            "observed_at": "2026-10-24T12:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "yige-jia-zhiyou-yige-nvzhuren",
+          "canonical_phrase": "一个家里只能有一个女主人",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 22,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://weibo.com/a/hot/66a5738540b9548f_0.html?type=grab",
+            "observed_at": "2026-10-24T15:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "wangeng-wanchu-bianzhi",
+          "canonical_phrase": "玩梗玩出编制",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 23,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.sina.cn/news/detail/5357308813248240.html",
+            "observed_at": "2026-10-24T11:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "aini-laoji-mingtianjian",
+          "canonical_phrase": "爱你老己明天见",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 23,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://xinwen.bjd.com.cn/content/s69785792d5de6b42d6c91e1f.html",
+            "observed_at": "2026-10-24T10:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "hongshi-dangtou-haoshi-chengshuang",
+          "canonical_phrase": "红柿当头好柿成双",
+          "outcome": "dropped_low_confidence",
+          "score": 65,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 21,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://weibo.zhaoyizhe.com/date/20261024/",
+            "observed_at": "2026-10-24T09:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "renyidan-zhanshang-banwei",
+          "canonical_phrase": "人一旦沾上班味",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 21,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.gengwh.com/list/4/1",
+            "observed_at": "2026-10-24T20:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "dianzi-zhacai",
+          "canonical_phrase": "电子榨菜",
+          "outcome": "dropped_low_confidence",
+          "score": 67,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 22,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.gengwh.com/list/4/1",
+            "observed_at": "2026-10-24T20:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "dianzi-buluofen",
+          "canonical_phrase": "电子布洛芬",
+          "outcome": "dropped_low_confidence",
+          "score": 67,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 22,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.gengwh.com/list/4/1",
+            "observed_at": "2026-10-24T20:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "ai-chagang",
+          "canonical_phrase": "AI查岗",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 21,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://aiteam.chat/digest",
+            "observed_at": "2026-10-24T23:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "meiyou-shouji-haizi-chanpinjingli",
+          "canonical_phrase": "没有手机的小孩是最佳产品经理",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "wolegeshaogang",
+          "canonical_phrase": "我勒个骚刚",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "dandan-zonghezheng",
+          "canonical_phrase": "淡淡综合征",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "haoshi-hanliang-chaobiao",
+          "canonical_phrase": "好柿含量超标",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-1",
+          "outcome": "dropped_safety",
+          "drop_reason": "时事政治",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-2",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难事故",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-3",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-4",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体品牌公司",
+          "research_pass": 1
+        }
+      ],
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 40,
+          "cumulative_unique_candidates": 40,
+          "sources_checked": [
+            "weibo",
+            "other"
+          ]
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-10-25-checihui-yige",
+      "title": "🧧 撤回一个××",
+      "aliases": [
+        "撤回一个××",
+        "撤回一个清华",
+        "撤回一个XX"
+      ],
+      "canonical_phrase": "撤回一个××",
+      "platform": [
+        "weibo",
+        "other"
+      ],
+      "type": "句式梗",
+      "summary": "「撤回一个××」登微博热搜：抓周视频里到手的好牌被一声大喊「撤回」，网友套用微信撤回格式造句，专调侃「刚到手的好事瞬间没了」。",
+      "origin": "已验证：微博热搜存档站 10-24 全天归档显示相关词条在榜约276分钟；大众网系账号与新浪看点多篇 10-23 起转发一段抓周场景视频并配「撤回」式解说，不指向具体家庭与孩子。",
+      "usage": "「撤回一个××」填空模板：撤回一个offer、撤回一个周末、撤回一个晴天——凡是「刚到手就飞了」的场景都能套；评论区接龙、群聊吐槽、短视频字幕均可用。",
+      "fun_point": "把聊天软件的两分钟撤回搬到现实人生，好东西刚落手就被「一键撤回」；仪式感越隆重，撤回越狼狈，反差拉满。",
+      "why_spread": "已验证：微博热搜 10-24 在榜约276分钟，多家大众媒体账号转发同一抓周场景并带起造句潮；推测：「撤回」是全民肌肉记忆，句式零门槛，倒霉时刻人人有存货。",
+      "lifecycle": "rising",
+      "brand_usage": "社交、办公类账号可发起「今天想撤回什么」互动话题；电商可做「撤回一个坏天气」式场景海报；避免拿真实婴幼儿画面做商业物料。",
+      "risk": {
+        "level": "low",
+        "note": "源头画面涉及婴幼儿，引用时不指向具体孩子、不二次传播原视频截图；句式本身无争议。"
+      },
+      "days_on_list": 1,
+      "score": 89,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 29,
+        "reusability": 18,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "weibo",
+          "url": "https://weibo.zhaoyizhe.com/date/20261024/",
+          "title": "微博热搜存档 2026-10-24",
+          "observed_at": "2026-10-24T14:30:00+08:00",
+          "captured_at": "2026-10-25T07:21:00+08:00",
+          "note": "微博热搜存档站 10-24 归档：该词条当日下午时段在榜，累计约276分钟。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "cross_platform",
+          "platform": "other",
+          "url": "https://www.sina.cn/news/detail/5357599830576123.html",
+          "captured_at": "2026-10-25T07:24:00+08:00",
+          "note": "新浪看点 10-24 稿件：大众媒体转发抓周场景并带起「撤回一个」造句，未点名具体孩子。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-25-yuequan-bazong",
+      "title": "🩴 粤圈霸总",
+      "aliases": [
+        "粤圈霸总",
+        "小说里为什么没有广东霸总"
+      ],
+      "canonical_phrase": "粤圈霸总",
+      "platform": [
+        "weibo",
+        "other"
+      ],
+      "type": "句式梗",
+      "summary": "「粤圈霸总」登微博热搜：网友调侃网文霸总都是「京圈」，广东老板人字拖短裤、劝你喝凉茶祛湿，霸总不起来，句式可泛化「为什么没有××霸总」。",
+      "origin": "已验证：微博公开热点页 10-24 在榜约435分钟、热度约90万；新浪视频 10-24 跟进解读该话题，梗图与段子自2022年起有前史（「为什么没有浙圈/深圳霸总」），本轮为再次翻红。",
+      "usage": "「××圈霸总」造句模板：为什么没有广东霸总、川渝霸总、东北霸总——用地域生活细节解构悬浮人设；也可用于「粤圈霸总掀翻饭桌」式情景短剧脚本、地域文化段子。",
+      "fun_point": "霸总文学标配是西装红酒直升机，换成拖鞋背心发财树就霸不起来；地域反差越具体越好笑，评论区各省网友排队认领自家霸总。",
+      "why_spread": "已验证：微博热搜 10-24 长时在榜，新浪系视频与图文多篇跟进；推测：霸总文学受众广、地域自嘲参与门槛低，「为什么没有××霸总」句式天然接龙。",
+      "lifecycle": "rising",
+      "brand_usage": "文旅、美食账号可用「××圈霸总」做地域反差选题；凉茶、人字拖等意象可做广东生活风内容；避免贬损式地域攻击，保持善意自嘲。",
+      "risk": {
+        "level": "low",
+        "note": "涉地域刻板印象，属善意自嘲型调侃；玩梗保持善意，勿升级为地域贬损或歧视表达。"
+      },
+      "days_on_list": 1,
+      "score": 86,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 28,
+        "reusability": 17,
+        "evidence": 7
+      },
+      "sources": [
+        {
+          "tier": "platform_public",
+          "evidence_role": "popularity",
+          "platform": "weibo",
+          "url": "https://weibo.com/a/hot/6c8f1f526698ab7a_0.html?type=grab",
+          "observed_at": "2026-10-24T15:00:00+08:00",
+          "captured_at": "2026-10-25T07:22:00+08:00",
+          "note": "微博公开热点页：「小说里为什么没有广东霸总」10-24 在榜约435分钟、热度约90万。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://k.sina.com.cn/article_7879923942_m1d5ae18e603302aqjw.html",
+          "title": "小说里为什么没有广东霸总，粤圈霸总掀翻饭桌摔女主在沙发上",
+          "captured_at": "2026-10-25T07:25:00+08:00",
+          "note": "新浪视频 10-24 解读：拖鞋背心、凉茶祛湿等地域细节解构霸总人设，梳理梗图前史。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-25-liupaizi-cixiangnang",
+      "title": "🏆 留牌子赐香囊",
+      "aliases": [
+        "留牌子赐香囊"
+      ],
+      "canonical_phrase": "留牌子赐香囊",
+      "platform": [
+        "weibo",
+        "other"
+      ],
+      "type": "句式梗",
+      "summary": "「留牌子赐香囊」登微博热搜：化用宫廷剧选秀桥段，表示「通过考核、值得留任嘉奖」，本周被用来夸幕后造型团队，可泛化夸任何幕后功臣。",
+      "origin": "已验证：微博热搜存档站 10-24 归档显示该词条在榜约253分钟、热度约60万；新浪 10-24 解读稿显示其因一场红毯造型讨论走红，网友把剧中「留牌子赐香囊」的嘉奖句式送给幕后工作人员。",
+      "usage": "「留牌子赐香囊」嘉奖句式：夸造型师、夸后期、夸食堂阿姨都能用；反话版「赐一丈红」式调侃需谨慎；适合做评论区颁奖词、周报夸夸模板。",
+      "fun_point": "把现代职场夸奖套上选秀仪式的壳，一句「留牌子赐香囊」比「加鸡腿」更有排面；剧粉秒懂、路人也猜得出是褒奖。",
+      "why_spread": "已验证：微博热搜 10-24 在榜约253分钟，媒体解读稿跟进；推测：经典剧台词存量大、嘉奖语义明确，夸幕后人员的情绪正当其时，套用零门槛。",
+      "lifecycle": "rising",
+      "brand_usage": "内容团队可做「本周留牌子赐香囊」栏目夸幕后同事；电商客服、餐饮账号可用作好评回复模板；勿绑定具体明星做拉踩对比。",
+      "risk": {
+        "level": "safe",
+        "note": "通用嘉奖句式，已脱离具体人物语境；使用时只夸不踩即可。"
+      },
+      "days_on_list": 1,
+      "score": 85,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 28,
+        "reusability": 18,
+        "evidence": 7
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "weibo",
+          "url": "https://weibo.zhaoyizhe.com/date/20261024/",
+          "title": "微博热搜存档 2026-10-24",
+          "observed_at": "2026-10-24T16:00:00+08:00",
+          "captured_at": "2026-10-25T07:21:00+08:00",
+          "note": "微博热搜存档站 10-24 归档：该词条当日在榜约253分钟、热度约60万。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "cross_platform",
+          "platform": "other",
+          "url": "https://www.sina.cn/news/detail/5357302519431467.html",
+          "captured_at": "2026-10-25T07:24:30+08:00",
+          "note": "新浪 10-24 解读：红毯造型讨论带火嘉奖幕后人员的句式，全文围绕造型与幕后团队，不点具体人物。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-25-shenzhi-n-miao",
+      "title": "⏱️ 神之N秒",
+      "aliases": [
+        "神之N秒",
+        "神之八秒",
+        "神之九秒"
+      ],
+      "canonical_phrase": "神之N秒",
+      "platform": [
+        "other"
+      ],
+      "type": "句式梗",
+      "summary": "「神之N秒」走红：给一段高光镜头按秒数命名「神之八秒」「神之九秒」，网友已开始接龙「期待神之十秒」，成为夸镜头封神的通用句式。",
+      "origin": "已验证：新浪娱乐 10-23 稿件记录短视频高光镜头被命名为「神之九秒」并承接此前「神之八秒」话题；聚合热榜快照 10-24 收录相关词条，双词条合计在榜超20小时。",
+      "usage": "「神之N秒」命名模板：神之八秒、神之九秒、神之十秒——任何一段封神镜头、高光操作都能按秒数命名续数；游戏集锦、体育回放、影视剪辑标题通用。",
+      "fun_point": "秒数越具体越显得这段镜头值得掐表膜拜；「续数」玩法自带接龙属性，人人都在等下一个「神之十秒」出现。",
+      "why_spread": "已验证：娱乐媒体 10-23 报道命名事件，聚合热榜 10-24 快照收录，网友已开始续数造句；推测：数字命名天然可序列化，粉丝与路人都能参与接龙。",
+      "lifecycle": "rising",
+      "brand_usage": "视频、游戏、体育账号可用「神之N秒」做高光集锦栏目名；品牌可发起「你心中的神之N秒」征集；避免点名具体艺人做对比营销。",
+      "risk": {
+        "level": "low",
+        "note": "起源于明星粉丝语境但句式已通用化；使用时不点具体人物、不卷入粉丝比较。"
+      },
+      "days_on_list": 1,
+      "score": 84,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 27,
+        "reusability": 17,
+        "evidence": 7
+      },
+      "sources": [
+        {
+          "tier": "search_media",
+          "evidence_role": "cross_platform",
+          "platform": "other",
+          "url": "https://ent.sina.cn/2026-10-23/detail-iniwfrun2614403.d.html",
+          "captured_at": "2026-10-25T07:26:00+08:00",
+          "note": "新浪娱乐 10-23 稿件：短视频高光镜头被命名「神之N秒」系列并引发续数造句，不点具体人物。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "other",
+          "url": "https://www.ablesci.com/tophot",
+          "observed_at": "2026-10-24T18:00:00+08:00",
+          "captured_at": "2026-10-25T07:27:00+08:00",
+          "note": "聚合热榜快照 10-24 收录「神之八秒/神之九秒」相关词条，双词条合计在榜超20小时。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-25-zhangzheyang-meirenchi",
+      "title": "🦐 我长成这样应该不会有人吃吧",
+      "aliases": [
+        "我长成这样应该不会有人吃吧",
+        "我××应该不会××吧"
+      ],
+      "canonical_phrase": "我长成这样应该不会有人吃吧",
+      "platform": [
+        "weibo",
+        "other"
+      ],
+      "type": "句式梗",
+      "summary": "「我长成这样应该不会有人吃吧」登微博热搜：以丑萌食物第一人称自嘲「长得丑就安全」，结果评论区全是「壳剥开超香」，句式可泛化「我××应该不会××吧」。",
+      "origin": "已验证：微博实时热点页 10-24 在榜约135分钟、热度约32万；聚合热榜 rebang 微博榜同步收录；新浪看点 10-24 稿件盘点「长得丑照样被吃」的食材讨论。",
+      "usage": "「我××应该不会××吧」自嘲模板：我长成这样应该不会有人吃吧、我穷成这样应该不会有人借吧——先自黑求安全，再被网友反向拆台；表情包配文、评论区接龙通用。",
+      "fun_point": "丑东西以为自己安全了，吃货眼里却是「壳剥开全是肉」；第一人称求饶越真诚，反向结局越好笑，自嘲与共谋一次完成。",
+      "why_spread": "已验证：微博热搜 10-24 在榜约135分钟，聚合榜与媒体稿同步出现；推测：自黑句式情绪安全、食材话题全民可聊，反向接龙门槛低。",
+      "lifecycle": "rising",
+      "brand_usage": "食品、餐饮账号可反向玩「丑但好吃」选题；社交账号可发起「我××应该不会××吧」自黑接龙；避免贬低特定食材产地或人群。",
+      "risk": {
+        "level": "safe",
+        "note": "自嘲式食物梗，无争议点。"
+      },
+      "days_on_list": 1,
+      "score": 83,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 29,
+        "reusability": 17,
+        "evidence": 7
+      },
+      "sources": [
+        {
+          "tier": "platform_public",
+          "evidence_role": "popularity",
+          "platform": "weibo",
+          "url": "https://www.weibo.com/a/hot/realtime/b4b687ba63764819_0.html?type=grab",
+          "observed_at": "2026-10-24T15:30:00+08:00",
+          "captured_at": "2026-10-25T07:22:30+08:00",
+          "note": "微博实时热点页：该词条 10-24 在榜约135分钟、热度约32万。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "other",
+          "url": "https://www.rebang.vip/weibo/hot-search",
+          "observed_at": "2026-10-24T19:00:00+08:00",
+          "captured_at": "2026-10-25T07:23:00+08:00",
+          "note": "rebang 微博热榜 10-24 收录该词条，与微博实时页互证。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://www.sina.cn/news/detail/5357671709415051.html",
+          "title": "长得丑还有毒，中国人却把石头和榴莲都吃成了盘中餐",
+          "captured_at": "2026-10-25T07:26:30+08:00",
+          "note": "新浪看点 10-24 盘点：丑萌食材照样被吃，评论区「壳剥开全是肉」反向接龙。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-25-gongfu-xiaomao",
+      "title": "🐱 功夫小猫",
+      "aliases": [
+        "功夫小猫",
+        "萌宠武侠"
+      ],
+      "canonical_phrase": "功夫小猫",
+      "platform": [
+        "weibo",
+        "other"
+      ],
+      "type": "二创梗",
+      "summary": "「功夫小猫」登微博热搜：猫咪扑跳挥爪配上武侠 BGM 慢放，「一身软毛藏锋芒」，萌宠武侠化二创合集两日内多轮在榜。",
+      "origin": "已验证：微博公开热点页 10-24 在榜约85分钟；微博热搜存档站显示 10-23/24 两日均在榜；新浪看点 10-23 起连续报道该二创合集，多只猫被冠名「老师」。",
+      "usage": "「功夫小猫」二创模板：任意宠物视频+武侠配乐+慢放+「重出江湖」字幕即成片；也可泛化「功夫××」给仓鼠、兔子配音配字；适合宠物账号日更。",
+      "fun_point": "软乎乎的小猫配上刀光剑影的 BGM，反差感谁看谁笑；猫根本不知道自己成了大侠，一脸严肃最好笑。",
+      "why_spread": "已验证：微博热搜两日多轮在榜，媒体合集报道跟进；推测：萌宠素材存量无穷、武侠配乐模板固定，二创成本极低、完播率高。",
+      "lifecycle": "rising",
+      "brand_usage": "宠物、家清、文创账号可直接套「功夫××」模板做宠物内容；音乐、影视账号可做武侠 BGM 合集；勿用受保护动物或摆拍虐宠素材。",
+      "risk": {
+        "level": "safe",
+        "note": "萌宠二创梗，无争议点；素材需注意不摆拍伤害动物。"
+      },
+      "days_on_list": 1,
+      "score": 80,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 26,
+        "reusability": 18,
+        "evidence": 7
+      },
+      "sources": [
+        {
+          "tier": "platform_public",
+          "evidence_role": "popularity",
+          "platform": "weibo",
+          "url": "https://weibo.com/a/hot/27340e0a220e22fa_0.html?type=grab",
+          "observed_at": "2026-10-24T13:00:00+08:00",
+          "captured_at": "2026-10-25T07:23:30+08:00",
+          "note": "微博公开热点页：「功夫小猫」10-24 在榜约85分钟。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "cross_platform",
+          "platform": "other",
+          "url": "https://www.sina.cn/news/detail/5357696725552189.html",
+          "title": "软乎乎的小猫配上武侠 BGM，这反差感谁看了不笑",
+          "captured_at": "2026-10-25T07:27:30+08:00",
+          "note": "新浪看点稿件：萌宠武侠二创合集报道，多只猫被网友冠名。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "weibo",
+          "url": "https://weibo.zhaoyizhe.com/date/20261024/",
+          "title": "微博热搜存档 2026-10-24",
+          "observed_at": "2026-10-24T21:00:00+08:00",
+          "captured_at": "2026-10-25T07:21:00+08:00",
+          "note": "微博热搜存档站：「功夫小猫」10-23/24 两日多轮在榜。"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
