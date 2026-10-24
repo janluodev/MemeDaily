@@ -160,33 +160,57 @@ auditable heat/freshness score that deliberately has no fixed cross-day quota.
 - [x] Retire the unreferenced Anthropic OAuth secret.
 - [x] Sync `.cloud.md`, session log/index, and final operational evidence.
 
+### 2026-10-24 repository migration and GitHub-policy alignment
+
+- [x] Reconcile all three local clones with `janluodev/MemeDaily` and recover the full
+  archive through news 2026-10-24 and memes 2026-10-24.
+- [x] Confirm the old publisher private key is unavailable; create a new ED25519 write
+  deploy key and install only its private half as `CODEX_PUBLISH_DEPLOY_KEY`.
+- [x] Verify workflow-based Pages, the approved custom-domain certificate, production
+  HTTP 200, and the existing GitHub Pages A/AAAA, `www` CNAME, and verification TXT
+  records through the authorized Aliyun `default` profile. No DNS change was needed.
+- [x] Publish the preserved 2026-10-24 meme candidate through PR #1 and the trusted
+  workflow; correlate main `ffd7b567bc0a4bc22724fbf12ac0fb84c2eba9cb`, successful
+  Pages run `40089755720`, and all four titles on production.
+- [x] Replace the stale eight-cloud-task operating model with two local Kimi primary
+  cron tasks and one Friday renewal; document the Mac/session availability boundary.
+- [x] Read the current GitHub Terms, AUP, Community Guidelines, Actions terms/limits,
+  Pages terms/limits, REST rate limits, and appeal process. Prohibit administrator
+  merges, programmatic ruleset changes, token sharing, parallel schedulers, duplicate
+  candidates, and account creation to evade enforcement.
+- [x] Scope ordinary CI to main/PRs, skip exact daily candidates already covered by the
+  trusted publisher, and skip redundant CI for data-only main publishes while retaining
+  the independent Pages canonical gate.
+- [x] Prepare this configuration for normal merge without administrator bypass, with
+  an immediate post-merge DeployKey-only ruleset restoration/readback step and full
+  verification; no automated protection disable/restore cycle is part of the procedure.
+
 ## High-Risk Areas
 
 - Public-web prompt injection must not reach commands, trusted code, or a production
-  token; the cloud task is a candidate producer, never a main publisher.
+  token; the operator is a candidate producer, never a main publisher.
 - `pull_request_target` must never check out or execute the candidate tree.
 - All automatic main writers must share one concurrency group and verify the live tip
   before creating data.
 - A git push is not production success; the publisher must wait for a Pages run covering
   the accepted commit (or descendant).
-- Scheduled tasks must be genuinely Cloud-backed and keep running when the Mac is off.
-- The connected Cloud GitHub tool must be mechanically unable to update or merge main.
+- Local schedules require the Mac and long-lived Kimi session to remain available;
+  weekly renewal must recreate all three tasks without leaving duplicates.
+- The connected operator must be mechanically unable to update or merge main. Account
+  standing cannot be guaranteed by workflow design; the old suspension needs official
+  appeal/clarification and no further replacement accounts.
 
 ## Acceptance Standard
 
 - `npm run check`, production dependency audit, strict governance gates, action-pin and
   workflow-security tests, YAML/shell parsing, and diff checks pass.
-- All eight ChatGPT Work Web task definitions show active Cloud execution and the
-  exact Asia/Shanghai cadence; no local Codex heartbeat remains in the availability
-  path.
+- Exactly two daily Kimi cron tasks and one weekly renewal exist with the documented
+  Asia/Shanghai cadence; no second scheduler is enabled by this configuration.
 - The active main ruleset exposes only `DeployKey` as an update bypass, the repository
-  has one writable trusted publisher key, and a trusted fallback proves that path works.
-- Duplicate/catch-up/fallback behavior is a no-op only after a live envelope uses the
-  exact current policy, is editorially complete, has three to ten evidence-qualified
-  visible items with matching counts, and passes the complete feed contract.
-  Fixed retries may still wake and spend one inexpensive live-main preflight, but must
-  stop before research, writes, branches, or PRs. Real Web Scheduled no-ops and real
-  candidate publications must both be evidenced.
+  has one writable trusted publisher key, and a real trusted candidate proves that path.
+- Duplicate behavior is a no-op only after a live envelope uses the exact current
+  policy, is editorially complete, has three to ten evidence-qualified visible items
+  with matching counts, and passes the complete feed contract.
 - Local checkout, GitHub `main`, latest successful Pages deployment, and
   `https://memedaily.fun` agree on the accepted commit/content.
 - Meme selection does not optimize for a calendar quota. Any number of recurring items
@@ -195,4 +219,4 @@ auditable heat/freshness score that deliberately has no fixed cross-day quota.
 
 ## Last Updated
 
-- 2026-08-21
+- 2026-10-24

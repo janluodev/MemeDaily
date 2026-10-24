@@ -4,7 +4,8 @@
 - **Business goal:** give content, marketing, and communications teams a concise daily
   reference desk for Chinese internet memes and useful everyday-life news.
 - **Current stage:** a live, dual-feed, static product with evidence-backed content,
-  conservative publication gates, permanent archives, and unattended cloud publishing.
+  conservative publication gates, permanent archives, and locally scheduled trusted
+  publishing.
 - **Success standard:** trusted validation is the only path to publication; a failed or
   missing run leaves the last valid site online and opens an incident until that feed
   reaches a current-policy, editorially complete 3–10-item result for the day.
@@ -19,13 +20,13 @@
 - **Safety:** meme candidates are dropped conservatively for politics, disasters/public
   safety, privacy/minors, abuse, illegal/explicit content, harmful rumors, and contextual
   risk. News has a separate restrained editorial policy.
-- **Automation:** genuine ChatGPT Work Web Scheduled Tasks may submit only an exact
-  same-repository, one-file daily candidate PR. Codex Desktop heartbeats are local and
-  are not part of the unattended path. Trusted base-code jobs own timestamps,
-  validation, local commits, and rebases; a final token-scoped step owns the push and
-  correlated deploy. Repository ruleset `codex-trusted-main` prevents the Cloud
-  connector or ordinary users from updating/merging main and permits only the
-  dedicated trusted publisher deploy key to bypass.
+- **Automation:** two local Kimi Code session cron tasks submit only exact
+  same-repository, one-file daily candidate PRs; a Friday task renews the local schedule.
+  The Mac/session must remain available and no second scheduler may run in parallel.
+  Trusted base-code jobs own timestamps, validation, local commits, and rebases; a final
+  token-scoped step owns the push and correlated deploy. Repository ruleset
+  `codex-trusted-main` prevents the operator or ordinary users from updating/merging
+  main and permits only the dedicated trusted publisher deploy key to bypass.
 
 ## Module Map
 - `src/app/`: Next.js routes, metadata, global/responsive styles, and static composition.

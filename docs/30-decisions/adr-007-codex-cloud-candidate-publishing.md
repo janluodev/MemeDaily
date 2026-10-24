@@ -26,22 +26,22 @@ cron also proved too easy to drop or drift independently.
 
 ## Decision
 
-Use Codex Cloud for all unattended triggers and keep final publication inside the
-repository:
+Keep untrusted research outside the trusted release boundary and keep final
+publication inside the repository:
 
 1. Protect `refs/heads/main` with the active repository ruleset
    `codex-trusted-main`: the branch cannot be updated by ordinary users or connected
    apps; only repository write deploy keys may bypass. The repository has one such key,
    `MemeDaily trusted publisher`; its private half exists only as the Actions secret
    `CODEX_PUBLISH_DEPLOY_KEY` and is exposed only to final trusted push steps. This also
-   prevents a cloud task from merging its own candidate PR. Code-maintenance merges
-   require a deliberate temporary ruleset change by the repository owner.
-2. Eight genuine ChatGPT Work Web Scheduled Tasks own eight Asia/Shanghai trigger
-   groups. News runs at 06:00, hourly 07:15–12:15, 14:45, and 21:30; memes run at
-   07:00, hourly 08:00–13:00, 14:30, and 21:20. Codex Desktop heartbeats are local
-   automation and are prohibited from the unattended availability path.
+   prevents an operator from merging its own candidate PR. Code maintenance is outside
+   unattended automation and must not trigger scripted protection disable/restore cycles.
+2. The current scheduler is two local Kimi Code session cron tasks: news at 06:00 and
+   memes at 07:00, Asia/Shanghai. A Friday 18:17 task renews all three local schedules.
+   The owner's Mac/session must remain available. The former eight ChatGPT Work tasks
+   are legacy and no second scheduler may run in parallel.
 3. Every run rereads `ai/prompts/CODEX_CLOUD_RUNBOOK.md`, the current living
-   per-feed rules, schema, and recent envelopes from GitHub `main`.
+   per-feed rules, schema, and recent envelopes required by that runbook.
 4. A content/fallback run may create or update only one same-repository branch:
    `codex/daily-meme-YYYY-MM-DD` or `codex/daily-news-YYYY-MM-DD`. It writes only
    that feed/date JSON and opens one PR. It never merges or targets another path.
@@ -57,12 +57,14 @@ repository:
    run appears or it fails, it dispatches one bounded recovery run. It waits for a
    run covering the accepted SHA (or descendant) to succeed before closing the
    candidate PR.
-7. GitHub `schedule:` and external cron triggers are retired. The deterministic
-   fallback and monitor workflows remain `workflow_dispatch`-only recovery tools.
-8. Every fixed retry still starts and performs one inexpensive live-main preflight.
-   If the current feed/date already has a valid terminal envelope, the task stops
-   before research, file writes, branch creation, or PR creation. Idempotency avoids
-   expensive and mutating work; it does not suppress the server scheduler invocation.
+7. GitHub `schedule:` and external cron-job.org triggers remain retired. The
+   deterministic fallback and monitor workflows remain `workflow_dispatch`-only
+   recovery tools. Ordinary CI skips exact daily candidates and data-only main
+   publishes; Pages still runs the canonical gate for every main commit.
+8. Every primary starts with one inexpensive live-main preflight. If the current
+   feed/date already has a valid terminal envelope, the task stops before research,
+   file writes, branch creation, or PR creation. There are no fixed hourly catch-up
+   invocations and no tight polling/retry loops.
 
 ## Security Properties
 
@@ -85,61 +87,59 @@ repository:
   live-main fetch, validation, non-fast-forward push, or Pages failure.
 
 The connected GitHub tool still has account-level branch/PR permissions. Exact-path
-behavior is a cloud-task operating contract; the active main ruleset plus trusted
-workflow form the mechanical production boundary. Review connector permissions and
-the first scheduled runs as defense in depth.
+behavior is an operator contract; the active main ruleset plus trusted workflow form
+the mechanical production boundary. Review connector permissions and the first
+scheduled runs as defense in depth.
 
 ## Alternatives Considered
 
-- **Let a cloud task push or merge `main`:** rejected; it combines untrusted web
-  input with production credentials.
-- **Run Codex as an unattended local desktop task:** rejected as the primary path;
-  it depends on the Mac being awake and exposes the local checkout/credentials.
-- **Keep the Anthropic GitHub Action or external cron as backup:** rejected because
-  the user requested complete Codex takeover and duplicate schedulers obscure
-  ownership.
+- **Let an operator push or merge `main`:** rejected; it combines untrusted web input
+  with production credentials.
+- **Require every schedule to be cloud-hosted:** rejected for the current migration;
+  the owner explicitly accepts the Mac/session dependency in exchange for one simple,
+  inspectable local scheduler. Any future cloud cutover must disable, not supplement,
+  the local schedule.
+- **Keep a second scheduler as backup:** rejected because concurrent owners create
+  duplicate research, candidates, API calls, and publication races. Manual recovery is
+  sufficient while a terminal archive remains online.
 - **Trust a PR merge after ordinary CI:** rejected; the dedicated ingest workflow
   must extract only data and use trusted base code before any publication token.
 
 ## Consequences
 
-- Positive: genuine Web Scheduled Tasks run without the user's machine and have one
-  owner; local Desktop automation is explicitly outside the availability path.
-- Positive: cloud research can recover by updating the same failed candidate PR,
-  while main publication stays deterministic and audited.
-- Positive: successful publication includes production deployment evidence, not
-  merely a git push or opened PR.
-- Positive: prompt injection cannot turn the Cloud connector into a direct-main or
-  self-merge path.
-- Negative: cloud tool availability/permissions are an external dependency.
-- Negative: the candidate PR adds latency and leaves failed runs visible for
-  diagnosis.
-- Negative: fixed retries still incur one server task invocation and live-main read
-  after an earlier terminal result, although they do not proceed to research or GitHub
-  mutation.
-- Negative: continued observation remains useful because scheduled tasks and connected
-  tools are account-level services outside repository CI.
-- Negative: ordinary code-maintenance PRs cannot update `main` while the DeployKey-only
-  ruleset is active; the owner must deliberately suspend/amend it for reviewed
-  maintenance, then restore and reverify it.
+- Positive: exactly two daily triggers and one weekly renewal have a single auditable
+  owner; terminal no-ops and exact-branch dedup avoid unnecessary work.
+- Positive: main publication stays deterministic and audited, and successful
+  publication includes production deployment evidence rather than merely a git push
+  or opened PR.
+- Positive: prompt injection cannot turn the operator into a direct-main or self-merge
+  path. Avoiding duplicate ordinary CI reduces compute without weakening trusted or
+  Pages validation.
+- Negative: the owner's Mac and long-lived session are availability dependencies;
+  missed fire times and the bounded cron lifetime require monitoring and weekly renewal.
+- Negative: the candidate PR adds latency and leaves failed runs visible for diagnosis.
+  Legacy external task status remains a manual migration check.
+- Negative: code maintenance is separate from unattended content publication. It must
+  not cause automated ruleset changes or administrator merges.
 
 ## Verification
 
 - `scripts/workflow-security.test.ts` asserts the same-repository, exact-branch,
-  one-file, trusted-checkout, SHA-pin, token-order, and no-GitHub-cron contracts.
+  one-file, trusted-checkout, SHA-pin, token-order, no-GitHub-cron, and duplicate-CI
+  avoidance contracts.
 - `scripts/publish-reliability.test.ts` covers bounded dispatch retries, correlated
-  Pages success, shared writer concurrency, live-tip fallback, and deployment
-  alerts.
+  Pages success, shared writer concurrency, live-tip fallback, and deployment alerts.
 - CI runs production high-severity dependency audit plus the canonical full check;
   Pages repeats the production audit and full check before deployment.
-- Operational acceptance requires inspecting all eight active Web Scheduled Tasks,
-  exercising a real server-triggered run, exercising the candidate publisher, and
-  confirming live `main`, Pages SHA/run, and `https://memedaily.fun` agree.
-- `GET /repos/Swyu22/MemeDaily/rulesets` plus the selected ruleset detail must show
-  enforcement `active`, `refs/heads/main`, an `update` rule, and the sole bypass
-  type `DeployKey`. Repository deploy keys must contain exactly one writable key titled
-  `MemeDaily trusted publisher`. A real manual fallback run proves the trusted final
-  step can still update main.
+- Operational acceptance requires exactly two daily Kimi tasks plus one Friday renewal,
+  a real trusted candidate publication, and agreement among live `main`, Pages, and
+  `https://memedaily.fun`. Migration PR #1 published four 2026-10-24 memes through
+  trusted run `40089580950` and Pages run `40089755720`.
+- `GET /repos/janluodev/MemeDaily/rulesets` plus the selected ruleset detail must show
+  enforcement `active`, `refs/heads/main`, an `update` rule, and the sole bypass type
+  `DeployKey`. Repository deploy keys must contain exactly one writable key titled
+  `MemeDaily trusted publisher`; the private half is only the Actions secret after the
+  verified local copy is removed.
 - 2026-07-26 recovery provided two real publication paths: meme PR #40 produced a
   zero-item `skipped` envelope, trusted run `30186891155` accepted main `6583aec`,
   and CI `30186948953` plus Pages `30186948929` succeeded; news PR #41 produced six
@@ -203,3 +203,37 @@ The release boundary is amended as follows:
 This preserves fail-closed security while preventing a known-undeployable tree from
 entering `main` through a trusted writer and preventing editorial alerts from masking a
 stale public site.
+
+## 2026-10-24 Amendment: Local Kimi Scheduling and GitHub-Policy Alignment
+
+This amendment supersedes the scheduler-specific eight-task text, the rejection of a
+local operator, and the temporary-ruleset-maintenance instructions above. The one-file
+candidate and trusted-publisher security boundary remains unchanged.
+
+- The active scheduler is exactly two local Kimi Code session cron tasks: news at
+  06:00 and memes at 07:00, Asia/Shanghai. A Friday 18:17 task recreates all three
+  local schedules before expiry. `ai/prompts/CODEX_CLOUD_TASK_INSTRUCTIONS.md` is the
+  operative prompt and renewal contract. The owner's Mac/session must remain available;
+  no legacy or additional scheduler may run in parallel.
+- GitHub Actions has no `schedule:` trigger. Ordinary CI runs for main and ordinary PRs,
+  but skips exact daily candidates already checked by the trusted publisher and skips
+  redundant data-only main publishes. Pages still runs the canonical gate on every main
+  commit. Manual monitor/fallback workflows remain dispatch-only.
+- Operators must not use administrator merges, programmatically alter rulesets or other
+  security settings, create duplicate candidates, spin tight API retry loops, share
+  tokens, or create accounts to evade limits/enforcement. Rate-limit responses require
+  stopping and honoring `retry-after`/`x-ratelimit-reset`.
+- Code maintenance is deliberately outside unattended content automation. It must not
+  be used as a reason to script protection disable/restore cycles. Any exceptional
+  owner maintenance is a separate, reviewed, human responsibility and does not relax
+  the daily candidate boundary.
+- The old account suspension has no verified public root cause. Prior Actions volume or
+  ruleset/admin operations are only hypotheses. The applicable mitigations come from
+  the official Terms of Service, Acceptable Use Policies, Additional Product Terms,
+  Actions/Pages limits, and REST rate-limit documentation; none can guarantee account
+  standing. Further replacement accounts are prohibited, and the official appeal and
+  reinstatement process is the correct path for clarifying the old suspension.
+- The current repository is `janluodev/MemeDaily`. Acceptance requires exactly one
+  writable `MemeDaily trusted publisher` deploy key, the active DeployKey-only
+  `codex-trusted-main` ruleset, a real trusted publication, correlated Pages success,
+  production readback, and exactly three local cron tasks (two daily plus renewal).

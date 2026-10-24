@@ -76,6 +76,18 @@ it("contains no active Anthropic publisher or GitHub cron after the Codex Cloud 
   expect(text).not.toContain("\n  schedule:");
 });
 
+it("does not duplicate ordinary CI for trusted daily data publication", () => {
+  const ci = fs.readFileSync(path.join(WORKFLOWS, "ci.yml"), "utf8");
+
+  expect(ci).toContain("branches: [main]");
+  expect(ci).toContain(
+    'paths-ignore:\n      - "data/daily/*.json"\n      - "data/daily-news/*.json"',
+  );
+  expect(ci).toContain(
+    "if: github.event_name != 'pull_request' || !startsWith(github.head_ref, 'codex/daily-')",
+  );
+});
+
 it("pins every external workflow action to a full commit SHA", () => {
   const files = fs.readdirSync(WORKFLOWS).filter((file) => file.endsWith(".yml"));
   for (const file of files) {

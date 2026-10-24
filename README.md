@@ -15,23 +15,26 @@ gates and permanent archives. The site has **two feeds**, switchable via the hom
   `AGENTS.md` first, then `.cloud.md`, then the active plan.
 - **App layer:** a static web product (Next.js static export) published with GitHub Pages.
   One JSON file per day per feed under `data/daily/` (memes) and `data/daily-news/` (news).
-- **Automation model:** ChatGPT Work / Codex Cloud Scheduled tasks own every unattended
-  primary, catch-up, monitor, and fallback trigger (news 06:00; memes 07:00,
-  Asia/Shanghai). The cloud operator can write only one exact dated JSON on a
-  same-repository `codex/daily-{meme|news}-YYYY-MM-DD` branch and opens a PR; it never
-  writes or merges `main`. `codex-daily-pr-publish.yml` reads only that JSON blob in a
-  read-only job, stamps and validates it with trusted `main` code, then a separate trusted
-  job revalidates the final tree, exposes the dedicated deploy key only to its final push
-  step, and waits for the correlated Pages deployment to succeed. The active
-  `codex-trusted-main` ruleset
-  blocks ordinary users/connected apps from updating or merging `main`; only one
-  dedicated write deploy key, injected into the trusted final workflow step, can
-  bypass for publication. GitHub cron, external
-  cron-job.org, and the Anthropic publisher are retired. Manual fallback/monitor
-  workflows remain for disaster recovery. See `ai/prompts/CODEX_CLOUD_RUNBOOK.md`
-  and ADR-007/ADR-008. From 2026-07-26 onward, only `published`/`partial` with at
-  least three evidence-qualified visible items per feed is terminal; `held` remains
-  an operator-only emergency takedown.
+- **Automation model:** two Kimi Code session cron tasks own unattended primary
+  triggers (news 06:00; memes 07:00, Asia/Shanghai), with a weekly scheduler renewal.
+  The owner's Mac and session must remain available; no second scheduler may run in
+  parallel. Each operator can write only one exact dated JSON on a same-repository
+  `codex/daily-{meme|news}-YYYY-MM-DD` branch and opens a PR; it never writes or
+  merges `main`, changes rulesets, or uses administrator merges.
+  `codex-daily-pr-publish.yml` reads only that JSON blob in a read-only job, stamps
+  and validates it with trusted `main` code, then a separate trusted job revalidates
+  the final tree, exposes the dedicated deploy key only to its final push step, and
+  waits for the correlated Pages deployment to succeed. The active
+  `codex-trusted-main` ruleset blocks ordinary users/connected apps from updating or
+  merging `main`; only one dedicated write deploy key, injected into the trusted
+  final workflow step, can bypass for publication. GitHub `schedule:`, external
+  cron-job.org, and the Anthropic publisher remain retired. GitHub Actions is
+  event-driven for validation, CI, and deployment; manual fallback/monitor workflows
+  remain for disaster recovery. See `ai/prompts/CODEX_CLOUD_RUNBOOK.md`,
+  `ai/prompts/CODEX_CLOUD_TASK_INSTRUCTIONS.md`, and ADR-007/ADR-008. From
+  2026-07-26 onward, only `published`/`partial` with at least three evidence-qualified
+  visible items per feed is terminal; `held` remains an operator-only emergency
+  takedown.
 - **Client freshness:** an inline boot script in `layout.tsx` `<head>` (chunk-independent,
   runs even if hashed JS 404s) self-heals an unstyled render and registers a hand-written
   **network-first** service worker (`public/sw.js`: browser-cache bypass for HTML, offline
