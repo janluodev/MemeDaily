@@ -1,0 +1,973 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T06:36:45+08:00",
+  "published_at": "2026-10-24T06:36:45+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 44,
+    "published": 6,
+    "dropped_safety": {
+      "controversy": 1,
+      "geopolitics": 2,
+      "illegal": 1,
+      "minors": 3,
+      "politics": 1,
+      "propaganda": 1
+    },
+    "dropped_low_confidence": 26,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 32,
+      "official_sources": 1,
+      "state_media_sources": 5,
+      "major_media_sources": 9,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 3
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 6,
+        "relaxed_48h": 11,
+        "relaxed_72h": 12
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 44,
+          "cumulative_unique_candidates": 44,
+          "source_scope": [
+            "公共热榜线索（百度热搜仅热度佐证）",
+            "央媒：新华社/人民网/央视网/中国新闻网",
+            "持牌媒体：财新/界面/财联社/浙江在线/新京报/凤凰网/华龙网",
+            "政府机构与发布：中国航天/中国足协/赛事组委会"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-10-24-yaogan-50-03-launch",
+          "story_identity": "yaogan-50-03-satellite-launch",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T18:15:00+08:00",
+          "scope": "domestic",
+          "topic": "太空航天",
+          "outcome": "selected",
+          "item_id": "2026-10-24-yaogan-50-03-launch",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-24-hengdian-free-soundstages",
+          "story_identity": "hengdian-studios-free-soundstages",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-24-hengdian-free-soundstages",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 19,
+            "everyday_relevance": 18,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-24-sanan-controller-arrest",
+          "story_identity": "sanan-optics-controller-arrest",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T19:00:00+08:00",
+          "scope": "domestic",
+          "topic": "重大事件",
+          "outcome": "selected",
+          "item_id": "2026-10-24-sanan-controller-arrest",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 19,
+            "everyday_relevance": 15,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-24-iphone-duo-launch",
+          "story_identity": "iphone-duo-china-launch-day",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-24-iphone-duo-launch",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 19,
+            "everyday_relevance": 17,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-24-womens-football-coach-exit",
+          "story_identity": "china-womens-football-coach-milicic-exit",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T09:30:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-10-24-womens-football-coach-exit",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 19,
+            "everyday_relevance": 15,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-24-swimming-champs-yuzidi-gold",
+          "story_identity": "national-swimming-champs-yuzidi-gold",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T19:30:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-10-24-swimming-champs-yuzidi-gold",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "typhoon-qiangpi-blue-alert",
+          "story_identity": "typhoon-qiangpi-blue-alert-track",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T06:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 17,
+            "everyday_relevance": 17,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "台风蔷琵已于21、22日连续入选，23日蓝色预警与路径预报无实质新进展，控制题材重复"
+        },
+        {
+          "candidate_key": "baqing-rescue-operations",
+          "story_identity": "baqing-earthquake-rescue-operations",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 18,
+            "everyday_relevance": 15,
+            "evidence": 5
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "巴青地震主线昨日已入选，救援进展属同一事件延续报道，控制同题集中度"
+        },
+        {
+          "candidate_key": "hongguo-coin-phaseout",
+          "story_identity": "hongguo-coin-feature-phaseout",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T16:12:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 16,
+            "everyday_relevance": 18,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "平台功能下线公告昨日已评估，事件时点接近72小时窗口边缘，无新增信息"
+        },
+        {
+          "candidate_key": "pingdou-store-closures",
+          "story_identity": "pingdou-store-closure-wave",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 19,
+            "everyday_relevance": 15,
+            "evidence": 6
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "闭店潮原始走访报道出处待核实，目前主要为热榜线索与单一财经媒体解读"
+        },
+        {
+          "candidate_key": "hyrox-fitness-boom",
+          "story_identity": "hyrox-fitness-race-boom",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 18,
+            "everyday_relevance": 17,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "运动潮流观察稿，公共服务增量有限，未达当日strict_24h线"
+        },
+        {
+          "candidate_key": "canada-goldenrod-warning",
+          "story_identity": "canada-goldenrod-bloom-warning",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T11:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 18,
+            "everyday_relevance": 17,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "外来入侵物种季节性科普提醒，无具体新近事件支点"
+        },
+        {
+          "candidate_key": "wahaha-chairman-resign-report",
+          "story_identity": "wahaha-chairman-resignation-report",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T16:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 19,
+            "everyday_relevance": 12,
+            "evidence": 6
+          },
+          "drop_reason": "仅知情人士口径称董事长辞职，公司未正式回应，事实置信度不足"
+        },
+        {
+          "candidate_key": "li-changyu-memorial",
+          "story_identity": "li-changyu-memorial-yangzhou",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 19,
+            "everyday_relevance": 14,
+            "evidence": 8
+          },
+          "drop_reason": "公众人物纪念活动报道，民生服务增量有限"
+        },
+        {
+          "candidate_key": "gold-below-4000",
+          "story_identity": "gold-price-below-4000-usd",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T15:00:00+08:00",
+          "scope": "international",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 19,
+            "everyday_relevance": 12,
+            "evidence": 8
+          },
+          "drop_reason": "现货黄金盘中跌破4000美元属常规行情波动，对普通读者日常生活直接影响有限"
+        },
+        {
+          "candidate_key": "fangqi-short-drama-marketing",
+          "story_identity": "fangqi-short-drama-marketing",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 17,
+            "everyday_relevance": 13,
+            "evidence": 8
+          },
+          "drop_reason": "房企扎堆短剧营销属行业观察稿，公共属性不足"
+        },
+        {
+          "candidate_key": "jetta-m6-ev-launch",
+          "story_identity": "jetta-m6-ev-launch",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T19:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 16,
+            "everyday_relevance": 14,
+            "evidence": 8
+          },
+          "drop_reason": "新车上市商业发布，公共属性不足"
+        },
+        {
+          "candidate_key": "lpl-worlds-first-round",
+          "story_identity": "lpl-worlds-first-round-losses",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T01:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 8,
+            "evidence": 4
+          },
+          "drop_reason": "境外电竞赛事瑞士轮首轮赛果，受众以电竞圈层为主，未达国际条目代表性门槛"
+        },
+        {
+          "candidate_key": "guokao-registration-final-day",
+          "story_identity": "guokao-2027-registration-final-day",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 18,
+            "everyday_relevance": 12,
+            "evidence": 6
+          },
+          "drop_reason": "国考报名截止节点提醒，22日已通过报名过半报道覆盖，无实质新增信息"
+        },
+        {
+          "candidate_key": "iphone-duo-film-tearing",
+          "story_identity": "iphone-duo-film-tearing-response",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T13:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 18,
+            "everyday_relevance": 10,
+            "evidence": 6
+          },
+          "drop_reason": "单一博主撕膜行为与客服回应，消费增量信息有限，且与已选开售条目同源"
+        },
+        {
+          "candidate_key": "baqing-rumor-refutation",
+          "story_identity": "baqing-earthquake-rumor-refutation",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 18,
+            "everyday_relevance": 9,
+            "evidence": 5
+          },
+          "drop_reason": "涉震谣言核查提醒与昨日已选地震主条同源衍生，控制题材重复"
+        },
+        {
+          "candidate_key": "tvb-hengdian-short-drama",
+          "story_identity": "tvb-jinzhiyunie-short-drama",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 56,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 16,
+            "everyday_relevance": 10,
+            "evidence": 6
+          },
+          "drop_reason": "TVB与红果合作短剧开机属文娱行业动态，公共属性有限"
+        },
+        {
+          "candidate_key": "baqing-tensile-analysis",
+          "story_identity": "baqing-earthquake-tensile-analysis",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T13:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 17,
+            "everyday_relevance": 9,
+            "evidence": 5
+          },
+          "drop_reason": "地震成因专家分析属昨日已选主条的衍生科普，控制题材重复"
+        },
+        {
+          "candidate_key": "wulin-waizhuan-livestream",
+          "story_identity": "wulin-waizhuan-livestream-companion",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 16,
+            "everyday_relevance": 11,
+            "evidence": 6
+          },
+          "drop_reason": "老剧直播陪伴现象属文娱话题，不构成民生新闻"
+        },
+        {
+          "candidate_key": "kiwi-ripening-science",
+          "story_identity": "kiwi-fruit-ripening-science",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 15,
+            "everyday_relevance": 12,
+            "evidence": 5
+          },
+          "drop_reason": "猕猴桃后熟科普趣味性强但新闻性弱"
+        },
+        {
+          "candidate_key": "zhang-liang-malamala",
+          "story_identity": "zhang-liang-malamala-collab",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 17,
+            "everyday_relevance": 6,
+            "evidence": 5
+          },
+          "drop_reason": "艺人联动品牌探店属娱乐营销话题，不构成民生新闻"
+        },
+        {
+          "candidate_key": "nba-76ers-comeback",
+          "story_identity": "nba-76ers-29pt-comeback",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T12:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 48,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 16,
+            "everyday_relevance": 6,
+            "evidence": 5
+          },
+          "drop_reason": "境外联赛常规赛单场逆转，未达国际条目代表性门槛"
+        },
+        {
+          "candidate_key": "liu-yifei-vogue",
+          "story_identity": "liu-yifei-vogue-phoenix-look",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 42,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 16,
+            "everyday_relevance": 4,
+            "evidence": 3
+          },
+          "drop_reason": "明星红毯造型属娱乐话题，不构成民生新闻"
+        },
+        {
+          "candidate_key": "dilireba-vogue",
+          "story_identity": "dilireba-vogue-carpet-look",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 40,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 16,
+            "everyday_relevance": 4,
+            "evidence": 2
+          },
+          "drop_reason": "明星红毯造型属娱乐话题，不构成民生新闻"
+        },
+        {
+          "candidate_key": "dapeng-wedding-photo",
+          "story_identity": "dapeng-wedding-photo-blessing",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 40,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 17,
+            "everyday_relevance": 3,
+            "evidence": 2
+          },
+          "drop_reason": "演员偶遇新人送祝福属娱乐花絮，不构成民生新闻"
+        },
+        {
+          "candidate_key": "ouyang-nana-vogue",
+          "story_identity": "ouyang-nana-vogue-costume-change",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T19:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 38,
+          "score_breakdown": {
+            "heat": 17,
+            "freshness": 16,
+            "everyday_relevance": 3,
+            "evidence": 2
+          },
+          "drop_reason": "明星红毯变装表演属娱乐话题，不构成民生新闻"
+        },
+        {
+          "candidate_key": "jiang-shimeng-jialing",
+          "story_identity": "jiang-shimeng-succeed-jialing-debate",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 36,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 15,
+            "everyday_relevance": 3,
+            "evidence": 2
+          },
+          "drop_reason": "演员接班讨论属娱乐话题，不构成民生新闻"
+        },
+        {
+          "candidate_key": "ningbo-smoking-lawsuit",
+          "story_identity": "ningbo-station-smoking-lawsuit",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "事件线索来自热榜与自媒体转载，未检索到持牌媒体原始报道或法院公开受理信息"
+        },
+        {
+          "candidate_key": "courier-elder-card-intercept",
+          "story_identity": "courier-elder-bank-card-intercept",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "老人寄睡衣藏银行卡被拦一事仅见热榜线索，事发地与原始媒体不明，无法核实"
+        },
+        {
+          "candidate_key": "student-mental-health-claim",
+          "story_identity": "student-mental-health-suspension-claim",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "教师个人发文单源陈述，无权威调查或官方数据佐证"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-5",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "minors"
+        },
+        {
+          "candidate_key": "candidate-6",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "minors"
+        },
+        {
+          "candidate_key": "candidate-7",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "minors"
+        },
+        {
+          "candidate_key": "candidate-8",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "illegal"
+        },
+        {
+          "candidate_key": "candidate-9",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-10-24-yaogan-50-03-launch",
+      "story_identity": "yaogan-50-03-satellite-launch",
+      "headline": "🚀 遥感五十号03星发射成功，北京夜空现“火箭云”",
+      "summary": "新华社消息，10月23日18时15分，我国在太原卫星发射中心使用长征六号改运载火箭，成功将遥感五十号03星送入预定轨道。发射后不久，北京西部天空出现形似火箭航迹的“火箭云”，不少市民驻足拍摄，航天科普话题随之升温。",
+      "category": "国家高光",
+      "scope": "domestic",
+      "topic": "太空航天",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 20,
+        "everyday_relevance": 16,
+        "evidence": 13
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-10-23T18:15:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "航天发射成就报道，以新华社电讯与航天科技集团发布为准，客观陈述"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.news.cn/tech/20261023/d3fe3e3c756a464ba655a60f217ee494/c.html",
+          "title": "我国成功发射遥感五十号03星",
+          "captured_at": "2026-10-24T06:21:00+08:00",
+          "note": "新华社太原10月23日电：18时15分长征六号改运载火箭在太原卫星发射中心将遥感五十号03星送入预定轨道"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "人民网",
+          "url": "http://finance.people.com.cn/n1/2026/1023/c1004-40820546.html",
+          "title": "我国成功发射遥感五十号03星",
+          "captured_at": "2026-10-24T06:21:30+08:00",
+          "note": "人民网10月23日报道：发射任务取得圆满成功"
+        },
+        {
+          "tier": "official",
+          "outlet": "中国航天",
+          "url": "https://www.spacechina.com/n25/n2014789/n2414549/c4736732/content.html",
+          "title": "长六改火箭成功发射遥感五十号03星",
+          "captured_at": "2026-10-24T06:22:00+08:00",
+          "note": "中国航天科技集团官网：长六改火箭点火起飞，将遥感五十号03星送入预定轨道"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-24-hengdian-free-soundstages",
+      "story_identity": "hengdian-studios-free-soundstages",
+      "headline": "🎬 横店130余座摄影棚免费开放，助剧组降本稳就业",
+      "summary": "10月23日，横店集团宣布全域130余座、合计约50万平方米摄影棚向剧组免费开放，并新增超20万平方米免费实景场地，同时与火山引擎合作建设影视AI服务平台。业内认为，此举意在影视行业调整期为剧组降本、稳住拍摄制作就业基本盘。",
+      "category": "文化数字经济",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 81,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 19,
+        "everyday_relevance": 18,
+        "evidence": 13
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-10-23T15:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "产业扶持政策报道，以企业公开发布与多家持牌媒体报道为准，客观陈述"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "财新网",
+          "url": "https://companies.caixin.com/2026-10-23/102496631.html",
+          "title": "“影视寒冬”来袭 横店片场免租金、AI化",
+          "captured_at": "2026-10-24T06:23:00+08:00",
+          "note": "财新网10月23日报道：横店影视城宣布景区拍摄场景全部免费，130多座摄影棚全免租金，并与火山引擎合作建设影视AI服务平台"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "浙江在线",
+          "url": "http://zjnews.zjol.com.cn/yc/qmt/202610/t20261023_31984700.shtml",
+          "title": "AI进组“打工”、130余座摄影棚免费用 横店亮出影视“大礼包”",
+          "captured_at": "2026-10-24T06:23:30+08:00",
+          "note": "浙江在线10月23日报道：横店全域130余座合计50万平方米摄影棚免费开放，同步新增超20万平方米免费实景场地"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "新浪财经",
+          "url": "https://finance.sina.com.cn/jjxw/2026-10-23/doc-iniwffes2663080.shtml",
+          "title": "横店130余座摄影棚免费向剧组开放减轻剧组负担",
+          "captured_at": "2026-10-24T06:24:00+08:00",
+          "note": "新浪财经10月23日报道：横店集团公布最新产业扶持政策，覆盖高科技棚、综艺棚等各类专业场地"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-24-sanan-controller-arrest",
+      "story_identity": "sanan-optics-controller-arrest",
+      "headline": "📢 三安光电实控人林秀成被批捕，公司称经营正常",
+      "summary": "三安光电10月23日晚间公告，公司实际控制人林秀成此前因涉嫌职务侵占、挪用资金罪被公安机关刑事拘留，近日被检察机关批准逮捕。公告称目前公司生产经营管理情况正常，林秀成自2017年7月以来未在公司担任任何职务，该事项不会对公司生产经营产生重大影响。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "重大事件",
+      "score": 80,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 19,
+        "everyday_relevance": 15,
+        "evidence": 13
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-10-23T19:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "以上市公司公告口径为准，客观陈述司法程序进展，不延伸解读案情细节、不构成投资建议"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "界面新闻",
+          "url": "https://www.jiemian.com/article/15231698.html",
+          "title": "三安光电：实际控制人林秀成被检察机关批准逮捕",
+          "captured_at": "2026-10-24T06:25:00+08:00",
+          "note": "界面新闻10月23日报道：三安光电公告收到实控人林秀成家属通知，其被检察机关批准逮捕"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "财联社",
+          "url": "https://m.cls.cn/detail/2513880",
+          "title": "实控人被批捕 三安光电称经营正常 Q3业绩拐点待验证",
+          "captured_at": "2026-10-24T06:25:30+08:00",
+          "note": "财联社10月23日讯：公司披露实控人涉嫌职务侵占、挪用资金罪已进入批捕阶段，称事项与公司无关"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-24-iphone-duo-launch",
+      "story_identity": "iphone-duo-china-launch-day",
+      "headline": "📱 iPhone Duo正式开售：15999元起，每人限购2部",
+      "summary": "10月23日，苹果首款折叠屏手机iPhone Duo在国内正式开售，国行起售价15999元，为苹果迄今最贵iPhone，苹果中国官网显示每位顾客限购2部。媒体探访显示，开售首日二级市场溢价明显回落，部分版本加价空间较预售期缩水约一半。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 79,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 19,
+        "everyday_relevance": 17,
+        "evidence": 12
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-10-23T09:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "消费市场报道，客观呈现发售价、限购与市场溢价信息，不作购买引导"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "凤凰网",
+          "url": "https://finance.ifeng.com/c/8xS9dyHZq8D",
+          "title": "iPhone Duo，今日正式开售",
+          "captured_at": "2026-10-24T06:26:00+08:00",
+          "note": "凤凰网10月23日报道：苹果首款折叠屏手机iPhone Duo正式开售，国行起售价15999元，每人限购2部"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "华龙网",
+          "url": "https://www.cqnews.net/web/content_1563196223530614784.html",
+          "title": "苹果首款折叠屏iPhone Duo今日开售",
+          "captured_at": "2026-10-24T06:26:30+08:00",
+          "note": "华龙网10月23日报道：开售首日溢价“腰斩”，顶配缩水最高达5.5万元"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-24-womens-football-coach-exit",
+      "story_identity": "china-womens-football-coach-milicic-exit",
+      "headline": "⚽ 中国足协宣布女足主帅米利西奇离任",
+      "summary": "新华社北京10月23日电，中国足球协会宣布，经双方友好沟通协商，考虑到米利西奇先生的个人家庭实际情况，其不再担任中国国家女子足球队主教练，外教团队同步离任。足协表示，下一步将结合队伍备战任务，研究确定国家女足新任主教练人选。",
+      "category": "国家高光",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 19,
+        "everyday_relevance": 15,
+        "evidence": 14
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-10-23T09:30:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "体育人事报道，以中国足协声明与新华社电讯为准，不作执教评价延伸"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "http://www.xinhuanet.com/sports/20261023/310b4cf0c63c47b48f7a8c6f731643e7/c.html",
+          "title": "中国足协：女足主帅米利西奇离任",
+          "captured_at": "2026-10-24T06:27:00+08:00",
+          "note": "新华社北京10月23日电：中国足协宣布米利西奇不再担任国家女子足球队主教练，外教团队同步离任"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://sports.cctv.com/2026/10/23/ARTIY2a3X14UetvlzsXWEk6y261023.shtml",
+          "title": "中国足协：女足主帅安特·米利西奇离任",
+          "captured_at": "2026-10-24T06:27:30+08:00",
+          "note": "央视网体育10月23日报道：足协将结合队伍备战任务研究确定国家女足新帅人选"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-24-swimming-champs-yuzidi-gold",
+      "story_identity": "national-swimming-champs-yuzidi-gold",
+      "headline": "🏊 全国游泳锦标赛水立方开赛，14岁于子迪首日摘金",
+      "summary": "10月23日，2026年全国游泳锦标赛（25米）在北京国家游泳中心“水立方”开赛，500余名运动员参赛，成绩将作为12月北京世界短池游泳锦标赛选拔依据。首日女子200米个人混合泳决赛，刚满14岁的亚运冠军于子迪以2分06秒86夺得冠军。",
+      "category": "国家高光",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 76,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 16,
+        "evidence": 12
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-10-23T19:30:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "体育赛事报道，客观陈述赛程与成绩，对未成年运动员仅报道公开比赛事实"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "人民网",
+          "url": "http://ent.people.com.cn/n1/2026/1023/c1012-40820025.html",
+          "title": "2026年全国游泳锦标赛（25米）23日开赛 名将竞逐“水立方”",
+          "captured_at": "2026-10-24T06:28:00+08:00",
+          "note": "人民网10月23日报道：赛事23日至28日在水立方举行，成绩将作为世界短池游泳锦标赛选拔依据"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "新京报",
+          "url": "https://www.bjnews.com.cn/detail/1792762656129175.html",
+          "title": "全国游泳锦标赛（25米）水立方开赛，名将角逐世锦赛入场券",
+          "captured_at": "2026-10-24T06:28:30+08:00",
+          "note": "新京报10月23日报道：北京时隔17年再次举办该赛事，于子迪等名将登场"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "新浪新闻",
+          "url": "https://news.sina.cn/2026-10-23/detail-iniwfruk1827684.d.html",
+          "title": "8道夺冠，14岁于子迪亚运会后首秀便摘金",
+          "captured_at": "2026-10-24T06:29:00+08:00",
+          "note": "新浪新闻10月23日报道：于子迪决赛第8道出发，以2分06秒86夺得女子200米个人混合泳冠军"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
