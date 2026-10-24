@@ -1,7 +1,7 @@
 version: 2
 updates:
-  # Keep GitHub Actions current — esp. the SHA-pinned third-party action in daily-publish.yml,
-  # which would otherwise never receive upstream security patches once pinned.
+  # Keep SHA-pinned actions current through small, reviewable weekly PRs; pinning
+  # prevents silent tag moves but must not freeze upstream security fixes.
   - package-ecosystem: github-actions
     directory: "/"
     schedule:

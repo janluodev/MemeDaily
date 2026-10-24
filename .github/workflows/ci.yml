@@ -2,7 +2,14 @@ name: ci
 
 on:
   push:
+    branches: [main]
+    # Trusted daily publication already checks this exact data-only tree. Pages still
+    # independently runs the canonical gate and deploys every main commit.
+    paths-ignore:
+      - "data/daily/*.json"
+      - "data/daily-news/*.json"
   pull_request:
+    branches: [main]
 
 permissions:
   contents: read
@@ -13,6 +20,9 @@ concurrency:
 
 jobs:
   governance:
+    # Exact daily candidates run the trusted pull_request_target checks instead of
+    # building the same tree again here. Other pull requests retain normal CI.
+    if: github.event_name != 'pull_request' || !startsWith(github.head_ref, 'codex/daily-')
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
