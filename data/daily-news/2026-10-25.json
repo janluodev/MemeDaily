@@ -1,0 +1,988 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T06:35:00+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 42,
+    "published": 7,
+    "dropped_safety": {
+      "geopolitics": 1,
+      "minors": 1,
+      "politics": 1,
+      "public_safety": 1
+    },
+    "dropped_low_confidence": 28,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 35,
+      "official_sources": 3,
+      "state_media_sources": 8,
+      "major_media_sources": 0,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 3
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 7,
+        "relaxed_48h": 14,
+        "relaxed_72h": 17
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 42,
+          "cumulative_unique_candidates": 42,
+          "source_scope": [
+            "国内政府机构与央媒发布（民航局/国家医保局/农业农村部/新华社/央视/人民网/中新网/央广网）",
+            "公共热榜与聚合平台线索",
+            "地方政府与持牌媒体服务报道",
+            "国际通讯社与国际机构（仅评估未入选）"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-10-25-flight-season-winter-spring-switch",
+          "story_identity": "civil-aviation-winter-spring-season-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T14:17:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-10-25-flight-season-winter-spring-switch",
+          "score": 87,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-25-autumn-break-scenic-discounts",
+          "story_identity": "school-autumn-break-scenic-discounts",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T17:11:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "selected",
+          "item_id": "2026-10-25-autumn-break-scenic-discounts",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-25-joint-recruitment-155-sessions",
+          "story_identity": "national-joint-recruitment-autumn-batch2",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T09:47:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-25-joint-recruitment-155-sessions",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-25-heilongjiang-primary-drug-standard",
+          "story_identity": "heilongjiang-primary-care-drug-standard",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T15:10:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-10-25-heilongjiang-primary-drug-standard",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 19,
+            "everyday_relevance": 21,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-25-autumn-grain-harvest-80-percent",
+          "story_identity": "autumn-grain-harvest-over-80-percent",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-10-25-autumn-grain-harvest-80-percent",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 18,
+            "everyday_relevance": 19,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-25-west-12-consumer-double11-tips",
+          "story_identity": "west-12-consumer-assoc-double11-tips",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T10:47:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-25-west-12-consumer-double11-tips",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-25-medical-insurance-open-classes-five",
+          "story_identity": "nhsa-data-open-class-five-sessions",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-10-25-medical-insurance-open-classes-five",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 18,
+            "everyday_relevance": 19,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "typhoon-qiangpi-24oct-blue-alert",
+          "story_identity": "typhoon-qiangpi-blue-alert-track",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 17,
+            "everyday_relevance": 17,
+            "evidence": 7
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "台风蔷琵10月21、22日已连续入选，24日蓝色预警属常规续报，无实质新进展，控制题材重复"
+        },
+        {
+          "candidate_key": "cold-airwave-central-eastern-oct24",
+          "story_identity": "cold-airwave-central-eastern-cooling",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T06:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 18,
+            "everyday_relevance": 18,
+            "evidence": 7
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "冷空气降温为常规季节天气服务信息，近一周已多次评估天气题材，未达灾害性影响"
+        },
+        {
+          "candidate_key": "northern-early-heating-start",
+          "story_identity": "northern-cities-early-heating-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 16,
+            "everyday_relevance": 19,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "提前供暖为各地分散决策的季节性服务信息，无全国统一节点，本周天气题材已多次评估"
+        },
+        {
+          "candidate_key": "yankao-2027-registration-close",
+          "story_identity": "yankao-2027-online-registration-deadline",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T22:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 18,
+            "everyday_relevance": 18,
+            "evidence": 7
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "研考报名截止属周期性服务提醒，前期报名节点已覆盖，无实质新增信息"
+        },
+        {
+          "candidate_key": "guokao-2027-registration-final",
+          "story_identity": "guokao-2027-registration-final-day",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 18,
+            "everyday_relevance": 18,
+            "evidence": 7
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "国考报名截止提醒，10月22日已发报名过半报道，最终报名数据官方尚未公布，无实质新增"
+        },
+        {
+          "candidate_key": "beijing-xiangshan-red-leaves-peak",
+          "story_identity": "beijing-red-leaves-peak-weekend-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 17,
+            "everyday_relevance": 18,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "香山红叶客流提示为城市赏秋服务信息，公共服务增量有限，且今日已选出行类主条"
+        },
+        {
+          "candidate_key": "kunming-housing-fund-recovery",
+          "story_identity": "kunming-housing-fund-system-recovery",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 17,
+            "everyday_relevance": 18,
+            "evidence": 7
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "昆明公积金系统恢复为地方性事件收尾节点，线上恢复时点为24日零时，全国性公共服务增量有限"
+        },
+        {
+          "candidate_key": "zikao-2026-second-half-exam",
+          "story_identity": "self-taught-exam-oct24-25-session",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 17,
+            "everyday_relevance": 17,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "自学考试为周期性常规考试，新闻增量小，仅具服务提示价值"
+        },
+        {
+          "candidate_key": "seventy-city-housing-price-sep",
+          "story_identity": "sep-70-city-housing-price-data",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 65,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 15,
+            "everyday_relevance": 18,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "70城房价为例行月度数据，解读稿时效接近48小时窗口边缘，无重大政策变化"
+        },
+        {
+          "candidate_key": "pork-price-decline-oct-week3",
+          "story_identity": "pork-wholesale-price-yoy-decline-oct",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 16,
+            "everyday_relevance": 18,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "猪肉价格监测报道集中在窗口前段，物价类题材近期已多次覆盖"
+        },
+        {
+          "candidate_key": "cdc-flu-vaccination-reminder",
+          "story_identity": "cdc-october-flu-vaccination-window",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 15,
+            "everyday_relevance": 17,
+            "evidence": 8
+          },
+          "drop_reason": "中疾控原始提示发布于10月上旬，地方落地提醒时效锚点偏弱"
+        },
+        {
+          "candidate_key": "peizhen-national-standard-nov1",
+          "story_identity": "peizhen-service-national-standard-gb47801",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 15,
+            "everyday_relevance": 17,
+            "evidence": 7
+          },
+          "drop_reason": "陪诊国标11月1日实施属前瞻报道，10月18、21日已两度评估，无新增信息"
+        },
+        {
+          "candidate_key": "local-autumn-job-fairs-oct24",
+          "story_identity": "local-autumn-recruitment-fairs-oct24",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 18,
+            "everyday_relevance": 15,
+            "evidence": 5
+          },
+          "drop_reason": "地方单场招聘会与已选全国联合招聘条目同题，不重复选用"
+        },
+        {
+          "candidate_key": "brent-crude-116-surge",
+          "story_identity": "brent-crude-oil-116-middle-east",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T09:00:00+08:00",
+          "scope": "international",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 18,
+            "everyday_relevance": 10,
+            "evidence": 6
+          },
+          "drop_reason": "国际油价上涨对国内成品油调价传导存在时滞，背景牵涉地缘局势，未达国际条目代表性门槛"
+        },
+        {
+          "candidate_key": "hongguo-coin-phaseout-followup",
+          "story_identity": "hongguo-coin-feature-phaseout",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T16:12:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 13,
+            "everyday_relevance": 16,
+            "evidence": 7
+          },
+          "drop_reason": "平台金币功能下线公告前期已评估，事件超出72小时窗口且无新增信息"
+        },
+        {
+          "candidate_key": "shijiazhuang-elder-scam-case",
+          "story_identity": "shijiazhuang-elderly-fraud-case-followup",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 59,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 17,
+            "everyday_relevance": 14,
+            "evidence": 5
+          },
+          "drop_reason": "“曝光+立案”模式10月19日丹阳案已覆盖，该案无权威新进展"
+        },
+        {
+          "candidate_key": "double11-presale-guide-clutter",
+          "story_identity": "double11-2026-first-wave-presale",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 13,
+            "everyday_relevance": 15,
+            "evidence": 7
+          },
+          "drop_reason": "大促开卖节点稿件多为攻略导流性质，近似软广，已选消协提示条目覆盖服务角度"
+        },
+        {
+          "candidate_key": "ebola-multi-country-outbreak-2026",
+          "story_identity": "ebola-multi-country-outbreak-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T08:00:00+08:00",
+          "scope": "international",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 17,
+            "everyday_relevance": 9,
+            "evidence": 8
+          },
+          "drop_reason": "埃博拉疫情暂无中国输入病例与直接关联，属常规全球疫情监测，未达代表性门槛"
+        },
+        {
+          "candidate_key": "ecommerce-ai-model-images-followup",
+          "story_identity": "ecommerce-ai-generated-model-images",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T11:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 57,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 12,
+            "evidence": 5
+          },
+          "drop_reason": "双11女装AI模特图乱象10月23日已发，衍生讨论无实质新进展"
+        },
+        {
+          "candidate_key": "flight-season-ticket-price-read",
+          "story_identity": "winter-spring-season-ticket-price-analysis",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T16:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 56,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 11,
+            "evidence": 5
+          },
+          "drop_reason": "换季票价解读为已选民航换季主条的衍生角度，控制同题集中度"
+        },
+        {
+          "candidate_key": "autumn-break-travel-booking-surge",
+          "story_identity": "autumn-break-family-travel-bookings",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 17,
+            "everyday_relevance": 10,
+            "evidence": 5
+          },
+          "drop_reason": "秋假亲子游预订为已选秋假条目衍生话题，平台数据未经权威核实"
+        },
+        {
+          "candidate_key": "consumer-environment-month-16dept",
+          "story_identity": "consumer-environment-month-2026-16dept",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 54,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 13,
+            "everyday_relevance": 14,
+            "evidence": 6
+          },
+          "drop_reason": "“优化消费环境月”发布时点不明且暂为地方转发，置信度不足"
+        },
+        {
+          "candidate_key": "starbucks-dine-in-policy-followup",
+          "story_identity": "starbucks-china-dine-in-consumption-policy-oct22",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 17,
+            "everyday_relevance": 9,
+            "evidence": 5
+          },
+          "drop_reason": "星巴克消费入座政策10月22日已发，后续讨论为衍生话题"
+        },
+        {
+          "candidate_key": "swimming-champs-day2-results",
+          "story_identity": "national-swimming-champs-day2-results",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T19:30:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 49,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 18,
+            "everyday_relevance": 8,
+            "evidence": 4
+          },
+          "drop_reason": "全国游泳锦标赛次日赛果为昨日已选赛事的延续报道，控制同题集中度"
+        },
+        {
+          "candidate_key": "hengdian-free-soundstages-follow",
+          "story_identity": "hengdian-studios-policy-analysis",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T13:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 48,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 17,
+            "everyday_relevance": 9,
+            "evidence": 4
+          },
+          "drop_reason": "横店摄影棚免费政策10月24日已发主条，行业解读为衍生角度"
+        },
+        {
+          "candidate_key": "winter-wheat-sowing-progress-talk",
+          "story_identity": "winter-wheat-sowing-progress-analysis",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 47,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 16,
+            "everyday_relevance": 9,
+            "evidence": 4
+          },
+          "drop_reason": "冬小麦播种进展已并入已选秋粮主条，单独成条增量不足"
+        },
+        {
+          "candidate_key": "victoria-secret-show-2026-reports",
+          "story_identity": "victoria-secret-fashion-show-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T20:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 45,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 16,
+            "everyday_relevance": 7,
+            "evidence": 4
+          },
+          "drop_reason": "时尚秀文娱话题，未达国际条目代表性门槛，不构成民生新闻"
+        },
+        {
+          "candidate_key": "vogue-gala-red-carpet-looks",
+          "story_identity": "vogue-gala-red-carpet-celebrity-looks",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 41,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 17,
+            "everyday_relevance": 5,
+            "evidence": 3
+          },
+          "drop_reason": "明星红毯造型属娱乐话题，不构成民生新闻"
+        },
+        {
+          "candidate_key": "pension-adjustment-rumor-2026",
+          "story_identity": "pension-adjustment-notice-rumor",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "“2026养老金调整通知”类内容均为自媒体推测，无权威信源，不予采用"
+        },
+        {
+          "candidate_key": "apple-late-oct-event-rumor",
+          "story_identity": "apple-october-event-rumor-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T16:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "苹果10月底发布会传闻仅自媒体爆料，10月21、22日已两度因证据不足舍弃，仍无官方信息"
+        },
+        {
+          "candidate_key": "express-peak-season-launch",
+          "story_identity": "express-peak-season-2026-launch",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "快递旺季启动仅地方邮政管理局信源，国家邮政局层面统一部署稿未检索到"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "public_safety"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "minors"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-10-25-flight-season-winter-spring-switch",
+      "story_identity": "civil-aviation-winter-spring-season-2026",
+      "headline": "✈️ 全国民航25日起执行冬春航季，每周航班约11.6万班",
+      "summary": "中国民航局消息，2026/27年冬春航季自10月25日起执行至2027年3月27日，全国216家航空公司每周计划客货运航班约11.6万班，新开国内航线288条、新增8个国际通航点。换季前后航班时刻调整较多，出行前注意核对最新航班动态。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 87,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 20,
+        "everyday_relevance": 20,
+        "evidence": 13
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-10-24T14:17:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "航季换季事实性公告，以民航局与新华社发布为准，客观陈述航班计划调整"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "中国民航局",
+          "url": "http://www.caac.gov.cn/XWZX/MHYW/202610/t20261024_231936.html",
+          "title": "全国民航10月25日起执行冬春航季航班计划",
+          "captured_at": "2026-10-25T06:12:00+08:00",
+          "note": "民航局官网10月24日发布：新航季自10月25日起执行至2027年3月27日，216家航司每周计划航班约11.6万班"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.xinhuanet.com/20261024/a0bd1eb1296c4c16a73244c3f0c4eadc/c.html",
+          "title": "每周航班约11.6万班 全国民航将换季运行",
+          "captured_at": "2026-10-25T06:12:30+08:00",
+          "note": "新华社10月24日电：新航季新开国内航线288条，新增8个国际通航点"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-25-autumn-break-scenic-discounts",
+      "story_identity": "school-autumn-break-scenic-discounts",
+      "headline": "🎒 多地中小学秋假集中公布，景区推学生优惠",
+      "summary": "央视新闻汇总，深圳、成都、福州、宁波、长沙及江苏13市等地近日集中公布中小学秋假安排，多落在11月中下旬并可与周末拼成小长假；毕棚沟、庐山、黄山等景区对学生、教师推出免票优惠，广东600余家A级景区对深圳市民优惠。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "教育考试",
+      "score": 84,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 20,
+        "everyday_relevance": 20,
+        "evidence": 12
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-10-24T17:11:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "假期安排与景区优惠服务信息，以各地教育局官宣与央视汇总报道为准"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://news.cctv.com/2026/10/24/ARTI6FNki97fRbJSwco1zmjN261024.shtml",
+          "title": "中小学秋假日期公布！多地上新旅游“福利大礼包”",
+          "captured_at": "2026-10-25T06:14:00+08:00",
+          "note": "央视新闻10月24日汇总：深圳、成都、福州、宁波、长沙、江苏13市等秋假集中在11月中下旬，多家景区对学生教师免票"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com/sh/2026/10-24/10720330.shtml",
+          "title": "中小学秋假日期公布！多地上新旅游“福利大礼包”",
+          "captured_at": "2026-10-25T06:14:30+08:00",
+          "note": "中新网10月24日报道：多地秋假与周末拼成小长假，毕棚沟、庐山、黄山等景区对学生教师免票"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-25-joint-recruitment-155-sessions",
+      "story_identity": "national-joint-recruitment-autumn-batch2",
+      "headline": "💼 全国城市联合招聘秋季专场第二批155场启动",
+      "summary": "央广网报道，人力资源社会保障部全国人才流动中心组织的2026年全国城市联合招聘高校毕业生秋季专场第二批155场活动陆续在全国启动，覆盖多省地市，面向2027届毕业生及往届未就业毕业生提供岗位对接，具体场次安排已通过官方渠道公布。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 83,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 19,
+        "everyday_relevance": 20,
+        "evidence": 13
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-10-24T09:47:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "就业服务信息，以人社部全国人才流动中心安排与央广网报道为准"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央广网",
+          "url": "https://edu.cnr.cn/sy/sytjB/20261024/t20261024_527851671.shtml",
+          "title": "@高校毕业生 全国城市联合招聘秋季专场第二批活动启动",
+          "captured_at": "2026-10-25T06:16:00+08:00",
+          "note": "央广网10月24日报道：第二批155场秋季专场活动陆续启动，面向高校毕业生提供岗位对接"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "http://www.news.cn/edu/20261020/dd40f5a095fa4455b6eedd0d2fba0aa0/20261020dd40f5a095fa4455b6eedd0d2fba0aa0_392f51be9fd32f4da8937a1a5185c294d8.pdf",
+          "title": "2026年全国城市联合招聘高校毕业生秋季专场活动安排（第二批）",
+          "captured_at": "2026-10-25T06:16:30+08:00",
+          "note": "新华网刊发人社部全国人才流动中心专场安排列表（PDF），列明第二批155场活动"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-25-heilongjiang-primary-drug-standard",
+      "story_identity": "heilongjiang-primary-care-drug-standard",
+      "headline": "💊 黑龙江明确基层医疗卫生机构药品配备标准",
+      "summary": "国家医疗保障局官网发布，黑龙江省明确基层医疗卫生机构药品配备标准，围绕常见病、慢性病用药需求规范基层配备品种与供应保障，推动县乡村用药衔接，方便群众在家门口就近看病取药，基层用药可及性进一步提升。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 19,
+        "everyday_relevance": 21,
+        "evidence": 13
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-10-24T15:10:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "医保政策服务信息，以国家医保局官网发布为准，客观陈述地方做法"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家医保局",
+          "url": "https://www.nhsa.gov.cn/art/2026/10/24/art_14_23220.html",
+          "title": "黑龙江多措并举打通基层药品配备“最后一公里”",
+          "captured_at": "2026-10-25T06:18:00+08:00",
+          "note": "国家医保局官网10月24日发布地方经验：黑龙江明确基层药品配备标准，保障常见病慢性病用药"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-25-autumn-grain-harvest-80-percent",
+      "story_identity": "autumn-grain-harvest-over-80-percent",
+      "headline": "🌾 全国秋粮收获过八成，冬小麦播种过三成",
+      "summary": "据农业农村部农情调度，截至10月23日全国秋粮收获已过八成，东北、西北、黄淮海等主产区进度过八成，冬小麦播种已过三成。央视新闻报道，各地正抢抓晴好天气加快秋收进度，全年粮食丰收在望，市场供应预期稳定。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 79,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 18,
+        "everyday_relevance": 19,
+        "evidence": 13
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-10-24T08:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "农业生产进度权威发布，以农业农村部农情调度与央视报道为准"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://news.cctv.com/2026/10/24/ARTIZM4ufOsPzuVItWBxlmZm261023.shtml",
+          "title": "农业农村部：全国秋粮收获过八成",
+          "captured_at": "2026-10-25T06:20:00+08:00",
+          "note": "央视新闻10月24日报道农业农村部农情调度：秋粮收获过八成、冬小麦播种过三成"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "人民网",
+          "url": "http://finance.people.com.cn/n1/2026/1019/c1004-40816934.html",
+          "title": "全国秋粮收获进度过七成",
+          "captured_at": "2026-10-25T06:20:30+08:00",
+          "note": "人民网此前进度报道：秋粮收获过七成，与最新调度形成连续进度链"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-25-west-12-consumer-double11-tips",
+      "story_identity": "west-12-consumer-assoc-double11-tips",
+      "headline": "🛒 西部十二地消协联合发布“双十一”网购提示",
+      "summary": "中国新闻网消息，贵州联合内蒙古、广西、重庆、四川、云南、西藏、陕西、甘肃、青海、宁夏、新疆等西部十二地消费者协会发布“双十一”网购消费提示，提醒消费者防范“先涨后降”、定金套路、刷单诈骗等陷阱，注意留存凭证、依法理性维权。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 19,
+        "everyday_relevance": 20,
+        "evidence": 11
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-10-24T10:47:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "消费提示类公共服务信息，无负面指向，以中新网报道为准"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/10-24/10720221.shtml",
+          "title": "西部十二地消协联合发布“双十一”网购消费提示",
+          "captured_at": "2026-10-25T06:22:00+08:00",
+          "note": "中新网10月24日电：十二地消协提示防范先涨后降、定金套路、刷单诈骗，保留购物凭证"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-25-medical-insurance-open-classes-five",
+      "story_identity": "nhsa-data-open-class-five-sessions",
+      "headline": "📊 国家医保局数据发布公开课已举办五场",
+      "summary": "国家医疗保障局消息，医保数据发布公开课已连续举办五场，面向各地医保部门和定点医药机构讲解医保基金运行、DRG及病种付费等数据发布口径与应用。福建等地已发布2026年上半年医保运行数据，医保基金运行透明度持续提升。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 75,
+      "score_breakdown": {
+        "heat": 24,
+        "freshness": 18,
+        "everyday_relevance": 19,
+        "evidence": 14
+      },
+      "heat_rank": 7,
+      "occurred_at": "2026-10-24T18:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "行业治理类信息，与日常就医费用间接相关，客观陈述官方发布，不作延伸解读"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家医保局",
+          "url": "https://www.nhsa.gov.cn/art/2026/10/24/art_14_23222.html",
+          "title": "医保数据发布持续开展 推动数据赋能“三医”协同发展",
+          "captured_at": "2026-10-25T06:24:00+08:00",
+          "note": "国家医保局官网10月24日发布：公开课已办五场，福建发布上半年医保运行数据"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
