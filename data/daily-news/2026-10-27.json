@@ -1,0 +1,884 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T15:05:37+08:00",
+  "published_at": "2026-10-27T15:05:37+08:00",
+  "status": "partial",
+  "run_report": {
+    "candidates_scanned": 40,
+    "published": 5,
+    "dropped_safety": {
+      "controversy": 1,
+      "politics": 1,
+      "rumor": 2
+    },
+    "dropped_low_confidence": 26,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media",
+      "aggregator"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 36,
+      "official_sources": 1,
+      "state_media_sources": 5,
+      "major_media_sources": 3,
+      "aggregator_sources": 1,
+      "dropped_insufficient_evidence": 5
+    },
+    "selection": {
+      "tier": "relaxed_48h",
+      "qualified": {
+        "strict_24h": 1,
+        "relaxed_48h": 5,
+        "relaxed_72h": 18
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 40,
+          "cumulative_unique_candidates": 40,
+          "source_scope": [
+            "国内政府机构与央媒发布（新华社/央视网/中国新闻网/中国经济网/国家邮政局等）",
+            "持牌媒体与地方媒体服务报道（新浪财经/中财网/海峡网/潮新闻/川观新闻等）",
+            "公共热榜与聚合平台线索（微博热搜等，仅作热度佐证）",
+            "中国互联网联合辟谣平台与气象部门权威发布"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-10-27-guokao-qualification-345m",
+          "story_identity": "guokao-2027-registration-final-day",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "selected",
+          "item_id": "2026-10-27-guokao-qualification-345m",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 35,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-27-three-cold-waves-heating",
+          "story_identity": "three-cold-waves-heating-oct27",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-10-27-three-cold-waves-heating",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-10-27-weather-rumor-himalaya-refuted",
+          "story_identity": "weather-rumor-himalaya-refuted",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-10-27-weather-rumor-himalaya-refuted",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-10-27-express-price-anti-involution",
+          "story_identity": "express-price-rise-anti-involution-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-27-express-price-anti-involution",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-10-27-zhengzhou-tenant-landlord-refund",
+          "story_identity": "zhengzhou-tenant-landlord-refund",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-10-27-zhengzhou-tenant-landlord-refund",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 19,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "railway-12306-group-ticket-inquiry",
+          "story_identity": "railway-12306-group-ticket-contact-inquiry",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 19,
+            "everyday_relevance": 15,
+            "evidence": 7
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "12306团体票联系方式查询功能服务20人及以上团体，受众面窄于当日入选条目，日常民生增量有限"
+        },
+        {
+          "candidate_key": "home-appliance-trade-in-100m-units",
+          "story_identity": "home-appliance-trade-in-2026-cumulative",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 19,
+            "everyday_relevance": 15,
+            "evidence": 7
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "家电以旧换新累计数据为阶段性政策成效发布，无新的补贴规则变化，消费服务增量有限"
+        },
+        {
+          "candidate_key": "beijing-shunyi-autumn-routes",
+          "story_identity": "beijing-shunyi-autumn-routes-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 18,
+            "everyday_relevance": 14,
+            "evidence": 6
+          },
+          "drop_reason": "顺义赏秋线路为地域性文旅活动，全国性公共服务增量有限，分数未达65资格线"
+        },
+        {
+          "candidate_key": "flight-season-switch-72h-expired",
+          "story_identity": "civil-aviation-winter-spring-season-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T14:17:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 17,
+            "everyday_relevance": 19,
+            "evidence": 7
+          },
+          "drop_reason": "民航冬春航季换季10月25日已发主条，今日仅生效初期延续信息，事件龄已超72小时窗口"
+        },
+        {
+          "candidate_key": "yukun-hsr-track-laying-complete",
+          "story_identity": "yukun-hsr-track-laying-complete-oct24",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T16:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 18,
+            "everyday_relevance": 19,
+            "evidence": 7
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "渝昆高铁全线铺轨完成为10月24日节点，预计2027年上半年才通车，对当前出行无即时改变且超strict窗口"
+        },
+        {
+          "candidate_key": "gold-price-below-4000-shuibei",
+          "story_identity": "gold-price-below-4000-shuibei-buying",
+          "research_pass": 1,
+          "occurred_at": "2026-10-25T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 17,
+            "everyday_relevance": 19,
+            "evidence": 7
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "金价跌破4000美元为市场行情波动，表述需避免投资引导，10月25日集中报道后无新增事实"
+        },
+        {
+          "candidate_key": "autumn-grain-purchase-season-start",
+          "story_identity": "autumn-grain-purchase-season-start",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 19,
+            "everyday_relevance": 17,
+            "evidence": 7
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "秋粮收购旺季启动为季节性常规农事安排，与10月25日已发收获进度条目角度共通，增量有限"
+        },
+        {
+          "candidate_key": "autumn-grain-harvest-followup-72h",
+          "story_identity": "autumn-grain-harvest-over-80-percent",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 17,
+            "everyday_relevance": 17,
+            "evidence": 7
+          },
+          "drop_reason": "秋粮收获过八成10月25日已发，后续农情调度为常规延续，事件龄已超72小时窗口"
+        },
+        {
+          "candidate_key": "yankao-2027-registration-review-stage",
+          "story_identity": "yankao-2027-online-registration-deadline",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T22:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 17,
+            "everyday_relevance": 18,
+            "evidence": 7
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "考研报名10月24日截止节点已过，各地网上确认时间分散，无全国统一新增信息"
+        },
+        {
+          "candidate_key": "resident-insurance-2027-payment",
+          "story_identity": "resident-medical-insurance-2027-payment-400",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 15,
+            "everyday_relevance": 18,
+            "evidence": 7
+          },
+          "drop_reason": "城乡居民医保集中缴费各地分散启动，属地锚点已超72小时窗口，本周医保题材已覆盖"
+        },
+        {
+          "candidate_key": "flu-vaccination-free-program",
+          "story_identity": "cdc-october-flu-vaccination-window",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 14,
+            "everyday_relevance": 17,
+            "evidence": 7
+          },
+          "drop_reason": "流感疫苗免费接种为10月中旬启动的持续推进事项，主报道时效已超72小时窗口"
+        },
+        {
+          "candidate_key": "peizhen-standard-nov1-preview",
+          "story_identity": "peizhen-service-national-standard-gb47801",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 15,
+            "everyday_relevance": 16,
+            "evidence": 7
+          },
+          "drop_reason": "陪诊国标11月1日施行属前瞻事项，近期已四度评估，待施行节点再报"
+        },
+        {
+          "candidate_key": "sep-70city-housing-price",
+          "story_identity": "sep-70-city-housing-price-data",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 15,
+            "everyday_relevance": 18,
+            "evidence": 6
+          },
+          "drop_reason": "70城房价为例行月度数据，无重大政策变化，时效已超72小时窗口"
+        },
+        {
+          "candidate_key": "baqing-quake-cause-analysis",
+          "story_identity": "baqing-earthquake-cause-analysis",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 16,
+            "everyday_relevance": 15,
+            "evidence": 6
+          },
+          "drop_reason": "巴青地震成因属衍生角度，主事件10月23、26日已两选，同事件第三角度无全新硬进展"
+        },
+        {
+          "candidate_key": "baqing-warm-resettlement-published",
+          "story_identity": "baqing-earthquake-warm-resettlement-power",
+          "research_pass": 1,
+          "occurred_at": "2026-10-25T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 18,
+            "everyday_relevance": 18,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "巴青震区保暖安置与电力恢复昨日已发主条，同一事件进展不重复入选"
+        },
+        {
+          "candidate_key": "beijing-gaokao-published-followup",
+          "story_identity": "beijing-2027-gaokao-registration-opens",
+          "research_pass": 1,
+          "occurred_at": "2026-10-25T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 18,
+            "everyday_relevance": 19,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "北京高考报名启动昨日已发，网上申请持续至10月28日，今日无新增节点"
+        },
+        {
+          "candidate_key": "elderly-care-choice-published",
+          "story_identity": "elderly-care-choice-support-case",
+          "research_pass": 1,
+          "occurred_at": "2026-10-25T10:43:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 17,
+            "everyday_relevance": 19,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "养老选择权个案普法昨日已发，后续讨论为衍生话题，不构成新增"
+        },
+        {
+          "candidate_key": "asian-para-games-published",
+          "story_identity": "asian-para-games-2026-china-closing",
+          "research_pass": 1,
+          "occurred_at": "2026-10-25T08:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 17,
+            "everyday_relevance": 18,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "亚残运会闭幕昨日已发，赛事已收官无新增事实"
+        },
+        {
+          "candidate_key": "typhoon-qiangpi-routine-continue",
+          "story_identity": "typhoon-qiangpi-blue-alert-track",
+          "research_pass": 1,
+          "occurred_at": "2026-10-25T06:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 16,
+            "everyday_relevance": 17,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "台风蔷琵10月21、22日已连选两日，近期续报均为常规预警与风雨影响，无登陆等重大新事态"
+        },
+        {
+          "candidate_key": "autumn-break-scenic-followup",
+          "story_identity": "school-autumn-break-scenic-discounts",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T17:11:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 17,
+            "everyday_relevance": 18,
+            "evidence": 7
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "多地秋假与景区优惠10月25日已发主条，衍生出游讨论不构成新增"
+        },
+        {
+          "candidate_key": "double11-consumer-tips-covered",
+          "story_identity": "west-12-consumer-assoc-double11-tips",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T10:47:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 16,
+            "everyday_relevance": 17,
+            "evidence": 7
+          },
+          "drop_reason": "西部十二地消协双11提示10月25日已发，今日双11题材已由快递涨价条目覆盖"
+        },
+        {
+          "candidate_key": "central-xuandiao-registration-waiting",
+          "story_identity": "central-organs-selection-xuandiao-2027",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T19:15:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 17,
+            "everyday_relevance": 19,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "遴选选调公告发布于10月24日已超strict窗口，报名10月28日才启动，待报名节点再评估"
+        },
+        {
+          "candidate_key": "vegetable-basket-price-index-1026",
+          "story_identity": "vegetable-basket-wholesale-price-index-daily",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 20,
+            "everyday_relevance": 13,
+            "evidence": 5
+          },
+          "drop_reason": "菜篮子批发价格指数为农业农村部例行监测，单日波动小，宜作常态化栏目而非头条"
+        },
+        {
+          "candidate_key": "express-volume-9month-reprint",
+          "story_identity": "express-business-volume-first-9-months",
+          "research_pass": 1,
+          "occurred_at": "2026-10-25T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 17,
+            "everyday_relevance": 16,
+            "evidence": 7
+          },
+          "drop_reason": "前三季度快递业务量数据此前已评估，人民日报转载为同一数据，时效与增量有限"
+        },
+        {
+          "candidate_key": "flexible-employment-insurance-draft",
+          "story_identity": "flexible-employment-social-insurance-incentive",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 14,
+            "everyday_relevance": 20,
+            "evidence": 7
+          },
+          "drop_reason": "安徽助保惠民行动尚为征求意见稿且发布于10月19日，已超72小时窗口，待正式出台再报"
+        },
+        {
+          "candidate_key": "chengdu-housing-fund-new-policy",
+          "story_identity": "chengdu-housing-fund-renovation-property-fee",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 14,
+            "everyday_relevance": 17,
+            "evidence": 6
+          },
+          "drop_reason": "成都公积金新政10月20日施行，超72小时窗口且为地方性政策，当前主源为转载站需回溯官网"
+        },
+        {
+          "candidate_key": "fuel-price-oct29-window-forecast",
+          "story_identity": "oct29-fuel-price-window-forecast",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "10月29日成品油调价幅度均为机构测算预测，国家发改委未发布正式公告，不作事实性表述"
+        },
+        {
+          "candidate_key": "apple-oct-event-rumor",
+          "story_identity": "apple-october-event-rumor-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-23T16:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "苹果10月底发布会传闻仅自媒体爆料，已四度因证据不足舍弃，仍无官方信息"
+        },
+        {
+          "candidate_key": "pension-adjustment-rumor",
+          "story_identity": "pension-adjustment-notice-rumor",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "养老金调整通知类内容均为自媒体推测，无权威信源，不予采用"
+        },
+        {
+          "candidate_key": "teacher-cert-interview-yunnan",
+          "story_identity": "teacher-cert-interview-registration-2026h2",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T06:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "下半年教资面试报名公告目前仅见媒体汇总稿，未回溯到教育厅官网原文独立核实"
+        },
+        {
+          "candidate_key": "bakery-frozen-vs-artisan",
+          "story_identity": "bakery-industry-frozen-vs-artisan-trend",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T06:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "烘焙行业分化观察为单一来源行业稿且有软文倾向，缺独立二源"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-10-27-guokao-qualification-345m",
+      "story_identity": "guokao-2027-registration-final-day",
+      "headline": "🎓 2027国考345万人通过资格审查",
+      "summary": "国家公务员局通报，2027年度国考网上报名结束，共393.5万人报名，345万人通过资格审查，报录比约97:1。通过资格审查的考生须于11月1日至6日登录专题网站进行报名确认并缴费，逾期视为放弃，公共科目笔试将于11月底举行。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "教育考试",
+      "score": 88,
+      "score_breakdown": {
+        "heat": 35,
+        "freshness": 20,
+        "everyday_relevance": 20,
+        "evidence": 13
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-10-26T18:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "考试招录服务信息，以国家公务员局通报与央媒报道为准，客观陈述数据与时间节点，不渲染就业情绪"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://edu.cctv.com/2026/10/27/ARTIGO9tXkive9guf15wyQcq261027.shtml",
+          "title": "345万人通过2027年国家公务员考试资格审查",
+          "captured_at": "2026-10-27T14:31:00+08:00",
+          "note": "央视网10月27日报道：2027年度国考资格审查10月26日18时结束，345万人通过审查，报录比约97:1"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/gn/2026/10-26/10721307.shtml",
+          "title": "345万人通过2027年国家公务员考试资格审查",
+          "captured_at": "2026-10-27T14:32:00+08:00",
+          "note": "中新网10月26日报道：393.5万人网上报名，345万人通过资格审查，11月1日至6日报名确认缴费"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-27-three-cold-waves-heating",
+      "story_identity": "three-cold-waves-heating-oct27",
+      "headline": "❄️ 三股冷空气接连来袭，北方多地提前供暖",
+      "summary": "中央气象台消息，本周三股冷空气接连影响我国，中东部多地将迎下半年以来最冷一天，北京或于10月28日前后入冬。伴随降温，哈尔滨、延吉等北方城市已提前开栓供暖，各地陆续公布今冬供暖服务安排，提醒公众注意防寒保暖、安全出行。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 84,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 20,
+        "everyday_relevance": 20,
+        "evidence": 12
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-10-26T12:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "天气与供暖服务报道，聚焦防寒与公共服务信息，不渲染灾害恐慌，气温与供暖安排以各地官方发布为准"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/10-26/10721346.shtml",
+          "title": "降温进度条更新，冷空气这次真的要吹到南方了！",
+          "captured_at": "2026-10-27T14:33:00+08:00",
+          "note": "中新网10月26日报道：冷空气接连来袭，中东部将迎下半年来最冷一天，北京或于10月28日前后入冬"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国经济网",
+          "url": "http://www.ce.cn/xwzx/shgj/gdxw/202610/t20261024_3270005.shtml",
+          "title": "冷冷冷！新一波冷空气来袭 供暖季开启前做好这几件事→",
+          "captured_at": "2026-10-27T14:34:00+08:00",
+          "note": "中国经济网10月24日报道：新一波冷空气来袭，供暖季开启前做好防寒准备，北方多地提前启动供暖"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-27-weather-rumor-himalaya-refuted",
+      "story_identity": "weather-rumor-himalaya-refuted",
+      "headline": "🌀 气象部门辟谣“气旋撞击喜马拉雅”传言",
+      "summary": "针对自媒体流传的“气旋撞击喜马拉雅山脉带来特大暴雪”说法，中国气象局专家10月26日公开辟谣，指出该说法缺乏科学依据。气象部门提醒，西藏南部等地近期确有雨雪天气过程，公众应关注权威部门预报预警，合理安排生产生活，勿轻信网传极端天气信息。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 20,
+        "everyday_relevance": 19,
+        "evidence": 12
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-10-26T10:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "权威辟谣报道，仅陈述传言不实与科学解释，不扩散夸张灾害表述"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/10-26/10720991.shtml",
+          "title": "将有气旋撞击喜马拉雅山脉？中国气象局辟谣",
+          "captured_at": "2026-10-27T14:35:00+08:00",
+          "note": "中新网10月26日报道：中国气象局辟谣“气旋撞击喜马拉雅山脉”传言，指出其缺乏科学依据"
+        },
+        {
+          "tier": "official",
+          "outlet": "中国互联网联合辟谣平台",
+          "url": "https://www.piyao.org.cn/20261021/8f42ca0d39f14319a435bdb48df51b06/c.html",
+          "title": "网传“孟湾气旋撞击喜马拉雅山脉，带来特大暴雪”？权威解读",
+          "captured_at": "2026-10-27T14:36:00+08:00",
+          "note": "中国互联网联合辟谣平台发布权威解读：网传“孟湾气旋撞击喜马拉雅山脉带来特大暴雪”不实"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-27-express-price-anti-involution",
+      "story_identity": "express-price-rise-anti-involution-2026",
+      "headline": "📦 双11快递涨价引关注，邮政部门强调稳定末端派费",
+      "summary": "双11大促期间，多家快递企业上调收件价格引发关注。国家邮政局近日召开座谈会，强调持续规范市场竞争秩序、稳定末端派费水平，保障快递员群体收入与消费者权益。业内提醒，大促期间寄件需求集中，消费者可提前了解各家时效与价格变化，合理安排寄递。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 80,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 19,
+        "everyday_relevance": 20,
+        "evidence": 11
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-10-26T10:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "消费与行业报道，涉价格与企业经营，观点均标明出处，不构成投资或消费引导"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "新浪财经",
+          "url": "https://finance.sina.com.cn/roll/2026-10-26/doc-iniwqhxp5285529.shtml",
+          "title": "【聚焦】2026双11“战线”缩短，快递接连涨价，谁能笑到最后？",
+          "captured_at": "2026-10-27T14:37:00+08:00",
+          "note": "新浪财经10月26日聚焦报道：2026双11战线缩短，快递接连涨价"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "中财网",
+          "url": "https://www.cfi.net.cn/p20261026004441.html",
+          "title": "反内卷政策落地 快递提价进入业绩兑现期",
+          "captured_at": "2026-10-27T14:38:00+08:00",
+          "note": "中财网10月26日报道：反内卷政策落地，快递提价进入业绩兑现期，邮政部门座谈强调稳定末端派费"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-27-zhengzhou-tenant-landlord-refund",
+      "story_identity": "zhengzhou-tenant-landlord-refund",
+      "headline": "🏠 租客留下277元离开，房东退回押金1177元",
+      "summary": "河南郑州一名20岁租客退租时不辞而别，在房间里留下字条和277元现金。房东收房时看到字条后体谅其难处，将押金等共计1177元全额退回。这一双向善意的租房故事经海峡网等媒体报道后受到关注，不少网友表示看到了租赁关系中的互信与体面。",
+      "category": "科技向善",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 19,
+        "everyday_relevance": 19,
+        "evidence": 12
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-10-26T12:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "个案报道依赖当事双方叙述，克制呈现事实，不拔高、不消费当事人"
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "outlet": "微博热搜",
+          "url": "https://weibo.com/a/hot/61aaa63a1fcad2de_0.html?type=grab",
+          "captured_at": "2026-10-27T14:39:00+08:00",
+          "note": "微博热搜话题#租客留277元离开房东退回1177元#10月26日上榜，仅作热度佐证"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "海峡网",
+          "url": "http://dzb.hxnews.com/news/gnxw/202610/27/2275896.shtml",
+          "title": "租客不辞而别 留下字条和277块现金 房东连押金共退回1177元",
+          "captured_at": "2026-10-27T14:40:00+08:00",
+          "note": "海峡网10月27日报道：郑州租客留下字条和277元现金离开，房东连押金共退回1177元"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
