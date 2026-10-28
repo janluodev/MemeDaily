@@ -1,0 +1,816 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v4-editorial-completeness",
+  "rubric_version": "v4-100-point-dynamic",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T08:34:00+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 48,
+    "published": 4,
+    "dropped_safety": {
+      "涉及具体人物": 4,
+      "政治时政": 2,
+      "社会事件灾难": 2,
+      "未成年人": 1,
+      "涉及具体品牌公司": 3,
+      "低俗引战": 1
+    },
+    "dropped_low_confidence": 13,
+    "dropped_capacity": 0,
+    "sources": [
+      "weibo",
+      "douyin",
+      "zhihu",
+      "bilibili",
+      "other"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 35,
+      "platform_public_sources": 1,
+      "aggregator_sources": 4,
+      "search_media_sources": 6,
+      "spillover_sources": 0,
+      "dropped_insufficient_evidence": 18
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 4,
+        "relaxed_48h": 9,
+        "relaxed_72h": 12
+      },
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-10-02-quanwang-jinru-bushaoxin-shidai",
+          "canonical_phrase": "全网进入不烧心时代",
+          "outcome": "selected",
+          "item_id": "2026-10-02-quanwang-jinru-bushaoxin-shidai",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 27,
+            "reusability": 19,
+            "evidence": 9
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://tophub.today/n/K7GdaMgdQy",
+            "observed_at": "2026-10-28T08:15:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-28-duishui-haineng-zaixiang-sannian",
+          "canonical_phrase": "兑水还能再想三年",
+          "outcome": "selected",
+          "item_id": "2026-10-28-duishui-haineng-zaixiang-sannian",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 27,
+            "reusability": 17,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://tophub.today/n/K7GdaMgdQy",
+            "observed_at": "2026-10-28T08:15:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-28-kandao-xx-ganjue-nianqingle",
+          "canonical_phrase": "看到XX感觉年轻了",
+          "outcome": "selected",
+          "item_id": "2026-10-28-kandao-xx-ganjue-nianqingle",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 26,
+            "reusability": 17,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://tophub.today/n/KqndgxeLl9",
+            "observed_at": "2026-10-28T08:05:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-28-quanwang-jinru-xx-shidai",
+          "canonical_phrase": "全网进入XX时代",
+          "outcome": "selected",
+          "item_id": "2026-10-28-quanwang-jinru-xx-shidai",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 25,
+            "reusability": 20,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://tophub.today/n/K7GdaMgdQy",
+            "observed_at": "2026-10-28T08:15:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "likui-gai-bufuze",
+          "canonical_phrase": "离柜概不负责",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 26,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://tophub.today/n/mproPpoq6O",
+            "observed_at": "2026-10-28T08:10:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "meisi-zhuyi",
+          "canonical_phrase": "没死主义",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 24,
+            "reusability": 18,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.dancihu.com/liuxingyu/m17575.html",
+            "observed_at": "2026-10-27T12:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "renlei-sandunfan-henlei",
+          "canonical_phrase": "人类一天三顿饭很累",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 26,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://tophub.today/n/KqndgxeLl9",
+            "observed_at": "2026-10-28T08:05:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "hunnian-zhongyao-shishufu",
+          "canonical_phrase": "婚恋关系唯一重要的是你舒服",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 26,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://tophub.today/n/KqndgxeLl9",
+            "observed_at": "2026-10-28T08:05:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "a3-shenghuo-zhinan",
+          "canonical_phrase": "A3生活指南",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 24,
+            "reusability": 17,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.dancihu.com/liuxingyu/a17574.html",
+            "observed_at": "2026-10-27T12:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "lijiele",
+          "canonical_phrase": "力竭了",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 24,
+            "reusability": 17,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.dancihu.com/liuxingyu/l17572.html",
+            "observed_at": "2026-10-27T12:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "aohun",
+          "canonical_phrase": "熬婚",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 23,
+            "reusability": 16,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.dancihu.com/liuxingyu/a17568.html",
+            "observed_at": "2026-10-27T12:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "zhiyin-lijie-chengwei-zhouwang",
+          "canonical_phrase": "质疑纣王理解纣王成为纣王",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 23,
+            "reusability": 18,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.sina.cn/weibo/detail/5358515745194148.html",
+            "observed_at": "2026-10-27T06:19:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "gaokai-dianzou",
+          "canonical_phrase": "高开颠走",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 21,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://weibo.com/a/hot/5fe4c613340bf31c_0.html",
+            "observed_at": "2026-10-27T15:00:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "jishenme-shao-buliao-nide",
+          "canonical_phrase": "急什么少不了你的",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 17,
+            "freshness": 22,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://k.sina.cn/article_7879848925_1d5acf3dd06801trpg.html",
+            "observed_at": "2026-10-26T08:23:00+08:00"
+          },
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "nizai-li-jiale-shenme",
+          "canonical_phrase": "你在XX里加了什么怎么会如此YY",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 21,
+            "reusability": 17,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.sina.cn/weibo/detail/5358559902565831.html",
+            "observed_at": "2026-10-27T09:15:00+08:00"
+          },
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "nada-jieguo",
+          "canonical_phrase": "拿大结果",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 23,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://radii.co/article/radii-buzzwords-october-2026",
+            "observed_at": "2026-10-22T12:00:00+08:00"
+          },
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "zheye-shi-wode-gongzuo-ma",
+          "canonical_phrase": "这也是我的工作一部分吗",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 22,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://www.sina.cn/weibo/detail/5358673686693904.html",
+            "observed_at": "2026-10-27T16:47:00+08:00"
+          },
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "dashui-shidai-fuxian",
+          "canonical_phrase": "全网进入大水时代",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "tanghulu-yujiaku-fuxian",
+          "canonical_phrase": "糖葫芦进入瑜伽裤时代",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "aini-laoji-fuxian",
+          "canonical_phrase": "爱你老己明天见",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "zaiye-buqu-lifadian",
+          "canonical_phrase": "再也不去理发店去洗头了",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "zui-xx-bushi-a-ershi-b",
+          "canonical_phrase": "最XX的不是A而是B",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "guajishi-yanji",
+          "canonical_phrase": "挂机式演技",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "lang-xiangkaile-jiushigou",
+          "canonical_phrase": "狼想开了就是狗",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "qianeye-fangsheng",
+          "canonical_phrase": "我已经把前额叶放生",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "busha-busha",
+          "canonical_phrase": "不啥不啥",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "shiqu-houdu",
+          "canonical_phrase": "失去厚度",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "cihang-dawutai",
+          "canonical_phrase": "慈航大舞台没挂你别来",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "dahu-lilun",
+          "canonical_phrase": "大壶理论",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "xingfuzhe-tuirang-yuanze",
+          "canonical_phrase": "幸福者退让原则",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "diqiu-online",
+          "canonical_phrase": "地球online",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "yidali-mao-kangzao",
+          "canonical_phrase": "意大利的猫和人一样抗造",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "baoji-lilun",
+          "canonical_phrase": "薄肌理论",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "dashui-lilun",
+          "canonical_phrase": "大睡理论",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "xiexie-heimao",
+          "canonical_phrase": "谢谢黑猫我就不吃了",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "candidate-1",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-2",
+          "outcome": "dropped_safety",
+          "drop_reason": "政治时政",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-3",
+          "outcome": "dropped_safety",
+          "drop_reason": "政治时政",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-4",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-5",
+          "outcome": "dropped_safety",
+          "drop_reason": "未成年人",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-6",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "candidate-7",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "candidate-8",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "candidate-9",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体品牌公司",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "candidate-10",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体品牌公司",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "candidate-11",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体品牌公司",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "candidate-12",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "candidate-13",
+          "outcome": "dropped_safety",
+          "drop_reason": "低俗引战",
+          "research_pass": 2
+        }
+      ],
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 30,
+          "cumulative_unique_candidates": 30,
+          "sources_checked": [
+            "weibo",
+            "douyin",
+            "zhihu",
+            "other"
+          ]
+        },
+        {
+          "pass": 2,
+          "candidates_added": 18,
+          "cumulative_unique_candidates": 48,
+          "sources_checked": [
+            "weibo",
+            "bilibili",
+            "other"
+          ]
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-10-02-quanwang-jinru-bushaoxin-shidai",
+      "title": "🍂 秋天去哪儿玩都不烧心",
+      "aliases": [
+        "全网进入不烧心时代",
+        "吃了不烧心",
+        "X了不烧心",
+        "这样XX不烧心"
+      ],
+      "canonical_phrase": "全网进入不烧心时代",
+      "platform": [
+        "douyin",
+        "weibo",
+        "other"
+      ],
+      "type": "句式梗",
+      "summary": "「不烧心」继续全网套用：从 AI 短剧里的餐饮台词沉淀为「靠谱、省心、不翻车」的万能评语，今晨抖音热点榜同时挂出秋游、景区两条套用话题，微博仍有新帖接力。",
+      "origin": "已验证：起源于批量 AI 市井短剧台词「贵是贵点，但吃了不烧心」，10 月上旬起爆，抖音相关话题播放量破 22 亿（腾讯新闻 10-14）；中新网 10-16 以《全网进入“不烧心”时代》报道其出圈；虎嗅 10-26 继续讨论其从短剧台词到全民评语的泛化。",
+      "usage": "万能评语句式「这样 XX 不烧心 / XX 了不烧心」：夸景区「这样的景区逛着不烧心」、夸秋游「想要秋天不烧心就去山里野」、夸物夸人夸同事均可；评论区、视频标题、探店与文旅内容通用。",
+      "fun_point": "一句后厨大白话被当成最高赞美，越一本正经越好笑；「烧心」的生理不适感嫁接到一切靠不住的事物上，一秒get到那种朴实的安心感。",
+      "why_spread": "已验证：10-27 16:32 微博仍有新帖把「吃了不烧心」译为 won't let you down 向外网解释；10-28 今晨抖音热点榜同挂「想要秋天不烧心就去山里野」「这样的景区逛着不烧心」两条套用话题。推测：吃喝、出行、职场全是怕翻车的决策场景，「不烧心」给了最低成本的安心表达，套用零门槛。",
+      "lifecycle": "peak",
+      "brand_usage": "文旅、餐饮、本地生活账号可直接用「逛着不烧心 / 吃了不烧心」做安心感卖点；服务类账号可做「售后不烧心」承诺式内容；勿借梗做无法兑现的虚假承诺，容易被评论区反噬。",
+      "risk": {
+        "level": "low",
+        "note": "语义正向、全民通用；商业借用时承诺需兑现，避免「说不烧心结果翻车」的反差截图。"
+      },
+      "days_on_list": 22,
+      "score": 88,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 27,
+        "reusability": 19,
+        "evidence": 9
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://tophub.today/n/K7GdaMgdQy",
+          "observed_at": "2026-10-28T08:15:00+08:00",
+          "captured_at": "2026-10-28T08:16:00+08:00",
+          "note": "今日热榜抖音热点榜今晨快照：「想要秋天不烧心就去山里野」约 1054 万热度居前，「这样的景区逛着不烧心」同榜在列。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "cross_platform",
+          "platform": "weibo",
+          "url": "https://www.sina.cn/weibo/detail/5358670120485270.html",
+          "observed_at": "2026-10-27T16:32:00+08:00",
+          "captured_at": "2026-10-28T08:20:00+08:00",
+          "note": "新浪微博 10-27 16:32 新帖：海外博主把「吃了不烧心」译作 won't let you down 向外网解释该梗。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://www.huxiu.com/article/4900613.html",
+          "title": "不烧心的AI和预制菜的人类",
+          "observed_at": "2026-10-26T18:00:00+08:00",
+          "captured_at": "2026-10-28T08:22:00+08:00",
+          "note": "虎嗅 10-26：讨论「不烧心」从 AI 短剧台词泛化为全民安心评语的过程。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "origin",
+          "platform": "other",
+          "url": "https://www.chinanews.com.cn/cul/2026/10-16/10715749.shtml",
+          "title": "全网进入“不烧心”时代",
+          "observed_at": "2026-10-16T12:00:00+08:00",
+          "captured_at": "2026-10-28T08:24:00+08:00",
+          "note": "中新网 10-16：确认该梗自 AI 短剧台词出圈为全网流行语。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-28-duishui-haineng-zaixiang-sannian",
+      "title": "🍬 兑水还能再想三年",
+      "aliases": [
+        "这口糖兑水还能再喝三年",
+        "XX兑水还能再想三年"
+      ],
+      "canonical_phrase": "兑水还能再想三年",
+      "platform": [
+        "douyin"
+      ],
+      "type": "情绪梗",
+      "summary": "「兑水还能再想三年」：把一点点美好稀释了反复回味——一口糖、一场偶遇、一点 CP 粮，兑水还能再喝、再想、再撑三年，今晨登抖音热点榜。",
+      "origin": "已验证：今晨（10-28）抖音热点榜在列，相关话题约 767 万热度（今日热榜快照）；新浪 9 月报道已收录「那天的幸福兑水还能再想三年」用法，抖音精选 8 月底已有相关素材，本轮为二次放量。",
+      "usage": "怀旧、嗑 CP、穷开心场景通用：「这口糖兑水还能再喝三年」「这张合影兑水还能再想三年」；也可自嘲式续命「这点工资兑水还能再花三年」。",
+      "fun_point": "把「舍不得」量化成「兑水再喝三年」，稀释的是糖、浓缩的是情绪；夸张的时间单位配上 tiny 的快乐来源，穷开心的画面感拉满。",
+      "why_spread": "已验证：10-28 今晨登抖音热点榜（约 767 万热度）；推测：年末怀旧情绪叠加嗑糖文化，「兑水」这个动作人人会做，造句成本极低，适合截图配文与评论区接龙。",
+      "lifecycle": "rising",
+      "brand_usage": "茶饮、甜品账号可玩「兑水文学」自黑式互动；影像、相册类产品可做「回忆兑水再看三年」情感向内容；避免用于降价促销语境，调性不符。",
+      "risk": {
+        "level": "safe",
+        "note": "情绪向怀旧梗，无争议指向；注意别捆绑具体明星 CP 做营销。"
+      },
+      "days_on_list": 1,
+      "score": 77,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 27,
+        "reusability": 17,
+        "evidence": 7
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://tophub.today/n/K7GdaMgdQy",
+          "observed_at": "2026-10-28T08:15:00+08:00",
+          "captured_at": "2026-10-28T08:17:00+08:00",
+          "note": "今日热榜抖音热点榜今晨快照：「兑水还能再想三年」相关话题约 767 万热度在列。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://www.sina.cn/news/detail/5342940612265972.html",
+          "observed_at": "2026-09-24T12:00:00+08:00",
+          "captured_at": "2026-10-28T08:19:00+08:00",
+          "note": "新浪 9 月报道已收录「兑水还能再想三年」用法，证明其并非单日闪现。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-28-kandao-xx-ganjue-nianqingle",
+      "title": "🐼 看到熊猫烧香病毒感觉年轻了",
+      "aliases": [
+        "看到XX感觉年轻了",
+        "看到熊猫烧香感觉年轻了"
+      ],
+      "canonical_phrase": "看到XX感觉年轻了",
+      "platform": [
+        "weibo"
+      ],
+      "type": "句式梗",
+      "summary": "「看到 XX 感觉年轻了」：借上古互联网记忆自嘲网龄的怀旧模板，本轮由「看到熊猫烧香病毒感觉年轻了」带热，昨日登微博热点话题、今晨仍居热搜。",
+      "origin": "已验证：微博热点话题页 10-27 13:00 上线「看到熊猫烧香病毒感觉年轻了」；今晨（10-28）该话题仍居微博热搜（今日热榜快照，约 4 万热度）。",
+      "usage": "模板造句：「看到 QQ 秀感觉年轻了」「听到非主流铃声感觉年轻了」——任何时代眼泪都能填；评论区晒网龄、怀旧向视频标题通用。",
+      "fun_point": "被一个上古电脑病毒「治愈」了年龄焦虑——别人怕中招，老网民看到只觉得亲切；用病毒当怀旧坐标，损己式幽默门槛低、共鸣强。",
+      "why_spread": "已验证：10-27 13:00 微博热点话题上线，10-28 今晨仍居热搜；推测：年末怀旧季叠加 80/90 后网龄自嘲刚需，填空模板极易接力。",
+      "lifecycle": "rising",
+      "brand_usage": "数码、怀旧向账号可玩「看到 XX 感觉年轻了」填空互动；复古产品营销可借句式引回忆杀；勿消费具体安全事件中的受害者。",
+      "risk": {
+        "level": "safe",
+        "note": "怀旧自嘲向，无指向性攻击；「熊猫烧香」已是公共记忆符号，措辞上勿美化病毒制作者。"
+      },
+      "days_on_list": 1,
+      "score": 76,
+      "score_breakdown": {
+        "heat": 25,
+        "freshness": 26,
+        "reusability": 17,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "weibo",
+          "url": "https://tophub.today/n/KqndgxeLl9",
+          "observed_at": "2026-10-28T08:05:00+08:00",
+          "captured_at": "2026-10-28T08:06:00+08:00",
+          "note": "今日热榜微博热搜今晨快照：「看到熊猫烧香病毒感觉年轻了」仍居热搜（约 4 万热度）。"
+        },
+        {
+          "tier": "platform_public",
+          "evidence_role": "popularity",
+          "platform": "weibo",
+          "url": "https://weibo.com/a/hot/b4fef00c413cc5f0_0.html",
+          "observed_at": "2026-10-27T13:00:00+08:00",
+          "captured_at": "2026-10-28T08:08:00+08:00",
+          "note": "微博热点话题页 10-27 13:00 上线「看到熊猫烧香病毒感觉年轻了」。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-28-quanwang-jinru-xx-shidai",
+      "title": "🔁 全网进入XX时代",
+      "aliases": [
+        "XX进入YY时代",
+        "进入XX时代"
+      ],
+      "canonical_phrase": "全网进入XX时代",
+      "platform": [
+        "douyin",
+        "weibo",
+        "other"
+      ],
+      "type": "句式梗",
+      "summary": "「全网进入 XX 时代」：把任何小趋势夸张升格为「时代降临」的填空模板，10 月最高产句式——大水、不烧心、瑜伽裤之后，今晨抖音又产出「白切黑时代」。",
+      "origin": "已验证：9 月底「全网进入大水时代」登抖音热榜后句式定型（腾讯新闻 10-18 报道其始末）；中新网 10-16 标题沿用「全网进入不烧心时代」；今晨（10-28）抖音热点榜再现「AI小狗男主进入白切黑时代」约 766 万热度（今日热榜快照）。",
+      "usage": "万能升格句式：「我家猫进入大睡时代」「办公室进入大水杯时代」「奶茶进入瑜伽裤时代」；标题、评论区、选题会通用，可接任何微观趋势的夸张官宣。",
+      "fun_point": "屁大点事也要宣布「时代降临」，郑重其事与小题大做的反差就是笑点本身；XX 越具体越好笑，人人都能当一分钟「时代观察家」。",
+      "why_spread": "已验证：10 月内大水、不烧心、瑜伽裤、大斜视、白切黑等变体连环上榜，媒体标题直接沿用该句式；推测：句式自带标题感与传播相，造词零成本，平台流量偏爱。",
+      "lifecycle": "peak",
+      "brand_usage": "品牌可做「XX 进入 XX 时代」式新品或新功能官宣标题；内容团队可用来包装微观趋势盘点；套用对象需避开灾难、疾病等严肃议题。",
+      "risk": {
+        "level": "safe",
+        "note": "纯句式模板，无具体指向；套用时避开严肃公共议题与具体人物即可。"
+      },
+      "days_on_list": 1,
+      "score": 76,
+      "score_breakdown": {
+        "heat": 24,
+        "freshness": 25,
+        "reusability": 20,
+        "evidence": 7
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://tophub.today/n/K7GdaMgdQy",
+          "observed_at": "2026-10-28T08:15:00+08:00",
+          "captured_at": "2026-10-28T08:18:00+08:00",
+          "note": "今日热榜抖音热点榜今晨快照：「AI小狗男主进入白切黑时代」约 766 万热度在列，「进入XX时代」句式持续产崽。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://ent.sina.cn/2026-10-20/detail-inivwuii6479594.d.html",
+          "observed_at": "2026-10-20T12:00:00+08:00",
+          "captured_at": "2026-10-28T08:21:00+08:00",
+          "note": "新浪娱乐 10-20 报道「Kpop进入大斜视时代」，显示句式已跨圈层套用。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "origin",
+          "platform": "other",
+          "url": "https://news.qq.com/rain/a/20261018A0BB6P00",
+          "observed_at": "2026-10-18T12:00:00+08:00",
+          "captured_at": "2026-10-28T08:23:00+08:00",
+          "note": "腾讯新闻 10-18 报道「大水时代」走红始末，是该句式本轮定型的起点语境。"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
