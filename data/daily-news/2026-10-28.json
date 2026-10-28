@@ -1,0 +1,1226 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T08:09:57+08:00",
+  "published_at": "2026-10-28T08:09:57+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 57,
+    "published": 6,
+    "dropped_safety": {
+      "geopolitics": 2,
+      "politics": 2,
+      "propaganda": 1
+    },
+    "dropped_low_confidence": 40,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 52,
+      "official_sources": 7,
+      "state_media_sources": 3,
+      "major_media_sources": 5,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 6
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 6,
+        "relaxed_48h": 18,
+        "relaxed_72h": 26
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 57,
+          "cumulative_unique_candidates": 57,
+          "source_scope": [
+            "国内官方发布（国家公务员局专题站/中国政府网/甘肃省政府/省级考试院教育厅/中国气象局）",
+            "央媒与持牌媒体报道（人民网/中国新闻网/每日经济新闻/第一财经/21世纪经济报道/科技日报）",
+            "地方媒体与省级广电报道（浙江在线/长沙晚报/央广网/南方网/广州市人社局官网）",
+            "国际官方机构与通讯社（印度气象局公报/美联社/RFI）",
+            "公共热榜与聚合线索（微博热搜/搜索热榜，仅作发现与热度佐证）"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-10-28-inclusive-elderly-care-pricing",
+          "story_identity": "inclusive-elderly-care-pricing-guidance",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T21:44:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-10-28-inclusive-elderly-care-pricing",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-28-central-selection-registration",
+          "story_identity": "central-xuanlin-xuandiao-2027-registration-opens",
+          "research_pass": 1,
+          "occurred_at": "2026-10-28T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-28-central-selection-registration",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-28-cyclone-arnab-india",
+          "story_identity": "cyclone-arnab-india-east-coast",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T20:00:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-10-28-cyclone-arnab-india",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-28-gansu-long-term-care-insurance",
+          "story_identity": "gansu-long-term-care-insurance-launch",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T16:08:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-10-28-gansu-long-term-care-insurance",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 19,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-28-teacher-cert-interview-registration",
+          "story_identity": "teacher-cert-interview-2026h2-provincial-notices",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T10:01:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "selected",
+          "item_id": "2026-10-28-teacher-cert-interview-registration",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 19,
+            "everyday_relevance": 19,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-28-henan-trade-in-smart-products",
+          "story_identity": "henan-trade-in-smart-products-subsidy",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T15:25:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-28-henan-trade-in-smart-products",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 10
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "hangzhou-marathon-record-signup",
+          "story_identity": "hangzhou-marathon-2026-record-signup",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 18,
+            "everyday_relevance": 19,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "杭马报名破30万发布会为10月27日举办、研究锚定当日0时，事件龄超24小时strict窗口；热度创纪录，待11月1日开跑等新节点再评估"
+        },
+        {
+          "candidate_key": "jiangsu-infant-health-voucher",
+          "story_identity": "jiangsu-infant-health-service-voucher-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T07:06:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 18,
+            "everyday_relevance": 19,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "江苏0—3岁婴幼儿健康服务消费券10月27日7时披露，事件龄刚超24小时strict窗口，且覆盖范围限一省"
+        },
+        {
+          "candidate_key": "double11-tech-logistics-angle",
+          "story_identity": "double11-unmanned-vehicles-ai-employees",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 18,
+            "everyday_relevance": 17,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "与昨日快递涨价座谈为相邻题材，科技角度报道锚点为10月27日凌晨、事件龄超24小时，strict层级不具备资格"
+        },
+        {
+          "candidate_key": "drug-supply-suspension-procurement",
+          "story_identity": "drug-supply-suspension-procurement-disqualification",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 17,
+            "everyday_relevance": 19,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "联采办取消中选资格公告发布于10月26日，事件龄超24小时strict窗口，官网原文未直接核实，留作观察"
+        },
+        {
+          "candidate_key": "cca-double11-consumer-tips",
+          "story_identity": "three-agencies-double11-consumer-tips",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 16,
+            "everyday_relevance": 19,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "中消协等三机构联合提示发布于10月26日，事件龄超48小时；双11消费提示题材10月25日、27日已连续两日覆盖"
+        },
+        {
+          "candidate_key": "shanghai-medical-insurance-proxy-prescription",
+          "story_identity": "shanghai-outpatient-proxy-prescription-rules",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 18,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "上海医保局10月27日修订代配药规定，为地方医保经办规则调整，全国读者增量有限，分数未达strict线"
+        },
+        {
+          "candidate_key": "wmo-greenhouse-gas-bulletin",
+          "story_identity": "wmo-greenhouse-gas-bulletin-2025-record",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T17:00:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 19,
+            "everyday_relevance": 15,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "WMO温室气体公报属年度报告发布，公众热度未达global_major_event的heat≥30门槛，对普通读者即时决策影响有限"
+        },
+        {
+          "candidate_key": "guiyang-love-kitchen",
+          "story_identity": "guiyang-hospital-love-kitchen-free-lunch",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 18,
+            "everyday_relevance": 17,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "爱心厨房暖闻为中新社单一图片稿，善举自4月持续、发稿锚点超24小时，凡人善举位今日择优未选"
+        },
+        {
+          "candidate_key": "armed-police-scenic-rescue",
+          "story_identity": "armed-police-leave-soldier-scenic-area-rescue",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T12:10:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 19,
+            "everyday_relevance": 16,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "武警休假战士急救为部队通讯员供稿单一来源，事发时间表述为近日，时效锚点不够硬，未达strict线"
+        },
+        {
+          "candidate_key": "yukun-hsr-track-laying",
+          "story_identity": "yukun-hsr-track-laying-complete",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T13:30:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 15,
+            "everyday_relevance": 19,
+            "evidence": 10
+          },
+          "drop_reason": "渝昆高铁全线铺轨完成为10月24日节点，已超72小时窗口，昨日已评估超窗，今日无新增进展"
+        },
+        {
+          "candidate_key": "wuxi-police-carried-elderly",
+          "story_identity": "wuxi-tieying-officer-carried-lost-elderly",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T17:24:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 19,
+            "everyday_relevance": 16,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "铁鹰队员背走失老人为凡人善举个案，公共信息增量有限，分数未达strict线"
+        },
+        {
+          "candidate_key": "shandong-consumption-voucher-60m",
+          "story_identity": "shandong-second-policy-list-consumption-vouchers",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T08:51:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 17,
+            "everyday_relevance": 20,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅核到省政府网转载大众日报单一来源，政策清单原文未单独打开，增量弱于今日河南补贴条"
+        },
+        {
+          "candidate_key": "double11-platform-first-reports",
+          "story_identity": "double11-platform-interim-reports-ai-shopping",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T09:46:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 19,
+            "everyday_relevance": 16,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "平台阶段战报均为平台方口径，宣传属性强，公共性与证据强度未达strict线"
+        },
+        {
+          "candidate_key": "late-oct-cold-wave-forecast",
+          "story_identity": "late-october-strong-cold-wave-forecast",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 18,
+            "everyday_relevance": 17,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "冷空气与提前供暖昨日已发主条，10月31日新一股冷空气仅为中期预报、无官方预警升级，不单独立条"
+        },
+        {
+          "candidate_key": "doubao-utility-payment",
+          "story_identity": "doubao-one-sentence-utility-payment-shanghai",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T15:11:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 18,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "大模型缴水费燃气费为产品功能进展，行业竞争叙事强，单一来源，未达strict线"
+        },
+        {
+          "candidate_key": "zaduo-m49-earthquake",
+          "story_identity": "zaduo-m49-earthquake-no-damage",
+          "research_pass": 1,
+          "occurred_at": "2026-10-28T02:57:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 15,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "青海杂多4.9级地震暂无伤亡损失报告，属区域正常小震活动，按灾害克制原则不作条目"
+        },
+        {
+          "candidate_key": "guangzhou-job-fair-ai-cabin",
+          "story_identity": "guangzhou-graduate-job-fair-ai-cabin",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T16:46:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 19,
+            "everyday_relevance": 17,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "地方专场招聘会通稿色彩较重，岗位规模区域性，未达strict分数"
+        },
+        {
+          "candidate_key": "xiamen-elderly-escort-rehab",
+          "story_identity": "xiamen-elderly-escort-care-rehab-program",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T14:09:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 19,
+            "everyday_relevance": 17,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "厦门两陪一康为地方民政局发布会，单一主流来源；养老题材同日已留两条更强政策条目"
+        },
+        {
+          "candidate_key": "hainan-gaokao-2027-registration",
+          "story_identity": "hainan-gaokao-2027-registration-notice",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 17,
+            "everyday_relevance": 19,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "海南2027高考报名10月31日才启动，通知印发于10月26日，教育考试题材今日已有教资公告条"
+        },
+        {
+          "candidate_key": "cctv-home-elderly-care-feature",
+          "story_identity": "cctv-home-based-elderly-care-tech-feature",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 16,
+            "everyday_relevance": 17,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "居家养老综合性专题非单一事件，刊发于10月26日，今日养老题材已由两条政策硬新闻覆盖"
+        },
+        {
+          "candidate_key": "changsha-movie-consumption-voucher",
+          "story_identity": "changsha-night-movie-consumption-voucher",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T21:11:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "40万元规模地域性促消费活动，单一晚报来源，全国公共性有限"
+        },
+        {
+          "candidate_key": "medical-insurance-wallet-2-explainer",
+          "story_identity": "medical-insurance-wallet-2-cross-province",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T08:53:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 16,
+            "everyday_relevance": 18,
+            "evidence": 8
+          },
+          "drop_reason": "医保钱包2.0实际上线为10月16日已超72小时窗口，人民日报详解属服务提醒性质，不作新增"
+        },
+        {
+          "candidate_key": "air-china-guangzhou-chengdu-express",
+          "story_identity": "air-china-guangzhou-chengdu-express-route",
+          "research_pass": 1,
+          "occurred_at": "2026-10-25T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 15,
+            "everyday_relevance": 17,
+            "evidence": 9
+          },
+          "drop_reason": "国航快线10月25日换季日开通已超72小时窗口，民航换季题材10月25日已发主条"
+        },
+        {
+          "candidate_key": "guangzhou-metro-line13-test-run",
+          "story_identity": "guangzhou-metro-line13-phase2-through-running",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 17,
+            "everyday_relevance": 16,
+            "evidence": 7
+          },
+          "drop_reason": "13号线二期贯通跑图为年底开通前软节点，未核实广州地铁官方通告，未达65资格线"
+        },
+        {
+          "candidate_key": "shanghai-arts-festival-premiere-week",
+          "story_identity": "shanghai-international-arts-festival-premiere-week",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 15,
+            "everyday_relevance": 16,
+            "evidence": 8
+          },
+          "drop_reason": "首演周峰值在10月24日已超72小时窗口，10月27日报道为阶段性盘点"
+        },
+        {
+          "candidate_key": "yankao-registration-closed-node",
+          "story_identity": "yankao-2026-registration-closed-node",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T22:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 15,
+            "everyday_relevance": 17,
+            "evidence": 7
+          },
+          "drop_reason": "2026考研报名10月24日已截止，节点已过且无新增信息"
+        },
+        {
+          "candidate_key": "guokao-confirmation-payment-node",
+          "story_identity": "guokao-2027-confirmation-payment-node",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 17,
+            "everyday_relevance": 16,
+            "evidence": 6
+          },
+          "drop_reason": "国考345万过审昨日已发主条，11月1日确认缴费为同一事件后续程序节点，不重复入选"
+        },
+        {
+          "candidate_key": "beijing-autumn-leaves-art-week",
+          "story_identity": "beijing-sub-center-autumn-leaves-art-week",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 15,
+            "everyday_relevance": 16,
+            "evidence": 8
+          },
+          "drop_reason": "彩叶大道活动10月24日起举办已超窗口，与近期赏秋服务信息题材重复"
+        },
+        {
+          "candidate_key": "guangzhou-baiyun-token-economy-zone",
+          "story_identity": "guangzhou-baiyun-token-economy-service-zone",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T13:06:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 18,
+            "everyday_relevance": 15,
+            "evidence": 8
+          },
+          "drop_reason": "政务大厅词元专区地方宣传色彩较重，单一来源，未达65资格线"
+        },
+        {
+          "candidate_key": "wuhan-metro-line12-opening-soon",
+          "story_identity": "wuhan-metro-line12-ring-line-opening",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T04:27:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 16,
+            "everyday_relevance": 16,
+            "evidence": 7
+          },
+          "drop_reason": "12号线即将开通为软节点预告，来源为地方频道报道，未达65资格线"
+        },
+        {
+          "candidate_key": "shenzhen-bus-driver-elderly",
+          "story_identity": "shenzhen-bus-driver-carried-elderly",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 13,
+            "everyday_relevance": 16,
+            "evidence": 8
+          },
+          "drop_reason": "深圳公交司机背拄拐老人原始报道为10月22日，已超72小时窗口"
+        },
+        {
+          "candidate_key": "typhoon-qiangpi-dissipation",
+          "story_identity": "typhoon-qiangpi-weakening-extratropical",
+          "research_pass": 1,
+          "occurred_at": "2026-10-25T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 15,
+            "everyday_relevance": 16,
+            "evidence": 7
+          },
+          "drop_reason": "蔷琵已减弱变性为温带气旋，10月21、22日已连选两日，无登陆等新事态"
+        },
+        {
+          "candidate_key": "myopia-prevention-three-depts",
+          "story_identity": "myopia-prevention-high-myopia-three-departments",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 14,
+            "everyday_relevance": 17,
+            "evidence": 7
+          },
+          "drop_reason": "三部门近视防控部署发布于10月20日已超72小时窗口，央广再报道为解读性质"
+        },
+        {
+          "candidate_key": "guangdong-free-flu-vaccine",
+          "story_identity": "guangdong-free-flu-vaccination",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 14,
+            "everyday_relevance": 16,
+            "evidence": 7
+          },
+          "drop_reason": "广东免费流感疫苗为10月22日消息，已超72小时窗口"
+        },
+        {
+          "candidate_key": "shantou-bridge-water-incident",
+          "story_identity": "shantou-lianyang-bridge-water-incident",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 56,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 18,
+            "everyday_relevance": 12,
+            "evidence": 5
+          },
+          "drop_reason": "汕头3人落水为地方意外事件，未达重大事件收录门槛，克制不报"
+        },
+        {
+          "candidate_key": "housing-fund-local-policies",
+          "story_identity": "housing-fund-local-policy-batch-october",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 13,
+            "everyday_relevance": 15,
+            "evidence": 7
+          },
+          "drop_reason": "各地公积金新政多为10月上中旬发布，已超窗口且无全国性增量"
+        },
+        {
+          "candidate_key": "ant-lingguang-2-launch",
+          "story_identity": "ant-lingguang-2-product-launch",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 18,
+            "everyday_relevance": 12,
+            "evidence": 5
+          },
+          "drop_reason": "蚂蚁灵光2.0为企业产品发布，宣传色彩重，不作新闻条目"
+        },
+        {
+          "candidate_key": "kuche-m36-earthquake",
+          "story_identity": "kuche-m36-minor-earthquake",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T18:26:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 18,
+            "everyday_relevance": 11,
+            "evidence": 4
+          },
+          "drop_reason": "库车3.6级小震无影响报告，不达收录门槛"
+        },
+        {
+          "candidate_key": "shanghai-genai-service-registration",
+          "story_identity": "shanghai-genai-service-registration-batch",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 17,
+            "everyday_relevance": 11,
+            "evidence": 4
+          },
+          "drop_reason": "生成式AI服务登记为例行公示，信息量低"
+        },
+        {
+          "candidate_key": "ningyang-double11-supervision",
+          "story_identity": "ningyang-double11-market-supervision",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 48,
+          "score_breakdown": {
+            "heat": 17,
+            "freshness": 17,
+            "everyday_relevance": 10,
+            "evidence": 4
+          },
+          "drop_reason": "县级市监常规监管动态，公共增量不足"
+        },
+        {
+          "candidate_key": "changde-consumption-voucher-100m",
+          "story_identity": "changde-100m-consumption-voucher",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "常德亿元消费券开抢信息仅见市政府门户标题，页面触发验证码未能读取正文，无法核实"
+        },
+        {
+          "candidate_key": "jingan-carnival-voucher-round2",
+          "story_identity": "shanghai-jingan-carnival-voucher-round2",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "上海静安消费券第二轮正文抓取失败，标题与来源可靠但关键规则未读，不作事实陈述"
+        },
+        {
+          "candidate_key": "jiemian-ministry-digest-old-news",
+          "story_identity": "jiemian-ministry-digest-2025-old-news",
+          "research_pass": 1,
+          "occurred_at": "2025-10-27T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "界面直通部委批次（民政部发布会/赠与合同/老年协会等）经时间戳核验为2025年10月27日旧闻，不入选"
+        },
+        {
+          "candidate_key": "chengdu-noodle-love-wall",
+          "story_identity": "chengdu-noodle-shop-love-wall",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T20:22:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "成都面馆爱心墙仅凤凰网自媒体号首发，无持牌媒体同日独立报道，证据不足"
+        },
+        {
+          "candidate_key": "beijing-commercial-ltc-insurance",
+          "story_identity": "beijing-inclusive-commercial-ltc-insurance",
+          "research_pass": 1,
+          "occurred_at": "2026-10-25T13:28:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "北京普惠型商业长护险亮相仅单一来源且未打开核实正文，证据不足"
+        },
+        {
+          "candidate_key": "mohrss-employment-service-image",
+          "story_identity": "mohrss-employment-service-image-only",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "人社部就业服务稿正文为图片无法核实内容，不作采用"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-5",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-10-28-inclusive-elderly-care-pricing",
+      "story_identity": "inclusive-elderly-care-pricing-guidance",
+      "headline": "🏡 三部门明确普惠养老价格政策，收费实行清单制",
+      "summary": "国家发展改革委、民政部、国家卫生健康委联合印发指导意见，首次在国家层面界定普惠支持型养老机构范围，实行分级定价：兜底型机构执行政府指导价，特困老年人免费收住；所有收费项目纳入清单公示，未按规定公示不得收费。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 20,
+        "everyday_relevance": 22,
+        "evidence": 13
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-10-27T21:44:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "政策解读报道，以中国政府网文件原文与人民网报道为准，客观陈述定价机制与清单制，不涉投资引导"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "人民网",
+          "url": "http://health.people.com.cn/n1/2026/1027/c14739-40822081.html",
+          "captured_at": "2026-10-28T06:50:00+08:00",
+          "note": "人民网10月27日转科技日报报道：三部门指导意见首次界定普惠支持型养老机构范围，收费实行目录清单制"
+        },
+        {
+          "tier": "official",
+          "outlet": "中国政府网",
+          "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7083441.htm",
+          "captured_at": "2026-10-28T06:51:00+08:00",
+          "note": "中国政府网政策库收录《关于进一步完善价格形成机制 推动普惠养老服务提质扩面的指导意见》原文"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-28-central-selection-registration",
+      "story_identity": "central-xuanlin-xuandiao-2027-registration-opens",
+      "headline": "📋 中央机关公开遴选选调公务员今起报名",
+      "summary": "2027年度中央机关公开遴选和公开选调公务员10月28日8时起报名，11月6日18时截止，42个中央机关部门计划选拔213人，其中公开遴选197人、公开选调16人。报名通过国家公务员局专题网站进行，笔试11月28日举行，报考者需具备2年以上基层工作经历。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 81,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 20,
+        "everyday_relevance": 18,
+        "evidence": 13
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-10-28T08:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "考试招录服务信息，以国家公务员局公告与新华社通稿为准，客观陈述时间节点与选拔规模"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家公务员局",
+          "url": "http://subb.scs.gov.cn/lx2027",
+          "captured_at": "2026-10-28T06:48:00+08:00",
+          "note": "2027年度中央机关公开遴选和公开选调公务员专题网站，实测可访问，报名10月28日8时启动"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/gn/2026/10-24/10720446.shtml",
+          "captured_at": "2026-10-28T06:49:00+08:00",
+          "note": "中新网转载新华社通稿全文：42个中央机关部门计划选拔213人，报名10月28日至11月6日，笔试11月28日"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-28-cyclone-arnab-india",
+      "story_identity": "cyclone-arnab-india-east-coast",
+      "headline": "🌀 特强气旋“阿纳布”登陆印度东海岸",
+      "summary": "印度气象局通报，气旋“阿纳布”已加强为特强气旋风暴，预计28日凌晨在安得拉邦沿海登陆，安得拉邦与奥里萨邦已疏散近十万人，暂无人员伤亡报告。中国气象部门提醒，其残余环流29日起将给青藏高原带来明显雨雪，西藏南部雨雪偏强，需防范次生灾害。",
+      "category": "国际",
+      "scope": "international",
+      "topic": "自然灾害",
+      "primary_organization": "印度气象局",
+      "audience_relevance": {
+        "basis": "global_major_event",
+        "impact_scale": "global_systemic",
+        "china_connection": "中央气象台预报该气旋残余环流29日起影响我国青藏高原，西藏南部雨雪偏强，与进藏交通和当地防灾直接相关",
+        "everyday_impact": "印度东部沿海遭遇特强气旋、近十万人疏散，属重大区域灾害；我国西藏南部需防范强雨雪引发的雪崩、滑坡等次生灾害",
+        "score": 21,
+        "connection_evidence": {
+          "url": "https://www.cma.gov.cn/2011xwzx/2011xqxxw/2011xzytq/202610/t20261027_8111046.html",
+          "note": "中国气象局10月27日天气公报：29日至31日青藏高原有较强雨雪，西藏南部边境局地有暴雪"
+        }
+      },
+      "score": 81,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 20,
+        "everyday_relevance": 16,
+        "evidence": 13
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-10-27T20:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "气旋登陆发生在28日凌晨，发稿时伤亡损失未知，标题摘要不写伤亡数字；与昨日辟谣条叙事切割：网传撞击喜马拉雅特大暴雪不实，官方预报为西藏南部雨雪偏强"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "美联社",
+          "url": "https://apnews.com/article/cyclone-arnab-india-andhra-pradesh-fd0a9f90e69b0e792433c808e793610f",
+          "captured_at": "2026-10-28T06:52:00+08:00",
+          "note": "美联社10月27日报道：特强气旋风暴阿纳布逼近安得拉邦沿海，印度当局大规模疏散"
+        },
+        {
+          "tier": "official",
+          "outlet": "印度气象局",
+          "url": "https://mausam.imd.gov.in/backend/assets/cyclone_pdf/20__National_Bulletin_No_20-27Oct2026_1730IST.pdf",
+          "captured_at": "2026-10-28T06:53:00+08:00",
+          "note": "印度气象局第20号国家公报（10月27日17:30 IST）：阿纳布加强为特强气旋风暴，预计28日凌晨登陆"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "RFI",
+          "url": "https://www.rfi.fr/en/international-news/20261027-india-orders-evacuations-as-cyclone-arnab-looms",
+          "captured_at": "2026-10-28T06:54:00+08:00",
+          "note": "RFI转法新社10月27日报道：印度下令疏散，安得拉邦与奥里萨邦疏散规模近十万人"
+        },
+        {
+          "tier": "official",
+          "outlet": "中国气象局",
+          "url": "https://www.cma.gov.cn/2011xwzx/2011xqxxw/2011xzytq/202610/t20261027_8111046.html",
+          "captured_at": "2026-10-28T06:55:00+08:00",
+          "note": "中国气象局10月27日天气公报：29日至31日青藏高原有较强雨雪，西藏南部边境局地暴雪，与气旋残余环流相关"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-28-gansu-long-term-care-insurance",
+      "story_identity": "gansu-long-term-care-insurance-launch",
+      "headline": "🛡️ 甘肃启动长期护理保险制度，三年内全省覆盖",
+      "summary": "甘肃省政府10月27日召开发布会解读长期护理保险制度实施方案：2026年职工先行，2027年扩大至未就业城乡居民，2028年实现全省覆盖；执行国家统一的36项服务目录，重度失能且状态持续6个月以上人员可享待遇，特困、低保对象由政府全额或定额资助参保。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 80,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 19,
+        "everyday_relevance": 22,
+        "evidence": 13
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-10-27T16:08:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "社保政策发布解读，以省政府文件原文与中新网报道为准，客观陈述覆盖节奏与待遇条件"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/10-27/10721698.shtml",
+          "captured_at": "2026-10-28T06:56:00+08:00",
+          "note": "中新网10月27日报道：甘肃省政府新闻发布会解读长护险实施方案，职工先行、三年全覆盖"
+        },
+        {
+          "tier": "official",
+          "outlet": "甘肃省政府",
+          "url": "https://zwfw.gansu.gov.cn/jiuquan/zczx/jqyw/art/2026/art_0ed225aaddf04262bab2885825b5fcc5.html",
+          "captured_at": "2026-10-28T06:57:00+08:00",
+          "note": "甘肃省政府办公厅印发的《甘肃省建立长期护理保险制度实施方案》原文"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-28-teacher-cert-interview-registration",
+      "story_identity": "teacher-cert-interview-2026h2-provincial-notices",
+      "headline": "📝 多省发布下半年教师资格面试公告，11月6日起报名",
+      "summary": "浙江、湖南等省份10月27日发布2026年下半年中小学教师资格考试（面试）公告：网上报名11月6日至9日，全国统一面试12月5日至6日举行，成绩2027年1月8日公布。浙江省缴费截至11月11日24时，费用每人280元，报名入口为中小学教师资格考试网。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "教育考试",
+      "score": 76,
+      "score_breakdown": {
+        "heat": 25,
+        "freshness": 19,
+        "everyday_relevance": 19,
+        "evidence": 13
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-10-27T10:01:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "考试报名服务信息，以省级教育考试院与教育厅官网公告原文为准，客观陈述时间节点"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "浙江省教育考试院",
+          "url": "https://www.zjzs.net/art/2026/10/27/art_156_12705.html",
+          "captured_at": "2026-10-28T06:58:00+08:00",
+          "note": "浙江省教育考试院10月27日公告原文：报名11月6日至9日16时，缴费截至11月11日24时，费用280元每人"
+        },
+        {
+          "tier": "official",
+          "outlet": "湖南省教育厅",
+          "url": "http://jyt.hunan.gov.cn/jyt/sjyt/hnzxxjsfzzx/jsfzzxtzgg/202610/t20261027_34089108.html",
+          "captured_at": "2026-10-28T06:59:00+08:00",
+          "note": "湖南省中小学教师发展中心10月27日公告原文：报名11月6日10时至9日17时，面试12月5日至6日"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-28-henan-trade-in-smart-products",
+      "story_identity": "henan-trade-in-smart-products-subsidy",
+      "headline": "🛒 河南以旧换新补贴十大智能品类，单件最高补1500元",
+      "summary": "河南省商务厅、发展改革委、财政厅10月27日联合发布公告：智能清洁机器人、智能门锁、智能马桶、无人机等10类智能产品按最终售价15%给予补贴，单件封顶1500元，每类每名消费者限补1件，产品须具1级能效水效，政策执行至12月31日，先到先得、用完为止。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 75,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 19,
+        "everyday_relevance": 20,
+        "evidence": 10
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-10-27T15:25:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "消费补贴政策报道，三厅局联合公告经多家主流财经媒体报道，省商务厅官网原文未直接打开，按报道口径客观陈述"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "每日经济新闻",
+          "url": "https://www.nbd.com.cn/articles/2026-10-27/4620293.html",
+          "captured_at": "2026-10-28T07:00:00+08:00",
+          "note": "每日经济新闻10月27日快讯：河南三部门公告对10类智能产品按售价15%补贴、单件封顶1500元"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "第一财经",
+          "url": "https://www.yicai.com/news/103411229.html",
+          "captured_at": "2026-10-28T07:01:00+08:00",
+          "note": "第一财经10月27日报道：河南优化以旧换新地方自主品类补贴，聚焦十大智能品类"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "中国金融信息网",
+          "url": "https://www.cnfin.com/hg-lb/detail/20261027/4486906_1.html",
+          "captured_at": "2026-10-28T07:02:00+08:00",
+          "note": "中国金融信息网10月27日报道：河南智能品类以旧换新补贴执行至12月31日，先到先得"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
