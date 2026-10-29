@@ -3,7 +3,7 @@
   "policy_version": "v3-domestic-majority",
   "rubric_version": "v3-domestic-majority",
   "date": "2026-10-29",
-  "generated_at": "2026-10-29T12:02:00+08:00",
+  "generated_at": "2026-10-30T06:13:00+08:00",
   "status": "published",
   "run_report": {
     "candidates_scanned": 41,
@@ -30,6 +30,7 @@
       "dropped_insufficient_evidence": 2
     },
     "selection": {
+      "evaluated_at": "2026-10-29T12:02:00+08:00",
       "tier": "strict_24h",
       "qualified": {
         "strict_24h": 7,
