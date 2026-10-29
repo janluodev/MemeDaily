@@ -1,0 +1,999 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T06:54:47+08:00",
+  "published_at": "2026-10-30T06:54:47+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 33,
+    "published": 8,
+    "dropped_safety": {
+      "geopolitics": 1,
+      "politics": 1,
+      "propaganda": 1
+    },
+    "dropped_low_confidence": 20,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 29,
+      "official_sources": 6,
+      "state_media_sources": 9,
+      "major_media_sources": 10,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 2
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 8,
+        "relaxed_48h": 10,
+        "relaxed_72h": 16
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 33,
+          "cumulative_unique_candidates": 33,
+          "source_scope": [
+            "国内官方发布（部委与省市政府官网、气象与交管部门公告、机构通报）",
+            "央媒与持牌媒体报道（新华社/中新网/央广网/人民网/财经媒体）",
+            "地方媒体与省媒报道（杭州网/川观新闻/京报网/新华报业网等）",
+            "国际媒体与机构（Africanews/美联社/新华社国际部/WHO）",
+            "公共热榜与聚合线索（微博热搜等，仅作发现与热度佐证）"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-10-30-fuel-price-hike-cushioned",
+          "story_identity": "fuel-price-hike-oct29-cushioned-increase",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T17:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-30-fuel-price-hike-cushioned",
+          "score": 91,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-30-tibet-snow-closures-halt",
+          "story_identity": "tibet-snow-scenic-closures-bus-halt-oct29",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-10-30-tibet-snow-closures-halt",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-30-nov-rules-social-insurance",
+          "story_identity": "nov1-new-rules-social-insurance-penalty",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T00:09:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-10-30-nov-rules-social-insurance",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-30-chengdu-tianpu-railway-longquanyi",
+          "story_identity": "chengdu-tianpu-railway-longquanyi-open-oct30",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T00:01:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-10-30-chengdu-tianpu-railway-longquanyi",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-30-drc-ebola-clinic-first-clear",
+          "story_identity": "drc-ebola-10000-cases-clinic-first-clear",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T21:51:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "selected",
+          "item_id": "2026-10-30-drc-ebola-clinic-first-clear",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 19,
+            "everyday_relevance": 16,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-30-hangzhou-marathon-race-services",
+          "story_identity": "hangzhou-marathon-2026-race-day-metro-services",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-10-30-hangzhou-marathon-race-services",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-30-baqing-resettlement-one-week",
+          "story_identity": "baqing-quake-resettlement-one-week-data",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-10-30-baqing-resettlement-one-week",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-30-ciie-final-sprint-record",
+          "story_identity": "ciie-9th-final-sprint-record-exhibits",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-10-30-ciie-final-sprint-record",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "hunan-grassroots-medical-insurance",
+          "story_identity": "hunan-grassroots-medical-insurance-reimbursement",
+          "research_pass": 1,
+          "occurred_at": "2026-10-28T10:29:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 19,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "湘医保发〔2026〕45号10月28日挂网、29日官方解读与央广跟进，事件龄约44小时落relaxed_48h；strict_24h层已满8条，按最严凑满层级规则不选，政策硬、保留后续观察"
+        },
+        {
+          "candidate_key": "hubei-long-term-care-insurance",
+          "story_identity": "hubei-long-term-care-insurance-plan",
+          "research_pass": 1,
+          "occurred_at": "2026-10-28T10:36:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 22,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "湖北长护险与10月28日已发甘肃长护险同题材隔日重复，官方双源但无主流媒体跟进，事件龄超24小时strict窗口，不入选"
+        },
+        {
+          "candidate_key": "ningbo-nurse-couple-rescue-found",
+          "story_identity": "ningbo-nurse-couple-market-rescue-identified",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 14,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "救人事件10月25日发生、市场方10月27日公布全网寻人结果（央广网与潮新闻报道口径一致），以新事实锚定事件龄约61小时落relaxed_72h档；strict层已满，诚实降档不凑数"
+        },
+        {
+          "candidate_key": "escort-national-standard-nov1",
+          "story_identity": "escort-national-standard-nov1-xinhua-feature",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 14,
+            "everyday_relevance": 19,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "陪诊国标11月1日施行已五度评估未选，仍为前瞻解读、无落地实测；事件龄近72小时窗口边缘，维持不选，施行后可再评估"
+        },
+        {
+          "candidate_key": "guangxi-birth-support-briefing",
+          "story_identity": "guangxi-birth-support-briefing-oct29",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 67,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 17,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "广西生育支持发布会以成效盘点为主（育儿补贴发放额、婚假等系既有政策），10月28日已评类似项未选，分数未达strict线"
+        },
+        {
+          "candidate_key": "shanghai-social-subsidy-25pct",
+          "story_identity": "shanghai-social-insurance-subsidy-25pct",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "上海扩大社保补贴系全国既有政策的区级申领提醒，非新政策，官方单源，分数未达strict线"
+        },
+        {
+          "candidate_key": "huangshi-appliance-digital-vouchers",
+          "story_identity": "huangshi-appliance-digital-vouchers-oct30",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "黄石家电数码消费券为市级商务局单源公告、体量有限；消费券题材10月25至28日已多次覆盖，未达strict线"
+        },
+        {
+          "candidate_key": "two-cold-waves-late-oct-forecast",
+          "story_identity": "two-cold-waves-late-october-forecast",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T06:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 7
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "两股冷空气预报与10月27日已发三股冷空气条及今日西藏强降雪条角度重叠，例行气象服务信息不单独立条"
+        },
+        {
+          "candidate_key": "spain-hsr-death-toll-followup",
+          "story_identity": "spain-hsr-toledo-followup-oct29",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T08:00:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 17,
+            "everyday_relevance": 14,
+            "evidence": 7
+          },
+          "drop_reason": "西班牙高铁事故10月29日已发主条，29日仅为死亡数字常规更新、涉华无新进展，不重复入选"
+        },
+        {
+          "candidate_key": "population-change-sampling-survey-nov1",
+          "story_identity": "population-change-sampling-survey-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 19,
+            "everyday_relevance": 16,
+            "evidence": 8
+          },
+          "drop_reason": "人口变动抽样调查11月1日入户为年度例行统计服务提示，无单日事件增量，未达65资格线"
+        },
+        {
+          "candidate_key": "genai-users-700-million-report",
+          "story_identity": "genai-users-700-million-report",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 14,
+            "evidence": 8
+          },
+          "drop_reason": "生成式AI用户破7亿为行业数据解读，单日事件锚点弱，未达65资格线"
+        },
+        {
+          "candidate_key": "beijing-genai-filing-325-models",
+          "story_identity": "beijing-genai-service-filing-325",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 12,
+            "evidence": 8
+          },
+          "drop_reason": "北京生成式AI备案325款偏行业监管信息，与普通读者日常生活相关性不足，未达65资格线"
+        },
+        {
+          "candidate_key": "chuanyu-double11-compliance-tips",
+          "story_identity": "chuanyu-double11-compliance-tips",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 19,
+            "everyday_relevance": 13,
+            "evidence": 7
+          },
+          "drop_reason": "川渝市监局双11合规提示区域性强，双11题材10月23至28日已连续多次覆盖，频次控制不选"
+        },
+        {
+          "candidate_key": "guangdong-health-products-7day-return",
+          "story_identity": "guangdong-health-products-7day-return",
+          "research_pass": 1,
+          "occurred_at": "2026-10-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 12,
+            "everyday_relevance": 18,
+            "evidence": 10
+          },
+          "drop_reason": "广东老年人保健品7天无理由退货条例10月1日已施行，29日媒体再聚焦属旧政重提，事件锚点远超72小时窗口"
+        },
+        {
+          "candidate_key": "typhoon-infa-no-china-impact",
+          "story_identity": "typhoon-infa-no-china-impact",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T00:00:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 12,
+            "evidence": 6
+          },
+          "drop_reason": "超强台风烟花对我国近海无影响，属国际例行天气事件，未达65资格线"
+        },
+        {
+          "candidate_key": "baqing-m31-aftershock-oct29",
+          "story_identity": "baqing-m31-aftershock-oct29",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 18,
+            "everyday_relevance": 12,
+            "evidence": 5
+          },
+          "drop_reason": "巴青3.1级余震震级小且无影响报告，巴青题材今日已由安置一周硬数据条覆盖，不单列"
+        },
+        {
+          "candidate_key": "mongolia-copper-mine-rockfall",
+          "story_identity": "mongolia-copper-mine-rockfall",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T00:00:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 18,
+            "everyday_relevance": 12,
+            "evidence": 5
+          },
+          "drop_reason": "蒙古铜矿岩崩属外国地方工业事故，无中国读者直接关联与全球代表性，不入选"
+        },
+        {
+          "candidate_key": "pakistan-ambulance-oxygen-blast",
+          "story_identity": "pakistan-ambulance-oxygen-blast",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T00:00:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 17,
+            "everyday_relevance": 11,
+            "evidence": 5
+          },
+          "drop_reason": "巴基斯坦救护车氧气瓶爆炸属外国地方事故，不具全球代表性，不入选"
+        },
+        {
+          "candidate_key": "xinjiang-jinghe-m38-quake",
+          "story_identity": "xinjiang-jinghe-m38-quake",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 18,
+            "everyday_relevance": 10,
+            "evidence": 4
+          },
+          "drop_reason": "新疆精河3.8级地震震级小、无灾情报告，不够成条"
+        },
+        {
+          "candidate_key": "turkey-scenic-rockfall",
+          "story_identity": "turkey-scenic-rockfall",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T00:00:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 17,
+            "everyday_relevance": 10,
+            "evidence": 5
+          },
+          "drop_reason": "土耳其景点岩崩属外国地方事件，无中国读者直接关联，不入选"
+        },
+        {
+          "candidate_key": "guangdong-drug-dual-channel-consultation",
+          "story_identity": "guangdong-drug-dual-channel-consultation",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T15:06:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "广东医保国谈药双通道征求意见仅见同花顺转引，未核到官方原文，且属征求意见稿，证据不足不采用"
+        },
+        {
+          "candidate_key": "old-mine-news-aggregated-pages",
+          "story_identity": "old-mine-news-aggregated-pages",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T06:00:00+08:00",
+          "scope": "domestic",
+          "topic": "重大事件",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "检索中出现的阜新煤矿、三门峡矿难等条目经核对为旧闻聚合页，非当日新事件，不作事实陈述"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-10-30-fuel-price-hike-cushioned",
+      "story_identity": "fuel-price-hike-oct29-cushioned-increase",
+      "headline": "⛽ 成品油价格上调落地，每吨实涨345元、涨幅压减近百元",
+      "summary": "国家发改委10月29日公告，自29日24时起国内汽、柴油每吨分别上调345元和335元。按机制测算本轮应涨440元、420元，为减缓国际油价上涨冲击，国家采取调控措施使实涨金额压减近百元。折合升价92号汽油约涨0.27元，50升油箱加满一箱约多花13元，发改委要求三大石油公司保供稳价。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 91,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 14
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-10-29T17:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "以发改委公告原文为准，升价各家口径差0.01元、统一用约0.27元/升；与10月27、29日按证据不足弃置的调价预测条目切割：今日公告已落地，调控差价（应涨440/420实涨345/335）为看点"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家发改委",
+          "url": "https://www.ndrc.gov.cn/xwdt/xwfb/202610/t20261029_1408449.html",
+          "title": "国内成品油价格按机制上调",
+          "captured_at": "2026-10-30T06:33:00+08:00",
+          "note": "发改委10月29日公告原文：自29日24时起汽、柴油每吨分别上调345元、335元；按机制应涨440元、420元，为减缓国际油价冲击采取调控措施，要求三大油公司保供稳价"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "http://www.news.cn/20261029/6b82ee2a71b740ed8e93976e57bdff38/c.html",
+          "title": "国内汽、柴油价格上调",
+          "captured_at": "2026-10-30T06:33:00+08:00",
+          "note": "新华社10月29日报道成品油调价落地，确认345元/335元实涨口径与调控背景"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "第一财经",
+          "url": "https://www.yicai.com/news/103415309.html",
+          "title": "油价上调：92号汽油每升约涨0.27元",
+          "captured_at": "2026-10-30T06:34:00+08:00",
+          "note": "第一财经10月29日报道折合升价口径：92号约0.26至0.27元、95号约0.28至0.29元，50升油箱加满约多花13元"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "21经济网",
+          "url": "https://www.21jingji.com/article/20261029/herald/25dad572abbce7563d71a4c84bc5475d.html",
+          "title": "成品油调价落地，涨幅低于测算",
+          "captured_at": "2026-10-30T06:34:00+08:00",
+          "note": "21世纪经济报道10月29日报道：布伦特一度冲至117美元/桶背景下，本轮涨幅被调控压减近百元"
+        },
+        {
+          "tier": "official",
+          "outlet": "广东省发改委",
+          "url": "https://drc.gd.gov.cn/ywgg/content/post_4972645.html",
+          "title": "广东省成品油最高销售价格表",
+          "captured_at": "2026-10-30T06:35:00+08:00",
+          "note": "广东省发改委10月29日更新价格表，佐证调价自29日24时起执行"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-30-tibet-snow-closures-halt",
+      "story_identity": "tibet-snow-scenic-closures-bus-halt-oct29",
+      "headline": "🌨️ 西藏强降雪进入影响期，珠峰闭园、日喀则多条班线停运",
+      "summary": "西藏强降雪过程进入影响期：珠峰景区29日起临时闭园，吉隆、亚东、定结等县景区同步关停；日喀则客运企业公告29日至31日停运多条市际、县际班线，已购票旅客免费退改，公安交管部门提醒高海拔路段非必要不前往。中央气象台预计最强降雪时段在30日，巴青震区30日傍晚起有降雪降温大风。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 85,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 14
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-10-29T10:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "预防性管控进展报道，截至成稿无降雪实况伤亡；与10月29日已发预警会商条切割：本条为29日生效的闭园停运影响期事实；克制表述不渲染"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "日喀则市委网",
+          "url": "https://rikaze.xzdw.gov.cn/fbt/gsgg_367/202610/t20261029_704502.html",
+          "title": "日喀则客运班线临时停运公告",
+          "captured_at": "2026-10-30T06:36:00+08:00",
+          "note": "日喀则市委网10月29日公告：29日至31日多条市际、县际客运班线停运停售，已购票旅客免费退改"
+        },
+        {
+          "tier": "official",
+          "outlet": "中国气象局",
+          "url": "https://www.cma.gov.cn/2011xwzx/2011xqxxw/2011xqxyw/202610/t20261029_8116804.html",
+          "title": "西藏强降雪过程通报",
+          "captured_at": "2026-10-30T06:36:00+08:00",
+          "note": "中央气象台29日通报：过程累计降雪30至60毫米、新增积雪10至30厘米局地40厘米以上，最强时段30日，巴青震区30日傍晚起中到大雪伴降温大风"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "中国西藏网",
+          "url": "http://www.tibet.cn/cn/zt2026/bqdz/news/202610/t20261029_8066772.html",
+          "title": "西藏强降雪影响期出行提示",
+          "captured_at": "2026-10-30T06:37:00+08:00",
+          "note": "中国西藏网10月29日报道：自治区公安交管局发布出行提醒，G219/G318/G562/G564/G565多段交通气象风险高，高海拔路段非必要不前往"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "京报网",
+          "url": "https://news.bjd.com.cn/2026/10/28/12009594.shtml",
+          "title": "珠峰景区29日起临时闭园",
+          "captured_at": "2026-10-30T06:37:00+08:00",
+          "note": "京报网转云端珠峰公告：珠峰景区10月29日起暂停接待游客，闭园期间除雪除冰、设施巡检；吉隆、亚东、定结多县景区同步关停"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-30-nov-rules-social-insurance",
+      "story_identity": "nov1-new-rules-social-insurance-penalty",
+      "headline": "📋 11月起一批新规施行：单位欠缴社保最高罚三倍",
+      "summary": "11月1日起一批新规落地：新版税务行政处罚裁量基准施行，单位欠缴社保费最高可处欠缴数额三倍罚款，员工自愿放弃社保的约定无效；博物馆藏品管理办法、新修订监狱法、传染病消毒强制性国家标准等同步实施，与民生关系密切。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 81,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 12
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-10-30T00:09:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "11月新规汇总服务信息，社保欠缴罚款为全新角度；玩具强标与青少年培训角度10月29日已发儿童新规条覆盖，本条不重复"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中新经纬",
+          "url": "https://m.chinanews.com.cn/wap/detail/chs/zw/jw694795.shtml",
+          "title": "11月起这些新规将施行",
+          "captured_at": "2026-10-30T06:38:00+08:00",
+          "note": "中新经纬10月30日凌晨汇总：税务行政处罚裁量基准2026版、博物馆藏品管理办法、新修订监狱法、传染病消毒规范强标等11月1日起实施"
+        },
+        {
+          "tier": "official",
+          "outlet": "国家税务总局",
+          "url": "https://www.chinatax.gov.cn/chinatax/n810219/n810724/c5252768/content.html",
+          "title": "税务行政处罚裁量基准发布",
+          "captured_at": "2026-10-30T06:38:00+08:00",
+          "note": "税务总局官网裁量基准原文，11月1日施行，明确欠缴社保费处罚区间"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/10-17/10716192.shtml",
+          "title": "社保欠缴处罚与自愿放弃社保效力解读",
+          "captured_at": "2026-10-30T06:39:00+08:00",
+          "note": "中新网10月17日解读：单位欠缴社保最高处欠缴数额三倍罚款，自愿放弃社保约定无效"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-30-chengdu-tianpu-railway-longquanyi",
+      "story_identity": "chengdu-tianpu-railway-longquanyi-open-oct30",
+      "headline": "🚄 天蒲铁路今日开通，成都龙泉驿站同步投用",
+      "summary": "中国铁路成都局集团消息：新建天蒲铁路10月30日开通运营，雅安至天府机场站最快80分钟可达，雅安至宜宾首次开行直达动车、全程2小时39分；新建成都龙泉驿站同日正式投用，将承接宝成、沪蓉、成昆等方向部分普速列车始发终到，34列旅客列车自31日起分批调整至该站。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 80,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 13
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-10-30T00:01:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "铁路开通服务信息，以成都局集团公告与中新网报道为准；天蒲铁路与龙泉驿站为同城同日同源两件民生事，合并为一条避免同日同城双条"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/10-29/10722694.shtml",
+          "title": "四川：新建天蒲铁路10月30日开通运营",
+          "captured_at": "2026-10-30T06:40:00+08:00",
+          "note": "中新网10月29日报道：天蒲铁路30日开通，雅安至天府机场站最快80分钟，雅安至宜宾首开直达动车全程2小时39分"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/10-29/10722813.shtml",
+          "title": "四川：新建成都龙泉驿站10月30日启用",
+          "captured_at": "2026-10-30T06:40:00+08:00",
+          "note": "中新网10月29日报道：龙泉驿站30日投用，承接宝成、沪蓉、成昆等方向部分普速列车，34列旅客列车10月31日起分三批调整"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "川观新闻",
+          "url": "https://cbgc.scol.com.cn/news/8097770",
+          "title": "天蒲铁路10月30日开通，从雅安80分钟直达天府机场",
+          "captured_at": "2026-10-30T06:41:00+08:00",
+          "note": "川观新闻10月29日报道，确认开通日期与运行时分，含灵活折扣差异化票价信息"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-30-drc-ebola-clinic-first-clear",
+      "story_identity": "drc-ebola-10000-cases-clinic-first-clear",
+      "headline": "🦠 刚果（金）埃博拉确诊破万，一治疗中心疫情以来首次清零",
+      "summary": "非洲媒体29日报道，刚果（金）本轮埃博拉疫情累计确诊超1万例、死亡近5000例，病死率接近50%；伊图里省蒙布瓦卢一家治疗中心自5月疫情宣布以来首次无确诊病例，但病毒仍在东部扩散。本轮疫情由本迪布焦型病毒引发、尚无获批疫苗，已输出至肯尼亚、尼日利亚，世卫组织警告防控局面复杂。",
+      "category": "国际",
+      "scope": "international",
+      "topic": "重大事件",
+      "primary_organization": "刚果（金）卫生部",
+      "audience_relevance": {
+        "basis": "global_major_event",
+        "impact_scale": "global_systemic",
+        "china_connection": "中国疾控部门已就该疫情发布风险评估，驻外使领馆多次发布领事提醒；疫情输出多国且无获批疫苗，属普通读者需要知晓的全球重大公共卫生事件",
+        "everyday_impact": "有记录以来最严重的埃博拉疫情之一，确诊破万、病死率接近五成，全球主流媒体持续头条报道，读者有基本知情需求",
+        "score": 21
+      },
+      "score": 79,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 19,
+        "everyday_relevance": 16,
+        "evidence": 13
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-10-29T21:51:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "重大疫情报道，死亡数字只进摘要不进标题；美联社原文403未直读，数字以Africanews全文与新华社快讯交叉核实，未采用未经直读证实的平台期周增与旅行限制表述"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "Africanews",
+          "url": "https://www.africanews.com/2026/10/29/drc-ebola-clinic-celebrates-departure-of-last-confirmed-cases/",
+          "title": "DRC Ebola clinic celebrates departure of last confirmed cases",
+          "captured_at": "2026-10-30T06:35:00+08:00",
+          "note": "Africanews10月29日报道（已核全文）：确诊超1万例、康复超2600例、死亡近5000例病死率近50%；蒙布瓦卢MSF治疗中心5月疫情宣布以来首次无确诊病例；已输出肯尼亚9例、尼日利亚1例；本迪布焦型无获批疫苗"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/20261027/2b98ea620aec4f4f95e5c655db7aba1d/c.html",
+          "title": "刚果（金）本轮埃博拉疫情确诊病例超1万例",
+          "captured_at": "2026-10-30T06:42:00+08:00",
+          "note": "新华社金沙萨10月27日电：截至10月25日累计确诊10060例、死亡4887例，疫情波及8个省，病死率约48.6%"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-30-hangzhou-marathon-race-services",
+      "story_identity": "hangzhou-marathon-2026-race-day-metro-services",
+      "headline": "🏃 杭州马拉松周日开跑，6条地铁线首班车提前30分钟",
+      "summary": "2026杭州马拉松11月1日开跑。10月29日至31日在黄龙体育中心北塔领取参赛物资，须本人持报名证件原件、不接受代领；比赛日杭州地铁1、2、3、4、5、10号线各站首班车提前30分钟，组委会提示跑者分区安检、绿色出行。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 25,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 12
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-10-29T12:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "赛事服务信息，以杭州网与组委会发布为准；与10月28日评估未选的报名破30万角度切割：本条为29日公布的领物与地铁出行服务"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "杭州网",
+          "url": "https://ori.hangzhou.com.cn/ornews/content/2026-10/29/content_9359371.htm",
+          "title": "杭马开跑在即：地铁首班车提前、今明领物高峰",
+          "captured_at": "2026-10-30T06:43:00+08:00",
+          "note": "杭州网10月29日报道：11月1日比赛日地铁1/2/3/4/5/10号线各站首班车提前30分钟；领物29日至31日黄龙体育中心北塔，须本人持报名证件原件不接受代领"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "人民网浙江",
+          "url": "http://zj.people.com.cn/n2/2026/1028/c186327-41734948.html",
+          "title": "2026杭州马拉松赛事服务信息",
+          "captured_at": "2026-10-30T06:43:00+08:00",
+          "note": "人民网浙江频道10月28日报道杭马赛事安排与服务提示"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/ty/2026/10-27/10721928.shtml",
+          "title": "2026杭州马拉松发布会",
+          "captured_at": "2026-10-30T06:44:00+08:00",
+          "note": "中新网10月27日发布会报道：赛事11月1日开跑及组织安排"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-30-baqing-resettlement-one-week",
+      "story_identity": "baqing-quake-resettlement-one-week-data",
+      "headline": "🏠 巴青震区安置一周，34处安置点板房搭建超八成",
+      "summary": "西藏巴青7.0级地震发生约一周，应急处置指挥部29日通报：截至28日13时，34处集中安置点安置受灾群众12964人，已搭建板房2686间、完成率超八成，4011名群众入住板房，配发火炉4084套；各医疗保障点累计接诊2832人次、发放药品4910份。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 76,
+      "score_breakdown": {
+        "heat": 25,
+        "freshness": 19,
+        "everyday_relevance": 20,
+        "evidence": 12
+      },
+      "heat_rank": 7,
+      "occurred_at": "2026-10-29T12:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "震区安置硬数据报道，以指挥部通报为准；与10月26日已发保暖安置条切割：本条锚点为29日通报的一周安置数据；历史伤亡数字不进本条"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/gn/2026/10-29/10722644.shtml",
+          "title": "西藏巴青县：34处集中安置点已搭建板房2686间",
+          "captured_at": "2026-10-30T06:44:00+08:00",
+          "note": "中新网10月29日报道：截至28日13时，34处安置点安置12964人，板房2686间完成率超80%，入住4011人，接诊2832人次、发药4910份"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "凤凰网",
+          "url": "https://news.ifeng.com/c/8xcCkLX2hOW",
+          "title": "西藏巴青县：34处集中安置点已搭建板房2686间",
+          "captured_at": "2026-10-30T06:45:00+08:00",
+          "note": "凤凰网10月29日转载指挥部通报，独立渠道佐证同一组安置数据"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-30-ciie-final-sprint-record",
+      "story_identity": "ciie-9th-final-sprint-record-exhibits",
+      "headline": "🛍️ 第九届进博会冲刺，480余项创新成果将集中亮相",
+      "summary": "商务部29日例行新闻发布会介绍，第九届进博会筹备进入最后冲刺：整体展览展示面积首次突破44万平方米，162个国家、地区和国际组织参与，480余项代表性创新成果将集中亮相，全球首发、亚洲首秀、中国首展数量创历届新高；首批展品已入馆，线下搭建全面铺开。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 75,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 20,
+        "everyday_relevance": 18,
+        "evidence": 11
+      },
+      "heat_rank": 8,
+      "occurred_at": "2026-10-29T15:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "展会前瞻预热，以商务部29日例行发布会口径为准；面积与首发数量为官方发布数据，不作延展解读"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "商务部",
+          "url": "https://www.mofcom.gov.cn/xwfbzt/2026/swbzklxxwfbh2026n10y29r/index.html",
+          "title": "商务部召开例行新闻发布会（2026年10月29日）",
+          "captured_at": "2026-10-30T06:45:00+08:00",
+          "note": "商务部10月29日发布会：第九届进博会162个国家、地区和国际组织参与，展览展示面积首次突破44万平方米，480余项创新成果亮相"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "中国经济网",
+          "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261029_3275975.shtml",
+          "title": "480余项创新成果将亮相第九届进博会",
+          "captured_at": "2026-10-30T06:46:00+08:00",
+          "note": "中国经济网10月29日报道发布会内容：全球首发、亚洲首秀、中国首展代表性展品创历届新高"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "新华报业网",
+          "url": "https://www.xhby.net/content/s6ae30890e4b06074e704bfb2.html",
+          "title": "第九届进博会筹备工作进入最后冲刺阶段",
+          "captured_at": "2026-10-30T06:46:00+08:00",
+          "note": "新华报业网10月29日报道：筹备进入冲刺，境外组展机构参展规模扩大"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
