@@ -1,0 +1,755 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v4-editorial-completeness",
+  "rubric_version": "v4-100-point-dynamic",
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T07:50:59+08:00",
+  "published_at": "2026-10-30T07:50:59+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 50,
+    "published": 4,
+    "dropped_safety": {
+      "涉及具体人物": 5,
+      "政治时政": 3,
+      "社会事件灾难": 3,
+      "涉及具体品牌公司": 2
+    },
+    "dropped_low_confidence": 3,
+    "dropped_capacity": 0,
+    "sources": [
+      "weibo",
+      "douyin",
+      "zhihu",
+      "bilibili",
+      "other"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 37,
+      "platform_public_sources": 3,
+      "aggregator_sources": 5,
+      "search_media_sources": 8,
+      "spillover_sources": 0,
+      "dropped_insufficient_evidence": 30
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 4,
+        "relaxed_48h": 5,
+        "relaxed_72h": 7
+      },
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-10-02-quanwang-jinru-bushaoxin-shidai",
+          "canonical_phrase": "全网进入不烧心时代",
+          "outcome": "selected",
+          "item_id": "2026-10-02-quanwang-jinru-bushaoxin-shidai",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 27,
+            "reusability": 19,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://hot.cnxiaobai.com/",
+            "observed_at": "2026-10-30T07:36:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-08-02-youqian-jingzhong-ziji",
+          "canonical_phrase": "我一有钱就买嘢来敬重自己",
+          "outcome": "selected",
+          "item_id": "2026-08-02-youqian-jingzhong-ziji",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 26,
+            "reusability": 18,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://www.sohu.com/a/1094225711_122942848",
+            "observed_at": "2026-10-29T16:28:00+08:00"
+          },
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "2026-10-30-chi-tanghulu-nian-zhouyu",
+          "canonical_phrase": "吃糖葫芦之前要念咒语",
+          "outcome": "selected",
+          "item_id": "2026-10-30-chi-tanghulu-nian-zhouyu",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 26,
+            "reusability": 18,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://github.com/cxyfreedom/website-hot-hub/blob/main/README.md",
+            "observed_at": "2026-10-30T07:35:00+08:00"
+          },
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "2026-10-28-kandao-xx-ganjue-nianqingle",
+          "canonical_phrase": "看到XX感觉年轻了",
+          "outcome": "selected",
+          "item_id": "2026-10-28-kandao-xx-ganjue-nianqingle",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 26,
+            "reusability": 17,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://tieba.baidu.com/hottopic/browse/topicList",
+            "observed_at": "2026-10-30T07:35:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "laobengdai",
+          "canonical_phrase": "老绷带",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 26,
+            "reusability": 17,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.dancihu.com/liuxingyu/l17595.html",
+            "observed_at": "2026-10-29T22:09:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "xx-shijie-xunyan",
+          "canonical_phrase": "XX世界巡演",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 24,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://github.com/cxyfreedom/website-hot-hub/blob/main/README.md",
+            "observed_at": "2026-10-30T07:35:00+08:00"
+          },
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "shengqi-jiejuebuliao",
+          "canonical_phrase": "生气解决不了任何问题",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 23,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://github.com/cxyfreedom/website-hot-hub/blob/main/README.md",
+            "observed_at": "2026-10-30T07:35:00+08:00"
+          },
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "xdou-fazhan-cheng-zheyang",
+          "canonical_phrase": "X都发展成这样了",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "quanwang-jinru-dashui-shidai",
+          "canonical_phrase": "全网进入大水时代",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "tanghulu-jinru-yujiaku-shidai",
+          "canonical_phrase": "糖葫芦进入瑜伽裤时代",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "aini-laoji-mingtianjian",
+          "canonical_phrase": "爱你老己明天见",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "shupian-shuobuqingchu",
+          "canonical_phrase": "跟你们不XX的说不清楚",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "lijiele",
+          "canonical_phrase": "力竭了",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "huangmao-lilun",
+          "canonical_phrase": "黄毛理论",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "dahu-xingguo-lun",
+          "canonical_phrase": "大壶兴国论",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "dadan-lilun",
+          "canonical_phrase": "大蛋理论",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "dayang-lilun",
+          "canonical_phrase": "大氧理论",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "manyou-shi-xiujia",
+          "canonical_phrase": "慢游式休假",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "yijiazi-zaiyiqi-jiuhao",
+          "canonical_phrase": "一家子在一起就好",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "wo-renshi-yige-henren",
+          "canonical_phrase": "我认识一个狠人",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "busha-busha",
+          "canonical_phrase": "不啥不啥",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "sasasa",
+          "canonical_phrase": "飒飒飒",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "houdang-houdang",
+          "canonical_phrase": "后荡后荡",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "xx-bie",
+          "canonical_phrase": "XX别",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "quanji-mao",
+          "canonical_phrase": "拳击猫",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "shengxia-zenmeban-daodiao",
+          "canonical_phrase": "剩下怎么办倒掉",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "guijuti-jielong",
+          "canonical_phrase": "规矩体接龙",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "meisi-zhuyi",
+          "canonical_phrase": "没死主义",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "jieguohun-wo-yeren",
+          "canonical_phrase": "结过婚我也认",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "dazou-lilun",
+          "canonical_phrase": "大走理论",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "dacai-lilun",
+          "canonical_phrase": "大菜理论",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "da-x-lilun-jiazu",
+          "canonical_phrase": "大X理论",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "manmiao-huichao",
+          "canonical_phrase": "不知道我的XX很曼妙",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "renlei-sandunfan-henlei",
+          "canonical_phrase": "人类一天三顿饭很累",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "zengyishi-huifu",
+          "canonical_phrase": "增益式回复",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "chunguorizi-shi-chongdian",
+          "canonical_phrase": "纯过日子式充电",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "liangxin-laoban-ti",
+          "canonical_phrase": "良心老板体",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "candidate-1",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-2",
+          "outcome": "dropped_safety",
+          "drop_reason": "政治时政",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-3",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体品牌公司",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-4",
+          "outcome": "dropped_safety",
+          "drop_reason": "政治时政",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-5",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-6",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-7",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-8",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "candidate-9",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "candidate-10",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "candidate-11",
+          "outcome": "dropped_safety",
+          "drop_reason": "政治时政",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "candidate-12",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "candidate-13",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体品牌公司",
+          "research_pass": 2
+        }
+      ],
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 31,
+          "cumulative_unique_candidates": 31,
+          "sources_checked": [
+            "weibo",
+            "douyin",
+            "zhihu",
+            "other"
+          ]
+        },
+        {
+          "pass": 2,
+          "candidates_added": 19,
+          "cumulative_unique_candidates": 50,
+          "sources_checked": [
+            "bilibili",
+            "weibo",
+            "douyin",
+            "other"
+          ]
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-10-02-quanwang-jinru-bushaoxin-shidai",
+      "title": "🏞️ 这样的景区逛着不烧心",
+      "aliases": [
+        "全网进入不烧心时代",
+        "这样的景区逛着不烧心",
+        "X了不烧心",
+        "良心老板体"
+      ],
+      "canonical_phrase": "全网进入不烧心时代",
+      "platform": [
+        "douyin",
+        "weibo",
+        "other"
+      ],
+      "type": "句式梗",
+      "summary": "「不烧心」第 24 天仍在榜单高位繁殖：今晨聚合榜在列「这样的景区逛着不烧心」、抖音热榜仍有「多吃碳水不烧心」，36氪长文复盘「不烧心宇宙」，词典连夜收录派生「良心老板体」。",
+      "origin": "已验证：起源于批量 AI 市井短剧台词「贵是贵点，但吃了不烧心」，10 月上旬起爆，中新网 10-16 以《全网进入“不烧心”时代》报道其出圈；10-30 早晨聚合榜与抖音热榜仍各有一条套用话题在列。",
+      "usage": "万能安心评语「XX 不烧心 / 逛着不烧心」继续被文旅、餐饮、穿搭内容套用；评论区衍生「烧心了」表共情；「良心老板体」把剧中厚道上司语录抽成夸人模板，可夸老板、夸店家、夸平台。",
+      "fun_point": "一句后厨大白话成了全民质检章——从吃的到逛的到上班，万物皆可「不烧心」；派生词连夜被词典收录，说明它还在生产新壳，梗本身进入了自我繁殖期。",
+      "why_spread": "已验证：10-29 21:52 单词乎收录派生词「良心老板体」；10-30 07:18 36氪发长文复盘「不烧心宇宙」与「规矩不能坏」台词模板；10-30 早晨聚合榜「这样的景区逛着不烧心」与抖音热榜「多吃碳水不烧心」同晨在列。推测：年末消费与出行决策密集，零门槛安心评语与商业投放互哺，短期难降温。",
+      "lifecycle": "peak",
+      "brand_usage": "文旅、餐饮账号可直接用「这样的 XX 逛着/吃着不烧心」做安心感卖点；职场账号可借「良心老板体」做雇主品牌内容；承诺需兑现，避免翻车截图反噬。",
+      "risk": {
+        "level": "low",
+        "note": "语义正向、全民通用；商业蹭梗投放增多，借用时承诺需兑现，勿捆绑无法验证的功效宣传。"
+      },
+      "days_on_list": 24,
+      "score": 88,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 27,
+        "reusability": 19,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "other",
+          "url": "https://hot.cnxiaobai.com/",
+          "observed_at": "2026-10-30T07:36:00+08:00",
+          "captured_at": "2026-10-30T07:37:00+08:00",
+          "note": "cnxiaobai 热榜聚合 10-30 07:36 快照：「这样的景区逛着不烧心」居分区第 4 位在榜。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://github.com/cxyfreedom/website-hot-hub/blob/main/README.md",
+          "observed_at": "2026-10-30T07:35:00+08:00",
+          "captured_at": "2026-10-30T07:35:00+08:00",
+          "note": "抖音热榜逐小时公开归档 10-30 晨快照：「多吃碳水不烧心」居第 59 位，仍在榜。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://36kr.com/p/4046367817602180",
+          "title": "AI短剧的“不烧心宇宙”，秦始皇来了都得卖包子",
+          "observed_at": "2026-10-30T07:18:00+08:00",
+          "captured_at": "2026-10-30T07:38:00+08:00",
+          "note": "36氪 10-30 07:18 长文：确认「上班太烧心了」万能句式与「规矩不能坏」台词模板仍在扩散。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://www.dancihu.com/liuxingyu/l17586.html",
+          "observed_at": "2026-10-29T21:52:00+08:00",
+          "captured_at": "2026-10-30T07:20:00+08:00",
+          "note": "单词乎 10-29 21:52 收录派生词「良心老板体」：把剧中厚道老板语录当夸人模板用，梗进入二阶创作。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "origin",
+          "platform": "other",
+          "url": "https://www.chinanews.com.cn/cul/2026/10-16/10715749.shtml",
+          "title": "全网进入“不烧心”时代",
+          "observed_at": "2026-10-16T12:00:00+08:00",
+          "captured_at": "2026-10-29T12:06:00+08:00",
+          "note": "中新网 10-16：确认该梗自 AI 短剧台词出圈为全民安心评语（留档作身份锚点）。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-08-02-youqian-jingzhong-ziji",
+      "title": "🧋 买一杯奶茶来敬重自己",
+      "aliases": [
+        "我一有钱就买嘢来敬重自己",
+        "买一杯咖啡来敬重自己",
+        "买一杯XX来敬重自己",
+        "吃顿好的来敬重自己"
+      ],
+      "canonical_phrase": "我一有钱就买嘢来敬重自己",
+      "platform": [
+        "douyin",
+        "other"
+      ],
+      "type": "口头禅梗",
+      "summary": "「买一杯咖啡来敬重自己」二次起量进入第三天：搜狐号 10-29 下午复盘其 10-28 晚冲上抖音热榜第 8，网友已把咖啡换成奶茶、好饭接着造句，「敬重自己」成自我犒赏的固定壳。",
+      "origin": "已验证：出自抖音自我犒赏类视频文案，8 月以「我一有钱就买嘢来敬重自己」首次登榜；10-28 晚再登抖音热榜第 8 并标「沸」，搜狐号 10-29 16:28 发文复盘并记录奶茶、吃顿好的等派生写法。",
+      "usage": "完成一件小事后郑重犒赏自己的造句模板：「加完班，买一杯奶茶来敬重自己」「跑完步，吃顿好的来敬重自己」；咖啡可换成任意小确幸，适配打卡图文、vlog 字幕与评论区互相打气。",
+      "fun_point": "「敬重」是待客级别的庄重词，拿来对一杯十几块的饮料用，郑重与微小犒赏的反差理直气壮；换词造句零门槛，人人都能给自己的小胜利办个册封仪式。",
+      "why_spread": "已验证：10-28 晚登抖音热榜第 8（约 910 万标「沸」），10-29 16:28 搜狐号发文复盘并确认派生句式；词典与热词账号同周收录解读。推测：年末打工人疲惫感叠加自我关怀叙事，与 8 月老句式合流自带熟人感。",
+      "lifecycle": "rising",
+      "brand_usage": "茶饮、咖啡、甜品账号可做「今天也值得敬重自己」场景互动；效率、办公账号可做「完成清单后的小仪式」；避免诱导超额消费或捆绑奢侈品调性。",
+      "risk": {
+        "level": "safe",
+        "note": "正向自我关怀梗；注意别把消费包装成必要开销，勿诱导超前消费。"
+      },
+      "days_on_list": 3,
+      "score": 82,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 26,
+        "reusability": 18,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "search_media",
+          "evidence_role": "popularity",
+          "platform": "other",
+          "url": "https://www.sohu.com/a/1094225711_122942848",
+          "observed_at": "2026-10-29T16:28:00+08:00",
+          "captured_at": "2026-10-30T07:33:00+08:00",
+          "note": "搜狐号稿件 10-29 16:28 发布（页面自证「事实核对于 10 月 29 日」）：确认该句 10-28 晚冲上抖音热榜第 8，已派生「买一杯奶茶」「吃顿好的」等写法。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://tophub.today/n/K7GdaMgdQy",
+          "observed_at": "2026-10-29T11:52:00+08:00",
+          "captured_at": "2026-10-29T11:54:00+08:00",
+          "note": "今日热榜抖音热点榜 10-29 中午快照留档：「买一杯咖啡来敬重自己」约 914.7 万热度居第 7 位。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://www.recishuo.com/article/article-1793202714177904241",
+          "observed_at": "2026-10-28T15:51:00+08:00",
+          "captured_at": "2026-10-29T12:08:00+08:00",
+          "note": "热词说 10-28 15:51 解读：完成小事后用一杯咖啡的仪式感自我肯定，「我看见了自己的努力」。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "origin",
+          "platform": "other",
+          "url": "https://www.gengwh.com/read/1070",
+          "observed_at": "2026-10-28T20:10:00+08:00",
+          "captured_at": "2026-10-29T12:09:00+08:00",
+          "note": "梗百科 10-28 20:10 收录该词条（与抖音热榜、热词说交叉验证后采信）。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-30-chi-tanghulu-nian-zhouyu",
+      "title": "📿 吃糖葫芦之前要念咒语",
+      "aliases": [
+        "吃糖葫芦之前要念咒语",
+        "吃XX之前要念咒语",
+        "吃糖葫芦之前要念咒语哦"
+      ],
+      "canonical_phrase": "吃糖葫芦之前要念咒语",
+      "platform": [
+        "douyin",
+        "weibo",
+        "other"
+      ],
+      "type": "句式梗",
+      "summary": "「吃糖葫芦之前要念咒语」：调侃名字超长、流程繁琐之物的万能句式，源于一串配料名长达 20 字的网红糖葫芦，10-30 早晨仍居抖音热榜第 48 位。",
+      "origin": "已验证：源于哈尔滨一款配料名极长的网红糖葫芦，10 月中旬起微博话题与封面新闻等多平台报道，网友戏称念完配料名像念咒语；与上周「糖葫芦进入瑜伽裤时代」同族不同句，本条为「念咒语」独立表达，10-30 07:35 抖音热榜归档快照仍居第 48。",
+      "usage": "万能调侃填空：「吃 XX 之前要念咒语」「用 XX 之前得先念段咒」——配料表超长的零食、规则复杂的活动、名字拗口的新品都能套；评论区报菜名式接龙、短视频口播开头均适用。",
+      "fun_point": "把「报名字」说成「念咒语」，仪式感拉满地吐槽名字长到离谱；吃个东西的门槛被描述成法术吟唱，荒诞又贴切，谁都能找一个自己生活里的「咒语对象」。",
+      "why_spread": "已验证：10 月中旬起微博、封面新闻等多平台报道该糖葫芦，抖音热榜 10-30 早晨快照仍在榜（第 48 位）。推测：年末新品扎堆、超长命名与复杂规则遍地，吐槽模板恰逢其时；与「XX 时代」句式互补不冲突。",
+      "lifecycle": "rising",
+      "brand_usage": "食品、新消费账号可自嘲式玩「我家配料名不用念咒语」反向营销；内容账号可做「生活里的咒语时刻」征集；勿用于嘲笑特定商家的产品名。",
+      "risk": {
+        "level": "safe",
+        "note": "调侃命名长度，无指向性攻击；注意与具体品牌保持距离，玩梗不点名商家。"
+      },
+      "days_on_list": 1,
+      "score": 78,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 26,
+        "reusability": 18,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://github.com/cxyfreedom/website-hot-hub/blob/main/README.md",
+          "observed_at": "2026-10-30T07:35:00+08:00",
+          "captured_at": "2026-10-30T07:35:00+08:00",
+          "note": "抖音热榜逐小时公开归档 10-30 晨快照：「吃糖葫芦之前要念咒语哦」居第 48 位在榜。"
+        },
+        {
+          "tier": "platform_public",
+          "evidence_role": "origin",
+          "platform": "weibo",
+          "url": "https://weibo.com/2/detail/5354283979510941",
+          "captured_at": "2026-10-30T07:20:00+08:00",
+          "note": "微博话题详情页 10-15 起记录该超长配料名糖葫芦讨论，为本梗走红起点（日级时间，仅作背景）。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://m.thecover.cn/video_details.html?eid=MnbDCJXDMN+H90qSdq8Jkw==",
+          "captured_at": "2026-10-30T07:21:00+08:00",
+          "note": "封面新闻 10-16 视频报道：哈尔滨 20 字配料名糖葫芦，网友调侃「吃之前要念咒语」（日级时间，仅作背景）。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-28-kandao-xx-ganjue-nianqingle",
+      "title": "🐼 看到熊猫烧香病毒感觉年轻了",
+      "aliases": [
+        "看到XX感觉年轻了",
+        "看到熊猫烧香感觉年轻了"
+      ],
+      "canonical_phrase": "看到XX感觉年轻了",
+      "platform": [
+        "weibo",
+        "other"
+      ],
+      "type": "句式梗",
+      "summary": "「看到 XX 感觉年轻了」第三日续热：贴吧热议榜「上古病毒现世，网友中熊猫烧香」今晨仍在列（讨论超 57 万），吧友持续用「我晕」「我和我的小伙伴们都惊呆了」等上古网语接龙。",
+      "origin": "已验证：微博热点话题页 10-27 13:00 上线「看到熊猫烧香病毒感觉年轻了」，10-28 11:26 仍居微博热搜（历史热搜存档可查）；贴吧热议话题 10-29 上午接力创建，10-30 07:35 快照仍居热议榜第 12 位。",
+      "usage": "怀旧填空模板：「看到 QQ 秀感觉年轻了」「听到非主流铃声感觉年轻了」——任何时代眼泪都能填；贴吧场景已演变出集体「装古人」接龙，怀旧向视频标题与评论区晒网龄通用。",
+      "fun_point": "被一个上古电脑病毒「治愈」了年龄焦虑——别人怕中招，老网民看到只觉得亲切；真有人中毒求助时，全村老人连夜赶来团建，损己式幽默门槛极低。",
+      "why_spread": "已验证：10-27 微博话题上线、10-28 仍居热搜，贴吧话题 10-29 创建后持续在榜至今晨（讨论 57 万+）。推测：年末怀旧季叠加 80/90 后网龄自嘲刚需，填空模板跨平台迁移成本低。",
+      "lifecycle": "rising",
+      "brand_usage": "数码、怀旧向账号可玩「看到 XX 感觉年轻了」填空互动；复古产品营销可借句式引回忆杀；勿美化病毒制作者，勿消费真实中毒用户的损失。",
+      "risk": {
+        "level": "safe",
+        "note": "怀旧自嘲向，无指向性攻击；「熊猫烧香」已是公共记忆符号，注意别把玩梗变成美化病毒制作。"
+      },
+      "days_on_list": 3,
+      "score": 77,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 26,
+        "reusability": 17,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "platform_public",
+          "evidence_role": "popularity",
+          "platform": "other",
+          "url": "https://tieba.baidu.com/hottopic/browse/topicList",
+          "observed_at": "2026-10-30T07:35:00+08:00",
+          "captured_at": "2026-10-30T07:36:00+08:00",
+          "note": "贴吧热议话题榜 10-30 07:35 快照（接口返回时间戳）：「上古病毒现世，网友中熊猫烧香」居第 12 位，讨论 57.3 万。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "weibo",
+          "url": "https://weibo.zhaoyizhe.com/date/20261028/",
+          "observed_at": "2026-10-28T11:26:00+08:00",
+          "captured_at": "2026-10-30T07:37:00+08:00",
+          "note": "微博热搜历史存档站：该话题 10-28 11:26 仍居微博热搜在列。"
+        },
+        {
+          "tier": "platform_public",
+          "evidence_role": "origin",
+          "platform": "weibo",
+          "url": "https://weibo.com/a/hot/b4fef00c413cc5f0_0.html",
+          "observed_at": "2026-10-27T13:00:00+08:00",
+          "captured_at": "2026-10-29T12:14:00+08:00",
+          "note": "微博热点话题页 10-27 13:00 上线「看到熊猫烧香病毒感觉年轻了」，为本轮起爆点。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://www.sina.cn/news/detail/5358910569712132.html",
+          "captured_at": "2026-10-30T07:38:00+08:00",
+          "note": "新浪 10-28 报道该话题走红经过（日级时间，仅作背景）。"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
