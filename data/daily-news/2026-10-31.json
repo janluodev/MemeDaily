@@ -1,0 +1,1002 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T08:03:55+08:00",
+  "published_at": "2026-10-31T08:03:55+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 37,
+    "published": 7,
+    "dropped_safety": {
+      "geopolitics": 1,
+      "rumor": 1
+    },
+    "dropped_low_confidence": 27,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 35,
+      "official_sources": 18,
+      "state_media_sources": 9,
+      "major_media_sources": 7,
+      "aggregator_sources": 1,
+      "dropped_insufficient_evidence": 1
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 7,
+        "relaxed_48h": 12,
+        "relaxed_72h": 16
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 37,
+          "cumulative_unique_candidates": 37,
+          "source_scope": [
+            "国内官方发布（部委与省市政府官网、气象与交管部门公告、机构通报）",
+            "央媒与持牌媒体报道（新华社/央视/中新网/人民网/证券时报/澎湃等）",
+            "地方媒体与省媒报道（杭州网/长城网/浙江在线/温州网/都市日报等）",
+            "公共热榜与聚合线索（微博热搜等，仅作发现与热度佐证）"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-10-31-tibet-blizzard-peak-response",
+          "story_identity": "tibet-blizzard-peak-day-rongxia-response",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T17:15:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-10-31-tibet-blizzard-peak-response",
+          "score": 89,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-31-nhsa-cross-province-account",
+          "story_identity": "nhsa-account-cross-province-vaccine-food",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T15:10:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-10-31-nhsa-cross-province-account",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 19,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-31-elderly-visit-care-notice",
+          "story_identity": "special-difficulty-elderly-visit-care",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T15:20:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-10-31-elderly-visit-care-notice",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 19,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-31-guangzhou-resident-insurance-2027",
+          "story_identity": "guangzhou-2027-resident-insurance-payment-start",
+          "research_pass": 1,
+          "occurred_at": "2026-10-31T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-10-31-guangzhou-resident-insurance-2027",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-31-ciie-travel-convenience-31",
+          "story_identity": "ciie-9th-31-convenience-border-lane",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T16:53:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-10-31-ciie-travel-convenience-31",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 19,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-31-qianhai-museum-trial-opening",
+          "story_identity": "qianhai-museum-opening-national-museum-collection",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-10-31-qianhai-museum-trial-opening",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-10-31-hk-halloween-central-traffic",
+          "story_identity": "hk-halloween-lan-kwai-fong-traffic-plan",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-10-31-hk-halloween-central-traffic",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 18,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "wuhan-metro-line-12-full-loop",
+          "story_identity": "wuhan-metro-line-12-longest-loop-opening",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T09:29:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 18,
+            "everyday_relevance": 22,
+            "evidence": 15
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "开通时刻10月29日9时29分，事件龄约46小时，relaxed_48h窗口余量不足2小时擦线；strict_24h层已凑满7条，按最严凑满层级规则诚实不选；昨日成都铁路开通已覆盖同类题材"
+        },
+        {
+          "candidate_key": "beijing-15five-social-security-plan",
+          "story_identity": "beijing-15five-social-security-gig-pension",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T07:15:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 21,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "规划文件10月12日印发挂网、10月30日工人日报再报道，锚点偏软属旧文件再报道，按报道时刻评估仍擦24小时线；strict层已满，诚实降档不选"
+        },
+        {
+          "candidate_key": "guangxi-trade-in-40-billion",
+          "story_identity": "guangxi-trade-in-40-billion-700m-visits",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T16:56:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 18,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "400亿元数据目前仅人民网单源（源自商务厅通报），未见广西日报或中新网同日报道；以旧换新题材10月28日河南条、10月29日全国推进会已连日覆盖，分数未达strict线"
+        },
+        {
+          "candidate_key": "hangzhou-marathon-traffic-control",
+          "story_identity": "hangzhou-marathon-2026-traffic-control-bus-adjust",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T19:19:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "杭马题材10月30日已发领物与地铁服务条，本条增量为公安交管通告与53条公交调整，同城同赛事连续两日频次控制，分数未达strict线"
+        },
+        {
+          "candidate_key": "nov-rules-fuel-invoice-ev-ccc",
+          "story_identity": "nov1-rules-fuel-instant-invoice-ev-ccc",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T16:23:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 19,
+            "everyday_relevance": 19,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "与10月30日已发11月新规社保条同题盘点，仅成品油交易即开票与电动车CCC两个补充角度，同题隔日不重复成条，分数未达strict线"
+        },
+        {
+          "candidate_key": "sun-xinran-wta-quarterfinal",
+          "story_identity": "sun-xinran-16-wta-guangzhou-quarterfinal",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 18,
+            "everyday_relevance": 16,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "16岁孙心然广网首进WTA八强，比赛10月29日进行、30日新华网与中新网报道，事件龄约55小时落relaxed_72h；strict层已满，诚实降档不选"
+        },
+        {
+          "candidate_key": "shandong-gaokao-stage1-deadline",
+          "story_identity": "shandong-2027-gaokao-registration-stage1-end",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 67,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 19,
+            "everyday_relevance": 17,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "省级高考报名阶段截止提醒，教育考试题材10月25至28日已连续四天覆盖，分数未达strict线"
+        },
+        {
+          "candidate_key": "chengde-heating-nov1-start",
+          "story_identity": "chengde-central-heating-nov1-official-start",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T09:41:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 67,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 18,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "承德正式供热为单一城市服务节点，长城网加聚合转载证据强度一般；供暖题材10月27日已发三股冷空气加提前供暖条，分数未达strict线"
+        },
+        {
+          "candidate_key": "tianjin-heating-deployment",
+          "story_identity": "tianjin-heating-ignition-readiness-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 18,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "两来源均转载天津市城管委公众号、非完全独立，且正式供热日期未定；事件龄临近48小时边缘，不单独立条"
+        },
+        {
+          "candidate_key": "guokao-confirm-payment-nov1",
+          "story_identity": "guokao-2027-confirm-payment-window-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-10-13T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 15,
+            "everyday_relevance": 20,
+            "evidence": 8
+          },
+          "drop_reason": "国考公告10月13日发布，11月1日起确认缴费属日程提醒，主事件10月27日已发过审条；服务节点类名额今日由广州居民医保开缴占用，未达65资格线"
+        },
+        {
+          "candidate_key": "ningxia-subsidy-lottery-nov1",
+          "story_identity": "ningxia-appliance-digital-subsidy-lottery-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 14,
+            "everyday_relevance": 19,
+            "evidence": 8
+          },
+          "drop_reason": "宁夏补贴改摇号公告10月16至19日发布，早于72小时窗口，仅具明日施行提醒价值，不入选"
+        },
+        {
+          "candidate_key": "li-guose-noodle-free-meals",
+          "story_identity": "li-guose-wenzhou-noodle-free-love-meals",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 15,
+            "everyday_relevance": 16,
+            "evidence": 7
+          },
+          "drop_reason": "长期善举无单日事件锚点，暖心题材近日同类多条已评估未选（10月27日已发郑州退押金暖心条），未达65资格线"
+        },
+        {
+          "candidate_key": "wenzhou-police-second-look-rescue",
+          "story_identity": "wenzhou-police-second-look-saves-loner",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 16,
+            "everyday_relevance": 16,
+            "evidence": 8
+          },
+          "drop_reason": "民警救人报道单日事件锚点不清（事发时间未明），地方政务单源为主，未达65资格线"
+        },
+        {
+          "candidate_key": "xuhui-traffic-police-knee-pillow",
+          "story_identity": "shanghai-xuhui-police-knee-pillow-15min",
+          "research_pass": 1,
+          "occurred_at": "2026-10-21T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 12,
+            "everyday_relevance": 15,
+            "evidence": 7
+          },
+          "drop_reason": "事发10月21日已超72小时窗口，10月29日报道发酵属旧闻再传播，不入选"
+        },
+        {
+          "candidate_key": "shenzhen-double11-compliance-meeting",
+          "story_identity": "shenzhen-double11-platform-compliance-guidance",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T11:26:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 14,
+            "evidence": 7
+          },
+          "drop_reason": "两URL为深圳市监局与深圳政府在线同一机构互转、非独立来源；区域性监管且双11题材连日覆盖，未达65资格线"
+        },
+        {
+          "candidate_key": "escort-national-standard-nov1",
+          "story_identity": "escort-national-standard-nov1-xinhua-feature",
+          "research_pass": 1,
+          "occurred_at": "2026-10-28T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 14,
+            "everyday_relevance": 17,
+            "evidence": 8
+          },
+          "drop_reason": "陪诊国标11月1日施行已七度评估未选，仍为前瞻解读、无落地实测新增量，施行后跟踪再评"
+        },
+        {
+          "candidate_key": "guangzhou-tower-fashion-week",
+          "story_identity": "guangzhou-tower-international-fashion-week",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 17,
+            "everyday_relevance": 12,
+            "evidence": 6
+          },
+          "drop_reason": "偏城市形象宣传，民生关联弱，未达65资格线"
+        },
+        {
+          "candidate_key": "wuhan-chrysanthemum-show-43",
+          "story_identity": "wuhan-43rd-golden-autumn-chrysanthemum-show",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 18,
+            "everyday_relevance": 14,
+            "evidence": 6
+          },
+          "drop_reason": "市级花展开幕例行信息，体量有限，文化题材今日已由前海博物馆覆盖，未达65资格线"
+        },
+        {
+          "candidate_key": "xiamen-piano-music-season",
+          "story_identity": "xiamen-piano-music-season-46-events",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 56,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 18,
+            "everyday_relevance": 13,
+            "evidence": 6
+          },
+          "drop_reason": "城市音乐季地方性活动，全国性公共增量有限，未达65资格线"
+        },
+        {
+          "candidate_key": "wuhan-auto-show-oct30",
+          "story_identity": "wuhan-international-auto-show-consumer-vouchers",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 57,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 18,
+            "everyday_relevance": 12,
+            "evidence": 6
+          },
+          "drop_reason": "两来源同为武汉市政府网转长江日报非独立；市级消费券角度此前多次被弃，未达65资格线"
+        },
+        {
+          "candidate_key": "hainan-rainstorm-wrapup",
+          "story_identity": "hainan-east-rainstorm-process-wrapup",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 17,
+            "everyday_relevance": 12,
+            "evidence": 7
+          },
+          "drop_reason": "海南暴雨过程收官稿增量弱，未达65资格线"
+        },
+        {
+          "candidate_key": "heilongjiang-harvest-finish",
+          "story_identity": "heilongjiang-autumn-harvest-997-finish",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 54,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 17,
+            "everyday_relevance": 12,
+            "evidence": 6
+          },
+          "drop_reason": "农情例行进度，秋粮题材10月25日已发收获过八成条，未达65资格线"
+        },
+        {
+          "candidate_key": "weekend-cold-wave-red-leaves",
+          "story_identity": "weekend-cold-wave-beijing-red-leaves-tips",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T17:53:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 19,
+            "everyday_relevance": 16,
+            "evidence": 8
+          },
+          "drop_reason": "例行天气服务提示，冷空气题材10月27日已发三股冷空气条，未达65资格线"
+        },
+        {
+          "candidate_key": "mofcom-vegetable-price-weekly",
+          "story_identity": "mofcom-vegetable-wholesale-price-weekly-drop",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T14:21:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 18,
+            "everyday_relevance": 11,
+            "evidence": 5
+          },
+          "drop_reason": "商务部例行周报价格背景，无事件点，未达65资格线"
+        },
+        {
+          "candidate_key": "cca-double11-tips",
+          "story_identity": "cca-double11-consumer-tips-oct26",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 13,
+            "everyday_relevance": 17,
+            "evidence": 8
+          },
+          "drop_reason": "中消协双11消费提示10月26日发布，超出72小时窗口"
+        },
+        {
+          "candidate_key": "nrta-tv-startup-ads-rule",
+          "story_identity": "nrta-no-startup-ads-rule-nov27",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 13,
+            "everyday_relevance": 21,
+            "evidence": 9
+          },
+          "drop_reason": "广电不得播放开机广告新规10月27日发布、11月27日施行，早于窗口起点，超窗不入选"
+        },
+        {
+          "candidate_key": "ai-elderly-care-legal-daily",
+          "story_identity": "ai-medical-elderly-care-normalization-observation",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 56,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 13,
+            "everyday_relevance": 16,
+            "evidence": 8
+          },
+          "drop_reason": "法治日报深度观察非单日事件锚点，刊发超72小时窗口"
+        },
+        {
+          "candidate_key": "halloween-julu-road-old-repost",
+          "story_identity": "shanghai-julu-road-halloween-2023-old-post",
+          "research_pass": 1,
+          "occurred_at": "2023-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "网传上海巨鹿路万圣节地铁公交调整微信稿经createTime核实为2023年11月1日旧文，非今年官方发布，不作事实陈述"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-10-31-tibet-blizzard-peak-response",
+      "story_identity": "tibet-blizzard-peak-day-rongxia-response",
+      "headline": "🌨️ 西藏南部暴雪达主峰：绒辖镇现特大暴雪，多地道路管控抢通",
+      "summary": "10月30日西藏南部降雪达主峰：定日县绒辖镇过去24小时出现特大暴雪，预计至31日傍晚绒辖、曲当、珠峰一带仍有暴雪或大暴雪，新增积雪10至20厘米，雪后降温3至8℃；岗绒公路积雪路段经5小时抢通恢复通行，受威胁群众应转尽转。三部门向巴青震区增调1000套救灾板房保障过冬。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 89,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 20,
+        "everyday_relevance": 22,
+        "evidence": 14
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-10-30T17:15:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "灾害实况报道，以中央气象台预警页与应急管理部官网为准；与10月29日预警会商条、10月30日影响期管控条切割：本条为主峰日实测降雪、公路抢通与中央增调物资，无伤亡报告不渲染；板房增调并入本条避免巴青题材连日单条重复"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "中央气象台",
+          "url": "https://www.nmc.cn/publish/alarm/54022341600000_20261030171201.html",
+          "title": "定日县气象台继续发布暴雪黄色预警",
+          "captured_at": "2026-10-31T06:22:00+08:00",
+          "note": "定日县气象台10月30日17时15分继续发布暴雪黄色预警：过去24小时绒辖镇出现特大暴雪，预计30日18时至31日18时绒辖、曲当、珠峰一带有暴雪或大暴雪，新增积雪10至20厘米，雪后降温3至8℃"
+        },
+        {
+          "tier": "official",
+          "outlet": "中国气象局",
+          "url": "https://www.cma.gov.cn/2011xwzx/2011xqxxw/2011xzytq/202610/t20261030_8117227.html",
+          "title": "中央气象台10月30日天气公报",
+          "captured_at": "2026-10-31T06:23:00+08:00",
+          "note": "公报：30日至31日青藏高原有雨雪过程，西藏南部局地特大暴雪30至35毫米，新增积雪局地30厘米以上"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/shipin/cns-d/2026/10-30/news1073425.shtml",
+          "title": "西藏日喀则防范应对强降雪",
+          "captured_at": "2026-10-31T06:24:00+08:00",
+          "note": "中新网10月30日23时46分视频稿：日喀则市县两级包保下沉、受威胁群众应转尽转；定日岗绒公路积雪路段经5小时连续作业抢通、恢复通行"
+        },
+        {
+          "tier": "official",
+          "outlet": "应急管理部",
+          "url": "https://www.mem.gov.cn/xw/yjglbgzdt/202610/t20261030_737563.shtml",
+          "title": "三部门向西藏增调1000套救灾板房",
+          "captured_at": "2026-10-31T06:25:00+08:00",
+          "note": "国家防减救灾委办公室、应急管理部会同国家粮食和物资储备局10月30日向西藏增加调拨1000套救灾板房，支持巴青震区过渡期安置和冬春生活保障"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-31-nhsa-cross-province-account",
+      "story_identity": "nhsa-account-cross-province-vaccine-food",
+      "headline": "💊 医保个账跨省共济全面推进，疫苗和特医食品将纳入支付白名单",
+      "summary": "国家医保局10月30日明确：全面推进基本医保省级统筹和医保个人账户跨省共济，全面推行长期护理保险制度，合理调整医疗服务价格，将符合要求的疫苗和特殊医学用途配方食品纳入医保个人账户支付白名单，并持续打击欺诈骗保。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 83,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 19,
+        "everyday_relevance": 23,
+        "evidence": 13
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-10-30T15:10:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "以国家医保局官网原文为准，只取医保服务实质内容，标题摘要不写会议与领导信息；措辞用推进、推行、将纳入，不断言已落地"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家医保局",
+          "url": "http://www.nhsa.gov.cn/art/2026/10/30/art_14_23266.html",
+          "title": "国家医保局部署医保改革重点任务",
+          "captured_at": "2026-10-31T06:27:00+08:00",
+          "note": "官网10月30日发布：全面推进基本医保省级统筹和医保个人账户跨省共济，全面推行长期护理保险制度，将符合要求的疫苗和特医食品纳入医保个人账户支付白名单"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "证券时报",
+          "url": "https://finance.sina.com.cn/jjxw/2026-10-30/doc-iniwywtu2236703.shtml",
+          "title": "国家医保局：推进医保个人账户跨省共济",
+          "captured_at": "2026-10-31T06:28:00+08:00",
+          "note": "证券时报·人民财讯10月30日15时10分报道（新浪财经转载），佐证同一部署要点与打击欺诈骗保表述"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-31-elderly-visit-care-notice",
+      "story_identity": "special-difficulty-elderly-visit-care",
+      "headline": "👵 三部门开展特殊困难老年人探访关爱，重点对象每两周至少探访一次",
+      "summary": "民政部、全国老龄办、中国老龄协会近日印发通知，面向独居、空巢、留守、失能、重残及计划生育特殊家庭老年人开展探访关爱：重点对象每两周至少探访1次，2026年底全面开展、2028年底建立常态长效机制；民政部10月30日发布会介绍，将综合敲门探视、电话、视频与远程智能监测等手段。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 19,
+        "everyday_relevance": 23,
+        "evidence": 13
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-10-30T15:20:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "养老服务政策发布与发布会解读，以新华网转发全文与中新网发布会稿为准；频次与时间节点照官方口径"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.news.cn/politics/20261030/4bf1cf30d8ba441f91cebff1602342c9/c.html",
+          "title": "三部门印发特殊困难老年人探访关爱服务通知",
+          "captured_at": "2026-10-31T06:30:00+08:00",
+          "note": "新华网10月30日15时20分转发民政部网站全文：面向独居、空巢、留守、失能、重残、计划生育特殊家庭老年人，重点对象每两周至少探访1次"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/gn/2026/10-30/10723331.shtml",
+          "title": "特殊困难老年人探访关爱服务通知印发",
+          "captured_at": "2026-10-31T06:31:00+08:00",
+          "note": "中新网10月30日15时51分报道三部门通知印发及覆盖对象"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/gn/2026/10-30/10723453.shtml",
+          "title": "民政部发布会解读探访关爱服务",
+          "captured_at": "2026-10-31T06:32:00+08:00",
+          "note": "中新网10月30日16时55分发布会稿：2026年底全面开展、2028年底常态长效机制全面建立，综合敲门探视、电话、视频、远程智能监测等手段"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-31-guangzhou-resident-insurance-2027",
+      "story_identity": "guangzhou-2027-resident-insurance-payment-start",
+      "headline": "🏥 广州2027年度居民医保今起集中缴费，学生425元、其他565元",
+      "summary": "广州市医保局通告：2027年度城乡居民医保集中缴费期为10月31日至12月20日，在校学生个人缴费425元、其他参保人员565元；2026年度正常参保者自动延保、无需重新登记，未在集中期参保设3个月待遇等待期。“穗岁康”新承办期保费180元，不限年龄与既往症，职工个账可为直系亲属缴费。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 80,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 20,
+        "everyday_relevance": 22,
+        "evidence": 12
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-10-31T00:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "官方通告服务信息，缴费标准与等待期规则照通告原文；地域性政策但覆盖人口超千万，服务节点类今日唯一一条（国考确认缴费提醒弃选）"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "广州市政府门户",
+          "url": "https://www.gz.gov.cn/xw/tzgg/content/post_11080220.html",
+          "title": "广州2027年度居民医保集中征缴启动",
+          "captured_at": "2026-10-31T06:34:00+08:00",
+          "note": "广州市政府门户10月30日发布集中征缴启动稿：缴费期10月31日至12月20日，学生425元、其他565元，2026年度正常参保者自动延保"
+        },
+        {
+          "tier": "official",
+          "outlet": "广州市医保中心",
+          "url": "https://www.gz.gov.cn/xw/tzgg/content/post_11080274.html",
+          "title": "2027年度城乡居民医保征缴通告",
+          "captured_at": "2026-10-31T06:35:00+08:00",
+          "note": "广州市医保中心10月28日征缴通告原文：个人缴费标准、财政补助与3个月待遇等待期规则"
+        },
+        {
+          "tier": "official",
+          "outlet": "广州市医保局",
+          "url": "https://www.gz.gov.cn/zfjg/gzsylbzj/tzgg/content/post_11075695.html",
+          "title": "穗岁康2027—2028承办期通告",
+          "captured_at": "2026-10-31T06:36:00+08:00",
+          "note": "穗岁康新承办期保费180元每人每年，不限年龄不限既往症，职工医保个账可为直系亲属缴费"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-31-ciie-travel-convenience-31",
+      "story_identity": "ciie-9th-31-convenience-border-lane",
+      "headline": "🚇 上海发布31条进博会便利化举措，展馆周边管控范围缩小近半",
+      "summary": "上海公安10月30日发布5方面31条进博会安保服务便利化举措：国家会展中心周边机动车凭证通行管控范围由2平方公里缩至1.1平方公里、管控时间缩为7时至19时；首次为苏浙皖邀请的外籍展客商提供口岸签证全程网办，虹桥边检开通进博专用通道即到即办，地铁2号线运营方案也将优化。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 19,
+        "everyday_relevance": 21,
+        "evidence": 12
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-10-30T16:53:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "与10月30日已发冲刺条切割：本条只取31条便利化举措与边检通道两个新事实，不重复参展规模数据；以中新网、澎湃、新华网报道为准"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/10-30/10723439.shtml",
+          "title": "上海公安发布31条进博会便利化举措",
+          "captured_at": "2026-10-31T06:38:00+08:00",
+          "note": "中新网10月30日报道：国展中心周边机动车凭证通行管控范围由2平方公里缩至1.1平方公里、管控时间缩为7时至19时，口岸签证全程网办扩至苏浙皖"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "澎湃新闻",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34367420",
+          "title": "上海进博会31条安保服务便利化举措",
+          "captured_at": "2026-10-31T06:39:00+08:00",
+          "note": "澎湃新闻10月30日报道31条举措要点，含三所联动企业版与地铁2号线运营方案优化"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "http://sh.xinhuanet.com/20261030/24be5756c6154610b466f5b463b26c08/c.html",
+          "title": "虹桥边检开通进博会专用通道",
+          "captured_at": "2026-10-31T06:40:00+08:00",
+          "note": "新华网上海10月30日报道：虹桥边检站开通进博会边检专用通道，参展商即到即办，重要代表团一团一策"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-31-qianhai-museum-trial-opening",
+      "story_identity": "qianhai-museum-opening-national-museum-collection",
+      "headline": "🏺 深圳前海博物馆开馆试运行，国博3000余件文物南下展出",
+      "summary": "深圳前海博物馆10月30日开馆试运行，中国国家博物馆3000余件馆藏文物南下展出，市民在家门口即可近距离观赏国博馆藏精品，粤港澳大湾区新增一处重要公共文化地标。",
+      "category": "文化数字经济",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 76,
+      "score_breakdown": {
+        "heat": 25,
+        "freshness": 19,
+        "everyday_relevance": 20,
+        "evidence": 12
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-10-30T14:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "官方双源文化服务信息，以国博官网与深圳文广旅体局发布为准，只陈述开馆与文物南下事实，不延伸展览细节"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/zx/gbxw/202610/t20261021_283200.shtml",
+          "title": "国博与前海博物馆合作信息",
+          "captured_at": "2026-10-31T06:42:00+08:00",
+          "note": "中国国家博物馆官网10月21日发布：3000余件国博馆藏文物南下深圳前海博物馆"
+        },
+        {
+          "tier": "official",
+          "outlet": "深圳市文化广电旅游体育局",
+          "url": "https://wtl.sz.gov.cn/ztzl_78228/zdly/ssbwg/gzdt_81829/content/post_13027642.html",
+          "title": "前海博物馆10月30日开馆试运行",
+          "captured_at": "2026-10-31T06:43:00+08:00",
+          "note": "深圳市文化广电旅游体育局发布：前海博物馆10月30日开馆试运行"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-31-hk-halloween-central-traffic",
+      "story_identity": "hk-halloween-lan-kwai-fong-traffic-plan",
+      "headline": "🎃 香港警方发布万圣节中区交通安排，兰桂坊一带分阶段封路",
+      "summary": "香港警方宣布10月30日至11月1日在中区实施万圣节特别交通安排：第一阶段自30日14时起封闭德己立街、兰桂坊、荣华里、和安里等路段，视人流追加封路范围；30日、31日19时至翌日5时部分道路禁止左转，电单车泊位暂停使用、违泊无预警拖走，警方呼吁市民使用公共交通。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 75,
+      "score_breakdown": {
+        "heat": 24,
+        "freshness": 19,
+        "everyday_relevance": 18,
+        "evidence": 14
+      },
+      "heat_rank": 7,
+      "occurred_at": "2026-10-30T14:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "节日交通安排官方信息，以香港政府新闻处原文为准；内地城市截至成稿未见今年官方万圣节交通提示新发，不编造不延伸；事件锚点取第一阶段封路生效时刻"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "香港政府新闻处",
+          "url": "https://www.info.gov.hk/gia/general/202610/29/P2026102900623.htm",
+          "title": "万圣节中区特别交通安排",
+          "captured_at": "2026-10-31T06:45:00+08:00",
+          "note": "香港警方10月29日宣布：10月30日至11月1日中区分阶段封路，第一阶段30日14时起封闭德己立街、兰桂坊等路段，违泊无预警拖走"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "都市日报",
+          "url": "https://metrohk.com.hk/政庫公告/萬聖節前夕蘭桂坊一帶道路封閉-984585",
+          "title": "万圣节前夕兰桂坊一带道路封闭",
+          "captured_at": "2026-10-31T06:46:00+08:00",
+          "note": "MetroHK都市日报10月29日报道同一安排，独立媒体佐证封路清单与时点"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
