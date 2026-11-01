@@ -1,0 +1,832 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v4-editorial-completeness",
+  "rubric_version": "v4-100-point-dynamic",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T16:53:40+08:00",
+  "published_at": "2026-11-01T16:53:40+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 54,
+    "published": 5,
+    "dropped_safety": {
+      "涉及具体人物": 8,
+      "政治时政": 4,
+      "社会事件灾难": 4,
+      "涉及具体品牌公司": 3,
+      "综艺赛事剧宣": 2,
+      "纯新闻非梗内容": 1
+    },
+    "dropped_low_confidence": 5,
+    "dropped_capacity": 0,
+    "sources": [
+      "weibo",
+      "douyin",
+      "other"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 32,
+      "platform_public_sources": 1,
+      "aggregator_sources": 10,
+      "search_media_sources": 4,
+      "spillover_sources": 0,
+      "dropped_insufficient_evidence": 22
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 5,
+        "relaxed_48h": 6,
+        "relaxed_72h": 6
+      },
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-01-turan-lijie-saiweng-shima",
+          "canonical_phrase": "人会在某一刻突然理解塞翁失马",
+          "outcome": "selected",
+          "item_id": "2026-11-01-turan-lijie-saiweng-shima",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 29,
+            "reusability": 18,
+            "evidence": 9
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://tophub.today/n/KqndgxeLl9",
+            "observed_at": "2026-11-01T16:39:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-28-quanwang-jinru-xx-shidai",
+          "canonical_phrase": "全网进入XX时代",
+          "outcome": "selected",
+          "item_id": "2026-10-28-quanwang-jinru-xx-shidai",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 28,
+            "reusability": 19,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/README.md",
+            "observed_at": "2026-11-01T09:15:13+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-01-jiezhe-tianliang-kaojin-ni",
+          "canonical_phrase": "借着天凉的理由再靠近你一点",
+          "outcome": "selected",
+          "item_id": "2026-11-01-jiezhe-tianliang-kaojin-ni",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 28,
+            "reusability": 17,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://reyibang.com/topic/b0ee0f24d6",
+            "observed_at": "2026-11-01T10:40:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-31-bi-dongtian-xianlai-rehuoguo",
+          "canonical_phrase": "比冬天先来的是一顿热火锅",
+          "outcome": "selected",
+          "item_id": "2026-10-31-bi-dongtian-xianlai-rehuoguo",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 28,
+            "reusability": 16,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/README.md",
+            "observed_at": "2026-11-01T09:15:13+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-01-dongtian-naicha-wazhe-chi",
+          "canonical_phrase": "冬天奶茶要挖着吃才满足",
+          "outcome": "selected",
+          "item_id": "2026-11-01-dongtian-naicha-wazhe-chi",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 27,
+            "reusability": 16,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/README.md",
+            "observed_at": "2026-11-01T09:15:13+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "zhanshi-xinxue-shanshenbu",
+          "canonical_phrase": "展示我新学的闪身步",
+          "outcome": "dropped_low_confidence",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 28,
+            "reusability": 18,
+            "evidence": 6
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://top.baidu.com/board?tab=realtime",
+            "observed_at": "2026-11-01T15:39:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "biaomian-xinlianxin-wannaojin",
+          "canonical_phrase": "表面心连心背后玩脑筋",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 27,
+            "reusability": 16,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://tophub.today/n/K7GdaMgdQy",
+            "observed_at": "2026-11-01T15:39:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "shiyue-jiu-daoci-weizhi",
+          "canonical_phrase": "十月就到此为止吧",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 28,
+            "reusability": 12,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/README.md",
+            "observed_at": "2026-11-01T09:15:13+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "woxihuan-ni-nenggou-ganying",
+          "canonical_phrase": "我喜欢你如果你也能够感应",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 27,
+            "reusability": 13,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://tophub.today/n/K7GdaMgdQy",
+            "observed_at": "2026-11-01T15:39:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "baby-jinwan-dalaohu",
+          "canonical_phrase": "baby今晚打老虎",
+          "outcome": "dropped_low_confidence",
+          "score": 67,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 27,
+            "reusability": 14,
+            "evidence": 6
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/README.md",
+            "observed_at": "2026-11-01T15:39:16+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "quanwang-jinru-bushaoxin-shidai",
+          "canonical_phrase": "全网进入不烧心时代",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "xianfengzhiye-xianfengweijing",
+          "canonical_phrase": "先疯之夜我先疯为敬",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "xiangying-caixingfen",
+          "canonical_phrase": "想赢才会兴奋怕输才会紧张",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "gen-shenghuo-duixian",
+          "canonical_phrase": "跟生活对线",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "youdaole-tingxx-de-jijie",
+          "canonical_phrase": "又到了听XX的季节",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "wo-xuehuile-fangguo-ziji",
+          "canonical_phrase": "我学会了放过自己",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "wangle-taba-wo-dianguo-yangni",
+          "canonical_phrase": "忘了他吧我颠锅养你",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "wojia-youzhi-keaaigui",
+          "canonical_phrase": "我家有只可爱鬼",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "guanni-zhena-zhijie-kaizhuang",
+          "canonical_phrase": "管你这那的直接开装",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "laibuji-ruku-zhijie-fahuo",
+          "canonical_phrase": "来不及入库直接发货",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "ziji-jiushi-qianjunwanma",
+          "canonical_phrase": "自己就是千军万马",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "beishou-fushu",
+          "canonical_phrase": "背手负鼠",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "maiye-jingzhong-ziji",
+          "canonical_phrase": "我一有钱就买嘢来敬重自己",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "chi-tanghulu-nian-zhouyu",
+          "canonical_phrase": "吃糖葫芦之前要念咒语",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "kandao-xx-ganjue-nianqingle",
+          "canonical_phrase": "看到XX感觉年轻了",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "quanwang-jinru-dashui-shidai",
+          "canonical_phrase": "全网进入大水时代",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "yegounai",
+          "canonical_phrase": "野狗奶",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "tuikuande-feng-chuidao-xxjie",
+          "canonical_phrase": "退款的风吹到了XX界",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "wangengjie",
+          "canonical_phrase": "万梗节",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "shangxue-pa-laoshi",
+          "canonical_phrase": "上学怕老师上班怕班长",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "jiuyao-ziji-ai-ziji",
+          "canonical_phrase": "就要这个自己爱自己的态度",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "laoban-ruanshizi",
+          "canonical_phrase": "老板以为招了软柿子惹到精神领袖",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-1",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-2",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-3",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-4",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-5",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-6",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-7",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-8",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-9",
+          "outcome": "dropped_safety",
+          "drop_reason": "政治时政",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-10",
+          "outcome": "dropped_safety",
+          "drop_reason": "政治时政",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-11",
+          "outcome": "dropped_safety",
+          "drop_reason": "政治时政",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-12",
+          "outcome": "dropped_safety",
+          "drop_reason": "政治时政",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-13",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-14",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-15",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-16",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-17",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体品牌公司",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-18",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体品牌公司",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-19",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体品牌公司",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-20",
+          "outcome": "dropped_safety",
+          "drop_reason": "综艺赛事剧宣",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-21",
+          "outcome": "dropped_safety",
+          "drop_reason": "综艺赛事剧宣",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-22",
+          "outcome": "dropped_safety",
+          "drop_reason": "纯新闻非梗内容",
+          "research_pass": 1
+        }
+      ],
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 54,
+          "cumulative_unique_candidates": 54,
+          "sources_checked": [
+            "weibo",
+            "douyin",
+            "zhihu",
+            "bilibili",
+            "other"
+          ]
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-01-turan-lijie-saiweng-shima",
+      "title": "🐎 人会在某一刻突然理解塞翁失马",
+      "aliases": [
+        "人会在某一刻突然理解塞翁失马",
+        "人会在某一刻突然理解XX",
+        "突然就理解了XX"
+      ],
+      "canonical_phrase": "人会在某一刻突然理解塞翁失马",
+      "platform": [
+        "weibo"
+      ],
+      "type": "句式梗",
+      "summary": "微博热搜前 10 的顿悟式感慨模板：「人会在某一刻突然理解塞翁失马」，把「长大后才懂老话」的情绪封装成可任意填空的句式，话题页不断有网友接龙自己的故事。",
+      "origin": "已验证：11-01 登上微博热搜前列（15:39 快照第 10 位，16:39 复核第 9 位）；微博话题页多条帖子显示 1–3 小时前发布；新浪看点同题稿件两篇于今日午后发出。「塞翁失马」出自《淮南子》，本轮被改写为成年人体悟式感慨句式。",
+      "usage": "填空模板「人会在某一刻突然理解 XX」：理解父母、理解孔乙己、理解当年听不进的大道理；适合自述开头、评论区共鸣接龙、图文金句海报，前后半句都可替换。",
+      "fun_point": "小时候背到麻木的课文，被生活打磨一遍后突然击中——原来当年学的是自己。把迟到的顿悟说得云淡风轻，谁都能填进自己的那一刻。",
+      "why_spread": "已验证：微博热搜前 10 在榜，话题页 1–3 小时内持续有新帖，新浪看点同题稿两篇今日午后发出。推测：周日午后情绪类话题自然流量高，年末「回头看」叙事浓度上升，填空句式参与门槛低。",
+      "lifecycle": "rising",
+      "brand_usage": "文化、阅读、教育账号可做「你在哪一刻突然理解了 XX」征集；茶饮、香氛等情绪向品牌可做「突然理解」系列海报；勿消费具体个人的坎坷经历。",
+      "risk": {
+        "level": "low",
+        "note": "情绪向通用句式，无指向性；借用时避免绑定具体个人的不幸经历做营销。"
+      },
+      "days_on_list": 1,
+      "score": 86,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 29,
+        "reusability": 18,
+        "evidence": 9
+      },
+      "sources": [
+        {
+          "tier": "platform_public",
+          "evidence_role": "popularity",
+          "platform": "weibo",
+          "url": "https://weibo.com/a/hot/988cb6a8d19b6d31_0.html",
+          "observed_at": "2026-11-01T13:40:00+08:00",
+          "captured_at": "2026-11-01T15:40:00+08:00",
+          "note": "微博话题页（研究日志 15:40 采集）：多条帖子显示 1–3 小时前发布，接龙持续中。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "weibo",
+          "url": "https://tophub.today/n/KqndgxeLl9",
+          "observed_at": "2026-11-01T16:39:00+08:00",
+          "captured_at": "2026-11-01T16:39:00+08:00",
+          "note": "今日热榜微博分区 16:39 复核：该词条居第 9 位（15:39 快照第 10 位），仍在上升。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://www.sina.cn/news/detail/5360444723434630.html",
+          "title": "不必困在当下的情绪里，时间会慢慢铺开后续的答案|塞翁失马_新浪新闻",
+          "observed_at": "2026-11-01T13:40:00+08:00",
+          "captured_at": "2026-11-01T16:41:00+08:00",
+          "note": "新浪看点同题稿，研究日志 15:40 采集时显示「2 小时前」发布；16:41 复核页面可达。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://www.sina.cn/news/detail/5360437793392797.html",
+          "title": "21 年事业最低潮，回头才懂：有些退路，是命运给的|塞翁失马_新浪新闻",
+          "observed_at": "2026-11-01T13:40:00+08:00",
+          "captured_at": "2026-11-01T16:41:00+08:00",
+          "note": "新浪看点同题第二篇，同为今日午后「2 小时前」显示；16:41 复核页面可达。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-28-quanwang-jinru-xx-shidai",
+      "title": "🔁 全网进入XX时代再添新实例",
+      "aliases": [
+        "全网进入XX时代",
+        "XX进入XX时代",
+        "进入XX时代"
+      ],
+      "canonical_phrase": "全网进入XX时代",
+      "platform": [
+        "douyin",
+        "other"
+      ],
+      "type": "句式梗",
+      "summary": "「XX进入XX时代」模板第 3 天上榜：抖音热榜今日两轮归档快照均再现新填词实例，把任何小趋势夸张成「一个时代」的万能句式持续高产。",
+      "origin": "已验证：10 月中旬由「大水时代」等实例定型的填词句式，10-28 首以通用模板身份上榜；11-01 抖音热榜 09:15 归档轮与 15:39 快照均有新实例在榜（实例名绑影视 IP，按规则不引其名）。",
+      "usage": "万能造句模板「XX进入XX时代」：美食、穿搭、职场、影视皆可填；媒体标题与评论区接龙两用，填词成本极低，夸张程度随填词自由调节。",
+      "fun_point": "一本正经的宏大叙事套在鸡毛蒜皮上，反差即笑点；隔一两天就有新实例上榜，说明模板仍在高产期。",
+      "why_spread": "已验证：11-01 09:15 抖音热榜归档轮与 15:39 快照均在榜（均晚于 10-31 08:56 前时钟）。推测：年末盘点季「时代体」标题需求旺盛，模板与具体热点互相借力。",
+      "lifecycle": "peak",
+      "brand_usage": "内容账号可用「XX进入XX时代」做趋势盘点标题；品牌可做「我家新品进入 XX 时代」自夸体；勿强行绑定与品牌无关的负面热点。",
+      "risk": {
+        "level": "low",
+        "note": "模板通用无指向；部分实例绑影视 IP，引用时只借句式、不点名作品。"
+      },
+      "days_on_list": 3,
+      "score": 80,
+      "score_breakdown": {
+        "heat": 25,
+        "freshness": 28,
+        "reusability": 19,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/README.md",
+          "observed_at": "2026-11-01T09:15:13+08:00",
+          "captured_at": "2026-11-01T15:40:00+08:00",
+          "note": "抖音热榜逐小时公开归档 11-01 09:15 轮（研究日志采集）：模板新实例在榜；16:36 复核同日归档 15:39 轮仍在榜。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://tophub.today/n/K7GdaMgdQy",
+          "observed_at": "2026-11-01T15:39:00+08:00",
+          "captured_at": "2026-11-01T15:40:00+08:00",
+          "note": "今日热榜抖音分区 15:39 快照（研究日志采集）：模板新实例在榜。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "origin",
+          "platform": "other",
+          "url": "https://news.qq.com/rain/a/20261018A0BB6P00",
+          "observed_at": "2026-10-18T12:00:00+08:00",
+          "captured_at": "2026-10-28T08:23:00+08:00",
+          "note": "腾讯新闻 10-18 报道「大水时代」走红始末，是该句式本轮定型的起点语境（留档作身份锚点）。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-01-jiezhe-tianliang-kaojin-ni",
+      "title": "🍂 借着天凉的理由再靠近你一点",
+      "aliases": [
+        "借着天凉的理由再靠近你一点",
+        "借着天冷的理由靠近你",
+        "借着XX的理由再XX一点"
+      ],
+      "canonical_phrase": "借着天凉的理由再靠近你一点",
+      "platform": [
+        "douyin"
+      ],
+      "type": "口头禅梗",
+      "summary": "入冬暧昧口头禅「借着天凉的理由再靠近你一点」今日登上抖音热榜：09:15 归档轮、15:39 快照均在榜，16:38 复核仍居第 17 位；第三方聚合「热驿」上午已有在榜记录。",
+      "origin": "已验证：今日抖音热榜多轮在榜（09:15 归档、15:39 快照、16:38 复核第 17 位），热驿条目显示上午已在榜；该句式为 2021 年起每年入冬回流的季节性撒娇表达。",
+      "usage": "秋冬暧昧与撒娇万能句：「能不能借着天凉的理由再靠近你一点」；可迁移为「借着 XX 的理由再 XX 一点」（借着发年终奖的理由请顿饭）；评论区、私信、文案标题通用。",
+      "fun_point": "把「想靠近」说成「天凉的锅」，给害羞的人一个体面的台阶；像候鸟一样每年入冬准时回流，自带画面感与季节仪式感。",
+      "why_spread": "已验证：今日抖音热榜多轮在榜＋热驿上午在榜记录。推测：全国大范围降温节点，季节性情绪内容放量；句式低门槛、易截图，适合评论与私信场景复制。",
+      "lifecycle": "rising",
+      "brand_usage": "热饮、保暖服饰、出行账号可玩「借着天凉的理由 XX」；社交、婚恋账号可做互动话题；保持轻量浪漫，勿油腻冒犯。",
+      "risk": {
+        "level": "safe",
+        "note": "季节性撒娇句式，无指向性；商业借用保持轻量，勿油腻。"
+      },
+      "days_on_list": 1,
+      "score": 79,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 28,
+        "reusability": 17,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://tophub.today/n/K7GdaMgdQy",
+          "observed_at": "2026-11-01T16:38:00+08:00",
+          "captured_at": "2026-11-01T16:38:00+08:00",
+          "note": "今日热榜抖音分区 16:38 复核：居第 17 位（15:39 快照第 13 位），全天多轮在榜。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/README.md",
+          "observed_at": "2026-11-01T09:15:13+08:00",
+          "captured_at": "2026-11-01T15:40:00+08:00",
+          "note": "抖音热榜逐小时公开归档 11-01 09:15 轮在榜（研究日志采集）；16:36 复核 15:39 轮仍在榜。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "other",
+          "url": "https://reyibang.com/topic/b0ee0f24d6",
+          "title": "借着天凉的理由再靠近你一点 · 热驿",
+          "observed_at": "2026-11-01T10:40:00+08:00",
+          "captured_at": "2026-11-01T16:41:00+08:00",
+          "note": "第三方聚合「热驿」条目：研究日志 15:40 采集时显示「5 小时前」在榜；16:41 复核页面可达。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-31-bi-dongtian-xianlai-rehuoguo",
+      "title": "🍲 比冬天先来的是一顿热火锅",
+      "aliases": [
+        "比冬天先来的是一顿热火锅",
+        "比XX先来的是XX"
+      ],
+      "canonical_phrase": "比冬天先来的是一顿热火锅",
+      "platform": [
+        "douyin"
+      ],
+      "type": "句式梗",
+      "summary": "「比冬天先来的是一顿热火锅」连续第二天登上抖音热榜：11-01 09:15 归档轮与 15:39 快照均在榜，「比 XX 先来的是 XX」换季干饭句式继续被仿写。",
+      "origin": "已验证：10-31 首登抖音热榜（归档快照第 4 位）后，11-01 09:15 与 15:39 两轮归档快照仍在榜；为换季情绪与美食场景的结合句式。",
+      "usage": "换季填空模板：「比周末先来的是一顿烧烤」「比年终奖先来的是一波加班」——前半填节气或节点，后半填先到的那件事；美食打卡、吐槽、带货口播均可套。",
+      "fun_point": "把冷空气的压迫感解构成干饭信号，悲春伤秋的句式壳里装的全是食欲；前后两半都可换，谁都能填出自己城市与口味的那一版。",
+      "why_spread": "已验证：11-01 两轮归档快照在榜（晚于 10-31 08:56 前时钟）。推测：降温节点临近，换季加热食组合自带时令流量，餐饮内容跟进成本低。",
+      "lifecycle": "peak",
+      "brand_usage": "餐饮、火锅、热饮账号可直接用「比冬天先来的是 XX」做上新与套餐文案；本地生活账号可做城市版填空；勿夸大功效。",
+      "risk": {
+        "level": "safe",
+        "note": "季节美食向，无指向性攻击；商业借用勿夸大功效。"
+      },
+      "days_on_list": 2,
+      "score": 79,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 28,
+        "reusability": 16,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/README.md",
+          "observed_at": "2026-11-01T09:15:13+08:00",
+          "captured_at": "2026-11-01T15:40:00+08:00",
+          "note": "抖音热榜逐小时公开归档 11-01 09:15 轮在榜（研究日志采集）；16:36 复核 15:39 轮仍在榜。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://tophub.today/n/K7GdaMgdQy",
+          "observed_at": "2026-11-01T15:39:00+08:00",
+          "captured_at": "2026-11-01T15:40:00+08:00",
+          "note": "今日热榜抖音分区 15:39 快照在榜（研究日志采集；16:38 复核时已随榜单轮动下榜）。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-01-dongtian-naicha-wazhe-chi",
+      "title": "🥤 冬天奶茶要挖着吃才满足",
+      "aliases": [
+        "冬天奶茶要挖着吃才满足",
+        "冬天奶茶挖着吃",
+        "XX要挖着吃才满足"
+      ],
+      "canonical_phrase": "冬天奶茶要挖着吃才满足",
+      "platform": [
+        "douyin",
+        "other"
+      ],
+      "type": "生活方式梗",
+      "summary": "「冬天奶茶要挖着吃才满足」今日登上抖音热榜（09:15 归档轮与 15:39 快照均在榜），网易视频 10-31 已有同主题内容：冬季奶茶加料浓稠化，衍生出「挖着吃」的满足感句式。",
+      "origin": "已验证：11-01 抖音热榜两轮归档快照在榜；网易号视频「冬天奶茶要挖着吃」10-31 发布（日级）。为冬季饮品浓稠化吃法的网络表达。",
+      "usage": "「XX 要挖着吃才满足」可迁移到蛋糕、冰淇淋、烤红薯：「冬天的烤红薯要捧着吃才满足」；美食打卡标题、探店口播、评论区点餐接龙通用。",
+      "fun_point": "把「喝奶茶」升级成「挖着吃」的动作仪式，加料党狂喜；一个动词改动就把饮品喝出甜品感，画面感与参与感俱佳。",
+      "why_spread": "已验证：今日抖音热榜两轮在榜＋网易视频 10-31 同主题内容。推测：入冬热饮消费季，饮品加料内容互推；「挖着吃」动作易拍易仿，二创门槛低。",
+      "lifecycle": "rising",
+      "brand_usage": "茶饮、甜品账号可做「挖着吃」加料展示与隐藏菜单；内容账号可做「冬天第一杯挖着吃的奶茶」打卡；勿绑定具体品牌拉踩。",
+      "risk": {
+        "level": "safe",
+        "note": "季节饮品向，无指向性、不绑品牌；商业借用勿夸大功效。"
+      },
+      "days_on_list": 1,
+      "score": 77,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 27,
+        "reusability": 16,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/README.md",
+          "observed_at": "2026-11-01T09:15:13+08:00",
+          "captured_at": "2026-11-01T15:40:00+08:00",
+          "note": "抖音热榜逐小时公开归档 11-01 09:15 轮在榜（研究日志采集）；16:36 复核 15:39 轮仍在榜。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://tophub.today/n/K7GdaMgdQy",
+          "observed_at": "2026-11-01T15:39:00+08:00",
+          "captured_at": "2026-11-01T15:40:00+08:00",
+          "note": "今日热榜抖音分区 15:39 快照在榜（研究日志采集；16:38 复核时已随榜单轮动下榜）。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://www.163.com/v/video/VY9KISHB0.html",
+          "title": "冬天奶茶要挖着吃#度加连更挑战_网易视频",
+          "observed_at": "2026-10-31T12:00:00+08:00",
+          "captured_at": "2026-11-01T16:41:00+08:00",
+          "note": "网易号视频「冬天奶茶要挖着吃」10-31 发布（日级）；16:41 复核页面可达。"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
