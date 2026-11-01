@@ -1,0 +1,854 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T07:23:55+08:00",
+  "published_at": "2026-11-02T07:23:55+08:00",
+  "status": "partial",
+  "run_report": {
+    "candidates_scanned": 32,
+    "published": 7,
+    "dropped_safety": {
+      "geopolitics": 1,
+      "politics": 2,
+      "public_safety": 1
+    },
+    "dropped_low_confidence": 18,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media",
+      "aggregator"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 28,
+      "official_sources": 16,
+      "state_media_sources": 13,
+      "major_media_sources": 2,
+      "aggregator_sources": 3,
+      "dropped_insufficient_evidence": 3
+    },
+    "selection": {
+      "tier": "relaxed_48h",
+      "qualified": {
+        "strict_24h": 2,
+        "relaxed_48h": 7,
+        "relaxed_72h": 11
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 32,
+          "cumulative_unique_candidates": 32,
+          "source_scope": [
+            "国内官方发布与政策文件（部委、省市考试院、标准委、税务总局官网）",
+            "央媒与持牌媒体报道（央视、辽宁日报、川观、中新、上观、界面、澎湃）",
+            "灾害与国际媒体扫描（中央气象台、IMD、Indian Express、The Hindu）",
+            "聚合平台线索与旧闻排雷（新浪转载核查，仅佐证）"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-02-north-heating-season-start",
+          "story_identity": "north-heating-season-nov1-official-start",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T17:13:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-02-north-heating-season-start",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 19,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-02-sichuan-birth-support-medical",
+          "story_identity": "sichuan-medical-birth-support-outpatient-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-02-sichuan-birth-support-medical",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 18,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-11-02-flight-fuel-surcharge-raise",
+          "story_identity": "domestic-flight-fuel-surcharge-nov5-raise",
+          "research_pass": 1,
+          "occurred_at": "2026-10-31T19:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-02-flight-fuel-surcharge-raise",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 18,
+            "everyday_relevance": 21,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-11-02-ciie-booth-setup-complete",
+          "story_identity": "ciie-booth-structure-complete-setup-nov3",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T20:09:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-02-ciie-booth-setup-complete",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 19,
+            "everyday_relevance": 19,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-02-guangdong-gaokao-registration",
+          "story_identity": "guangdong-2027-gaokao-registration-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "selected",
+          "item_id": "2026-11-02-guangdong-gaokao-registration",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 19,
+            "everyday_relevance": 21,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-11-02-fuel-retail-instant-invoice",
+          "story_identity": "fuel-retail-instant-invoice-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-02-fuel-retail-instant-invoice",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 18,
+            "everyday_relevance": 21,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-11-02-ciie-traffic-control-start",
+          "story_identity": "ciie-traffic-control-nov1-highway-checkpoints",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-02-ciie-traffic-control-start",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 19,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "medical-device-gmp-nov1-day2",
+          "story_identity": "medical-device-gmp-2025-revision-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 17,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "医疗器械生产质量管理规范次日仅规范文本与新规汇总稿，无执行层面实测新事实，68分未达relaxed_48h线"
+        },
+        {
+          "candidate_key": "baqing-snow-supplies-day2",
+          "story_identity": "baqing-snow-response-classroom-reopen",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T10:29:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 16,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "巴青安置点降雪应对与11月1日已发复学条同事件同角度重叠，不连续两日同点出条，68分未达relaxed_48h线"
+        },
+        {
+          "candidate_key": "youth-sports-training-code-day2",
+          "story_identity": "youth-sports-training-code-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 19,
+            "everyday_relevance": 16,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "青少年体育培训规范11月1日已评估无首日实测，次日仍无执行层面新报道，66分未达relaxed_48h线"
+        },
+        {
+          "candidate_key": "bike-share-gbt47956-day2",
+          "story_identity": "bike-share-gbt47956-service-standard-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 65,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 19,
+            "everyday_relevance": 16,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "共享单车推荐性国标无首日实测报道，执行以企业与地方落地为准，65分未达relaxed_48h线"
+        },
+        {
+          "candidate_key": "classroom-lighting-gb7793-day2",
+          "story_identity": "classroom-lighting-standard-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 18,
+            "everyday_relevance": 16,
+            "evidence": 9
+          },
+          "drop_reason": "教室照明强标与10月29日已发儿童健康新规条照明角度重叠，次日无实测增量，64分低于65资格线"
+        },
+        {
+          "candidate_key": "cma-cold-air-blue-warning-nov1",
+          "story_identity": "cma-cold-air-gale-blue-warning-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T06:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 15,
+            "evidence": 7
+          },
+          "drop_reason": "冷空气大风蓝色预警属例行天气服务，冷空气题材10月27日已发三股冷空气加提前供暖条，63分低于65资格线"
+        },
+        {
+          "candidate_key": "fuxing-park-night-ride-closure",
+          "story_identity": "shanghai-fuxing-park-night-rides-maintenance",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T18:58:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 14,
+            "evidence": 7
+          },
+          "drop_reason": "复兴公园游乐设施停运为园方灯光检修安排，与节日无官方关联表述，民生相关度14低于15地板"
+        },
+        {
+          "candidate_key": "nrta-tv-startup-ads-nov27",
+          "story_identity": "nrta-no-startup-ads-rule-nov27",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 13,
+            "everyday_relevance": 19,
+            "evidence": 7
+          },
+          "drop_reason": "有线电视不得播放开机广告10月27日发布、11月27日施行，发布时点超出72小时窗口"
+        },
+        {
+          "candidate_key": "tibet-blizzard-wrapup-no-progress",
+          "story_identity": "tibet-blizzard-stable-wrapup",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T06:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 18,
+            "everyday_relevance": 14,
+            "evidence": 7
+          },
+          "drop_reason": "西藏降雪收尾保通无全新量级进展，遵循不再重复出条的克制判断，60分低于65资格线"
+        },
+        {
+          "candidate_key": "ningguo-factory-fire-day2",
+          "story_identity": "ningguo-factory-fire-no-casualty",
+          "research_pass": 1,
+          "occurred_at": "2026-10-31T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 17,
+            "everyday_relevance": 13,
+            "evidence": 7
+          },
+          "drop_reason": "宁国厂房火灾无人员伤亡，量级不达全国日报门槛，昨日已评估维持不选"
+        },
+        {
+          "candidate_key": "japan-honshu-m60-deep-quake",
+          "story_identity": "japan-honshu-offshore-m60-deep-quake",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T06:15:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 56,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 18,
+            "everyday_relevance": 12,
+            "evidence": 6
+          },
+          "drop_reason": "日本本州南部海域6.0级深源地震无损伤报告，属外国地方例行事件，56分低于65资格线"
+        },
+        {
+          "candidate_key": "spb-peak-season-inspection",
+          "story_identity": "spb-express-peak-season-safety-inspection",
+          "research_pass": 1,
+          "occurred_at": "2026-10-28T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 14,
+            "everyday_relevance": 15,
+            "evidence": 6
+          },
+          "drop_reason": "邮政管理部门旺季安全督导发生在10月28日、内容偏内部工作安排，事件龄超窗且民生增量弱"
+        },
+        {
+          "candidate_key": "typhoon-yanhua-weakening-no-impact",
+          "story_identity": "typhoon-yanhua-weakened-no-impact",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T06:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 54,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 18,
+            "everyday_relevance": 12,
+            "evidence": 5
+          },
+          "drop_reason": "台风烟花减弱远离且中央气象台明确对我国海域无影响，增量弱，54分低于65资格线"
+        },
+        {
+          "candidate_key": "cyclone-murasu-forecast-landfall",
+          "story_identity": "cyclone-murasu-andhra-forecast-landfall-nov3",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T15:00:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 13,
+            "evidence": 8
+          },
+          "drop_reason": "气旋Murasu登陆印度为11月3日凌晨预报事件，尚无实际灾害与对华直接影响，全球代表性边缘，64分低于65资格线"
+        },
+        {
+          "candidate_key": "galapagos-heavy-rain-local",
+          "story_identity": "galapagos-heavy-rain-local-flooding",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 17,
+            "everyday_relevance": 11,
+            "evidence": 6
+          },
+          "drop_reason": "加拉帕戈斯暴雨属区域小型灾害，无全球代表性与对华影响，52分低于65资格线"
+        },
+        {
+          "candidate_key": "mayon-volcano-alert3-day2",
+          "story_identity": "mayon-volcano-eruption-alert3",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T11:53:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 16,
+            "everyday_relevance": 14,
+            "evidence": 10
+          },
+          "drop_reason": "马荣火山无对华直接影响，民生相关度14低于15地板，维持11月1日评估不选"
+        },
+        {
+          "candidate_key": "pattaya-brawl-gossip",
+          "story_identity": "pattaya-tourist-brawl-gossip",
+          "research_pass": 1,
+          "occurred_at": "2026-10-31T00:00:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 48,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 15,
+            "everyday_relevance": 8,
+            "evidence": 5
+          },
+          "drop_reason": "芭提雅斗殴属八卦级外国地方事件，无公共价值，48分低于65资格线"
+        },
+        {
+          "candidate_key": "baqing-aftershock-m38-routine",
+          "story_identity": "baqing-aftershock-m38-routine",
+          "research_pass": 1,
+          "occurred_at": "2026-10-31T13:52:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 16,
+            "everyday_relevance": 11,
+            "evidence": 5
+          },
+          "drop_reason": "巴青3.8级余震属主震后常规衰减，无新增损失与中断，50分低于65资格线"
+        },
+        {
+          "candidate_key": "kaoyan-confirm-no-unified-window",
+          "story_identity": "kaoyan-2027-online-confirm-provincial-windows",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "2027考研网上确认各省窗口不一，未见11月1日全国统一新事实与可核实通告，证据不足"
+        },
+        {
+          "candidate_key": "autumn-flood-40-rivers-old-news",
+          "story_identity": "autumn-flood-40-rivers-aggregator-old-news",
+          "research_pass": 1,
+          "occurred_at": "2026-10-10T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "聚合站40余条河流秋汛稿经核查为旧闻翻新，非当前事件，不作事实陈述"
+        },
+        {
+          "candidate_key": "chengyu-highway-pileup-old-news",
+          "story_identity": "chengyu-highway-5car-pileup-aggregator-old-news",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "聚合站成渝高速5车连撞稿为旧闻重新发布，非当前事件，不作事实陈述"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "public_safety"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-02-north-heating-season-start",
+      "story_identity": "north-heating-season-nov1-official-start",
+      "headline": "🔥 北方多地11月1日正式开栓供暖，辽宁14市、宁夏全区进入供暖季",
+      "summary": "11月1日起北方集中供暖季正式开启：辽宁13个市和沈抚示范区开栓供热，大连将于11月5日按期供热，全省燃煤供热企业储煤率78.7%；宁夏全区同日进入供暖季，由“按时供暖”转向“按需供暖”，银川集中供热面积约1.47亿平方米；河北张家口万全主城区也于1日零时启动供暖。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 85,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 19,
+        "everyday_relevance": 23,
+        "evidence": 13
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-01T17:13:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "与10月27日已发三股冷空气加提前供暖条切割：本条为11月1日北方正式供暖日落地新事实；事件锚点取央视11月1日17时13分盖章时刻；万全仅单一转载源，只作一句事实带过不做主述"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "辽宁日报",
+          "url": "https://news.lnd.com.cn/system/2026/11/01/030581980.shtml",
+          "title": "辽宁14市（区）11月1日正式开栓供暖",
+          "captured_at": "2026-11-02T06:32:00+08:00",
+          "note": "辽宁日报11月1日8时18分报道：13个市和沈抚示范区开栓供热，大连11月5日按期供热，全省燃煤供热企业储煤率78.7%"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://news.cctv.cn/2026/11/01/ARTIMp8IXOk6PK63920W8gwr261101.shtml",
+          "title": "北方多地11月1日正式供暖",
+          "captured_at": "2026-11-02T06:33:00+08:00",
+          "note": "央视网11月1日17时13分报道：辽宁开栓与宁夏全区进入供暖季，宁夏由按时供暖转向按需供暖，银川供热面积约1.47亿平方米"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央视新闻直播间",
+          "url": "https://tv.cctv.cn/2026/11/01/VIDECZByA0nXWqEmyWVy19Bi261101.shtml",
+          "title": "新闻直播间：多地正式开启供暖",
+          "captured_at": "2026-11-02T06:34:00+08:00",
+          "note": "央视新闻直播间11月1日18时22分播出同一供暖季开启报道，独立视频源佐证"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-02-sichuan-birth-support-medical",
+      "story_identity": "sichuan-medical-birth-support-outpatient-nov1",
+      "headline": "🤱 四川医保两项新政施行：住院分娩逐步“无自付”",
+      "summary": "四川省两项医保新政11月1日起施行：灵活就业人员可自愿参加生育保险，住院分娩政策范围内不设起付标准、限额内全额保障，顺产5000元、剖宫产7000元，逐步实现个人“无自付”；居民医保门诊统筹在基层定点机构不设起付线、统一按60%支付，年限额最高400元。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 81,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 18,
+        "everyday_relevance": 23,
+        "evidence": 14
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-01T00:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "省级医保新政，以川观新闻10月31日汇总稿与9月26日门诊统筹专题双源为准；措辞用施行与逐步，不断言即时全额免单"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "川观新闻",
+          "url": "https://cbgc.scol.com.cn/news/8103053",
+          "title": "四川生育支持与门诊统筹新政11月1日施行",
+          "captured_at": "2026-11-02T06:36:00+08:00",
+          "note": "川观新闻10月31日汇总：住院分娩政策范围内不设起付标准、限额内全额保障，顺产5000元、剖宫产7000元，逐步实现个人无自付"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "川观新闻",
+          "url": "https://cbgc.scol.com.cn/news/7999539",
+          "title": "四川居民医保门诊统筹政策解读",
+          "captured_at": "2026-11-02T06:37:00+08:00",
+          "note": "川观新闻门诊统筹专题：基层定点机构统一不设起付线、支付比例统一60%，年度支付限额最高每人每年400元"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-02-flight-fuel-surcharge-raise",
+      "story_identity": "domestic-flight-fuel-surcharge-nov5-raise",
+      "headline": "✈️ 国内航线燃油附加费11月5日起上调，800公里以上每段140元",
+      "summary": "多家航空公司通知：自11月5日零时起，国内航线燃油附加费800公里（含）以下航段每位旅客80元、800公里以上每段140元，分别上调30元和50元；婴儿免收，儿童、伤残军人等减半收取。11月5日前已出票的客票，之后变更不补收差价。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 79,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 18,
+        "everyday_relevance": 21,
+        "evidence": 13
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-10-31T19:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "出行成本服务信息，以央视网经济频道与春秋航空公告双源为准；与油价调价题材区分：本条为航司燃油附加费调整，锚点取媒体集中报道时刻"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://jingji.cctv.com/2026/10/31/ARTIqCnckll9naupzGpy4Hib261030.shtml",
+          "title": "国内航线燃油附加费11月5日起上调",
+          "captured_at": "2026-11-02T06:39:00+08:00",
+          "note": "央视网经济频道10月31日报道：800公里以下每段80元、以上每段140元，分别上调30元和50元"
+        },
+        {
+          "tier": "official",
+          "outlet": "春秋航空",
+          "url": "https://www.ch.com/News/d9a67efbf79b4ac08dafb77a2dd003dc.html",
+          "title": "春秋航空关于调整国内航线燃油附加费的公告",
+          "captured_at": "2026-11-02T06:40:00+08:00",
+          "note": "春秋航空10月30日公告：11月5日零时起执行新标准，婴儿免收，儿童等减半，之前出票之后变更不补差价"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-02-ciie-booth-setup-complete",
+      "story_identity": "ciie-booth-structure-complete-setup-nov3",
+      "headline": "🏗️ 进博会展台结构搭建全部完成，11月3日完成全部布展",
+      "summary": "第九届中国国际进口博览会筹备收尾：展台结构搭建已于10月31日全部完成，展品陆续进馆，11月3日将完成全部布展。《进博新品汇》排期公布：11月6日至8日推出74场新品发布和55场上新活动，129家展商展示超200项产品；本届共有162个国家、地区和国际组织参展，企业展面积首破37万平方米。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 19,
+        "everyday_relevance": 19,
+        "evidence": 13
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-01T20:09:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "与10月30日冲刺条、10月31日31条便利化条切割：本条只取结构搭建完成与布展收尾节点、新品汇排期两个硬新事实；锚点取中新网11月1日20时09分盖章时刻"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/shipin/cns-d/2026/11-01/news1073537.shtml",
+          "title": "进博会展台结构搭建全部完成",
+          "captured_at": "2026-11-02T06:42:00+08:00",
+          "note": "中新网11月1日20时09分报道：展台结构搭建10月31日全部完成，展品陆续进馆，11月3日完成全部布展"
+        },
+        {
+          "tier": "official",
+          "outlet": "进博局",
+          "url": "https://www.ciie.org/zbh/bqgffb/20261101/65106.html",
+          "title": "《进博新品汇》排期公布",
+          "captured_at": "2026-11-02T06:43:00+08:00",
+          "note": "进博局11月1日公布：11月6日至8日74场进博新发布加55场上新连连看，129家展商展示超200项产品"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国经济网",
+          "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261101_3279383.shtml",
+          "title": "第九届进博会参展规模综述",
+          "captured_at": "2026-11-02T06:44:00+08:00",
+          "note": "中国经济网11月1日21时40分转新华社综述：162个国家地区国际组织参展，企业展面积首破37万平方米"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-02-guangdong-gaokao-registration",
+      "story_identity": "guangdong-2027-gaokao-registration-nov1",
+      "headline": "🎓 广东2027年普通高考报名启动，11月10日截止",
+      "summary": "广东省2027年普通高考报名11月1日至10日进行：1日至10日系统注册和网上报名，6日至10日确认报名。广东明确严禁“高考移民”，报名点不得设在校外培训机构；户籍迁入或学籍不达标的考生仅限报考高职（专科）批次，违规获取资格者取消报名、考试及录取资格。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "教育考试",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 25,
+        "freshness": 19,
+        "everyday_relevance": 21,
+        "evidence": 13
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-01T00:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "省级考试服务节点，以广东省教育考试院与广州市政府门户双官方源为准；北京高考报名10月25日已发，本条为广东首日启动新节点；锚点按报名日当日记"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "广东省教育考试院",
+          "url": "https://eea.gd.gov.cn/ptgk/content/post_4963516.html",
+          "title": "广东省2027年普通高考报名工作的通知",
+          "captured_at": "2026-11-02T06:46:00+08:00",
+          "note": "广东省教育考试院发布：报名11月1日至10日进行，含系统注册、网上报名与确认报名三步骤，严禁高考移民"
+        },
+        {
+          "tier": "official",
+          "outlet": "广州市政府门户",
+          "url": "https://www.gz.gov.cn/zwfw/zxfw/jyfw7/content/post_11032253.html",
+          "title": "广州发布2027年高考报名安排",
+          "captured_at": "2026-11-02T06:47:00+08:00",
+          "note": "广州市政府门户转广州日报：确认报名11月6日至10日，报名点不得设在校外培训机构，资格联审机制"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-02-fuel-retail-instant-invoice",
+      "story_identity": "fuel-retail-instant-invoice-nov1",
+      "headline": "⛽ 成品油零售“交易即开票”全国推广，加油支付即获发票",
+      "summary": "国家税务总局公告在成品油零售加油站全面推广“交易即开票”：11月1日起，车主支付完成后系统即时自动开具数电发票，覆盖第三方平台、互联网平台、加油卡、现金、赊销、对公转账等全部交易场景；互联网平台须作为直连单位接入乐企平台并报送涉税信息。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 75,
+      "score_breakdown": {
+        "heat": 23,
+        "freshness": 18,
+        "everyday_relevance": 21,
+        "evidence": 13
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-11-01T00:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "与10月30日已发成品油调价条是不同事件不冲突；以税务总局政策法规库公告原文与界面新闻11月1日新规汇总首日稿为准，较昨日证据不足评估已有首日报道补强"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家税务总局",
+          "url": "https://fgk.chinatax.gov.cn/zcfgk/c100012/c5250347/content.html",
+          "title": "关于成品油零售交易即开票推广的公告",
+          "captured_at": "2026-11-02T06:49:00+08:00",
+          "note": "税务总局公告2026年第11号原文：11月1日起全国成品油零售加油站全面推广交易即开票，覆盖全部交易场景"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "界面新闻",
+          "url": "https://www.jiemian.com/article/15277750.html",
+          "title": "一批新规11月1日起施行",
+          "captured_at": "2026-11-02T06:50:00+08:00",
+          "note": "界面新闻11月1日新规汇总：成品油零售交易即开票首日施行，互联网平台须接入乐企平台报送涉税信息"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-02-ciie-traffic-control-start",
+      "story_identity": "ciie-traffic-control-nov1-highway-checkpoints",
+      "headline": "🚧 进博会临时交通管制启动，8条高速入沪道口集中检查",
+      "summary": "上海警方进博会临时交通管制11月1日起执行：11月1日8时至10日24时，G2、G15、S26、G50、S32、G60、S36、G40等8条高速入沪省际道口集中检查，G15朱桥下匝道封闭；11月4日至10日国家会展中心周边合围区域分时段限行，公交与出租等豁免。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 75,
+      "score_breakdown": {
+        "heat": 24,
+        "freshness": 19,
+        "everyday_relevance": 19,
+        "evidence": 13
+      },
+      "heat_rank": 7,
+      "occurred_at": "2026-11-01T00:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "出行服务信息，以上海市政府网转市公安局通告与上观新闻为准；与10月31日已发31条便利化条角度不同：本条为管制执行启动事实；锚点按执行日当日记"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "上海市政府",
+          "url": "https://cdn.shanghai.gov.cn/nw17239/20261030/95efded69d01483ea728dc70caca0fe9.html",
+          "title": "市公安局进博会期间临时交通管制通告",
+          "captured_at": "2026-11-02T06:52:00+08:00",
+          "note": "上海市政府网转市公安局通告：11月1日至12日部分道路区域临时管制，8条高速入沪道口11月1日8时起集中检查"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "上观新闻",
+          "url": "https://www.shobserver.cn/sgh/detail?id=4084384",
+          "title": "进博会临时交通管制11月1日起执行",
+          "captured_at": "2026-11-02T06:53:00+08:00",
+          "note": "上观新闻报道同一通告：G15朱桥下匝道封闭，11月4日至10日国展中心周边合围区域分时段限行，公交出租豁免"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
