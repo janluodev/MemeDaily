@@ -1,0 +1,833 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T15:32:30+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 32,
+    "published": 6,
+    "dropped_safety": {
+      "geopolitics": 1,
+      "politics": 2,
+      "rumor": 1
+    },
+    "dropped_low_confidence": 19,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media",
+      "aggregator"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 28,
+      "official_sources": 9,
+      "state_media_sources": 12,
+      "major_media_sources": 5,
+      "aggregator_sources": 2,
+      "dropped_insufficient_evidence": 3
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 6,
+        "relaxed_48h": 11,
+        "relaxed_72h": 16
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 32,
+          "cumulative_unique_candidates": 32,
+          "source_scope": [
+            "国内官方发布（部委与省市监管局官网、机构公告）",
+            "央媒与持牌媒体报道（央视/新华/中新/央广/北京日报/浙江在线/川观等）",
+            "灾害与国际媒体扫描（中央气象台/新华社英文/GMA/马尼拉时报）",
+            "聚合平台线索与排雷（凤凰/新浪转载、聚合站旧闻核查，仅佐证）"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-01-escort-standard-day1",
+          "story_identity": "escort-standard-nov1-effective-day1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-01-escort-standard-day1",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-01-ev-ccc-one-code",
+          "story_identity": "ev-ccc-one-vehicle-one-code-day1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-01-ev-ccc-one-code",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-01-children-gb46523-effective",
+          "story_identity": "children-gb46523-toys-standards-day1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-01-children-gb46523-effective",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-01-guokao-confirm-payment",
+          "story_identity": "guokao-2027-confirm-payment-day1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "selected",
+          "item_id": "2026-11-01-guokao-confirm-payment",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-01-baqing-kindergarten-reopen",
+          "story_identity": "baqing-snow-response-classroom-reopen",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T10:29:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-11-01-baqing-kindergarten-reopen",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-01-hangzhou-marathon-results",
+          "story_identity": "hangzhou-marathon-2026-results-robot-police",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T07:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-11-01-hangzhou-marathon-results",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "huizhou-housing-fund-loan-rules",
+          "story_identity": "huizhou-housing-fund-loan-rules-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "惠州公积金贷款办法今起施行，同花顺与南方财经双主流源可靠，但单城政策全国公共增量有限，74分未达strict_24h线，诚实不选"
+        },
+        {
+          "candidate_key": "ningxia-minimum-wage-nov1",
+          "story_identity": "ningxia-minimum-wage-raise-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 19,
+            "everyday_relevance": 18,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "宁夏最低工资今起执行，报道稿为10月27至28日发布、今日无首日新报道，71分未达strict线"
+        },
+        {
+          "candidate_key": "quanzhou-long-term-care-insurance",
+          "story_identity": "quanzhou-long-term-care-insurance-plan",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 18,
+            "everyday_relevance": 19,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "长护险题材10月28日甘肃条、10月31日国家医保局条已连日覆盖，市级落地题材重复度高，70分未达strict线"
+        },
+        {
+          "candidate_key": "youth-sports-training-code-nov1",
+          "story_identity": "youth-sports-training-code-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 19,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "青少年体育培训规范9月印发今起施行，目前均为前瞻解读、无11月1日首日落地实测报道，71分未达strict线"
+        },
+        {
+          "candidate_key": "classroom-lighting-standard-nov1",
+          "story_identity": "classroom-lighting-standard-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 18,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "教室采光照明国标与10月29日已发儿童健康新规条照明角度重叠，首日增量薄，69分未达strict线"
+        },
+        {
+          "candidate_key": "ciie-first-exhibits-unboxing",
+          "story_identity": "ciie-first-exhibits-unboxing-wfl",
+          "research_pass": 1,
+          "occurred_at": "2026-10-31T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 18,
+            "everyday_relevance": 18,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "进博首批展品开箱与10月30日冲刺条、10月31日31条便利化条同会连日，480余件首发首展系既有数据重申，68分未达strict线"
+        },
+        {
+          "candidate_key": "ciie-transport-guarantee-plan",
+          "story_identity": "ciie-transport-guarantee-plan-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 19,
+            "everyday_relevance": 18,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "进博交通保障方案目前央视单源，与10月31日已发31条便利化条同会同城连日，70分未达strict线"
+        },
+        {
+          "candidate_key": "nov-rules-social-insurance-recap",
+          "story_identity": "nov-rules-social-insurance-penalty-recap",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 18,
+            "everyday_relevance": 19,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "社保欠缴最高罚三倍角度10月30日已发新规盘点条，今日新规稿再提属同题重复，72分未达strict线不再单列"
+        },
+        {
+          "candidate_key": "ciie-31-convenience-recap",
+          "story_identity": "ciie-31-convenience-measures-recap",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T16:53:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 18,
+            "everyday_relevance": 18,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "31条进博便利化举措10月31日已发，今日无新增事实，70分未达strict线"
+        },
+        {
+          "candidate_key": "hangzhou-marathon-packet-recap",
+          "story_identity": "hangzhou-marathon-packet-metro-recap",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 18,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "杭马领物与地铁服务角度10月30日已发，今日正赛条只取赛果与机器人交警新事实，该备赛角度68分未达strict线"
+        },
+        {
+          "candidate_key": "dingri-gangrong-road-clearance",
+          "story_identity": "dingri-gangrong-road-snow-clearance",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 17,
+            "everyday_relevance": 16,
+            "evidence": 8
+          },
+          "drop_reason": "岗绒公路5小时抢通已并入10月31日西藏主峰条摘要，且仅中新网视频单源，63分低于65资格线"
+        },
+        {
+          "candidate_key": "mayon-volcano-eruption-alert3",
+          "story_identity": "mayon-volcano-eruption-alert3",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T11:53:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 18,
+            "everyday_relevance": 14,
+            "evidence": 12
+          },
+          "drop_reason": "马荣火山中等喷发三家独立源一致，但对中国读者无直接影响、全球代表性边缘，民生相关度14低于15地板，不具资格"
+        },
+        {
+          "candidate_key": "baqing-aftershock-m38-routine",
+          "story_identity": "baqing-aftershock-m38-routine",
+          "research_pass": 1,
+          "occurred_at": "2026-10-31T13:52:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 17,
+            "everyday_relevance": 12,
+            "evidence": 6
+          },
+          "drop_reason": "巴青3.8级余震属主震后常规衰减，无新增损失与中断，55分低于65资格线"
+        },
+        {
+          "candidate_key": "typhoon-yanhua-no-impact",
+          "story_identity": "typhoon-yanhua-weakened-no-impact",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T06:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 56,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 19,
+            "everyday_relevance": 11,
+            "evidence": 6
+          },
+          "drop_reason": "台风烟花减弱为强台风级且中央气象台明确对我国海域无影响，增量弱，56分低于65资格线"
+        },
+        {
+          "candidate_key": "ningguo-factory-fire",
+          "story_identity": "ningguo-factory-fire-no-casualty",
+          "research_pass": 1,
+          "occurred_at": "2026-10-31T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 13,
+            "evidence": 7
+          },
+          "drop_reason": "安徽宁国厂房火灾无人员伤亡，量级不达全国日报门槛，60分低于65资格线"
+        },
+        {
+          "candidate_key": "japan-mie-m61-quake",
+          "story_identity": "japan-mie-offshore-m61-quake",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T06:15:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 57,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 18,
+            "everyday_relevance": 12,
+            "evidence": 7
+          },
+          "drop_reason": "日本三重县近海6.1级深源地震无损害报告，属外国地方例行事件，57分低于65资格线"
+        },
+        {
+          "candidate_key": "fujian-medical-drug-rules",
+          "story_identity": "fujian-medical-drug-outpatient-rules",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 18,
+            "everyday_relevance": 17,
+            "evidence": 8
+          },
+          "drop_reason": "福建医保药品单列门诊统筹办法仅省医保局单源、偏专业政策文件，无媒体解读与公共热度，64分低于65资格线"
+        },
+        {
+          "candidate_key": "tibet-blizzard-stable-wrapup",
+          "story_identity": "tibet-blizzard-stable-wrapup",
+          "research_pass": 1,
+          "occurred_at": "2026-10-31T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 19,
+            "everyday_relevance": 14,
+            "evidence": 8
+          },
+          "drop_reason": "西藏降雪平稳收尾、无全新量级进展，遵循不再出第四条的克制判断，62分低于65资格线"
+        },
+        {
+          "candidate_key": "cyclone-arnab-flood-followup",
+          "story_identity": "cyclone-arnab-flood-followup",
+          "research_pass": 1,
+          "occurred_at": "2026-10-28T00:00:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 13,
+            "everyday_relevance": 18,
+            "evidence": 13
+          },
+          "drop_reason": "阿纳布后续洪涝系10月28日已覆盖事件的延续且超出72小时窗口，不重复成条"
+        },
+        {
+          "candidate_key": "fuel-instant-invoice-nov1",
+          "story_identity": "fuel-retail-instant-invoice-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "加油交易即开票仅税务总局6月旧公告与地方库转载，无11月1日首日落地报道，当日执行实况缺乏新闻证据支撑"
+        },
+        {
+          "candidate_key": "everest-86-tourists-old-news",
+          "story_identity": "everest-86-tourists-2013-old-news",
+          "research_pass": 1,
+          "occurred_at": "2013-10-12T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "聚合站珠峰86名游客被困稿经核实为2013年费林气旋期间旧闻重新发布，非当前事件，不作事实陈述"
+        },
+        {
+          "candidate_key": "mohrss-community-jobs-document",
+          "story_identity": "mohrss-community-jobs-july-document",
+          "research_pass": 1,
+          "occurred_at": "2026-07-31T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "人社部等三部门优化城乡社区岗位文件成文于2026年7月31日，非新发政策，媒体再报道不构成今日事件"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-01-escort-standard-day1",
+      "story_identity": "escort-standard-nov1-effective-day1",
+      "headline": "🏥 陪诊行业首个国标今起实施：12项服务清单+7条红线",
+      "summary": "我国陪诊行业首个国家标准《社会化陪同就医服务基本要求》11月1日起实施：陪诊服务须由依法登记的机构提供，陪诊员须岗前培训并持健康证上岗，信息公示可查；标准明确12项可做服务清单与7条禁止红线，不得判读检查结果、参与医疗操作、代选治疗方案或签署法律文书。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 85,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 14
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-01T00:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "首日施行报道，以中国经济网转央视网与央广网新规汇总为准；此前七度评估均为前瞻解读未选，今日有央视系首日施行报道属质变可收；暂无市场端实测，措辞用今起实施不断言执行效果"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国经济网",
+          "url": "http://www.ce.cn/cysc/yy/hydt/202611/t20261101_3279043.shtml",
+          "title": "陪诊行业首个国家标准11月1日起实施",
+          "captured_at": "2026-11-01T15:21:00+08:00",
+          "note": "中国经济网11月1日转央视网7时24分报道：陪诊行业首个国家标准今起实施，12项正面清单与7条禁止红线，机构化准入、陪诊员须持健康证"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央广网",
+          "url": "https://edu.cnr.cn/dj/20261101/t20261101_527859348.shtml",
+          "title": "一批新规11月1日起施行",
+          "captured_at": "2026-11-01T15:22:00+08:00",
+          "note": "央广网教育频道11月1日新规汇总：陪诊国标服务评价公示，不得判读检查结果、代选治疗方案、签署法律文书等细节"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-01-ev-ccc-one-code",
+      "story_identity": "ev-ccc-one-vehicle-one-code-day1",
+      "headline": "🛵 电动自行车CCC认证新规今起实施：一车一池一充一码",
+      "summary": "电动自行车强制性产品认证新规11月1日起实施，严格“一车一池一充一码”：出厂须配齐全部必需部件，随车附一致性证书并与登记要求完全匹配，从生产销售源头压实防改装与电池安全责任，新规首日执行情况有待市场端继续观察。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 84,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 14
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-01T00:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "以中新网转央视与央广网首日报道为准；与10月30日已发社保新规盘点条切割：本条只取电动车CCC一车一池一充一码，社保欠缴角度不重复"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724193.shtml",
+          "title": "一批新规11月1日起施行",
+          "captured_at": "2026-11-01T15:23:00+08:00",
+          "note": "中新网11月1日10时51分转央视新闻报道：电动自行车CCC认证新规施行，严格一车一池一充一码，出厂配齐必需部件"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央广网",
+          "url": "https://news.cnr.cn/native/gd/20261101/t20261101_527859279.shtml",
+          "title": "电动自行车等新规今起实施",
+          "captured_at": "2026-11-01T15:24:00+08:00",
+          "note": "央广网11月1日报道：随车附一致性证书并与登记要求完全匹配，佐证首日施行口径"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国经济网",
+          "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261101_3279182.shtml",
+          "title": "11月新规施行滚动报道",
+          "captured_at": "2026-11-01T15:24:00+08:00",
+          "note": "中国经济网同日滚动稿佐证电动车CCC新规首日施行"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-01-children-gb46523-effective",
+      "story_identity": "children-gb46523-toys-standards-day1",
+      "headline": "🧸 首个儿童用品全品类强制国标今起施行，4项玩具国标同步实施",
+      "summary": "强制性国标《儿童用品通用安全要求》（GB46523-2025）11月1日起施行，覆盖14岁以下儿童用品（含赠品、试用装），对可迁移重金属、增塑剂、甲醛等7大类有害化学物质设限量，带刺鼻异味产品禁售；化学实验玩具、家用秋千滑梯等4项修订玩具国标同日实施，首次纳入充气活动玩具。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 83,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 14
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-01T00:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "与10月29日已发儿童健康新规前瞻条切割：本条只取GB46523全品类强标与4项玩具国标施行首日落地，不重复教室照明角度；以中新网首日稿、新华网与北京市监局宣贯为准"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724236.shtml",
+          "title": "首个儿童用品全品类强制性国标今起实施",
+          "captured_at": "2026-11-01T15:26:00+08:00",
+          "note": "中新网11月1日12时43分转央视报道：GB46523-2025覆盖14岁以下儿童用品含赠品试用装，7大类有害物质限量、异味产品禁售"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.news.cn/20261031/c3f94aa84905447b8a4c7165b9208fbc/c.html",
+          "title": "儿童用品强制性国标将实施",
+          "captured_at": "2026-11-01T15:27:00+08:00",
+          "note": "新华网10月31日报道：4项修订玩具国标同步施行，首次纳入充气活动玩具"
+        },
+        {
+          "tier": "official",
+          "outlet": "北京市监局",
+          "url": "https://scjgj.beijing.gov.cn/zwxx/scjgdt/202610/t20261013_4899396.shtml",
+          "title": "北京市监局宣贯儿童用品国标",
+          "captured_at": "2026-11-01T15:27:00+08:00",
+          "note": "北京市市场监督管理局官网10月13日发布标准宣贯，官方源头佐证标准内容与施行日期"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-01-guokao-confirm-payment",
+      "story_identity": "guokao-2027-confirm-payment-day1",
+      "headline": "🎓 2027国考今起确认报名并缴费，11月6日24时截止",
+      "summary": "2027年度国考345万人通过资格审查，过审人数与录用计划比约97:1。11月1日0时至6日24时登录专题网站确认报名并缴费，流程含上传照片、选择考点城市、网上缴费，逾期未确认视为放弃；准考证11月23日起打印。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "教育考试",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 14
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-01T00:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "考试服务节点，以央视网与新华网客户端今日稿为准；与10月27日过审条切割：角度为今起确认缴费窗口开启，数字照官方口径"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://news.cctv.com/2026/11/01/ARTIq9pIkW4ltfTT9z0gBRF8261101.shtml",
+          "title": "2027国考11月1日起报名确认并缴费",
+          "captured_at": "2026-11-01T15:28:00+08:00",
+          "note": "央视网11月1日10时23分报道：345万人通过资格审查，今起确认缴费，11月6日24时截止"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华网客户端",
+          "url": "https://app.xinhuanet.com/news/article.html?articleId=202611016bb77a89312d4507b0fd70dade1fd9dd",
+          "title": "国考报名确认缴费今日开始",
+          "captured_at": "2026-11-01T15:29:00+08:00",
+          "note": "新华网客户端11月1日9时34分稿：流程含上传照片、选择考点城市、网上缴费"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "北京日报",
+          "url": "https://xinwen.bjd.com.cn/content/s6ae6b2dee4b039a8e2f30c19.html",
+          "title": "国考确认缴费11月1日启动",
+          "captured_at": "2026-11-01T15:29:00+08:00",
+          "note": "北京日报客户端11月1日11时32分报道同一节点，准考证11月23日起打印"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-01-baqing-kindergarten-reopen",
+      "story_identity": "baqing-snow-response-classroom-reopen",
+      "headline": "🏫 巴青震区安置点雪后保供保暖，板房教学点复学",
+      "summary": "10月30日晚西藏那曲巴青县地震安置点降雪降温，31日武警、消防、公安一早扫雪除冰，巡查板房密闭性与供电取暖；玛如乡十二村安置点板房教学点已复学，幼儿集中托管上课；全县对10个乡镇拉网式排查，口粮燃料可保过冬，牲畜饲草料统筹发放。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 81,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 14
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-01T10:29:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "灾害恢复报道保持克制，无伤亡报告不渲染；与10月30日安置进度条切割：角度为本轮降雪应对加板房教学点复学新进展；事件锚点取央视11月1日10时29分披露时刻"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://news.cctv.cn/2026/11/01/ARTI47Cj2cE7IpjSm8tMqGPe261101.shtml",
+          "title": "巴青安置点降雪应对与教学点复学",
+          "captured_at": "2026-11-01T15:30:00+08:00",
+          "note": "央视网11月1日10时29分播出：武警消防公安扫雪除冰、巡查板房密闭性与供电取暖，玛如乡十二村板房教学点复学、幼儿集中托管"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "川观新闻",
+          "url": "https://cbgc.scol.com.cn/news/8104433",
+          "title": "巴青安置点消防入户排查取暖安全",
+          "captured_at": "2026-11-01T15:31:00+08:00",
+          "note": "川观新闻10月31日晚报道：安置点降雪降温应对、10个乡镇拉网式排查、口粮燃料可保过冬、饲草料统筹发放"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-01-hangzhou-marathon-results",
+      "story_identity": "hangzhou-marathon-2026-results-robot-police",
+      "headline": "🏃 杭州马拉松今晨鸣枪开跑，机器人交警首次上岗护航",
+      "summary": "2026杭州马拉松11月1日7时在黄龙体育中心鸣枪，规模3.6万人、报名超30万创新高，赛道首次串联西湖与大运河双世遗。埃塞俄比亚选手分获男女冠军（2小时11分16秒、2小时26分03秒），高鹏、郑小倩分列国内男女第一；人形机器人交警“杭行二号”首次在大型万人赛事上岗执勤。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 80,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 20,
+        "everyday_relevance": 18,
+        "evidence": 12
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-11-01T07:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "赛果以浙江在线加凤凰网转潮新闻为准，女子组只写国内第一口径；机器人交警稿有企业宣传色彩，仅取城市交管服务事实并入本条不单列；与10月30日领物地铁备赛条切割"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "浙江在线",
+          "url": "https://zjnews.zjol.com.cn/yc/qmt/202611/t20261101_32001343.shtml",
+          "title": "2026杭州马拉松11月1日鸣枪开跑",
+          "captured_at": "2026-11-01T15:26:00+08:00",
+          "note": "浙江在线11月1日报道：3.6万人参赛、报名超30万创新高，赛道首次串联西湖与大运河双世遗"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "同花顺财经",
+          "url": "https://news.10jqka.com.cn/20261101/c681326597.shtml",
+          "title": "人形机器人交警杭行二号上岗杭马",
+          "captured_at": "2026-11-01T15:27:00+08:00",
+          "note": "同花顺财经11月1日报道：杭行二号进驻黄龙体育中心周边4个重点点位，承担路口值守、自主巡航、违法劝导与公众咨询"
+        },
+        {
+          "tier": "aggregator",
+          "outlet": "凤凰网",
+          "url": "https://feng.ifeng.com/c/8xh5outCESn",
+          "title": "杭马赛果滚动：男子冠军2小时11分16秒",
+          "captured_at": "2026-11-01T15:28:00+08:00",
+          "note": "凤凰网转潮新闻赛果滚动：埃塞俄比亚选手分获男女冠军，高鹏2小时13分19秒、郑小倩2小时34分00秒分列国内男女第一，仅作热度与细节佐证"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
