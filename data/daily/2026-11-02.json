@@ -1,0 +1,809 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v4-editorial-completeness",
+  "rubric_version": "v4-100-point-dynamic",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T07:55:00+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 68,
+    "published": 4,
+    "dropped_safety": {
+      "涉及具体人物": 12,
+      "政治时政": 6,
+      "社会事件灾难": 5,
+      "涉及具体品牌公司": 4,
+      "纯新闻非梗内容": 3,
+      "综艺赛事剧宣": 2,
+      "生活技巧科普非梗": 2
+    },
+    "dropped_low_confidence": 5,
+    "dropped_capacity": 0,
+    "sources": [
+      "weibo",
+      "douyin",
+      "other"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 30,
+      "platform_public_sources": 1,
+      "aggregator_sources": 6,
+      "search_media_sources": 2,
+      "spillover_sources": 0,
+      "dropped_insufficient_evidence": 25
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 4,
+        "relaxed_48h": 6,
+        "relaxed_72h": 6
+      },
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-02-huadi-weilao-pengyou",
+          "canonical_phrase": "我画地为牢了朋友",
+          "outcome": "selected",
+          "item_id": "2026-11-02-huadi-weilao-pengyou",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 28,
+            "reusability": 18,
+            "evidence": 9
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://tophub.today/n/KqndgxeLl9",
+            "observed_at": "2026-11-02T07:15:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-07-19-ai-x-tian-ta-le",
+          "canonical_phrase": "爱X的人天塌了",
+          "outcome": "selected",
+          "item_id": "2026-07-19-ai-x-tian-ta-le",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 27,
+            "reusability": 18,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://tophub.today/n/KqndgxeLl9",
+            "observed_at": "2026-11-02T07:15:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-02-na-dao-da-jieguo",
+          "canonical_phrase": "拿到大结果",
+          "outcome": "selected",
+          "item_id": "2026-11-02-na-dao-da-jieguo",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 27,
+            "reusability": 17,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://tophub.today/n/Jb0vmloB1G",
+            "observed_at": "2026-11-02T07:15:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-09-22-zhanshi-xinxue-shanshenbu",
+          "canonical_phrase": "展示我新学的闪身步",
+          "outcome": "selected",
+          "item_id": "2026-09-22-zhanshi-xinxue-shanshenbu",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 27,
+            "reusability": 18,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/README.md",
+            "observed_at": "2026-11-02T03:46:30+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "yuntan",
+          "canonical_phrase": "晕碳",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 26,
+            "reusability": 16,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://weibo.com/a/hot/bf8a2f9e2211fe5d_0.html",
+            "observed_at": "2026-11-01T22:39:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "kunan-guoran-wenxue-wenchuang",
+          "canonical_phrase": "苦难果然是文学的温床",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 26,
+            "reusability": 16,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://weibo.com/a/hot/1a18d91f7c3525b9_0.html",
+            "observed_at": "2026-11-01T10:05:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "shiyue-jiu-daoci-weizhi",
+          "canonical_phrase": "十月就到此为止吧",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 26,
+            "reusability": 14,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://tophub.today/n/DpQvNABoNE",
+            "observed_at": "2026-11-02T07:15:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "yuanlai-qian-yaohua-zhezhong-difang",
+          "canonical_phrase": "原来钱要花在这种地方",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "meiyou-buai-kanjianpicao-de-yiwu",
+          "canonical_phrase": "没有不爱坎肩皮草的义务",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 25,
+            "reusability": 14,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/README.md",
+            "observed_at": "2026-11-02T03:46:30+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "huanbulai-shouru-de-nuli",
+          "canonical_phrase": "换不来收入的努力大多只是逃避",
+          "outcome": "dropped_low_confidence",
+          "score": 65,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 24,
+            "reusability": 14,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.sina.cn/news/detail/5360575699224426.html",
+            "observed_at": "2026-11-01T22:45:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "zhichangzi-shi-shejiao",
+          "canonical_phrase": "直肠子式社交",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "gen-shenghuo-duixian",
+          "canonical_phrase": "跟生活对线",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "turan-lijie-saiweng-shima",
+          "canonical_phrase": "人会在某一刻突然理解塞翁失马",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "quanwang-jinru-xx-shidai-jinri",
+          "canonical_phrase": "全网进入XX时代",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "jiezhe-tianliang-kaojin-ni",
+          "canonical_phrase": "借着天凉的理由再靠近你一点",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "bi-dongtian-xianlai-rehuoguo",
+          "canonical_phrase": "比冬天先来的是一顿热火锅",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "dongtian-naicha-wazhe-chi",
+          "canonical_phrase": "冬天奶茶要挖着吃才满足",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "woxihuan-ni-nenggou-ganying",
+          "canonical_phrase": "我喜欢你如果你也能够感应",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "kuaren-shi-chaojia",
+          "canonical_phrase": "夸人式吵架",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "cidi-buyi-jiuliu",
+          "canonical_phrase": "此弟不宜久留",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "quanqiu-xiaodian-xiajiang-2000bei",
+          "canonical_phrase": "全球笑点下降2000倍而我不变",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "jiaru-xx-danmu-youshengyin",
+          "canonical_phrase": "假如XX弹幕有声音",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "hanchanglinli-de-xx",
+          "canonical_phrase": "真是一场酣畅淋漓的XX啊",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "lun-wo-gei-pengyou-chupian-sudu",
+          "canonical_phrase": "论我给朋友的出片速度",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "yu-shi-haoyu-jiushi-ciduo",
+          "canonical_phrase": "鱼是好鱼就是刺多",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "hulianwang-xiaoyi",
+          "canonical_phrase": "互联网小姨",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "guotai-minan-lian",
+          "canonical_phrase": "国泰民安脸",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "xiti-huanxing-paodao",
+          "canonical_phrase": "喜提环形跑道",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "wanwu-jieke-bushaoxin",
+          "canonical_phrase": "万物皆可不烧心",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "xinli-weiyuan-anbudejin",
+          "canonical_phrase": "心理委员俺不得劲",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "dishan-choushui-yu-zhiyin",
+          "canonical_phrase": "低山臭水遇知音",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "nanbeng-bengzhu",
+          "canonical_phrase": "绷住难绷",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "lianqiu-zonghezheng",
+          "canonical_phrase": "恋秋综合症",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "earth-online",
+          "canonical_phrase": "Earth Online",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-1",
+          "outcome": "dropped_safety",
+          "drop_reason": "政治时政",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-2",
+          "outcome": "dropped_safety",
+          "drop_reason": "政治时政",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-3",
+          "outcome": "dropped_safety",
+          "drop_reason": "政治时政",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-4",
+          "outcome": "dropped_safety",
+          "drop_reason": "政治时政",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-5",
+          "outcome": "dropped_safety",
+          "drop_reason": "政治时政",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-6",
+          "outcome": "dropped_safety",
+          "drop_reason": "政治时政",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-7",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-8",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-9",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-10",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-11",
+          "outcome": "dropped_safety",
+          "drop_reason": "社会事件灾难",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-12",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-13",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-14",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-15",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-16",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-17",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-18",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-19",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-20",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-21",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-22",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-23",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体人物",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-24",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体品牌公司",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-25",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体品牌公司",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-26",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体品牌公司",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-27",
+          "outcome": "dropped_safety",
+          "drop_reason": "涉及具体品牌公司",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-28",
+          "outcome": "dropped_safety",
+          "drop_reason": "综艺赛事剧宣",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-29",
+          "outcome": "dropped_safety",
+          "drop_reason": "综艺赛事剧宣",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-30",
+          "outcome": "dropped_safety",
+          "drop_reason": "纯新闻非梗内容",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-31",
+          "outcome": "dropped_safety",
+          "drop_reason": "纯新闻非梗内容",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-32",
+          "outcome": "dropped_safety",
+          "drop_reason": "纯新闻非梗内容",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-33",
+          "outcome": "dropped_safety",
+          "drop_reason": "生活技巧科普非梗",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-34",
+          "outcome": "dropped_safety",
+          "drop_reason": "生活技巧科普非梗",
+          "research_pass": 1
+        }
+      ],
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 68,
+          "cumulative_unique_candidates": 68,
+          "sources_checked": [
+            "weibo",
+            "douyin",
+            "bilibili",
+            "zhihu",
+            "xiaohongshu",
+            "other"
+          ]
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-02-huadi-weilao-pengyou",
+      "title": "🧱 我画地为牢了朋友",
+      "aliases": [
+        "我画地为牢了朋友",
+        "我画地为牢了",
+        "画地为牢文学"
+      ],
+      "canonical_phrase": "我画地为牢了朋友",
+      "platform": [
+        "weibo"
+      ],
+      "type": "句式梗",
+      "summary": "微博今晨双词条在榜的自嘲句式「我画地为牢了，朋友」：把「想社交却把自己焊死在舒适圈」说成自愿坐牢，网友已抽象出「我刻舟求剑了」「我作茧自缚了」等成语变体疯狂造句。",
+      "origin": "已验证：梗源为某综艺名场面台词（节目名按规则不引），11-01 晚某艺人在年会自我介绍中玩梗自称后冲上微博热搜；今晨 07:15 快照主词条第 17 位、衍生词条第 19 位双在榜，新浪娱乐 23:11、电影界 01:03 连夜发文解读（人名按规则不引）。",
+      "usage": "自嘲式自我禁锢宣告：「周末不出门，我画地为牢了朋友」「奶茶戒不掉，我画地为牢了」；四字成语可任意换装接龙（我刻舟求剑了/我守株待兔了），评论区、自述开头、图文金句通用。",
+      "fun_point": "把社恐说成主动服刑，一本正经给自己判刑，古风罪名套现代懒散，反差即笑点；成语库人人都有，换个词就是自己的版本。",
+      "why_spread": "已验证：某艺人公开场合玩梗自称后登上微博热搜，今晨双词条在榜，两家媒体连夜解读。推测：成语换装参与门槛极低，自嘲语境百搭，名人同款效应放大传播。",
+      "lifecycle": "rising",
+      "brand_usage": "内容账号可做「我画地为牢了朋友」成语接龙征集；家居、外卖账号可玩「宅家画地为牢」场景；只借句式，物料中不得点名节目与艺人。",
+      "risk": {
+        "level": "low",
+        "note": "源头绑综艺与艺人，所有物料只写句式不点名；避免用于影射真实人身自由事件。"
+      },
+      "days_on_list": 1,
+      "score": 86,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 28,
+        "reusability": 18,
+        "evidence": 9
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "weibo",
+          "url": "https://tophub.today/n/KqndgxeLl9",
+          "observed_at": "2026-11-02T07:15:00+08:00",
+          "captured_at": "2026-11-02T07:15:00+08:00",
+          "note": "微博热搜今晨 07:15 快照：主词条第 17 位、衍生词条第 19 位双在榜（衍生词条名涉人名，按规则不引）。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "origin",
+          "platform": "other",
+          "url": "https://k.sina.cn/article_7879995946_1d5af322a06801v4p4.html",
+          "observed_at": "2026-11-01T23:11:00+08:00",
+          "captured_at": "2026-11-02T07:25:00+08:00",
+          "note": "新浪娱乐 11-01 23:11 解释稿：还原某综艺名场面与某艺人年会玩梗自称的走红链路（人名与节目名按规则不引，故不附稿件标题）。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://www.dianyingjie.com.cn/2026/1102/410872.shtml",
+          "observed_at": "2026-11-02T01:03:00+08:00",
+          "captured_at": "2026-11-02T07:25:00+08:00",
+          "note": "电影界 11-02 01:03 稿解读「画地为牢文学」句式与网友成语造句潮（稿件标题涉人名节目名，按规则不引）。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-07-19-ai-x-tian-ta-le",
+      "title": "🍠 喜欢吃烤红薯的人天塌了",
+      "aliases": [
+        "爱X的人天塌了",
+        "喜欢XX的人天塌了",
+        "XX的人天塌了"
+      ],
+      "canonical_phrase": "爱X的人天塌了",
+      "platform": [
+        "weibo"
+      ],
+      "type": "句式梗",
+      "summary": "万能震惊句式「爱/喜欢 XX 的人天塌了」第 3 天上榜：昨晚微博热议「喜欢吃烤红薯的人天塌了」，今晨 07:15 快照仍居热搜第 21 位，任何爱好被颠覆都能套用。",
+      "origin": "已验证：该句式 7 月起被本站收录，11-01 晚 20:12–20:29 微博话题页多条帖子以「喜欢吃烤红薯的人天塌了」造句，今晨仍在榜第 21 位；底层为食品相关传闻，按规则不复述传闻内容，仅收录句式本体。",
+      "usage": "震惊体填空：「喜欢熬夜的人天塌了」「爱喝冰美式的人天塌了」——前半填爱好或习惯，后半固定「天塌了」；评论区玩梗、自嘲式标题、图文金句均可套用。",
+      "fun_point": "一点小事就「天塌了」，夸张级反应配上琐碎爱好，人人都有自己的塌房瞬间；填词即参与，零创作门槛。",
+      "why_spread": "已验证：微博话题页昨晚多条帖子热议，今晨仍居热搜第 21 位（晚于 09-27 上时钟）。推测：「塌房」语义泛化到一切爱好，叠加冬季烤红薯季的话题性。",
+      "lifecycle": "rising",
+      "brand_usage": "食品、茶饮账号可自嘲式玩「喜欢 XX 的人天塌了」反转安利；内容账号可做填空征集；勿复述底层传闻细节，勿制造食安恐慌。",
+      "risk": {
+        "level": "medium",
+        "note": "本轮底层涉食品相关传闻，借用时只写句式、不复述传闻细节，避免放大未经证实的食安说法。"
+      },
+      "days_on_list": 3,
+      "score": 80,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 27,
+        "reusability": 18,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "platform_public",
+          "evidence_role": "popularity",
+          "platform": "weibo",
+          "url": "https://weibo.com/a/hot/fff2d3f0a6fe8369_0.html",
+          "observed_at": "2026-11-01T20:29:00+08:00",
+          "captured_at": "2026-11-02T07:20:00+08:00",
+          "note": "微博话题页（媒体侧读取摘要）：11-01 晚 20:12–20:29 多条帖子以该句式造句热议。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "weibo",
+          "url": "https://tophub.today/n/KqndgxeLl9",
+          "observed_at": "2026-11-02T07:15:00+08:00",
+          "captured_at": "2026-11-02T07:15:00+08:00",
+          "note": "微博热搜今晨 07:15 快照：该词条仍居第 21 位。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-02-na-dao-da-jieguo",
+      "title": "🎯 拿到大结果",
+      "aliases": [
+        "大结果",
+        "拿到大结果",
+        "靠XX和XX拿到大结果"
+      ],
+      "canonical_phrase": "拿到大结果",
+      "platform": [
+        "other"
+      ],
+      "type": "口头禅梗",
+      "summary": "成功学反讽词「大结果」：把抢到便宜午餐、喝到联名奶茶这类微小确幸统称为「拿到大结果」，单词乎昨日新收录，今晨仍被实时套用到无关语境。",
+      "origin": "已验证：单词乎 11-01 12:33 新收录「大结果」词条；今晨 07:15 百度实时热点快照中相关词条在榜、该词正被套用于新语境（词条标题涉艺人名，按规则不引）；词源出自某综艺相关讨论（节目名按规则不引）。",
+      "usage": "反讽式报喜：「今天全靠手速和闹钟，拿到大结果」「通勤抢到座，也是拿到大结果」；可填「靠 XX 和 XX 拿到大结果」；适合战报体自嘲、朋友圈小确幸、评论区接龙。",
+      "fun_point": "把成功学黑话降维到鸡毛蒜皮，越小的胜利越要隆重宣布「拿到大结果」，消解年末结果焦虑又自带喜感。",
+      "why_spread": "已验证：单词乎昨日收录、今晨百度实时热点在榜并被实时套用于新语境。推测：年末「结果导向」疲惫感强，反讽成功学的表达有天然市场。",
+      "lifecycle": "rising",
+      "brand_usage": "内容账号可做「今天你的大结果是什么」互动话题；外卖、咖啡账号可玩「这单就是拿到大结果」；只借句式，物料中不得点名节目与艺人。",
+      "risk": {
+        "level": "low",
+        "note": "词源涉综艺与艺人，物料只写句式不点名；避免用于嘲讽真实职场考核。"
+      },
+      "days_on_list": 1,
+      "score": 76,
+      "score_breakdown": {
+        "heat": 24,
+        "freshness": 27,
+        "reusability": 17,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://www.dancihu.com/liuxingyu/d17613.html",
+          "observed_at": "2026-11-01T12:33:00+08:00",
+          "captured_at": "2026-11-02T07:25:00+08:00",
+          "note": "单词乎「大结果」词条 11-01 12:33 收录：把微小确幸称为「大结果」的反讽用法（词源涉综艺与艺人，按规则不引）。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "other",
+          "url": "https://tophub.today/n/Jb0vmloB1G",
+          "observed_at": "2026-11-02T07:15:00+08:00",
+          "captured_at": "2026-11-02T07:15:00+08:00",
+          "note": "百度实时热点今晨 07:15 快照：「大结果」相关词条在榜，被实时套用到无关语境（词条标题含艺人名，按规则不引）。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-09-22-zhanshi-xinxue-shanshenbu",
+      "title": "🕺 闪身步跟跳热潮还没停",
+      "aliases": [
+        "展示我新学的闪身步",
+        "闪身步",
+        "万物皆可闪身步"
+      ],
+      "canonical_phrase": "展示我新学的闪身步",
+      "platform": [
+        "douyin"
+      ],
+      "type": "短视频梗",
+      "summary": "「闪身步」第 26 天上榜：今晨 03:46 抖音热榜归档轮中闪身步跟跳话题居第 30 位，07:15 快照仍在榜，这个 9 月走红的舞蹈动作还在被全民跟跳。",
+      "origin": "已验证：源于安徽花鼓灯基本功动作的教学视频，9 月起在短视频平台爆火并衍生「万物皆可闪身步」；今晨抖音热榜 03:46 归档轮与 07:15 快照中跟跳话题均在榜（话题名含人名，按规则不引）。",
+      "usage": "躲话茬、躲加班、躲尴尬的动作梗：「这个话题我先闪为敬」「听到加班一个闪身步」；实拍模仿与文字套用两开花，跟跳视频自带流量。",
+      "fun_point": "上半身还在陪笑、脚已经下班的错位感百看不厌；动作简单有辨识度，从普通网友到官方账号都在闪，国民度持续累积。",
+      "why_spread": "已验证：今晨抖音热榜 03:46 归档轮与 07:15 快照均在榜（晚于 10-31 08:56 上时钟）。推测：跟跳挑战持续有新参与者加入，动作梗跨圈层复用成本低。",
+      "lifecycle": "rising",
+      "brand_usage": "运动、舞蹈、职场账号可玩「值得一个闪身步的瞬间」；文旅账号可做跟跳挑战；引用时只写动作句式，不得出现话题中的人名。",
+      "risk": {
+        "level": "low",
+        "note": "今晨在榜话题名含人名，任何物料只写动作句式、不点名；勿用于嘲讽具体个人。"
+      },
+      "days_on_list": 26,
+      "score": 76,
+      "score_breakdown": {
+        "heat": 24,
+        "freshness": 27,
+        "reusability": 18,
+        "evidence": 7
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/README.md",
+          "observed_at": "2026-11-02T03:46:30+08:00",
+          "captured_at": "2026-11-02T07:15:00+08:00",
+          "note": "抖音热榜逐小时公开归档 11-02 03:46 轮：闪身步跟跳话题在榜第 30 位（话题名含人名，按规则不引）。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://tophub.today/n/DpQvNABoNE",
+          "observed_at": "2026-11-02T07:15:00+08:00",
+          "captured_at": "2026-11-02T07:15:00+08:00",
+          "note": "今日热榜抖音分区 07:15 快照：该跟跳话题仍在榜（话题名含人名，按规则不引）。"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
