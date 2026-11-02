@@ -1,0 +1,1136 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T07:01:43+08:00",
+  "published_at": "2026-11-03T07:01:43+08:00",
+  "status": "partial",
+  "run_report": {
+    "candidates_scanned": 50,
+    "published": 6,
+    "dropped_safety": {
+      "geopolitics": 1,
+      "politics": 1,
+      "propaganda": 1
+    },
+    "dropped_low_confidence": 35,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media",
+      "aggregator"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 47,
+      "official_sources": 18,
+      "state_media_sources": 14,
+      "major_media_sources": 13,
+      "aggregator_sources": 5,
+      "dropped_insufficient_evidence": 6
+    },
+    "selection": {
+      "tier": "relaxed_48h",
+      "qualified": {
+        "strict_24h": 2,
+        "relaxed_48h": 6,
+        "relaxed_72h": 14
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 50,
+          "cumulative_unique_candidates": 50,
+          "source_scope": [
+            "国内官方发布与政策文件（国家医保局、市场监管总局、认监委、省市医保局与考试机构官网）",
+            "央媒与持牌媒体报道（央视、新华社、中新网、人民网、新京报、澎湃、财新、云南网等）",
+            "灾害与国际媒体扫描（中央气象台、IMD、Reuters、PTI、The Hindu）",
+            "聚合平台线索与旧闻排雷（凤凰网、网易转载核查，仅佐证）"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-03-nhsa-birth-insurance-data",
+          "story_identity": "nhsa-birth-insurance-q3-data-labor-analgesia",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T14:38:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-03-nhsa-birth-insurance-data",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 19,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-03-cyclone-murasu-landfall-india",
+          "story_identity": "cyclone-murasu-landfall-andhra-nov3",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T03:30:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-11-03-cyclone-murasu-landfall-india",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-03-nansha-double11-ai-marketing-rules",
+          "story_identity": "nansha-double11-guidance-ai-labeling-algorithm",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-03-nansha-double11-ai-marketing-rules",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 18,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-11-03-escort-standard-market-landing",
+          "story_identity": "escort-standard-market-kunming-liuzhou-nov2",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-03-escort-standard-market-landing",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 18,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-11-03-ev-ccc-market-frame-battery",
+          "story_identity": "ev-ccc-market-frame-battery-separation-nov2",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-03-ev-ccc-market-frame-battery",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 18,
+            "everyday_relevance": 22,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-11-03-hangzhou-ai-legal-risk-guide",
+          "story_identity": "hangzhou-ai-legal-risk-guide-compliance-code",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "selected",
+          "item_id": "2026-11-03-hangzhou-ai-legal-risk-guide",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 18,
+            "everyday_relevance": 18,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "sanxingdui-minor-free-ticket",
+          "story_identity": "sanxingdui-minor-free-ticket-nov4",
+          "research_pass": 1,
+          "occurred_at": "2026-10-31T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 15,
+            "everyday_relevance": 20,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "馆方证实11月4日起18岁以下免票，但首次可信披露为10月31日新华报业网与潮新闻稿，事件龄约67小时超出48小时窗口；且无馆方正式公告链接、信源为馆方工作人员回应，诚实降档不选"
+        },
+        {
+          "candidate_key": "social-insurance-discretion-detail-day2",
+          "story_identity": "social-insurance-penalty-discretion-detail-nov2",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 17,
+            "everyday_relevance": 19,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "社保欠缴裁量基准详解与10月30日已发11月新规社保条同事件同题材，次日详解属重复覆盖，69分未达relaxed_48h线"
+        },
+        {
+          "candidate_key": "hunan-medical-insurance-45-grassroots",
+          "story_identity": "hunan-medical-insurance-45-grassroots-70pct",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 16,
+            "everyday_relevance": 21,
+            "evidence": 10
+          },
+          "drop_reason": "湘医保发〔2026〕45号10月28日印发、29日挂网，11月2日为局方解读稿，事件锚点超出72小时窗口；10月30日已评估同文件未选，维持不选"
+        },
+        {
+          "candidate_key": "elderly-visit-care-gmw-recap",
+          "story_identity": "special-difficulty-elderly-visit-care",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T15:20:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 15,
+            "everyday_relevance": 21,
+            "evidence": 10
+          },
+          "drop_reason": "民政部等三部门老年探访关爱10月31日已发同事件主条（新华网加中新网），光明日报11月2日稿系同文件再报道，不重复成条"
+        },
+        {
+          "candidate_key": "hunan-medical-insurance-44-nov1",
+          "story_identity": "hunan-medical-insurance-44-b-class-copay-cut",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 17,
+            "everyday_relevance": 20,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "湘医保发〔2026〕44号成文10月8日、媒体10月11日已报，11月1日生效为旧文件到点；与11月2日已发四川医保新政同类型，68分未达relaxed_48h线"
+        },
+        {
+          "candidate_key": "shaanxi-gaokao-registration-nov1",
+          "story_identity": "shaanxi-2027-gaokao-registration-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 18,
+            "everyday_relevance": 19,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "陕西高考报名启动与11月2日已发广东高考报名同题材不同省份，单日同题材不重复出条，68分未达relaxed_48h线"
+        },
+        {
+          "candidate_key": "ningxia-minimum-wage-nov1-day2",
+          "story_identity": "ningxia-minimum-wage-raise-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 17,
+            "everyday_relevance": 19,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "宁夏最低工资11月1日施行，11月1日已评估未选（报道稿为10月27至28日发布），今日仍无执行层面新报道，维持不选"
+        },
+        {
+          "candidate_key": "mohrss-q3-employment-data",
+          "story_identity": "mohrss-q3-employment-social-fund-data",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 67,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 18,
+            "everyday_relevance": 17,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "人社部前三季度就业与社保数据头部口径10月10日已披露，11月2日稿增量为下一步安排与细项，67分未达relaxed_48h线"
+        },
+        {
+          "candidate_key": "dalian-heating-thermal-trial-run",
+          "story_identity": "dalian-heating-thermal-trial-nov5-formal",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 17,
+            "everyday_relevance": 18,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "大连热态试运行与11月2日已发北方开栓供暖条同事件链，仅大连单独时间线新角度，按供暖题材谨慎口径不收，66分未达relaxed_48h线"
+        },
+        {
+          "candidate_key": "chuanyu-double11-compliance-tips",
+          "story_identity": "chuanyu-double11-compliance-tips",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 15,
+            "everyday_relevance": 19,
+            "evidence": 11
+          },
+          "drop_reason": "川渝双11合规提示主发布在10月30日、事件锚点超出72小时窗口边缘，已并入南沙指导意见书条作佐证不单列"
+        },
+        {
+          "candidate_key": "xinjiang-7-medical-items-recategory",
+          "story_identity": "xinjiang-7-medical-price-items-c-to-b-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 17,
+            "everyday_relevance": 19,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "新疆7项医疗服务丙类调乙类通知成文10月16日、媒体10月20日与30日已报，时效靠生效日支撑；地方医保生效题材今日已有更强条，66分未达relaxed_48h线"
+        },
+        {
+          "candidate_key": "tieling-smart-heating-platform",
+          "story_identity": "tieling-smart-heating-platform-island-homes",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T10:50:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 19,
+            "everyday_relevance": 17,
+            "evidence": 7
+          },
+          "drop_reason": "铁岭智慧供热实测与已发开栓条同事件链，仅平台与孤岛户细节为增量，按供暖谨慎口径不收，64分低于65资格线"
+        },
+        {
+          "candidate_key": "bazhou-birth-outpatient-limit-raise",
+          "story_identity": "bazhou-birth-outpatient-limit-2500-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 17,
+            "everyday_relevance": 18,
+            "evidence": 9
+          },
+          "drop_reason": "巴州生育保险门诊限额提标为地州落地稿、自治区通知正文未逐字核实，量级偏小，64分低于65资格线"
+        },
+        {
+          "candidate_key": "us-four-corners-flooding",
+          "story_identity": "us-southwest-four-corners-record-flooding",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T00:00:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 18,
+            "everyday_relevance": 12,
+            "evidence": 10
+          },
+          "drop_reason": "美国西南部破纪录洪水属外国区域灾害，无中国关联与全球代表性增量，民生相关度12低于15地板，不具资格"
+        },
+        {
+          "candidate_key": "cma-gale-warning-lifted-new-cold-air",
+          "story_identity": "cma-gale-blue-warning-lifted-cold-air-nov4",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T06:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 19,
+            "everyday_relevance": 16,
+            "evidence": 7
+          },
+          "drop_reason": "大风蓝色预警解除与新冷空气预报属例行天气服务，冷空气题材10月27日已发三股冷空气条，63分低于65资格线"
+        },
+        {
+          "candidate_key": "guangdong-double11-guidance-meeting",
+          "story_identity": "guangdong-double11-platform-guidance-meeting",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 15,
+            "everyday_relevance": 18,
+            "evidence": 8
+          },
+          "drop_reason": "广东省市监局双11行政指导会事件在10月30日窗口边缘，双11监管角度今日由南沙硬条款条覆盖，62分低于65资格线"
+        },
+        {
+          "candidate_key": "baqing-heavy-drone-survey",
+          "story_identity": "baqing-heavy-drone-fault-survey-followup",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 19,
+            "everyday_relevance": 15,
+            "evidence": 7
+          },
+          "drop_reason": "巴青重载无人机勘查地表破裂带属救灾后续手段类动态，无全新量级进展，按克制原则不收，62分低于65资格线"
+        },
+        {
+          "candidate_key": "wuhan-metro-line12-loop-recheck",
+          "story_identity": "wuhan-metro-line-12-longest-loop-opening",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T09:29:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 13,
+            "everyday_relevance": 18,
+            "evidence": 7
+          },
+          "drop_reason": "武汉地铁12号线开通在10月29日，前两日均已评估未选，事件龄近70小时，不重复立条"
+        },
+        {
+          "candidate_key": "gb19193-disinfection-standard-nov1",
+          "story_identity": "gb19193-2025-infectious-disinfection-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 17,
+            "everyday_relevance": 16,
+            "evidence": 7
+          },
+          "drop_reason": "传染病消毒规范强标属11月1日新规补遗，两日均未收且偏专业公共卫生，民生贴近性一般，60分低于65资格线"
+        },
+        {
+          "candidate_key": "yantai-marathon-nov1",
+          "story_identity": "yantai-marathon-2026-nov1-start",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T07:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 18,
+            "everyday_relevance": 14,
+            "evidence": 7
+          },
+          "drop_reason": "烟台马拉松属地方赛事量级一般，民生相关度14低于15地板，且马拉松题材11月1日已由杭马覆盖"
+        },
+        {
+          "candidate_key": "nrta-no-startup-ads-rule-recheck",
+          "story_identity": "nrta-no-startup-ads-rule-nov27",
+          "research_pass": 1,
+          "occurred_at": "2026-10-24T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 12,
+            "everyday_relevance": 20,
+            "evidence": 8
+          },
+          "drop_reason": "有线电视开机广告新规10月24日公布、11月27日施行，发布时点远超72小时窗口，不入选"
+        },
+        {
+          "candidate_key": "mca-elderly-facility-grade-consultation",
+          "story_identity": "mca-elderly-facility-grade-standard-consultation",
+          "research_pass": 1,
+          "occurred_at": "2026-10-28T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 13,
+            "everyday_relevance": 18,
+            "evidence": 9
+          },
+          "drop_reason": "养老机构等级划分国标征求意见发布于10月28日、反馈期至12月28日，发布时点超出72小时窗口"
+        },
+        {
+          "candidate_key": "haikou-water-price-hearing-notice",
+          "story_identity": "haikou-water-price-hearing-notice-nov17",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T17:03:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 15,
+            "everyday_relevance": 17,
+            "evidence": 6
+          },
+          "drop_reason": "海口供水价格听证会公告（二）公告日在10月30日、听证在11月17日，单城程序性公告量级有限，58分低于65资格线"
+        },
+        {
+          "candidate_key": "martyrs-facility-protection-rule-nov1",
+          "story_identity": "martyrs-memorial-facility-rule-order12-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 17,
+            "everyday_relevance": 15,
+            "evidence": 7
+          },
+          "drop_reason": "烈士纪念设施保护管理办法施行属11月1日新规补遗，题材偏纪念管理、民生贴近性弱，58分低于65资格线"
+        },
+        {
+          "candidate_key": "hainan-escort-team-standard-oct30",
+          "story_identity": "hainan-escort-service-team-standard",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 57,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 15,
+            "everyday_relevance": 16,
+            "evidence": 6
+          },
+          "drop_reason": "海南陪诊服务团体标准10月30日发布，团体标准约束力弱且已并入陪诊市场端条背景，57分低于65资格线"
+        },
+        {
+          "candidate_key": "japan-honshu-m60-deep-quake-recheck",
+          "story_identity": "japan-honshu-offshore-m60-deep-quake",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T06:15:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 56,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 17,
+            "everyday_relevance": 12,
+            "evidence": 7
+          },
+          "drop_reason": "日本本州南部海域6.0级深源地震无损伤报告，属外国地方例行事件，11月2日已评估维持不选"
+        },
+        {
+          "candidate_key": "tianshui-train-nurse-rescue",
+          "story_identity": "tianshui-medical-staff-train-rescue",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 17,
+            "everyday_relevance": 12,
+            "evidence": 5
+          },
+          "drop_reason": "天水医护列车救治脱臼旅客为医院供稿暖闻，公共性不足，民生相关度12低于15地板"
+        },
+        {
+          "candidate_key": "changsha-marathon-old-announcement",
+          "story_identity": "changsha-marathon-nov15-old-announcement",
+          "research_pass": 1,
+          "occurred_at": "2026-10-26T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 54,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 13,
+            "everyday_relevance": 15,
+            "evidence": 6
+          },
+          "drop_reason": "长沙马拉松11月15日举办系旧发布信息，无11月新事件锚点，54分低于65资格线"
+        },
+        {
+          "candidate_key": "typhoon-yanhua-weakening-no-impact-day2",
+          "story_identity": "typhoon-yanhua-weakened-no-impact",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 54,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 18,
+            "everyday_relevance": 12,
+            "evidence": 5
+          },
+          "drop_reason": "台风烟花减弱为强热带风暴且中央气象台明确对我国海域无影响，连续两日评估维持不报"
+        },
+        {
+          "candidate_key": "baqing-m42-aftershock-nov2",
+          "story_identity": "baqing-m42-aftershock-nov2-night",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T23:35:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 18,
+            "everyday_relevance": 11,
+            "evidence": 4
+          },
+          "drop_reason": "巴青4.2级地震属10月22日主震余震序列常规衰减，无伤亡与损失报告，52分低于65资格线"
+        },
+        {
+          "candidate_key": "bali-glamping-landslide",
+          "story_identity": "bali-glamping-landslide-two-missing",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T00:00:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 17,
+            "everyday_relevance": 9,
+            "evidence": 5
+          },
+          "drop_reason": "巴厘岛露营地滑坡2人失踪属外国地方小型事件，无中国关联与全球代表性，不入选"
+        },
+        {
+          "candidate_key": "fuel-price-next-window-nov12",
+          "story_identity": "fuel-price-next-adjust-window-nov12",
+          "research_pass": 1,
+          "occurred_at": "2026-10-29T17:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 13,
+            "everyday_relevance": 13,
+            "evidence": 5
+          },
+          "drop_reason": "成品油下一轮调价窗口为11月12日24时而非今日，无当日事件，不作事实陈述"
+        },
+        {
+          "candidate_key": "russia-tuva-mine-fire",
+          "story_identity": "russia-tuva-coal-mine-fire-injuries",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T00:00:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 48,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 17,
+            "everyday_relevance": 9,
+            "evidence": 4
+          },
+          "drop_reason": "俄罗斯图瓦煤矿火灾11人受伤属外国地方工业事故，量级不足且无中国关联，不入选"
+        },
+        {
+          "candidate_key": "malaysia-shah-alam-landslide",
+          "story_identity": "malaysia-shah-alam-carpark-landslide",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T00:00:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 46,
+          "score_breakdown": {
+            "heat": 17,
+            "freshness": 17,
+            "everyday_relevance": 8,
+            "evidence": 4
+          },
+          "drop_reason": "马来西亚莎阿南停车场滑坡无伤亡，外国地方新闻，不入选"
+        },
+        {
+          "candidate_key": "small-quakes-nov1-nov2-routine",
+          "story_identity": "muli-kuche-tanggula-small-quakes-routine",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T15:21:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 45,
+          "score_breakdown": {
+            "heat": 17,
+            "freshness": 17,
+            "everyday_relevance": 8,
+            "evidence": 3
+          },
+          "drop_reason": "木里3.0级、库车3.0级、唐古拉3.4级均为常规小震无灾情，45分低于65资格线"
+        },
+        {
+          "candidate_key": "ciie-full-setup-complete-unconfirmed",
+          "story_identity": "ciie-full-setup-complete-nov3-unconfirmed",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T20:49:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "进博会11月3日全部布展完成的官方确认截至11月3日7时未发布，仅有布展基本就绪图集与探馆稿，且已连续四天发进博条，宁可缺口不收"
+        },
+        {
+          "candidate_key": "shanxi-mine-accident-old-news",
+          "story_identity": "shanxi-coal-mine-accident-may-old-news",
+          "research_pass": 1,
+          "occurred_at": "2026-05-12T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "重大事件",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "检索中出现的山西煤矿事故稿经核对为2026年5月旧闻，非当前事件，不作事实陈述"
+        },
+        {
+          "candidate_key": "yinchuan-pension-raise-single-source",
+          "story_identity": "yinchuan-pension-raise-commercial-single-source",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "银川城乡居民养老金提标补发仅商业网站今讯网单源、无官方源佐证，证据不足不采用"
+        },
+        {
+          "candidate_key": "drug-procurement-round12-no-new-event",
+          "story_identity": "drug-procurement-round12-provincial-execution",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "第12批国家药品集采各省执行通知均在10月19至30日之间，无10月31日后新事件，汇总稿为医药自媒体，证据不足"
+        },
+        {
+          "candidate_key": "medical-catalog-november-old-news",
+          "story_identity": "medical-insurance-catalog-september-old-news",
+          "research_pass": 1,
+          "occurred_at": "2026-09-15T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "医保目录11月发布说法溯源为9月旧闻翻新，非当前事件，不作事实陈述"
+        },
+        {
+          "candidate_key": "warm-stories-no-date-anchor",
+          "story_identity": "tonglu-chongqing-warm-stories-no-anchor",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "桐庐与重庆暖闻线索均无明确日期锚点，无法核实事件发生时刻，不作事实陈述"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-03-nhsa-birth-insurance-data",
+      "story_identity": "nhsa-birth-insurance-q3-data-labor-analgesia",
+      "headline": "🤱 医保局：前三季度生育保险支出1010亿元，分娩镇痛医保覆盖所有省份",
+      "summary": "国家医保局11月2日向央视披露：今年1至9月生育保险基金支出1010亿元、惠及3355万人次，其中生育津贴781.61亿元已全面直接发放至个人；31个省份322个统筹地区实现政策范围内住院分娩个人“无自付”，所有省份均已将分娩镇痛纳入医保报销。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 83,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 19,
+        "everyday_relevance": 23,
+        "evidence": 13
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-02T14:38:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "以央视新闻客户端首发及川观、羊城派转载为准；生育津贴直发个人今年2月已宣布全国实现，本条增量在前三季度数据与分娩镇痛所有省份覆盖新表述，标题摘要不把直发写成全新事；事件锚点取新京报引央视14时38分盖章时刻"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "川观新闻",
+          "url": "https://cbgc.scol.com.cn/news/8107854",
+          "title": "前三季度生育保险基金支出1010亿元",
+          "captured_at": "2026-11-03T06:20:00+08:00",
+          "note": "川观新闻11月2日14时53分转央视新闻客户端：1至9月生育保险基金支出1010亿元惠及3355万人次，生育津贴781.61亿元全面直发个人"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "羊城派",
+          "url": "https://ycpai.ycwb.com/content/ikimvjjtki/content_54336965.html",
+          "title": "国家医保局：所有省份均将分娩镇痛纳入医保",
+          "captured_at": "2026-11-03T06:21:00+08:00",
+          "note": "羊城派11月2日14时46分转央视新闻：31个省份322个统筹地区实现政策范围内住院分娩个人无自付，所有省份分娩镇痛纳入医保报销"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "新京报",
+          "url": "https://www.bjnews.com.cn/detail/1793597933129317.html",
+          "title": "国家医保局披露生育保险前三季度数据",
+          "captured_at": "2026-11-03T06:22:00+08:00",
+          "note": "新京报11月2日14时38分引央视报道同一组数据，含十五五生育保险扩面方向"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-03-cyclone-murasu-landfall-india",
+      "story_identity": "cyclone-murasu-landfall-andhra-nov3",
+      "headline": "🌀 强气旋风暴“穆拉苏”开始在印度安得拉邦沿海登陆",
+      "summary": "印度气象局确认，强气旋风暴“穆拉苏”于北京时间11月3日凌晨3时30分开始在安得拉邦翁戈尔附近沿海登陆，持续风速100至110公里每小时、阵风120公里，沿海低洼地区或现1至1.5米风暴潮；当地自本周一起疏散沿海居民，计划转移约3万人，目前暂无伤亡报告。",
+      "category": "国际",
+      "scope": "international",
+      "topic": "自然灾害",
+      "primary_organization": "印度气象局（IMD）",
+      "audience_relevance": {
+        "basis": "global_major_event",
+        "impact_scale": "global_systemic",
+        "china_connection": "北印度洋强气旋一周内第二次登陆印度人口稠密沿海，国际主流通讯社与印度官方机构滚动播报，属普通读者需要知晓的全球重大气象事件",
+        "everyday_impact": "登陆已发生并伴随风暴潮与数万人规模转移，全球媒体头条级覆盖，读者有基本知情需求；对我国无直接影响，仅作知情性报道",
+        "score": 20
+      },
+      "score": 80,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 20,
+        "everyday_relevance": 16,
+        "evidence": 13
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-03T03:30:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "只写登陆开始与疏散、气象实况，IMD官方公报加路透社、PTI、The Hindu三方独立确认；灾情全貌未明不断言损失，此前气旋阿纳布旧死亡数据不混入本条；11月1日与2日均以预报阶段评估未选，今日登陆已发生满足重评条件"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "印度气象局IMD",
+          "url": "https://mausam.imd.gov.in/backend/assets/cyclone_pdf/3_Hourly_Bulletin_021126_1330IST1.pdf",
+          "title": "IMD 3-Hourly Cyclone Bulletin",
+          "captured_at": "2026-11-03T06:24:00+08:00",
+          "note": "印度气象局官方公报：强气旋风暴Murasu于印度时间11月3日01:00（北京时间03:30）开始在翁戈尔附近沿海登陆，风速与风暴潮实况"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/international/4000907-cyclone-murasu-begins-making-landfall-on-indias-eastern-coast",
+          "title": "Cyclone Murasu begins making landfall on India's eastern coast",
+          "captured_at": "2026-11-03T06:25:00+08:00",
+          "note": "Devdiscourse刊路透社通稿（已核全文）：登陆开始，安得拉邦自周一起疏散居民、计划转移约3万人，南安得拉沿海强降雨"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "PTI/The Week",
+          "url": "https://www.theweek.in/wire-updates/national/2026/11/03/cyclone-murasu-landfall-begins-heavy-rain-120-kmph-winds-batter-andhra-coast.html",
+          "title": "Cyclone Murasu landfall begins, heavy rain batters Andhra coast",
+          "captured_at": "2026-11-03T06:26:00+08:00",
+          "note": "PTI通稿经The Week刊发（已核全文）：登陆时持续风速100至110公里每小时、阵风120公里，独立通讯社佐证"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/severe-cyclone-murasu-landfall-on-november-3-2026/article71658293.ece",
+          "title": "Severe cyclone Murasu makes landfall on November 3",
+          "captured_at": "2026-11-03T06:27:00+08:00",
+          "note": "The Hindu报道登陆点预计在内洛尔与纳尔萨布尔之间，风暴潮1至1.5米淹没沿海低洼地区"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-03-nansha-double11-ai-marketing-rules",
+      "story_identity": "nansha-double11-guidance-ai-labeling-algorithm",
+      "headline": "🛒 双11监管细化：广州南沙要求AI营销显著标注、折价对标前7日最低价",
+      "summary": "广州市南沙区市场监督管理局11月2日发布“双十一”网络集中促销行政指导意见书：平台须对参促商家作事前资质复核、促销规则一次性公示，不得强制“二选一”；使用AI生成图片、视频、数字人营销应显著标注，不得大数据杀熟；严禁虚构原价、先涨后折，折价基准不得高于前7日最低成交价。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 76,
+      "score_breakdown": {
+        "heat": 25,
+        "freshness": 18,
+        "everyday_relevance": 21,
+        "evidence": 12
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-02T00:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "以南沙区政府网意见书原文为主锚，人民网四川与华龙网佐证川渝联合提示作背景不单列；与10月23至28日双11快递涨价等旧条角度不同：本条取AI标注与折价基准新条款；区级文件量级偏小已在评分体现"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "南沙区市监局",
+          "url": "http://www.gzns.gov.cn/zwgk/zwdt/content/post_11081333.html",
+          "title": "关于2026年“双十一”网络集中促销活动行政指导意见书",
+          "captured_at": "2026-11-03T06:29:00+08:00",
+          "note": "南沙区政府网11月2日发布意见书原文：事前资质复核、促销规则一次性公示、AI生成内容显著标注、不得大数据杀熟、折价基准不得高于前7日最低成交价"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "人民网四川",
+          "url": "http://sc.people.com.cn/n2/2026/1102/c379470-41738792.html",
+          "title": "川渝联合发布双11合规提示",
+          "captured_at": "2026-11-03T06:30:00+08:00",
+          "note": "人民网四川频道11月2日7时59分详解川渝两地市监部门联合合规提示：平台核验商家资质、活动页设证照入口、直播高风险话术禁令"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "华龙网",
+          "url": "https://www.cqnews.net/web/content_1565844237218762752.html",
+          "title": "川渝市监部门双11合规提示原文",
+          "captured_at": "2026-11-03T06:31:00+08:00",
+          "note": "华龙网10月30日刊发联合提示原文，明确川渝联合发布日期，作背景佐证"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-03-escort-standard-market-landing",
+      "story_identity": "escort-standard-market-kunming-liuzhou-nov2",
+      "headline": "🏥 陪诊国标落地次日走访：昆明平台化运营，个人陪诊师谋求转型",
+      "summary": "陪诊国标11月1日实施后，媒体11月2日走访市场端：昆明本土陪诊平台按机构化运营，陪诊师须培训考核、持健康证上岗并投保双方保险，昆明政协提案答复明确试点社区陪诊平台；柳州个人陪诊师主动对接机构求纳入管理，律师提示代取病历、缴费须书面授权，不得涉及诊疗。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 75,
+      "score_breakdown": {
+        "heat": 24,
+        "freshness": 18,
+        "everyday_relevance": 21,
+        "evidence": 12
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-02T00:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "与11月1日已发首日施行条切割：本条只取次日市场端实测新事实（昆明平台化与政协提案答复、柳州个人陪诊师转型与律师提示），不重复标准内容本身；两篇均11月2日刊发，澎湃号柳州日报全文已核"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "云南网",
+          "url": "https://yn.yunnan.cn/system/2026/11/02/034187804.shtml",
+          "title": "陪诊国标落地后的昆明市场走访",
+          "captured_at": "2026-11-03T06:32:00+08:00",
+          "note": "云南网11月2日报道：昆明乐为陪诊平台机构化运营（培训考核、健康证、双方保险、隐私协议），卫健系统我陪患者走流程一年推动整改600余条，政协提案答复明确试点社区陪诊平台"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "澎湃新闻",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34386572",
+          "title": "柳州个人陪诊师谋求转型",
+          "captured_at": "2026-11-03T06:33:00+08:00",
+          "note": "澎湃号·柳州日报11月2日走访（全文已核）：个人陪诊师主动对接机构求纳入管理，机构对照国标优化流程联动养老院闭环陪护，律师提示代取病历缴费须书面授权"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-03-ev-ccc-market-frame-battery",
+      "story_identity": "ev-ccc-market-frame-battery-separation-nov2",
+      "headline": "🛵 电动车CCC新规落地：整车须厂内完成检验，车架电池分售惯例或终结",
+      "summary": "财新11月2日报道：《强制性产品认证实施规则 电动自行车（试行）》11月1日起实施，要求整车安装及其检验在工厂内完成、确保出厂装配完整，门店“先买车架再配电池”的长期分售惯例或成历史；此前市场监管总局证后检查发现部分企业随意更换关键零部件，已撤销或暂停相关CCC证书。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 75,
+      "score_breakdown": {
+        "heat": 24,
+        "freshness": 18,
+        "everyday_relevance": 22,
+        "evidence": 11
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-02T00:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "与11月1日已发一车一池一充一码首日条切割：本条只取财新市场端影响报道与认监委规则原文交叉部分；财新全文付费墙仅核实开头两段，源note如实注明，未延伸引用付费段落细节"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "财新网",
+          "url": "https://www.caixin.com/2026-11-02/102500072.html",
+          "title": "电动车CCC新规冲击车架电池分售惯例",
+          "captured_at": "2026-11-03T06:34:00+08:00",
+          "note": "财新11月2日报道，付费墙仅核实开头两段：整车安装及检验须在工厂内完成、确保出厂装配完整，门店分售惯例或成历史，与认监委公告原文交叉一致"
+        },
+        {
+          "tier": "official",
+          "outlet": "国家认监委",
+          "url": "https://www.cnca.gov.cn/zwxx/gg/2026/art/2026/art_1d458e27c76e4a738a4ea25b4725ca14.html",
+          "title": "强制性产品认证实施规则 电动自行车（试行）",
+          "captured_at": "2026-11-03T06:35:00+08:00",
+          "note": "认监委2026年第8号公告原文：CNCA-C11-16:2026规则11月1日起实施，官方源头佐证规则内容与施行日期"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/10-23/10719795.shtml",
+          "title": "市场监管总局通报电动车CCC证后检查",
+          "captured_at": "2026-11-03T06:36:00+08:00",
+          "note": "中新网10月23日转央视：检查发现部分企业随意更换关键零部件、预留解除限速篡改空间，认证机构已撤销或暂停相关CCC证书"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-03-hangzhou-ai-legal-risk-guide",
+      "story_identity": "hangzhou-ai-legal-risk-guide-compliance-code",
+      "headline": "🤖 杭州发布AI风控法务指引，68件指引配套“合规码”免费自检",
+      "summary": "杭州11月2日发布人工智能风险防控法务指引，覆盖人形机器人、脑机接口、开源AI智能体等68件指引文件；“杭州合规码”小程序同步上线，面向企业和开发者免费提供AI问答与风险自检，扫码即可查询相关合规要求。",
+      "category": "科技AI",
+      "scope": "domestic",
+      "topic": "科技AI",
+      "score": 70,
+      "score_breakdown": {
+        "heat": 23,
+        "freshness": 18,
+        "everyday_relevance": 18,
+        "evidence": 11
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-11-02T00:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "写作转化为监管细化加便民服务视角，只陈述指引发布与合规码便民工具事实，不涉具体案件与企业评价；以中新网11月2日发布会报道为准，潮新闻与杭州网同日报道为同场发布会"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-02/10724963.shtml",
+          "title": "杭州发布人工智能风险防控法务指引",
+          "captured_at": "2026-11-03T06:37:00+08:00",
+          "note": "中新网11月2日报道（已打开核实）：人形机器人、脑机接口、开源AI智能体等68件指引发布，杭州合规码小程序上线免费提供AI问答与风险自检"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
