@@ -1,0 +1,833 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T06:37:00+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 37,
+    "published": 5,
+    "dropped_safety": {
+      "controversy": 1,
+      "geopolitics": 1,
+      "politics": 1,
+      "propaganda": 1
+    },
+    "dropped_low_confidence": 24,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media",
+      "aggregator"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 33,
+      "official_sources": 15,
+      "state_media_sources": 19,
+      "major_media_sources": 11,
+      "aggregator_sources": 5,
+      "dropped_insufficient_evidence": 4
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 5,
+        "relaxed_48h": 12,
+        "relaxed_72h": 18
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 37,
+          "cumulative_unique_candidates": 37,
+          "source_scope": [
+            "国内官方发布与政策文件（部委、气象局、省市医保局与考试院官网）",
+            "央媒与持牌媒体报道（新华社、央视、中新网、人民网、扬子晚报等）",
+            "灾害与国际媒体扫描（中国地震台网、AP、CBS、The Hindu）",
+            "聚合平台线索与旧闻排雷（热搜线索与转载核查，仅佐证）"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-04-mohrss-q3-employment-stabilization",
+          "story_identity": "mohrss-q3-employment-1052w-stabilization-meeting",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T20:01:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-04-mohrss-q3-employment-stabilization",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-04-consumer-environment-month-launch",
+          "story_identity": "consumer-environment-month-quanzhou-launch-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T21:08:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-04-consumer-environment-month-launch",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-04-wuhan-flu-season-h3n2-trivalent",
+          "story_identity": "wuhan-cdc-flu-season-h3n2-trivalent",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T16:24:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-04-wuhan-flu-season-h3n2-trivalent",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 19,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-04-ndrc-ai-employment-monitoring",
+          "story_identity": "ndrc-ai-employment-monitoring-statement",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T14:13:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-04-ndrc-ai-employment-monitoring",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-04-suchao-season-economic-account",
+          "story_identity": "suchao-season-economic-account-yangtze-evening",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T18:08:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-11-04-suchao-season-economic-account",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 18,
+            "everyday_relevance": 18,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "hainan-medical-15th-plan-rate",
+          "story_identity": "hainan-medical-insurance-15th-plan-rate-reform",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T16:23:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "健康医疗题材同日已有武汉流感季服务条，同题材最多留一条；费率制为十五五期间拟推动方向而非即时新政，74分未达strict_24h线"
+        },
+        {
+          "candidate_key": "guangdong-consumption-expansion-plan",
+          "story_identity": "guangdong-consumption-expansion-plan-339",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T15:06:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "广东扩大消费实施方案与已选全国优化消费环境月同属消费题材，同日多题材平衡只留最强一条，74分未达strict_24h线"
+        },
+        {
+          "candidate_key": "qinhuangdao-lti-birth-policy",
+          "story_identity": "qinhuangdao-lti-birth-policy-release",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T16:05:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 21,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "秦皇岛长护险加生育新政为市级制度发布，健康医疗题材今日已有更强全国服务条；生育保障题材与11月3日已发医保局数据条邻近，73分未达strict_24h线"
+        },
+        {
+          "candidate_key": "ciie-full-setup-final-confirmation",
+          "story_identity": "ciie-full-setup-complete-final-confirmation",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T17:01:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "进博会10月30日至11月2日已连续发四条，今日全部布展完成属同事件最终确认，按宁可不收口径放弃，73分未达strict_24h线"
+        },
+        {
+          "candidate_key": "cctv-escort-focus-interview-day3",
+          "story_identity": "cctv-focus-escort-standard-day3",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T20:05:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "陪诊国标已发首日施行与次日市场走访两条，焦点访谈为同事件第三日跟踪报道，按不再收口径放弃，73分未达strict_24h线"
+        },
+        {
+          "candidate_key": "hebei-double11-compliance-tips",
+          "story_identity": "hebei-double11-compliance-tips-regulator",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T17:26:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 19,
+            "everyday_relevance": 19,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "河北双11合规提示与11月3日已发南沙AI标注条同属双11监管题材，差异化不足不单列；消费题材今日已有消费环境月，72分未达strict_24h线"
+        },
+        {
+          "candidate_key": "hk-palace-qing-four-seasons-exhibition",
+          "story_identity": "hk-palace-qing-four-seasons-exhibition",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 18,
+            "everyday_relevance": 16,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "香港故宫清宫四时展11月3日揭幕、11月4日起开放，文化体育题材今日已有苏超经济账，展览类民生贴近性次之，71分未达strict_24h线"
+        },
+        {
+          "candidate_key": "cma-november-climate-briefing",
+          "story_identity": "cma-november-climate-briefing",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T10:30:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 65,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 19,
+            "everyday_relevance": 16,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "中国气象局11月例行发布会属月度气候趋势展望，服务增量有限且冷空气供暖题材近期已发，65分仅达relaxed_72h"
+        },
+        {
+          "candidate_key": "railway-double11-express-launch",
+          "story_identity": "railway-double11-express-20day-launch",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 16,
+            "everyday_relevance": 20,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "铁路双11快运11月1日启动处窗口边缘，距选择时钟约46小时、48小时线余量不足2小时；消费题材今日已有更强条，68分仅达relaxed_72h"
+        },
+        {
+          "candidate_key": "mid-late-rice-minimum-price-support",
+          "story_identity": "mid-late-rice-minimum-price-support",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 65,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 16,
+            "everyday_relevance": 19,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "中晚稻最低收购价六省托市为经济日报11月2日稿，事件锚点接近48小时窗口边缘，服务面偏产区农户，65分仅达relaxed_72h"
+        },
+        {
+          "candidate_key": "quanzhou-lti-system-landing",
+          "story_identity": "quanzhou-lti-system-landing",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T14:39:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 18,
+            "everyday_relevance": 20,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "泉州长护险落地与秦皇岛同题材不同城市，吹风会10月30日、报道集中11月1至2日时效次之；健康医疗题材今日已有武汉流感条，69分仅达relaxed_72h"
+        },
+        {
+          "candidate_key": "hunan-two-insurance-merge-explainer",
+          "story_identity": "hunan-two-insurance-merge-explainer",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T08:57:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 18,
+            "everyday_relevance": 19,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "湖南两险合并落地解读官方稿发于10月21日，媒体11月3日再报道时效偏弱；生育保障题材与11月3日已发条邻近，68分仅达relaxed_72h"
+        },
+        {
+          "candidate_key": "haidian-ccc-special-inspection",
+          "story_identity": "haidian-ccc-special-inspection",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T11:28:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 65,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 18,
+            "everyday_relevance": 18,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "海淀电动车童车玩具CCC专项检查属电动车新规题材第三个角度，首日施行与次日市场影响两条已发不再收，65分仅达relaxed_72h"
+        },
+        {
+          "candidate_key": "ai-gov-service-window-assistants",
+          "story_identity": "ai-gov-service-window-assistants",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 19,
+            "everyday_relevance": 17,
+            "evidence": 8
+          },
+          "drop_reason": "上海普陀智能窗口助手与顺义医院AI客服为官方单一来源正面宣传类便民稿，公共增量有限，64分低于65资格线"
+        },
+        {
+          "candidate_key": "beijing-xuekao-registration-start",
+          "story_identity": "beijing-xuekao-2027-registration-start",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 17,
+            "everyday_relevance": 18,
+            "evidence": 9
+          },
+          "drop_reason": "北京学考合格考网上报考启动为市级例行教育服务节点，64分低于65资格线"
+        },
+        {
+          "candidate_key": "huizhou-housing-fund-loan-rule",
+          "story_identity": "huizhou-housing-fund-loan-rule-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 14,
+            "everyday_relevance": 19,
+            "evidence": 9
+          },
+          "drop_reason": "惠州公积金贷款办法11月1日施行，距选择时钟约79小时超出72小时窗口，不入选"
+        },
+        {
+          "candidate_key": "robot-convenience-store-24h-trial",
+          "story_identity": "robot-convenience-store-24h-trial",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 17,
+            "everyday_relevance": 16,
+            "evidence": 9
+          },
+          "drop_reason": "具身智能机器人便利店试岗含企业自述成分，科技向善量级有限，63分低于65资格线"
+        },
+        {
+          "candidate_key": "guiyang-housing-fund-liquidity-factor",
+          "story_identity": "guiyang-housing-fund-liquidity-factor-09",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 16,
+            "everyday_relevance": 18,
+            "evidence": 8
+          },
+          "drop_reason": "贵阳公积金贷款流动性调节系数下调通知10月9日发布、11月2日生效，时效靠生效日支撑且属地方收紧口径，61分低于65资格线"
+        },
+        {
+          "candidate_key": "sanxingdui-minor-free-ticket-recheck",
+          "story_identity": "sanxingdui-minor-free-ticket-nov4",
+          "research_pass": 1,
+          "occurred_at": "2026-10-31T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 13,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "drop_reason": "三星堆未成年人免票11月4日起生效，截至11月4日6时30分无首日实况报道且无馆方正式公告链接，事件锚点超72小时窗口，维持11月3日评估不收"
+        },
+        {
+          "candidate_key": "jiangsu-gaokao-registration-deadline",
+          "story_identity": "jiangsu-gaokao-registration-deadline-nov4",
+          "research_pass": 1,
+          "occurred_at": "2026-10-20T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 12,
+            "everyday_relevance": 18,
+            "evidence": 9
+          },
+          "drop_reason": "江苏高考报名截止时刻为11月4日17时属当日未来时刻不作事实陈述，报名通知10月20日发布超出窗口；广东高考报名11月2日已发同题材"
+        },
+        {
+          "candidate_key": "cyclone-murasu-damage-assessment",
+          "story_identity": "cyclone-murasu-landfall-andhra-nov3",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T12:00:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 13,
+            "evidence": 10
+          },
+          "drop_reason": "穆拉苏登陆条11月3日已发，今日官方灾情评估为2人死亡、312间房屋受损，量级不构成重大升级，按无重大升级不收口径放弃；民生相关度13低于15地板"
+        },
+        {
+          "candidate_key": "florida-learjet-crash-greenacres",
+          "story_identity": "florida-learjet-crash-greenacres-9-victims",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T01:50:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 16,
+            "everyday_relevance": 12,
+            "evidence": 10
+          },
+          "drop_reason": "佛州公务机坠毁机上9人遇难无中国关联，全球代表性处于门槛边缘，按国际条从严口径放弃；民生相关度12低于15地板"
+        },
+        {
+          "candidate_key": "typhoon-yanhua-restrengthen-no-impact",
+          "story_identity": "typhoon-yanhua-restrengthen-no-impact",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 54,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 19,
+            "everyday_relevance": 12,
+            "evidence": 5
+          },
+          "drop_reason": "台风烟花11月3日18时在远洋再次加强为台风级，位置趋向远洋对我国无影响，连续评估维持不报，54分低于65资格线"
+        },
+        {
+          "candidate_key": "domestic-small-quakes-nov3-routine",
+          "story_identity": "domestic-small-quakes-nov3-routine",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T22:02:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 48,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 19,
+            "everyday_relevance": 9,
+            "evidence": 4
+          },
+          "drop_reason": "11月3日国内地震均为3.x级小震且无人员伤亡报告，巴青两次3.7级属主震余震区正常活动，按要求不构成事件，48分低于65资格线"
+        },
+        {
+          "candidate_key": "nepal-everest-helicopter-collision",
+          "story_identity": "nepal-everest-helicopter-collision",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T09:00:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "尼泊尔珠峰地区两直升机降落相撞1死3伤仅环球网转路透社单一来源，未获第二独立源佐证，证据不足"
+        },
+        {
+          "candidate_key": "guangshen-d7117-trespass-fatalities",
+          "story_identity": "guangshen-d7117-trespass-fatalities",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T18:13:00+08:00",
+          "scope": "domestic",
+          "topic": "重大事件",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "广深线列车撞人致死仅单一低质信源且系行人翻越栅栏违规闯入，未获官方通报或主流媒体佐证，证据不足不作事实陈述"
+        },
+        {
+          "candidate_key": "ningxia-minimum-wage-nov1-recheck",
+          "story_identity": "ningxia-minimum-wage-raise-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "宁夏最低工资上调10月27日发布、11月1日执行，第二来源未独立核实；前两日均已评估未选，证据与时效均不足"
+        },
+        {
+          "candidate_key": "pension-recalculation-selfmedia-rumor",
+          "story_identity": "pension-recalculation-selfmedia-rumor",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "养老金重算补发仅自媒体测算稿流传，无官方新事实，不作事实陈述"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-04-mohrss-q3-employment-stabilization",
+      "story_identity": "mohrss-q3-employment-1052w-stabilization-meeting",
+      "headline": "💼 人社部：前三季度城镇新增就业1052万人，完成全年目标87.7%",
+      "summary": "人社部11月3日披露：1至9月全国城镇新增就业1052万人，完成全年目标任务的87.7%，城镇调查失业率均值5.2%；截至9月底基本养老、失业、工伤保险参保人数分别达10.79亿、2.51亿、3.27亿人。稳岗扩容提质行动部门推进会近日举行，将聚焦重点行业、重点领域精准挖潜就业机会。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 80,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 19,
+        "everyday_relevance": 20,
+        "evidence": 13
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-03T20:01:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "以新华社11月3日20时01分盖章稿与21经济网转中国劳动保障报前三季度成绩单为准；推进会表述为近日举行，不断言当日召开；事件锚点取新华社发稿时刻"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "http://www.news.cn/20261103/00da2da8a8784219a50f15b92d0a433e/c.html",
+          "title": "我国深入实施稳岗扩容提质行动，多部门协同发力稳就业",
+          "captured_at": "2026-11-04T06:30:00+08:00",
+          "note": "新华社北京11月3日电（页面盖章20时01分）：国务院就业促进和劳动保护工作领导小组今年印发《稳岗扩容提质行动方案》，部门推进会近日举行，将构建大就业工作格局"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "21经济网",
+          "url": "https://www.21jingji.com/article/20261103/herald/f91eaef35adf581fa54670bb212c8a64.html",
+          "title": "2026年前三季度人社工作成绩单出炉",
+          "captured_at": "2026-11-04T06:31:00+08:00",
+          "note": "21经济网11月3日转中国劳动保障报：1至9月全国城镇新增就业1052万人、完成全年目标87.7%，城镇调查失业率均值5.2%，三项社保参保与基金结余数据"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-04-consumer-environment-month-launch",
+      "story_identity": "consumer-environment-month-quanzhou-launch-2026",
+      "headline": "🛍️ 全国“优化消费环境月”启动，放心消费平台上线超万家商家入驻",
+      "summary": "2026年全国“优化消费环境月”11月3日在福建泉州启动，市场监管总局等16个部门以“放心消费你我共享”为主题开展活动；全国放心消费平台正式上线、已有超万家商家入驻，百度地图、京东、淘宝闪购、美团首批接入，实现放心消费商家“一处赋标、多处点亮”，拒不履行承诺的商家将被取消标识。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 19,
+        "everyday_relevance": 20,
+        "evidence": 13
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-03T21:08:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "以市场监管总局官网工作动态与中新网11月3日21时08分泉州电为准，启动仪式为当日举行、锚点取中新网发稿时刻；16部门主题活动为客观事实表述，不涉会议宣传"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "市场监管总局",
+          "url": "https://www.samr.gov.cn/zfjcj/sjdt/gzdt/art/2026/art_77610a39f679476ea32d845f3b69fd2d.html",
+          "title": "2026年全国“优化消费环境月”启动仪式在泉州举行",
+          "captured_at": "2026-11-04T06:32:00+08:00",
+          "note": "市场监管总局官网工作动态：全国优化消费环境月11月3日在泉州启动，发布全国放心消费承诺标识与5个地方放心消费主体培育典型案例"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-03/10725581.shtml",
+          "title": "全国“优化消费环境月”启动 放心消费平台上线",
+          "captured_at": "2026-11-04T06:31:00+08:00",
+          "note": "中新网泉州11月3日电（页面盖章21时08分）：全国放心消费平台正式上线、超万家商家入驻，百度地图、京东、淘宝闪购、美团首批接入放心消费点亮工程"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-04-wuhan-flu-season-h3n2-trivalent",
+      "story_identity": "wuhan-cdc-flu-season-h3n2-trivalent",
+      "headline": "🤧 武汉疾控：流感进入流行季以甲型H3N2为主，今年疫苗全面调整为三价",
+      "summary": "武汉市疾控中心11月3日提醒：武汉逐渐进入流感流行季，当前甲型H3N2与乙型混合流行、以H3N2为主，全国周报显示甲流阳性样本中H3N2占近七成；因乙型Yamagata系自2020年3月起未再监测到，今年流感疫苗全面调整为三价、不再有四价，流行季为11月至次年3月，疾控建议“早打比晚打好”。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 77,
+      "score_breakdown": {
+        "heat": 25,
+        "freshness": 19,
+        "everyday_relevance": 21,
+        "evidence": 12
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-03T16:24:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "以武汉市政府门户11月3日16时24分发布的疾控提醒为主锚，人民网健康11月1日转央视财经稿佐证全国H3N2占比与疫苗三价调整背景；健康服务提示，措辞不制造恐慌"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "武汉市政府门户",
+          "url": "https://www.wuhan.gov.cn/hdjl/rdhy/202611/t20261103_2873391.shtml",
+          "title": "武汉市疾控中心提醒：流感进入流行季",
+          "captured_at": "2026-11-04T06:33:00+08:00",
+          "note": "武汉市政府门户11月3日16时24分发布：武汉逐渐进入流感流行季，甲型H3N2与乙型混合流行、H3N2为主，今年疫苗全面调整为三价，早打比晚打好"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "人民网健康",
+          "url": "http://health.people.cn/n1/2026/1101/c14739-40825334.html",
+          "title": "多毒株活跃，今年流感季提前",
+          "captured_at": "2026-11-04T06:24:00+08:00",
+          "note": "人民网健康11月1日转央视财经：全国流感周报甲流阳性样本中H3N2占近七成，今年全球流感疫苗全面调整为三价，作全国背景佐证"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-04-ndrc-ai-employment-monitoring",
+      "story_identity": "ndrc-ai-employment-monitoring-statement",
+      "headline": "🤖 国家发改委：对AI就业替代风险强化监测预警，新职业将纳入国家职业分类",
+      "summary": "国家发展改革委11月3日就培育壮大新动能举行新闻发布会：将密切关注人工智能对就业结构的影响，推动模型训练师、数据标注员等新职业纳入国家职业分类体系；对群众关心的就业替代风险强化监测预警，加强社保体系同就业结构、工作方式变革的衔接，做好兜底性、普惠性社会保障，并坚决打击利用人工智能实施的违法犯罪行为。",
+      "category": "科技AI",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 76,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 19,
+        "everyday_relevance": 20,
+        "evidence": 11
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-03T14:13:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "政策表态类而非新出台措施：标题摘要均用将与强化监测预警等发布会原表述，不写成已落地新政；以中新网11月3日14时13分发稿为准，单源央媒满足国内证据门槛"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-03/10725288.shtml",
+          "title": "国家发改委：积极应对人工智能对社会的影响",
+          "captured_at": "2026-11-04T06:30:00+08:00",
+          "note": "中新网11月3日14时13分发稿：发改委创新和高技术发展司表示推动模型训练师、数据标注员等新职业纳入国家职业分类体系，对就业替代风险强化监测预警、做好兜底性普惠性社会保障"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-04-suchao-season-economic-account",
+      "story_identity": "suchao-season-economic-account-yangtze-evening",
+      "headline": "⚽ 苏超收官经济账：带动江苏商贸客流近9000万人次、同比增长15.4%",
+      "summary": "扬子晚报11月3日特别报道盘点苏超赛季经济账：赛事带动江苏商贸客流8963万人次、同比增长15.4%，各地“第二现场”超700个、联动约2万户商家，决赛现场观赛62356人；苏超已成为带动城市消费与文旅联动的现象级赛事。",
+      "category": "文化数字经济",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 75,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 18,
+        "everyday_relevance": 18,
+        "evidence": 13
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-03T18:08:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "以扬子晚报11月3日18时08分特别报道为主锚，新华社11月2日稿佐证赛事收官与消费文旅带动表述；经济数据口径来自媒体盘点，不延伸断言"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "扬子晚报",
+          "url": "https://www.yzwb.net/news/yw/202611/t20261103_408988.html",
+          "title": "苏超收官经济账特别报道",
+          "captured_at": "2026-11-04T06:32:00+08:00",
+          "note": "扬子晚报11月3日18时08分特别报道：苏超带动江苏商贸客流8963万人次同比增15.4%，第二现场超700个联动约2万商户，决赛现场观赛62356人"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "http://www.xinhuanet.com/sports/20261102/a62ac47c6dfa45948c341d5868a9236b/c.html",
+          "title": "苏超赛季收官综述",
+          "captured_at": "2026-11-04T06:26:00+08:00",
+          "note": "新华社11月2日报道苏超赛季收官与赛事带动城市消费、文旅联动情况，作背景佐证"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
