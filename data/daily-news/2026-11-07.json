@@ -1,0 +1,798 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T06:28:14+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 35,
+    "published": 5,
+    "dropped_safety": {
+      "controversy": 1,
+      "geopolitics": 1,
+      "politics": 1,
+      "rumor": 1
+    },
+    "dropped_low_confidence": 25,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 30,
+      "official_sources": 1,
+      "state_media_sources": 3,
+      "major_media_sources": 4,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 1
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 5,
+        "relaxed_48h": 9,
+        "relaxed_72h": 13
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 35,
+          "cumulative_unique_candidates": 35,
+          "source_scope": [
+            "国内官方发布与预警（国家应急广播、气象台、部委发布会等）",
+            "央媒与持牌媒体（新华社、中新网、新华网、新京报、四川在线等）",
+            "公共服务线索与转载复核（通讯社通稿转载页、资格考试成绩发布等）",
+            "安全排雷与旧闻排除（聚合线索仅佐证，不单独成立）"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-07-cma-first-blizzard-blue-warning",
+          "story_identity": "cma-first-blizzard-blue-warning-weekend-snow",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-11-07-cma-first-blizzard-blue-warning",
+          "score": 87,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-07-ntce-score-release",
+          "story_identity": "ntce-2026h2-written-score-interview-signup",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "selected",
+          "item_id": "2026-11-07-ntce-score-release",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 19,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-07-jinji-festival-xiamen-open",
+          "story_identity": "golden-rooster-festival-2026-xiamen-opening",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-11-07-jinji-festival-xiamen-open",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-07-ndrc-energy-grain-presser",
+          "story_identity": "ndrc-nov6-presser-winter-energy-grain-1b-tonnes",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-07-ndrc-energy-grain-presser",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 19,
+            "everyday_relevance": 21,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-07-cup-of-china-day1",
+          "story_identity": "cup-of-china-2026-shenzhen-day1-results",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T22:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-11-07-cup-of-china-day1",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-07-holiday-arrangement-2027",
+          "story_identity": "state-council-2027-holiday-schedule",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T17:32:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 87,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 16,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "2027年节假日安排11月5日17时公布，事件龄约37小时超出严格日24小时窗口，今日为strict_24h层级不选，留存48小时层级"
+        },
+        {
+          "candidate_key": "2026-11-07-beijing-school-canteen-reform",
+          "story_identity": "beijing-schools-end-catered-meals-2027",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 16,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "北京中小学取消外送餐转自营食堂为11月5日推进会披露，事件龄约42小时，属48小时层级，strict_24h日不选"
+        },
+        {
+          "candidate_key": "2026-11-07-inner-mongolia-ice-snow-voucher",
+          "story_identity": "inner-mongolia-winter-tourism-5m-vouchers",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T16:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "内蒙古500万元冰雪消费券为区域性促消费信息，73分低于strict_24h的75分线，只达48小时层级，今日不选"
+        },
+        {
+          "candidate_key": "2026-11-07-wuzhen-summit-close",
+          "story_identity": "wic-wuzhen-2026-summit-closed",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 16,
+            "everyday_relevance": 17,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "乌镇峰会闭幕为11月5日中午事件，龄约42小时达48小时层级下限，近期已覆盖AI就业表态题材，strict日不选"
+        },
+        {
+          "candidate_key": "2026-11-07-sichuan-sports-voucher",
+          "story_identity": "sichuan-first-sports-voucher-50m",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 19,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "四川首次发放5000万元省级体育消费券为省级促消费动态，69分低于48小时层级70分线"
+        },
+        {
+          "candidate_key": "2026-11-07-guangxi-retail-voucher",
+          "story_identity": "guangxi-14-city-30m-retail-voucher-nov7",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 18,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "广西14城3000万元零售消费券与内蒙古、四川同为地方消费券题材，68分低于70分线，不叠加同类"
+        },
+        {
+          "candidate_key": "2026-11-07-ceair-ciie-first-signing",
+          "story_identity": "ceair-ciie-central-soe-first-order",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 16,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "东航进博央企集中签约首单为展会签约动态，66分低于70分线，进博题材近期已覆盖"
+        },
+        {
+          "candidate_key": "2026-11-07-ge-ciie-129b-order",
+          "story_identity": "ge-aerospace-ciie-12-9b-orders",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 65,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 15,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "GE航空航天进博订单金额大但与读者日常生活关联弱，65分仅达72小时层级，strict日不选"
+        },
+        {
+          "candidate_key": "2026-11-07-ciie-day2-food-hall",
+          "story_identity": "ciie-day2-agri-food-hall-visit",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T21:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 19,
+            "everyday_relevance": 15,
+            "evidence": 8
+          },
+          "drop_reason": "进博第二日农食展区探馆为体验式报道，63分低于65资格线"
+        },
+        {
+          "candidate_key": "2026-11-07-meishan-marathon-preview",
+          "story_identity": "meishan-dongpo-marathon-nov8-25k",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T14:09:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 14,
+            "everyday_relevance": 17,
+            "evidence": 9
+          },
+          "drop_reason": "眉山东坡马拉松为11月8日开跑预告，原稿10月30日发布远超72小时窗口，且62分低于65资格线"
+        },
+        {
+          "candidate_key": "2026-11-07-xishan-marathon-preview",
+          "story_identity": "xishan-wanshanhu-marathon-nov8-13k",
+          "research_pass": 1,
+          "occurred_at": "2026-10-30T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 14,
+            "everyday_relevance": 17,
+            "evidence": 9
+          },
+          "drop_reason": "锡山宛山湖马拉松预告稿10月30日发布，属旧稿预告且61分低于65资格线"
+        },
+        {
+          "candidate_key": "2026-11-07-ankang-half-marathon",
+          "story_identity": "ankang-half-marathon-nov8",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 15,
+            "everyday_relevance": 15,
+            "evidence": 8
+          },
+          "drop_reason": "安康半程马拉松为地方赛事预告，58分低于65资格线"
+        },
+        {
+          "candidate_key": "2026-11-07-cma-gale-blue-continue",
+          "story_identity": "cma-gale-blue-warning-nov6-evening",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 19,
+            "everyday_relevance": 15,
+            "evidence": 7
+          },
+          "drop_reason": "中央气象台大风蓝色预警与已选暴雪预警同出一轮冷空气过程，不单列；62分低于65资格线"
+        },
+        {
+          "candidate_key": "2026-11-07-changyi-coldwave-blue",
+          "story_identity": "changyi-coldwave-blue-warning-nov6",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T20:43:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 19,
+            "everyday_relevance": 15,
+            "evidence": 6
+          },
+          "drop_reason": "山东昌邑寒潮蓝色预警为县级预警，量级小；60分低于65资格线"
+        },
+        {
+          "candidate_key": "2026-11-07-zibo-coldwave-risk-tip",
+          "story_identity": "zibo-coldwave-risk-notice-nov6",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 18,
+            "everyday_relevance": 15,
+            "evidence": 6
+          },
+          "drop_reason": "淄博寒潮风险提示为市级服务提示，与暴雪预警条重叠；58分低于65资格线"
+        },
+        {
+          "candidate_key": "2026-11-07-dpm-yanxi-palace-close",
+          "story_identity": "forbidden-city-yanxi-palace-closure",
+          "research_pass": 1,
+          "occurred_at": "2026-11-04T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 57,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 16,
+            "everyday_relevance": 15,
+            "evidence": 6
+          },
+          "drop_reason": "故宫延禧宫停止开放为11月4日旧闻，临近72小时窗口边缘；57分低于65资格线"
+        },
+        {
+          "candidate_key": "2026-11-07-hetian-hekang-m48-quake",
+          "story_identity": "hetian-hekang-m48-quake-nov6",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T00:56:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 18,
+            "everyday_relevance": 12,
+            "evidence": 3
+          },
+          "drop_reason": "新疆和田和康县4.8级地震量级小、民生相关度12低于15地板；52分低于65资格线"
+        },
+        {
+          "candidate_key": "2026-11-07-baqing-aftershock-nov6",
+          "story_identity": "baqing-aftershock-nov6-morning",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T10:11:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 46,
+          "score_breakdown": {
+            "heat": 17,
+            "freshness": 18,
+            "everyday_relevance": 9,
+            "evidence": 2
+          },
+          "drop_reason": "巴青11月6日地震为震区余震活动，近期已覆盖巴青震区题材；46分低于65资格线"
+        },
+        {
+          "candidate_key": "2026-11-07-fiji-m61-quake",
+          "story_identity": "fiji-m61-quake-nov6-deep",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T01:21:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 48,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 18,
+            "everyday_relevance": 7,
+            "evidence": 5
+          },
+          "drop_reason": "斐济群岛6.1级深源地震无中国关联、非全球重大事件，民生相关度7低于15地板"
+        },
+        {
+          "candidate_key": "2026-11-07-chuanyu-autumn-rail-repeat",
+          "story_identity": "chengdu-railway-autumn-tour-transport-plan",
+          "research_pass": 1,
+          "occurred_at": "2026-11-04T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 14,
+            "everyday_relevance": 18,
+            "evidence": 8
+          },
+          "drop_reason": "川渝黔秋游加开列车为重复题材，11月6日信封已评估同一线索；60分低于65资格线"
+        },
+        {
+          "candidate_key": "2026-11-07-beijing-heating-trial-repeat",
+          "story_identity": "beijing-heating-trial-run-nov7-repair-lines",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T10:10:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 19,
+            "everyday_relevance": 16,
+            "evidence": 4
+          },
+          "drop_reason": "北京11月7日供热试运行11月6日信封已发布同一事件，重复不选"
+        },
+        {
+          "candidate_key": "2026-11-07-ciie-new-product-fair-repeat",
+          "story_identity": "ciie-new-product-showcase-480-schedule",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 18,
+            "everyday_relevance": 15,
+            "evidence": 6
+          },
+          "drop_reason": "进博新品汇排期前期信封已发，属重复线索；60分低于65资格线"
+        },
+        {
+          "candidate_key": "2026-11-07-kaoyan-confirm-ongoing",
+          "story_identity": "kaoyan-2027-online-confirm-provincial-windows",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 15,
+            "everyday_relevance": 18,
+            "evidence": 6
+          },
+          "drop_reason": "考研网上确认为各省窗口期进行中状态，无当日统一新事实，属流程提醒；58分低于65资格线"
+        },
+        {
+          "candidate_key": "2026-11-07-nanchang-marathon-preview",
+          "story_identity": "nanchang-marathon-nov15-preview",
+          "research_pass": 1,
+          "occurred_at": "2026-09-17T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 10,
+            "everyday_relevance": 16,
+            "evidence": 6
+          },
+          "drop_reason": "南昌马拉松11月15日开赛预告非窗口事件，原稿9月17日发布远超72小时窗口"
+        },
+        {
+          "candidate_key": "2026-11-07-suzhou-drug-catalog-nov14-preview",
+          "story_identity": "drug-catalog-suzhou-conference-nov14",
+          "research_pass": 1,
+          "occurred_at": "2026-10-22T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 12,
+            "everyday_relevance": 17,
+            "evidence": 7
+          },
+          "drop_reason": "医保目录拟11月14日苏州大会公布为前瞻信息，无当日新事件；55分低于65资格线"
+        },
+        {
+          "candidate_key": "2026-11-07-pension-adjustment-noise",
+          "story_identity": "pension-adjustment-selfmedia-no-official-doc",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "自媒体反复追问养老金调整但官方无新文件，无可核实官方证据支撑当日事实，不作事实陈述"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-07-cma-first-blizzard-blue-warning",
+      "story_identity": "cma-first-blizzard-blue-warning-weekend-snow",
+      "headline": "🥶 下半年首个暴雪预警发布：立冬日华北迎强降雪，北京多区大雪到暴雪",
+      "summary": "中央气象台11月6日18时发布下半年首个暴雪蓝色预警，北京市气象台18时10分发布分区暴雪黄色预警；预计7日至8日内蒙古、华北、东北等地有明显降雪，周六立冬华北雨雪最强，北京多区有大雪到暴雪，出行与供暖保障需注意。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 87,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 20,
+        "everyday_relevance": 22,
+        "evidence": 13
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-06T18:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "预报类内容，摘要统一用“预计”表述，降雪强度以气象部门最新预警为准；无伤亡数字进标题；事件锚点取中央气象台11月6日18时预警发布时刻"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家应急广播",
+          "url": "https://www.cneb.gov.cn/yjxx/huangsyj/20261106/t20261106_527864624.html",
+          "captured_at": "2026-11-07T06:13:00+08:00",
+          "note": "国家应急广播11月6日转发：北京市气象台18时10分发布分区暴雪黄色预警，多区有大雪到暴雪"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国天气网",
+          "url": "http://news.weather.com.cn/2026/11/4850085.shtml",
+          "captured_at": "2026-11-07T06:19:00+08:00",
+          "note": "中国天气网报道：中央气象台11月6日18时发布下半年首个暴雪蓝色预警，周六立冬华北雨雪最强"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-07-ntce-score-release",
+      "story_identity": "ntce-2026h2-written-score-interview-signup",
+      "headline": "🎓 教资笔试成绩已公布，面试报名同步开启",
+      "summary": "2026年下半年中小学教师资格考试笔试成绩11月6日10时公布，考生可登录中小学教师资格考试网查询；面试报名同步启动，考生须阅读本省公告、确认报考条件并完成诚信考试承诺，后续审核与缴费安排以报考省份通知为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "教育考试",
+      "score": 81,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 19,
+        "everyday_relevance": 22,
+        "evidence": 13
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-06T10:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "只写成绩发布与面试报名启动两项事实，不写通过率与分数线猜测；事件锚点取11月6日10时成绩发布时刻"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "新京报",
+          "url": "https://www.bjnews.com.cn/detail/1793706616129478.html",
+          "captured_at": "2026-11-07T06:24:32+08:00",
+          "note": "新京报11月6日报道：教资笔试成绩当日10时发布，面试报名同步开始，6日早间初抓、06:24复核一致"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "四川在线",
+          "url": "https://sichuan.scol.com.cn/ggxw/202611/83350962.html",
+          "captured_at": "2026-11-07T06:24:32+08:00",
+          "note": "四川在线同日报道教资笔试成绩发布与面试报名安排，06:24完成抓取时刻复核，作第二独立媒体源"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-07-jinji-festival-xiamen-open",
+      "story_identity": "golden-rooster-festival-2026-xiamen-opening",
+      "headline": "🎬 金鸡百花电影节厦门开幕，19个奖项10日晚揭晓",
+      "summary": "2026年中国金鸡百花电影节11月6日晚在福建厦门开幕，为期5天将举办60余项活动；本届共209部影片报名参评，19个奖项将于11月10日晚颁奖典礼上揭晓。",
+      "category": "文化数字经济",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 80,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 19,
+        "evidence": 13
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-06T20:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "只写开幕事实、活动规模与奖项日程，不做明星聚焦与奖项预测；事件锚点取11月6日晚开幕式"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cul/2026/11-06/10727662.shtml",
+          "captured_at": "2026-11-07T06:13:00+08:00",
+          "note": "中新网11月6日报道：电影节当晚厦门开幕，5天60余项活动，209部报名影片、19个奖项10日晚揭晓"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-07-ndrc-energy-grain-presser",
+      "story_identity": "ndrc-nov6-presser-winter-energy-grain-1b-tonnes",
+      "headline": "🔥 发改委：今冬供暖季能源供应总体有保障，秋粮收购已超1亿吨",
+      "summary": "国家发展改革委11月6日上午举行发布会介绍冬季能源保供和秋粮收购：目前统调电厂存煤2.1亿吨、可用36天，供暖季天然气资源量超2000亿立方米、日顶峰保供能力超17.5亿立方米；全国已收购秋粮1亿吨，收购进展总体顺利。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 79,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 19,
+        "everyday_relevance": 21,
+        "evidence": 13
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-06T10:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "发布会口径数据照实引用，“总体有保障”为官方判断；保供能力为前瞻表述，不作引申解读；事件锚点取11月6日上午发布会"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.news.cn/fortune/20261106/a3fe8e0c0eb54c30a8fc367b7f374b06/c.html",
+          "captured_at": "2026-11-07T06:17:00+08:00",
+          "note": "新华网11月6日报道：统调电厂存煤2.1亿吨可用36天、供暖季天然气资源超2000亿立方米、日顶峰保供超17.5亿立方米、已收购秋粮1亿吨"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-07-cup-of-china-day1",
+      "story_identity": "cup-of-china-2026-shenzhen-day1-results",
+      "headline": "⛸️ 花滑中国杯深圳开赛，中国三人首日刷个人最好成绩",
+      "summary": "2026年花滑中国杯11月6日在深圳开赛，首日短节目与韵律舞较量中，彭智铭87.65分、陈昱东80.74分、朱易64.58分，三名中国选手均刷新个人最好成绩；女单、双人、冰舞冠军将于7日决出。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 75,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 20,
+        "everyday_relevance": 17,
+        "evidence": 12
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-06T22:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "首日仅短节目/韵律舞赛果，只写三人刷新个人最好成绩，不写夺冠；两源均为新华社通稿转载，口径一致；事件锚点取首日比赛结束约22时"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "凤凰网",
+          "url": "https://i.ifeng.com/c/8xqDeYEwrA3",
+          "captured_at": "2026-11-07T06:24:32+08:00",
+          "note": "凤凰网转载新华社通稿：中国杯11月6日深圳开赛，彭智铭87.65、陈昱东80.74、朱易64.58均刷个人最好成绩，7日决出三项冠军"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "搜狐网",
+          "url": "https://www.sohu.com/a/1098223055_267106",
+          "captured_at": "2026-11-07T06:24:32+08:00",
+          "note": "搜狐转载同一新华社通稿：首日短节目/韵律舞赛果与三人个人最好成绩，口径与凤凰网一致，作第二独立链接佐证"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
