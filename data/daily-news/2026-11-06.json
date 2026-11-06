@@ -1,0 +1,1251 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-06",
+  "generated_at": "2026-11-07T00:07:00+08:00",
+  "status": "partial",
+  "run_report": {
+    "candidates_scanned": 50,
+    "published": 9,
+    "dropped_safety": {
+      "geopolitics": 2,
+      "politics": 2,
+      "propaganda": 1,
+      "rumor": 1
+    },
+    "dropped_low_confidence": 31,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 44,
+      "official_sources": 20,
+      "state_media_sources": 18,
+      "major_media_sources": 18,
+      "aggregator_sources": 4,
+      "dropped_insufficient_evidence": 4
+    },
+    "selection": {
+      "evaluated_at": "2026-11-06T23:52:05+08:00",
+      "tier": "relaxed_48h",
+      "qualified": {
+        "strict_24h": 2,
+        "relaxed_48h": 9,
+        "relaxed_72h": 17
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 50,
+          "cumulative_unique_candidates": 50,
+          "source_scope": [
+            "国内官方发布与政策文件（气象台、城管委、部委发布会、总局等）",
+            "央媒与持牌媒体（新华社、中新网、人民网、京报、澎湃等）",
+            "灾害与国际媒体扫描（地震台网、辟谣平台、AP、路透，国际0条）",
+            "聚合平台线索与旧闻排雷（热搜、转载核查、时间戳复核，仅佐证）"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-06-beijing-heating-trial-run-nov7",
+          "story_identity": "beijing-heating-trial-run-nov7-repair-lines",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T10:10:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-06-beijing-heating-trial-run-nov7",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 19,
+            "everyday_relevance": 24,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-06-cold-air-blizzard-ne-traffic",
+          "story_identity": "cold-air-nov4-5-blizzard-ne-highway-closures",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-11-06-cold-air-blizzard-ne-traffic",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 15,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-11-06-guokao-confirm-payment-deadline",
+          "story_identity": "guokao-2027-confirm-payment-deadline-nov6",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "selected",
+          "item_id": "2026-11-06-guokao-confirm-payment-deadline",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 17,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-06-railway-train-number-reform",
+          "story_identity": "railway-train-numbering-reform-first-batch",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T17:12:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-06-railway-train-number-reform",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 16,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-11-06-elderly-care-worker-qualification",
+          "story_identity": "elderly-care-worker-national-qualification-system",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-06-elderly-care-worker-qualification",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 16,
+            "everyday_relevance": 24,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-11-06-piyao-yearend-three-reminders",
+          "story_identity": "piyao-platform-yearend-overtime-medicare-neitui",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T14:14:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-06-piyao-yearend-three-reminders",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 16,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-11-06-ciie-day1-deals-first-order",
+          "story_identity": "ciie-2026-day1-first-order-sinochem-signings",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-06-ciie-day1-deals-first-order",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 16,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-11-06-samr-double11-compliance-reminder",
+          "story_identity": "samr-double11-2026-compliance-reminder-platforms",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T17:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-06-samr-double11-compliance-reminder",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 21,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-11-06-lidong-warm-dishes-pork-price",
+          "story_identity": "lidong-eve-warm-dishes-pork-below-15",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T13:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-06-lidong-warm-dishes-pork-price",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 16,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "express-assoc-peak-season-notice",
+          "story_identity": "caina-express-peak-season-service-notice",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 16,
+            "everyday_relevance": 20,
+            "evidence": 10
+          },
+          "drop_reason": "中国快递协会旺季服务保障提示偏行业端倡议、无强制新规，与双11总局合规提示同属双11治理题材只留一条；69分未达48小时层级70分线",
+          "qualification_tier": "relaxed_72h"
+        },
+        {
+          "candidate_key": "chengyuqiu-autumn-travel-rail-plan",
+          "story_identity": "chengdu-railway-autumn-tour-transport-plan",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T00:15:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 15,
+            "everyday_relevance": 21,
+            "evidence": 10
+          },
+          "drop_reason": "川渝黔秋游运输方案11月5日凌晨启动，事件锚点距评估时钟近48小时且为区域性运输安排；68分未达70分线",
+          "qualification_tier": "relaxed_72h"
+        },
+        {
+          "candidate_key": "chongqing-metro-line15-trial-ride",
+          "story_identity": "cq-metro-line15-trial-ride-goa4",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 67,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 16,
+            "everyday_relevance": 19,
+            "evidence": 10
+          },
+          "drop_reason": "重庆15号线试乘为开通前活动、确切开通日期未公布，本地交通题材量级有限；67分未达70分线",
+          "qualification_tier": "relaxed_72h"
+        },
+        {
+          "candidate_key": "xiamen-air-chongqing-kl-daily",
+          "story_identity": "xiamen-air-ckg-kul-daily-route-nov5",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T18:30:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 16,
+            "everyday_relevance": 17,
+            "evidence": 10
+          },
+          "drop_reason": "厦航重庆至吉隆坡航线加密为区域性航线动态，第二独立源为10月下旬预告稿；64分低于65资格线"
+        },
+        {
+          "candidate_key": "shujiansuyun-yangzhou-exhibit",
+          "story_identity": "shujiansuyun-tour-yangzhou-station-digital",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 16,
+            "everyday_relevance": 17,
+            "evidence": 9
+          },
+          "drop_reason": "数见苏韵环省行扬州站为省级巡展单站，体量偏小；63分低于65资格线"
+        },
+        {
+          "candidate_key": "gba-art-festival-weekend-shows",
+          "story_identity": "gba-art-festival-guangzhou-weekend-program",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T19:30:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 8
+          },
+          "drop_reason": "大湾区艺术节广州周末演出为观演服务信息，艺术节题材11月3日信封已覆盖开幕条；66分未达70分线",
+          "qualification_tier": "relaxed_72h"
+        },
+        {
+          "candidate_key": "cup-of-china-figureskating-shenzhen",
+          "story_identity": "cup-of-china-2026-shenzhen-nov6-opening",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T19:30:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 8
+          },
+          "drop_reason": "花滑中国杯今日深圳开赛属预告类，可用信源发布日多在窗口前，截稿时首日比赛刚开始无结果性事实；69分未达70分线",
+          "qualification_tier": "relaxed_72h"
+        },
+        {
+          "candidate_key": "chongqing-ai-wage-recovery-1b",
+          "story_identity": "cq-ai-wage-recovery-11-billion-yu-yue",
+          "research_pass": 1,
+          "occurred_at": "2026-11-04T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 13,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "drop_reason": "重庆AI追回欠薪为11月4日全市人社网信工作会披露，事件龄约57小时超出48小时层级窗口；AI就业题材11月4日信封已发发改委表态条，不重复",
+          "qualification_tier": "relaxed_72h"
+        },
+        {
+          "candidate_key": "wuzhen-agent-self-discipline-pact",
+          "story_identity": "wic-wuzhen-ai-agent-self-discipline-pact-20",
+          "research_pass": 1,
+          "occurred_at": "2026-11-04T11:55:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 13,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "drop_reason": "智能体发展自律公约11月4日乌镇论坛发布，事件龄近60小时超48小时窗口；乌镇题材11月5日信封已发两条，不再叠加",
+          "qualification_tier": "relaxed_72h"
+        },
+        {
+          "candidate_key": "dalian-heating-season-start",
+          "story_identity": "dalian-heating-season-nov5-full-open",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 15,
+            "everyday_relevance": 20,
+            "evidence": 10
+          },
+          "drop_reason": "大连11月5日零时正式供热首日开栓率100%，与北京供热试运行同为供暖题材，今日只留服务性更强的北京条；66分未达70分线",
+          "qualification_tier": "relaxed_72h"
+        },
+        {
+          "candidate_key": "jilin-coldwave-yellow-warning",
+          "story_identity": "jilin-coldwave-yellow-warning-nov5",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T10:20:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 16,
+            "everyday_relevance": 17,
+            "evidence": 8
+          },
+          "drop_reason": "吉林寒潮黄色预警已并入冷空气实况条，不单列；61分低于65资格线"
+        },
+        {
+          "candidate_key": "liaoning-coldwave-yellow-warning",
+          "story_identity": "liaoning-coldwave-yellow-warning-nov4",
+          "research_pass": 1,
+          "occurred_at": "2026-11-04T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 15,
+            "everyday_relevance": 17,
+            "evidence": 8
+          },
+          "drop_reason": "辽宁寒潮黄色预警降温14至16℃并入冷空气实况条；60分低于65资格线"
+        },
+        {
+          "candidate_key": "lidong-cold-snap-calendar",
+          "story_identity": "lidong-two-cold-snaps-cooling-calendar",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 16,
+            "everyday_relevance": 16,
+            "evidence": 7
+          },
+          "drop_reason": "立冬前两股冷空气降温日历为预报类内容，与冷空气实况条重叠不单列；58分低于65资格线"
+        },
+        {
+          "candidate_key": "five-dept-consumption-infrastructure",
+          "story_identity": "five-dept-consumption-infrastructure-opinion",
+          "research_pass": 1,
+          "occurred_at": "2026-11-04T15:34:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 14,
+            "everyday_relevance": 18,
+            "evidence": 9
+          },
+          "drop_reason": "五部门消费基础设施建设意见成文10月19日、媒体集中报道11月4日前后，时效偏弱；62分低于65资格线"
+        },
+        {
+          "candidate_key": "xinjiang-medical-insurance-7-items",
+          "story_identity": "xinjiang-7-medical-items-insurance-nov1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 57,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 12,
+            "everyday_relevance": 18,
+            "evidence": 8
+          },
+          "drop_reason": "新疆7项医疗服务项目11月1日起纳入医保，事件锚点超72小时窗口且为区域性政策；57分低于65资格线"
+        },
+        {
+          "candidate_key": "shijiazhuang-handan-housing-fund",
+          "story_identity": "shijiazhuang-handan-housing-fund-new-rules",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 16,
+            "everyday_relevance": 17,
+            "evidence": 7
+          },
+          "drop_reason": "石家庄、邯郸公积金新政摘要级细节不足，且住房题材本周已有武汉养房条覆盖；60分低于65资格线"
+        },
+        {
+          "candidate_key": "ccc-enforcement-local-checks",
+          "story_identity": "ccc-new-rule-enforcement-yunyang-haidian",
+          "research_pass": 1,
+          "occurred_at": "2026-11-04T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 54,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 15,
+            "everyday_relevance": 15,
+            "evidence": 6
+          },
+          "drop_reason": "云阳、海淀CCC新规执法检查无查处结果类硬事实；54分低于65资格线"
+        },
+        {
+          "candidate_key": "ningxia-medical-direct-settlement",
+          "story_identity": "ningxia-medical-fund-direct-settlement",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 56,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 16,
+            "everyday_relevance": 16,
+            "evidence": 5
+          },
+          "drop_reason": "宁夏医保基金与医药企业直接结算全区推广仅官方单源、增量有限；56分低于65资格线"
+        },
+        {
+          "candidate_key": "fuel-price-next-window-nov12",
+          "story_identity": "fuel-price-next-adjust-window-nov12",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 46,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 14,
+            "everyday_relevance": 12,
+            "evidence": 4
+          },
+          "drop_reason": "成品油下轮调价窗口为11月12日，当前仅有第三方测算，预告类仅审计留痕不作事实陈述"
+        },
+        {
+          "candidate_key": "kyrgyzstan-m5-border-quake",
+          "story_identity": "kyrgyzstan-m5-quake-13km-china-border",
+          "research_pass": 1,
+          "occurred_at": "2026-11-04T05:34:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 13,
+            "everyday_relevance": 11,
+            "evidence": 8
+          },
+          "drop_reason": "吉尔吉斯斯坦5.0级地震无伤亡、量级小，新疆仅有震感，网传灾情视频已被官方辟谣；按克制原则弃用仅留审计，民生相关度11低于15地板"
+        },
+        {
+          "candidate_key": "typhoon-yanhua-extratropical",
+          "story_identity": "typhoon-yanhua-extratropical-nov5",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 44,
+          "score_breakdown": {
+            "heat": 15,
+            "freshness": 16,
+            "everyday_relevance": 9,
+            "evidence": 4
+          },
+          "drop_reason": "台风烟花11月5日20时变性为温带气旋，此前已明确对我国海域无影响，维持不报"
+        },
+        {
+          "candidate_key": "fenghua-lift-truck-rescue",
+          "story_identity": "fenghua-passersby-lift-truck-rescue",
+          "research_pass": 1,
+          "occurred_at": "2026-11-04T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 15,
+            "everyday_relevance": 18,
+            "evidence": 8
+          },
+          "drop_reason": "宁波奉化路人抬车救人报道未写明事发确切日期（视频记录指向11月4日晚），按暖闻谨慎原则暂不采用"
+        },
+        {
+          "candidate_key": "wuhu-station-extra-trains",
+          "story_identity": "wuhu-station-extra-train-services",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 17,
+            "freshness": 16,
+            "everyday_relevance": 13,
+            "evidence": 4
+          },
+          "drop_reason": "芜湖站增开列车为车站级调度信息，量级小；50分低于65资格线"
+        },
+        {
+          "candidate_key": "water-ministry-flood-summary",
+          "story_identity": "water-ministry-2026-flood-season-summary",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 16,
+            "everyday_relevance": 14,
+            "evidence": 7
+          },
+          "drop_reason": "水利部2026汛期总结为年度盘点非突发事件，作资料留存不上版"
+        },
+        {
+          "candidate_key": "mem-nov-disaster-risk-briefing",
+          "story_identity": "mem-nov-2026-disaster-risk-assessment",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 13,
+            "everyday_relevance": 15,
+            "evidence": 6
+          },
+          "drop_reason": "应急管理部11月全国自然灾害风险形势11月3日发布，处窗口外且为月度例行研判"
+        },
+        {
+          "candidate_key": "ciie-new-product-lineup-480",
+          "story_identity": "ciie-new-product-showcase-480-schedule",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 16,
+            "everyday_relevance": 17,
+            "evidence": 8
+          },
+          "drop_reason": "进博新品汇480件首发清单数字11月5日早报与开幕条已用，不重复作主事实；62分低于65资格线"
+        },
+        {
+          "candidate_key": "pakistan-punjab-bus-crash",
+          "story_identity": "pakistan-punjab-bus-truck-crash-nov5",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T06:00:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 45,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 16,
+            "everyday_relevance": 7,
+            "evidence": 4
+          },
+          "drop_reason": "巴基斯坦巴士撞卡车为外国地方例行交通事故，无中国关联、不达全球重大事件门槛；民生相关度7低于15地板"
+        },
+        {
+          "candidate_key": "newyork-brooklyn-rowhouse-fire",
+          "story_identity": "brooklyn-rowhouse-fire-nov5",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T12:00:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 43,
+          "score_breakdown": {
+            "heat": 17,
+            "freshness": 16,
+            "everyday_relevance": 6,
+            "evidence": 4
+          },
+          "drop_reason": "纽约布鲁克林住宅大火为美国地方新闻，无中国关联；民生相关度6低于15地板"
+        },
+        {
+          "candidate_key": "nairobi-building-collapse-followup",
+          "story_identity": "nairobi-building-collapse-death-toll-update",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T08:00:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 42,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 16,
+            "everyday_relevance": 6,
+            "evidence": 4
+          },
+          "drop_reason": "内罗毕塌楼为10月23日旧事件死亡人数更新，非窗口内新事件"
+        },
+        {
+          "candidate_key": "indonesia-military-plane-crash",
+          "story_identity": "indonesia-military-plane-crash-firefighting",
+          "research_pass": 1,
+          "occurred_at": "2026-11-04T12:00:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 40,
+          "score_breakdown": {
+            "heat": 15,
+            "freshness": 15,
+            "everyday_relevance": 6,
+            "evidence": 4
+          },
+          "drop_reason": "印尼军机扑救林火坠毁为单一低伤亡外国地方事故"
+        },
+        {
+          "candidate_key": "cuba-water-supply-disruption",
+          "story_identity": "cuba-water-supply-disruption-nov4",
+          "research_pass": 1,
+          "occurred_at": "2026-11-04T12:00:00+08:00",
+          "scope": "international",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 38,
+          "score_breakdown": {
+            "heat": 14,
+            "freshness": 15,
+            "everyday_relevance": 6,
+            "evidence": 3
+          },
+          "drop_reason": "古巴供水中断为慢性市政问题，非突发事件，无中国关联"
+        },
+        {
+          "candidate_key": "shanhaiguan-great-wall-gallery",
+          "story_identity": "shanhaiguan-great-wall-gallery-space",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "山海关中国长城博物馆长城画廊仅河北省文物局单源官方稿，未找到第二独立报道，证据不足"
+        },
+        {
+          "candidate_key": "zhongning-police-life-relay",
+          "story_identity": "zhongning-traffic-police-life-relay",
+          "research_pass": 1,
+          "occurred_at": "2026-11-04T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "中宁交警生命接力暖闻仅自媒体单源且事发日期锚点不清，不作事实陈述"
+        },
+        {
+          "candidate_key": "zhangbei-police-rain-rescue",
+          "story_identity": "zhangbei-traffic-police-rain-rescue",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "张北交警雨中救助暖闻仅单源平台稿，证据不足"
+        },
+        {
+          "candidate_key": "fiji-m61-quake-unverified",
+          "story_identity": "fiji-m61-quake-unverified-nov5",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T10:00:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "斐济6.1级地震仅非权威聚合站收录，未获USGS或中国地震台网级别权威源核实，不作事实陈述"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-5",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-6",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-06-beijing-heating-trial-run-nov7",
+      "story_identity": "beijing-heating-trial-run-nov7-repair-lines",
+      "headline": "🔥 北京11月7日启动供热试运行，各区供热报修电话公布",
+      "summary": "北京市城市管理委11月6日公布：11月7日全市启动供热系统试运行，锅炉房陆续点火，热电联产热网、供热机房陆续投运；全市供热服务电话96069及各区供热管理部门、各供热企业报修电话同步公布，试运行期间市民遇到暖气不热、跑冒滴漏可直接拨打报修。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 85,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 19,
+        "everyday_relevance": 24,
+        "evidence": 13
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-06T10:10:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "试运行为11月7日启动的未来时点，标题摘要用“将启动/试运行”不写成已供暖；事件锚点取市城管委官网转载页11月6日10:10时间戳（京报网当日凌晨01:35已首发报道）；电话清单为公共服务信息，不含商业引导"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "北京日报网",
+          "url": "https://news.bjd.com.cn/2026/11/06/12019857.shtml",
+          "title": "北京11月7日开始供热系统试运行，各区供热电话公布",
+          "captured_at": "2026-11-06T23:45:00+08:00",
+          "note": "北京日报客户端11月6日01:35发稿（11月6日晚复核全文）：11月7日供热系统试运行，96069及各区、各企业报修电话全表"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央广网",
+          "url": "https://www.cnr.cn/bj/isue/20261106/t20261106_527864059.shtml",
+          "title": "北京11月7日启动供热试运行",
+          "captured_at": "2026-11-06T06:20:00+08:00",
+          "note": "央广网11月6日报道：北京11月7日开始供热系统试运行，锅炉房陆续点火、热网陆续投运"
+        },
+        {
+          "tier": "official",
+          "outlet": "北京市城管委",
+          "url": "https://csglw.beijing.gov.cn/zwxx/zwdtxx/mtbd/202611/t20261106_4934946.html",
+          "title": "市城市管理委公布各区供热服务电话",
+          "captured_at": "2026-11-06T06:21:00+08:00",
+          "note": "北京市城市管理委官网11月6日转载媒体报道（页面时间戳10:10），官方口径佐证"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-06-cold-air-blizzard-ne-traffic",
+      "story_identity": "cold-air-nov4-5-blizzard-ne-highway-closures",
+      "headline": "🥶 较强冷空气实况：东北局地暴雪，黑龙江多条高速全线封闭",
+      "summary": "中央气象台11月5日公报确认4日以来实况：内蒙古中西部、华北北部、东北等地阵风6至9级、局地超10级，24小时降温4至8℃、局地超10℃，哈尔滨、佳木斯、鹤岗局地暴雪10至16.6毫米；截至5日8时内蒙古根河积雪21厘米，黑龙江13条高速公路全线封闭、另有11条部分封闭或限速，未接报人员伤亡。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 81,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 15,
+        "everyday_relevance": 22,
+        "evidence": 13
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-05T08:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "与11月5日已发“黑龙江寒潮冰冻双预警”条切割：本条只收4日至5日实测（阵风/降温/降雪量/积雪深度/高速封闭），预报层面不再展开；事件锚点取截至5日8时的实况与封闭数据时点；无伤亡数字进标题"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "中国气象局",
+          "url": "https://www.cma.gov.cn/2011xwzx/2011xqxxw/2011xzytq/202611/t20261105_8127150.html",
+          "title": "中央气象台11月5日天气公报",
+          "captured_at": "2026-11-06T06:22:00+08:00",
+          "note": "中央气象台11月5日06时公报：4日内蒙古、河北、山西、吉林、辽宁、黑龙江阵风6至9级局地超10级，降温4至8℃局地超10℃，哈尔滨等地暴雪10至16.6毫米"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-05/10726476.shtml",
+          "title": "黑龙江13条高速公路全线封闭",
+          "captured_at": "2026-11-06T06:23:00+08:00",
+          "note": "中新网11月5日报道：截至5日8时黑龙江密兴、哈牡、哈同等13条高速全线封闭，另有11条部分封闭或限速，省气象灾害应急指挥部启动暴雪Ⅳ级响应"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "上游新闻",
+          "url": "https://feng.ifeng.com/c/8xoGfkWZtqz",
+          "title": "黑龙江高速封闭与积雪实况",
+          "captured_at": "2026-11-06T06:24:00+08:00",
+          "note": "上游新闻11月5日稿引省交管局口径：封闭与限速路段清单；积雪深度以中央气象台公报为准"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-06-guokao-confirm-payment-deadline",
+      "story_identity": "guokao-2027-confirm-payment-deadline-nov6",
+      "headline": "🎓 2027国考报名确认缴费今日24时截止，逾期视为放弃",
+      "summary": "2027年度国考报名确认与缴费通道11月6日24时关闭：通过资格审查的约345万名报考者须在今日内完成网上报名确认并缴费，逾期未完成视为自动放弃报考资格；最低生活保障家庭人员可按规定申请减免考试费用，完成后可于后续时段打印准考证。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "教育考试",
+      "score": 79,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 17,
+        "everyday_relevance": 23,
+        "evidence": 12
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-06T00:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "与11月1日已发“国考今起确认缴费”首日条角度切割：本条为截止日当日提醒，事件锚点取截止日当日零时（与首日条同口径）；只写截止规则与减免政策，不做通过率等引申"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "宁波海曙区政府",
+          "url": "https://www.haishu.gov.cn/col/col1229100020/art/2026/art_962c9f5c1f5344aea6263fae440b90a9.html",
+          "title": "2027国考报名确认缴费11月6日24时截止",
+          "captured_at": "2026-11-06T06:25:00+08:00",
+          "note": "宁波市海曙区政府网转发考试提醒：报名确认及缴费11月6日24:00截止，逾期视为自动放弃"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/edu/20261013/ce6bf7dc36474dd68ecd90aa8b722f06/c.html",
+          "title": "2027年度国考公告：345万人过审",
+          "captured_at": "2026-11-06T06:26:00+08:00",
+          "note": "新华社10月13日公告原文：约345万人通过资格审查，确认缴费期为11月1日至6日24时，低保家庭可申请减免费用"
+        },
+        {
+          "tier": "official",
+          "outlet": "深圳市考试院",
+          "url": "https://hrss.sz.gov.cn/szksy/ztzl/gwyks/jgkszt/content/post_13018462.html",
+          "title": "2027国考深圳考区日程安排",
+          "captured_at": "2026-11-06T06:27:00+08:00",
+          "note": "深圳市考试院考试日程页佐证确认缴费截止时间口径"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-06-railway-train-number-reform",
+      "story_identity": "railway-train-numbering-reform-first-batch",
+      "headline": "🚄 全国铁路车次编排改革：首批新车次11月下旬启用",
+      "summary": "铁路部门11月5日宣布推进列车车次编排改革：普速旅客列车11月25日零时起、货物列车11月24日18时起启用新车次，首批新车次车票11月11日起陆续发售，动车组车次12月下旬实施；“中国铁路”微信公众号已上线新旧车次对比查询功能，过渡期同一列车可能出现新旧两种表达，购票请核对车次与时刻。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 16,
+        "everyday_relevance": 23,
+        "evidence": 13
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-05T17:12:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "切换日为11月下旬的未来时点，摘要明确“将启用”不写成已变更；事件锚点取中国铁路11月5日17时许发布时刻；只写编排改革与查询服务，不涉及票价调整引申"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.news.cn/20261105/0d66dc06f3c147cab05ce707bde541a4/c.html",
+          "title": "铁路列车车次编排改革推进，首批新车次11月下旬启用",
+          "captured_at": "2026-11-06T06:28:00+08:00",
+          "note": "新华网11月5日报道（已读全文）：普速11月25日零时、货物11月24日18时起启用新车次，首批车票11月11日起发售，动车组12月下旬实施"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "北京日报网",
+          "url": "https://news.bjd.com.cn/2026/11/05/12019208.shtml",
+          "title": "新旧车次对比查询功能上线",
+          "captured_at": "2026-11-06T06:29:00+08:00",
+          "note": "京报网11月5日转中国铁路口径（已读全文）：“中国铁路”微信公众号温馨服务栏目上线新旧车次对比查询，过渡期12306将加提示"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-06-elderly-care-worker-qualification",
+      "story_identity": "elderly-care-worker-national-qualification-system",
+      "headline": "👵 养老服务师纳入国家职业资格制度，初、中、高级全国统考",
+      "summary": "民政部、人力资源社会保障部11月5日联合发布：养老服务师正式纳入国家职业资格制度，设初级、中级、高级三个等级并实行全国统一考试，高中或中职学历即可报考初级；相关暂行规定和考试办法已于今年6月、9月印发，为养老服务从业人员打通职业化通道。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 76,
+      "score_breakdown": {
+        "heat": 24,
+        "freshness": 16,
+        "everyday_relevance": 24,
+        "evidence": 12
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-05T10:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "发布会为11月5日举行，具体时刻未披露，事件锚点取当日上午；与11月5日已发“养老服务消费补贴”为不同政策动作（职业资格制度对消费补贴），不重复成条"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "人民网",
+          "url": "http://society.people.com.cn/n1/2026/1105/c1008-40828480.html",
+          "title": "两部门：养老服务师实行国家职业资格制度",
+          "captured_at": "2026-11-06T06:30:00+08:00",
+          "note": "人民网11月5日报道：民政部、人社部联合发布，养老服务师设初、中、高三级，全国统一考试，高中或中职学历可报初级"
+        },
+        {
+          "tier": "official",
+          "outlet": "上海市民政局",
+          "url": "https://mzj.sh.gov.cn/2026bsmz/20261105/adef0fdf2ecd4f90a6e428d7392f2a24.html",
+          "title": "养老服务师职业资格制度发布会实录",
+          "captured_at": "2026-11-06T06:31:00+08:00",
+          "note": "上海市民政局11月5日刊发发布会实录：暂行规定与考试办法今年6月、9月已印发"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-06-piyao-yearend-three-reminders",
+      "story_identity": "piyao-platform-yearend-overtime-medicare-neitui",
+      "headline": "🔍 官方辟谣平台年末三提醒：加班补休、医保跨省共济、内推费",
+      "summary": "中国互联网联合辟谣平台11月5日发布年末传言合辑：只有休息日加班可用补休替代，工作日延时和法定节假日加班必须支付加班工资；“医保钱包”2.0已在全国所有省份上线，职工医保个人账户可跨省共济给近亲属实时结算；所谓“几万元内推费直签央国企正式编制”是骗局，央国企招聘不收取任何费用。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 75,
+      "score_breakdown": {
+        "heat": 24,
+        "freshness": 16,
+        "everyday_relevance": 23,
+        "evidence": 12
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-11-05T14:14:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "三条均为辟谣平台11月5日合辑原文口径，医保钱包背景规则以国家医保局10月问答为佐证；只转述辟谣结论，不复述谣言细节"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "中国互联网联合辟谣平台",
+          "url": "https://www.piyao.org.cn/20261105/049bc8e9b4c746d28e39d92459d09af1/c.html",
+          "title": "年末这些传言别信：补休抵加班费、医保钱包、内推费",
+          "captured_at": "2026-11-06T06:32:00+08:00",
+          "note": "辟谣平台11月5日14:14发布（已读全文）：补休仅限休息日加班；医保钱包2.0全国上线可跨省共济；“内推费直签编制”是骗局"
+        },
+        {
+          "tier": "official",
+          "outlet": "国家医保局",
+          "url": "https://www.nhsa.gov.cn/art/2026/10/21/art_14_23191.html",
+          "title": "医保钱包跨省共济问答",
+          "captured_at": "2026-11-06T06:33:00+08:00",
+          "note": "国家医保局10月21日问答佐证医保钱包规则：虚拟额度不实际划账，家人刷自己医保码实时结算"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-06-ciie-day1-deals-first-order",
+      "story_identity": "ciie-2026-day1-first-order-sinochem-signings",
+      "headline": "🛍️ 进博会开幕首日：上海交易团首单落青浦，记者探馆实测好物",
+      "summary": "第九届进博会开幕首日：上海交易团“首单”连续第九年落地青浦，金发科技与韩国LS集团旗下E1公司签下超亿美元低温丙烷采购订单，中国中化当日签约采购超128亿美元；记者探馆实测白玉珍珠榴莲、无方向盘Cybercab等首发新品，本地部署大模型的银行机器人已在农行网点试点。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 74,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 16,
+        "everyday_relevance": 20,
+        "evidence": 12
+      },
+      "heat_rank": 7,
+      "occurred_at": "2026-11-05T15:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "与11月5日已发“进博开幕条”错位：本条只收首日实测与首单新事实，开幕程序与480件首发总数不再重复；首单金额以中新网“超亿美元”口径为准"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-05/10726756.shtml",
+          "title": "进博会上海交易团首单落地青浦",
+          "captured_at": "2026-11-06T06:34:00+08:00",
+          "note": "中新网11月5日报道（已读全文）：金发科技与韩国LS旗下E1签署超亿美元低温丙烷订单，青浦连续九年签下上海交易团首单"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "澎湃新闻",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34415938",
+          "title": "进博首日上海交易团开门红",
+          "captured_at": "2026-11-06T06:35:00+08:00",
+          "note": "澎湃新闻11月5日报道首日交易团签约：松江6000万美元、长宁8.4亿元等分团成交"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "广州日报",
+          "url": "https://news.dayoo.com/finance/202611/05/171077_55020737.htm",
+          "title": "记者探馆进博技术装备展区",
+          "captured_at": "2026-11-06T06:36:00+08:00",
+          "note": "广州日报11月5日探馆（已读全文）：不联网可办业务的银行机器人本地大模型已在农行试点，L4级移动充电机器人亮相"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-06-samr-double11-compliance-reminder",
+      "story_identity": "samr-double11-2026-compliance-reminder-platforms",
+      "headline": "🛒 市场监管总局发布双11促销合规提示：严防先涨后降、幽灵店铺",
+      "summary": "市场监管总局近日向主要平台企业发布《“双十一”网络集中促销合规提示》：及时清理“幽灵店铺”“幽灵直播间”，对“拼价格”“先涨价后降价”组织自查，杜绝价格欺诈；严禁虚假交易、刷单炒信，重点监测“山寨村干部”、虚假助农直播；落实七日无理由退货，畅通诉求渠道，维护网约配送员合法权益。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 73,
+      "score_breakdown": {
+        "heat": 22,
+        "freshness": 19,
+        "everyday_relevance": 21,
+        "evidence": 11
+      },
+      "heat_rank": 8,
+      "occurred_at": "2026-11-06T17:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "总局官网页时间戳11月6日17:00在早间研究时显示异常，11月6日晚复核页面时间戳一致且已处于过去时点，正文与媒体转述一致，采用并以页面时间戳为事件锚点；与11月3日已发南沙双11细则为不同层级（总局对平台提示），不重复"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "市场监管总局",
+          "url": "https://www.samr.gov.cn/xw/zj/art/2026/art_c79205935e4b4ef889a85c60a32cd304.html",
+          "title": "“双十一”网络集中促销合规提示",
+          "captured_at": "2026-11-06T23:44:00+08:00",
+          "note": "市场监管总局官网全文（11月6日晚复核）：页面标注11月6日17:00发布，含防幽灵店铺、查先涨后降、严禁刷单炒信、监测山寨村干部直播等"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "第一财经",
+          "url": "https://www.yicai.com/brief/103429696.html",
+          "title": "市场监管总局发布双11合规提示",
+          "captured_at": "2026-11-06T06:38:00+08:00",
+          "note": "第一财经11月6日快讯转述提示要点，作独立媒体佐证"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "每日经济新闻",
+          "url": "https://www.nbd.com.cn/articles/2026-11-06/4640838.html",
+          "title": "总局要求平台自查先涨后降",
+          "captured_at": "2026-11-06T06:39:00+08:00",
+          "note": "每经11月6日报道提示全文要点：七日无理由退货、维护网约配送员权益等"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-06-lidong-warm-dishes-pork-price",
+      "story_identity": "lidong-eve-warm-dishes-pork-below-15",
+      "headline": "🥟 立冬前夜老字号暖冬菜上新，猪肉批发价跌破15元",
+      "summary": "11月7日立冬恰逢周末，北京多家老字号暖冬菜上新：砂锅居砂锅白肉销量达平日两三倍，曲园酒楼茶油剁椒鱼头立冬销量预计达平日3倍，烤肉宛、烤肉季立冬体验席位八九月即开启预订；农业农村部监测显示，11月5日全国农产品批发市场猪肉均价14.98元/公斤，跌破15元关口。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 71,
+      "score_breakdown": {
+        "heat": 22,
+        "freshness": 16,
+        "everyday_relevance": 21,
+        "evidence": 12
+      },
+      "heat_rank": 9,
+      "occurred_at": "2026-11-05T13:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "品牌销量为企业自述，摘要注明口径；新京报同题稿页面时间戳11月6日午间，事件锚点以北京商报11月5日走访发布为准；猪肉数据为农业农村部11月5日监测日报"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "北京商报",
+          "url": "https://www.bbtnews.com.cn/2026/1105/610536.shtml",
+          "title": "立冬前夜北京老字号暖冬菜上新",
+          "captured_at": "2026-11-06T06:40:00+08:00",
+          "note": "北京商报11月5日走访（已读全文）：砂锅白肉销量达平日两三倍、非遗肉饼新品上市、烤肉席位提前两月预订"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "新京报",
+          "url": "https://www.bjnews.com.cn/detail/1793938507169002.html",
+          "title": "立冬恰逢周末，餐企预计暖冬菜销量倍增",
+          "captured_at": "2026-11-06T06:41:00+08:00",
+          "note": "新京报同题走访：多餐企预计立冬当天暖冬菜销量成倍增长（页面时间戳11月6日午间，以商报为准作旁证）"
+        },
+        {
+          "tier": "official",
+          "outlet": "农业农村部",
+          "url": "https://scs.moa.gov.cn/jcyj/202611/t20261105_6489231.htm",
+          "title": "11月5日农产品批发价格200指数",
+          "captured_at": "2026-11-06T06:42:00+08:00",
+          "note": "农业农村部市场与信息化司11月5日监测：猪肉平均价格14.98元/公斤、比前一天下降1.3%，跌破15元关口"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
