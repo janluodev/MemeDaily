@@ -1,0 +1,937 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T13:11:18+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 42,
+    "published": 5,
+    "dropped_safety": {
+      "politics": 1,
+      "geopolitics": 1,
+      "rumor": 1,
+      "controversy": 1
+    },
+    "dropped_low_confidence": 26,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 38,
+      "official_sources": 5,
+      "state_media_sources": 8,
+      "major_media_sources": 0,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 7
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 5,
+        "relaxed_48h": 23,
+        "relaxed_72h": 27
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 42,
+          "cumulative_unique_candidates": 42,
+          "source_scope": [
+            "官方与机构原文（气象、应急、部委、航天、标准、ISU、Copernicus、JMA）",
+            "央媒与持牌媒体（新华社、人民日报、央视、央广、中新网、地方党报等）",
+            "国际独立来源（Reuters/Yahoo、ABC、NHK等）",
+            "专业与地方服务扫描（消费、就业、医保养老、旅游、铁路、赛事、教育、健康、科技标准）",
+            "聚合线索及旧闻排雷（凤凰大风号、新浪转载、地方新闻早餐、农讯网、仪器网站）",
+            "检索路由（Exa、WebSearch、FetchURL、公开r.jina.ai）"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-08-coldwave-blizzard-response",
+          "story_identity": "coldwave-nov8-blizzard-realtime-response",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T06:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-11-08-coldwave-blizzard-response",
+          "score": 92,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-08-cotton-labels",
+          "story_identity": "cotton-coat-fiber-label-explainer",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T18:44:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-08-cotton-labels",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-08-trampoline-team-finals",
+          "story_identity": "trampoline-worlds-team-finals-nov7",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T23:26:38+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-11-08-trampoline-team-finals",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-08-cup-china-finals",
+          "story_identity": "cup-china-day2-final-results",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T22:27:15+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-11-08-cup-china-finals",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-08-quality-inspection",
+          "story_identity": "quality-inspection-second-batch-disclosure",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-08-quality-inspection",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-08-flight-refund-probe",
+          "story_identity": "jingjinji-flight-refund-investigation",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T15:33:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 17,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "通报会事件龄超过24小时，strict_24h已足5条；保留48小时备选，不将敦促整改写成已完成"
+        },
+        {
+          "candidate_key": "2026-11-08-hottest-october",
+          "story_identity": "copernicus-warmest-october-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T19:58:32+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 16,
+            "everyday_relevance": 18,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "全球气候备选已超过24小时窗口，strict_24h国内5条已足，不挤占国内名额"
+        },
+        {
+          "candidate_key": "2026-11-08-subsidized-training",
+          "story_identity": "mohrss-q1-q3-subsidized-training-8m",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T09:18:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 17,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "数据截至9月底、7日首次可核披露，事件龄超过24小时，strict_24h已足5条"
+        },
+        {
+          "candidate_key": "2026-11-08-shenzhou-foreign-astronaut",
+          "story_identity": "shenzhou24-first-foreign-astronaut",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T10:04:17+08:00",
+          "scope": "domestic",
+          "topic": "太空航天",
+          "outcome": "dropped_low_confidence",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 17,
+            "everyday_relevance": 18,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "7日上午披露已超过24小时窗口，strict_24h已足5条；不推测未来发射日期和人员姓名"
+        },
+        {
+          "candidate_key": "2026-11-08-jiangsu-tourism",
+          "story_identity": "jiangsu-tourism-accessibility-ten-measures",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T21:22:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 17,
+            "everyday_relevance": 22,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "最早完整报道为6日晚，8日转载不能重置时效；strict_24h已足5条"
+        },
+        {
+          "candidate_key": "2026-11-08-elderly-products",
+          "story_identity": "six-dept-elderly-products-consumption",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T08:59:56+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 17,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "适老与养老题材近期密集，媒体披露事件龄超过24小时，strict_24h不选"
+        },
+        {
+          "candidate_key": "2026-11-08-finance-blackgray",
+          "story_identity": "cac-financial-blackgray-account-cleanup",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T17:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 16,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "官网6日发布，事件龄超过24小时，strict_24h已足5条"
+        },
+        {
+          "candidate_key": "2026-11-08-chongqing-elderly-one",
+          "story_identity": "chongqing-elderly-benefits-one-service",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T16:06:24+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 16,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "养老服务题材近期密集，6日上线披露已超过24小时窗口"
+        },
+        {
+          "candidate_key": "2026-11-08-henan-consumption",
+          "story_identity": "henan-consumption-fifteen-measures",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T09:01:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 17,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "地方消费题材近期较多，7日上午媒体披露已超过24小时窗口"
+        },
+        {
+          "candidate_key": "2026-11-08-microdrama-cleanup",
+          "story_identity": "nrta-ai-microdrama-two-month-cleanup",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T19:47:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 16,
+            "everyday_relevance": 21,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "官网6日晚发布，治理起点为11月1日；事件龄超过24小时，strict_24h不选"
+        },
+        {
+          "candidate_key": "2026-11-08-ceres2-y3",
+          "story_identity": "ceres2-y3-four-satellites-launch",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T07:37:00+08:00",
+          "scope": "domestic",
+          "topic": "太空航天",
+          "outcome": "dropped_low_confidence",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 17,
+            "everyday_relevance": 18,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "实际发射已超过24小时窗口，strict_24h已足5条，不以航天题材凑数"
+        },
+        {
+          "candidate_key": "2026-11-08-shooting-skeet",
+          "story_identity": "shooting-worlds-women-skeet-podium-sweep",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T10:27:05+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 17,
+            "everyday_relevance": 18,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "赛事于6日举行、7日上午披露，体育条已较多且超过strict_24h窗口"
+        },
+        {
+          "candidate_key": "2026-11-08-adora-flora",
+          "story_identity": "adora-flora-city-second-cruise-delivery",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T08:52:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 15,
+            "everyday_relevance": 20,
+            "evidence": 15
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "交付披露事件龄约52小时，仅达72小时层级，strict_24h已足5条"
+        },
+        {
+          "candidate_key": "2026-11-08-ai-terminal-rules",
+          "story_identity": "miit-ai-terminal-network-access-rules",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T09:15:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 15,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "官网6日上午发布，事件龄约52小时，仅达72小时层级，strict_24h不选"
+        },
+        {
+          "candidate_key": "2026-11-08-reserves-gold",
+          "story_identity": "china-fx-reserves-gold-october-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T10:03:49+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 17,
+            "everyday_relevance": 16,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "74分低于strict_24h分数线，且10月末数据的民生贴近性次于入选条"
+        },
+        {
+          "candidate_key": "2026-11-08-antarctic-43",
+          "story_identity": "china-43rd-antarctic-expedition-departure",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T09:23:48+08:00",
+          "scope": "domestic",
+          "topic": "太空航天",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 17,
+            "everyday_relevance": 17,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "73分低于strict_24h分数线，起航仪式的公共生活增量次之"
+        },
+        {
+          "candidate_key": "2026-11-08-chongqing-care-coordinators",
+          "story_identity": "chongqing-care-coordinators-2000-on-job",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T09:05:10+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 17,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "72分低于strict_24h分数线；属当前数据披露而非当日开始上岗，养老题材密集且区域性较强"
+        },
+        {
+          "candidate_key": "2026-11-08-guangxi-food-train",
+          "story_identity": "guangxi-first-rice-noodle-tourist-train",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 17,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "72分低于strict_24h分数线，首趟旅游列车属区域服务信息"
+        },
+        {
+          "candidate_key": "2026-11-08-hefei-marathon",
+          "story_identity": "hefei-marathon-2026-results",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T10:14:15+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "单一原创稿经聚合转发，缺少第二独立可靠来源，不评分"
+        },
+        {
+          "candidate_key": "2026-11-08-flu-guide",
+          "story_identity": "flu-season-medication-vaccine-guide-nov8",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "72分低于strict_24h分数线，11月4日已发武汉流感条，不重复用季节问答凑条"
+        },
+        {
+          "candidate_key": "2026-11-08-ciie-consumption-trends",
+          "story_identity": "ciie-consumer-trends-feature-nov7",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T21:15:10+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "72分低于strict_24h分数线，进博消费趋势与近期多角度报道重复"
+        },
+        {
+          "candidate_key": "2026-11-08-yichang-voucher",
+          "story_identity": "yichang-1-5m-retail-dining-voucher",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "地方单源且同类消费券密集，缺少第二独立可靠来源，不评分"
+        },
+        {
+          "candidate_key": "2026-11-08-meishan-marathon",
+          "story_identity": "meishan-dongpo-marathon-2026-start",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T07:15:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "仅单日地方源，尚无完整赛果或第二独立可靠来源，不评分"
+        },
+        {
+          "candidate_key": "2026-11-08-news-awards",
+          "story_identity": "china-news-awards-36th-results",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T09:35:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 20,
+            "everyday_relevance": 15,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "66分仅达72小时层级，行业新闻与普通读者日常生活贴近性较低"
+        },
+        {
+          "candidate_key": "2026-11-08-old-community-recheck",
+          "story_identity": "old-community-16k-core-data-oct27",
+          "research_pass": 1,
+          "occurred_at": "2026-10-27T09:33:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 8,
+            "everyday_relevance": 23,
+            "evidence": 15
+          },
+          "drop_reason": "核心数据10月27日已披露，远超72小时窗口，确认属旧闻翻新，不派生资格层级"
+        },
+        {
+          "candidate_key": "2026-11-08-holiday-2027-recheck",
+          "story_identity": "state-council-2027-holiday-schedule",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T17:15:07+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 87,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 14,
+            "everyday_relevance": 24,
+            "evidence": 15
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "旧节点仍处72小时窗口，但strict_24h可行且已足5条，不翻新节假日安排"
+        },
+        {
+          "candidate_key": "2026-11-08-shizuoka-quake",
+          "story_identity": "japan-shizuoka-m57-quake-nov8",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T00:04:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 14,
+            "evidence": 13
+          },
+          "drop_reason": "外国地方事件且无新增重大公共影响，民生相关度14低于15地板，不派生资格层级"
+        },
+        {
+          "candidate_key": "2026-11-08-haixi-m32",
+          "story_identity": "qinghai-haixi-m32-routine-quake",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T00:06:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 20,
+            "everyday_relevance": 9,
+            "evidence": 5
+          },
+          "drop_reason": "3.2级小震无新增影响，仅见日报汇编；50分且民生相关度9，不派生资格层级"
+        },
+        {
+          "candidate_key": "2026-11-08-metro-service-point",
+          "story_identity": "foshan-guicheng-metro-service-point",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T15:39:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "仅单一地方稿转载，上线时刻未明，缺少第二独立可靠来源，不评分"
+        },
+        {
+          "candidate_key": "2026-11-08-nongxun-recycle",
+          "story_identity": "nongxun-seven-livelihood-2016-recycle",
+          "research_pass": 1,
+          "occurred_at": "2016-01-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "仅确认2016年份，1月1日为年份代表，未确认具体月日；旧政策内容重新发布，证据不足"
+        },
+        {
+          "candidate_key": "2026-11-08-standards-recycle",
+          "story_identity": "instrument-450-standards-2021-recycle",
+          "research_pass": 1,
+          "occurred_at": "2021-01-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "仅确认2021年份，1月1日为年份代表，未确认具体月日；旧标准清单重新包装，证据不足"
+        },
+        {
+          "candidate_key": "2026-11-08-dental-subsidy-ad",
+          "story_identity": "guangdong-dental-subsidy-commercial-ad",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T09:54:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "商业机构营销稿，并非政府补贴政策，缺少支撑公共补贴事实的可靠证据"
+        },
+        {
+          "candidate_key": "2026-11-08-retirement-recheck",
+          "story_identity": "retirement-pre-service-nov2-progress",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 10,
+            "everyday_relevance": 22,
+            "evidence": 8
+          },
+          "drop_reason": "仅确认11月2日工作进展，00:00为日期代表；并非11月8日新服务，62分且事件过旧，无资格层级"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "outcome": "dropped_safety",
+          "research_pass": 1,
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "outcome": "dropped_safety",
+          "research_pass": 1,
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "outcome": "dropped_safety",
+          "research_pass": 1,
+          "drop_reason": "rumor"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "outcome": "dropped_safety",
+          "research_pass": 1,
+          "drop_reason": "controversy"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-08-coldwave-blizzard-response",
+      "story_identity": "coldwave-nov8-blizzard-realtime-response",
+      "headline": "🥶 寒潮继续影响中东部，秦皇岛暴雪红色预警",
+      "summary": "中央气象台8日6时继续发布寒潮、大风蓝色预警，7日华北北部和辽宁局地出现大暴雪；秦皇岛0时22分继续发布暴雪红色预警。北京、辽宁等地前置交通应急力量，公众需防范积雪结冰和降温。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 92,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 14
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-08T06:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "与11月7日首个暴雪预警条切割，只写8日实测、红色预警升级和交通应对；预报继续使用预计，不写伤亡数字"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "中央气象台",
+          "url": "https://www.cma.gov.cn/2011xwzx/2011xqxxw/2011xzytq/202611/t20261108_8132084.html",
+          "title": "寒潮继续影响中东部地区",
+          "captured_at": "2026-11-08T12:41:23+08:00",
+          "note": "支持8日6时继续预警、7日强降雪实测及8日至10日降温预报"
+        },
+        {
+          "tier": "official",
+          "outlet": "国家应急广播",
+          "url": "https://www.cneb.gov.cn/yjxx/hsyj/20261108/t20261108_527865826.html",
+          "title": "河北省秦皇岛市更新暴雪红色预警",
+          "captured_at": "2026-11-08T12:41:23+08:00",
+          "note": "支持秦皇岛8日0时22分继续发布暴雪红色预警、既有暴雪及后续降雪量级"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央广网",
+          "url": "https://china.cnr.cn/news/20261108/t20261108_527866105.shtml",
+          "title": "各地提前部署应急保障能力 积极应对寒潮雨雪天气",
+          "captured_at": "2026-11-08T12:45:12+08:00",
+          "note": "支持北京161处保障站点、辽宁183支除雪防滑队伍等交通应对事实"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-08-cotton-labels",
+      "story_identity": "cotton-coat-fiber-label-explainer",
+      "headline": "🧥 棉服不一定含棉花，选购重点看吊牌和水洗标",
+      "summary": "央视调查援引国标和纤维检验专家：棉服装填充物可为天然或化学纤维，“羽绒棉”“云朵棉”等多为营销名称；纯棉、全棉、100%棉含义一致，消费者应核对纤维含量、执行标准和安全类别。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 13
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-07T18:44:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "事件锚点为7日18时44分节目披露；GB/T 2662-2017是现行国标而非新标，不指认具体商家违法"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://tv.cctv.com/2026/11/07/VIDEQCrULMfVB1KMXJbsBir6261107.shtml",
+          "captured_at": "2026-11-08T12:41:23+08:00",
+          "note": "支持7日18时44分《共同关注》节目披露时点；视频页无文字实录，事实由光明网同稿全文复核"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "光明网",
+          "url": "https://politics.gmw.cn/2026-11/08/content_39090844.htm",
+          "title": "真相来了丨买棉服别踩坑！名字带棉不一定是棉花，重点看吊牌",
+          "captured_at": "2026-11-08T12:41:23+08:00",
+          "note": "央视同稿全文支持填充物、营销名称、纤维含量及水洗标判断，不作为独立媒体佐证"
+        },
+        {
+          "tier": "official",
+          "outlet": "国家标准委",
+          "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=C314ED4F799F9EA552B22CDE31A1EDE3",
+          "title": "国家标准｜GB/T 2662-2017",
+          "captured_at": "2026-11-08T12:50:21+08:00",
+          "note": "公开索引核对GB/T 2662-2017《棉服装》及现行状态，未声称读取在线PDF"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-08-trampoline-team-finals",
+      "story_identity": "trampoline-worlds-team-finals-nov7",
+      "headline": "🤸 蹦床世锦赛：中国女队卫冕团体冠军，男队摘银",
+      "summary": "第39届世界蹦床锦标赛7日晚在南京决出网上团体名次，中国女队以26分卫冕，俄罗斯、白俄罗斯分列其后；中国男队以23分获银牌，白俄罗斯25分夺冠。朱雪莹、王梓赛等晋级8日个人决赛。",
+      "category": "国家高光",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 80,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 18,
+        "evidence": 14
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-07T23:26:38+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "只写7日晚已经结束的网上团体决赛，不把8日个人赛写成已有结果；事件锚点取新华社综合披露时刻"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.xinhuanet.com/20261107/ce1723e967f742a7ab3d04bd006a06fc/c.html",
+          "title": "蹦床世锦赛：中国队女团卫冕、男团夺银",
+          "captured_at": "2026-11-08T12:41:23+08:00",
+          "note": "支持中国女队26分、男队23分及各队名次、个人晋级情况和综合披露时刻"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "Xinhua",
+          "url": "https://english.news.cn/20261107/8f7ac47280a6451ba49955895866218b/c.html",
+          "title": "Zhu leads China to women's trampoline gold as Belarus claims men's title",
+          "captured_at": "2026-11-08T12:45:12+08:00",
+          "note": "英文稿复核赛事过程；与中文稿同属新华社，不声称是独立媒体来源"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-08-cup-china-finals",
+      "story_identity": "cup-china-day2-final-results",
+      "headline": "⛸️ 花滑中国杯决出三项冠军，朱易总分创个人最佳",
+      "summary": "中国杯7日在深圳完成女单、双人和冰舞决赛：千叶百音、米希纳/加利亚莫夫、费尔/吉布森分别夺冠；朱易以180.47分列女单第八，短节目、自由滑和总分均刷新个人最佳。",
+      "category": "国家高光",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 79,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 20,
+        "everyday_relevance": 18,
+        "evidence": 14
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-07T22:27:15+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "与11月7日短节目、韵律舞首日条切割，只写第二比赛日最终赛果；运动员身份按赛事官方口径"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "Xinhua",
+          "url": "https://english.news.cn/20261107/1b40caab02f5441ca3f2655a8e21131d/c.html",
+          "title": "Japan's Chiba wins women's title at ISU Figure Skating Cup of China",
+          "captured_at": "2026-11-08T12:41:23+08:00",
+          "note": "支持三项冠军、朱易成绩及7日22时27分15秒综合赛果披露时刻"
+        },
+        {
+          "tier": "official",
+          "outlet": "ISU",
+          "url": "https://www.isuresults.com/events/gpchn2026_Women.htm",
+          "title": "ISU GP Cup of China 2026 Women Final Results",
+          "captured_at": "2026-11-08T12:45:12+08:00",
+          "note": "官方成绩表支持千叶百音224.48分、朱易180.47分及排名"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中新网",
+          "url": "https://www.chinanews.com.cn/ty/2026/11-08/10728245.shtml",
+          "title": "中国杯世界花样滑冰大奖赛：米希纳/加利亚莫夫夺得双人滑冠军",
+          "captured_at": "2026-11-08T12:45:12+08:00",
+          "note": "独立报道双人、女单最终结果及中国选手表现"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-08-quality-inspection",
+      "story_identity": "quality-inspection-second-batch-disclosure",
+      "headline": "🔍 2026年第二批质量督察启动，四省抽查重点产品",
+      "summary": "市场监管总局7日18时披露，4个质量督察组启动今年第二批督察，自5日起陆续进驻安徽、江西、河南、四川，围绕重点领域、产品和行为抽查核查，推动处置质量责任落实及群众反映集中的质量隐患。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 76,
+      "score_breakdown": {
+        "heat": 24,
+        "freshness": 20,
+        "everyday_relevance": 18,
+        "evidence": 14
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-07T18:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "occurred_at是7日18时公开披露，不写成7日才进驻；进驻始于5日，文案聚焦产品和质量隐患，不采用会议宣传框架"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "市场监管总局",
+          "url": "https://www.samr.gov.cn/xw/sj/art/2026/art_b061ac6abe394ad08ec482c6d92aa76e.html",
+          "title": "国家质量强国建设协调推进领导小组办公室 启动2026年第二批质量督察工作",
+          "captured_at": "2026-11-08T12:41:23+08:00",
+          "note": "支持7日18时公开披露、4个督察组、5日起陆续进驻四省及抽查范围"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央广网",
+          "url": "https://news.cnr.cn/native/gd/kx/20261107/t20261107_527865602.shtml",
+          "title": "2026年第二批质量督察工作启动 4个督察组陆续进驻有关省份",
+          "captured_at": "2026-11-08T12:41:23+08:00",
+          "note": "央视记者报道复核同一批质量督察公开披露事实"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
