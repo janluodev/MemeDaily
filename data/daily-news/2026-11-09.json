@@ -1,0 +1,919 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T06:47:39+08:00",
+  "published_at": "2026-11-09T06:47:39+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 40,
+    "published": 5,
+    "dropped_safety": {
+      "politics": 1,
+      "geopolitics": 1,
+      "controversy": 1,
+      "rumor": 1
+    },
+    "dropped_low_confidence": 30,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 36,
+      "official_sources": 1,
+      "state_media_sources": 7,
+      "major_media_sources": 1,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 1
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 5,
+        "relaxed_48h": 16,
+        "relaxed_72h": 22
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 40,
+          "cumulative_unique_candidates": 40,
+          "source_scope": [
+            "中新11月8日滚动清单及国家、地方分站",
+            "新华社、央视、人民网、中国经济网、中国体育报等中央媒体",
+            "中央气象台、黑龙江省文旅厅、市场监管总局、未来科学大奖主办方",
+            "科学网、新京报、闪电新闻、财联社等持牌或主流垂直媒体",
+            "消费、就业、医疗、教育、交通、文旅、体育、量子科技与国际灾害",
+            "中新国际、新华社国际及英文媒体检索，转载聚合页仅作线索"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-09-csl-dalian-title",
+          "story_identity": "csl-2026-dalian-yingbo-title",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T20:38:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-11-09-csl-dalian-title",
+          "score": 87,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-09-weightlifting-worlds-finals",
+          "story_identity": "weightlifting-worlds-2026-china-17g",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T23:16:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-11-09-weightlifting-worlds-finals",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-09-capital-rumor-platform",
+          "story_identity": "capital-market-rumor-platform-upgrade",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T18:51:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-09-capital-rumor-platform",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-09-hlj-winter-services",
+          "story_identity": "hlj-winter-tourism-100day-launch-services",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T15:55:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-09-hlj-winter-services",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-09-qianzhen-prototype",
+          "story_identity": "qianzhen-neutral-atom-interconnected-prototype",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T20:40:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "selected",
+          "item_id": "2026-11-09-qianzhen-prototype",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-09-xiyu-bridge-join",
+          "story_identity": "xiyu-rail-beibei-jialing-bridge-join",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "合龙仅核至11月8日，00:00为日期代表；建设节点非即时客运变化，74分仅达48小时层级"
+        },
+        {
+          "candidate_key": "2026-11-09-coldwave-southward",
+          "story_identity": "coldwave-nov8-evening-southward-warning",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "同一寒潮链已连续多日覆盖，预警未升级，74分仅达48小时层级"
+        },
+        {
+          "candidate_key": "2026-11-09-future-prize-ceremony",
+          "story_identity": "future-science-prize-2026-hk-ceremony",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T14:50:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "颁奖礼为新节点，但获奖名单8月已公开，73分仅达48小时层级"
+        },
+        {
+          "candidate_key": "2026-11-09-wta-hk-final",
+          "story_identity": "wta-hk-2026-claire-liu-title",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T22:25:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "单项巡回赛，73分未达75分 strict 门槛"
+        },
+        {
+          "candidate_key": "2026-11-09-cup-china-men-final",
+          "story_identity": "cup-china-2026-men-final-miura",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T21:01:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "中国杯连续第三日，不再单列单一赛果，72分仅达48小时层级"
+        },
+        {
+          "candidate_key": "2026-11-09-snooker-wilson-title",
+          "story_identity": "snooker-intl-2026-wilson-title",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 16,
+            "everyday_relevance": 18,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "赛果仅核至7日晚间，18:00为保守下界而非确切时分；72分仅作48小时备选"
+        },
+        {
+          "candidate_key": "2026-11-09-draughts-youth-finals",
+          "story_identity": "draughts-world-youth-2026-china-team",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 16,
+            "everyday_relevance": 17,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "收官仅核至7日晚间，00:00为日期代表；青年赛事68分仅达72小时层级"
+        },
+        {
+          "candidate_key": "2026-11-09-liaolu-ferry-stop",
+          "story_identity": "liaolu-dalian-ferry-wind-suspension-nov8",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T05:30:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "停航发生已超过24小时，不能以较晚转载重置时效，仅达48小时层级"
+        },
+        {
+          "candidate_key": "2026-11-09-mawei-matsu-stop",
+          "story_identity": "mawei-matsu-ferry-nov9-suspension",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T15:53:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "区域航线服务信息，73分未达 strict 分数线"
+        },
+        {
+          "candidate_key": "2026-11-09-taiyuan-vientiane-route",
+          "story_identity": "taiyuan-chongqing-vientiane-route-launch",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T19:39:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "区域航线开通，68分仅达72小时层级"
+        },
+        {
+          "candidate_key": "2026-11-09-adora-dual-berth",
+          "story_identity": "adora-two-cruise-ships-shanghai-dual-berth",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T16:19:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "花城号交付已于6日披露，同港靠泊71分仅达48小时层级"
+        },
+        {
+          "candidate_key": "2026-11-09-ciie-tax-refund",
+          "story_identity": "ciie-2026-offsite-tax-refund-points",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T20:41:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "进博重复链且主要服务境外参会者，70分仅达48小时层级"
+        },
+        {
+          "candidate_key": "2026-11-09-ciie-retail-signing",
+          "story_identity": "ciie-2026-retail-procurement-signing",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T18:16:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 20,
+            "everyday_relevance": 15,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "行业端签约且重复进博题材，66分仅达72小时层级"
+        },
+        {
+          "candidate_key": "2026-11-09-ciie-consumer-launches",
+          "story_identity": "ciie-2026-multinational-consumer-launches",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T19:36:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 20,
+            "everyday_relevance": 15,
+            "evidence": 9
+          },
+          "drop_reason": "体验式汇总缺少足够新增公共事实，64分无资格层级"
+        },
+        {
+          "candidate_key": "2026-11-09-consumer-infra-recap",
+          "story_identity": "ndrc-consumer-infrastructure-oct19-recap",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 10,
+            "everyday_relevance": 20,
+            "evidence": 10
+          },
+          "drop_reason": "10月19日文件成文，00:00为日期代表；旧文件再解读已超窗，58分"
+        },
+        {
+          "candidate_key": "2026-11-09-auto-recall-recycle",
+          "story_identity": "auto-recalls-nov4-multi-brand-recycle",
+          "research_pass": 1,
+          "occurred_at": "2026-11-04T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 10,
+            "everyday_relevance": 22,
+            "evidence": 10
+          },
+          "drop_reason": "原始公告集中于11月4日，00:00为日期代表；转载已超72小时"
+        },
+        {
+          "candidate_key": "2026-11-09-yudongbei-pathology",
+          "story_identity": "yudongbei-smart-pathology-platform",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 17,
+            "everyday_relevance": 20,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "发布仅核至11月7日，00:00为日期代表；区域平台分阶段建设，仅达72小时层级"
+        },
+        {
+          "candidate_key": "2026-11-09-data-center-heat",
+          "story_identity": "hohhot-data-center-waste-heat-heating",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T15:05:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 18,
+            "everyday_relevance": 17,
+            "evidence": 8
+          },
+          "drop_reason": "运行案例特写，无新项目启动时点，62分无资格层级"
+        },
+        {
+          "candidate_key": "2026-11-09-nlc-badashanren",
+          "story_identity": "nlc-badashanren-400-lecture",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 16,
+            "everyday_relevance": 18,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "公开课仅核至11月7日，00:00为日期代表；公益活动68分仅达72小时层级"
+        },
+        {
+          "candidate_key": "2026-11-09-yaan-autumn-discounts",
+          "story_identity": "yaan-autumn-holiday-student-teacher-discounts",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T16:13:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "地方优惠且为预计让利口径，69分仅达72小时层级"
+        },
+        {
+          "candidate_key": "2026-11-09-daliangshan-theatre",
+          "story_identity": "daliangshan-theatre-festival-2026-opening",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "原文仅称近日，具体开幕日无法核定；11月8日为披露日，00:00为日期代表，不评分"
+        },
+        {
+          "candidate_key": "2026-11-09-hubei-drone-unit",
+          "story_identity": "hubei-government-drone-unit",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T16:15:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 20,
+            "everyday_relevance": 15,
+            "evidence": 6
+          },
+          "drop_reason": "机构成立宣传，公众服务实绩不足，60分无资格层级"
+        },
+        {
+          "candidate_key": "2026-11-09-powerbank-safety",
+          "story_identity": "powerbank-charging-safety-explainer",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T13:27:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 7
+          },
+          "drop_reason": "季节性安全内容而非新事件，64分无资格层级"
+        },
+        {
+          "candidate_key": "2026-11-09-water-filter-investigation",
+          "story_identity": "water-purifier-filter-lifetime-investigation",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 19,
+            "everyday_relevance": 21,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "调查仅核至8日披露，00:00为日期代表；个案与专家提示、单一节目链，仅达48小时层级"
+        },
+        {
+          "candidate_key": "2026-11-09-fire-escape-guide",
+          "story_identity": "119-fire-escape-guide",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T14:52:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 6
+          },
+          "drop_reason": "年度服务提示而非新事件，63分无资格层级"
+        },
+        {
+          "candidate_key": "2026-11-09-hypertension-watch",
+          "story_identity": "hypertension-smartwatch-research",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T13:46:00+08:00",
+          "scope": "international",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 20,
+            "everyday_relevance": 15,
+            "evidence": 7
+          },
+          "drop_reason": "无直接中国影响或全球重大性，61分无资格层级"
+        },
+        {
+          "candidate_key": "2026-11-09-pacific-microplastics",
+          "story_identity": "pacific-microplastic-color-research",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T10:23:00+08:00",
+          "scope": "international",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 20,
+            "everyday_relevance": 15,
+            "evidence": 5
+          },
+          "drop_reason": "基础研究不具日报公共门槛，58分无资格层级"
+        },
+        {
+          "candidate_key": "2026-11-09-shizuoka-quake-followup",
+          "story_identity": "japan-shizuoka-quake-injury-followup",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T00:04:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 17,
+            "everyday_relevance": 15,
+            "evidence": 9
+          },
+          "drop_reason": "外国地方事件且无全球代表性，63分无资格层级"
+        },
+        {
+          "candidate_key": "2026-11-09-egypt-train-derailment",
+          "story_identity": "egypt-train-derailment-nov8",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T21:20:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 18,
+            "everyday_relevance": 15,
+            "evidence": 8
+          },
+          "drop_reason": "外国地方事故，无全球代表性，61分无资格层级"
+        },
+        {
+          "candidate_key": "2026-11-09-senegal-boat-sinking",
+          "story_identity": "senegal-north-boat-sinking-nov8",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T00:00:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 18,
+            "everyday_relevance": 15,
+            "evidence": 6
+          },
+          "drop_reason": "事件仅核至11月8日，00:00为日期代表；外国地方事故不进入国际条"
+        },
+        {
+          "candidate_key": "2026-11-09-thailand-worker-climate",
+          "story_identity": "thailand-climate-worker-health-warning",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T19:40:00+08:00",
+          "scope": "international",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 56,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 20,
+            "everyday_relevance": 15,
+            "evidence": 3
+          },
+          "drop_reason": "外国机构例行警示，56分无资格层级"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-09-csl-dalian-title",
+      "story_identity": "csl-2026-dalian-yingbo-title",
+      "headline": "⚽ 大连英博夺得中超冠军，大连足球时隔21年再登顶",
+      "summary": "2026赛季中超8日收官，大连英博主场3比1战胜天津津门虎，成都蓉城客场2比3负于山东泰山；两队同积52分，大连英博最终夺冠，在赛季最多落后18分的情况下完成逆转，大连足球时隔21年再次登顶。",
+      "category": "国家高光",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 87,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 20,
+        "everyday_relevance": 19,
+        "evidence": 14
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-08T20:38:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "occurred_at取中新20:38综合赛果披露；中新与新华社为不同原创来源，不混入赛季早期数据"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/ty/2026/11-08/10728519.shtml",
+          "title": "2026赛季中国足球超级联赛收官 大连英博夺冠",
+          "captured_at": "2026-11-09T06:25:47+08:00",
+          "note": "支持中超收官、大连英博3比1取胜、两队同积52分及赛季逆转夺冠事实"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.news.cn/sports/20261108/7194502228cd4fa896453126d26066d8/c.html",
+          "title": "新华图讯丨大连英博队获2026赛季中超联赛冠军",
+          "captured_at": "2026-11-09T06:25:48+08:00",
+          "note": "支持大连英博队获得2026赛季中超联赛冠军"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-09-weightlifting-worlds-finals",
+      "story_identity": "weightlifting-worlds-2026-china-17g",
+      "headline": "🏋️ 中国队举重世锦赛17金10银6铜收官",
+      "summary": "2026年举重世锦赛8日晚在宁波落幕，中国队16人出战，共获17金10银6铜，4人11次打破成年世界纪录；李闫在最后一个级别两次刷新抓举世界纪录。本届赛事也是洛杉矶奥运会首站资格赛。",
+      "category": "国家高光",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 83,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 20,
+        "everyday_relevance": 19,
+        "evidence": 14
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-08T23:16:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "只写8日晚已经结束的赛事，不把奖牌总数改写成奥运级别金牌数"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/ty/2026/11-08/10728569.shtml",
+          "title": "举重世锦赛落幕：中国队夺得17金10银6铜",
+          "captured_at": "2026-11-09T06:25:50+08:00",
+          "note": "支持中国队16人出战、17金10银6铜及8日赛事落幕"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国体育报",
+          "url": "http://www.new-sports.cn/jingti/202611/t20261108_270082.html",
+          "title": "宁波举重世锦赛李闫两破世界纪录夺冠 中国举重队17金10银6铜收官",
+          "captured_at": "2026-11-09T06:25:50+08:00",
+          "note": "支持4人11次打破成年世界纪录及李闫两次刷新抓举世界纪录"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-09-capital-rumor-platform",
+      "story_identity": "capital-market-rumor-platform-upgrade",
+      "headline": "🔍 资本市场辟谣平台更名升级上线",
+      "summary": "资本市场辟谣平台8日更名升级上线，由原中国上市公司协会辟谣平台升级而来，由中国上市公司协会承办。平台将发布资本市场政策、上市公司及证券期货基金经营机构等权威辟谣信息，并纳入全国网络辟谣联动机制。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 81,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 13
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-08T18:51:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "两页均转引同一全国网络辟谣发布，不声称独立双报道；这是升级，不是首次建立资本市场辟谣机制"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-08/10728463.shtml",
+          "title": "“资本市场辟谣平台”正式上线",
+          "captured_at": "2026-11-09T06:25:51+08:00",
+          "note": "支持平台更名升级上线、承办主体及辟谣信息覆盖范围"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国经济网",
+          "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261108_3287415.shtml",
+          "title": "“资本市场辟谣平台”正式上线",
+          "captured_at": "2026-11-09T06:25:52+08:00",
+          "note": "复核平台上线及纳入全国网络辟谣联动机制；与中新同引全国网络辟谣发布"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-09-hlj-winter-services",
+      "story_identity": "hlj-winter-tourism-100day-launch-services",
+      "headline": "🧊 黑龙江冰雪旅游百日行动启动，发放1亿元消费券",
+      "summary": "黑龙江8日启动冬季冰雪旅游百日行动，投入1亿元冰雪消费券，并推出景区门票、票根优惠；“一键玩龙江”小程序同日焕新上线，提供AI路书、手绘地图、天气预警和暖心驿站查询等旅途服务。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 79,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 20,
+        "everyday_relevance": 20,
+        "evidence": 13
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-08T15:55:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "11月5日发布会只是预告，锚点取8日实际启动报道；消费券数字仅由中新支持，小程序功能仅由文旅厅支持，不互相混用"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-08/10728365.shtml",
+          "title": "黑龙江冬季冰雪旅游“百日行动”启动",
+          "captured_at": "2026-11-09T06:25:53+08:00",
+          "note": "支持百日行动8日启动、1亿元冰雪消费券及景区门票、票根优惠"
+        },
+        {
+          "tier": "official",
+          "outlet": "黑龙江省文化和旅游厅",
+          "url": "https://wlt.hlj.gov.cn/wlt/c114161/202611/c00_31991871.shtml",
+          "title": "“一键玩龙江”小程序11月8日焕新上线 暖冬宠客，智享龙江",
+          "captured_at": "2026-11-09T06:25:54+08:00",
+          "note": "支持小程序8日上线及AI路书、手绘地图、天气预警和暖心驿站查询功能"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-09-qianzhen-prototype",
+      "story_identity": "qianzhen-neutral-atom-interconnected-prototype",
+      "headline": "🧠 “乾阵”原型机在合肥发布，企业称支持多机互联",
+      "summary": "“乾阵”中性原子量子计算原型机8日在合肥发布，由乾原量子研制；山西大学—乾原量子联合实验室同日揭牌。企业负责人介绍其架构支持多机互联，团队后续将开展多机互联验证与示范。",
+      "category": "科技AI",
+      "scope": "domestic",
+      "topic": "科技AI",
+      "score": 76,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 20,
+        "everyday_relevance": 18,
+        "evidence": 11
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-08T20:40:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "未找到独立性能测试或第二原创来源；科学网为中新同稿转载，不作独立佐证。“中国首款”仅为企业负责人表述，不写成已经商用或算力领先"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/gn/2026/11-08/10728516.shtml",
+          "title": "中国首款可互联中性原子量子计算机“乾阵”原型机在合肥发布",
+          "captured_at": "2026-11-09T06:25:55+08:00",
+          "note": "支持原型机8日在合肥发布、乾原量子研制及联合实验室同日揭牌"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "科学网",
+          "url": "https://news.sciencenet.cn/htmlnews/2026/11/574419.shtm",
+          "title": "我国首款可互联中性原子量子计算机“乾阵”原型机发布",
+          "captured_at": "2026-11-09T06:25:55+08:00",
+          "note": "转载中新同稿，复核发布与企业负责人对首款和互联架构的表述，不作独立佐证"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
