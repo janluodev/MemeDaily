@@ -1,0 +1,878 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T06:46:07+08:00",
+  "published_at": "2026-11-10T06:46:07+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 42,
+    "published": 4,
+    "dropped_safety": {
+      "politics": 1,
+      "geopolitics": 1,
+      "controversy": 1,
+      "rumor": 1
+    },
+    "dropped_low_confidence": 30,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 38,
+      "official_sources": 4,
+      "state_media_sources": 3,
+      "major_media_sources": 0,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 4
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 4,
+        "relaxed_48h": 12,
+        "relaxed_72h": 17
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 42,
+          "cumulative_unique_candidates": 42,
+          "source_scope": [
+            "国家统计局、中国政府网、国家网信办、国家航天局等中央官方",
+            "宁夏、甘肃、青海、武汉等地方官方及公共服务机构",
+            "新华社、人民网、央视、中新网、中国天气网、科技日报",
+            "新京报、川观、大众日报、三湘都市报等持牌媒体",
+            "保险行业协会、中国质量新闻网、健康报及科研机构",
+            "WMO、UN News、The Guardian、Reuters、The Hindu",
+            "公开搜索及凤凰、新浪、网易等聚合线索与首次披露反查"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-10-mps-five-auto-services",
+          "story_identity": "mps-five-auto-service-measures-dec1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T10:58:17+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-10-mps-five-auto-services",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-10-stats-oct-cpi-ppi",
+          "story_identity": "stats-october-2026-cpi-ppi-release",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T09:30:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-10-stats-oct-cpi-ppi",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-10-tcm-knowledge-regulation",
+          "story_identity": "tcm-traditional-knowledge-protection-regulation",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T17:03:26+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-10-tcm-knowledge-regulation",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-10-cac-unified-filing",
+          "story_identity": "cac-four-tech-services-unified-filing-system",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "selected",
+          "item_id": "2026-11-10-cac-unified-filing",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "ningxia-elderly-rights-33-recheck",
+          "story_identity": "ningxia-elderly-rights-list-33",
+          "research_pass": 1,
+          "occurred_at": "2026-11-02T02:01:47+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 8,
+            "everyday_relevance": 24,
+            "evidence": 15
+          },
+          "drop_reason": "首次可靠披露为11月2日，11月9日转载属于旧闻翻新"
+        },
+        {
+          "candidate_key": "mine-ai-monitoring-recheck",
+          "story_identity": "mine-ai-personnel-output-power-monitoring",
+          "research_pass": 1,
+          "occurred_at": "2026-11-04T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 8,
+            "everyday_relevance": 17,
+            "evidence": 15
+          },
+          "drop_reason": "通知11月4日印发且已有更早转载，并非11月9日新政策，64分"
+        },
+        {
+          "candidate_key": "satellite-loworbit-29",
+          "story_identity": "long-march-12-loworbit-29-launch",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T04:24:00+08:00",
+          "scope": "domestic",
+          "topic": "太空航天",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 18,
+            "everyday_relevance": 17,
+            "evidence": 15
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "实际发射距生成时已超过24小时，较晚报道不能重置事件时间"
+        },
+        {
+          "candidate_key": "wmo-climate-2026-update",
+          "story_identity": "wmo-state-climate-2026-four-warmest",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T00:00:00+08:00",
+          "scope": "international",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 17,
+            "everyday_relevance": 20,
+            "evidence": 15
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "公开页仅支持11月9日日期，00:00为日期代表，不能证明24小时内"
+        },
+        {
+          "candidate_key": "nanjing-elderly-escort-plan",
+          "story_identity": "nanjing-elderly-medical-escort-17-tasks",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 12,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "drop_reason": "方案11月6日出台，陪诊题材近期重复且已超窗"
+        },
+        {
+          "candidate_key": "nhsa-wallet-2-data-recheck",
+          "story_identity": "nhsa-wallet-2-15-82b-data",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 10,
+            "everyday_relevance": 24,
+            "evidence": 14
+          },
+          "drop_reason": "原始解读会为11月5日，11月9日详解不重置时效"
+        },
+        {
+          "candidate_key": "wuhan-station-ridehail-recheck",
+          "story_identity": "wuhan-station-east-ridehail-closure",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T12:25:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 13,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "原始披露为11月7日，无11月10日执行实况，不按生效日翻新"
+        },
+        {
+          "candidate_key": "xiangtan-gjj-eight-recheck",
+          "story_identity": "xiangtan-housing-fund-eight-measures",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T11:05:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 9,
+            "everyday_relevance": 24,
+            "evidence": 15
+          },
+          "drop_reason": "11月3日已有原始报道，11月9日再报道且已超窗"
+        },
+        {
+          "candidate_key": "rare-disease-procedure-recheck",
+          "story_identity": "rare-disease-catalog-procedure-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-04T18:46:47+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 9,
+            "everyday_relevance": 24,
+            "evidence": 15
+          },
+          "drop_reason": "11月4日已公开披露，事件已超过72小时"
+        },
+        {
+          "candidate_key": "gansu-lti-recheck",
+          "story_identity": "gansu-long-term-care-insurance-plan",
+          "research_pass": 1,
+          "occurred_at": "2026-09-29T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 7,
+            "everyday_relevance": 24,
+            "evidence": 15
+          },
+          "drop_reason": "9月文件且10月已公开，不属于本轮新事件"
+        },
+        {
+          "candidate_key": "elderly-care-price-recheck",
+          "story_identity": "national-inclusive-elderly-care-pricing",
+          "research_pass": 1,
+          "occurred_at": "2026-10-16T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 7,
+            "everyday_relevance": 24,
+            "evidence": 15
+          },
+          "drop_reason": "10月16日已公开披露，后续再解读不重置时效"
+        },
+        {
+          "candidate_key": "mct-5a-17-recheck",
+          "story_identity": "mct-17-proposed-5a-attractions",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 9,
+            "everyday_relevance": 19,
+            "evidence": 15
+          },
+          "drop_reason": "11月5日公示已超窗，且景区尚未正式确定"
+        },
+        {
+          "candidate_key": "insurance-rate-research-recheck",
+          "story_identity": "life-insurance-pricing-rate-research-1-9",
+          "research_pass": 1,
+          "occurred_at": "2026-11-04T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 9,
+            "everyday_relevance": 23,
+            "evidence": 15
+          },
+          "drop_reason": "11月4日研究值已超窗，且未触发利率上限调整"
+        },
+        {
+          "candidate_key": "pesticide-smart-test-recheck",
+          "story_identity": "mobile-multi-target-pesticide-testing",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T07:52:05+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 13,
+            "everyday_relevance": 20,
+            "evidence": 15
+          },
+          "drop_reason": "成果11月6日披露且已超72小时，不是11月9日新成果，领先性为团队口径"
+        },
+        {
+          "candidate_key": "school-arrival-times-recheck",
+          "story_identity": "multiple-schools-delayed-arrival-roundup",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 9,
+            "everyday_relevance": 24,
+            "evidence": 14
+          },
+          "drop_reason": "多项旧措施拼合，无统一新事件"
+        },
+        {
+          "candidate_key": "xiashan-high-school-registration",
+          "story_identity": "xiashan-public-high-school-registration-admission",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 17,
+            "everyday_relevance": 20,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "原采访仅支持11月8日日期，00:00为日期代表；晚转载不进入strict"
+        },
+        {
+          "candidate_key": "qinghai-social-aid-check",
+          "story_identity": "qinghai-social-assistance-financial-check-rules",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T07:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "73分低于strict所需的75分"
+        },
+        {
+          "candidate_key": "rural-medical-insurance-no-quota",
+          "story_identity": "nhsa-rural-enrollment-no-forced-quota",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T13:19:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "74分低于strict门槛，且原始表态日期不明"
+        },
+        {
+          "candidate_key": "nmc-coldwave-end-yunnan-rain",
+          "story_identity": "nmc-coldwave-lifted-southwest-rain-nov9",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "同一寒潮链已密集覆盖，74分未达strict门槛"
+        },
+        {
+          "candidate_key": "guangzhou-two-metro-lines",
+          "story_identity": "guangzhou-two-metro-lines-yearend-plan",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 17,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "年底开通预告而非当日开通；仅支持11月8日日期，00:00为日期代表"
+        },
+        {
+          "candidate_key": "moworld-2-release",
+          "story_identity": "moworld-2-4d-world-model-release",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T13:31:28+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "发布仅称近日，性能为企业自述，69分仅达72小时层级"
+        },
+        {
+          "candidate_key": "beijing-humanoid-hiwbc",
+          "story_identity": "beijing-humanoid-hiwbc-control-model",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T14:21:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "企业模型发布，公共增量有限，70分未达strict门槛"
+        },
+        {
+          "candidate_key": "space-cloud-nebula-plan",
+          "story_identity": "nebula-constellation-space-computing-plan",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T16:28:00+08:00",
+          "scope": "domestic",
+          "topic": "太空航天",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "产业规划公共增量有限，不以航天题材凑条"
+        },
+        {
+          "candidate_key": "nhsa-three-medical-column",
+          "story_identity": "nhsa-medical-insurance-collaboration-column",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 20,
+            "everyday_relevance": 15,
+            "evidence": 9
+          },
+          "drop_reason": "栏目上线而非保障政策变化，62分无资格层级"
+        },
+        {
+          "candidate_key": "zhongshan-led-recall",
+          "story_identity": "meilaimeiya-led-panel-light-recall",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T16:42:25+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 6
+          },
+          "drop_reason": "涉及量少，64分低于65分最低线"
+        },
+        {
+          "candidate_key": "shanghai-ferry-maintenance",
+          "story_identity": "shanghai-two-ferry-routes-nov12-maintenance",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T14:20:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 6
+          },
+          "drop_reason": "局部例行服务信息，62分无资格层级"
+        },
+        {
+          "candidate_key": "chongming-wind-suspension",
+          "story_identity": "chongming-island-ferry-wind-suspension-nov9",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T05:30:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 20,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "停航已超24小时且区域性强，仅达48小时层级"
+        },
+        {
+          "candidate_key": "consumer-infra-oct19-recheck",
+          "story_identity": "five-dept-consumer-infrastructure-20-measures",
+          "research_pass": 1,
+          "occurred_at": "2026-10-19T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 7,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "drop_reason": "10月19日旧文件再解读，62分无资格层级"
+        },
+        {
+          "candidate_key": "samr-double11-recheck",
+          "story_identity": "samr-double11-2026-compliance-reminder-platforms",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T17:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 13,
+            "everyday_relevance": 22,
+            "evidence": 11
+          },
+          "drop_reason": "11月6日原始提示已超72小时，且同事件已覆盖"
+        },
+        {
+          "candidate_key": "guangdong-double11-meeting",
+          "story_identity": "guangdong-double11-platform-guidance-meeting",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T12:55:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "双11监管题材重复且会议日期不明，66分仅达72小时层级"
+        },
+        {
+          "candidate_key": "graduate-online-job-fairs",
+          "story_identity": "graduate-2027-online-job-fairs-nov",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "未读回微言教育原始发布；11月9日为汇总披露日，00:00为日期代表，不评分"
+        },
+        {
+          "candidate_key": "meituan-mr0-model",
+          "story_identity": "meituan-robotics-0-technical-report",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "团队自报性能，未核原论文及独立验证；日期仅代表报告披露日，不评分"
+        },
+        {
+          "candidate_key": "yongzhou-university-campus-event",
+          "story_identity": "key-universities-campus-yongzhou-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "单一转载链接，区域活动证据不足；11月8日00:00为日期代表，不评分"
+        },
+        {
+          "candidate_key": "binzhou-night-service",
+          "story_identity": "binzhou-approval-night-market-service",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "活动仅称近日，当前场次确切日期无法核定；00:00为报道日期代表，不评分"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-10-mps-five-auto-services",
+      "story_identity": "mps-five-auto-service-measures-dec1",
+      "headline": "🚗 5项交管便民措施12月起全国推行",
+      "summary": "公安部11月9日宣布，五项交管便民措施将于12月1日起在全国推行。进口小客车可通过“交管12123”App一站完成选号上牌；企业办理交管业务可免交纸质营业执照，企业网上注册、试验车临牌网办同步推进，并在重点城市试点智能客服“边问边办”。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 88,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 13
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-09T10:58:17+08:00",
+      "risk": {
+        "level": "low",
+        "note": "12月1日尚未来临，必须写将推行；五项并非全部面向个人，不能概括成所有交管业务均免窗口"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/politics/20261109/c62de8c4b4ef4087891636edd5945afc/c.html",
+          "title": "5项公安交管便民利企措施12月起实施",
+          "captured_at": "2026-11-10T06:19:45+08:00",
+          "note": "支持五项公安交管便民利企措施及12月1日起全国推行的时间安排"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "人民网",
+          "url": "http://society.people.com.cn/n1/2026/1109/c1008-40830577.html",
+          "title": "公安部推出5项公安交管便民利企改革新措施",
+          "captured_at": "2026-11-10T06:19:45+08:00",
+          "note": "支持进口小客车网上一站上牌、企业纸质营业执照免提交及重点城市试点边问边办"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-10-stats-oct-cpi-ppi",
+      "story_identity": "stats-october-2026-cpi-ppi-release",
+      "headline": "📊 10月CPI同比上涨0.7%，PPI同比上涨5.7%",
+      "summary": "国家统计局9日公布，10月CPI同比涨0.7%、环比持平，食品价格同比下降2.9%；PPI同比涨5.7%、环比涨0.7%，购进价格同比涨7.9%。CPI反映居民消费价格，PPI反映工业生产者出厂价格；数据为10月统计口径，不等于11月实时价格。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 86,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 20,
+        "everyday_relevance": 22,
+        "evidence": 12
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-09T09:30:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "同一发布合并成条；同比、环比不可混写，不能把能源或通信分项涨幅当成整体CPI"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html",
+          "title": "2026年10月份居民消费价格同比上涨0.7%",
+          "captured_at": "2026-11-10T06:19:45+08:00",
+          "note": "支持10月CPI同比上涨0.7%、环比持平及食品价格同比下降2.9%"
+        },
+        {
+          "tier": "official",
+          "outlet": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html",
+          "title": "2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7%",
+          "captured_at": "2026-11-10T06:19:45+08:00",
+          "note": "支持10月PPI同比上涨5.7%、环比上涨0.7%及购进价格同比上涨7.9%"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-10-tcm-knowledge-regulation",
+      "story_identity": "tcm-traditional-knowledge-protection-regulation",
+      "headline": "📜 我国首部中医药传统知识保护行政法规公布",
+      "summary": "我国首部中医药传统知识保护行政法规《中医药传统知识保护条例》11月9日公布，共32条，将自2027年1月1日起施行，目前尚未生效。条例明确开展古籍文献整理、传统知识调查和持有人申报，建立保护数据库与名录，并规定相应法律责任。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 81,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 19,
+        "evidence": 14
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-09T17:03:26+08:00",
+      "risk": {
+        "level": "low",
+        "note": "只写法规与公共服务意义，不采用领导活动框架；2027年1月1日施行尚未来临，不得写成已生效"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.xinhuanet.com/politics/20261109/db4316c62fc34d698315fd616782e73f/c.html",
+          "title": "新华社权威快报丨《中医药传统知识保护条例》公布",
+          "captured_at": "2026-11-10T06:28:11+08:00",
+          "note": "支持我国首部中医药传统知识保护行政法规公布、共32条及2027年1月1日起施行"
+        },
+        {
+          "tier": "official",
+          "outlet": "中国政府网",
+          "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7085599.htm",
+          "title": "条例发布页",
+          "captured_at": "2026-11-10T06:19:45+08:00",
+          "note": "支持条例建立保护数据库、保护名录及持有人制度，并规定相应法律责任"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-10-cac-unified-filing",
+      "story_identity": "cac-four-tech-services-unified-filing-system",
+      "headline": "🤖 生成式AI等四类备案迁入统一系统",
+      "summary": "国家网信办“互联网新技术新应用信息服务备案系统”9日上线，整合生成式人工智能、算法、深度合成、区块链备案，支持线上填报查询；原算法备案和区块链备案系统同步停用。此次调整属于备案渠道整合，不新增备案义务。",
+      "category": "科技AI",
+      "scope": "domestic",
+      "topic": "科技AI",
+      "score": 79,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 20,
+        "everyday_relevance": 20,
+        "evidence": 13
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-09T15:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "这是备案渠道整合，不新增备案义务或扩大许可范围；官方15:00通告为时间锚点，不用较晚报道重置"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家网信办",
+          "url": "https://www.cac.gov.cn/2026-11/09/c_1795978604463007.htm",
+          "title": "关于互联网新技术新应用信息服务备案系统上线的通告",
+          "captured_at": "2026-11-10T06:19:45+08:00",
+          "note": "支持四类备案整合上线、线上填报查询及原算法和区块链备案系统同步停用"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
