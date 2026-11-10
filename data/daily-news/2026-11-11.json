@@ -1,0 +1,1171 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T06:51:15+08:00",
+  "published_at": "2026-11-11T06:51:15+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 42,
+    "published": 10,
+    "dropped_safety": {
+      "politics": 1,
+      "geopolitics": 1,
+      "controversy": 1,
+      "rumor": 1
+    },
+    "dropped_low_confidence": 26,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 38,
+      "official_sources": 3,
+      "state_media_sources": 15,
+      "major_media_sources": 3,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 2
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 10,
+        "relaxed_48h": 18,
+        "relaxed_72h": 24
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 42,
+          "cumulative_unique_candidates": 42,
+          "source_scope": [
+            "教育部、国家发改委、国家卫健委等中央官方",
+            "北京市生态环境局及地方公共服务页面",
+            "新华社、央视、人民网、中新网、中国日报",
+            "科技日报、中国经济网及科研机构",
+            "北京日报、极目新闻、财联社等持牌媒体",
+            "铁路、医疗药品、教育、信用与生态环境专业线",
+            "公开搜索及聚合线索的首次披露反查",
+            "国际公开检索与代表性复核"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-11-rural-admissions-plan",
+          "story_identity": "moe-rural-revitalization-admissions-2030",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T09:36:14+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "selected",
+          "item_id": "2026-11-11-rural-admissions-plan",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-11-innovative-drug-access",
+          "story_identity": "four-dept-innovative-drug-access-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T12:41:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-11-innovative-drug-access",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-11-golden-rooster-winners",
+          "story_identity": "golden-rooster-39-full-winners",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T22:21:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-11-11-golden-rooster-winners",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-11-savings-bonds-final-batch",
+          "story_identity": "savings-bonds-2026-issues-9-10-sale",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T08:30:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-11-savings-bonds-final-batch",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-11-beijing-air-orange-alert",
+          "story_identity": "beijing-air-pollution-orange-nov11",
+          "research_pass": 1,
+          "occurred_at": "2026-11-11T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-11-11-beijing-air-orange-alert",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-11-ndrc-social-policy-presser",
+          "story_identity": "ndrc-nov10-social-policy-presser",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-11-ndrc-social-policy-presser",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-11-xiongan-beijing-services",
+          "story_identity": "xiongan-full-beijing-services-mid-nov",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T09:55:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-11-xiongan-beijing-services",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-11-foundation-regulation",
+          "story_identity": "foundation-regulation-revised-2027",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T17:08:32+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-11-foundation-regulation",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-11-shortage-drug-supply",
+          "story_identity": "nhc-shortage-drug-cyclophosphamide-response",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T20:33:23+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-11-shortage-drug-supply",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-11-credit-incentives-2026",
+          "story_identity": "national-credit-incentive-list-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T19:42:46+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-11-credit-incentives-2026",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "medical-iso-proposals",
+          "story_identity": "china-medical-device-iso-25-standards",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T14:36:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "73分低于strict门槛，仅达48小时资格"
+        },
+        {
+          "candidate_key": "rail-einvoice-nov5-recheck",
+          "story_identity": "rail-einvoice-optimization-dec1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 8,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "drop_reason": "仅核到11月5日日期，00:00为日精度代表；原公告已公开且超过72小时"
+        },
+        {
+          "candidate_key": "rail-ski-gear-services",
+          "story_identity": "rail-ski-gear-service-expansion-nov10",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 17,
+            "everyday_relevance": 21,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅核到11月10日日期，00:00为日精度代表；保守归入48小时层级"
+        },
+        {
+          "candidate_key": "nb3sn-accelerator-recheck",
+          "story_identity": "nb3sn-liquid-helium-free-accelerator",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 14,
+            "everyday_relevance": 17,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅核到11月9日日期，00:00为日精度代表；原始成果不按晚报道翻新"
+        },
+        {
+          "candidate_key": "automated-core-drill-recheck",
+          "story_identity": "automated-geological-drill-7000m",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 67,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 14,
+            "everyday_relevance": 16,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅核到11月9日日期，00:00为日精度代表；67分仅达72小时层级"
+        },
+        {
+          "candidate_key": "xiamen-sea-bridge-join",
+          "story_identity": "xiamen-jinmen-sea-bridge-main-join",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 17,
+            "everyday_relevance": 19,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅核到11月10日日期，00:00为日精度代表；不能进入strict"
+        },
+        {
+          "candidate_key": "ciie-close-five-records",
+          "story_identity": "ciie-2026-close-five-records",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 17,
+            "everyday_relevance": 16,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅核到11月10日日期，00:00为日精度代表；进博题材饱和且71分"
+        },
+        {
+          "candidate_key": "nmc-weather-nov10-night",
+          "story_identity": "nmc-yunnan-rain-xinjiang-snow-haze",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 17,
+            "everyday_relevance": 21,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅核到11月10日日期，00:00为日精度代表；常规天气不凑条"
+        },
+        {
+          "candidate_key": "jinan-air-response-recheck",
+          "story_identity": "jinan-heavy-air-response-nov9-20",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 16,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "74分低于strict门槛，仅达48小时资格"
+        },
+        {
+          "candidate_key": "childcare-employers-recheck",
+          "story_identity": "national-childcare-employers-150-750w",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 14,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅核到11月9日日期，00:00为日精度代表；托育题材近期密集"
+        },
+        {
+          "candidate_key": "changchun-four-city-pass",
+          "story_identity": "changchun-four-city-winter-pass",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 17,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅核到11月10日日期，00:00为日精度代表；72分未达strict"
+        },
+        {
+          "candidate_key": "fuzhou-air-rail-recheck",
+          "story_identity": "fuzhou-air-rail-intermodal-nov10",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 67,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 14,
+            "everyday_relevance": 20,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅核到11月9日日期，00:00为日精度代表；公开转载证据有限"
+        },
+        {
+          "candidate_key": "ai-token-retail-trend",
+          "story_identity": "ai-token-independent-ecommerce-category",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 17,
+            "everyday_relevance": 18,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅核到11月10日日期，00:00为日精度代表；68分仅作低层级观察"
+        },
+        {
+          "candidate_key": "ai-shopping-comparison-feature",
+          "story_identity": "ai-shopping-comparison-consumer-feature",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 17,
+            "everyday_relevance": 19,
+            "evidence": 7
+          },
+          "drop_reason": "仅核到11月10日日期，00:00为日精度代表；消费调查非新事件且64分"
+        },
+        {
+          "candidate_key": "double11-legal-risk-repeat",
+          "story_identity": "double11-legal-risk-consumer-tips",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 17,
+            "everyday_relevance": 18,
+            "evidence": 7
+          },
+          "drop_reason": "仅核到11月10日日期，00:00为日精度代表；重复消费提示且62分"
+        },
+        {
+          "candidate_key": "ciie-health-innovation-repeat",
+          "story_identity": "ciie-health-service-innovation-nov10",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T21:51:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 7
+          },
+          "drop_reason": "进博健康题材重复，64分低于65分最低线"
+        },
+        {
+          "candidate_key": "asean-esports-recheck",
+          "story_identity": "china-asean-esports-2026-close",
+          "research_pass": 1,
+          "occurred_at": "2026-11-08T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 10,
+            "everyday_relevance": 17,
+            "evidence": 12
+          },
+          "drop_reason": "仅核到11月8日日期，00:00为日精度代表；日精度超窗且61分"
+        },
+        {
+          "candidate_key": "asian-orienteering-recheck",
+          "story_identity": "asian-orienteering-guilin-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 55,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 8,
+            "everyday_relevance": 17,
+            "evidence": 10
+          },
+          "drop_reason": "仅核到11月7日日期，00:00为日精度代表；已超窗且55分"
+        },
+        {
+          "candidate_key": "redcross-leukemia-visit",
+          "story_identity": "redcross-leukemia-child-visit-nov6-9",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 14,
+            "everyday_relevance": 20,
+            "evidence": 8
+          },
+          "drop_reason": "仅核到11月9日日期，00:00为日精度代表；活动结束后报道且61分"
+        },
+        {
+          "candidate_key": "beijing-musical-schedule",
+          "story_identity": "beijing-tianqiao-musical-2026-schedule",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 17,
+            "everyday_relevance": 17,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅核到11月10日日期，00:00为日精度代表；日程发布且66分"
+        },
+        {
+          "candidate_key": "shaw-prize-ceremony",
+          "story_identity": "shaw-prize-2026-ceremony-hk",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 17,
+            "everyday_relevance": 17,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅核到11月10日日期，00:00为日精度代表；72分未达strict"
+        },
+        {
+          "candidate_key": "blood-donation-nominations",
+          "story_identity": "national-blood-donation-award-nominations",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 17,
+            "everyday_relevance": 18,
+            "evidence": 9
+          },
+          "drop_reason": "仅核到11月10日日期，00:00为日精度代表；例行公示且62分"
+        },
+        {
+          "candidate_key": "shanxi-drug-procurement-recheck",
+          "story_identity": "shanxi-12th-drug-procurement-65",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 8,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "drop_reason": "仅核到11月5日日期，00:00为日精度代表；旧闻翻新且63分"
+        },
+        {
+          "candidate_key": "nmpa-device-certificate-cancellation",
+          "story_identity": "nmpa-25-device-certificates-cancelled",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 17,
+            "everyday_relevance": 18,
+            "evidence": 10
+          },
+          "drop_reason": "仅核到11月10日日期，00:00为日精度代表；公共增量有限且63分"
+        },
+        {
+          "candidate_key": "caict-embodied-ai-evaluation",
+          "story_identity": "caict-trusted-embodied-ai-evaluation-nov10",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "仅为11月10日14时预定发布会，未核到会后结果，不评分"
+        },
+        {
+          "candidate_key": "fuchun-exhibition-opening",
+          "story_identity": "fuchun-shengshan-scroll-nov10-exhibition",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "预定展出；仅核到11月10日日期，00:00为日精度代表，未核到首日实际开放，不评分"
+        },
+        {
+          "candidate_key": "youth-olympics-gymnastics",
+          "story_identity": "dakar-youth-olympics-china-women-team-gold",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T00:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 17,
+            "everyday_relevance": 15,
+            "evidence": 6
+          },
+          "drop_reason": "仅核到11月10日日期，00:00为日精度代表；国际证据与代表性不足且64分"
+        },
+        {
+          "candidate_key": "turkiye-steel-plant-blast",
+          "story_identity": "turkiye-steel-plant-blast-nov10",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T09:56:54+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 15,
+            "evidence": 2
+          },
+          "drop_reason": "外国地方新闻，缺少中国读者直接影响或全球代表性，58分"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-11-rural-admissions-plan",
+      "story_identity": "moe-rural-revitalization-admissions-2030",
+      "headline": "🎓 三部门调整高校招生专项计划，2030年起实施",
+      "summary": "教育部、公安部、农业农村部公布乡村振兴专项：2027—2029年现行计划继续执行，2030年起按新规招生。新规强调应届身份、县中学籍和实际就读，户籍、学籍及就读年限至高考当年原则上均不得少于3年。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "教育考试",
+      "score": 88,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 13
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-10T09:36:14+08:00",
+      "risk": {
+        "level": "low",
+        "note": "必须突出三年过渡期，不得写成2027年高考立即按新规则录取"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "教育部",
+          "url": "http://www.moe.gov.cn/srcsite/A15/moe_776/s3258/202611/t20261109_1457655.html",
+          "title": "乡村振兴高校招生专项计划发布页",
+          "captured_at": "2026-11-11T06:19:00+08:00",
+          "note": "支持教学〔2026〕3号、2027—2029年现行专项继续执行及2030年高考起实施新专项"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://news.cctv.com/2026/11/10/ARTIzUni0AGLghTbp9SzACAx261110.shtml",
+          "title": "三部门调整高校招生专项计划，2030年起实施",
+          "captured_at": "2026-11-11T06:23:53+08:00",
+          "note": "支持11月10日09:36:14披露及应届身份、县中学籍、实际就读和户籍年限要求"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-11-innovative-drug-access",
+      "story_identity": "four-dept-innovative-drug-access-2026",
+      "headline": "💊 四部门优化创新药配备使用，支持特例单议",
+      "summary": "四部门要求二级以上医疗机构优化创新药进院流程，定期组织用药和医保支付培训。合理使用国家医保目录内创新药、但不适合按病种标准支付的病例，可自主申报特例单议，并优化相关绩效监测口径。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 88,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 14
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-10T12:41:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "不等于所有创新药都能进院或报销，也不构成个体用药建议"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视稿（中新转载）",
+          "url": "https://www.chinanews.com.cn/jk/2026/11-10/10729351.shtml",
+          "title": "四部门优化创新药配备使用，支持特例单议",
+          "captured_at": "2026-11-11T06:29:45+08:00",
+          "note": "支持11月10日12:41公开、二级以上医疗机构优化进院流程及特例单议安排"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/politics/20261110/e8532796a4f043378bcae4ae06b96066/c.html",
+          "title": "四部门优化创新药配备使用，支持特例单议",
+          "captured_at": "2026-11-11T06:15:34+08:00",
+          "note": "支持合理使用但不宜按病种支付的病例可申报特例单议及部分绩效监测口径优化"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-11-golden-rooster-winners",
+      "story_identity": "golden-rooster-39-full-winners",
+      "headline": "🎬 第39届金鸡奖揭晓，《南京照相馆》获最佳故事片",
+      "summary": "第39届中国电影金鸡奖10日晚在厦门揭晓。《南京照相馆》获最佳故事片，郑大圣凭《密档》获最佳导演，梁家辉凭《捕风追影》、高叶凭《南京照相馆》分获最佳男女主角，《给阿嬷的情书》获评委会特别奖。",
+      "category": "文化数字经济",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 86,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 20,
+        "everyday_relevance": 19,
+        "evidence": 13
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-10T22:21:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "只写正式奖项，不采用明星情绪、争议或预测性叙述"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "极目新闻",
+          "url": "https://www.ctdsb.net/c1476_202611/2901432.html",
+          "title": "第39届金鸡奖揭晓，《南京照相馆》获最佳故事片",
+          "captured_at": "2026-11-11T06:15:34+08:00",
+          "note": "22:21完整名单支持最佳故事片、最佳导演、最佳男女主角及评委会特别奖"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://news.cctv.com/2026/11/10/ARTIBTCQSnf2RRG2H49GsZ8L261110.shtml",
+          "title": "第39届中国电影金鸡奖获奖名单揭晓",
+          "captured_at": "2026-11-11T06:23:53+08:00",
+          "note": "22:55复核第39届金鸡奖完整获奖名单"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-11-savings-bonds-final-batch",
+      "story_identity": "savings-bonds-2026-issues-9-10-sale",
+      "headline": "💰 年内最后一批储蓄国债开售，3年期利率1.63%",
+      "summary": "2026年第九期、第十期电子式储蓄国债10日8时30分开售，发行期持续至19日，3年期、5年期票面年利率分别为1.63%、1.70%。多家银行APP渠道额度数分钟内售罄，购买条件以各承销银行公告为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 86,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 20,
+        "everyday_relevance": 22,
+        "evidence": 12
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-10T08:30:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "不荐股、不引导抢购；08:30时效余量薄，正式发布必须由受信管线重算24小时边界"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "财联社",
+          "url": "https://www.cls.cn/detail/2529923",
+          "title": "年内最后一批储蓄国债开售，3年期利率1.63%",
+          "captured_at": "2026-11-11T06:19:00+08:00",
+          "note": "支持第九期、第十期电子式储蓄国债发行期、利率及记者实测多家银行APP渠道情况"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央视《国内联播快讯》",
+          "url": "https://tv.cctv.com/2026/11/10/VIDE0Fo6dZ6TdNIyG7G1CWL1261110.shtml",
+          "title": "年内最后一批电子式储蓄国债开售",
+          "captured_at": "2026-11-11T06:18:11+08:00",
+          "note": "支持11月10日08:30开售、发行期至11月19日及3年期和5年期票面利率"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-11-beijing-air-orange-alert",
+      "story_identity": "beijing-air-pollution-orange-nov11",
+      "headline": "🌫️ 北京启动空气重污染橙色预警，注意健康防护",
+      "summary": "北京于11日0时启动空气重污染橙色预警。官方预计11日至14日空气质量可能达到中度污染，部分地区、部分时段达到重度污染，市民应做好健康防护，学校和相关单位按预案采取相应措施。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 86,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 13
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-11T00:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "预警生效时间来自正式通告，污染等级仍是预报，不写成全市已持续重度污染"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "北京市生态环境局",
+          "url": "https://sthjj.beijing.gov.cn/bjhrb/index/xxgk69/zfxxgk43/fdzdgknr2/ywdt28/xwfb/744157665/index.html",
+          "title": "北京启动空气重污染橙色预警",
+          "captured_at": "2026-11-11T06:26:35+08:00",
+          "note": "正式通告支持11月11日00:00启动橙色预警及11日至14日污染等级预报"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央视稿（中国经济网转载）",
+          "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261110_3289962.shtml",
+          "title": "北京启动空气重污染橙色预警，注意健康防护",
+          "captured_at": "2026-11-11T06:26:35+08:00",
+          "note": "支持预计部分地区、部分时段达到重度污染及健康防护和预案措施"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-11-ndrc-social-policy-presser",
+      "story_identity": "ndrc-nov10-social-policy-presser",
+      "headline": "🏫 发改委：增加高中和高校学位，推进养老托育扩容",
+      "summary": "国家发改委10日介绍，将增加普通高中和高等教育学位供给，支持县域心电、检验、影像共享中心建设；同时推进老旧养老机构改造、护理型床位提升和托育综合服务中心地市级覆盖。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 84,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 13
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-11-10T10:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "属于发布会提出的工作方向，不包装成当天已落地的新补贴或新建设成果"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/politics/20261110/48cd7c87104f4e8fbb58985ec74d6a92/c.html",
+          "title": "发改委：增加高中和高校学位，推进养老托育扩容",
+          "captured_at": "2026-11-11T06:11:43+08:00",
+          "note": "确认发布会已召开，支持高中学位、县域医疗共享中心及养老托育举措"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国网直播预告",
+          "url": "http://www.china.com.cn/zhibo/content_118767486.htm",
+          "title": "国家发改委社会政策发布会直播预告",
+          "captured_at": "2026-11-11T06:26:35+08:00",
+          "note": "支持发布会预定于11月10日10:00举行，实际召开由新华社报道复核"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://news.cctv.com/2026/11/10/ARTI0pnshQsC9RSSpsWcmwHO261110.shtml",
+          "title": "发改委介绍教育、医疗、养老托育举措",
+          "captured_at": "2026-11-11T06:19:00+08:00",
+          "note": "支持高等教育学位、护理型床位提升和托育综合服务中心地市级覆盖"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-11-xiongan-beijing-services",
+      "story_identity": "xiongan-full-beijing-services-mid-nov",
+      "headline": "🏢 北京市级2000多项政务事项将可在雄安办理",
+      "summary": "11月中旬起，北京市级2000多项政务服务事项将在雄安新区全量可办、全域通办；北京各区1700多项事项可在雄安政务服务大厅现场收件，138项北京社保及国管住房公积金业务也已落地。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 84,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 13
+      },
+      "heat_rank": 7,
+      "occurred_at": "2026-11-10T09:55:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "全量市级事项是未来生效安排，标题和摘要必须保留“将”，不得写成已全部即时可办"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视稿（中国经济网转载）",
+          "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261110_3289600.shtml",
+          "title": "北京市级2000多项政务事项将可在雄安办理",
+          "captured_at": "2026-11-11T06:19:00+08:00",
+          "note": "支持11月10日09:55公开及11月中旬起北京市级2000多项事项将在雄安办理"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "北京日报",
+          "url": "https://xinwen.bjd.com.cn/content/s6af279aee4b0e42f8f02b691.html",
+          "title": "北京市级政务事项将可在雄安全量可办",
+          "captured_at": "2026-11-11T06:22:45+08:00",
+          "note": "支持各区1700多项事项现场收件及138项社保和国管公积金业务已经落地"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-11-foundation-regulation",
+      "story_identity": "foundation-regulation-revised-2027",
+      "headline": "📜 修订后的基金会管理条例公布，2027年起施行",
+      "summary": "修订后的《基金会管理条例》10日公布，将自2027年1月1日起施行。条例完善基金会登记、治理、财产使用和监督规则，扶弱济困、扶老助残等公益领域可依法申请直接登记，并强化信息公开要求。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 81,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 20,
+        "everyday_relevance": 20,
+        "evidence": 14
+      },
+      "heat_rank": 8,
+      "occurred_at": "2026-11-10T17:08:32+08:00",
+      "risk": {
+        "level": "low",
+        "note": "2027年1月1日施行尚未来临；两页同载新华社条例全文，不声称独立双报道，不采用领导活动框架"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中新全文",
+          "url": "https://www.chinanews.com.cn/gn/2026/11-10/10729589.shtml",
+          "title": "修订后的基金会管理条例公布，2027年起施行",
+          "captured_at": "2026-11-11T06:15:34+08:00",
+          "note": "支持国务院令第848号、11月10日17:08公开及2027年1月1日起施行"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "人民网全文",
+          "url": "http://politics.people.com.cn/n1/2026/1110/c1001-40831456.html",
+          "title": "基金会管理条例全文",
+          "captured_at": "2026-11-11T06:26:35+08:00",
+          "note": "同载新华社条例全文，支持部分公益领域直接登记和统一信息平台公开要求"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-11-shortage-drug-supply",
+      "story_identity": "nhc-shortage-drug-cyclophosphamide-response",
+      "headline": "💉 多部门应对注射用环磷酰胺供应不足，推动增产挂网",
+      "summary": "国家卫健委通报，针对注射用环磷酰胺供应不充分已启动国家应对处置：工信部门建立周调度机制推动国内企业有序提升产能，医保部门指导地方完成挂网；多部门还协调组织复产抗疟疾用药磷酸伯氨喹片。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 80,
+      "score_breakdown": {
+        "heat": 25,
+        "freshness": 20,
+        "everyday_relevance": 22,
+        "evidence": 13
+      },
+      "heat_rank": 9,
+      "occurred_at": "2026-11-10T20:33:23+08:00",
+      "risk": {
+        "level": "low",
+        "note": "原文是“供应不充分”，不写成全国断药；两页同引国家卫健委通报，不冒充独立双源"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "科技日报",
+          "url": "https://www.stdaily.com/web/gdxw/2026-11/10/content_611448.html",
+          "title": "多部门应对注射用环磷酰胺供应不足，推动增产挂网",
+          "captured_at": "2026-11-11T06:26:35+08:00",
+          "note": "支持11月10日20:33披露、国家应对处置、周调度增产和地方挂网"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国网",
+          "url": "http://news.china.com.cn/2026-11/10/content_118769462.shtml",
+          "title": "多部门推动短缺药品复产保供",
+          "captured_at": "2026-11-11T06:29:45+08:00",
+          "note": "同引国家卫健委通报，支持协调组织复产抗疟疾用药磷酸伯氨喹片"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-11-credit-incentives-2026",
+      "story_identity": "national-credit-incentive-list-2026",
+      "headline": "🤝 全国守信激励清单发布，超200项措施覆盖出行金融",
+      "summary": "国家发改委、中国人民银行印发2026年版全国守信激励措施基础清单，覆盖25类守信主体，提出超过200项行政化、社会化激励措施，包括办事绿色通道、降低检查频次、便捷乘机、金融和互联网平台权益。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 20,
+        "everyday_relevance": 19,
+        "evidence": 13
+      },
+      "heat_rank": 10,
+      "occurred_at": "2026-11-10T19:42:46+08:00",
+      "risk": {
+        "level": "low",
+        "note": "仅适用于有关部门认定的守信主体，不写成全民自动享有；具体申领规则以信用中国和参与企业后续公开为准"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家发改委",
+          "url": "https://www.ndrc.gov.cn/xxgk/jd/jd/202611/t20261110_1408747.html",
+          "title": "全国守信激励清单发布，超200项措施覆盖出行金融",
+          "captured_at": "2026-11-11T06:15:34+08:00",
+          "note": "支持2026年版基础清单、25类守信主体及超过200项行政化和社会化激励措施"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "人民网转新华社",
+          "url": "http://finance.people.com.cn/n1/2026/1110/c1004-40831508.html",
+          "title": "全国守信激励措施基础清单发布",
+          "captured_at": "2026-11-11T06:23:53+08:00",
+          "note": "支持政务绿色通道、降低检查频次及航空、金融和互联网平台权益"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中新网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-10/10729704.shtml",
+          "title": "2026年版全国守信激励措施基础清单印发",
+          "captured_at": "2026-11-11T06:29:45+08:00",
+          "note": "支持11月10日19:42公开及参与企业须公布具体申请条件和渠道"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
