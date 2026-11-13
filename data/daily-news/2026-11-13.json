@@ -1,0 +1,992 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-13",
+  "generated_at": "2026-11-14T07:34:15+08:00",
+  "published_at": "2026-11-14T07:34:15+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 37,
+    "published": 10,
+    "dropped_safety": {
+      "politics": 1,
+      "geopolitics": 1,
+      "propaganda": 1,
+      "controversy": 1,
+      "rumor": 1
+    },
+    "dropped_low_confidence": 13,
+    "dropped_quota": 0,
+    "dropped_capacity": 7,
+    "sources": [
+      "official",
+      "state_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 32,
+      "official_sources": 2,
+      "state_media_sources": 9,
+      "major_media_sources": 0,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 2
+    },
+    "selection": {
+      "evaluated_at": "2026-11-13T23:30:00+08:00",
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 17,
+        "relaxed_48h": 26,
+        "relaxed_72h": 29
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 37,
+          "cumulative_unique_candidates": 37,
+          "source_scope": [
+            "国家发改委、国家卫健委、国家疾控局等中央官方",
+            "地方人社、教育考试院与公共服务页面",
+            "新华社、央视、科技日报、中新网及中新经纬",
+            "消费、健康、天气、交通、文化与科技专业线",
+            "公开搜索及聚合线索的首次披露反查",
+            "国内民生政策实施日期与原文复核",
+            "国际公开检索与代表性、结果证据复核"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-13-fuel-price-cut-645-625",
+          "story_identity": "china-fuel-price-cut-nov12-645-625",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-13-fuel-price-cut-645-625",
+          "score": 92,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-13-south-rain-cold-air-outlook",
+          "story_identity": "nmc-nov13-south-rain-cold-air-fog",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T06:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-11-13-south-rain-cold-air-outlook",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-13-flu-vaccine-priority-groups",
+          "story_identity": "nhc-nov13-flu-vaccine-priority-groups",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T16:18:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-13-flu-vaccine-priority-groups",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-13-public-place-hygiene-grading",
+          "story_identity": "ndcpa-public-place-hygiene-grading-2027",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-13-public-place-hygiene-grading",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-13-bmw-expanded-recall-5-8-series",
+          "story_identity": "bmw-expanded-recall-5-8-series-2721",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T15:02:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-13-bmw-expanded-recall-5-8-series",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-13-prepackaged-food-label-guide",
+          "story_identity": "nhc-prepackaged-food-label-guidance-nov13",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T15:32:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-13-prepackaged-food-label-guide",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-13-international-agri-fair-hangzhou",
+          "story_identity": "23rd-international-agri-fair-hangzhou-opening",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-13-international-agri-fair-hangzhou",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-13-museum-expo-haikou-opening",
+          "story_identity": "11th-china-museum-expo-haikou-opening",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T19:42:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-11-13-museum-expo-haikou-opening",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-13-virtual-power-plant-iec-standard",
+          "story_identity": "china-virtual-power-plant-frequency-iec-proposal",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T14:06:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "selected",
+          "item_id": "2026-11-13-virtual-power-plant-iec-standard",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-13-openeuler-agentic-infra-release",
+          "story_identity": "openeuler-agentic-infra-os-24-03-sp5",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "selected",
+          "item_id": "2026-11-13-openeuler-agentic-infra-release",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-13-october-social-financing-m2",
+          "story_identity": "pbc-october-2026-social-financing-m2",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T20:58:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，76分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-13-lysosome-calcium-uptake-mechanism",
+          "story_identity": "zju-lysosome-calcium-transporters-tmem184",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T21:04:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_capacity",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，76分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-13-chang-weiwei-china-women-coach",
+          "story_identity": "cfa-chang-weiwei-women-national-head-coach",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T21:36:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_capacity",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，76分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-13-eruul-cross-border-medical-platform",
+          "story_identity": "eruul-china-mongolia-medical-platform-launch",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T17:49:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_capacity",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，75分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-13-tibetan-medicine-standards",
+          "story_identity": "tibetan-medicine-standard-system-32-standards",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T17:49:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_capacity",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，75分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-13-jiangsu-ai-vouchers-scenes",
+          "story_identity": "jiangsu-ai-token-corpus-model-vouchers-yangzhou",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_capacity",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，75分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-13-construction-waste-recycling-standard",
+          "story_identity": "gbt-48389-2026-construction-waste-recycling",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T20:50:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_capacity",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，75分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-13-online-ab-goods-cca-position",
+          "story_identity": "cca-online-ab-goods-equal-price-quality",
+          "research_pass": 1,
+          "occurred_at": "2026-11-12T11:03:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 17,
+            "everyday_relevance": 25,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件超过24小时，84分仅达relaxed_48h，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-13-autumn-jobs-third-batch-131",
+          "story_identity": "mohrss-autumn-jobs-third-batch-131-events",
+          "research_pass": 1,
+          "occurred_at": "2026-11-12T10:03:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 17,
+            "everyday_relevance": 24,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件超过24小时，82分仅达relaxed_48h，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-13-skills-evaluation-consultation",
+          "story_identity": "mohrss-skills-evaluation-regulation-consultation",
+          "research_pass": 1,
+          "occurred_at": "2026-11-12T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 16,
+            "everyday_relevance": 25,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件接近48小时，80分仅达relaxed_48h，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-13-jiangsu-inbound-smart-travel",
+          "story_identity": "jiangsu-panda-smart-inbound-travel-launch",
+          "research_pass": 1,
+          "occurred_at": "2026-11-12T19:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 18,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件超过24小时，79分仅达relaxed_48h，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-13-chongqing-metro-line15-opening",
+          "story_identity": "chongqing-metro-line15-first-section-opening",
+          "research_pass": 1,
+          "occurred_at": "2026-11-12T07:30:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 16,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件超过24小时，77分仅达relaxed_48h，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-13-sports-culture-tourism-expo",
+          "story_identity": "china-sports-culture-tourism-expo-suzhou-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T19:22:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "74分未达strict_24h的75分门槛，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-13-shaanxi-industry-jobs-6000",
+          "story_identity": "shaanxi-hr-services-industry-jobs-6000",
+          "research_pass": 1,
+          "occurred_at": "2026-11-12T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 16,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件接近48小时，73分仅达relaxed_48h，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-13-chongqing-drug-safety-plan",
+          "story_identity": "chongqing-drug-safety-plan-2026-2030",
+          "research_pass": 1,
+          "occurred_at": "2026-11-12T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 16,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件接近48小时，73分仅达relaxed_48h，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-13-china-italy-ceramics-exhibition",
+          "story_identity": "china-italy-ceramics-exhibition-beijing-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T21:54:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "72分未达strict_24h的75分门槛，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-13-overseas-entrepreneurs-conference",
+          "story_identity": "china-overseas-entrepreneurs-hangzhou-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "68分仅达72小时资格，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-13-sichuan-workers-basketball-finals",
+          "story_identity": "sichuan-workers-basketball-league-2026-finals",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T21:39:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "68分仅达72小时资格，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-13-zhejiang-gaokao-payment-window",
+          "story_identity": "zhejiang-2027-gaokao-exam-payment-nov13-16",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T09:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "68分仅达72小时资格，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-13-guyuan-first-pickleball-open",
+          "story_identity": "guyuan-first-pickleball-fitness-open-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T21:41:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 17,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 10
+          },
+          "drop_reason": "64分低于65分最低线，不给资格层级"
+        },
+        {
+          "candidate_key": "2026-11-13-toyota-lincoln-recall-roundup",
+          "story_identity": "toyota-lincoln-nov13-recall-details-unverified",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "召回中心首页仅见题名，未读回公告全文，不评分不成条"
+        },
+        {
+          "candidate_key": "2026-11-13-starship-flight-15-result",
+          "story_identity": "spacex-starship-flight15-result-unverified",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "截点前未读回官方结果或两家独立媒体飞行结果报道，不把预定飞行写成已实施"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        },
+        {
+          "candidate_key": "candidate-5",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-13-fuel-price-cut-645-625",
+      "story_identity": "china-fuel-price-cut-nov12-645-625",
+      "headline": "⛽ 国内汽柴油价格下调，每吨分别降645元和625元",
+      "summary": "国家发改委宣布，自11月12日24时起，国内汽、柴油标准品价格每吨分别下调645元、625元。机构测算折合92号汽油每升降0.49元，50升油箱加满约少花24.5元；本轮为年内第六次下调，下一窗口为11月26日24时。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 92,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 14
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-13T00:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "调价自11月12日24时生效，每升节省为机构测算，实际零售价格以加油站为准。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家发改委",
+          "url": "https://www.ndrc.gov.cn/xwdt/xwfb/202611/t20261112_1408795.html",
+          "title": "国内汽、柴油价格每吨分别下调645元和625元",
+          "captured_at": "2026-11-14T07:21:30+08:00",
+          "note": "支持调价生效时刻及每吨降幅，页面日期为2026-11-12。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-12/10730869.shtml",
+          "title": "国内汽柴油价格下调，每吨分别降645元和625元",
+          "captured_at": "2026-11-14T07:21:30+08:00",
+          "note": "支持每升测算、50升油箱节省24.5元及下一窗口，发布于2026-11-12 16:24。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-13-south-rain-cold-air-outlook",
+      "story_identity": "nmc-nov13-south-rain-cold-air-fog",
+      "headline": "🌧️ 华南部分地区有暴雨，14日起冷空气影响我国大部",
+      "summary": "中央气象台13日6时继续发布大雾黄色预警，并预计13日至14日江南、华南部分地区有暴雨或局地大暴雨，新疆、西北等地有雨雪。14日起冷空气影响我国大部，公众需留意强降雨、低能见度及后续降温对交通和健康的影响。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 88,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 12
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-13T06:00:00+08:00",
+      "risk": {
+        "level": "medium",
+        "note": "仅转述预警、降雨和降温时段及交通健康提示，不渲染灾害影响。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-13/10731260.shtml",
+          "title": "华南部分地区有暴雨，14日起冷空气影响我国大部",
+          "captured_at": "2026-11-14T07:21:30+08:00",
+          "note": "支持6时预警、强降雨雨雪区域及冷空气时段，发布于2026-11-13。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-13-flu-vaccine-priority-groups",
+      "story_identity": "nhc-nov13-flu-vaccine-priority-groups",
+      "headline": "💉 国家卫健委：重点人群应优先接种流感疫苗",
+      "summary": "国家卫健委13日发布会提示，建议6月龄及以上、无接种禁忌人群积极接种流感疫苗，婴幼儿、老年人、慢性病患者及重点场所人员应优先接种。外卖小哥、网约车司机等接触人群较多者也建议接种，出现流感样症状应及时休息、就医，不带病上岗。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 84,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 12
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-13T16:18:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "接种禁忌和具体安排以接种单位评估为准，不替代个体诊疗建议。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/jk/2026/11-13/10731526.shtml",
+          "title": "国家卫健委：重点人群应优先接种流感疫苗",
+          "captured_at": "2026-11-14T07:21:30+08:00",
+          "note": "支持优先接种人群、重点职业建议及流感样症状处置，发布于2026-11-13 16:18。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-13-public-place-hygiene-grading",
+      "story_identity": "ndcpa-public-place-hygiene-grading-2027",
+      "headline": "🏨 公共场所卫生量化分级指南发布，2027年起实施",
+      "summary": "国家疾控局13日发布《公共场所卫生监督量化分级管理指南》，将自2027年1月1日起实施。公共场所按评分分为A至D级并动态调整，等级须向社会公示；A级可合理降低抽查比例，D级将重点监管并责令整改，既有等级按规则衔接。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 25,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 12
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-13T00:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "指南自2027年1月1日起实施，不写成当日已按新规则调整等级。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家疾控局",
+          "url": "https://www.ndcpa.gov.cn/jbkzzx/c100014/common/content/content_2121053923252277248.html",
+          "title": "公共场所卫生监督量化分级管理指南发布",
+          "captured_at": "2026-11-14T07:21:30+08:00",
+          "note": "支持实施日期、四级评分、动态调整、公示及差异化监管，发布于2026-11-13。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-13-bmw-expanded-recall-5-8-series",
+      "story_identity": "bmw-expanded-recall-5-8-series-2721",
+      "headline": "🚗 宝马扩大召回部分进口5系、8系汽车",
+      "summary": "宝马（中国）13日备案扩大召回计划，涉及部分进口5系1482辆、8系1239辆。相关车辆传动轴与后桥差速器连接部位长期使用后可能过度磨损，极端情况下或致后桥动力中断；企业将免费检查，必要时更换相关部件并进行粘接密封。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 22,
+        "evidence": 12
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-13T15:02:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "召回以企业备案范围为准，车主应按车架号查询并预约免费检查。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中新经纬",
+          "url": "http://www.hn.chinanews.com.cn/news/cjxx/2026/1113/536394.html",
+          "title": "宝马扩大召回部分进口5系、8系汽车",
+          "captured_at": "2026-11-14T07:21:30+08:00",
+          "note": "支持扩大召回车型数量、磨损风险及免费检查维修安排，发布于2026-11-13 15:02。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-13-prepackaged-food-label-guide",
+      "story_identity": "nhc-prepackaged-food-label-guidance-nov13",
+      "headline": "🥫 预包装食品怎么选？卫健部门提示看配料和营养成分",
+      "summary": "国家卫健委13日发布会介绍，选购预包装食品应重点看配料表和营养成分表：配料按用量递减排列，过敏人群需留意致敏提示；比较营养含量要统一每100克、每100毫升或每份基准。“无糖”不等于低热量，高血压人群应重点关注钠含量。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 81,
+      "score_breakdown": {
+        "heat": 25,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 12
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-11-13T15:32:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "食品选择应结合个人健康状况，无糖标识不等于低热量。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视新闻",
+          "url": "https://www.chinanews.com.cn/jk/2026/11-13/10731509.shtml",
+          "title": "预包装食品怎么选？卫健部门提示看配料和营养成分",
+          "captured_at": "2026-11-14T07:21:30+08:00",
+          "note": "支持配料排序、致敏提示、营养比较基准及无糖与钠含量提示，发布于2026-11-13 15:32。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-13-international-agri-fair-hangzhou",
+      "story_identity": "23rd-international-agri-fair-hangzhou-opening",
+      "headline": "🌾 中国国际农产品交易会杭州开幕，7.5万余种产品参展",
+      "summary": "第二十三届中国国际农产品交易会13日在杭州开幕，近5000家企业带来7.5万余种产品，设置“人工智能+”农业等12个展区。同期举办的浙江农业博览会集合超1.5万款产品，并在线上线下发放超350万元消费券，观众可逛展选购各地农产品。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 25,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 12
+      },
+      "heat_rank": 7,
+      "occurred_at": "2026-11-13T00:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "参展规模与消费券为大会公开口径，具体领取和使用规则以现场公告为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-13/10731741.shtml",
+          "title": "中国国际农产品交易会杭州开幕，7.5万余种产品参展",
+          "captured_at": "2026-11-14T07:21:30+08:00",
+          "note": "支持开幕日期、企业展品规模、展区设置及消费券信息，发布于2026-11-13。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-13-museum-expo-haikou-opening",
+      "story_identity": "11th-china-museum-expo-haikou-opening",
+      "headline": "🏛️ 第十一届博博会海口开幕，600余家博物馆参展",
+      "summary": "第十一届中国博物馆及相关产品与技术博览会13日在海口开幕，600余家博物馆、200余家文博企业参展。现场展示AI+AR导览、藏品管理和文物修复等数智化应用，并设公共讲座、教研和集章活动；埃及首次以主宾国机制组团参展。",
+      "category": "文化数字经济",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 25,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 12
+      },
+      "heat_rank": 8,
+      "occurred_at": "2026-11-13T19:42:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "参展数量和活动安排以主办方公布为准，不延伸未披露的参观成效。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cul/2026/11-13/10731690.shtml",
+          "title": "第十一届博博会海口开幕，600余家博物馆参展",
+          "captured_at": "2026-11-14T07:21:30+08:00",
+          "note": "支持参展规模、数智化应用、公共活动及埃及主宾国机制，发布于2026-11-13 19:42。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-13-virtual-power-plant-iec-standard",
+      "story_identity": "china-virtual-power-plant-frequency-iec-proposal",
+      "headline": "⚡ 我国牵头虚拟电厂一次调频国际标准正式立项",
+      "summary": "我国牵头提出的《虚拟电厂 第4部分：一次调频功能要求与规范》近日在国际电工委员会成功立项，13日经央视披露。标准将针对虚拟电厂快速稳定电网能力制定统一技术准则，聚合光伏、储能、充电桩和可调空调等资源，服务电网调频与绿色电力消纳。",
+      "category": "科技AI",
+      "scope": "domestic",
+      "topic": "科技AI",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 20,
+        "everyday_relevance": 20,
+        "evidence": 12
+      },
+      "heat_rank": 9,
+      "occurred_at": "2026-11-13T14:06:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "目前为国际标准正式立项，不写成标准已经发布实施。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视新闻",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-13/10731461.shtml",
+          "title": "我国牵头虚拟电厂一次调频国际标准正式立项",
+          "captured_at": "2026-11-14T07:21:30+08:00",
+          "note": "支持标准立项、一次调频技术范围及资源聚合方向，发布于2026-11-13 14:06。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-13-openeuler-agentic-infra-release",
+      "story_identity": "openeuler-agentic-infra-os-24-03-sp5",
+      "headline": "💻 openEuler发布面向Agentic Infra的操作系统",
+      "summary": "13日举行的操作系统大会披露，openEuler系操作系统国内累计装机量预计突破2200万套，社区发布面向Agentic Infra的操作系统。新版本聚焦智能体基础设施，已发布24.03 LTS SP5；装机量为大会预计口径，不写成普通消费者当日即可获得的新功能。",
+      "category": "科技AI",
+      "scope": "domestic",
+      "topic": "科技AI",
+      "score": 77,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 20,
+        "everyday_relevance": 18,
+        "evidence": 12
+      },
+      "heat_rank": 10,
+      "occurred_at": "2026-11-13T00:00:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "装机量为大会预计口径，新版本为基础设施发布，不写成个人用户当日可升级。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "科技日报",
+          "url": "https://www.stdaily.com/web/gdxw/2026-11/13/content_613038.html",
+          "title": "openEuler发布面向Agentic Infra的操作系统",
+          "captured_at": "2026-11-14T07:21:30+08:00",
+          "note": "支持大会披露的预计装机量、Agentic Infra方向及24.03 LTS SP5版本，发布于2026-11-13。"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
