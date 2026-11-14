@@ -1,0 +1,1157 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T06:52:32+08:00",
+  "published_at": "2026-11-15T06:52:32+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 44,
+    "published": 10,
+    "dropped_safety": {
+      "politics": 1,
+      "geopolitics": 1,
+      "propaganda": 1,
+      "controversy": 1,
+      "rumor": 1
+    },
+    "dropped_low_confidence": 19,
+    "dropped_quota": 0,
+    "dropped_capacity": 6,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 39,
+      "official_sources": 3,
+      "state_media_sources": 9,
+      "major_media_sources": 6,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 4
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 16,
+        "relaxed_48h": 22,
+        "relaxed_72h": 33
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 44,
+          "cumulative_unique_candidates": 44,
+          "source_scope": [
+            "国家医保局、应急管理部、水利部、国家统计局等中央官方",
+            "地方气象、救助与公共服务平台",
+            "新华社、人民日报、央视、科技日报、中新网及央广网",
+            "健康、交通、天气、消费、文化与科技专业线",
+            "公开搜索及聚合线索的首次披露反查",
+            "国内民生政策实施日期与原文复核",
+            "国内赛事、试飞与公共服务结果的跨媒体复核"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-15-medical-insurance-dual-catalog",
+          "story_identity": "nhsa-2026-dual-drug-catalog-release",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T10:43:26+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-15-medical-insurance-dual-catalog",
+          "score": 96,
+          "score_breakdown": {
+            "heat": 37,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-15-fog-cold-front-outlook",
+          "story_identity": "nmc-nov14-fog-orange-two-cold-fronts",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-11-15-fog-cold-front-outlook",
+          "score": 90,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-15-speed-skating-beijing-day2",
+          "story_identity": "speed-skating-beijing-day2-china-2g2b",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T22:55:15+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-11-15-speed-skating-beijing-day2",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-15-ce25a-first-crewed-flight",
+          "story_identity": "comac-ce25a-first-crewed-smart-flight",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T12:08:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "selected",
+          "item_id": "2026-11-15-ce25a-first-crewed-flight",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-15-beijing-air-alert-lifted",
+          "story_identity": "beijing-air-orange-alert-lift-nov14-24",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-11-15-beijing-air-alert-lifted",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-15-w5000-validation-flight",
+          "story_identity": "whale-w5000-technical-validation-flight",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T22:29:07+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "selected",
+          "item_id": "2026-11-15-w5000-validation-flight",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-15-tianjin-fog-red-highways",
+          "story_identity": "tianjin-fog-red-alert-highway-closures",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T21:28:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-15-tianjin-fog-red-highways",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-15-ice-flood-control",
+          "story_identity": "national-flood-office-ice-flood-2026-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T12:26:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-11-15-ice-flood-control",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-15-early-nov-production-prices",
+          "story_identity": "stats-early-nov-production-prices-50",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T09:30:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-15-early-nov-production-prices",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-15-guizhou-winter-relief",
+          "story_identity": "guizhou-winter-warmth-relief-2026-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T11:25:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-15-guizhou-winter-relief",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-15-jilin-fog-transport",
+          "story_identity": "jilin-fog-highway-airport-disruption",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T07:30:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_capacity",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，79分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-15-china-austria-social-security",
+          "story_identity": "china-austria-social-security-agreement-qa",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T20:38:48+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_capacity",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，79分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-15-rail-passengers-jan-oct",
+          "story_identity": "china-rail-jan-oct-passengers-4130m",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T14:42:30+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_capacity",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，78分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-15-adora-second-trial-voyage",
+          "story_identity": "adora-flora-second-trial-voyage-guangzhou",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_capacity",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，77分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-15-kuche-water-response",
+          "story_identity": "mwr-kuche-quake-water-response",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T09:43:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_capacity",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，75分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-15-wari-rail-freight-record",
+          "story_identity": "wari-rail-100m-tonnes-earliest-record",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T17:06:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_capacity",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，75分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-15-fake-vehicle-recall-fraud",
+          "story_identity": "beijing-fake-vehicle-recall-fraud-warning",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T20:38:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 17,
+            "everyday_relevance": 25,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "86分但原始事件超过24小时，仅达relaxed_48h，不以14日转载重置，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-15-yanqing-snowmaking",
+          "story_identity": "yanqing-olympic-park-snowmaking-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T13:11:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "74分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-15-quantity-unit-standards",
+          "story_identity": "samr-nine-quantity-unit-standards-2028",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T12:42:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "73分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-15-jiangsu-sports-travel",
+          "story_identity": "jiangsu-follow-events-travel-launch",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T13:57:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "72分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-15-respiratory-health-progress",
+          "story_identity": "china-respiratory-health-top10-2025-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T21:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "72分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-15-henan-emergency-assessment",
+          "story_identity": "henan-social-emergency-team-assessment-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T19:35:50+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "68分仅达relaxed_72h资格，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-15-diabetes-early-action",
+          "story_identity": "un-diabetes-day-early-screening-guide-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 17,
+            "everyday_relevance": 23,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "69分仅达relaxed_72h资格，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-15-speed-roller-finals",
+          "story_identity": "world-speed-roller-skating-finals-xinhua",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 17,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "70分且事件超过24小时，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-15-tianjin-smart-city-plan",
+          "story_identity": "tianjin-smart-city-15th-five-plan",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 16,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "71分且事件超过48小时，仅达relaxed_72h，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-15-china-tennis-finals-macau",
+          "story_identity": "china-tennis-tour-finals-macau-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 16,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "70分且事件超过48小时，仅达relaxed_72h，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-15-travel-mart-haikou",
+          "story_identity": "china-intl-travel-mart-haikou-dec2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-12T10:04:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 13,
+            "everyday_relevance": 22,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "70分且事件超过48小时，仅达relaxed_72h，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-15-local-ecology-standards",
+          "story_identity": "local-ecological-standards-joint-opinion",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 16,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "70分且事件超过48小时，仅达relaxed_72h，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-15-hlj-skating-free-entry",
+          "story_identity": "hlj-speed-skating-league-stage2-free-entry",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 16,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "70分且事件超过48小时，仅达relaxed_72h，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-15-film-performance-week",
+          "story_identity": "china-film-performance-week-nanjing-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 16,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "69分仅达relaxed_72h资格，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-15-guangdong-women-basketball",
+          "story_identity": "guangdong-women-basketball-foshan-title",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 16,
+            "everyday_relevance": 17,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "68分仅达relaxed_72h资格，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-15-smallest-crescent-moon",
+          "story_identity": "smallest-new-crescent-moon-2026-nov13",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 67,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 16,
+            "everyday_relevance": 16,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "67分仅达relaxed_72h资格，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-15-gba-surfing-finals",
+          "story_identity": "gba-surfing-invitational-shantou-finals",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 16,
+            "everyday_relevance": 17,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "66分仅达relaxed_72h资格，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-15-jinhe-tbm-rollout",
+          "story_identity": "jinhe-large-slurry-tbm-rollout",
+          "research_pass": 1,
+          "occurred_at": "2026-11-11T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 8,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "drop_reason": "64分低于65分最低线且事件超过72小时，不给资格层级"
+        },
+        {
+          "candidate_key": "2026-11-15-new-jobs-feature",
+          "story_identity": "new-digital-green-care-jobs-xinhua-feature",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 12,
+            "everyday_relevance": 22,
+            "evidence": 10
+          },
+          "drop_reason": "62分低于65分最低线，不给资格层级"
+        },
+        {
+          "candidate_key": "2026-11-15-us-faa-ground-stop",
+          "story_identity": "us-faa-national-ground-stop-nov13",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T06:31:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "国际候选未取得第二家独立媒体原文且中国旅客影响未核清，不满足国际证据门槛"
+        },
+        {
+          "candidate_key": "2026-11-15-chengdu-autumn-flight-ranking",
+          "story_identity": "chengdu-autumn-holiday-flight-order-ranking",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T20:44:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "仅平台订单排名二手转述，未读回原始数据或独立报道"
+        },
+        {
+          "candidate_key": "2026-11-15-liaoning-first-ski-train",
+          "story_identity": "liaoning-first-winter-ski-tourist-train",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "仅低质量聚合页，未读回铁路、官方或可靠媒体原始报道"
+        },
+        {
+          "candidate_key": "2026-11-15-voyager-light-day",
+          "story_identity": "voyager-one-light-day-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "international",
+          "topic": "太空航天",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "现有线索为预测性里程碑，未核到NASA确认及两家独立媒体，不把预测写成已实现"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        },
+        {
+          "candidate_key": "candidate-5",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-15-medical-insurance-dual-catalog",
+      "story_identity": "nhsa-2026-dual-drug-catalog-release",
+      "headline": "💊 新版医保商保“双目录”发布，新增107种医保药品",
+      "summary": "国家医保局、人社部14日发布2026年医保药品目录和商保创新药目录。基本医保新增107种药品，其中51个一类新药，覆盖肿瘤、罕见病、慢性病等；商保新增12种。新版目录2027年1月1日执行，目前尚不能按新目录结算。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 96,
+      "score_breakdown": {
+        "heat": 37,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 14
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-14T10:43:26+08:00",
+      "risk": {
+        "level": "low",
+        "note": "新版目录2027年1月1日起执行，当前不能按新目录结算，具体药品和支付政策以正式文件为准。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家医保局",
+          "url": "http://www.nhsa.gov.cn/art/2026/11/14/art_14_23385.html",
+          "title": "2026年医保药品目录和商保创新药目录发布",
+          "captured_at": "2026-11-15T06:40:44+08:00",
+          "note": "支持双目录发布、107种基本医保药品和12种商保创新药及2027年1月1日执行，页面日期为2026-11-14。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/politics/20261114/ee398c5473214b7ebd8a547e70f43e65/c.html",
+          "title": "新版医保商保“双目录”发布，新增107种医保药品",
+          "captured_at": "2026-11-15T06:40:44+08:00",
+          "note": "支持51个一类新药及肿瘤、罕见病、慢性病覆盖，发布于2026-11-14 10:43:26。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-15-fog-cold-front-outlook",
+      "story_identity": "nmc-nov14-fog-orange-two-cold-fronts",
+      "headline": "🌫️ 大雾橙色预警继续，中东部将迎大风降温雨雪",
+      "summary": "中央气象台14日18时继续发布大雾橙色预警，14日夜间至15日上午京津冀等多地有浓雾或强浓雾，局地能见度低于50米。两股冷空气14日至18日接连影响，中东部累计降温6至10℃、局地超12℃，北方有较强降雪，需注意交通和防寒。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 90,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 12
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-14T18:00:00+08:00",
+      "risk": {
+        "level": "medium",
+        "note": "大雾和冷空气影响仍可能变化，采用权威预警原文，克制提示交通和防寒，不渲染灾害。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://news.cctv.cn/2026/11/14/ARTIEiddG1dAGW2wnuUnI9ng261114.shtml",
+          "title": "大雾橙色预警继续，中东部将迎大风降温雨雪",
+          "captured_at": "2026-11-15T06:40:44+08:00",
+          "note": "支持14日18时继续发布大雾橙色预警、影响时段和局地能见度，页面日期为2026-11-14。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-14/10731878.shtml",
+          "title": "两股冷空气接连影响，中东部将迎大风降温雨雪",
+          "captured_at": "2026-11-15T06:40:44+08:00",
+          "note": "支持两股冷空气、累计降温幅度及北方较强降雪预报，发布于2026-11-14 08:52。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-15-speed-skating-beijing-day2",
+      "story_identity": "speed-skating-beijing-day2-china-2g2b",
+      "headline": "⛸️ 速滑世界杯北京站第二日，中国队收获2金2铜",
+      "summary": "速滑世界杯北京站14日结束第二比赛日，中国队收获2金2铜。廉子文以34秒64获男子500米金牌，宁忠岩以1分43秒64获男子1500米金牌；高亭宇、韩梅分获男子500米和女子1500米铜牌，15日进入收官日。",
+      "category": "国家高光",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 88,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 20,
+        "everyday_relevance": 19,
+        "evidence": 15
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-14T22:55:15+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "仅陈述已结束比赛日成绩，后续赛程和最终名次以赛事官方通报为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/ty/2026/11-14/10732205.shtml",
+          "title": "速滑世界杯北京站第二日，中国队收获2金2铜",
+          "captured_at": "2026-11-15T06:40:44+08:00",
+          "note": "支持第二比赛日2金2铜、四名运动员成绩和15日赛程，发布于2026-11-14 22:55。"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "潮新闻",
+          "url": "https://tidenews.com.cn/news.html?id=3614931",
+          "title": "速滑世界杯北京站中国队再夺金牌",
+          "captured_at": "2026-11-15T06:40:44+08:00",
+          "note": "复核男子500米等当日赛果及北京站赛程，发布于2026-11-14 19:38。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-15-ce25a-first-crewed-flight",
+      "story_identity": "comac-ce25a-first-crewed-smart-flight",
+      "headline": "✈️ 我国10吨级电动商用飞机完成首次有人驾驶飞行",
+      "summary": "我国自主研制的10吨级电动商用飞机CE-25A，14日在山东滨州完成首次有人驾驶智能飞行，搭载2名飞行员和1名试飞工程师。该机面向城市间商业飞行，可载19人、航程400公里；目前民航局仅受理型号合格证申请，尚未投入商业运营。",
+      "category": "科技AI",
+      "scope": "domestic",
+      "topic": "科技AI",
+      "score": 86,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 20,
+        "everyday_relevance": 20,
+        "evidence": 15
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-14T12:08:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "目前仅完成首次有人驾驶智能飞行，型号合格证申请已受理，不写成已获证或已商业运营。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "人民网",
+          "url": "http://finance.people.com.cn/n1/2026/1114/c1004-40833826.html",
+          "title": "我国10吨级电动商用飞机完成首次有人驾驶飞行",
+          "captured_at": "2026-11-15T06:40:44+08:00",
+          "note": "支持首飞地点、机组构成、机型用途及型号合格证申请状态，发布于2026-11-14 12:08。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "科技日报",
+          "url": "https://www.stdaily.com/web/gdxw/2026-11/14/content_613218.html",
+          "title": "10吨级电动商用飞机CE-25A完成首次有人驾驶智能飞行",
+          "captured_at": "2026-11-15T06:40:44+08:00",
+          "note": "复核10吨级、19人和400公里航程等机型参数，发布于2026-11-14 15:17。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-15-beijing-air-alert-lifted",
+      "story_identity": "beijing-air-orange-alert-lift-nov14-24",
+      "headline": "🌤️ 北京解除空气重污染橙色预警",
+      "summary": "北京市空气重污染应急指挥部办公室于14日24时解除橙色预警。最新预报显示，15日起空气质量将逐步好转；解除意味着应急措施按预案调整，但不等于后续每日空气质量均为优良，敏感人群仍可关注实时监测和防护提示。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 85,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 12
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-15T00:00:00+08:00",
+      "risk": {
+        "level": "medium",
+        "note": "预警解除不代表后续每日空气质量均为优良，按官方预报提示敏感人群关注实时监测。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央广网",
+          "url": "https://news.cnr.cn/native/gd/kx/20261114/t20261114_527873216.shtml",
+          "title": "北京解除空气重污染橙色预警",
+          "captured_at": "2026-11-15T06:40:44+08:00",
+          "note": "支持14日24时解除橙色预警及15日起空气质量逐步好转，页面日期为2026-11-14。"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "北京日报",
+          "url": "https://news.bjd.com.cn/2026/11/14/12030933.shtml",
+          "title": "北京14日24时解除空气重污染橙色预警",
+          "captured_at": "2026-11-15T06:40:44+08:00",
+          "note": "复核预警解除时刻和应急措施调整信息，页面日期为2026-11-14。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-15-w5000-validation-flight",
+      "story_identity": "whale-w5000-technical-validation-flight",
+      "headline": "🛩️ W5000大型无人货运飞机完成技术验证试飞",
+      "summary": "白鲸航线W5000大型无人货运飞机14日在内蒙古鄂托克前旗完成约30分钟技术验证试飞，验证爬升、平飞、转弯、下降和进近着陆等科目。该机有效载荷5吨、最远航程2600公里，面向支线物流；企业预计2027年底商业运营，目前仍在适航取证。",
+      "category": "科技AI",
+      "scope": "domestic",
+      "topic": "科技AI",
+      "score": 83,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 20,
+        "everyday_relevance": 20,
+        "evidence": 14
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-11-14T22:29:07+08:00",
+      "risk": {
+        "level": "low",
+        "note": "技术验证试飞不等同适航取证或商业运营，2027年底为企业预计时间。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "科技日报",
+          "url": "https://www.stdaily.com/web/gdxw/2026-11/14/content_613282.html",
+          "title": "W5000大型无人货运飞机完成技术验证试飞",
+          "captured_at": "2026-11-15T06:40:44+08:00",
+          "note": "支持试飞地点、时长、验证科目、载荷航程及适航进展，发布于2026-11-14 22:29。"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "中国民用航空网",
+          "url": "https://www.ccaonline.cn/newsflashes/1254816.html",
+          "title": "白鲸航线W5000完成技术验证试飞",
+          "captured_at": "2026-11-15T06:40:44+08:00",
+          "note": "复核支线物流用途和企业预计商业运营时间，页面日期为2026-11-14。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-15-tianjin-fog-red-highways",
+      "story_identity": "tianjin-fog-red-alert-highway-closures",
+      "headline": "🌫️ 天津大雾预警升级为红色，境内高速封闭",
+      "summary": "天津市气象台14日21时28分将大雾橙色预警升级为红色，预计夜间至15日上午大部地区有能见度低于50米的特强浓雾。受降雾影响，天津境内各条高速公路均封闭，多区也相继升级预警；公众出行前应查询最新路况和恢复信息。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 11
+      },
+      "heat_rank": 7,
+      "occurred_at": "2026-11-14T21:28:00+08:00",
+      "risk": {
+        "level": "medium",
+        "note": "红色预警和高速封闭具有时效性，克制呈现交通管制，提示出行前查询最新路况。"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "北京日报客户端",
+          "url": "https://xinwen.bjd.com.cn/content/s6af87045e4b0e42f8f02eb12.html",
+          "title": "天津大雾预警升级为红色，境内高速封闭",
+          "captured_at": "2026-11-15T06:40:44+08:00",
+          "note": "支持21时28分升级红色预警、特强浓雾和高速封闭信息，发布于2026-11-14 22:29。"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "界面新闻",
+          "url": "https://www.jiemian.com/lists/85.html",
+          "title": "天津大雾及高速交通管制信息",
+          "captured_at": "2026-11-15T06:40:44+08:00",
+          "note": "复核天津大雾及高速交通管制信息，页面日期为2026-11-14 10:39。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-15-ice-flood-control",
+      "story_identity": "national-flood-office-ice-flood-2026-27",
+      "headline": "🧊 国家防总办公室部署新一年度凌汛期防凌工作",
+      "summary": "国家防总办公室14日部署2026—2027年度凌汛期防凌工作。当前松花江、黑龙江部分江段已封冻，黄河即将进入凌汛期。通知要求相关省区排查重点河段隐患，滚动监测封开河和重大天气过程，科学调度水库并提前预置抢险力量物资。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 12
+      },
+      "heat_rank": 8,
+      "occurred_at": "2026-11-14T12:26:00+08:00",
+      "risk": {
+        "level": "medium",
+        "note": "防凌部署基于当前江情和天气预报，克制表述风险，不将趋势写成已发生险情。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "应急管理部",
+          "url": "https://www.mem.gov.cn/xw/yjyw/202611/t20261114_739374.shtml",
+          "title": "国家防总办公室部署2026—2027年度凌汛期防凌工作",
+          "captured_at": "2026-11-15T06:40:44+08:00",
+          "note": "支持年度防凌部署、江段封冻情况、隐患排查和抢险力量物资预置，页面日期为2026-11-14。"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "界面新闻",
+          "url": "https://www.jiemian.com/lists/85.html",
+          "title": "国家防总办公室部署新一年度凌汛期防凌工作",
+          "captured_at": "2026-11-15T06:40:44+08:00",
+          "note": "复核滚动监测封开河、重大天气过程和水库调度要求，发布于2026-11-14 12:26。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-15-early-nov-production-prices",
+      "story_identity": "stats-early-nov-production-prices-50",
+      "headline": "📊 11月上旬生产资料价格监测：生猪环比下降6.5%",
+      "summary": "国家统计局14日公布，11月上旬全国流通领域9大类50种重要生产资料中，16种价格上涨、32种下降、2种持平。生猪外三元每千克8.7元，较10月下旬下降6.5%；液化天然气每吨7600.5元，上涨1.6%。这是批发流通价格，不等同居民零售价。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 80,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 12
+      },
+      "heat_rank": 9,
+      "occurred_at": "2026-11-14T09:30:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "监测为流通领域生产资料价格，不等同居民零售价格或居民消费价格指数。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261113_1965820.html",
+          "title": "2026年11月上旬流通领域重要生产资料市场价格变动情况",
+          "captured_at": "2026-11-15T06:40:44+08:00",
+          "note": "支持9大类50种生产资料价格涨跌分布、生猪和液化天然气价格及环比变化，发布于2026-11-14 09:30。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-15-guizhou-winter-relief",
+      "story_identity": "guizhou-winter-warmth-relief-2026-27",
+      "headline": "🧣 贵州启动“寒冬送温暖”专项救助",
+      "summary": "贵州14日启动2026—2027年度“寒冬送温暖”专项救助，持续至2027年3月15日。各地将巡查车站码头、地下通道和桥梁涵洞，畅通救助热线及12345，设置临时救助点；救助机构实行24小时值守，为临时遇困人员提供食宿、取暖、寻亲和返乡协助。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 80,
+      "score_breakdown": {
+        "heat": 25,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 12
+      },
+      "heat_rank": 10,
+      "occurred_at": "2026-11-14T11:25:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "救助时间和方式以贵州各地救助机构公开信息为准，不展示受助人员个人信息。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-14/10731926.shtml",
+          "title": "贵州启动“寒冬送温暖”专项救助",
+          "captured_at": "2026-11-15T06:40:44+08:00",
+          "note": "支持专项救助期限、巡查场所、热线和临时救助点、24小时值守及服务内容，发布于2026-11-14 11:25。"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
