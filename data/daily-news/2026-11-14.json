@@ -1,0 +1,1160 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T08:43:08+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 43,
+    "published": 10,
+    "dropped_safety": {
+      "politics": 1,
+      "geopolitics": 1,
+      "propaganda": 1,
+      "controversy": 1,
+      "rumor": 1
+    },
+    "dropped_low_confidence": 19,
+    "dropped_quota": 0,
+    "dropped_capacity": 8,
+    "sources": [
+      "official",
+      "state_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 38,
+      "official_sources": 4,
+      "state_media_sources": 14,
+      "major_media_sources": 0,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 1
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 18,
+        "relaxed_48h": 28,
+        "relaxed_72h": 34
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 43,
+          "cumulative_unique_candidates": 43,
+          "source_scope": [
+            "国家发改委、教育部、文旅部、国家航天局等中央官方",
+            "地方人社、医保与公共服务平台",
+            "新华社、人民日报、央视、科技日报、中新网及央广网",
+            "消费、就业、教育、交通、天气、文化与科技专业线",
+            "公开搜索及聚合线索的首次披露反查",
+            "国内民生政策实施日期与原文复核",
+            "国内赛事与公共服务结果的跨媒体复核"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-14-rail-12306-international-air-tickets",
+          "story_identity": "rail-12306-international-air-ticket-launch-nov13",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T20:54:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-14-rail-12306-international-air-tickets",
+          "score": 91,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-14-auto-modification-consultation",
+          "story_identity": "miit-auto-modification-consultation-43-items",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T17:36:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-14-auto-modification-consultation",
+          "score": 89,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-14-speed-skating-beijing-ning",
+          "story_identity": "speed-skating-world-cup-beijing-ning-1000m-record",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T23:17:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-11-14-speed-skating-beijing-ning",
+          "score": 87,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-14-autumn-graduate-jobs-5515k",
+          "story_identity": "mohrss-autumn-city-recruitment-5515k-jobs-progress",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T16:15:39+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-14-autumn-graduate-jobs-5515k",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-14-postgraduate-exam-347m",
+          "story_identity": "moe-2027-postgraduate-exam-347m-applicants",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T11:33:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "selected",
+          "item_id": "2026-11-14-postgraduate-exam-347m",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-14-tourism-forced-consumption-cases",
+          "story_identity": "mct-tourism-forced-consumption-cases-batch7",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T20:21:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-14-tourism-forced-consumption-cases",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-14-new-energy-storage-plan",
+          "story_identity": "ndrc-nea-new-energy-storage-plan-2030-300gw",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T15:28:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "selected",
+          "item_id": "2026-11-14-new-energy-storage-plan",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-14-ganhuibao-2027",
+          "story_identity": "jiangxi-ganhuibao-2027-launch-52-drugs",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T21:38:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-14-ganhuibao-2027",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-14-air-china-gba-air-rail",
+          "story_identity": "air-china-air-rail-intermodal-gba-seven-cities",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T19:08:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-14-air-china-gba-air-rail",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-14-tianwen4-payload-call",
+          "story_identity": "cnsa-tianwen4-payload-proposal-call",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T19:29:00+08:00",
+          "scope": "domestic",
+          "topic": "太空航天",
+          "outcome": "selected",
+          "item_id": "2026-11-14-tianwen4-payload-call",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-14-fog-orange-warning",
+          "story_identity": "nmc-fog-orange-warning-nov13-18",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_capacity",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，79分排在入选线之后，且与近两日大雾天气题材相邻，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-14-four-business-one-service",
+          "story_identity": "three-dept-four-business-one-service-expansion",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T12:30:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_capacity",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，79分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-14-gansu-flexible-worker-protection",
+          "story_identity": "gansu-flexible-worker-injury-insurance-expansion",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T21:11:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，78分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-14-semisub-wind-hydrogen-platform",
+          "story_identity": "shenhai-hydrogen-1-semisub-platform-tow",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T22:27:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_capacity",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，77分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-14-beijing-bicycle-parking",
+          "story_identity": "beijing-nonmotorized-parking-222k-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T15:35:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_capacity",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，77分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-14-kuche-m50-quake",
+          "story_identity": "xinjiang-kuche-m50-quake-nov14",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T00:17:52+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_capacity",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，76分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-14-overage-worker-injury-ruling",
+          "story_identity": "suzhou-overage-worker-injury-benefits-ruling",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T09:36:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 10
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，76分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-14-community-elderly-facilities-standard",
+          "story_identity": "gbt-48470-community-elderly-facilities-standard",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T18:44:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_capacity",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 9
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，76分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-14-shanghai-scientific-data-rules",
+          "story_identity": "shanghai-scientific-data-management-measures-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T15:36:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "74分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-14-brain-3d-navigation",
+          "story_identity": "casia-brain-3d-hand-position-representation",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T16:33:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "74分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-14-chinese-education-llm",
+          "story_identity": "yufei-international-chinese-education-llm",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T21:09:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "74分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-14-heilongjiang-blizzard-outlook",
+          "story_identity": "heilongjiang-east-blizzard-outlook-nov17-19",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T18:11:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "74分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-14-shanghai-children-book-fair",
+          "story_identity": "shanghai-international-children-book-fair-13",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T21:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "73分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-14-ningxia-first-snow",
+          "story_identity": "ningxia-first-regionwide-snow-after-lidong",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T19:20:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "72分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-14-hunan-domestic-care-jobs",
+          "story_identity": "hunan-domestic-elder-care-flex-job-fair",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T21:35:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "72分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-14-hefei-science-art-week",
+          "story_identity": "hefei-science-art-week-2026-opening",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T18:16:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "71分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-14-hangzhou-bay-bridge-beams",
+          "story_identity": "hangzhou-bay-rail-bridge-two-beams-per-day",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T21:42:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "72分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-14-chongqing-autumn-trains",
+          "story_identity": "chongqing-rail-autumn-holiday-extra-trains",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T11:28:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "71分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-14-small-theatre-showcase",
+          "story_identity": "national-small-theatre-showcase-changsha-55",
+          "research_pass": 1,
+          "occurred_at": "2026-11-12T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 14,
+            "everyday_relevance": 22,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅核到12日晚并以日精度代表，68分仅达relaxed_72h，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-14-zhejiang-agri-investment-platform",
+          "story_identity": "zhejiang-agri-investment-service-platform",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T21:38:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "68分仅达relaxed_72h资格，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-14-rider-legal-service-ruling",
+          "story_identity": "rider-self-insurance-legal-fee-ruling",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T09:38:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 7
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "69分仅达relaxed_72h资格，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-14-diabetes-screening-event",
+          "story_identity": "un-diabetes-day-2026-screening-event",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T19:54:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 7
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "68分仅达relaxed_72h资格，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-14-korean-sweet-persimmons",
+          "story_identity": "first-korean-sweet-persimmons-shanghai-entry",
+          "research_pass": 1,
+          "occurred_at": "2026-11-12T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 14,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅核到12日并以日精度代表，66分仅达relaxed_72h，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-14-liaoning-winter-assistance",
+          "story_identity": "liaoning-winter-assistance-2026-2027",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T18:06:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 67,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 8
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "67分仅达relaxed_72h资格，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-14-smart-microgrid-report",
+          "story_identity": "china-smart-microgrid-development-report-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T21:37:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 9
+          },
+          "drop_reason": "64分低于65分最低线，不给资格层级"
+        },
+        {
+          "candidate_key": "2026-11-14-resident-financial-services-remarks",
+          "story_identity": "nfra-resident-wealth-management-remarks",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T20:19:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 7
+          },
+          "drop_reason": "63分低于65分最低线，不给资格层级"
+        },
+        {
+          "candidate_key": "2026-11-14-shixi-expressway-acceptance",
+          "story_identity": "shixi-expressway-hubei-final-acceptance",
+          "research_pass": 1,
+          "occurred_at": "2026-11-12T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 14,
+            "everyday_relevance": 19,
+            "evidence": 9
+          },
+          "drop_reason": "仅核到12日并以日精度代表，61分低于65分最低线，不给资格层级"
+        },
+        {
+          "candidate_key": "2026-11-14-shanghai-zero-waste-feature-recap",
+          "story_identity": "people-shanghai-zero-waste-city-feature-recap",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "14日深阅读综述组合旧事实，无72小时内单一新事件，不能以见报时间重置旧事实"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        },
+        {
+          "candidate_key": "candidate-5",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-14-rail-12306-international-air-tickets",
+      "story_identity": "rail-12306-international-air-ticket-launch-nov13",
+      "headline": "✈️ 12306上线国际机票，可查询选座并申请电子发票",
+      "summary": "铁路12306于11月13日上线国际机票产品，旅客可在平台查询航班动态、在线选座并申请机票电子发票。此次服务由12306与厦门航空共同推出，后续还规划国际空铁联运，让火车票与机票在同一订单衔接；具体航线、票价和退改规则以页面为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 91,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 13
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-13T20:54:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "国际机票由12306与厦门航空合作推出，航线、票价、选座和退改以产品页面及航司规则为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-13/10731716.shtml",
+          "title": "12306上线国际机票，可查询选座并申请电子发票",
+          "captured_at": "2026-11-14T08:43:08+08:00",
+          "note": "支持国际机票上线、航班动态、在线选座及电子发票，发布于2026-11-13 20:54。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央广网",
+          "url": "https://news.cnr.cn/native/gd/kx/20261113/t20261113_527871807.shtml",
+          "title": "铁路12306上线国际机票产品",
+          "captured_at": "2026-11-14T08:43:08+08:00",
+          "note": "支持12306与厦门航空合作及后续国际空铁联运规划，页面日期为2026-11-13。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-14-auto-modification-consultation",
+      "story_identity": "miit-auto-modification-consultation-43-items",
+      "headline": "🚗 汽车改装管理办法征求意见，首批清单43项",
+      "summary": "工业和信息化部11月13日就《汽车改装管理办法（征求意见稿）》公开征求意见，反馈截止12月12日。草案面向非营运小微型载客汽车，将改装分为两类，首批清单含一类29项、二类14项，并提出授权、检测、“一车一档”、登记备案和保险告知要求；目前尚非正式施行新规。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 89,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 13
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-13T17:36:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "文件目前处于公开征求意见阶段，反馈截止12月12日，不写成已正式施行。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "科技日报",
+          "url": "https://www.stdaily.com/web/gdxw/2026-11/13/content_613023.html",
+          "title": "汽车改装管理办法（征求意见稿）公开征求意见",
+          "captured_at": "2026-11-14T08:43:08+08:00",
+          "note": "支持征求意见期限、适用车辆、两类改装及首批29项和14项清单，页面日期为2026-11-13。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央视新闻",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-13/10731589.shtml",
+          "title": "汽车改装管理办法征求意见，首批清单43项",
+          "captured_at": "2026-11-14T08:43:08+08:00",
+          "note": "支持授权检测、一车一档、登记备案和保险告知要求，发布于2026-11-13 17:36。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-14-speed-skating-beijing-ning",
+      "story_identity": "speed-skating-world-cup-beijing-ning-1000m-record",
+      "headline": "⛸️ 宁忠岩速滑世界杯北京站破场地纪录夺冠",
+      "summary": "2026—2027赛季速度滑冰世界杯北京站13日在“冰丝带”开赛。宁忠岩在男子1000米决赛以1分07秒43夺金并刷新场地纪录，廉子文摘铜；女子1000米韩梅列第五。北京站为新赛季世界杯首站，14日继续进行男女500米第一次及男女1500米比赛。",
+      "category": "国家高光",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 87,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 20,
+        "everyday_relevance": 19,
+        "evidence": 15
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-13T23:17:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "成绩与后续赛程以赛事官方及权威通稿为准，仅陈述北京站已结束项目。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/ty/2026/11-13/10731865.shtml",
+          "title": "宁忠岩速滑世界杯北京站破场地纪录夺冠",
+          "captured_at": "2026-11-14T08:43:08+08:00",
+          "note": "支持男子1000米成绩、场地纪录、廉子文和韩梅名次及后续赛程，发布于2026-11-13 23:17。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/sports/20261113/e5492e32e9de4b5d945b9e467d189e73/c.html",
+          "title": "速度滑冰世界杯北京站：宁忠岩男子1000米夺冠",
+          "captured_at": "2026-11-14T08:43:08+08:00",
+          "note": "支持北京站为新赛季首站及宁忠岩夺冠成绩，页面日期为2026-11-13。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-14-autumn-graduate-jobs-5515k",
+      "story_identity": "mohrss-autumn-city-recruitment-5515k-jobs-progress",
+      "headline": "💼 全国城市联合招聘秋招已提供551.5万个岗位",
+      "summary": "人社部13日披露，2026年全国城市联合招聘高校毕业生秋季专场启动以来，已举办线上线下招聘会1万余场，26.4万家用人单位提供岗位551.5万个，参与求职毕业生529.1万人次。活动围绕数字经济、绿色经济、先进制造等领域，并配套政策咨询、职业规划和求职指导。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 85,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 12
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-13T16:15:39+08:00",
+      "risk": {
+        "level": "low",
+        "note": "岗位与求职人次为人社部阶段性披露，不等同于实际签约或就业人数。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/politics/20261113/a0b2820642774076ad17a50ea8c9f9ae/c.html",
+          "title": "全国城市联合招聘秋招已提供551.5万个岗位",
+          "captured_at": "2026-11-14T08:43:08+08:00",
+          "note": "支持招聘会场次、用人单位、岗位和求职人次及配套服务，发布于2026-11-13 16:15:39。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "人民网",
+          "url": "http://society.people.com.cn/n1/2026/1114/c1008-40833629.html",
+          "title": "2026年全国城市联合招聘秋季专场已提供551.5万个岗位",
+          "captured_at": "2026-11-14T08:43:08+08:00",
+          "note": "通稿转载复核，支持活动领域与阶段性数据，发布于2026-11-14 04:47。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-14-postgraduate-exam-347m",
+      "story_identity": "moe-2027-postgraduate-exam-347m-applicants",
+      "headline": "🎓 2027年研考报名347万人，12月19日至20日举行",
+      "summary": "教育部11月13日公布，2027年全国硕士研究生招生考试报名人数为347万，考试定于2026年12月19日至20日举行。教育部门同时提出加强考场安防、入场检查和考试巡查，并贴近考生需求提供政策解读与合理便利；考生后续应以报考点和招生单位通知为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "教育考试",
+      "score": 84,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 20,
+        "everyday_relevance": 22,
+        "evidence": 12
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-13T11:33:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "报名规模和考试日期以教育部及报考点后续通知为准，考生需核对个人准考安排。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "教育部",
+          "url": "http://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/moe_1485/202611/t20261113_1458104.html",
+          "title": "2027年全国硕士研究生招生考试报名人数为347万",
+          "captured_at": "2026-11-14T08:43:08+08:00",
+          "note": "支持报名人数、考试日期、考务安防和考生服务安排，页面日期为2026-11-13。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/edu/2026/11-13/10731392.shtml",
+          "title": "2027年研考报名347万人，12月19日至20日举行",
+          "captured_at": "2026-11-14T08:43:08+08:00",
+          "note": "复核教育部公布的报名人数与考试日期，发布于2026-11-13 11:33。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-14-tourism-forced-consumption-cases",
+      "story_identity": "mct-tourism-forced-consumption-cases-batch7",
+      "headline": "🧳 文旅部公布13起旅游强制消费典型案例",
+      "summary": "文化和旅游部11月13日公布2026年第七批旅游市场强制消费问题典型案例，共13起，涉及擅自增加购物或自费项目、隐瞒购物行程、“纯玩团”变相消费及导游夸大商品功效等。相关旅行社和责任人被依法处以没收违法所得、罚款、停业整顿或暂扣导游证等处罚。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 83,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 12
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-11-13T20:21:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "典型案例用于消费提示，具体违法事实和处罚以文旅部门公布文本为准。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "文化和旅游部",
+          "url": "https://www.mct.gov.cn/whzx/whyw/202611/t20261113_967651.htm",
+          "title": "文化和旅游部公布2026年第七批旅游市场强制消费问题典型案例",
+          "captured_at": "2026-11-14T08:43:08+08:00",
+          "note": "支持第七批13起案例、主要违规类型及处罚措施，页面日期为2026-11-13。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/fz/2026/11-13/10731706.shtml",
+          "title": "文旅部公布13起旅游强制消费典型案例",
+          "captured_at": "2026-11-14T08:43:08+08:00",
+          "note": "复核案例批次、数量和强制消费表现，发布于2026-11-13 20:21。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-14-new-energy-storage-plan",
+      "story_identity": "ndrc-nea-new-energy-storage-plan-2030-300gw",
+      "headline": "🔋 “十五五”新型储能方案公布，2030年装机目标3亿千瓦",
+      "summary": "国家发改委、国家能源局11月13日公开《“十五五”新型储能实施方案》，文件落款10月29日。方案提出到2030年全国新型储能装机达3亿千瓦、平均储能时长约3小时，推动储能参与中长期和现货市场，并研究回收体系、完善价格机制；目标是规划安排，并非当前已完成装机。",
+      "category": "科技AI",
+      "scope": "domestic",
+      "topic": "科技AI",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 13
+      },
+      "heat_rank": 7,
+      "occurred_at": "2026-11-13T15:28:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "3亿千瓦为2030年规划目标，文件落款与公开披露日期不同，不写成当前装机。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家发改委",
+          "url": "https://www.ndrc.gov.cn/xwdt/tzgg/202611/t20261113_1408811.html",
+          "title": "《“十五五”新型储能实施方案》发布",
+          "captured_at": "2026-11-14T08:43:08+08:00",
+          "note": "支持文件落款、2030年装机和储能时长目标及市场机制安排，公开披露日期为2026-11-13。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/gn/2026/11-13/10731504.shtml",
+          "title": "“十五五”新型储能方案公布，2030年装机目标3亿千瓦",
+          "captured_at": "2026-11-14T08:43:08+08:00",
+          "note": "复核方案公开、规划目标及回收和价格机制，发布于2026-11-13 15:28。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-14-ganhuibao-2027",
+      "story_identity": "jiangxi-ganhuibao-2027-launch-52-drugs",
+      "headline": "💊 “赣惠保2027”上线，特药目录扩充至52种",
+      "summary": "“赣惠保2027”11月13日在江西南昌上线，继续不限户籍、年龄、健康状况和既往病史，衔接基本医保并优化起付线、报销比例与保障范围。标准版、臻享版叠加创新药和海外特定药品后特药共52种；它属于普惠型商业健康保险，保障责任和理赔条件以正式条款为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 12
+      },
+      "heat_rank": 8,
+      "occurred_at": "2026-11-13T21:38:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "普惠型商业健康保险不等同基本医保，保障责任、免赔额和理赔以正式条款为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-13/10731799.shtml",
+          "title": "“赣惠保2027”上线，特药目录扩充至52种",
+          "captured_at": "2026-11-14T08:43:08+08:00",
+          "note": "支持上线时间地点、参保条件、保障优化及52种特药口径，发布于2026-11-13 21:38。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-14-air-china-gba-air-rail",
+      "story_identity": "air-china-air-rail-intermodal-gba-seven-cities",
+      "headline": "🚄 国航空轨联运拓展至大湾区七城，指定机票可免城际票",
+      "summary": "国航13日披露，“空轨联运”新线以白云机场东站为枢纽，连接广州、深圳、佛山、东莞、惠州、肇庆、清远七城。购买指定航线、指定舱位机票的旅客，可在国航App免费领取广东城际乘车权益并扫码进出站，首次乘车须完成实名认证；适用航班和舱位以产品页面为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 81,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 20,
+        "everyday_relevance": 22,
+        "evidence": 12
+      },
+      "heat_rank": 9,
+      "occurred_at": "2026-11-13T19:08:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "免费城际权益仅限指定航线和舱位，适用日期、车次及实名要求以国航页面为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/dwq/2026/11-13/10731617.shtml",
+          "title": "国航空轨联运拓展至大湾区七城，指定机票可免城际票",
+          "captured_at": "2026-11-14T08:43:08+08:00",
+          "note": "支持枢纽、七城范围、指定机票免费权益、扫码乘车和实名要求，发布于2026-11-13 19:08。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-14-tianwen4-payload-call",
+      "story_identity": "cnsa-tianwen4-payload-proposal-call",
+      "headline": "🪐 天问四号征集有效载荷研制方案，面向木星系探测",
+      "summary": "探月与航天工程中心11月13日发布通知，征集天问四号任务有效载荷研制方案，通过竞争择优遴选设计方案和承担单位。任务目标包括木星环绕、木卫四环绕和着陆探测，轨道器征集软X射线谱仪等10项工程研制任务，着陆器包括表面成分分析仪、表面磁场探测仪；申报不等于已经发射。",
+      "category": "国家高光",
+      "scope": "domestic",
+      "topic": "太空航天",
+      "score": 80,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 20,
+        "everyday_relevance": 18,
+        "evidence": 13
+      },
+      "heat_rank": 10,
+      "occurred_at": "2026-11-13T19:29:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "当前为有效载荷方案征集，不代表任务已发射或载荷已经确定。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家航天局",
+          "url": "https://www.cnsa.gov.cn/n6758823/n6758839/c10808380/content.html",
+          "title": "关于征集天问四号任务有效载荷研制方案的通知",
+          "captured_at": "2026-11-14T08:43:08+08:00",
+          "note": "支持方案征集、竞争择优、木星系探测目标及轨道器和着陆器研制任务，页面日期为2026-11-13。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央视新闻",
+          "url": "https://www.chinanews.com.cn/gn/2026/11-13/10731669.shtml",
+          "title": "天问四号征集有效载荷研制方案，面向木星系探测",
+          "captured_at": "2026-11-14T08:43:08+08:00",
+          "note": "复核征集通知、探测目标和10项轨道器工程研制任务，发布于2026-11-13 19:29。"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
