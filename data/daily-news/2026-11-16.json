@@ -1,0 +1,1162 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T06:34:54+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 45,
+    "published": 10,
+    "dropped_safety": {
+      "politics": 1,
+      "geopolitics": 1,
+      "propaganda": 1,
+      "controversy": 1,
+      "rumor": 1
+    },
+    "dropped_low_confidence": 24,
+    "dropped_quota": 0,
+    "dropped_capacity": 2,
+    "sources": [
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 40,
+      "official_sources": 0,
+      "state_media_sources": 16,
+      "major_media_sources": 1,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 4
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 12,
+        "relaxed_48h": 18,
+        "relaxed_72h": 31
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 45,
+          "cumulative_unique_candidates": 45,
+          "source_scope": [
+            "国家消防救援局、中国人民银行等中央官方",
+            "地方气象、交通与公共服务平台",
+            "新华社、央视、中国新闻网及北京日报",
+            "交通、消费、教育、健康、文化与体育专业线",
+            "公开搜索及聚合线索的首次披露反查",
+            "国内赛事结果与公共服务信息的跨媒体复核",
+            "国际候选的独立证据与中国读者影响复核"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-16-urumqi-metro-line2-north",
+          "story_identity": "urumqi-metro-line2-north-opening-nov15",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T20:22:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-16-urumqi-metro-line2-north",
+          "score": 91,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-16-fire-safety-five-rectifications",
+          "story_identity": "national-fire-rescue-five-hazards-self-check-nov15",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T22:45:53+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-16-fire-safety-five-rectifications",
+          "score": 90,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-16-speed-skating-beijing-finals",
+          "story_identity": "speed-skating-beijing-final-day-china-4g2s3b",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T23:53:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-11-16-speed-skating-beijing-finals",
+          "score": 89,
+          "score_breakdown": {
+            "heat": 35,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-16-blg-s16-title",
+          "story_identity": "blg-lpl-s16-world-title-new-york",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T21:02:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-11-16-blg-s16-title",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 35,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-16-liaoning-women-super-league-title",
+          "story_identity": "liaoning-women-2026-cfwsl-first-title",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T21:09:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-11-16-liaoning-women-super-league-title",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-16-ebike-3c-registration",
+          "story_identity": "ebike-3c-suspension-registration-consumer-impact",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T09:16:15+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-16-ebike-3c-registration",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 10
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-16-low-cost-tour-property-investigation",
+          "story_identity": "rushan-low-cost-tour-property-sales-investigation",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T17:44:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-16-low-cost-tour-property-investigation",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 10
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-16-xiongxin-hsr-shanxi-testing",
+          "story_identity": "xiongxin-hsr-shanxi-integrated-testing-nov15",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T16:24:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-16-xiongxin-hsr-shanxi-testing",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-16-chengyu-chengdu-station-structure",
+          "story_identity": "chengyu-midline-chengdu-station-main-structure-complete",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-16-chengyu-chengdu-station-structure",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-16-guangzhou-autumn-determination",
+          "story_identity": "guangzhou-2026-autumn-nov9-determination",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T21:06:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-16-guangzhou-autumn-determination",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-16-rail-freight-jan-oct",
+          "story_identity": "china-rail-jan-oct-freight-3-42b-tonnes",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T12:03:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_capacity",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，76分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-16-hsk-exam-million",
+          "story_identity": "hsk-2026-test-takers-over-one-million",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T08:40:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_capacity",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，75分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-16-yunnan-forest-fire-period",
+          "story_identity": "yunnan-2027-forest-fire-period-early-nov15",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 17,
+            "everyday_relevance": 25,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅日期可见并保守计时，事件超过24小时，88分仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-16-beijing-heating-season",
+          "story_identity": "beijing-2026-27-heating-season-start-nov15",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 17,
+            "everyday_relevance": 25,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅日期可见并保守计时，事件超过24小时，86分仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-16-national-weather-cold-front",
+          "story_identity": "nmc-nov15-cold-front-rain-snow-fog-clearing",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T06:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 17,
+            "everyday_relevance": 24,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "距评估时钟约24小时07分，超过strict_24h窗口，85分仅达relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-11-16-bse-five-years",
+          "story_identity": "bse-fifth-anniversary-355-companies-800b",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T14:50:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "72分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-16-hsk-foundation-alliance",
+          "story_identity": "hsk-study-china-foundation-alliance-launch",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T19:45:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "70分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-16-beijing-duck-release",
+          "story_identity": "beijing-zoo-32-baer-pochards-release",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T19:15:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "72分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-16-hainan-cross-airline-transfer",
+          "story_identity": "hainan-airlines-chongqing-cross-carrier-interline-transfer",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 14,
+            "everyday_relevance": 24,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "14日起开通且仅日期可见，78分但事件超过48小时，仅达relaxed_72h"
+        },
+        {
+          "candidate_key": "2026-11-16-chengdu-scifi-awards",
+          "story_identity": "chengdu-tianwen-scifi-awards-2026-third",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 14,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅核到14日并保守计时，74分且超过48小时，仅达relaxed_72h"
+        },
+        {
+          "candidate_key": "2026-11-16-china-malaysia-football",
+          "story_identity": "china-men-malaysia-friendly-2-0-nov14",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 36,
+            "freshness": 14,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "电头仅支持14日，82分但事件超过48小时，仅达relaxed_72h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-16-panda-cup-u19-draw",
+          "story_identity": "panda-cup-u19-china-tajikistan-1-1",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 14,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "68分且仅核到14日，达到relaxed_72h但不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-16-shanghai-atp1000-award",
+          "story_identity": "shanghai-masters-atp1000-2026-best-event",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 14,
+            "everyday_relevance": 20,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "72分且仅核到14日，达到relaxed_72h但不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-16-pharma-university-asteroid",
+          "story_identity": "asteroid-361707-pharmauni-naming-ceremony",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "太空航天",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 14,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "66分且仅核到14日，仅达relaxed_72h，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-16-shijiazhuang-lantern-fair",
+          "story_identity": "shijiazhuang-wanlimiao-lantern-fair-2026-opening",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 14,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "71分且仅核到14日，仅达relaxed_72h，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-16-xihe-optics-incubator",
+          "story_identity": "xihe-optics-valley-incubator-jiading-opening",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 14,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "70分且仅核到14日，仅达relaxed_72h，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-16-nhsa-procurement-report",
+          "story_identity": "national-medical-insurance-drug-procurement-report-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 14,
+            "everyday_relevance": 24,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "79分但仅核到14日，事件超过48小时，仅达relaxed_72h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-16-shanghai-autism-alliance",
+          "story_identity": "shanghai-autism-children-charity-alliance-launch",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T21:09:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "69分仅达relaxed_72h资格，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-16-nanchang-marathon",
+          "story_identity": "nanchang-marathon-2026-32k-results",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T17:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "68分仅达relaxed_72h资格，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-16-guilin-marathon",
+          "story_identity": "guilin-marathon-2026-25k-results",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T19:39:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "69分仅达relaxed_72h资格，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-16-dragon-boat-finals",
+          "story_identity": "china-dragon-boat-open-2026-yanping-finals",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T20:23:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "68分仅达relaxed_72h资格，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-16-anxin-beijing-recheck",
+          "story_identity": "beijing-anxin-winter-wage-action-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 7,
+            "everyday_relevance": 24,
+            "evidence": 13
+          },
+          "drop_reason": "13日已公开，15日转载不重置，事件超过72小时，不给资格层级"
+        },
+        {
+          "candidate_key": "2026-11-16-cervical-screening-forum",
+          "story_identity": "nanjing-cervical-cancer-prevention-forum-nov14",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 14,
+            "everyday_relevance": 19,
+            "evidence": 10
+          },
+          "drop_reason": "63分低于65分最低线，不给资格层级"
+        },
+        {
+          "candidate_key": "2026-11-16-platform-worker-feature",
+          "story_identity": "china-platform-worker-rights-measures-feature",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T22:46:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 8,
+            "everyday_relevance": 23,
+            "evidence": 11
+          },
+          "drop_reason": "综述并非当日新措施，62分低于65分最低线，不给资格层级"
+        },
+        {
+          "candidate_key": "2026-11-16-snow-holiday-roundup",
+          "story_identity": "northern-china-snow-holiday-2026-roundup",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T17:29:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 10,
+            "everyday_relevance": 24,
+            "evidence": 8
+          },
+          "drop_reason": "多地汇总并非单一新事件，64分低于65分最低线，不给资格层级"
+        },
+        {
+          "candidate_key": "2026-11-16-fx-reserve-recheck",
+          "story_identity": "pbc-fx-reserve-requirement-six-percent-nov15",
+          "research_pass": 1,
+          "occurred_at": "2026-11-03T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 5,
+            "everyday_relevance": 20,
+            "evidence": 14
+          },
+          "drop_reason": "11月3日原始公告已超72小时，61分低于65分最低线，不给资格层级"
+        },
+        {
+          "candidate_key": "2026-11-16-world-theatre-forum",
+          "story_identity": "world-theatre-beijing-taihu-forum-2026-opening",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "原文仅称“日前”启幕，未核到准确开幕日"
+        },
+        {
+          "candidate_key": "2026-11-16-dongpo-music-premiere",
+          "story_identity": "dongpo-yaji-original-song-premiere-hainan",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "原文仅称“日前”首演，未核到具体日期且公共增量有限"
+        },
+        {
+          "candidate_key": "2026-11-16-national-team-public-service",
+          "story_identity": "national-team-public-service-chengdu-longquanyi",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "原文仅称“近日”，未核到活动准确日期"
+        },
+        {
+          "candidate_key": "2026-11-16-fangbo-wtt-istanbul",
+          "story_identity": "fangbo-wtt-istanbul-comeback-title-kazakhstan",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T00:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "国际候选仅一家转载链，缺第二独立媒体且未满足国际条论证"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        },
+        {
+          "candidate_key": "candidate-5",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-16-urumqi-metro-line2-north",
+      "story_identity": "urumqi-metro-line2-north-opening-nov15",
+      "headline": "🚇 乌鲁木齐地铁2号线北段开通，全程最高4元",
+      "summary": "乌鲁木齐地铁2号线北段15日开通，全长约13.94公里，设10座车站，可在南门站换乘1号线，并衔接乌鲁木齐高铁枢纽。线路运营时间为7时40分至23时30分，起步价2元、全程最高4元，市民通勤多了一条地下快速通道。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 91,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 14
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-15T20:22:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "仅指2号线北段开通，运营时间、换乘和票价以乌鲁木齐地铁最新公告为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-15/10732468.shtml",
+          "title": "乌鲁木齐地铁2号线北段开通，全程最高4元",
+          "captured_at": "2026-11-16T06:07:00+08:00",
+          "note": "支持北段15日开通、线路长度、车站、换乘、运营时间及票价，发布于2026-11-15 20:22。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/20261115/2d59e121a5334bb58183260e912789fe/c.html",
+          "title": "乌鲁木齐地铁2号线北段开通运营",
+          "captured_at": "2026-11-16T06:07:00+08:00",
+          "note": "复核北段开通、南门站换乘1号线及衔接乌鲁木齐高铁枢纽，页面日期为2026-11-15。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-16-fire-safety-five-rectifications",
+      "story_identity": "national-fire-rescue-five-hazards-self-check-nov15",
+      "headline": "🧯 消防安全五类严重隐患须于11月30日前自查自改",
+      "summary": "国家消防救援局15日发布通告，要求相关社会单位在11月30日前完成五类严重火灾隐患自查自改，涉及生命通道、消防设施、违规动火、培训演练及多业态场所管理。公众可通过当地12345或消防救援部门举报，通告同时鼓励拆除影响逃生的住宅障碍物。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 90,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 13
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-15T22:45:53+08:00",
+      "risk": {
+        "level": "low",
+        "note": "自查自改期限和适用对象以正式通告为准，不写成所有居民均被强制要求拆除障碍物。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://news.cctv.com/2026/11/15/ARTIsXafexfqVA94epV7uWNk261115.shtml",
+          "title": "消防安全五类严重隐患须于11月30日前自查自改",
+          "captured_at": "2026-11-16T06:07:00+08:00",
+          "note": "支持五类严重隐患、自查自改期限、举报渠道及住宅障碍物提示，发布于2026-11-15 22:45:53。"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "北京日报",
+          "url": "https://xinwen.bjd.com.cn/content/s6af9b96fe4b039a8e2f3a6b7.html",
+          "title": "五类严重火灾隐患须于11月30日前自查自改",
+          "captured_at": "2026-11-16T06:07:00+08:00",
+          "note": "复核通告适用对象、生命通道、消防设施、违规动火、培训演练及多业态管理要求，页面日期为2026-11-15。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-16-speed-skating-beijing-finals",
+      "story_identity": "speed-skating-beijing-final-day-china-4g2s3b",
+      "headline": "⛸️ 速滑世界杯北京站收官，中国队获4金2银3铜",
+      "summary": "速滑世界杯北京站15日落幕，高亭宇以34秒61获男子500米第二次比赛金牌，廉子文摘银，中国女队获团体追逐银牌。中国队三天共获4金2银3铜；报道同时提示，新赛季首站部分国际高手休赛或仍在调整，成绩应结合这一背景理解。",
+      "category": "国家高光",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 89,
+      "score_breakdown": {
+        "heat": 35,
+        "freshness": 20,
+        "everyday_relevance": 20,
+        "evidence": 14
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-15T23:53:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "仅陈述北京站已结束项目及奖牌数，部分国际高手休赛或调整，不外推整个赛季成绩。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/20261115/9509c243e1294830b1fc8c58761fe1df/c.html",
+          "title": "速滑世界杯北京站收官，中国队获4金2银3铜",
+          "captured_at": "2026-11-16T06:07:00+08:00",
+          "note": "支持北京站收官、中国队奖牌总数及新赛季首站参赛背景，页面日期为2026-11-15。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/ty/2026/11-15/10732528.shtml",
+          "title": "速滑世界杯北京站落幕，高亭宇男子500米夺金",
+          "captured_at": "2026-11-16T06:07:00+08:00",
+          "note": "复核高亭宇34秒61、廉子文摘银和中国女队团体追逐银牌，发布于2026-11-15 23:53。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-16-blg-s16-title",
+      "story_identity": "blg-lpl-s16-world-title-new-york",
+      "headline": "🎮 BLG首夺英雄联盟S赛冠军，LPL时隔五年再登顶",
+      "summary": "中国LPL赛区BLG战队在北京时间15日收官的英雄联盟S16全球总决赛中，以3比1战胜韩国GEN战队，队史首次夺冠。这是LPL时隔五年再捧S赛奖杯，BLG连续淘汰四支LCK队伍；决赛在美国纽约举行，国内受众影响广泛。",
+      "category": "国家高光",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 88,
+      "score_breakdown": {
+        "heat": 35,
+        "freshness": 20,
+        "everyday_relevance": 19,
+        "evidence": 14
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-15T21:02:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "仅陈述已结束决赛和晋级结果，occurred_at采用北京时间15日中文赛果披露时刻。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/ty/2026/11-15/10732488.shtml",
+          "title": "BLG首夺英雄联盟S赛冠军，LPL时隔五年再登顶",
+          "captured_at": "2026-11-16T06:07:00+08:00",
+          "note": "支持BLG以3比1战胜GEN、队史首次夺冠及LPL时隔五年再登顶，发布于2026-11-15 21:02。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/20261115/64527466490f428d92ef14cc1dde117c/c.html",
+          "title": "BLG夺得英雄联盟S16全球总决赛冠军",
+          "captured_at": "2026-11-16T06:07:00+08:00",
+          "note": "复核纽约决赛、BLG连续淘汰四支LCK队伍及国内受众影响，页面日期为2026-11-15。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-16-liaoning-women-super-league-title",
+      "story_identity": "liaoning-women-2026-cfwsl-first-title",
+      "headline": "⚽ 辽宁女足提前一轮首夺女超冠军",
+      "summary": "辽宁沈北禾丰女足15日主场1比1战平北京女足，提前一轮夺得2026赛季女超冠军，为队史首次登顶。加上此前大连英博夺得中超冠军，辽宁足球在职业化以来首次同一赛季收获男、女足顶级联赛冠军，赛果仅涉及已结束比赛。",
+      "category": "国家高光",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 86,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 20,
+        "everyday_relevance": 20,
+        "evidence": 12
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-15T21:09:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "提前一轮夺冠依据已结束比赛和积分形势，不延伸最后一轮赛果。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/ty/2026/11-15/10732491.shtml",
+          "title": "辽宁女足提前一轮首夺女超冠军",
+          "captured_at": "2026-11-16T06:07:00+08:00",
+          "note": "支持1比1战平北京女足、提前一轮首夺女超及辽宁男女足同季夺冠，发布于2026-11-15 21:09。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-16-ebike-3c-registration",
+      "story_identity": "ebike-3c-suspension-registration-consumer-impact",
+      "headline": "🛵 部分电动自行车3C认证暂停，消费者上牌遇阻",
+      "summary": "中央广播电视总台中国之声15日报道，部分电动自行车因3C认证证书暂停，消费者购车后遇到登记上牌和退车困难。新版认证规则已于11月1日实施，相关部门正检查企业防篡改和生产一致性；消费者可先向经销商、厂家核实证书状态，并向市场监管部门反映。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 85,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 10
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-11-15T09:16:15+08:00",
+      "risk": {
+        "level": "low",
+        "note": "仅涉及部分被暂停证书的车型和企业，不写成全行业停售，上牌退车以监管和企业处理为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://news.cctv.com/2026/11/15/ARTI4BYwRmQ6LBBXCMZfzHEP261115.shtml",
+          "title": "部分电动自行车3C认证暂停，消费者上牌遇阻",
+          "captured_at": "2026-11-16T06:07:00+08:00",
+          "note": "支持部分车辆证书暂停、上牌退车困难、新版规则及防篡改和生产一致性检查，发布于2026-11-15 09:16:15。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-15/10732245.shtml",
+          "title": "电动自行车3C认证暂停后，消费者如何处理上牌退车问题",
+          "captured_at": "2026-11-16T06:07:00+08:00",
+          "note": "复核消费者核实证书状态及向经销商、厂家和市场监管部门反映的路径，发布于2026-11-15 09:21。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-16-low-cost-tour-property-investigation",
+      "story_identity": "rushan-low-cost-tour-property-sales-investigation",
+      "headline": "🧳 总台调查低价看房团，提示中老年购房者查清合同",
+      "summary": "央视《每周质量报告》调查山东乳山低价看房团：有机构以百元包吃住吸引中老年购房者，再推介托管返租、贷款方案和定金。记者核实部分房源产权年限、历史备案价和二手市场价格，提醒异地看房先查合同、产权和贷款条件，不轻信保本高收益承诺。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 83,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 10
+      },
+      "heat_rank": 7,
+      "occurred_at": "2026-11-15T17:44:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "调查反映部分机构和房源，不推定所有看房团或项目违法，产权、合同和贷款条件须逐套核实。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视新闻",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-15/10732414.shtml",
+          "title": "总台调查低价看房团，提示中老年购房者查清合同",
+          "captured_at": "2026-11-16T06:07:00+08:00",
+          "note": "支持乳山低价看房团、托管返租和贷款推介、产权与价格核查及消费提示，发布于2026-11-15 17:44。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-16-xiongxin-hsr-shanxi-testing",
+      "story_identity": "xiongxin-hsr-shanxi-integrated-testing-nov15",
+      "headline": "🚄 雄忻高铁山西段进入联调联试，预计明年3月底具备开通条件",
+      "summary": "雄忻高铁山西段15日进入联调联试，检测列车从忻州西站驶出。联调联试计划用时66天，将检查轨道、供电、信号等系统及应急处置能力；山西段约122公里、新建三座车站。全线预计2027年3月底具备开通条件，目前尚不能购票乘车。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 13
+      },
+      "heat_rank": 8,
+      "occurred_at": "2026-11-15T16:24:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "联调联试不等于正式开通，2027年3月底为预计具备条件时间，目前不能购票乘车。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-15/10732368.shtml",
+          "title": "雄忻高铁山西段进入联调联试",
+          "captured_at": "2026-11-16T06:07:00+08:00",
+          "note": "支持15日联调联试、检测列车、66天计划、线路里程和新建车站，发布于2026-11-15 16:24。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/20261115/364fc53db58245bbbdfb79a29c2030c5/c.html",
+          "title": "雄忻高铁山西段启动联调联试",
+          "captured_at": "2026-11-16T06:07:00+08:00",
+          "note": "复核系统检查、应急处置能力及预计2027年3月底具备开通条件，页面日期为2026-11-15。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-16-chengyu-chengdu-station-structure",
+      "story_identity": "chengyu-midline-chengdu-station-main-structure-complete",
+      "headline": "🚉 成渝中线高铁成都站主体结构完工",
+      "summary": "成渝中线高铁成都站15日10时许完成最后一块屋面钢网架安装，车站主体结构完工，转入装饰装修和设备安装阶段。改造后站场将由6台12线扩至10台18线，建筑面积约8万平方米，并衔接多条地铁；主体结构完工不等于车站已恢复客运。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 81,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 13
+      },
+      "heat_rank": 9,
+      "occurred_at": "2026-11-15T10:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "主体结构完工不等于车站已恢复客运，后续施工和客运安排以铁路部门公告为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/20261115/9f6851f32a384931a3ed30d218f9b725/c.html",
+          "title": "成渝中线高铁成都站主体结构完工",
+          "captured_at": "2026-11-16T06:07:00+08:00",
+          "note": "支持最后一块屋面钢网架安装、主体结构完工及后续装饰装修和设备安装，页面日期为2026-11-15。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-15/10732395.shtml",
+          "title": "成渝中线高铁成都站完成主体结构施工",
+          "captured_at": "2026-11-16T06:07:00+08:00",
+          "note": "复核15日10时许节点、站场扩建、建筑面积及地铁衔接，发布于2026-11-15 17:03。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-16-guangzhou-autumn-determination",
+      "story_identity": "guangzhou-2026-autumn-nov9-determination",
+      "headline": "🍂 广州判定11月9日入秋，今年夏季长达235天",
+      "summary": "广州市气象局15日晚判定，广州2026年在气候学意义上的入秋日期为11月9日。广州国家基本气象站已连续5天满足5日滑动平均气温低于22℃的条件，今年夏季由此计为235天，比2024年240天的最长夏季纪录少5天；入秋判定不等于每天持续凉爽。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 11
+      },
+      "heat_rank": 10,
+      "occurred_at": "2026-11-15T21:06:00+08:00",
+      "risk": {
+        "level": "safe",
+        "note": "采用广州市气象局气候学判定口径，入秋日期不等于此后每天持续凉爽。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-15/10732508.shtml",
+          "title": "广州判定11月9日入秋，今年夏季长达235天",
+          "captured_at": "2026-11-16T06:07:00+08:00",
+          "note": "支持11月9日入秋、滑动气温判定条件、夏季235天及与2024年纪录比较，发布于2026-11-15 21:06。"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
