@@ -1,0 +1,1168 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T06:43:49+08:00",
+  "published_at": "2026-11-17T06:43:49+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 47,
+    "published": 10,
+    "dropped_safety": {
+      "politics": 1,
+      "geopolitics": 1,
+      "propaganda": 1,
+      "controversy": 1,
+      "rumor": 1
+    },
+    "dropped_low_confidence": 13,
+    "dropped_quota": 0,
+    "dropped_capacity": 17,
+    "sources": [
+      "official",
+      "state_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 42,
+      "official_sources": 1,
+      "state_media_sources": 10,
+      "major_media_sources": 0,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 2
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 27,
+        "relaxed_48h": 31,
+        "relaxed_72h": 36
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 47,
+          "cumulative_unique_candidates": 47,
+          "source_scope": [
+            "国家医保局、市场监管总局、国家统计局等中央官方",
+            "地方医保、人社与公共服务平台",
+            "新华社、央视、中国新闻网、工人日报及中国天气网",
+            "医疗、教育、消费、交通、天气与文化体育专业线",
+            "公开搜索及聚合线索的首次披露反查",
+            "国内民生政策实施日期与原文复核",
+            "候选正文的可读性与证据完整性复核"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-17-medical-service-price-adjustment",
+          "story_identity": "nhsa-medical-service-price-dynamic-adjustment-nov16",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T09:34:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-17-medical-service-price-adjustment",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-17-school-health-deputy-principals",
+          "story_identity": "four-dept-school-health-deputy-principals-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T16:35:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "selected",
+          "item_id": "2026-11-17-school-health-deputy-principals",
+          "score": 87,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-17-national-rain-snow",
+          "story_identity": "china-weather-nov16-17-rain-snow",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T13:26:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-11-17-national-rain-snow",
+          "score": 87,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-17-fraud-apps-third-batch",
+          "story_identity": "miit-third-batch-46-fraud-apps-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T14:22:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-17-fraud-apps-third-batch",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-17-selfmedia-training-scam",
+          "story_identity": "selfmedia-training-companion-scam-investigation",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T12:33:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-17-selfmedia-training-scam",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-17-nonfood-substances-list",
+          "story_identity": "samr-nhc-phenol-bisacodyl-nonfood-list",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T18:50:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-17-nonfood-substances-list",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-17-special-medical-food-guide",
+          "story_identity": "samr-special-medical-food-consumer-guide",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T16:34:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-17-special-medical-food-guide",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-17-food-sampling-41",
+          "story_identity": "samr-food-sampling-41-unqualified-nov16",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T19:41:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-17-food-sampling-41",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-17-online-clothing-rights",
+          "story_identity": "cca-online-clothing-platform-responsibility-nov16",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T14:23:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-17-online-clothing-rights",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-17-october-home-prices",
+          "story_identity": "stats-october-2026-70city-home-prices",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T14:29:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-17-october-home-prices",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-17-yunnan-medical-service-list",
+          "story_identity": "yunnan-medical-insurance-service-list-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T14:54:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_capacity",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，80分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-17-outdoor-jackets-test",
+          "story_identity": "beijing-cca-80-outdoor-jackets-test",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T16:16:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，80分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-17-infant-formula-risk-guides",
+          "story_identity": "samr-infant-formula-cip-plasticizer-consultation",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T11:07:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，81分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-17-ningxia-student-insurance",
+          "story_identity": "ningxia-student-insurance-one-service",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T20:37:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_capacity",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，78分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-17-heilongjiang-snow-outlook",
+          "story_identity": "heilongjiang-east-snow-nov17-19-outlook",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T20:54:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_capacity",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，79分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-17-gaojing-heat-storage-tank",
+          "story_identity": "beijing-gaojing-zero-carbon-heat-tank-commission",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T16:06:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_capacity",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，79分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-17-xining-chengdu-stations",
+          "story_identity": "xining-chengdu-sichuan-station-roofs-complete",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T14:42:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_capacity",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，77分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-17-adora-hongkong-trial",
+          "story_identity": "adora-flora-hongkong-clearance-trial-nov15-16",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T14:43:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_capacity",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，76分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-17-caes-300mw-grid",
+          "story_identity": "yuanchu-300mw-caes-grid-connection",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T18:26:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_capacity",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，78分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-17-jilin-co2-pipeline",
+          "story_identity": "jilin-double-ji-co2-pipeline-commission",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T16:40:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_capacity",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，75分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-17-electronic-logbook",
+          "story_identity": "china-electronic-logbook-system-release",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T12:47:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_capacity",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，75分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-17-one2n-weather-model",
+          "story_identity": "one2n-weather-model-release-preprint",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T20:12:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_capacity",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，75分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-17-retail-sales-jan-oct",
+          "story_identity": "stats-jan-oct-2026-retail-sales",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T11:31:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，77分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-17-children-ticket-rules",
+          "story_identity": "children-ticket-age-height-rules-investigation",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T08:22:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 18,
+            "everyday_relevance": 24,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，78分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-17-rider-injury-insurance",
+          "story_identity": "platform-rider-new-injury-commercial-insurance-cases",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T07:27:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 17,
+            "everyday_relevance": 24,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，78分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-17-mobile-air-conditioner-standard",
+          "story_identity": "gbt-22257-2026-mobile-air-conditioner-standard",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T15:51:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，75分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-17-carmaker-supplier-payments",
+          "story_identity": "caam-17-carmakers-supplier-payment-assessment",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T17:20:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，75分排在入选线之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-17-guangxi-medical-wallet",
+          "story_identity": "guangxi-medical-wallet-crossprovince-launch",
+          "research_pass": 1,
+          "occurred_at": "2026-11-13T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 67,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 8,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "drop_reason": "原始采访为11月13日，事件超过72小时，67分但不给资格层级"
+        },
+        {
+          "candidate_key": "2026-11-17-shantou-social-card-transit",
+          "story_identity": "shantou-third-gen-social-card-transit",
+          "research_pass": 1,
+          "occurred_at": "2026-11-12T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 6,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "drop_reason": "首发为11月12日，超过72小时且64分低于65分最低线，不给资格层级"
+        },
+        {
+          "candidate_key": "2026-11-17-agri-wholesale-index",
+          "story_identity": "mara-agri-wholesale-index-nov16",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "71分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-17-medical-wallet-progress",
+          "story_identity": "nhsa-wallet-2-15-82b-data",
+          "research_pass": 1,
+          "occurred_at": "2026-09-29T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 5,
+            "everyday_relevance": 25,
+            "evidence": 11
+          },
+          "drop_reason": "9月29日上线，超过72小时，69分但不给资格层级，11月16日报道不重置"
+        },
+        {
+          "candidate_key": "2026-11-17-qinghai-rail-fresh-freight",
+          "story_identity": "qinghai-highspeed-rail-ecommerce-fresh-freight-first",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T22:54:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 18,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "74分且事件超过24小时，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-17-kpl-wb-championship",
+          "story_identity": "kpl-2026-grand-final-wb-jdg",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 8,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "drop_reason": "决赛为11月14日，超过72小时，71分但不给资格层级"
+        },
+        {
+          "candidate_key": "2026-11-17-shenyang-palace-centenary",
+          "story_identity": "shenyang-palace-museum-centenary",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T20:09:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "71分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-17-intangible-heritage-shenzhen",
+          "story_identity": "intangible-heritage-china-shenzhen-exhibition-nov15",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 14,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅核到11月15日，事件超过48小时，70分仅达relaxed_72h"
+        },
+        {
+          "candidate_key": "2026-11-17-national-badminton-team-finals",
+          "story_identity": "national-badminton-team-championships-2026-finals",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 14,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅核到11月15日，事件超过48小时，71分仅达relaxed_72h"
+        },
+        {
+          "candidate_key": "2026-11-17-shanghai-book-fair-close",
+          "story_identity": "shanghai-children-book-fair-2026-close",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 14,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅核到11月15日，事件超过48小时，69分仅达relaxed_72h"
+        },
+        {
+          "candidate_key": "2026-11-17-shanghai-arts-festival-close",
+          "story_identity": "shanghai-international-arts-festival-25-close",
+          "research_pass": 1,
+          "occurred_at": "2026-11-15T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 14,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅核到11月15日，事件超过48小时，69分仅达relaxed_72h"
+        },
+        {
+          "candidate_key": "2026-11-17-lamost-silk-nebula",
+          "story_identity": "lamost-silk-nebula-supernova-remnant-research",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T20:28:00+08:00",
+          "scope": "domestic",
+          "topic": "太空航天",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 15,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "71分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-17-ai-creator-tax-explainer",
+          "story_identity": "ai-content-creator-tax-rules-explainer",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T15:33:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 15,
+            "everyday_relevance": 22,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "68分仅达relaxed_72h资格，不进入strict_24h层"
+        },
+        {
+          "candidate_key": "2026-11-17-dingwei-stamp-design",
+          "story_identity": "dingwei-year-special-stamp-design-release",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "两次读取均为空正文，无法核实图稿、发行安排和实际事件时间"
+        },
+        {
+          "candidate_key": "2026-11-17-xian-northern-song-joint-tomb",
+          "story_identity": "xian-northern-song-group-burial-louzeyuan-research",
+          "research_pass": 1,
+          "occurred_at": "2026-11-16T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "两次读取均为空正文，无法核实考古发现和首次披露时间"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        },
+        {
+          "candidate_key": "candidate-5",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-17-medical-service-price-adjustment",
+      "story_identity": "nhsa-medical-service-price-dynamic-adjustment-nov16",
+      "headline": "🏥 医疗服务价格动态调整，部分检查检验费用下降",
+      "summary": "国家医保局16日介绍，各地持续动态调整医疗服务价格，诊查、护理、手术等技术劳务类项目合理上调，部分检查检验项目下调。PET/CT、肿瘤标志物检测及透析等治理已落地，调价并不等于所有项目统一涨价或降价。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 88,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 14
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-16T09:34:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "调价项目与幅度因地区和项目而异，不写成所有医疗服务统一涨价或降价。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家医保局",
+          "url": "https://www.nhsa.gov.cn/art/2026/11/16/art_14_23391.html",
+          "title": "医疗服务价格动态调整，部分检查检验费用下降",
+          "captured_at": "2026-11-17T06:07:00+08:00",
+          "note": "支持技术劳务类项目合理上调、部分检查检验项目下调及相关专项治理，页面日期为2026-11-16。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-16/10732574.shtml",
+          "title": "医疗服务价格动态调整，部分检查检验费用下降",
+          "captured_at": "2026-11-17T06:07:00+08:00",
+          "note": "复核各地动态调整、PET/CT和肿瘤标志物检测及透析治理，发布于2026-11-16 09:34。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-17-school-health-deputy-principals",
+      "story_identity": "four-dept-school-health-deputy-principals-2026",
+      "headline": "🏫 中小学和幼儿园将聘任健康副校（园）长",
+      "summary": "四部门11月16日公开通知，推进中小学、幼儿园聘任健康副校（园）长。人选主要来自医疗卫生机构，实行非坐班制、不占学校编制，原则上每人最多服务2所学校；每学期到校指导不少于4次、开展健康科普不少于2次。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "教育考试",
+      "score": 87,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 12
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-16T16:35:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "健康副校（园）长为非坐班指导角色，具体聘任进度以各地教育、卫健部门安排为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/edu/2026/11-16/10732819.shtml",
+          "title": "中小学和幼儿园将聘任健康副校（园）长",
+          "captured_at": "2026-11-17T06:07:00+08:00",
+          "note": "支持人选来源、非坐班和不占编制、服务学校数量及每学期指导与科普频次，发布于2026-11-16 16:35。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-17-national-rain-snow",
+      "story_identity": "china-weather-nov16-17-rain-snow",
+      "headline": "🌨️ 中东部今明有大范围雨雪，出行防范道路湿滑",
+      "summary": "中国天气网16日预计，16日至17日中东部有大范围雨雪，西北、华北、东北部分地区有中到大雪或雨夹雪，局地暴雪，湖南、广西、广东等地雨势较强。公众需防范道路湿滑、积雪结冰，驾车应减速并保持车距。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 87,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 12
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-16T13:26:00+08:00",
+      "risk": {
+        "level": "medium",
+        "note": "雨雪范围和强度仍可能调整，克制提示交通风险，出行以最新气象预警和路况为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国天气网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-16/10732720.shtml",
+          "title": "中东部今明有大范围雨雪，出行防范道路湿滑",
+          "captured_at": "2026-11-17T06:07:00+08:00",
+          "note": "支持16日至17日中东部雨雪范围、局地强度及道路湿滑和积雪结冰提示，发布于2026-11-16 13:26。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-17-fraud-apps-third-batch",
+      "story_identity": "miit-third-batch-46-fraud-apps-2026",
+      "headline": "📱 46款涉诈情况突出App名单公布，勿从非官方渠道下载",
+      "summary": "工信部门16日公布2026年第三批46款涉诈情况突出App名单，提醒互联网服务提供者履行风险防控责任并整改。公众不要从非官方渠道下载App，也不要按陌生人要求转入小众软件通联；如已安装并遭受财产损失，应及时报案。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 86,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 12
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-16T14:22:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "名单以工信部门正式公布为准，提示非官方下载和陌生通联风险，不扩大指认其他应用。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-16/10732725.shtml",
+          "title": "46款涉诈情况突出App名单公布，勿从非官方渠道下载",
+          "captured_at": "2026-11-17T06:07:00+08:00",
+          "note": "支持第三批46款涉诈情况突出App、服务提供者整改及公众下载和报案提示，发布于2026-11-16 14:22。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-17-selfmedia-training-scam",
+      "story_identity": "selfmedia-training-companion-scam-investigation",
+      "headline": "🕵️ 自媒体“陪跑”服务藏套路，付费前写明退费责任",
+      "summary": "总台调查自媒体“陪跑”服务发现，部分机构以低价课引流，再承诺快速涨粉、广告变现并收取高额费用，实际课程缩水或失联。消费者应核实经营主体，把服务内容、答疑频次、退费和违约责任写入合同，保存宣传页面、聊天记录及付款凭证。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 85,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 12
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-16T12:33:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "调查仅指部分机构，不推定所有自媒体培训均存在误导，消费前应核验合同和经营主体。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视新闻",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-16/10732709.shtml",
+          "title": "自媒体“陪跑”服务藏套路，付费前写明退费责任",
+          "captured_at": "2026-11-17T06:07:00+08:00",
+          "note": "支持低价引流、高额收费、课程缩水或失联等调查内容及合同和凭证保存提示，发布于2026-11-16 12:33。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-17-nonfood-substances-list",
+      "story_identity": "samr-nhc-phenol-bisacodyl-nonfood-list",
+      "headline": "🥫 酚丁类、比沙可啶类物质列入食品非食用物质名录",
+      "summary": "市场监管总局、国家卫健委将酚丁类、比沙可啶类物质列入食品中可能添加的非食用物质名录，并明确检测方法。两类物质属于刺激性泻剂，可能被非法加入宣称减肥、排毒的食品；消费者勿轻信此类功效宣传。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 84,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 12
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-11-16T18:50:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "名录和检测方法以正式文件为准，不将风险提示写成所有减肥或排毒食品均含相关物质。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-16/10732954.shtml",
+          "title": "酚丁类、比沙可啶类物质列入食品非食用物质名录",
+          "captured_at": "2026-11-17T06:07:00+08:00",
+          "note": "支持两类物质列入名录、检测方法、刺激性泻剂属性及减肥排毒食品风险提示，发布于2026-11-16 18:50。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-17-special-medical-food-guide",
+      "story_identity": "samr-special-medical-food-consumer-guide",
+      "headline": "🍼 特医食品认准“小蓝花”和注册号，勿被功效宣传误导",
+      "summary": "市场监管总局发布特殊医学用途配方食品消费提示：选购时认准“小蓝花”标识和“国食注字TY+8位数字”注册号，固体饮料、蛋白粉不能替代特医食品。应在医生或临床营养师指导下使用，发现虚假宣传可拨打12315。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 84,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 12
+      },
+      "heat_rank": 7,
+      "occurred_at": "2026-11-16T16:34:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "特医食品不能由普通固体饮料或蛋白粉替代，具体使用应遵循医生或临床营养师指导。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-16/10732860.shtml",
+          "title": "特医食品认准“小蓝花”和注册号，勿被功效宣传误导",
+          "captured_at": "2026-11-17T06:07:00+08:00",
+          "note": "支持小蓝花标识、注册号格式、普通食品不能替代及专业指导和12315投诉提示，发布于2026-11-16 16:34。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-17-food-sampling-41",
+      "story_identity": "samr-food-sampling-41-unqualified-nov16",
+      "headline": "🧪 食品抽检41批次不合格，核查处置已展开",
+      "summary": "市场监管总局近期组织食品安全监督抽检1459批次样品，检出41批次不合格，涉及食品添加剂、微生物、农兽药残留及质量指标等问题。相关省级市场监管部门已开展核查处置，消费者应以正式通报的具体批次为准，不必扩大为同类产品整体风险。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 83,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 12
+      },
+      "heat_rank": 8,
+      "occurred_at": "2026-11-16T19:41:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "不合格信息仅对应正式通报的具体批次，不扩大为同类产品或品牌的整体风险。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视新闻",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-16/10732989.shtml",
+          "title": "食品抽检41批次不合格，核查处置已展开",
+          "captured_at": "2026-11-17T06:07:00+08:00",
+          "note": "支持1459批次抽检、41批次不合格、问题类型及省级部门核查处置，发布于2026-11-16 19:41。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-17-online-clothing-rights",
+      "story_identity": "cca-online-clothing-platform-responsibility-nov16",
+      "headline": "👕 中消协提示网购服装乱象，平台应落实责任",
+      "summary": "中消协16日发布网购服装消费观点，前三季度全国消协智慧315平台受理相关投诉26338件，聚焦虚假宣传、质量不达标、退换货困难和闭店失联。平台不能以保证金不足为由逃避法定先行赔付责任，消费者应保存宣传、订单和沟通记录。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 12
+      },
+      "heat_rank": 9,
+      "occurred_at": "2026-11-16T14:23:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "投诉数据为智慧315平台受理口径，不推定所有网购服装或平台均存在问题。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-16/10732731.shtml",
+          "title": "中消协提示网购服装乱象，平台应落实责任",
+          "captured_at": "2026-11-17T06:07:00+08:00",
+          "note": "支持前三季度投诉数量、主要问题、平台先行赔付责任及消费者留证提示，发布于2026-11-16 14:23。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-17-october-home-prices",
+      "story_identity": "stats-october-2026-70city-home-prices",
+      "headline": "🏠 10月一线城市二手房价环比上涨0.2%",
+      "summary": "国家统计局16日公布10月房价数据，一线城市新建商品住宅环比持平、二手住宅环比上涨0.2%，二三线城市仍环比下降，各线城市同比降幅继续收窄。数据是70城统计口径，不代表单个小区价格已企稳，购房仍需结合自身情况。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 12
+      },
+      "heat_rank": 10,
+      "occurred_at": "2026-11-16T14:29:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "70城统计数据不代表单个城市或小区价格走势，不构成购房或投资建议。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-16/10732756.shtml",
+          "title": "10月一线城市二手房价环比上涨0.2%",
+          "captured_at": "2026-11-17T06:07:00+08:00",
+          "note": "支持10月一线城市新房环比持平、二手房环比上涨0.2%及二三线和同比口径，发布于2026-11-16 14:29。"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
