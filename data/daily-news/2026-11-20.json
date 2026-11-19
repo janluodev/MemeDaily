@@ -1,0 +1,1162 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T06:35:16+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 44,
+    "published": 10,
+    "dropped_safety": {
+      "politics": 1,
+      "geopolitics": 1,
+      "propaganda": 1,
+      "controversy": 1,
+      "rumor": 1
+    },
+    "dropped_low_confidence": 9,
+    "dropped_quota": 0,
+    "dropped_capacity": 17,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 39,
+      "official_sources": 2,
+      "state_media_sources": 10,
+      "major_media_sources": 1,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 3
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 27,
+        "relaxed_48h": 29,
+        "relaxed_72h": 32
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 36,
+          "cumulative_unique_candidates": 36,
+          "source_scope": [
+            "教育部、北京市市场监管局等部委与地方官方发布",
+            "新华社、中国新闻网、科技日报与央视新闻",
+            "消费就业、教育考试、健康医疗与民生服务专业线",
+            "科技AI、交通出行、文化体育与自然灾害专业线",
+            "11月19日未入选候选的时效与证据延续复核",
+            "公开搜索及聚合线索的首次披露反查"
+          ]
+        },
+        {
+          "pass": 2,
+          "candidates_added": 8,
+          "cumulative_unique_candidates": 44,
+          "source_scope": [
+            "部委与地方官方反查",
+            "时效和结果补证"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-20-graduates-1299m",
+          "story_identity": "moe-2027-graduates-1299m-employment-services",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T22:07:17+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-20-graduates-1299m",
+          "score": 90,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-20-tianhua-kaiwu-enzyme-model",
+          "story_identity": "tianhua-kaiwu-enzyme-design-model-release",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T19:47:37+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "selected",
+          "item_id": "2026-11-20-tianhua-kaiwu-enzyme-model",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-20-baotou-hydrogen-pipeline",
+          "story_identity": "baotou-195km-hydrogen-pipeline-commissioning",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T18:10:06+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "selected",
+          "item_id": "2026-11-20-baotou-hydrogen-pipeline",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-20-guangdong-hunan-jobs-20458",
+          "story_identity": "guangdong-n-city-hunan-campus-jobs-20458",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T17:25:30+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-20-guangdong-hunan-jobs-20458",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-20-beijing-winter-culture-services",
+          "story_identity": "beijing-winter-culture-tourism-service-matrix",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T20:11:39+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-11-20-beijing-winter-culture-services",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-20-hohhot-airport-passenger-preview",
+          "story_identity": "hohhot-shengle-airport-nov19-passenger-service-preview",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T22:23:57+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-20-hohhot-airport-passenger-preview",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-20-beijing-special-medical-food-measures",
+          "story_identity": "beijing-eight-dept-special-medical-food-12-measures",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T15:59:53+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-20-beijing-special-medical-food-measures",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-20-wtt-shanghai-champions-2027",
+          "story_identity": "wtt-shanghai-champions-2027-announcement",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T22:22:37+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-11-20-wtt-shanghai-champions-2027",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-20-mawei-matsu-ferry-suspension",
+          "story_identity": "mawei-matsu-ferry-suspension-nov19-21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T18:03:59+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-20-mawei-matsu-ferry-suspension",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-20-industrial-5g-private-networks-27k",
+          "story_identity": "china-industrial-5g-networks-27k-new-city-pilots",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T16:52:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "selected",
+          "item_id": "2026-11-20-industrial-5g-private-networks-27k",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-20-china-snow-town-opening",
+          "story_identity": "china-snow-town-opening-ice-diy-nov19",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T16:09:01+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_capacity",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，80分排在入选线81分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-20-guangdong-cold-air-outlook",
+          "story_identity": "guangdong-cold-air-supplement-nov20-21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T19:05:50+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_capacity",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，80分排在入选线81分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-20-yangtze-delta-culture-expo",
+          "story_identity": "seventh-yangtze-delta-cultural-industry-expo-opening",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T16:05:13+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_capacity",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，80分排在入选线81分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-20-qiongzhou-smart-shipping-pilot",
+          "story_identity": "qiongzhou-strait-smart-shipping-demonstration-launch",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T22:01:31+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_capacity",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，79分排在入选线81分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-20-yangtze-airport-luggage-by-kg",
+          "story_identity": "spring-airlines-yangtze-airport-luggage-by-kg-nov20",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_capacity",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，79分排在入选线81分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-20-zhengzhou-international-health-airport",
+          "story_identity": "zhengzhou-airport-who-international-health-certification",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T20:23:22+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_capacity",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，79分排在入选线81分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-20-national-worker-skills-results",
+          "story_identity": "ninth-national-worker-skills-competition-results",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T17:02:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，79分排在入选线81分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-20-reservoir-three-dam-pilots",
+          "story_identity": "china-16-reservoirs-safe-ecological-smart-dam-pilots",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T13:29:48+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_capacity",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，78分排在入选线81分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-20-hongkong-crossborder-data-ip-first",
+          "story_identity": "first-hongkong-crossborder-data-ip-registration-guangdong",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T22:34:06+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_capacity",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，78分排在入选线81分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-20-retail-goods-services-jan-oct",
+          "story_identity": "china-jan-oct-goods-services-retail-growth-2-5",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T17:30:04+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，78分排在入选线81分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-20-kremlin-treasures-shanghai",
+          "story_identity": "kremlin-treasures-exhibition-shanghai-opening",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T14:34:47+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_capacity",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，78分排在入选线81分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-20-sichuan-liangshan-legal-services",
+          "story_identity": "sichuan-liangshan-public-legal-service-25-measures-briefing",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T22:37:38+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_capacity",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，77分排在入选线81分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-20-hongkong-dinosaur-fossil-exhibition",
+          "story_identity": "hongkong-chizhou-china-dinosaur-fossil-exhibition",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T19:25:58+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_capacity",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，77分排在入选线81分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-20-world-intelligent-manufacturing-nanjing",
+          "story_identity": "world-intelligent-manufacturing-conference-nanjing-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T15:35:20+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_capacity",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，76分排在入选线81分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-20-amateur-table-tennis-finals",
+          "story_identity": "national-amateur-table-tennis-championship-chongqing-657",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T21:29:51+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_capacity",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，75分排在入选线81分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-20-fengtai-consumer-data-platform",
+          "story_identity": "beijing-fengtai-industry-association-consumer-data-platform",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T20:06:20+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，75分排在入选线81分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-20-yichun-curling-league-opening",
+          "story_identity": "national-curling-league-yichun-opening-60-teams",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T21:19:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_capacity",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，75分排在入选线81分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-20-shanghai-road-parking-rules",
+          "story_identity": "shanghai-road-parking-free-15min-night-cap-nov18",
+          "research_pass": 1,
+          "occurred_at": "2026-11-18T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 14,
+            "everyday_relevance": 25,
+            "evidence": 15
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "施行事件约54小时，85分仅达relaxed_72h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-20-magic-flute-beijing-preview",
+          "story_identity": "ncpa-bordeaux-magic-flute-beijing-preview",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T22:26:47+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "74分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-20-october-enterprise-credit-index",
+          "story_identity": "samr-october-enterprise-credit-index-164-08",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T21:01:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "72分未达strict_24h的75分门槛，仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-20-wuhan-low-altitude-test-network",
+          "story_identity": "china-mobile-wuhan-low-altitude-test-network-results",
+          "research_pass": 1,
+          "occurred_at": "2026-11-18T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 14,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "事件已超过48小时，71分仅达relaxed_72h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-20-weiming-ai-park-opening",
+          "story_identity": "weiming-ai-park-haidian-opening-nov18",
+          "research_pass": 1,
+          "occurred_at": "2026-11-18T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 14,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "事件已超过48小时，69分仅达relaxed_72h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-20-bank-app-consolidation",
+          "story_identity": "banks-specialized-apps-migrate-to-main-mobile-apps",
+          "research_pass": 1,
+          "occurred_at": "2026-11-06T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 3,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "drop_reason": "综述非单一新事件，61分低于65分最低线，不给资格层级"
+        },
+        {
+          "candidate_key": "2026-11-20-science-buzzwords-2026",
+          "story_identity": "china-science-writers-top10-buzzwords-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T09:39:39+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "原文仅称“日前”发布，无法核定协会实际发布日"
+        },
+        {
+          "candidate_key": "2026-11-20-ai-monetization-books",
+          "story_identity": "ai-monetization-books-consumer-guide-nov19",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "正文两次读取为空且直接请求404，无法核实具体建议"
+        },
+        {
+          "candidate_key": "2026-11-20-zhejiang-bci-feature",
+          "story_identity": "zhejiang-brain-computer-clinical-feature-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T21:18:03+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "核心手术在5月，采风仅称“近日”，无可界定单一新临床事件"
+        },
+        {
+          "candidate_key": "2026-11-20-liaoning-computing-vouchers-recheck",
+          "story_identity": "liaoning-computing-voucher-rules-original-oct15",
+          "research_pass": 2,
+          "occurred_at": "2026-10-15T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 3,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "drop_reason": "原始规则为10月15日，超过72小时且64分低于65分，不给资格层级"
+        },
+        {
+          "candidate_key": "2026-11-20-tianjin-pollution-plan-explainer",
+          "story_identity": "tianjin-heavy-pollution-response-plan-nov6-explainer",
+          "research_pass": 2,
+          "occurred_at": "2026-11-06T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 3,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "drop_reason": "预案11月6日已实施，本次为解读增量，60分低于65分且超过72小时，不给资格层级"
+        },
+        {
+          "candidate_key": "2026-11-20-east-china-violet-new-species",
+          "story_identity": "east-china-violet-new-species-nordic-journal-nov17",
+          "research_pass": 2,
+          "occurred_at": "2026-11-17T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 58,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 8,
+            "everyday_relevance": 15,
+            "evidence": 12
+          },
+          "drop_reason": "论文17日已发表，58分低于65分且事件超过72小时，不给资格层级"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 2,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 2,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 2,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 2,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        },
+        {
+          "candidate_key": "candidate-5",
+          "research_pass": 2,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-20-graduates-1299m",
+      "story_identity": "moe-2027-graduates-1299m-employment-services",
+      "headline": "🎓 2027届高校毕业生预计1299万人",
+      "summary": "教育部19日披露，2027届全国普通高校毕业生预计1299万人。相关部门将推进就业公共服务进校园、校地供需对接和困难毕业生结对帮扶，并拓展先进制造、现代服务等岗位。规模是预计数，不等于当前待就业人数。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 90,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 14
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-19T22:07:17+08:00",
+      "risk": {
+        "level": "low",
+        "note": "1299万人为2027届预计毕业生规模，不等于当前待就业人数，就业进展以实际招录为准。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "教育部",
+          "url": "http://www.moe.gov.cn/jyb_zzjg/huodong/202611/t20261119_1458891.html",
+          "title": "2027届高校毕业生预计1299万人",
+          "captured_at": "2026-11-20T06:07:00+08:00",
+          "note": "支持毕业生预计规模、就业公共服务进校园、供需对接和困难帮扶，页面日期为2026-11-19。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/edu/2026/11-19/10734900.shtml",
+          "title": "2027届高校毕业生预计1299万人",
+          "captured_at": "2026-11-20T06:07:00+08:00",
+          "note": "复核预计规模及先进制造、现代服务岗位拓展方向，发布于2026-11-19 22:07。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-20-tianhua-kaiwu-enzyme-model",
+      "story_identity": "tianhua-kaiwu-enzyme-design-model-release",
+      "headline": "🧪 \"天华开物\"酶设计大模型发布",
+      "summary": "我国自研\"天华开物\"酶设计大模型19日在天津大学发布，参数规模560亿。模型与自动化设备形成设计、构建、测试、学习闭环，可服务医药、食品和材料研发；下一步才开放试用，不写成已规模商用。",
+      "category": "科技AI",
+      "scope": "domestic",
+      "topic": "科技AI",
+      "score": 86,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 15
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-19T19:47:37+08:00",
+      "risk": {
+        "level": "low",
+        "note": "模型目前为发布和后续开放试用阶段，不将研发闭环能力表述为已规模商用。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/edu/2026/11-19/10734841.shtml",
+          "title": "“天华开物”酶设计大模型发布",
+          "captured_at": "2026-11-20T06:07:00+08:00",
+          "note": "支持天津大学发布、560亿参数及设计构建测试学习闭环，发布于2026-11-19 19:47。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "科技日报",
+          "url": "https://www.stdaily.com/web/gdxw/2026-11/19/content_615873.html",
+          "title": "“天华开物”酶设计大模型发布",
+          "captured_at": "2026-11-20T06:07:00+08:00",
+          "note": "复核自研模型、自动化设备协同和医药食品材料研发方向，页面日期为2026-11-19。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-20-baotou-hydrogen-pipeline",
+      "story_identity": "baotou-195km-hydrogen-pipeline-commissioning",
+      "headline": "🌱 195公里氢气长输管道正式启运",
+      "summary": "达茂旗至包头市区195公里氢气长输管道19日正式启运，核准年输氢量10万吨，连接北部制氢基地与化工、冶金、交通等用氢场景。项目属国家能源局首批氢能试点，启运不等于终端氢价立即下降。",
+      "category": "科技AI",
+      "scope": "domestic",
+      "topic": "科技AI",
+      "score": 85,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 15
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-19T18:10:06+08:00",
+      "risk": {
+        "level": "low",
+        "note": "年输氢量为核准能力，启运不代表实际输送量已满负荷，也不直接推导终端氢价变化。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-19/10734757.shtml",
+          "title": "195公里氢气长输管道正式启运",
+          "captured_at": "2026-11-20T06:07:00+08:00",
+          "note": "支持线路、195公里里程、核准年输氢量及启运信息，发布于2026-11-19 18:10。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "北京日报",
+          "url": "https://news.bjd.com.cn/2026/11/19/12036680.shtml",
+          "title": "达茂旗至包头市区氢气长输管道正式启运",
+          "captured_at": "2026-11-20T06:07:00+08:00",
+          "note": "复核国家能源局首批氢能试点及制氢基地与用氢场景连接，发布于2026-11-19 18:22。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-20-guangdong-hunan-jobs-20458",
+      "story_identity": "guangdong-n-city-hunan-campus-jobs-20458",
+      "headline": "💼 广东携超2万个岗位赴湖南三校招聘",
+      "summary": "\"百万英才汇南粤\"湖南专场近日走进湘潭大学、湖南科技大学和中南林业科技大学，563家次企事业单位提供20458个次岗位，覆盖本科至博士。现场收到简历9930份，岗位数与简历数均不等于最终录用人数。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 84,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 12
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-19T17:25:30+08:00",
+      "risk": {
+        "level": "low",
+        "note": "岗位和简历均为招聘现场统计口径，不等于最终录用人数，求职结果以用人单位招录为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-19/10734759.shtml",
+          "title": "广东携超2万个岗位赴湖南三校招聘",
+          "captured_at": "2026-11-20T06:07:00+08:00",
+          "note": "支持三校专场、563家次单位、20458个次岗位和9930份简历，发布于2026-11-19 17:25。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-20-beijing-winter-culture-services",
+      "story_identity": "beijing-winter-culture-tourism-service-matrix",
+      "headline": "❄️ 北京推出暖冬文旅服务矩阵",
+      "summary": "北京19日推出冬季文旅服务矩阵，11月至次年2月已开票营业性演出1100多台、5600余场，并联动商圈、博物馆和冰雪赛事。大兴机场部分国际中转旅客可兑换指定景区门票和消费券，适用条件须查页面。",
+      "category": "文化数字经济",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 83,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 12
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-19T20:11:39+08:00",
+      "risk": {
+        "level": "low",
+        "note": "演出和优惠均有时间、场次及适用旅客条件，兑换资格与库存以活动页面为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-19/10734831.shtml",
+          "title": "北京推出暖冬文旅服务矩阵",
+          "captured_at": "2026-11-20T06:07:00+08:00",
+          "note": "支持演出周期与场次、商圈博物馆联动及中转旅客兑换信息，发布于2026-11-19 20:11。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-20-hohhot-airport-passenger-preview",
+      "story_identity": "hohhot-shengle-airport-nov19-passenger-service-preview",
+      "headline": "✈️ 呼和浩特盛乐机场旅客服务细节亮相",
+      "summary": "呼和浩特盛乐国际机场19日开放媒体探访，展示自助值机、行李跟踪、定向广播和中转服务。机场计划26日零时转场，白塔机场同步关闭；转场日期此前已公布，本次增量是旅客设施与接驳细节。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 25,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 14
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-11-19T22:23:57+08:00",
+      "risk": {
+        "level": "low",
+        "note": "本次增量为设施与接驳服务探访，转场计划沿用此前公告，出行前仍需核对最新机场通知。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-19/10734954.shtml",
+          "title": "呼和浩特盛乐机场旅客服务细节亮相",
+          "captured_at": "2026-11-20T06:07:00+08:00",
+          "note": "支持媒体探访、自助值机、行李跟踪、定向广播和中转服务，发布于2026-11-19 22:23。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/photo/20261119/27377704b5f34e4bb945ace2997008ba/c.html",
+          "title": "呼和浩特盛乐国际机场旅客服务细节亮相",
+          "captured_at": "2026-11-20T06:07:00+08:00",
+          "note": "复核盛乐机场旅客设施、接驳安排及计划转场信息，页面日期为2026-11-19。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-20-beijing-special-medical-food-measures",
+      "story_identity": "beijing-eight-dept-special-medical-food-12-measures",
+      "headline": "🍼 北京12项措施支持特医食品创新",
+      "summary": "北京八部门19日发布12项特医食品措施，支持临床急需、罕见病和婴幼儿产品研发，并推动医疗机构使用试点、经营备案网办和科普宣传。商业保险纳入相关费用仍属鼓励探索，不等于医保新增报销。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 26,
+        "freshness": 20,
+        "everyday_relevance": 22,
+        "evidence": 14
+      },
+      "heat_rank": 7,
+      "occurred_at": "2026-11-19T15:59:53+08:00",
+      "risk": {
+        "level": "low",
+        "note": "商业保险纳入费用属于鼓励探索，不等于基本医保新增报销，产品使用应遵循专业指导。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "北京市市场监管局",
+          "url": "https://scjgj.beijing.gov.cn/zwxx/2024zcjd/202611/t20261119_4952277.html",
+          "title": "北京12项措施支持特医食品创新",
+          "captured_at": "2026-11-20T06:07:00+08:00",
+          "note": "支持八部门12项措施、临床急需产品研发、使用试点和经营备案网办，页面日期为2026-11-19。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/jk/2026/11-19/10734677.shtml",
+          "title": "北京12项措施支持特医食品创新",
+          "captured_at": "2026-11-20T06:07:00+08:00",
+          "note": "复核罕见病和婴幼儿产品方向、科普宣传及商业保险探索边界，发布于2026-11-19 15:59。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-20-wtt-shanghai-champions-2027",
+      "story_identity": "wtt-shanghai-champions-2027-announcement",
+      "headline": "🏓 WTT冠军赛首次落户上海",
+      "summary": "WTT19日宣布，2027上海冠军赛将于2027年1月19日至24日在浦发银行东方体育中心举行，这是WTT冠军赛首次登陆上海。赛事设男女单打各32名选手并直接淘汰赛，当前为赛事官宣，售票安排仍需等待。",
+      "category": "文化数字经济",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 20,
+        "everyday_relevance": 19,
+        "evidence": 14
+      },
+      "heat_rank": 8,
+      "occurred_at": "2026-11-19T22:22:37+08:00",
+      "risk": {
+        "level": "low",
+        "note": "当前仅为赛事时间、地点和赛制官宣，售票及观赛安排需等待后续官方信息。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/ty/2026/11-19/10734955.shtml",
+          "title": "WTT冠军赛首次落户上海",
+          "captured_at": "2026-11-20T06:07:00+08:00",
+          "note": "支持2027上海冠军赛日期、场馆、首次落户及单打赛制，发布于2026-11-19 22:22。"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "上观新闻",
+          "url": "https://www.jfdaily.com.cn/news/detail?id=1216928",
+          "title": "WTT冠军赛首次落户上海",
+          "captured_at": "2026-11-20T06:07:00+08:00",
+          "note": "复核2027年1月19日至24日赛事窗口和浦发银行东方体育中心场馆，发布于2026-11-20 04:31。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-20-mawei-matsu-ferry-suspension",
+      "story_identity": "mawei-matsu-ferry-suspension-nov19-21",
+      "headline": "🚢 马尾至马祖航线20日至21日继续停航",
+      "summary": "福州港客运站19日通报，受寒潮和海上海浪影响，马尾至马祖\"小三通\"客运航线20日、21日继续停航，自19日起连续三天停航。计划乘船的旅客应调整行程，并在出发前查询复航通知和替代航线。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 27,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 12
+      },
+      "heat_rank": 9,
+      "occurred_at": "2026-11-19T18:03:59+08:00",
+      "risk": {
+        "level": "medium",
+        "note": "停航受寒潮和海况影响，复航时间可能变化，旅客应以客运站最新通知为准并调整行程。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/gn/2026/11-19/10734783.shtml",
+          "title": "马尾至马祖航线20日至21日继续停航",
+          "captured_at": "2026-11-20T06:07:00+08:00",
+          "note": "支持福州港客运站通报、寒潮海浪原因及20日至21日继续停航，发布于2026-11-19 18:03。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-20-industrial-5g-private-networks-27k",
+      "story_identity": "china-industrial-5g-networks-27k-new-city-pilots",
+      "headline": "🏭 全国已建成工业5G专网2.7万个",
+      "summary": "工信部19日在武汉披露，全国已建成工业5G专网2.7万个、5G工厂1260家，将启动新一批融合应用城市试点并有序开展独立专网试点。大会同时发布航空制造、农机装备融合指南，属于产业基础设施进展。",
+      "category": "科技AI",
+      "scope": "domestic",
+      "topic": "科技AI",
+      "score": 81,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 21,
+        "evidence": 12
+      },
+      "heat_rank": 10,
+      "occurred_at": "2026-11-19T16:52:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "数据反映产业基础设施建设进展，新一批试点尚需推进，不延伸为个人网络服务变化。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-19/10734721.shtml",
+          "title": "全国已建成工业5G专网2.7万个",
+          "captured_at": "2026-11-20T06:07:00+08:00",
+          "note": "支持工业5G专网2.7万个、5G工厂1260家及新一批城市试点，发布于2026-11-19 16:52。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-19/10734735.shtml",
+          "title": "全国已建成工业5G专网2.7万个",
+          "captured_at": "2026-11-20T06:07:00+08:00",
+          "note": "复核独立专网试点及航空制造、农机装备融合指南发布信息，发布于2026-11-19 17:26。"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
