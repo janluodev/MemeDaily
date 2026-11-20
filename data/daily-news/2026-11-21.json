@@ -1,0 +1,1122 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T06:38:46+08:00",
+  "published_at": "2026-11-21T06:38:46+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 43,
+    "published": 10,
+    "dropped_safety": {
+      "politics": 1,
+      "geopolitics": 1,
+      "propaganda": 1,
+      "controversy": 1,
+      "rumor": 1
+    },
+    "dropped_low_confidence": 4,
+    "dropped_quota": 0,
+    "dropped_capacity": 21,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 38,
+      "official_sources": 1,
+      "state_media_sources": 10,
+      "major_media_sources": 2,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 3
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 31,
+        "relaxed_48h": 31,
+        "relaxed_72h": 33
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 43,
+          "cumulative_unique_candidates": 43,
+          "source_scope": [
+            "中国人民银行、文化和旅游部、中央气象台等官方发布",
+            "新华社、人民网、中国新闻网与中国经济网",
+            "澎湃新闻、中国民航网等主流及行业媒体",
+            "消费就业、交通出行、健康医疗与民生服务专业线",
+            "科技AI、太空航天、文化体育与自然灾害专业线",
+            "公开搜索及聚合线索的首次披露反查"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-21-lpr-november-unchanged",
+          "story_identity": "pbc-lpr-nov20-1y-3p0-5y-3p5",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T09:23:45+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-21-lpr-november-unchanged",
+          "score": 92,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-21-shanghai-beijing-airline-transfer-all-cabins",
+          "story_identity": "hongqiao-beijing-air-china-eastern-all-cabin-voluntary-transfer",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T20:21:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-21-shanghai-beijing-airline-transfer-all-cabins",
+          "score": 90,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-21-ridehailing-multi-platform-commission",
+          "story_identity": "chinanews-ridehailing-order-reselling-multi-commission-nov20",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T17:54:06+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-21-ridehailing-multi-platform-commission",
+          "score": 89,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 10
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-21-china-mongolia-russia-passenger-train",
+          "story_identity": "v3-v4-beijing-ulanbator-irkutsk-weekly-train-nov25",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T16:41:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-21-china-mongolia-russia-passenger-train",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-21-leo-satellite-group-30-launch",
+          "story_identity": "leo-30-group-satellite-long-march-8a-launch-nov20",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T19:59:00+08:00",
+          "scope": "domestic",
+          "topic": "太空航天",
+          "outcome": "selected",
+          "item_id": "2026-11-21-leo-satellite-group-30-launch",
+          "score": 87,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-21-tourism-serious-discredit-list",
+          "story_identity": "mct-2026-second-tourism-serious-discredit-15-agencies",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T20:04:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-21-tourism-serious-discredit-list",
+          "score": 87,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-21-national-weather-weak-cold-outlook",
+          "story_identity": "nmc-nov20-ten-day-weak-cold-outlook",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-11-21-national-weather-weak-cold-outlook",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-21-hangzhou-longterm-care-expansion",
+          "story_identity": "hangzhou-ltci-53k-740m-dementia-benefits-nov20",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T20:13:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-21-hangzhou-longterm-care-expansion",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-21-double11-price-protection-disputes",
+          "story_identity": "cnr-double11-price-protection-subsidy-exclusion-nov20",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T10:25:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-21-double11-price-protection-disputes",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-21-hainan-ev-charging-one-network",
+          "story_identity": "hainan-province-ev-charging-one-app-6636-stations",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T20:17:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-21-hainan-ev-charging-one-network",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-21-shanghai-foreign-credentials-4",
+          "story_identity": "shanghai-foreign-professional-credential-list-4-nov20",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T19:55:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，83分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-guangdong-elderly-health-product-returns",
+          "story_identity": "legal-daily-guangdong-elderly-health-product-seven-day-return",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T09:51:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，83分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-ebike-high-beam-modification",
+          "story_identity": "beijing-ebike-high-beam-online-hidden-modification-investigation",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T10:11:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_capacity",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，83分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-jilin-ski-season-snow-holiday",
+          "story_identity": "jilin-2026-ski-openings-student-snow-holiday",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T16:58:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_capacity",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，83分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-zhejiang-frost-warnings",
+          "story_identity": "zhejiang-nov20-record-low-temps-65-frost-alerts",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T21:02:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_capacity",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，83分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-social-insurance-break-rumor",
+          "story_identity": "social-insurance-three-month-account-clear-rumor-rebuttal",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T20:31:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_capacity",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，82分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-broadband-upgrade-goip-fraud",
+          "story_identity": "chengdu-fake-broadband-upgrade-goip-resident-warning",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T10:50:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_capacity",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，82分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-national-ev-chargers-25m",
+          "story_identity": "nea-oct-2026-ev-chargers-25-391m",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T14:47:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_capacity",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，82分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-sichuan-winter-tourism-season",
+          "story_identity": "sichuan-dec3-winter-tourism-25-routes-expo",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T14:35:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_capacity",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，81分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-zhongyuan-gas-storage-winter",
+          "story_identity": "zhongyuan-six-gas-storage-winter-withdrawal-nov20",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T11:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_capacity",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，81分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-karate-world-cup-hangzhou",
+          "story_identity": "karate-world-cup-hangzhou-first-china-79-teams",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T22:03:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_capacity",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，81分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-smart-cockpit-ai-rating",
+          "story_identity": "catarc-smart-cockpit-ai-c1-c5-rating-system",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T09:34:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_capacity",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，81分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-quantum-magnetic-cable-inspection",
+          "story_identity": "zhejiang-first-quantum-magnetic-subsea-cable-inspection",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T20:34:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_capacity",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，80分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-zju-perovskite-nanodiamond",
+          "story_identity": "zju-science-perovskite-nanodiamond-stability-27-04",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T17:57:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_capacity",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，80分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-hongkong-ich-regulatory-member",
+          "story_identity": "hongkong-ich-20th-regulatory-member-nov20",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T14:16:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_capacity",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，80分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-national-park-five-year-assessment",
+          "story_identity": "five-dept-national-park-five-year-ecology-assessment",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T13:29:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_capacity",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，79分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-yunnan-renewables-pass-hydro",
+          "story_identity": "yunnan-new-energy-83-599gw-surpass-hydro",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_capacity",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，79分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-hainan-lecheng-first-use-626",
+          "story_identity": "boao-lecheng-626-first-use-medical-products-cumulative",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T21:37:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_capacity",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，79分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-liaoning-business-legal-services",
+          "story_identity": "liaoning-115-business-legal-service-stations",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T17:56:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_capacity",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，76分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-express-revenue-jan-oct",
+          "story_identity": "spb-jan-oct-express-revenue-1298-15b",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T14:48:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，76分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-marine-investment-catalog-2026",
+          "story_identity": "five-dept-marine-investment-catalog-185-items",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T16:47:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，76分排在入选线84分之后，超出10条容量"
+        },
+        {
+          "candidate_key": "2026-11-21-jiangsu-bci-wheelchair",
+          "story_identity": "nantong-first-jiangsu-invasive-bci-wheelchair-nov19",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 18,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "事件约54小时，81分仅达relaxed_72h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-21-guangxi-heart-lung-transplant",
+          "story_identity": "guangxi-first-combined-heart-lung-transplant-discharge",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 18,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "事件约54小时，74分仅达relaxed_72h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-21-yanyu-hsr-wangjiaping-tunnel",
+          "story_identity": "yanyu-hsr-wangjiaping-tunnel-breakthrough-nov18",
+          "research_pass": 1,
+          "occurred_at": "2026-11-18T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 12,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "drop_reason": "事件已超过72小时，68分仍不能取得资格层级"
+        },
+        {
+          "candidate_key": "2026-11-21-down-jacket-buying-guide",
+          "story_identity": "down-jacket-price-quality-care-consumer-guide-nov20",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T12:02:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 8,
+            "everyday_relevance": 24,
+            "evidence": 10
+          },
+          "drop_reason": "消费科普非单一新事件，64分低于65分最低线，不给资格层级"
+        },
+        {
+          "candidate_key": "2026-11-21-red-fruit-drama-time-lock",
+          "story_identity": "red-fruit-drama-time-management-feature-launch",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T17:55:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "正文仅称“近日”上线，未核到准确上线日"
+        },
+        {
+          "candidate_key": "2026-11-21-ai-jobs-roundup",
+          "story_identity": "ai-skills-jobs-multi-city-recruitment-roundup",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T14:10:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "汇编多场“前不久”招聘活动，无法界定72小时内单一新事件"
+        },
+        {
+          "candidate_key": "2026-11-21-global-gold-price-drop",
+          "story_identity": "london-gold-below-3600-one-year-low-nov20",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T06:06:00+08:00",
+          "scope": "international",
+          "topic": "重大事件",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "国际候选仅一家媒体原文，未达两家独立媒体门槛，未完成 audience_relevance 论证"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        },
+        {
+          "candidate_key": "candidate-5",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "rumor"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-21-lpr-november-unchanged",
+      "story_identity": "pbc-lpr-nov20-1y-3p0-5y-3p5",
+      "headline": "💰 11月LPR保持不变：1年期3.0%、5年期以上3.5%",
+      "summary": "中国人民银行授权全国银行间同业拆借中心公布，11月20日1年期LPR为3.0%、5年期以上为3.5%，均与上月持平，已连续18个月未调整。LPR是贷款定价参考，不等于每笔房贷或消费贷利率不变，存量贷款是否调整仍看合同重定价日和银行加点。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 92,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 14
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-20T09:23:45+08:00",
+      "risk": {
+        "level": "low",
+        "note": "LPR是贷款定价参考，具体贷款利率仍受合同重定价日、银行加点和个人资质影响。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-20/10735037.shtml",
+          "title": "11月LPR保持不变：1年期3.0%、5年期以上3.5%",
+          "captured_at": "2026-11-21T06:16:00+08:00",
+          "note": "支持11月20日两个期限LPR报价及连续未调整信息，发布于2026-11-20 09:23:45。"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "澎湃新闻",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34511116",
+          "title": "11月LPR保持不变：1年期3.0%、5年期以上3.5%",
+          "captured_at": "2026-11-21T06:16:00+08:00",
+          "note": "复核1年期和5年期以上LPR均与上月持平，页面日期为2026-11-20。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-21-shanghai-beijing-airline-transfer-all-cabins",
+      "story_identity": "hongqiao-beijing-air-china-eastern-all-cabin-voluntary-transfer",
+      "headline": "✈️ 京沪快线跨航司签转扩至全舱位",
+      "summary": "11月20日起，上海虹桥往返北京首都的“京沪快线”跨航司自愿签转升级，国航、东航客票由经济舱6折以上扩大到全舱位。符合规则时，旅客无论是否已安检、是否有托运行李均可办理；实际可用航班、座位和签转费用以航司页面为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 90,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 14
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-20T20:21:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "签转须符合航司规则，实际航班、座位和费用以办理时页面及航司答复为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-20/10735498.shtml",
+          "title": "京沪快线跨航司签转扩至全舱位",
+          "captured_at": "2026-11-21T06:16:00+08:00",
+          "note": "支持京沪快线跨航司自愿签转扩至全舱位及办理条件，发布于2026-11-20 20:21。"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "中国民航网",
+          "url": "http://www.caacnews.com.cn/1/6/202611/t20261120_1398527.html",
+          "title": "京沪快线跨航司自愿签转升级",
+          "captured_at": "2026-11-21T06:16:00+08:00",
+          "note": "复核国航、东航客票签转范围及安检、托运行李情形，页面日期为2026-11-20。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-21-ridehailing-multi-platform-commission",
+      "story_identity": "chinanews-ridehailing-order-reselling-multi-commission-nov20",
+      "headline": "🚕 调查揭网约车订单多次流转，抽佣账单需更透明",
+      "summary": "中新网20日调查发现，部分网约车订单在聚合平台与承运平台间多次流转，出现乘客支付40.02元、司机实收27.22元的案例，综合抽成约32%。调查指向账单不透明和维权主体难辨认，平台截至发稿未回应；个案不能推定所有订单均如此。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 89,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 10
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-20T17:54:06+08:00",
+      "risk": {
+        "level": "low",
+        "note": "报道中的金额和抽成比例属于调查个案，平台截至发稿未回应，不外推至全部订单。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-20/10735356.shtml",
+          "title": "调查揭网约车订单多次流转，抽佣账单需更透明",
+          "captured_at": "2026-11-21T06:16:00+08:00",
+          "note": "支持订单多次流转、乘客与司机账单个案及平台未回应状态，发布于2026-11-20 17:54:06。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-21-china-mongolia-russia-passenger-train",
+      "story_identity": "v3-v4-beijing-ulanbator-irkutsk-weekly-train-nov25",
+      "headline": "🚆 中蒙俄国际旅客列车25日起每周往返",
+      "summary": "国铁集团披露，11月25日起北京经乌兰巴托至伊尔库茨克的V3/4次国际旅客列车每周往返开行，全程2666公里、约55小时，车票已开始线下发售。旅客需在二连浩特、扎门乌德、苏赫巴托和纳乌什基等口岸办理出入境手续，购票前核对证件要求。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 88,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 14
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-20T16:41:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "列车为25日起开行，购票、证件及口岸手续须按最新官方要求提前核对。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国经济网",
+          "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261120_3301009.shtml",
+          "title": "中蒙俄国际旅客列车25日起每周往返",
+          "captured_at": "2026-11-21T06:16:00+08:00",
+          "note": "支持V3/4次列车开行日期、线路、里程时长和线下售票信息，发布于2026-11-20 16:41。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-20/10735445.shtml",
+          "title": "中蒙俄国际旅客列车25日起每周往返",
+          "captured_at": "2026-11-21T06:16:00+08:00",
+          "note": "复核每周往返安排及二连浩特等口岸出入境手续，发布于2026-11-20 19:42。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-21-leo-satellite-group-30-launch",
+      "story_identity": "leo-30-group-satellite-long-march-8a-launch-nov20",
+      "headline": "🚀 卫星互联网低轨30组卫星成功入轨",
+      "summary": "11月20日19时59分，我国在海南商业航天发射场使用长征八号甲运载火箭，成功将卫星互联网低轨30组卫星送入预定轨道。新华社与人民网通稿确认发射和入轨结果；本条仅记录该次任务，不与19日实践二十四号或此前低轨组网任务混同。",
+      "category": "国家高光",
+      "scope": "domestic",
+      "topic": "太空航天",
+      "score": 87,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 20,
+        "everyday_relevance": 19,
+        "evidence": 15
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-20T19:59:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "本条仅确认20日低轨30组发射入轨结果，不与其他日期或其他卫星任务混同。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://app.xinhuanet.com/news/article.html?articleId=20261120da600aa6b4e94c90a93b2dd59f9081f3",
+          "title": "卫星互联网低轨30组卫星成功入轨",
+          "captured_at": "2026-11-21T06:16:00+08:00",
+          "note": "支持发射时刻、发射场、长征八号甲火箭和卫星进入预定轨道，页面日期为2026-11-20。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "人民网",
+          "url": "http://finance.people.com.cn/n1/2026/1120/c1004-40837938.html",
+          "title": "卫星互联网低轨30组卫星成功入轨",
+          "captured_at": "2026-11-21T06:16:00+08:00",
+          "note": "复核低轨30组卫星任务及成功入轨结果，发布于2026-11-20 21:46。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-21-tourism-serious-discredit-list",
+      "story_identity": "mct-2026-second-tourism-serious-discredit-15-agencies",
+      "headline": "🧳 第二批旅游市场严重失信主体名单公布",
+      "summary": "文化和旅游部公布2026年第二批旅游市场严重失信主体典型名单，涉及15家旅行社，问题包括包装购物场所、强迫消费、无证导游、违规转团等，相关主体被吊销许可证或罚款。名单用于消费警示，报名前仍应核查旅行社资质、合同行程和购物条款。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 87,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 12
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-11-20T20:04:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "名单及处罚以主管部门公布为准，消费者仍需核查具体旅行社资质和合同条款。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-20/10735469.shtml",
+          "title": "第二批旅游市场严重失信主体名单公布",
+          "captured_at": "2026-11-21T06:16:00+08:00",
+          "note": "支持2026年第二批名单、15家旅行社及主要失信问题和处罚，发布于2026-11-20 20:04。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-21-national-weather-weak-cold-outlook",
+      "story_identity": "nmc-nov20-ten-day-weak-cold-outlook",
+      "headline": "🌤️ 未来十天冷空气偏弱，22日起东部再有降温雨雪",
+      "summary": "中央气象台20日8时提示，未来十天影响我国的冷空气总体较弱，中西部多地气温偏高；22日至24日另有一股中等强度冷空气影响东部。山东半岛、黑龙江西北部和内蒙古东部需防道路湿滑结冰，北方公众仍需注意昼夜温差与大风风寒。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 86,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 14
+      },
+      "heat_rank": 7,
+      "occurred_at": "2026-11-20T08:00:00+08:00",
+      "risk": {
+        "level": "medium",
+        "note": "天气预报可能调整，需克制提示道路结冰和风寒风险，出行以最新预警为准。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "中央气象台",
+          "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
+          "title": "未来十天冷空气偏弱，22日起东部再有降温雨雪",
+          "captured_at": "2026-11-21T06:16:00+08:00",
+          "note": "支持未来十天冷空气趋势、22日至24日东部降温和雨雪提示，发布于2026-11-20 08:00。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-20/10735018.shtml",
+          "title": "未来十天冷空气偏弱，22日起东部再有降温雨雪",
+          "captured_at": "2026-11-21T06:16:00+08:00",
+          "note": "复核中西部气温趋势及道路湿滑结冰、大风风寒提示，发布于2026-11-20 09:23。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-21-hangzhou-longterm-care-expansion",
+      "story_identity": "hangzhou-ltci-53k-740m-dementia-benefits-nov20",
+      "headline": "🏥 杭州长护险取消“二选一”，重度失智纳入保障",
+      "summary": "杭州20日披露长护险进展：累计为5.3万名重度失能、失智人员支付基金7.4亿元，今年待遇人数4.74万人。长护险与养老护理补贴已取消“二选一”，重度失智人员按规定纳入，家属可通过“浙里办”申请、评估和结算；各地待遇不可直接套用。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 85,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 12
+      },
+      "heat_rank": 8,
+      "occurred_at": "2026-11-20T20:13:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "保障对象、评估和待遇按杭州现行规定执行，不将当地标准直接套用到其他地区。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/jk/2026/11-20/10735489.shtml",
+          "title": "杭州长护险取消“二选一”，重度失智纳入保障",
+          "captured_at": "2026-11-21T06:16:00+08:00",
+          "note": "支持累计基金支付、待遇人数、取消二选一及浙里办申请方式，发布于2026-11-20 20:13。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-21-double11-price-protection-disputes",
+      "story_identity": "cnr-double11-price-protection-subsidy-exclusion-nov20",
+      "headline": "🛍️ “双十一”保价纠纷：隐形除外条款不当然有效",
+      "summary": "总台中国之声20日关注“双十一”保价纠纷，部分消费者因国补、平台券或系统审核被拒退差价。专家指出，保价属于经营者的合同承诺，未显著提示的除外条款不当然有效。消费者可保存订单、承诺页面、比价录屏和沟通记录，先与商家、平台协商或投诉。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 85,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 11
+      },
+      "heat_rank": 9,
+      "occurred_at": "2026-11-20T10:25:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "具体保价范围和退款结果仍须结合承诺页面、订单及条款提示情况判断。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-20/10735098.shtml",
+          "title": "“双十一”保价纠纷：隐形除外条款不当然有效",
+          "captured_at": "2026-11-21T06:16:00+08:00",
+          "note": "支持保价拒退差价情形、专家解释及消费者留存证据建议，发布于2026-11-20 10:25。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-21-hainan-ev-charging-one-network",
+      "story_identity": "hainan-province-ev-charging-one-app-6636-stations",
+      "headline": "🔌 海南充换电“一张网”覆盖全部乡镇",
+      "summary": "海南20日介绍充换电全岛“一张网”建设，公共充电设施统一接入平台，支持导航、扫码和结算，减少车主跨平台注册充值。平台已接入6636座公共充电站、8.38万枪，公共充换电设施覆盖全部乡镇；具体运营商、价格和优惠以页面实时信息为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 84,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 12
+      },
+      "heat_rank": 10,
+      "occurred_at": "2026-11-20T20:17:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "平台接入数为建设口径，实时可用枪位、运营商价格和优惠以页面为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-20/10735468.shtml",
+          "title": "海南充换电“一张网”覆盖全部乡镇",
+          "captured_at": "2026-11-21T06:16:00+08:00",
+          "note": "支持统一接入、导航扫码结算、6636座站和8.38万枪及乡镇覆盖，发布于2026-11-20 20:17。"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
