@@ -1,0 +1,1106 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T15:30:06+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 43,
+    "published": 9,
+    "dropped_safety": {
+      "politics": 1,
+      "geopolitics": 1,
+      "propaganda": 1,
+      "controversy": 1,
+      "minors": 1
+    },
+    "dropped_low_confidence": 25,
+    "dropped_quota": 0,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 38,
+      "official_sources": 2,
+      "state_media_sources": 9,
+      "major_media_sources": 3,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 4
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 9,
+        "relaxed_48h": 27,
+        "relaxed_72h": 34
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 43,
+          "cumulative_unique_candidates": 43,
+          "source_scope": [
+            "中央气象台、国家数据局等官方发布",
+            "新华社、央视新闻、中国新闻网与人民网",
+            "北京日报、北京商报、上观新闻等主流媒体",
+            "交通出行、健康医疗、教育考试与消费就业专业线",
+            "科技AI、文化体育、太空航天与自然灾害专业线",
+            "公开搜索及聚合线索的首次披露反查"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-22-cold-air-wind-blue-warning",
+          "story_identity": "nmc-nov22-06-wind-blue-warning-cold-air",
+          "research_pass": 1,
+          "occurred_at": "2026-11-22T06:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-11-22-cold-air-wind-blue-warning",
+          "score": 94,
+          "score_breakdown": {
+            "heat": 36,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-22-railway-numbering-guide",
+          "story_identity": "china-rail-train-numbering-public-qa-nov22",
+          "research_pass": 1,
+          "occurred_at": "2026-11-22T11:54:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-22-railway-numbering-guide",
+          "score": 92,
+          "score_breakdown": {
+            "heat": 35,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-22-flu-h1n1-dominant-guidance",
+          "story_identity": "china-cdc-flu-midlevel-h1n1-dominant-nov22",
+          "research_pass": 1,
+          "occurred_at": "2026-11-22T06:10:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-22-flu-h1n1-dominant-guidance",
+          "score": 91,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 12
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-22-adora-flora-maiden-guide",
+          "story_identity": "adora-flora-commercial-maiden-service-guide-nov22",
+          "research_pass": 1,
+          "occurred_at": "2026-11-22T06:12:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-22-adora-flora-maiden-guide",
+          "score": 89,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-22-delingha-rail-speed-restrictions",
+          "story_identity": "delingha-quake-qinghai-tibet-rail-speed-restrictions",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T18:45:33+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-22-delingha-rail-speed-restrictions",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 11
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-22-first-trusted-data-space-progress",
+          "story_identity": "nda-first-trusted-data-space-pilot-progress-nov22",
+          "research_pass": 1,
+          "occurred_at": "2026-11-22T11:44:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "selected",
+          "item_id": "2026-11-22-first-trusted-data-space-progress",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-22-c919-guangzhou-tianjin",
+          "story_identity": "csa-c919-guangzhou-tianjin-first-flight-nov21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T16:20:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-22-c919-guangzhou-tianjin",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-22-aigc-detection-academic-review",
+          "story_identity": "cnr-aigc-detection-academic-review-investigation-nov21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T13:24:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-22-tcm-exam-ai-statement",
+          "story_identity": "tcm-physician-exam-center-ai-claims-statement-nov21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "selected",
+          "item_id": "2026-11-22-tcm-exam-ai-statement",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 9
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-22-lang-ping-fivb-medal",
+          "story_identity": "fivb-lang-ping-volleyball-medal-nov21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T12:00:00+08:00",
+          "scope": "international",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-22-beihai-nature-cruise",
+          "story_identity": "beihai-first-marine-nature-cruise-nov21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-22-chongqing-low-altitude-list",
+          "story_identity": "chongqing-low-altitude-86-opportunity-list-nov21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-22-heilongjiang-snow-outlook",
+          "story_identity": "hlj-nov21-light-snow-cold-outlook-nov22-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T20:36:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-11-22-heilongjiang-snow-outlook",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 10
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-22-college-zero-carbon-finals",
+          "story_identity": "times-college-zero-carbon-finals-ningde-nov21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T12:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-22-shenzhou24-final-rehearsal",
+          "story_identity": "shenzhou24-final-full-system-rehearsal-nov21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "太空航天",
+          "outcome": "dropped_low_confidence",
+          "score": 87,
+          "score_breakdown": {
+            "heat": 35,
+            "freshness": 17,
+            "everyday_relevance": 20,
+            "evidence": 15
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅核到21日并保守计时，87分仅达relaxed_48h，不跨层补位；合练不等于发射"
+        },
+        {
+          "candidate_key": "2026-11-22-yellow-river-ice-season",
+          "story_identity": "yellow-river-first-ice-run-ice-flood-season-nov21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 17,
+            "everyday_relevance": 24,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件约28小时，84分仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-22-gold-price-consumer-demand",
+          "story_identity": "shanghai-gold-price-drop-consumer-demand-nov20-21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T06:06:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 17,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件约30小时，82分仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-22-yiwu-autumn-jobs",
+          "story_identity": "yiwu-autumn-graduate-job-fair-16k-nov20",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 14,
+            "everyday_relevance": 25,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "事件约60小时，82分仅达relaxed_72h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-22-shangrao-sightseeing-train",
+          "story_identity": "shangrao-themed-tourist-train-nanchang-wuyuan-nov21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 17,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件约36小时，81分仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-22-karate-women-semifinals",
+          "story_identity": "karate-world-cup-china-women-first-semifinals-nov21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 17,
+            "everyday_relevance": 20,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件约36小时，80分仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-22-hr-ai-pilot-base",
+          "story_identity": "chongqing-hr-national-ai-pilot-base-unveiling-nov21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 17,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件约36小时，79分仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-22-winter-sports-services-demand",
+          "story_identity": "china-new-winter-sports-season-services-demand-nov21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T11:35:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 17,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件约24.5小时，79分仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-22-brain-computer-report",
+          "story_identity": "caict-brain-computer-interface-report-2026-release",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 17,
+            "everyday_relevance": 20,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件约36小时，78分仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-22-shangshan-museum-opening",
+          "story_identity": "shangshan-archaeological-park-museum-opening-nov21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 17,
+            "everyday_relevance": 21,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件约36小时，78分仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-22-fluorine-free-jacket-guide",
+          "story_identity": "cnr-fluorine-free-outdoor-jacket-buying-guide-nov21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T10:46:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 17,
+            "everyday_relevance": 24,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件约25小时，78分仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-22-sleep-aid-investigation",
+          "story_identity": "worker-daily-sleep-aid-product-investigation-nov21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T09:16:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 17,
+            "everyday_relevance": 24,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件约27小时，77分仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-22-city-youth-report",
+          "story_identity": "china-newsweek-city-youth-vitality-report-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 14,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "事件约60小时，76分仅达relaxed_72h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-22-history-classic-industry-expo",
+          "story_identity": "first-history-classic-industry-expo-hangzhou-nov20-22",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 14,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "事件约60小时，75分仅达relaxed_72h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-22-jeans-refund-fraud-proof",
+          "story_identity": "cctv-online-jeans-quality-refund-fraud-proof-nov22",
+          "research_pass": 1,
+          "occurred_at": "2026-11-22T10:24:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 9
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在24小时内，但74分低于strict_24h的75分线，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-22-openatom-zhengzhou",
+          "story_identity": "openatom-developer-conference-zhengzhou-nov20-21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 14,
+            "everyday_relevance": 21,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "事件约60小时，74分仅达relaxed_72h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-22-fleece-microfiber-clarification",
+          "story_identity": "yangtze-fleece-microfiber-700k-clarification-nov21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T09:09:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 17,
+            "everyday_relevance": 22,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件约27小时，72分仅达relaxed_48h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-22-autumn-holiday-services",
+          "story_identity": "cctv-autumn-holiday-family-travel-childcare-nov21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T21:09:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 10,
+            "everyday_relevance": 25,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "事件在24小时内，但69分仅达relaxed_72h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-22-plant-light-recipes",
+          "story_identity": "ustc-plant-factory-light-recipes-feature-nov21",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T19:50:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 10,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "事件在24小时内，但69分仅达relaxed_72h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-22-comprehensive-high-school-pilots",
+          "story_identity": "zhejiang-three-comprehensive-high-school-pilots-feature",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T15:58:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 10,
+            "everyday_relevance": 24,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "事件约20小时，但68分仅达relaxed_72h，不跨层补位"
+        },
+        {
+          "candidate_key": "2026-11-22-genting-four-fis-schedule",
+          "story_identity": "genting-2026-27-four-fis-events-schedule",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T13:47:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "原文仅称“日前发布”，原始发布时间未核清"
+        },
+        {
+          "candidate_key": "2026-11-22-sd3-climate-award-finalist",
+          "story_identity": "sd3-gordon-bell-climate-modeling-finalist-2026",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T20:44:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "报道只称“近日”公布，未核到ACM原始名单及确切发布时间"
+        },
+        {
+          "candidate_key": "2026-11-22-nanjing-one-registration",
+          "story_identity": "nanjing-second-hospital-one-registration-multidept",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T09:13:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "服务仅称“近日”推出，未核到院方原始公告和准确启用日"
+        },
+        {
+          "candidate_key": "2026-11-22-a868-tilt-transition-flight",
+          "story_identity": "xpeng-a868-full-tilt-transition-test-flight",
+          "research_pass": 1,
+          "occurred_at": "2026-11-22T13:23:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "试飞仅称“近日”且披露时间晚于评估时钟，不评分不纳入"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        },
+        {
+          "candidate_key": "candidate-5",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "minors"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-22-cold-air-wind-blue-warning",
+      "story_identity": "nmc-nov22-06-wind-blue-warning-cold-air",
+      "headline": "🌬️ 大风蓝色预警发布，中东部迎降温雨雪",
+      "summary": "中央气象台22日6时发布大风蓝色预警。22日至24日冷空气自北向南影响中东部，多地降温4至6℃，部分地区8至10℃、局地超过10℃；东北和内蒙古东部有降雪，江南、华南及西南地区有降雨，出行和海上作业需留意最新预警。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 94,
+      "score_breakdown": {
+        "heat": 36,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 14
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-22T06:00:00+08:00",
+      "risk": {
+        "level": "medium",
+        "note": "天气预报和预警可能调整，降温幅度及雨雪影响以当地最新发布为准。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "中央气象台",
+          "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
+          "title": "大风蓝色预警",
+          "captured_at": "2026-11-22T15:17:54+08:00",
+          "note": "支持22日6时大风蓝色预警及22日至24日冷空气影响，页面日期为2026-11-22。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-22/10735941.shtml",
+          "title": "大风蓝色预警发布，中东部迎降温雨雪",
+          "captured_at": "2026-11-22T15:17:54+08:00",
+          "note": "复核冷空气路径、降温幅度和雨雪范围，发布于2026-11-22 08:55。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-22-railway-numbering-guide",
+      "story_identity": "china-rail-train-numbering-public-qa-nov22",
+      "headline": "🚆 铁路解答新车次读音，首批普速车次25日启用",
+      "summary": "铁路部门22日解答车次编排改革热点：普速列车Z、N、V分别对应时速160、140、120公里等级，均按英文字母读音。首批普速旅客列车25日0时起启用新车次，过渡期同趟车可能日期不同车次不同，购票乘车须核对日期、车次和到发时刻。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 92,
+      "score_breakdown": {
+        "heat": 35,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 13
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-22T11:54:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "过渡期内车次可能随乘车日期变化，须按车票和当日公告核对。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-22/10735992.shtml",
+          "title": "铁路解答新车次读音，首批普速车次25日启用",
+          "captured_at": "2026-11-22T15:17:54+08:00",
+          "note": "支持车次字母读音、速度等级和过渡期核对提示，发布于2026-11-22 11:54。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/fortune/20261105/f7595c51c52e495a9b79894275d30142/c.html",
+          "title": "铁路车次编排改革相关背景",
+          "captured_at": "2026-11-22T15:17:54+08:00",
+          "note": "仅作25日启用新车次的实施时间背景，页面日期为2026-11-05。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-22-flu-h1n1-dominant-guidance",
+      "story_identity": "china-cdc-flu-midlevel-h1n1-dominant-nov22",
+      "headline": "🤒 流感进入中流行水平，甲型H1N1成优势毒株",
+      "summary": "中国疾控中心最新监测显示，全国流感活动整体进入中流行水平，甲型H1N1已转为优势毒株，H3N2与乙型Victoria系同时活跃。儿童重在早识别、防聚集，老年人重在防重症；抗病毒药应遵医嘱使用，不能自行以抗生素治疗流感。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 91,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 12
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-22T06:10:00+08:00",
+      "risk": {
+        "level": "medium",
+        "note": "流感监测和用药提示不替代诊疗，抗病毒药应遵医嘱使用。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视新闻",
+          "url": "https://www.chinanews.com.cn/jk/2026/11-22/10735933.shtml",
+          "title": "流感进入中流行水平，甲型H1N1成优势毒株",
+          "captured_at": "2026-11-22T15:17:54+08:00",
+          "note": "支持流感活动水平、优势毒株和重点人群防护提示，发布于2026-11-22 06:10。"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "珠海网",
+          "url": "https://pub-zhtb.hizh.cn/a/202611/22/AP6b0238d5e4b04a6fc725be23.html",
+          "title": "甲型H1N1成优势毒株，流感防护提示",
+          "captured_at": "2026-11-22T15:17:54+08:00",
+          "note": "复核毒株监测及抗病毒药、抗生素使用提示，发布于2026-11-22 08:35。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-22-adora-flora-maiden-guide",
+      "story_identity": "adora-flora-commercial-maiden-service-guide-nov22",
+      "headline": "🛳️ 爱达·花城号今日商业首航，16时30分截止登船",
+      "summary": "“爱达·花城号”22日计划执行广州—香港—越南—广州6天5晚商业首航，12时开始安检候船、16时30分截止登船、18时计划离港。护照、药品和贵重物品应随身携带；截至评估时钟尚未到离港时间，实际安排以船方当天通知为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 89,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 13
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-22T06:12:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "首航登船和离港均为计划安排，实际执行以船方当天通知为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视新闻",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-22/10735935.shtml",
+          "title": "爱达·花城号今日商业首航",
+          "captured_at": "2026-11-22T15:17:54+08:00",
+          "note": "支持首航航线、安检候船、截止登船和计划离港时间，发布于2026-11-22 06:12。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社客户端",
+          "url": "https://app.xinhuanet.com/news/article.html?articleId=20261122054ecc0113184006b0545abd8d6161f6",
+          "title": "爱达·花城号商业首航提示",
+          "captured_at": "2026-11-22T15:17:54+08:00",
+          "note": "复核首航安排及护照、药品和贵重物品随身携带提示，页面日期为2026-11-22。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-22-delingha-rail-speed-restrictions",
+      "story_identity": "delingha-quake-qinghai-tibet-rail-speed-restrictions",
+      "headline": "🚉 德令哈地震后，青藏铁路部分区间限速开行",
+      "summary": "青海德令哈21日18时45分发生5.6级地震后，青藏铁路西宁至格尔木部分区段采取限速措施，部分列车可能晚点。铁路部门扣停途经列车并排查线路、桥梁、信号和供电设备，同时提供晚点答疑、退票等服务，旅客出发前应查询最新车次信息。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 88,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 11
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-21T18:45:33+08:00",
+      "risk": {
+        "level": "medium",
+        "note": "限速和晚点情况可能随设备排查调整，旅客须查询最新车次信息。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "安徽省地震局",
+          "url": "https://www.ahdzj.gov.cn/content/detail/6b0178a6868e059817ab1df3.html",
+          "title": "青海德令哈发生5.6级地震",
+          "captured_at": "2026-11-22T15:17:54+08:00",
+          "note": "支持德令哈5.6级地震及21日18时45分33秒发震时刻，发布于2026-11-21 18:55。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-22/10735950.shtml",
+          "title": "德令哈地震后青藏铁路部分区间限速开行",
+          "captured_at": "2026-11-22T15:17:54+08:00",
+          "note": "支持铁路限速、设备排查和旅客退票答疑安排，发布于2026-11-22 09:11。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-22-first-trusted-data-space-progress",
+      "story_identity": "nda-first-trusted-data-space-pilot-progress-nov22",
+      "headline": "🗄️ 首批可信数据空间试点形成457个高质量数据集",
+      "summary": "国家数据局22日介绍，首批可信数据空间试点已覆盖13个城市、22个行业和28家企业，形成457个高质量数据集、136个人工智能垂直模型。上海虹桥枢纽已能整合地铁、公交、出租车等实时信息，方便旅客查询，试点强调数据可用不可见。",
+      "category": "科技AI",
+      "scope": "domestic",
+      "topic": "科技AI",
+      "score": 86,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 20,
+        "everyday_relevance": 22,
+        "evidence": 14
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-11-22T11:44:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "数据集和模型数量为试点建设口径，具体服务以各场景实际开放为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视新闻",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-22/10736003.shtml",
+          "title": "首批可信数据空间试点形成457个高质量数据集",
+          "captured_at": "2026-11-22T15:17:54+08:00",
+          "note": "支持试点覆盖范围、数据集与垂直模型数量及虹桥应用，发布于2026-11-22 11:44。"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "C114通信网",
+          "url": "https://www.c114.net.cn/cloudnews/150140.html",
+          "title": "首批可信数据空间试点进展",
+          "captured_at": "2026-11-22T15:17:54+08:00",
+          "note": "复核可信数据空间试点进展和数据可用不可见特点，页面日期为2026-11-22。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-22-c919-guangzhou-tianjin",
+      "story_identity": "csa-c919-guangzhou-tianjin-first-flight-nov21",
+      "headline": "✈️ 南航C919首次执飞广州至天津航线",
+      "summary": "南航C919于21日首次执飞广州至天津航线，去程CZ3135计划16时20分起飞、19时20分抵达，回程CZ3136计划20时20分起飞、23时40分返穗。目前该航线每日计划5个往返航班，仅指定往返航班使用C919，实际机型和时刻以航司当日安排为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 85,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 13
+      },
+      "heat_rank": 7,
+      "occurred_at": "2026-11-21T16:20:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "仅指定航班使用C919，实际机型和时刻以航司当日安排为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-22/10735979.shtml",
+          "title": "南航C919首次执飞广州至天津航线",
+          "captured_at": "2026-11-22T15:17:54+08:00",
+          "note": "支持首次执飞事实、指定往返航班及每日计划班次，发布于2026-11-22 10:39。"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "北京商报",
+          "url": "https://www.bbtnews.com.cn/2026/1121/611883.shtml",
+          "title": "南航C919执飞广州至天津航线",
+          "captured_at": "2026-11-22T15:17:54+08:00",
+          "note": "复核CZ3135、CZ3136计划时刻和机型安排，页面日期为2026-11-21。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-22-tcm-exam-ai-statement",
+      "story_identity": "tcm-physician-exam-center-ai-claims-statement-nov21",
+      "headline": "📜 中医师资格认证中心：未与大模型企业合作测评",
+      "summary": "国家中医药管理局中医师资格认证中心21日晚声明，从未公开中医类别医师资格考试历年真题，也未与任何大模型企业合作或开展测评、认证、推荐。所谓“官方真题”“内部题库”并非该中心提供，考生和公众不应把相关宣传当作官方背书。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "教育考试",
+      "score": 83,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 9
+      },
+      "heat_rank": 8,
+      "occurred_at": "2026-11-21T18:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "原文仅称21日晚，发生时间取晚间最早点；相关宣传不得视为官方背书。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://news.cctv.com/2026/11/22/ARTIQu34TaMWRbDasC2YRF8R261122.shtml",
+          "title": "中医师资格认证中心声明",
+          "captured_at": "2026-11-22T15:17:54+08:00",
+          "note": "支持未公开历年真题、未与大模型企业合作测评的声明，页面日期为2026-11-22。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-22/10735997.shtml",
+          "title": "中医师资格认证中心：未与大模型企业合作测评",
+          "captured_at": "2026-11-22T15:17:54+08:00",
+          "note": "复核所谓官方真题、内部题库并非认证中心提供，发布于2026-11-22 11:59。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-22-heilongjiang-snow-outlook",
+      "story_identity": "hlj-nov21-light-snow-cold-outlook-nov22-27",
+      "headline": "❄️ 黑龙江小雪节气迎降雪，22日至27日多阵雪",
+      "summary": "黑龙江省气象部门21日预报，22日大兴安岭、黑河北部有小雪，大兴安岭北部有中到大雪，哈尔滨东部、牡丹江西部有阵雪。22日至24日北部和东部有小雪，25日至27日多弱冷空气活动、全省大部多阵雪；公众需防范路面结冰和能见度下降，及时关注预报并防寒保暖。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 78,
+      "score_breakdown": {
+        "heat": 25,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 10
+      },
+      "heat_rank": 9,
+      "occurred_at": "2026-11-21T20:36:00+08:00",
+      "risk": {
+        "level": "medium",
+        "note": "天气预报可能调整，降雪、结冰和能见度影响以黑龙江省气象部门最新预报为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-21/10735882.shtml",
+          "title": "黑龙江小雪节气迎降雪，22日至27日多阵雪",
+          "captured_at": "2026-11-22T15:30:06+08:00",
+          "note": "支持22日至24日北部和东部降雪、25日至27日多阵雪及交通和防寒提示，发布于2026-11-21 20:36。"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
