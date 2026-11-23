@@ -1,0 +1,1479 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v4-editorial-completeness",
+  "rubric_version": "v4-editorial-completeness",
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T07:49:19+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 50,
+    "published": 10,
+    "dropped_safety": {
+      "政治时政": 1,
+      "灾害/公共安全": 1,
+      "公众人物争议": 1,
+      "隐私/未成年人": 1,
+      "具体品牌/公司/产品": 1,
+      "谣言/未经证实信息": 1
+    },
+    "dropped_low_confidence": 20,
+    "dropped_capacity": 10,
+    "sources": [
+      "weibo",
+      "douyin",
+      "bilibili",
+      "zhihu",
+      "other"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 44,
+      "platform_public_sources": 11,
+      "aggregator_sources": 44,
+      "search_media_sources": 9,
+      "spillover_sources": 1,
+      "dropped_insufficient_evidence": 4
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 20,
+        "relaxed_48h": 20,
+        "relaxed_72h": 20
+      },
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-20-feifan-x",
+          "canonical_phrase": "非凡 X",
+          "outcome": "selected",
+          "item_id": "2026-11-20-feifan-x",
+          "score": 95,
+          "score_breakdown": {
+            "heat": 37,
+            "freshness": 30,
+            "reusability": 19,
+            "evidence": 9
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-23.md",
+            "observed_at": "2026-11-23T05:51:01+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-11-huang-shazi-mamma-lai",
+          "canonical_phrase": "慌啥子嘛慢慢来",
+          "outcome": "selected",
+          "item_id": "2026-11-11-huang-shazi-mamma-lai",
+          "score": 93,
+          "score_breakdown": {
+            "heat": 35,
+            "freshness": 30,
+            "reusability": 18,
+            "evidence": 10
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/douyin/2026-11-22.md",
+            "observed_at": "2026-11-22T23:23:42+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-02-huadi-weilao-pengyou",
+          "canonical_phrase": "我画地为牢了朋友",
+          "outcome": "selected",
+          "item_id": "2026-11-02-huadi-weilao-pengyou",
+          "score": 92,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 30,
+            "reusability": 19,
+            "evidence": 9
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/douyin/2026-11-23.md",
+            "observed_at": "2026-11-23T05:51:03+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-23-maofugui-gouburang",
+          "canonical_phrase": "猫富贵，狗不让",
+          "outcome": "selected",
+          "item_id": "2026-11-23-maofugui-gouburang",
+          "score": 90,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 30,
+            "reusability": 19,
+            "evidence": 9
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-23.md",
+            "observed_at": "2026-11-23T05:51:01+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-02-quanwang-jinru-bushaoxin-shidai",
+          "canonical_phrase": "全网进入不烧心时代",
+          "outcome": "selected",
+          "item_id": "2026-10-02-quanwang-jinru-bushaoxin-shidai",
+          "score": 89,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 30,
+            "reusability": 20,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-23.md",
+            "observed_at": "2026-11-23T05:51:01+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-23-shiyizhici-xianchifan",
+          "canonical_phrase": "事已至此，先吃饭吧",
+          "outcome": "selected",
+          "item_id": "2026-11-23-shiyizhici-xianchifan",
+          "score": 89,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 30,
+            "reusability": 19,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-23.md",
+            "observed_at": "2026-11-23T05:51:01+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-23-cuipi-nienie",
+          "canonical_phrase": "脆皮捏捏",
+          "outcome": "selected",
+          "item_id": "2026-11-23-cuipi-nienie",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 30,
+            "reusability": 18,
+            "evidence": 9
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/kuaishou/2026-11-23.md",
+            "observed_at": "2026-11-23T05:51:03+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-22-xie-xiu-yingyu",
+          "canonical_phrase": "邪修英语",
+          "outcome": "selected",
+          "item_id": "2026-11-22-xie-xiu-yingyu",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 30,
+            "reusability": 18,
+            "evidence": 9
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-23.md",
+            "observed_at": "2026-11-23T05:51:01+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-21-x-tianxia-di-yi-hao",
+          "canonical_phrase": "X 天下第一好",
+          "outcome": "selected",
+          "item_id": "2026-11-21-x-tianxia-di-yi-hao",
+          "score": 87,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 30,
+            "reusability": 18,
+            "evidence": 9
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-22.md",
+            "observed_at": "2026-11-22T23:23:41+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-23-wowangzhe-ni-buzhale",
+          "canonical_phrase": "我往这你不炸了吗",
+          "outcome": "selected",
+          "item_id": "2026-11-23-wowangzhe-ni-buzhale",
+          "score": 87,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 30,
+            "reusability": 19,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.dancihu.com/liuxingyu/w17807.html",
+            "observed_at": "2026-11-22T21:39:23+08:00"
+          },
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "2026-11-19-zui-x-de-yiji",
+          "canonical_phrase": "最 X 的一集",
+          "outcome": "dropped_capacity",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 30,
+            "reusability": 18,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-22.md",
+            "observed_at": "2026-11-22T23:23:41+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-14-huodao-xianzai-suan-qiji",
+          "canonical_phrase": "活到现在算是个奇迹",
+          "outcome": "dropped_capacity",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 30,
+            "reusability": 18,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-23.md",
+            "observed_at": "2026-11-23T05:51:01+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-21-wanshang-hengao",
+          "canonical_phrase": "玩商很高",
+          "outcome": "dropped_capacity",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 30,
+            "reusability": 18,
+            "evidence": 9
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/douyin/2026-11-22.md",
+            "observed_at": "2026-11-22T23:23:42+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-08-04-yidairen-you-yidairen-x",
+          "canonical_phrase": "一代人有一代人的X",
+          "outcome": "dropped_capacity",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 30,
+            "reusability": 19,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/douyin/2026-11-22.md",
+            "observed_at": "2026-11-22T23:23:42+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-21-shei-hai-mei-tiao-x-shoushiwu",
+          "canonical_phrase": "谁还没跳 X 手势舞",
+          "outcome": "dropped_capacity",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 30,
+            "reusability": 17,
+            "evidence": 9
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/douyin/2026-11-22.md",
+            "observed_at": "2026-11-22T23:23:42+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-13-chenqie-xianshang-gaofa-x",
+          "canonical_phrase": "臣妾要线上告发 X",
+          "outcome": "dropped_capacity",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 30,
+            "reusability": 19,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-22.md",
+            "observed_at": "2026-11-22T23:23:41+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-21-zhege-x-fei-y-buke-ma",
+          "canonical_phrase": "这个 X 非 Y 不可吗",
+          "outcome": "dropped_capacity",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 30,
+            "reusability": 17,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-22.md",
+            "observed_at": "2026-11-22T23:23:41+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-02-na-dao-da-jieguo",
+          "canonical_phrase": "拿到大结果",
+          "outcome": "dropped_capacity",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 30,
+            "reusability": 18,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://weibo.zhaoyizhe.com/date/20261122/",
+            "observed_at": "2026-11-22T16:46:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-08-03-cong-hang-dao-la",
+          "canonical_phrase": "从夯到拉",
+          "outcome": "dropped_capacity",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 30,
+            "reusability": 19,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://weibo.zhaoyizhe.com/date/20261122/",
+            "observed_at": "2026-11-22T12:58:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-13-miejianguo-zhapi",
+          "canonical_phrase": "灭建国扎皮",
+          "outcome": "dropped_capacity",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 30,
+            "reusability": 18,
+            "evidence": 7
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-23.md",
+            "observed_at": "2026-11-23T05:51:01+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-20-zui-x-de-yici",
+          "canonical_phrase": "最 X 的一次",
+          "outcome": "dropped_low_confidence",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 30,
+            "reusability": 15,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-23.md",
+            "observed_at": "2026-11-23T05:51:01+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-23-x-de-jintou-shi-y",
+          "canonical_phrase": "X 的尽头是 Y",
+          "outcome": "dropped_low_confidence",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 30,
+            "reusability": 13,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/douyin/2026-11-23.md",
+            "observed_at": "2026-11-23T05:51:03+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-09-dafeiyu",
+          "canonical_phrase": "大肥鱼",
+          "outcome": "dropped_low_confidence",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 30,
+            "reusability": 12,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-23.md",
+            "observed_at": "2026-11-23T05:51:01+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-22-x-songchigan-beiwo-nie",
+          "canonical_phrase": "X 的松弛感被我拿捏了",
+          "outcome": "dropped_low_confidence",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 30,
+            "reusability": 15,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/douyin/2026-11-23.md",
+            "observed_at": "2026-11-23T05:51:03+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-23-zhizhi-ji-jie-mao-cuoguai",
+          "canonical_phrase": "X，我又错怪你了",
+          "outcome": "dropped_low_confidence",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 30,
+            "reusability": 14,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/douyin/2026-11-23.md",
+            "observed_at": "2026-11-23T05:51:03+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-23-lai-x-zuiba-meiting",
+          "canonical_phrase": "来 X 嘴巴就没停过",
+          "outcome": "dropped_low_confidence",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 30,
+            "reusability": 12,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/douyin/2026-11-23.md",
+            "observed_at": "2026-11-23T05:51:03+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-23-pianni-qishi-mei-zouchu-x",
+          "canonical_phrase": "骗你的，其实我没走出 X",
+          "outcome": "dropped_low_confidence",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 30,
+            "reusability": 14,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/douyin/2026-11-23.md",
+            "observed_at": "2026-11-23T05:51:03+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-23-wo-jiu-busi-ni",
+          "canonical_phrase": "我救不死你",
+          "outcome": "dropped_low_confidence",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 30,
+            "reusability": 12,
+            "evidence": 8
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-23.md",
+            "observed_at": "2026-11-23T05:51:01+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-10-21-changjin-gongzuo-li-jiale-shenme",
+          "canonical_phrase": "长今你在工作里加了什么啊",
+          "outcome": "dropped_low_confidence",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 30,
+            "reusability": 14,
+            "evidence": 6
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://weibo.zhaoyizhe.com/date/20261122/",
+            "observed_at": "2026-11-22T15:54:00+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-15-buxiaoxin-re-shangdi",
+          "canonical_phrase": "不小心惹了上帝",
+          "outcome": "dropped_low_confidence",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 30,
+            "reusability": 12,
+            "evidence": 6
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-22.md",
+            "observed_at": "2026-11-22T23:23:41+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-23-ni-shuo-lixiangxing-wo-pin",
+          "canonical_phrase": "你说的理想型我拼出来了",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 30,
+            "reusability": 14,
+            "evidence": 5
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/douyin/2026-11-22.md",
+            "observed_at": "2026-11-22T23:23:42+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-23-wo-zheyang-fa-biaozhun",
+          "canonical_phrase": "我这样发标准吗",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 30,
+            "reusability": 14,
+            "evidence": 5
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/douyin/2026-11-22.md",
+            "observed_at": "2026-11-22T23:23:42+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-21-dongtian-chi-x-rehuru",
+          "canonical_phrase": "冬天吃 X，过热乎日子",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 30,
+            "reusability": 13,
+            "evidence": 5
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/douyin/2026-11-22.md",
+            "observed_at": "2026-11-22T23:23:42+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-21-shendeng-yige-yuanwang",
+          "canonical_phrase": "神灯神灯我就一个愿望",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 30,
+            "reusability": 13,
+            "evidence": 5
+          },
+          "activity": {
+            "evidence_role": "popularity",
+            "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/douyin/2026-11-22.md",
+            "observed_at": "2026-11-22T23:23:42+08:00"
+          },
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-23-wo-zuojian-zifu",
+          "canonical_phrase": "我作茧自缚，是我的错",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 29,
+            "reusability": 17,
+            "evidence": 6
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.dancihu.com/liuxingyu/w17806.html",
+            "observed_at": "2026-11-22T21:38:15+08:00"
+          },
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "2026-11-23-ni-zhishi-pale",
+          "canonical_phrase": "你只是怕了／这谁不怕啊",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 29,
+            "reusability": 18,
+            "evidence": 6
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.dancihu.com/liuxingyu/n17805.html",
+            "observed_at": "2026-11-22T21:35:41+08:00"
+          },
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "2026-11-23-rizhao-xianglu-wo-zhuangsi",
+          "canonical_phrase": "别人说日照香炉生紫烟我装死",
+          "outcome": "dropped_low_confidence",
+          "score": 65,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 25,
+            "reusability": 18,
+            "evidence": 6
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.dancihu.com/liuxingyu/b17800.html",
+            "observed_at": "2026-11-21T13:21:54+08:00"
+          },
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "2026-11-23-zuifei-jineng-dasai",
+          "canonical_phrase": "最废技能大赛",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 14,
+            "freshness": 24,
+            "reusability": 19,
+            "evidence": 6
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.dancihu.com/liuxingyu/z17804.html",
+            "observed_at": "2026-11-21T13:27:00+08:00"
+          },
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "2026-11-23-huwai-nongfu",
+          "canonical_phrase": "户外农夫",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 14,
+            "freshness": 24,
+            "reusability": 18,
+            "evidence": 6
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.dancihu.com/liuxingyu/h17803.html",
+            "observed_at": "2026-11-21T13:26:02+08:00"
+          },
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "2026-11-23-wode-muyu-shi-wuyu",
+          "canonical_phrase": "我的母语是无语",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 14,
+            "freshness": 24,
+            "reusability": 18,
+            "evidence": 6
+          },
+          "activity": {
+            "evidence_role": "usage_context",
+            "url": "https://www.dancihu.com/liuxingyu/w17802.html",
+            "observed_at": "2026-11-21T13:24:35+08:00"
+          },
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "2026-09-29-shijie-juda-xingquban",
+          "canonical_phrase": "世界就是一个巨大的兴趣班",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-09-jinru-da-x-shidai",
+          "canonical_phrase": "进入大 X 时代",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "2026-11-23-wuxingbie-dizhi-ertong",
+          "canonical_phrase": "无性别低智儿童",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "2026-11-23-zhi-jian-jie-jie",
+          "canonical_phrase": "指尖结界",
+          "outcome": "dropped_insufficient_evidence",
+          "research_pass": 2
+        },
+        {
+          "candidate_key": "candidate-1",
+          "outcome": "dropped_safety",
+          "drop_reason": "政治时政",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-2",
+          "outcome": "dropped_safety",
+          "drop_reason": "灾害/公共安全",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-3",
+          "outcome": "dropped_safety",
+          "drop_reason": "公众人物争议",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-4",
+          "outcome": "dropped_safety",
+          "drop_reason": "隐私/未成年人",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-5",
+          "outcome": "dropped_safety",
+          "drop_reason": "具体品牌/公司/产品",
+          "research_pass": 1
+        },
+        {
+          "candidate_key": "candidate-6",
+          "outcome": "dropped_safety",
+          "drop_reason": "谣言/未经证实信息",
+          "research_pass": 2
+        }
+      ],
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 40,
+          "cumulative_unique_candidates": 40,
+          "sources_checked": [
+            "weibo",
+            "douyin",
+            "bilibili",
+            "zhihu",
+            "other"
+          ]
+        },
+        {
+          "pass": 2,
+          "candidates_added": 10,
+          "cumulative_unique_candidates": 50,
+          "sources_checked": [
+            "weibo",
+            "douyin",
+            "xiaohongshu",
+            "bilibili",
+            "other"
+          ]
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-20-feifan-x",
+      "title": "✨ 非凡 X",
+      "aliases": [
+        "非凡 X",
+        "非凡之爱",
+        "非凡之恶",
+        "非凡魔丸",
+        "非凡之畜"
+      ],
+      "canonical_phrase": "非凡 X",
+      "platform": [
+        "bilibili",
+        "other"
+      ],
+      "type": "句式梗",
+      "summary": "给虚构角色、关系或物件加正式感前缀，做二创命名、评论接龙。",
+      "origin": "已验证：11-23 与 11-22 B 站归档记录“非凡 X”及不同填料，独立热词页补充“非凡之爱”用法；历史可见身份沿用 11-20 的 id 与 canonical。",
+      "usage": "把角色、关系、物件或夸张设定填入“非凡 X”，用于虚构内容标题、评论区调侃和二创命名接龙。",
+      "fun_point": "“非凡”像正式授予称号，落在离奇角色和关系上便形成郑重其事与荒诞设定的反差。",
+      "why_spread": "已验证：连续 B 站归档与独立热词页出现不同填料；推测：前缀短、槽位宽，适合连续命名和二创接龙。",
+      "lifecycle": "rising",
+      "brand_usage": "适合虚构角色和创意设定内容，用“非凡 X”做系列命名或评论区称号接龙，不绑定具体产品。",
+      "risk": {
+        "level": "low",
+        "note": "仅用于虚构角色和一般事物，不用称号影射或贬损现实个人。"
+      },
+      "days_on_list": 4,
+      "score": 95,
+      "score_breakdown": {
+        "heat": 37,
+        "freshness": 30,
+        "reusability": 19,
+        "evidence": 9
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "bilibili",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-23.md",
+          "observed_at": "2026-11-23T05:51:01+08:00",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "11-23 B 站归档 05:51:01 记录“非凡 X”及相关热度。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "usage_context",
+          "platform": "bilibili",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-22.md",
+          "observed_at": "2026-11-22T23:23:41+08:00",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "11-22 B 站归档 23:23:41 提供该句式的不同填料用法。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "other",
+          "url": "https://max3d.cc/hot/%E9%9D%9E%E5%87%A1%E4%B9%8B%E7%88%B1%E6%89%8B%E6%90%93%E7%89%88.html",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "独立热词页提供“非凡之爱”热度，日级页面无精确活动时间。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-11-huang-shazi-mamma-lai",
+      "title": "🐫 慌啥子嘛慢慢来",
+      "aliases": [
+        "慌啥子嘛慢慢来",
+        "慌啥子嘛，慢慢来",
+        "慢慢来不着急"
+      ],
+      "canonical_phrase": "慌啥子嘛慢慢来",
+      "platform": [
+        "douyin",
+        "other"
+      ],
+      "type": "口头禅梗",
+      "summary": "用慢悠悠的方言安慰疲惫者，给急促场景降压。",
+      "origin": "已验证：11-22 抖音归档记录该方言劝慰语，今日热词聚合与独立热词页补充传播及用法；历史可见身份沿用 11-11 的 id 与 canonical。",
+      "usage": "用于安慰赶工或手忙脚乱的人，也可给好好吃饭、弹唱、舞蹈教学和慢生活画面配上“慌啥子嘛，慢慢来”的旁白。",
+      "fun_point": "方言的松弛音节把劝慰变成慢悠悠的陪伴，语气和内容统一，忙碌画面因此多了一层反差。",
+      "why_spread": "已验证：抖音归档、今日热词聚合和独立热词页提供当前活动；推测：口语亲切、适用画面广，容易原句引用和改编。",
+      "lifecycle": "peak",
+      "brand_usage": "适合慢生活、烹饪、教学和音乐内容，用方言旁白缓和忙碌节奏并邀请用户记录自己的慢慢来时刻。",
+      "risk": {
+        "level": "low",
+        "note": "不用于淡化真实安全风险或催促他人拖延必要处理。"
+      },
+      "days_on_list": 12,
+      "score": 93,
+      "score_breakdown": {
+        "heat": 35,
+        "freshness": 30,
+        "reusability": 18,
+        "evidence": 10
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/douyin/2026-11-22.md",
+          "observed_at": "2026-11-22T23:23:42+08:00",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "11-22 抖音归档 23:23:42 记录该方言劝慰语的新活动。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "other",
+          "url": "https://max3d.cc/",
+          "observed_at": "2026-11-23T04:07:02+08:00",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "今日热词聚合 04:07:02 补充该句的当前热度。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://max3d.cc/hot/%E6%85%8C%E5%95%A5%E5%AD%90%E5%98%9B%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E7%81%AB.html",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "独立热词页补充该句的使用背景，日级页面无精确活动时间。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-02-huadi-weilao-pengyou",
+      "title": "🔒 我画地为牢了朋友",
+      "aliases": [
+        "我画地为牢了朋友",
+        "我画地为牢了，朋友",
+        "我＋成语/短句，X"
+      ],
+      "canonical_phrase": "我画地为牢了朋友",
+      "platform": [
+        "douyin",
+        "other"
+      ],
+      "type": "句式梗",
+      "summary": "用“我画地为牢了朋友”表达自愿困在喜欢、工位或日常执念里。",
+      "origin": "已验证：今日抖音归档记录该句，11-23 公开报道提供画地为牢文学二创语境，词典页补充旧用法；历史可见身份沿用 11-02 的 id 与 canonical。",
+      "usage": "可扩成“我＋成语/短句，X”，把喜欢的事物、工位或日常执念填进句式，用于标题、评论区和自我调侃。",
+      "fun_point": "把主动沉迷说成郑重其事的画地为牢，成语的困守意味与甘愿停留的日常心态形成反差。",
+      "why_spread": "已验证：今日抖音、公开报道与词典页共同提供新旧用法；推测：成语壳熟悉，能承接多种喜欢与执念，便于续写。",
+      "lifecycle": "rising",
+      "brand_usage": "适合兴趣内容、工位日常和虚构场景，用“我＋成语/短句，X”做自我调侃标题并邀请用户续句。",
+      "risk": {
+        "level": "low",
+        "note": "只调侃自愿的日常沉迷，不用于美化真实限制人身自由或危险处境。"
+      },
+      "days_on_list": 13,
+      "score": 92,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 30,
+        "reusability": 19,
+        "evidence": 9
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "douyin",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/douyin/2026-11-23.md",
+          "observed_at": "2026-11-23T05:51:03+08:00",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "今日抖音归档 05:51:03 记录“我画地为牢了朋友”的相关热度。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://ent.sina.cn/2026-11-23/detail-inizrtky1040985.d.html?oid=.uitn&vt=4",
+          "observed_at": "2026-11-23T00:04:00+08:00",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "公开报道 00:04 提供画地为牢文学的二创使用语境。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://www.dancihu.com/liuxingyu/h17746.html",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "词典页补充画地为牢的旧职场用法，无可用精确活动时间。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-23-maofugui-gouburang",
+      "title": "🐱 猫富贵，狗不让",
+      "aliases": [
+        "猫富贵，狗不让",
+        "猫富贵狗不让"
+      ],
+      "canonical_phrase": "猫富贵，狗不让",
+      "platform": [
+        "bilibili"
+      ],
+      "type": "二创梗",
+      "summary": "仿“苟富贵，毋相忘”的宠物谐音句，可用于配音、歌词、评论接龙。",
+      "origin": "已验证：11-23 与 11-22 B 站归档记录当前用法，公开视频提供使用场景，旧版公开视频证明这一表达曾被复用；本站首次可见。",
+      "usage": "用于宠物配音、歌词改写和评论区接龙，也可把猫狗互动剪成一方富贵、另一方不许的拟人对话。",
+      "fun_point": "熟悉古语被替换成猫狗立场，正式祝愿突然变成宠物间的小心眼，谐音与拟人反差天然成立。",
+      "why_spread": "已验证：连续 B 站归档和新旧公开视频提供复用证据；推测：句式耳熟、宠物画面易得，适合配音和歌词二创。",
+      "lifecycle": "rising",
+      "brand_usage": "适合宠物日常和拟人配音内容，用猫狗对话做简短剧情并邀请用户接续自己的宠物版本。",
+      "risk": {
+        "level": "low",
+        "note": "仅作宠物拟人与谐音调侃，不用于影射现实个人或群体。"
+      },
+      "days_on_list": 1,
+      "score": 90,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 30,
+        "reusability": 19,
+        "evidence": 9
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "bilibili",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-23.md",
+          "observed_at": "2026-11-23T05:51:01+08:00",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "11-23 B 站归档 05:51:01 记录“猫富贵，狗不让”的当前热度。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "usage_context",
+          "platform": "bilibili",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-22.md",
+          "observed_at": "2026-11-22T23:23:41+08:00",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "11-22 B 站归档 23:23:41 提供该句的使用场景。"
+        },
+        {
+          "tier": "platform_public",
+          "evidence_role": "usage_context",
+          "platform": "bilibili",
+          "url": "https://b23.tv/BV1rhyszPE6p",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "当前公开视频提供该句的配音与评论使用语境，无可用活动时间。"
+        },
+        {
+          "tier": "platform_public",
+          "evidence_role": "cross_platform",
+          "platform": "bilibili",
+          "url": "https://www.bilibili.com/video/BV151421t7SM/",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "旧版公开视频证明该表达的既有复用，页面无可用活动时间。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-10-02-quanwang-jinru-bushaoxin-shidai",
+      "title": "🍵 全网进入不烧心时代",
+      "aliases": [
+        "全网进入不烧心时代",
+        "不烧心时代",
+        "进入不烧心时代"
+      ],
+      "canonical_phrase": "全网进入不烧心时代",
+      "platform": [
+        "bilibili"
+      ],
+      "type": "句式梗",
+      "summary": "把规矩清楚、省心少套路称作“不烧心”，可迁移到饮食、工作和消费体验。",
+      "origin": "已验证：11-23 B 站归档提供“不烧心”用法，11-22 归档记录相关热度；历史可见身份沿用 10-02 的 id 与 canonical。",
+      "usage": "用“不烧心”评价规矩清楚、省心少套路的体验，也可套成“X 进入不烧心时代”，用于饮食、工作和消费内容。",
+      "fun_point": "把省心说成一种时代集体升级，宏大的时代宣言落在日常小体验上，夸张又直接。",
+      "why_spread": "已验证：连续 B 站归档提供新活动与用法；推测：词义易懂，能承接多种省心体验，适合做标题和评价。",
+      "lifecycle": "rising",
+      "brand_usage": "适合流程清晰、低负担的生活内容，用“X 进入不烧心时代”概括省心体验，不承诺未核实的产品效果。",
+      "risk": {
+        "level": "low",
+        "note": "只作一般体验评价，不用于医疗功效暗示或拉踩具体品牌。"
+      },
+      "days_on_list": 35,
+      "score": 89,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 30,
+        "reusability": 20,
+        "evidence": 7
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "usage_context",
+          "platform": "bilibili",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-23.md",
+          "observed_at": "2026-11-23T05:51:01+08:00",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "11-23 B 站归档 05:51:01 提供“不烧心”的当前用法。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "bilibili",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-22.md",
+          "observed_at": "2026-11-22T23:23:41+08:00",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "11-22 B 站归档 23:23:41 记录该表达的相关热度。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-23-shiyizhici-xianchifan",
+      "title": "🍚 事已至此，先吃饭吧",
+      "aliases": [
+        "事已至此，先吃饭吧",
+        "事已至此先吃饭吧",
+        "事已至此，先 X 吧"
+      ],
+      "canonical_phrase": "事已至此，先吃饭吧",
+      "platform": [
+        "bilibili"
+      ],
+      "type": "口头禅梗",
+      "summary": "面对既成的小翻车先照顾日常，适合标题、弹幕和自嘲评论。",
+      "origin": "已验证：11-23 与 11-22 B 站归档记录该句的用法和热度，公开视频提供具体使用场景；历史候选今日首次可见。",
+      "usage": "在既成的小失误或轻微翻车后，用“事已至此，先吃饭吧”做视频标题、弹幕和自嘲评论，也可替换最后的日常动作。",
+      "fun_point": "前半句像要面对重大结局，后半句却回到吃饭这件小事，宏大收场与日常照顾形成松弛反差。",
+      "why_spread": "已验证：连续 B 站归档与公开视频提供当前活动；推测：原句简短、情绪通用，能自然承接多种小翻车。",
+      "lifecycle": "rising",
+      "brand_usage": "适合美食、日常和轻微翻车内容，用原句承接剧情转折，也可邀请用户填写自己先做的日常小事。",
+      "risk": {
+        "level": "low",
+        "note": "只用于轻微日常窘境，不用吃饭淡化真实事故或需要求助的情况。"
+      },
+      "days_on_list": 1,
+      "score": 89,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 30,
+        "reusability": 19,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "usage_context",
+          "platform": "bilibili",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-23.md",
+          "observed_at": "2026-11-23T05:51:01+08:00",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "11-23 B 站归档 05:51:01 提供该句的当前用法。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "bilibili",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-22.md",
+          "observed_at": "2026-11-22T23:23:41+08:00",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "11-22 B 站归档 23:23:41 记录该句的相关热度。"
+        },
+        {
+          "tier": "platform_public",
+          "evidence_role": "usage_context",
+          "platform": "bilibili",
+          "url": "https://b23.tv/BV1tysi6LET8",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "公开视频提供“事已至此，先吃饭吧”的使用场景，无可用活动时间。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-23-cuipi-nienie",
+      "title": "🧸 脆皮捏捏",
+      "aliases": [
+        "脆皮捏捏",
+        "脆皮捏捏乐"
+      ],
+      "canonical_phrase": "脆皮捏捏",
+      "platform": [
+        "douyin",
+        "other"
+      ],
+      "type": "生活方式梗",
+      "summary": "蜡壳一捏即碎的解压玩具说法，已延伸到定制、DIY 和办公室比赛。",
+      "origin": "已验证：今日快手归档记录相关热度，11-22 抖音归档提供定制和 DIY 用法，公开内容页补充背景；本站首次可见。",
+      "usage": "用于分享蜡壳捏碎瞬间、定制款式和 DIY 过程，也可发起办公室捏捏比赛的轻松互动。",
+      "fun_point": "“脆皮”强调一捏即碎的手感，“捏捏”保留孩子气的动作感，声音和画面都直指解压反馈。",
+      "why_spread": "已验证：快手与抖音归档提供当前活动及不同场景；推测：制作和捏碎过程直观，适合短视频展示与比赛模仿。",
+      "lifecycle": "rising",
+      "brand_usage": "适合手工、办公日常和解压内容，用定制、DIY 或捏碎合集组织短视频并发起自愿参与的小比赛。",
+      "risk": {
+        "level": "low",
+        "note": "DIY 内容需说明材料与操作安全，不鼓励食用或让儿童接触不适合的材料。"
+      },
+      "days_on_list": 1,
+      "score": 88,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 30,
+        "reusability": 18,
+        "evidence": 9
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "other",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/kuaishou/2026-11-23.md",
+          "observed_at": "2026-11-23T05:51:03+08:00",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "今日快手归档 05:51:03 记录“脆皮捏捏”的相关热度。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "usage_context",
+          "platform": "douyin",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/douyin/2026-11-22.md",
+          "observed_at": "2026-11-22T23:23:42+08:00",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "11-22 抖音归档 23:23:42 提供定制、DIY 和比赛用法。"
+        },
+        {
+          "tier": "platform_public",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://m.toutiao.com/w/1882451725276362/",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "公开内容页补充脆皮捏捏的使用背景，仅有日级时间，不填精确 observed_at。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-22-xie-xiu-yingyu",
+      "title": "📚 邪修英语",
+      "aliases": [
+        "邪修英语",
+        "谐音邪修英语"
+      ],
+      "canonical_phrase": "邪修英语",
+      "platform": [
+        "bilibili"
+      ],
+      "type": "二创梗",
+      "summary": "用谐音、影视联想等非常规记词的二创标签，不等同于系统学习建议。",
+      "origin": "已验证：11-23 B 站归档记录当前热度，11-22 归档与公开视频提供用法；历史可见身份沿用 11-22 的 id 与 canonical。",
+      "usage": "用“邪修英语”命名谐音记词、影视片段联想和其他非常规记忆方法，也可在评论区晒出自己的另类记词法。",
+      "fun_point": "把英语学习包装成不走寻常路的修炼法门，正经知识配上夸张修行感，记忆方法因此更有戏剧性。",
+      "why_spread": "已验证：连续 B 站归档和公开视频提供当前活动与用法；推测：学习场景普遍，谐音和影视联想便于持续二创。",
+      "lifecycle": "rising",
+      "brand_usage": "适合语言学习和知识类内容，用“邪修英语”串联谐音记词或影视联想，并邀请用户分享自己的记词方法。",
+      "risk": {
+        "level": "low",
+        "note": "只作学习方法调侃，不宣称非常规方法能替代系统学习或保证效果。"
+      },
+      "days_on_list": 2,
+      "score": 88,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 30,
+        "reusability": 18,
+        "evidence": 9
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "bilibili",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-23.md",
+          "observed_at": "2026-11-23T05:51:01+08:00",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "11-23 B 站归档 05:51:01 记录“邪修英语”的当前热度。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "usage_context",
+          "platform": "bilibili",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-22.md",
+          "observed_at": "2026-11-22T23:23:41+08:00",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "11-22 B 站归档 23:23:41 提供该表达的记词用法。"
+        },
+        {
+          "tier": "platform_public",
+          "evidence_role": "usage_context",
+          "platform": "bilibili",
+          "url": "https://b23.tv/BV1NSsm6rEgE",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "公开视频提供“邪修英语”的使用语境，页面无可用活动时间。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-21-x-tianxia-di-yi-hao",
+      "title": "🤝 X 天下第一好",
+      "aliases": [
+        "X 天下第一好",
+        "我们天下第一好",
+        "不要再天下第一好"
+      ],
+      "canonical_phrase": "X 天下第一好",
+      "platform": [
+        "bilibili",
+        "other"
+      ],
+      "type": "句式梗",
+      "summary": "夸群体、搭档或内容分区，也可反套“不要再天下第一好”。",
+      "origin": "已验证：11-22 B 站归档记录相关热度，公开聚合页补充用法，公开视频提供“我们天下第一好”场景；历史可见身份沿用 11-21 的 id 与 canonical。",
+      "usage": "把 X 换成某个群体、内容分区、搭档或关系，用“X 天下第一好”做标题和评论区赞美，也可反套“不要再天下第一好”。",
+      "fun_point": "孩子气的绝对化排名把喜欢说得直白又夸张，既能认真示好，也能用于群体间的轻松抱团和反转。",
+      "why_spread": "已验证：B 站归档、聚合页与公开视频提供活动及用法；推测：槽位简单、情绪直接，正套反套都便于改写。",
+      "lifecycle": "rising",
+      "brand_usage": "适合社群互动、兴趣内容和关系主题，用“X 天下第一好”发起提名或收集用户的喜爱宣言。",
+      "risk": {
+        "level": "low",
+        "note": "只作轻松赞美与反套，不用于拉踩其他群体或制造对立。"
+      },
+      "days_on_list": 3,
+      "score": 87,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 30,
+        "reusability": 18,
+        "evidence": 9
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "popularity",
+          "platform": "bilibili",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/master/archives/bilibili/2026-11-22.md",
+          "observed_at": "2026-11-22T23:23:41+08:00",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "11-22 B 站归档 23:23:41 记录“X 天下第一好”的相关热度。"
+        },
+        {
+          "tier": "aggregator",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://hot.migei.com/",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "公开聚合页补充该句式的使用语境，未显示统一活动时间。"
+        },
+        {
+          "tier": "platform_public",
+          "evidence_role": "usage_context",
+          "platform": "bilibili",
+          "url": "https://b23.tv/BV1vEsa62EBy",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "公开视频提供“我们天下第一好”的使用场景，无可用活动时间。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-23-wowangzhe-ni-buzhale",
+      "title": "💥 我往这你不炸了吗",
+      "aliases": [
+        "我往这你不炸了吗",
+        "我往这，你不炸了吗"
+      ],
+      "canonical_phrase": "我往这你不炸了吗",
+      "platform": [
+        "other"
+      ],
+      "type": "口头禅梗",
+      "summary": "用走位预判式对话表示“我已看穿你下一步”，“炸”指破防。",
+      "origin": "已验证：词典页于 11-22 21:39:23 记录该句的含义与用法，公开媒体索引提供早期使用反馈；本站首次可见。",
+      "usage": "在虚构游戏、走位预判或朋友斗口中，用“我往这你不炸了吗”表示已经看穿对方下一步，也可接对方破防反应。",
+      "fun_point": "说话者提前站到对方下一步的位置上宣判结果，笃定语气与尚未发生的局面形成夸张反差。",
+      "why_spread": "已验证：词典详情与公开媒体索引提供新旧使用语境；推测：短句自带对话和反转，适合游戏配音及评论接龙。",
+      "lifecycle": "rising",
+      "brand_usage": "适合虚构游戏和轻斗口内容，用预判式一问做剧情卡点并邀请用户续写对方反应，不用于现实挑衅。",
+      "risk": {
+        "level": "low",
+        "note": "“炸”仅指虚构语境中的破防，不用于真实威胁、辱骂或危险行为。"
+      },
+      "days_on_list": 1,
+      "score": 87,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 30,
+        "reusability": 19,
+        "evidence": 8
+      },
+      "sources": [
+        {
+          "tier": "aggregator",
+          "evidence_role": "usage_context",
+          "platform": "other",
+          "url": "https://www.dancihu.com/liuxingyu/w17807.html",
+          "observed_at": "2026-11-22T21:39:23+08:00",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "词典页 21:39:23 提供该句的含义和使用方式。"
+        },
+        {
+          "tier": "search_media",
+          "evidence_role": "cross_platform",
+          "platform": "other",
+          "url": "https://www.sina.cn/news/detail/5364920150919384.html",
+          "captured_at": "2026-11-23T07:10:00+08:00",
+          "note": "公开媒体索引提供该句的早期使用反馈，仅有日级时间，不填精确 observed_at。"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
