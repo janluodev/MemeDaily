@@ -1,0 +1,1231 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T06:58:58+08:00",
+  "published_at": "2026-11-24T06:58:58+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 49,
+    "published": 10,
+    "dropped_safety": {
+      "politics": 1,
+      "geopolitics": 1,
+      "propaganda": 1,
+      "public_safety": 1,
+      "controversy": 1
+    },
+    "dropped_low_confidence": 27,
+    "dropped_quota": 0,
+    "dropped_capacity": 6,
+    "sources": [
+      "official",
+      "state_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 44,
+      "official_sources": 6,
+      "state_media_sources": 8,
+      "major_media_sources": 0,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 1
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 16,
+        "relaxed_48h": 32,
+        "relaxed_72h": 35
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 49,
+          "cumulative_unique_candidates": 49,
+          "source_scope": [
+            "国家部委与地方政府官网",
+            "新华社、央视、中国日报等中央媒体",
+            "主流财经与都市媒体",
+            "地方党报与广电",
+            "公共交通运营机构",
+            "公开搜索与聚合页线索反查"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-24-shanghai-metro-fares",
+          "story_identity": "shanghai-metro-fares",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T18:51:29+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-24-shanghai-metro-fares",
+          "score": 98,
+          "score_breakdown": {
+            "heat": 38,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-24-elderly-childcare-service-plan",
+          "story_identity": "elderly-childcare-service-plan",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T10:57:33+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-24-elderly-childcare-service-plan",
+          "score": 95,
+          "score_breakdown": {
+            "heat": 35,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-24-social-insurance-fund-supervision",
+          "story_identity": "social-insurance-fund-supervision",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T19:28:44+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-24-social-insurance-fund-supervision",
+          "score": 94,
+          "score_breakdown": {
+            "heat": 35,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-24-miit-app-sdk-violations",
+          "story_identity": "miit-app-sdk-violations",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T09:10:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-24-miit-app-sdk-violations",
+          "score": 93,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-24-infant-food-license-rules",
+          "story_identity": "infant-food-license-rules",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T19:33:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-24-infant-food-license-rules",
+          "score": 92,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-24-highway-weather-snow-rain-fog",
+          "story_identity": "highway-weather-snow-rain-fog",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T20:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-24-highway-weather-snow-rain-fog",
+          "score": 91,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-24-friendly-maternity-child-hospitals",
+          "story_identity": "friendly-maternity-child-hospitals",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T14:38:55+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-24-friendly-maternity-child-hospitals",
+          "score": 89,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-24-funeral-cemetery-rules",
+          "story_identity": "funeral-cemetery-rules",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T16:53:57+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-24-funeral-cemetery-rules",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-24-sixth-children-medicine-list",
+          "story_identity": "sixth-children-medicine-list",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T16:35:11+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-24-sixth-children-medicine-list",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-24-student-aid-fraud-warning",
+          "story_identity": "student-aid-fraud-warning",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T17:11:23+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "selected",
+          "item_id": "2026-11-24-student-aid-fraud-warning",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-24-textbook-regulation-consultation",
+          "story_identity": "textbook-regulation-consultation",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T15:12:08+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_capacity",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，按总分排序超出10条容量上限"
+        },
+        {
+          "candidate_key": "2026-11-24-anhui-four-apps-removed",
+          "story_identity": "anhui-four-apps-removed",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T18:01:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，按总分排序超出10条容量上限"
+        },
+        {
+          "candidate_key": "2026-11-24-twenty-two-new-food-ingredients",
+          "story_identity": "twenty-two-new-food-ingredients",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T11:01:55+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_capacity",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，按总分排序超出10条容量上限"
+        },
+        {
+          "candidate_key": "2026-11-24-humen-train-suspension",
+          "story_identity": "humen-train-suspension",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T12:52:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_capacity",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，按总分排序超出10条容量上限"
+        },
+        {
+          "candidate_key": "2026-11-24-sui-xiaoyi-reports-3y",
+          "story_identity": "sui-xiaoyi-reports-3y",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T19:16:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_capacity",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，按总分排序超出10条容量上限"
+        },
+        {
+          "candidate_key": "2026-11-24-cfa-red-plan",
+          "story_identity": "cfa-red-plan",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T15:00:35+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_capacity",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 15,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格，按总分排序超出10条容量上限"
+        },
+        {
+          "candidate_key": "2026-11-24-national-civil-service-admit-card",
+          "story_identity": "national-civil-service-admit-card",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 16,
+            "everyday_relevance": 21,
+            "evidence": 15
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-24-guangzhou-ebike-rules-renewed",
+          "story_identity": "guangzhou-ebike-rules-renewed",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 18,
+            "everyday_relevance": 22,
+            "evidence": 15
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-24-data-vocational-talent-plan",
+          "story_identity": "data-vocational-talent-plan",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 18,
+            "everyday_relevance": 18,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-24-ford-f150-recall",
+          "story_identity": "ford-f150-recall",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 18,
+            "everyday_relevance": 20,
+            "evidence": 15
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-24-national-livestream-job-week",
+          "story_identity": "national-livestream-job-week",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 18,
+            "everyday_relevance": 21,
+            "evidence": 15
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-24-guangzhou-helong-exit",
+          "story_identity": "guangzhou-helong-exit",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T20:06:09+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-24-shijiazhuang-line1-timetable",
+          "story_identity": "shijiazhuang-line1-timetable",
+          "research_pass": 1,
+          "occurred_at": "2026-11-22T21:16:36+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 67,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 16,
+            "everyday_relevance": 20,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_72h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-24-changzhutan-train-adjustments",
+          "story_identity": "changzhutan-train-adjustments",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T09:42:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-24-fuzhou-feeder-bus11",
+          "story_identity": "fuzhou-feeder-bus11",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T19:33:29+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-24-guangzhou-bus-stop-adjustments",
+          "story_identity": "guangzhou-bus-stop-adjustments",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T10:43:56+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 15
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-24-yuzhu-changzhou-ferry-end",
+          "story_identity": "yuzhu-changzhou-ferry-end",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T15:47:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-24-guangdong-dual-channel-714",
+          "story_identity": "guangdong-dual-channel-714",
+          "research_pass": 1,
+          "occurred_at": "2026-11-21T22:39:36+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 65,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 10,
+            "everyday_relevance": 21,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_72h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-24-gaoyou-newborn-insurance",
+          "story_identity": "gaoyou-newborn-insurance",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 17,
+            "freshness": 18,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-24-hlj-jobfair-8060",
+          "story_identity": "hlj-jobfair-8060",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T08:23:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-24-delayed-school-sleep",
+          "story_identity": "delayed-school-sleep",
+          "research_pass": 1,
+          "occurred_at": "2026-11-22T18:23:12+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 16,
+            "everyday_relevance": 22,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-24-nano-sponge-warning",
+          "story_identity": "nano-sponge-warning",
+          "research_pass": 1,
+          "occurred_at": "2026-11-22T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 14,
+            "everyday_relevance": 25,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_72h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-24-ich-training-2026-2030",
+          "story_identity": "ich-training-2026-2030",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T19:06:28+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-24-xuhui-symphony-classroom",
+          "story_identity": "xuhui-symphony-classroom",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T21:59:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件在真实评估时钟下仅达relaxed_48h，不跨层入选"
+        },
+        {
+          "candidate_key": "2026-11-24-medical-payment-standard-signal",
+          "story_identity": "medical-payment-standard-signal",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 63,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 0,
+            "everyday_relevance": 23,
+            "evidence": 12
+          },
+          "drop_reason": "政策信号此前已披露，23日为分析文章，无实质新进展"
+        },
+        {
+          "candidate_key": "2026-11-24-elderly-cosmetics-guide",
+          "story_identity": "elderly-cosmetics-guide",
+          "research_pass": 1,
+          "occurred_at": "2026-11-18T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 57,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 0,
+            "everyday_relevance": 23,
+            "evidence": 10
+          },
+          "drop_reason": "指南为11月18日旧内容，超过72小时且非本期新事件"
+        },
+        {
+          "candidate_key": "2026-11-24-prepaid-card-refund",
+          "story_identity": "prepaid-card-refund",
+          "research_pass": 1,
+          "occurred_at": "2026-11-24T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 10
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "事件确切时间未核清，且仅有单一主流媒体报道"
+        },
+        {
+          "candidate_key": "2026-11-24-food-43-batches",
+          "story_identity": "food-43-batches",
+          "research_pass": 1,
+          "occurred_at": "2026-03-16T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 0,
+            "everyday_relevance": 22,
+            "evidence": 15
+          },
+          "drop_reason": "官方原通报为3月，旧闻再传播，非本期新事件"
+        },
+        {
+          "candidate_key": "2026-11-24-teacher-recruitment-age",
+          "story_identity": "teacher-recruitment-age",
+          "research_pass": 1,
+          "occurred_at": "2026-04-10T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 0,
+            "everyday_relevance": 21,
+            "evidence": 15
+          },
+          "drop_reason": "教师招聘年龄政策为4月旧闻，非11月新政策"
+        },
+        {
+          "candidate_key": "2026-11-24-12306-notifications",
+          "story_identity": "12306-notifications",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 65,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 4,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "drop_reason": "服务于11月20日已升级，23日报道为功能复盘，非本期新事件"
+        },
+        {
+          "candidate_key": "2026-11-24-car-t-medical-insurance",
+          "story_identity": "car-t-medical-insurance",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 0,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "drop_reason": "医保目录11月14日已公布，23日价格机制解释不作为新事件"
+        },
+        {
+          "candidate_key": "2026-11-24-road-information-standards",
+          "story_identity": "road-information-standards",
+          "research_pass": 1,
+          "occurred_at": "2026-11-11T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 52,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 0,
+            "everyday_relevance": 18,
+            "evidence": 15
+          },
+          "drop_reason": "标准此前已公开，23日页面为再解读，非本期新事件"
+        },
+        {
+          "candidate_key": "2026-11-24-mosquito-heat-resistance",
+          "story_identity": "mosquito-heat-resistance",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 54,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 4,
+            "everyday_relevance": 16,
+            "evidence": 14
+          },
+          "drop_reason": "成果11月20日已发表，23日为科普转载，非本期新事件"
+        },
+        {
+          "candidate_key": "2026-11-24-explainer-video-ad-labels",
+          "story_identity": "explainer-video-ad-labels",
+          "research_pass": 1,
+          "occurred_at": "2026-11-24T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "仅有单一主流媒体报道，缺少独立证据交叉核验"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "public_safety"
+        },
+        {
+          "candidate_key": "candidate-5",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-24-shanghai-metro-fares",
+      "story_identity": "shanghai-metro-fares",
+      "headline": "🚇上海地铁新票价12月1日实施",
+      "summary": "上海市发展改革委23日公布轨道交通票价机制优化方案，新票价12月1日起实施。3元起乘价不变，继续递远递减，并新增计次票；自然月内累计乘车满90元后，后续乘车可享9折。通勤乘客可关注购票方式和累计规则变化。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 98,
+      "score_breakdown": {
+        "heat": 38,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 15
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-23T18:51:29+08:00",
+      "risk": {
+        "level": "low",
+        "note": "票价机制具体票种、累计规则和换乘安排以上海地铁正式公告及站内提示为准。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "上海市发展改革委",
+          "url": "https://fgw.sh.gov.cn/fgw_jjjctk/20261123/f57b63885c514c829ee269ed589ab2b9.html",
+          "title": "关于优化上海市轨道交通票价机制的复函",
+          "captured_at": "2026-11-24T06:47:47+08:00",
+          "note": "支持轨道交通票价机制优化及12月1日实施安排，页面发布于2026-11-23。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/20261123/a4ce9cbab7054903926812ab28ab3f0f/c.html",
+          "title": "上海地铁调价：起乘价不变、票价“递远递减”",
+          "captured_at": "2026-11-24T06:47:47+08:00",
+          "note": "复核3元起乘价不变、新增计次票及月满90元后9折，发布于2026-11-23 18:51:29。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-24-elderly-childcare-service-plan",
+      "story_identity": "elderly-childcare-service-plan",
+      "headline": "👵“一老一小”服务体系建设方案发布",
+      "summary": "国家发展改革委等四部门印发“一老一小”服务体系建设实施方案，围绕养老和托育补强服务设施。方案明确护理型床位、社区养老服务设施和入托率等目标，推动服务向社区和家庭延伸。相关建设将分阶段推进，具体落地安排仍以各地后续实施为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 95,
+      "score_breakdown": {
+        "heat": 35,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 15
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-23T10:57:33+08:00",
+      "risk": {
+        "level": "low",
+        "note": "方案目标和地方建设进度不同，具体服务项目及开放时间以各地实施安排为准。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家发改委等四部门",
+          "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7087024.htm",
+          "title": "关于印发《“一老一小”服务体系建设实施方案》的通知",
+          "captured_at": "2026-11-24T06:47:47+08:00",
+          "note": "支持方案印发及护理型床位、社区养老设施和入托率目标，文件于2026-11-23公开。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.gov.cn/lianbo/202611/content_7087028.htm",
+          "title": "《“一老一小”服务体系建设实施方案》发布",
+          "captured_at": "2026-11-24T06:47:47+08:00",
+          "note": "复核服务体系建设方向和主要目标，新华原稿发布于2026-11-23 10:57:33。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-24-social-insurance-fund-supervision",
+      "story_identity": "social-insurance-fund-supervision",
+      "headline": "🛡️社保基金监督条例公开征求意见",
+      "summary": "社保基金监督条例23日公开征求意见，监督范围覆盖养老、工伤、失业保险基金的支付、管理和投资运营。新规意在完善基金安全监管和责任约束，守护参保人的“养老钱”“保命钱”。目前仍处征求意见阶段，不能表述为正式施行。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 94,
+      "score_breakdown": {
+        "heat": 35,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 15
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-23T19:28:44+08:00",
+      "risk": {
+        "level": "low",
+        "note": "条例仍在征求意见，具体监督规则和实施日期以正式发布文本为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/20261123/761e3caababa4ef59282f8f10100a832/c.html",
+          "title": "守护“养老钱”“保命钱” 社保基金新规征求意见",
+          "captured_at": "2026-11-24T06:47:47+08:00",
+          "note": "支持条例公开征求意见及养老、工伤、失业保险基金监督范围，发布于2026-11-23 19:28:44。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-24-miit-app-sdk-violations",
+      "story_identity": "miit-app-sdk-violations",
+      "headline": "📱23款APP及SDK被工信部通报",
+      "summary": "工业和信息化部23日通报2026年第7批、总第60批侵害用户权益行为的APP及SDK，共23款。问题包括窗口乱跳转、无法关闭，以及超范围收集、违规使用个人信息等。通报要求相关主体按要求整改，用户可关注应用权限和后续整改情况。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 93,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 15
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-23T09:10:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "具体涉事应用、SDK及整改要求以工信部通报附件为准，用户应从官方渠道下载应用。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "工业和信息化部",
+          "url": "https://www.miit.gov.cn/jgsj/xgj/gzdt/art/2026/art_edc05e2fd1b6436dbe8d893b128cc211.html",
+          "title": "关于侵害用户权益行为的APP（SDK）通报（2026年第7批，总第60批）",
+          "captured_at": "2026-11-24T06:47:47+08:00",
+          "note": "支持23款APP及SDK被通报及窗口乱跳转、无法关闭、个人信息权益问题，发布于2026-11-23 09:10。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-24-infant-food-license-rules",
+      "story_identity": "infant-food-license-rules",
+      "headline": "🍼婴幼儿辅食生产许可新规发布",
+      "summary": "市场监管总局发布《婴幼儿辅助食品生产许可审查细则（2026版）》，进一步严格原料和生产过程要求。细则明确不得使用蜂蜜、香辛料、氢化油脂等，并要求逐批开展全项目自行检验。新规关系婴幼儿辅食安全，生产企业应按许可审查要求落实，家长选购时仍可核对产品信息。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 92,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 15
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-23T19:33:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "生产许可审查要求以细则正式文本为准，婴幼儿饮食安排可咨询专业医务人员。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "市场监管总局",
+          "url": "https://www.samr.gov.cn/xw/sj/art/2026/art_a860940666ca4e048c3fba57c717d7c0.html",
+          "title": "市场监管总局发布《婴幼儿辅助食品生产许可审查细则（2026版）》",
+          "captured_at": "2026-11-24T06:47:47+08:00",
+          "note": "支持细则发布、原料禁用要求及逐批全项目自检，检索元数据时间为2026-11-23 19:33。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/fortune/20261123/0df1523ea7094d288a2ef72543697e3a/c.html",
+          "title": "《婴幼儿辅助食品生产许可审查细则（2026版）》发布",
+          "captured_at": "2026-11-24T06:47:47+08:00",
+          "note": "交叉复核婴幼儿辅助食品生产许可审查要求，发布于2026-11-23 21:34:55。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-24-highway-weather-snow-rain-fog",
+      "story_identity": "highway-weather-snow-rain-fog",
+      "headline": "🌨️雨雪雾影响多条公路，出行需留意",
+      "summary": "中央气象台、交通运输部23日20时联合发布全国主要公路气象预报，提示雨雪雾对部分路段通行的影响。川藏地区有降雪，云南局地有暴雨，多省部分路段有雾，预报列出了具体受影响道路。驾驶人出行前应核对沿线最新天气和路况，谨慎控制车速。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 91,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 15
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-11-23T20:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "天气和道路通行状况可能变化，实际影响以最新气象预报及交通管理部门提示为准。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "中央气象台",
+          "url": "https://www.nmc.cn/f/p-423",
+          "title": "全国主要公路气象预报",
+          "captured_at": "2026-11-24T06:47:47+08:00",
+          "note": "支持川藏降雪、云南局地暴雨、多省有雾及具体受影响路段，2026-11-23 20:00联合发布。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-24-friendly-maternity-child-hospitals",
+      "story_identity": "friendly-maternity-child-hospitals",
+      "headline": "🏥孕产妇儿童就医将更便利",
+      "summary": "“双友好医院”建设相关安排23日披露，孕产妇和儿童就医服务将进一步优化。措施包括增加产科单人间、双人间，推广儿童一站式门诊，并推进检查检验结果互认，减少重复排队和检查。具体服务项目和开放时间以各医院实际安排为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 89,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 15
+      },
+      "heat_rank": 7,
+      "occurred_at": "2026-11-23T14:38:55+08:00",
+      "risk": {
+        "level": "low",
+        "note": "各医院建设进度和服务范围不同，就诊安排及结果互认项目以院方公告为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.gov.cn/lianbo/202611/content_7087033.htm",
+          "title": "“双友好医院”建设提速 孕产妇儿童就医更便利",
+          "captured_at": "2026-11-24T06:47:47+08:00",
+          "note": "支持增加产科单双人间、儿童一站式门诊和结果互认，新华原稿发布于2026-11-23 14:38:55。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-24-funeral-cemetery-rules",
+      "story_identity": "funeral-cemetery-rules",
+      "headline": "⚖️殡仪馆和公墓管理新规出台",
+      "summary": "殡葬领域两部新规23日出台，分别规范殡仪馆和公墓管理。新规要求加强收费公示，公墓不得擅自设立收费项目或提高收费标准，进一步约束服务收费行为。公众办理相关业务时可核对公示项目和价格，具体执行细则以民政部门后续安排为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 88,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 20,
+        "everyday_relevance": 22,
+        "evidence": 15
+      },
+      "heat_rank": 8,
+      "occurred_at": "2026-11-23T16:53:57+08:00",
+      "risk": {
+        "level": "low",
+        "note": "收费项目、公示要求和实施安排以正式新规及当地民政部门解释为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/politics/20261123/3805dbf213fc41cbb99497e215d180cf/c.html",
+          "title": "事关殡仪馆和公墓管理 殡葬领域两部新规出台",
+          "captured_at": "2026-11-24T06:47:47+08:00",
+          "note": "支持两部新规出台、收费公示及公墓不得擅设项目或提价，发布于2026-11-23 16:53:57。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-24-sixth-children-medicine-list",
+      "story_identity": "sixth-children-medicine-list",
+      "headline": "💊第六批鼓励研发儿童药品清单公布",
+      "summary": "国家卫健委23日公布第六批鼓励研发申报儿童药品清单，共18个品种，涉及27个规格、8种剂型。清单关注低龄儿童适宜剂型和临床用药需求，引导企业开展相关药品研发申报。清单属于研发鼓励方向，不代表所列新药已经全部上市。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 86,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 20,
+        "everyday_relevance": 22,
+        "evidence": 15
+      },
+      "heat_rank": 9,
+      "occurred_at": "2026-11-23T16:35:11+08:00",
+      "risk": {
+        "level": "low",
+        "note": "清单用于鼓励研发申报，药品上市进度和临床使用应以审批信息及医嘱为准。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家卫健委",
+          "url": "https://www.gov.cn/zhengce/202611/content_7087064.htm",
+          "title": "《关于印发第六批鼓励研发申报儿童药品清单的通知》政策解读",
+          "captured_at": "2026-11-24T06:47:47+08:00",
+          "note": "支持清单的研发申报导向和低龄儿童适宜剂型关注点，政策解读发布于2026-11-23。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/20261123/548304cfdac74311a550e75e7c879bc2/c.html",
+          "title": "第六批鼓励研发申报儿童药品清单公布 共18个品种",
+          "captured_at": "2026-11-24T06:47:47+08:00",
+          "note": "复核18个品种、27个规格和8种剂型，发布于2026-11-23 16:35:11。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-24-student-aid-fraud-warning",
+      "story_identity": "student-aid-fraud-warning",
+      "headline": "🎓全国学生资助管理中心提醒谨防资助诈骗",
+      "summary": "全国学生资助管理中心23日发布提醒，学生和家长需谨防五类资助诈骗。正规学生资助不会收取费用，凡要求共享屏幕、向私人账户转账或提供敏感信息的，都应提高警惕并通过官方渠道核实，避免泄露个人身份和银行卡信息。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "教育考试",
+      "score": 86,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 14
+      },
+      "heat_rank": 10,
+      "occurred_at": "2026-11-23T17:11:23+08:00",
+      "risk": {
+        "level": "low",
+        "note": "资助政策和办理进度应通过学校及全国学生资助管理中心等官方渠道核实。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.news.cn/20261123/3fe987df3d984714aa314d269550b8fd/c.html",
+          "title": "全国学生资助管理中心提醒：谨防资助类诈骗",
+          "captured_at": "2026-11-24T06:47:47+08:00",
+          "note": "支持五类资助诈骗提醒及正规资助不收费、不共享屏幕、不转私人账户，发布于2026-11-23 17:11:23。"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
