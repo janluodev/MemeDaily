@@ -1,0 +1,728 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T06:36:30+08:00",
+  "published_at": "2026-11-26T06:36:30+08:00",
+  "status": "partial",
+  "run_report": {
+    "candidates_scanned": 30,
+    "published": 5,
+    "dropped_safety": {
+      "politics": 2,
+      "propaganda": 1,
+      "controversy": 1
+    },
+    "dropped_low_confidence": 20,
+    "dropped_capacity": 0,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 7,
+      "official_sources": 1,
+      "state_media_sources": 5,
+      "major_media_sources": 3,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 1
+    },
+    "selection": {
+      "tier": "relaxed_48h",
+      "qualified": {
+        "strict_24h": 2,
+        "relaxed_48h": 5,
+        "relaxed_72h": 5
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 30,
+          "cumulative_unique_candidates": 30,
+          "source_scope": [
+            "新华社、央视网、中国新闻网等中央媒体及其地方频道",
+            "中国天气网（中国气象局）等官方机构网站",
+            "大众新闻、观察者网等主流都市与财经媒体",
+            "部委官网、地方政务、财新、人民网等公开检索快照"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-26-shenzhou-24-launch",
+          "story_identity": "shenzhou-24-launch-tiangong-first-foreign-astronaut",
+          "research_pass": 1,
+          "occurred_at": "2026-11-25T08:18:00+08:00",
+          "scope": "domestic",
+          "topic": "太空航天",
+          "outcome": "selected",
+          "item_id": "2026-11-26-shenzhou-24-launch",
+          "score": 89,
+          "score_breakdown": {
+            "heat": 38,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-26-hohhot-shengle-airport",
+          "story_identity": "hohhot-shengle-airport-opens-baita-closes-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-26-hohhot-shengle-airport",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-26-c919-jinan-debut",
+          "story_identity": "c919-first-jinan-commercial-flight-guangzhou-jinan",
+          "research_pass": 1,
+          "occurred_at": "2026-11-24T20:20:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-26-c919-jinan-debut",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 16,
+            "everyday_relevance": 16,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-11-26-cold-air-north-forecast",
+          "story_identity": "new-cold-air-north-china-nov26-28-forecast",
+          "research_pass": 1,
+          "occurred_at": "2026-11-25T09:13:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-11-26-cold-air-north-forecast",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-11-26-jibin-hsr-trial-run",
+          "story_identity": "jibin-hsr-trial-run-nov25-year-end-opening",
+          "research_pass": 1,
+          "occurred_at": "2026-11-25T08:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-26-jibin-hsr-trial-run",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 19,
+            "everyday_relevance": 17,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h"
+        },
+        {
+          "candidate_key": "2026-11-26-zaozhuang-airport-first-flight",
+          "story_identity": "cn-zaozhuang-airport-first-flight",
+          "research_pass": 1,
+          "occurred_at": "2026-11-25T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 64,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 18,
+            "everyday_relevance": 16,
+            "evidence": 12
+          },
+          "drop_reason": "总分64低于65分合格线"
+        },
+        {
+          "candidate_key": "2026-11-26-womens-weiqi-hangzhou",
+          "story_identity": "cn-womens-weiqi-hangzhou",
+          "research_pass": 1,
+          "occurred_at": "2026-11-25T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 61,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 18,
+            "everyday_relevance": 15,
+            "evidence": 12
+          },
+          "drop_reason": "总分61低于65分合格线"
+        },
+        {
+          "candidate_key": "2026-11-26-xiamen-consumption-env",
+          "story_identity": "cn-xiamen-consumption-env",
+          "research_pass": 1,
+          "occurred_at": "2026-11-24T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 54,
+          "score_breakdown": {
+            "heat": 14,
+            "freshness": 15,
+            "everyday_relevance": 15,
+            "evidence": 10
+          },
+          "drop_reason": "总分54低于65分合格线"
+        },
+        {
+          "candidate_key": "2026-11-26-campus-recruiting-41",
+          "story_identity": "cn-campus-recruiting-41",
+          "research_pass": 1,
+          "occurred_at": "2026-11-25T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 54,
+          "score_breakdown": {
+            "heat": 13,
+            "freshness": 17,
+            "everyday_relevance": 15,
+            "evidence": 9
+          },
+          "drop_reason": "总分54低于65分合格线"
+        },
+        {
+          "candidate_key": "2026-11-26-harbin-100days-plan",
+          "story_identity": "cn-harbin-100days-plan",
+          "research_pass": 1,
+          "occurred_at": "2026-11-25T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 56,
+          "score_breakdown": {
+            "heat": 15,
+            "freshness": 16,
+            "everyday_relevance": 15,
+            "evidence": 10
+          },
+          "drop_reason": "总分56低于65分合格线"
+        },
+        {
+          "candidate_key": "2026-11-26-changde-autumn-break",
+          "story_identity": "cn-changde-autumn-break",
+          "research_pass": 1,
+          "occurred_at": "2026-11-25T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 53,
+          "score_breakdown": {
+            "heat": 14,
+            "freshness": 16,
+            "everyday_relevance": 15,
+            "evidence": 8
+          },
+          "drop_reason": "总分53低于65分合格线"
+        },
+        {
+          "candidate_key": "2026-11-26-sco-ice-hockey",
+          "story_identity": "cn-sco-ice-hockey",
+          "research_pass": 1,
+          "occurred_at": "2026-11-22T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 43,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 0,
+            "everyday_relevance": 15,
+            "evidence": 10
+          },
+          "drop_reason": "事件发生于2026-11-22，超过72小时窗口，不作为本期新事件"
+        },
+        {
+          "candidate_key": "2026-11-26-fuel-price-cut",
+          "story_identity": "cn-fuel-price-cut",
+          "research_pass": 1,
+          "occurred_at": "2026-11-12T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 0,
+            "everyday_relevance": 22,
+            "evidence": 14
+          },
+          "drop_reason": "事件发生于2026-11-12，超过72小时窗口，不作为本期新事件"
+        },
+        {
+          "candidate_key": "2026-11-26-medical-insurance-catalog",
+          "story_identity": "cn-medical-insurance-catalog",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 69,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 0,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "drop_reason": "事件发生于2026-11-14，超过72小时窗口，不作为本期新事件"
+        },
+        {
+          "candidate_key": "2026-11-26-innovative-drugs-access",
+          "story_identity": "cn-innovative-drugs-access",
+          "research_pass": 1,
+          "occurred_at": "2026-11-10T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 50,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 0,
+            "everyday_relevance": 18,
+            "evidence": 12
+          },
+          "drop_reason": "事件发生于2026-11-10，超过72小时窗口，不作为本期新事件"
+        },
+        {
+          "candidate_key": "2026-11-26-mohrss-job-fair-batch3",
+          "story_identity": "cn-mohrss-job-fair-batch3",
+          "research_pass": 1,
+          "occurred_at": "2026-11-11T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 45,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 0,
+            "everyday_relevance": 17,
+            "evidence": 12
+          },
+          "drop_reason": "事件发生于2026-11-11，超过72小时窗口，不作为本期新事件"
+        },
+        {
+          "candidate_key": "2026-11-26-postal-jan-oct-data",
+          "story_identity": "cn-postal-jan-oct-data",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 41,
+          "score_breakdown": {
+            "heat": 14,
+            "freshness": 0,
+            "everyday_relevance": 15,
+            "evidence": 12
+          },
+          "drop_reason": "事件发生于2026-11-20，超过72小时窗口，不作为本期新事件"
+        },
+        {
+          "candidate_key": "2026-11-26-hlj-ice-snow-100days",
+          "story_identity": "cn-hlj-ice-snow-100days",
+          "research_pass": 1,
+          "occurred_at": "2026-11-05T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 49,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 0,
+            "everyday_relevance": 17,
+            "evidence": 12
+          },
+          "drop_reason": "事件发生于2026-11-05，超过72小时窗口，不作为本期新事件"
+        },
+        {
+          "candidate_key": "2026-11-26-shandong-hrss-maintenance",
+          "story_identity": "cn-shandong-hrss-maintenance",
+          "research_pass": 1,
+          "occurred_at": "2026-11-20T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 44,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 0,
+            "everyday_relevance": 18,
+            "evidence": 10
+          },
+          "drop_reason": "事件发生于2026-11-20，超过72小时窗口，不作为本期新事件"
+        },
+        {
+          "candidate_key": "2026-11-26-basket-price-analysis",
+          "story_identity": "cn-basket-price-analysis",
+          "research_pass": 1,
+          "occurred_at": "2026-11-09T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 34,
+          "score_breakdown": {
+            "heat": 12,
+            "freshness": 0,
+            "everyday_relevance": 16,
+            "evidence": 6
+          },
+          "drop_reason": "事件发生于2026-11-09，超过72小时窗口，不作为本期新事件"
+        },
+        {
+          "candidate_key": "2026-11-26-caixin-professional-claimants",
+          "story_identity": "cn-caixin-professional-claimants",
+          "research_pass": 1,
+          "occurred_at": "2026-11-07T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 39,
+          "score_breakdown": {
+            "heat": 14,
+            "freshness": 0,
+            "everyday_relevance": 15,
+            "evidence": 10
+          },
+          "drop_reason": "事件发生于2026-11-07，超过72小时窗口，不作为本期新事件"
+        },
+        {
+          "candidate_key": "2026-11-26-kuche-quake",
+          "story_identity": "cn-kuche-quake",
+          "research_pass": 1,
+          "occurred_at": "2026-11-14T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 45,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 0,
+            "everyday_relevance": 15,
+            "evidence": 12
+          },
+          "drop_reason": "事件发生于2026-11-14，超过72小时窗口，不作为本期新事件"
+        },
+        {
+          "candidate_key": "2026-11-26-workers-football-cup",
+          "story_identity": "cn-workers-football-cup",
+          "research_pass": 1,
+          "occurred_at": "2026-11-19T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 35,
+          "score_breakdown": {
+            "heat": 12,
+            "freshness": 0,
+            "everyday_relevance": 15,
+            "evidence": 8
+          },
+          "drop_reason": "事件发生于2026-11-19，超过72小时窗口，不作为本期新事件"
+        },
+        {
+          "candidate_key": "2026-11-26-caixin-ai-compute",
+          "story_identity": "cn-caixin-ai-compute",
+          "research_pass": 1,
+          "occurred_at": "2026-11-17T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 39,
+          "score_breakdown": {
+            "heat": 14,
+            "freshness": 0,
+            "everyday_relevance": 15,
+            "evidence": 10
+          },
+          "drop_reason": "事件发生于2026-11-17，超过72小时窗口，不作为本期新事件"
+        },
+        {
+          "candidate_key": "2026-11-26-hongkou-job-services",
+          "story_identity": "cn-hongkou-job-services",
+          "research_pass": 1,
+          "occurred_at": "2026-11-23T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 34,
+          "score_breakdown": {
+            "heat": 10,
+            "freshness": 0,
+            "everyday_relevance": 15,
+            "evidence": 9
+          },
+          "drop_reason": "事件发生于2026-11-23，超过72小时窗口，不作为本期新事件"
+        },
+        {
+          "candidate_key": "2026-11-26-hongguo-time-management",
+          "story_identity": "cn-hongguo-time-management-2026-11-25",
+          "research_pass": 1,
+          "occurred_at": "2026-11-25T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "仅有快讯快照，页面未能打开验证"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-4",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-26-shenzhou-24-launch",
+      "story_identity": "shenzhou-24-launch-tiangong-first-foreign-astronaut",
+      "headline": "🚀神舟二十四号发射成功，“天宫”首迎外籍航天员",
+      "summary": "25日8时18分，神舟二十四号载人飞船点火发射并取得圆满成功，当晚与中国空间站完成对接。乘组进驻“天宫”，空间站首次迎来外籍航天员，巴基斯坦航天员将参与在轨工作，标志着中国载人航天国际合作迈出新一步。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "太空航天",
+      "score": 89,
+      "score_breakdown": {
+        "heat": 38,
+        "freshness": 20,
+        "everyday_relevance": 16,
+        "evidence": 15
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-25T08:18:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "任务后续进展、乘组名单及在轨活动安排以载人航天工程办公室和新华社等权威发布为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/20261125/db19efe20685461ba1f3f3314851a8a4/c.html",
+          "title": "神舟二十四号任务有哪些新看点",
+          "captured_at": "2026-11-26T06:25:04+08:00",
+          "note": "支持11月25日08:18发射、当晚对接及空间站首迎外籍航天员（巴基斯坦），电头为北京11月25日电。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/tech/20261126/ca4a54bf92854a09bfaf0ea065867900/c.html",
+          "title": "扬帆赴星河 同行聚“天宫”",
+          "captured_at": "2026-11-26T06:25:04+08:00",
+          "note": "交叉复核11月25日08:18点火发射及乘组进驻“天宫”安排，稿件发布于2026-11-26。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-26-hohhot-shengle-airport",
+      "story_identity": "hohhot-shengle-airport-opens-baita-closes-2026-11-26",
+      "headline": "✈️呼和浩特盛乐机场今晨启用，白塔机场谢幕",
+      "summary": "26日零时，呼和浩特盛乐国际机场正式转场启用，拥有68年历史的白塔机场同步谢幕。原有航线航班整体平移至新机场，旅客乘机请前往盛乐机场，并提前留意新机场交通接驳、值机柜台和出发到达安排，具体航班动态以航空公司通知为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 86,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 20,
+        "everyday_relevance": 20,
+        "evidence": 14
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-26T00:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "转场初期交通接驳、值机安排和航班时刻可能调整，出行前以机场和航空公司最新通知为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网内蒙古频道",
+          "url": "http://nmg.news.cn/20261119/dedba1cc07c64b819665b739f714bcb1/c.html",
+          "title": "呼和浩特盛乐国际机场即将转场投运",
+          "captured_at": "2026-11-26T06:25:04+08:00",
+          "note": "明确11月26日零时正式实施转场运营，发布于2026-11-19。"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "观察者网",
+          "url": "https://www.guancha.cn/ChengShi/2026_11_25_909925.shtml",
+          "title": "68岁白塔机场谢幕离场，呼和浩特盛乐新机场即将接棒启航",
+          "captured_at": "2026-11-26T06:25:04+08:00",
+          "note": "复核26日零时转场安排及白塔机场68年历史谢幕，发布于2026-11-25。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-26-c919-jinan-debut",
+      "story_identity": "c919-first-jinan-commercial-flight-guangzhou-jinan",
+      "headline": "🛫C919首飞济南商业航班，将每日执飞",
+      "summary": "24日20时20分，南航C919执飞的广州—济南航班首次降落济南，国产大飞机商业客运航线首次覆盖济南。该航线将转入常态化运营并每日执飞，济南及周边旅客可就近选乘国产大飞机出行，具体班期以售票信息为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 74,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 16,
+        "everyday_relevance": 16,
+        "evidence": 14
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-24T20:20:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "航班时刻、执飞机型和每日班期可能调整，购票出行以航空公司和售票平台信息为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://news.cctv.com/2026/11/25/ARTIozfMzhskNmyZprnyLXfz261125.shtml",
+          "title": "C919商业客运航班首次执飞济南",
+          "captured_at": "2026-11-26T06:25:04+08:00",
+          "note": "确认11月24日20:20南航C919广州—济南航班首落济南，发布于2026-11-25。"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "观察者网",
+          "url": "https://www.guancha.cn/ZhengZhi/2026_11_25_909950.shtml",
+          "title": "C919执飞航线上新",
+          "captured_at": "2026-11-26T06:25:04+08:00",
+          "note": "据中国民航网复核同一首航事实及转常态化运营安排，发布于2026-11-25。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-26-cold-air-north-forecast",
+      "story_identity": "new-cold-air-north-china-nov26-28-forecast",
+      "headline": "🌬️26日起新一股冷空气再袭北方，降温6–8℃",
+      "summary": "中央气象台25日预报，26日至28日新一股冷空气将影响北方，大部地区降温6至8℃，局地超过10℃。这与此前全国回暖预报属同一周期的新要素，回暖之后冷空气再度到访，北方公众请注意添衣保暖并关注最新预警。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 73,
+      "score_breakdown": {
+        "heat": 22,
+        "freshness": 19,
+        "everyday_relevance": 20,
+        "evidence": 12
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-25T09:13:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "降温幅度和影响范围可能调整，出行和健康防护以最新气象预警和当地提示为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-25/10737317.shtml",
+          "title": "11月26日开始又将有冷空气影响北方 全国降水总体较弱",
+          "captured_at": "2026-11-26T06:25:04+08:00",
+          "note": "支持26日至28日新一股冷空气影响北方、降温6至8℃局地10℃以上，发布于2026-11-25 09:13。"
+        },
+        {
+          "tier": "official",
+          "outlet": "中国天气网",
+          "url": "http://www.weather.com.cn/index/2026/11/4872453.shtml",
+          "title": "全国大部雨雪稀少迎回暖 最高气温20℃线将北抬至河北一带",
+          "captured_at": "2026-11-26T06:25:04+08:00",
+          "note": "中国气象局官方站点提供同一预报周期回暖背景，发布于2026-11-25 07:45。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-26-jibin-hsr-trial-run",
+      "story_identity": "jibin-hsr-trial-run-nov25-year-end-opening",
+      "headline": "🚄济滨高铁启动试运行，年底开通",
+      "summary": "25日上午，济滨高铁正式启动试运行，为年底开通奠定基础。线路全长约145公里，通车后济南至滨州将实现半小时通达，滨州主城区首次接入高铁网，沿线居民出行将更加便捷，具体开通时间和车次安排以铁路部门公告为准，旅客可留意后续售票信息。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 72,
+      "score_breakdown": {
+        "heat": 24,
+        "freshness": 19,
+        "everyday_relevance": 17,
+        "evidence": 12
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-25T08:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "试运行不等同于正式开通，年底开通日期和列车时刻以铁路部门公告为准。"
+      },
+      "sources": [
+        {
+          "tier": "major_media",
+          "outlet": "大众新闻（大众日报客户端）",
+          "url": "https://hb.dzwww.com/p/p3kTjzp8xd.html",
+          "title": "济滨高铁今日试运行，145公里的线路何以“四两拨千斤”",
+          "captured_at": "2026-11-26T06:25:04+08:00",
+          "note": "明确11月25日上午正式启动试运行，发布于2026-11-25。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网山东",
+          "url": "https://www.sd.chinanews.com.cn/2/2026/1123/105133.html",
+          "title": "济滨高铁即将试运行",
+          "captured_at": "2026-11-26T06:25:04+08:00",
+          "note": "背景复核联调联试收尾、年底开通及济南滨州半小时通达，发布于2026-11-23。"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
