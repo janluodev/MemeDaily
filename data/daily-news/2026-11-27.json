@@ -1,0 +1,1063 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-28T03:14:14+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 33,
+    "published": 10,
+    "dropped_safety": {
+      "propaganda": 1,
+      "geopolitics": 1,
+      "controversy": 1
+    },
+    "dropped_low_confidence": 10,
+    "dropped_capacity": 9,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media",
+      "aggregator"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 29,
+      "official_sources": 4,
+      "state_media_sources": 9,
+      "major_media_sources": 2,
+      "aggregator_sources": 2,
+      "dropped_insufficient_evidence": 1
+    },
+    "selection": {
+      "evaluated_at": "2026-11-27T06:45:00+08:00",
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 19,
+        "relaxed_48h": 22,
+        "relaxed_72h": 27
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 24,
+          "cumulative_unique_candidates": 24,
+          "source_scope": [
+            "11-26晚间与11-27早间固定热榜归档",
+            "部委官网、地方政务、工会与考试公告",
+            "新华社、央视网、中国新闻网、人民网等中央媒体",
+            "主流都市与财经媒体及近7天去重复核"
+          ]
+        },
+        {
+          "pass": 2,
+          "candidates_added": 9,
+          "cumulative_unique_candidates": 33,
+          "source_scope": [
+            "中国消费者协会比较试验",
+            "地方人社发布",
+            "外交部领事服务",
+            "地方广电景区公告",
+            "国际体育组织赛果页",
+            "11-26晚间媒体与11-27固定热榜归档"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-27-fuel-price-second-cut",
+          "story_identity": "cn-fuel-price-second-cut-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-27-fuel-price-second-cut",
+          "score": 96,
+          "score_breakdown": {
+            "heat": 36,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-27-nhsa-continuous-medication",
+          "story_identity": "cn-nhsa-continuous-medication-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T09:32:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-27-nhsa-continuous-medication",
+          "score": 92,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-27-platform-labor-algorithm",
+          "story_identity": "cn-platform-labor-algorithm-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T19:49:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-27-platform-labor-algorithm",
+          "score": 92,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-27-tv-startup-ad-ban",
+          "story_identity": "cn-tv-startup-ad-ban-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-27-tv-startup-ad-ban",
+          "score": 92,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 20,
+            "everyday_relevance": 25,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-27-health-checkup-voluntary",
+          "story_identity": "cn-health-checkup-voluntary-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T19:18:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "selected",
+          "item_id": "2026-11-27-health-checkup-voluntary",
+          "score": 90,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-27-children-schoolbag-test",
+          "story_identity": "cn-children-schoolbag-test-2026-11-26",
+          "research_pass": 2,
+          "occurred_at": "2026-11-26T10:14:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-27-children-schoolbag-test",
+          "score": 89,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-27-china-basketball-saudi",
+          "story_identity": "cn-china-basketball-saudi-2026-11-26",
+          "research_pass": 2,
+          "occurred_at": "2026-11-27T01:06:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-11-27-china-basketball-saudi",
+          "score": 87,
+          "score_breakdown": {
+            "heat": 36,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-27-film-new-year-slate",
+          "story_identity": "cn-film-new-year-slate-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T13:20:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "selected",
+          "item_id": "2026-11-27-film-new-year-slate",
+          "score": 87,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-27-hainan-island-rail-pass",
+          "story_identity": "cn-hainan-island-rail-pass-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T13:21:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "selected",
+          "item_id": "2026-11-27-hainan-island-rail-pass",
+          "score": 87,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-27-legal-exam-results",
+          "story_identity": "cn-legal-exam-results-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "selected",
+          "item_id": "2026-11-27-legal-exam-results",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-27-union-dispute-mediation",
+          "story_identity": "cn-union-dispute-mediation-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T15:48:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_capacity",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格但同分排序未进入前10"
+        },
+        {
+          "candidate_key": "2026-11-27-chengdu-minors-ai-rules",
+          "story_identity": "cn-chengdu-minors-ai-rules-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T19:16:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_capacity",
+          "score": 85,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格但总分排序未进入前10"
+        },
+        {
+          "candidate_key": "2026-11-27-mental-health-plan",
+          "story_identity": "cn-mental-health-plan-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T13:28:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_capacity",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格但总分排序未进入前10"
+        },
+        {
+          "candidate_key": "2026-11-27-technical-education-plan",
+          "story_identity": "cn-technical-education-plan-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T20:16:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_capacity",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格但总分排序未进入前10"
+        },
+        {
+          "candidate_key": "2026-11-27-beijing-yabuli-train",
+          "story_identity": "cn-beijing-yabuli-train-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T18:01:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_capacity",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格但总分排序未进入前10"
+        },
+        {
+          "candidate_key": "2026-11-27-beijing-social-insurance-subsidy",
+          "story_identity": "cn-beijing-social-insurance-subsidy-2026-11-26",
+          "research_pass": 2,
+          "occurred_at": "2026-11-26T20:20:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格但总分排序未进入前10"
+        },
+        {
+          "candidate_key": "2026-11-27-electronic-apostille-platform",
+          "story_identity": "cn-electronic-apostille-platform-2026-11-26",
+          "research_pass": 2,
+          "occurred_at": "2026-11-26T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_capacity",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格但总分排序未进入前10"
+        },
+        {
+          "candidate_key": "2026-11-27-shenhua-tampines-win",
+          "story_identity": "cn-shenhua-tampines-win-2026-11-26",
+          "research_pass": 2,
+          "occurred_at": "2026-11-26T20:23:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_capacity",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 13
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格但总分排序未进入前10"
+        },
+        {
+          "candidate_key": "2026-11-27-haitai-yangtze-tunnel",
+          "story_identity": "cn-haitai-yangtze-tunnel-2026-11-26",
+          "research_pass": 2,
+          "occurred_at": "2026-11-26T17:12:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_capacity",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格但总分排序未进入前10"
+        },
+        {
+          "candidate_key": "2026-11-27-guangzhou-flexible-housing-fund",
+          "story_identity": "cn-guangzhou-flexible-housing-fund-2026-11-25",
+          "research_pass": 1,
+          "occurred_at": "2026-11-25T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 12,
+            "everyday_relevance": 24,
+            "evidence": 15
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅达到relaxed_72h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-27-dongguan-car-subsidy",
+          "story_identity": "cn-dongguan-car-subsidy-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T10:30:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 19,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-27-shanghai-dining-vouchers",
+          "story_identity": "cn-shanghai-dining-vouchers-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T10:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 16,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅达到relaxed_72h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-27-consumer-services-trend",
+          "story_identity": "cn-consumer-services-trend-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T11:44:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 67,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 20,
+            "everyday_relevance": 18,
+            "evidence": 11
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅达到relaxed_72h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-27-lijiang-shangrila-rail",
+          "story_identity": "cn-lijiang-shangrila-rail-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T20:10:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 65,
+          "score_breakdown": {
+            "heat": 17,
+            "freshness": 20,
+            "everyday_relevance": 16,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅达到relaxed_72h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-27-changshu-negotiated-drug-pharmacies",
+          "story_identity": "cn-changshu-negotiated-drug-pharmacies-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T15:41:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 60,
+          "score_breakdown": {
+            "heat": 12,
+            "freshness": 20,
+            "everyday_relevance": 17,
+            "evidence": 11
+          },
+          "drop_reason": "总分60低于65分合格线"
+        },
+        {
+          "candidate_key": "2026-11-27-tibet-honey-comparison",
+          "story_identity": "cn-tibet-honey-comparison-2026-11-25",
+          "research_pass": 1,
+          "occurred_at": "2026-11-25T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 57,
+          "score_breakdown": {
+            "heat": 14,
+            "freshness": 12,
+            "everyday_relevance": 18,
+            "evidence": 13
+          },
+          "drop_reason": "总分57低于65分合格线"
+        },
+        {
+          "candidate_key": "2026-11-27-chile-cherry-sea-freight",
+          "story_identity": "cn-chile-cherry-sea-freight-2026-11-25",
+          "research_pass": 2,
+          "occurred_at": "2026-11-25T18:31:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 16,
+            "everyday_relevance": 22,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-27-daocheng-yading-winter-closure",
+          "story_identity": "cn-daocheng-yading-winter-closure-2026-11-26",
+          "research_pass": 2,
+          "occurred_at": "2026-11-26T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 16,
+            "everyday_relevance": 21,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-27-weightloss-drug-safety",
+          "story_identity": "cn-weightloss-drug-safety-2026-11-24",
+          "research_pass": 2,
+          "occurred_at": "2026-11-24T19:17:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 67,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 10,
+            "everyday_relevance": 22,
+            "evidence": 12
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅达到relaxed_72h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-27-pboc-interest-rate-rules",
+          "story_identity": "cn-pboc-interest-rate-rules-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_insufficient_evidence",
+          "drop_reason": "公开时点不能确认早于评估时钟"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "propaganda"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "geopolitics"
+        },
+        {
+          "candidate_key": "candidate-3",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-27-fuel-price-second-cut",
+      "story_identity": "cn-fuel-price-second-cut-2026-11-27",
+      "headline": "⛽油价两连降，加满一箱少花约18元",
+      "summary": "国家发展改革委宣布，自27日零时起国内汽、柴油价格每吨分别下调440元和425元，折合92号汽油每升降0.35元、0号柴油每升降0.36元。这是油价连续第二次下调，普通私家车加满一箱50升92号汽油预计少花约17.5元，车主可按当地零售价安排加油。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 96,
+      "score_breakdown": {
+        "heat": 36,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 15
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-27T00:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "实际零售价格以各地加油站公示为准，后续价格仍随调价机制变化。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家发展改革委",
+          "url": "https://www.ndrc.gov.cn/xwdt/xwfb/202611/t20261126_1409082.html",
+          "title": "2026年11月26日国内成品油价格调整",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "确认27日零时调价及汽、柴油每吨下调幅度，发布于2026-11-26。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.news.cn/20261126/6389c326a6e140f182b6d7a63e02ab25/c.html",
+          "title": "汽油、柴油价格迎来“两连降”",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "复核两连降、每升降幅及50升油箱少花约17.5元，发布于2026-11-26。"
+        },
+        {
+          "tier": "aggregator",
+          "outlet": "website-hot-hub",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/9b11d001d6/archives/douyin/2026-11-26.md",
+          "title": "抖音热榜2026-11-26固定提交",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "11月26日17:36固定归档中油价话题位列第10，仅作热度佐证。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-27-nhsa-continuous-medication",
+      "story_identity": "cn-nhsa-continuous-medication-2026-11-26",
+      "headline": "💊医保上线连续用药管理，购药记录全国可查",
+      "summary": "国家医保局上线“连续用药管理”功能，参保人可查询自己在全国定点医疗机构和药店的购药记录，并按年度、机构、渠道筛选。经本人授权，医生也可查看相关记录，帮助核对连续用药情况、减少重复开药风险，具体服务入口和授权流程以国家医保服务平台提示为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 92,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 15
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-26T09:32:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "购药记录查询和医生查看均须本人授权，具体功能覆盖范围以国家医保服务平台说明为准。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家医保局",
+          "url": "https://www.nhsa.gov.cn/art/2026/11/26/art_14_23530.html",
+          "title": "“连续用药管理”功能上线，用药更安心",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "确认功能上线、全国购药记录查询及授权医生查看，发布于2026-11-26。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/jk/2026/11-26/10737907.shtml",
+          "title": "国家医保局：“连续用药管理”功能上线",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "交叉复核查询筛选方式和连续用药管理用途，发布于2026-11-26 09:32。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-27-platform-labor-algorithm",
+      "story_identity": "cn-platform-labor-algorithm-2026-11-26",
+      "headline": "🛵美团淘宝闪购全面取消骑手超时扣款",
+      "summary": "全国总工会披露，美团、淘宝闪购等平台已全面取消骑手超时扣款，18家平台企业完成算法协商，覆盖劳动者超过2500万人。相关规则由工会与平台协商完善，重点减轻配送时间压力。骑手实际考核、报酬和申诉渠道仍以各平台最新公示为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 92,
+      "score_breakdown": {
+        "heat": 33,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 15
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-26T19:49:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "平台规则仍可能调整，骑手考核、报酬和申诉安排以平台正式公示为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.news.cn/20261126/7ece09d5927746389613429b3da3313a/c.html",
+          "title": "工会多措并举加强劳动者权益保障",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "确认18家平台完成算法协商、覆盖逾2500万人及取消超时扣款，发布于2026-11-26 19:49。"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "北京商报",
+          "url": "https://www.bbtnews.com.cn/2026/1126/612364.shtml",
+          "title": "美团、淘宝闪购宣布全面取消超时扣款处罚",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "交叉复核美团、淘宝闪购全面取消骑手超时扣款，同稿时戳为2026-11-26 19:16。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-27-tv-startup-ad-ban",
+      "story_identity": "cn-tv-startup-ad-ban-2026-11-27",
+      "headline": "📺今起有线电视和IPTV不得播放开机广告",
+      "summary": "新修订的有线广播电视和交互式网络电视运营服务管理规定27日起施行，明确有线电视和IPTV开机不得播放商业广告，并提供开机看全屏直播、免费节目专区和收费明示等服务要求。规定针对有线电视与IPTV运营服务，不应扩大理解为所有互联网智能电视。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 92,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 20,
+        "everyday_relevance": 25,
+        "evidence": 15
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-27T00:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "规定适用范围为有线电视和IPTV运营服务，其他终端和互联网电视服务以相应规则为准。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "国家广电总局",
+          "url": "https://www.nrta.gov.cn/col/col1588/art/2026/art_6f835a21905c4299b554a90a13235e62.html",
+          "title": "《有线广播电视运营服务管理规定》",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "规定11月27日起施行，明确开机不得播放商业广告及服务要求。"
+        },
+        {
+          "tier": "official",
+          "outlet": "国家广电总局",
+          "url": "https://www.nrta.gov.cn/col/col3730/art/2026/art_72b41a01ffd145538921f630e5140510.html",
+          "title": "两项电视运营服务规定答记者问",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "复核开机看全屏直播、免费专区和收费明示，发布于2026-10-27 16:08。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-27-health-checkup-voluntary",
+      "story_identity": "cn-health-checkup-voluntary-2026-11-26",
+      "headline": "🩺体检项目须自愿，不得强制受检",
+      "summary": "国家卫生健康委发布成人健康体检工作指引，要求受检者自愿选择体检项目，不得强制接受明确禁止或无明确检查意义的项目。体检机构还应标注并解释异常结果，严禁伪造、篡改体检报告。公众选择套餐时可结合自身情况咨询专业医务人员，避免不必要检查。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "健康医疗",
+      "score": 90,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 14
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-26T19:18:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "体检项目应结合个人健康状况选择，异常结果需由正规医疗机构进一步评估。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.news.cn/politics/20261126/c3f64f2062e8480fb70ddfef425fc068/c.html",
+          "title": "国家卫生健康委明确不得强制受检者接受体检项目",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "确认体检项目自愿、禁止无意义项目及异常结果解释要求，发布于2026-11-26。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国网",
+          "url": "http://news.china.com.cn/2026-11/26/content_118790736.shtml",
+          "title": "国家卫生健康委明确不得强制受检者接受体检项目",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "同稿交叉复核并确认公开时戳为2026-11-26 19:18。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-27-children-schoolbag-test",
+      "story_identity": "cn-children-schoolbag-test-2026-11-26",
+      "headline": "🎒中消协实测25款儿童书包，选购留意增塑剂与缝合强度",
+      "summary": "中国消费者协会对25款儿童书包开展比较试验，发现1款样品增塑剂超限、1款缝合强度不足，另有样品提把损坏。中消协提醒，选购时不要只看外观和价格，还应关注护脊设计、反光条、提把与缝合牢度，拉杆书包则需注意拉杆和滚轮耐用性。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 89,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 15
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-11-26T10:14:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "比较试验结果仅针对所检样品和批次，选购时仍需查看产品标识与实物质量。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "人民网",
+          "url": "http://finance.people.com.cn/n1/2026/1126/c1004-40841160.html",
+          "title": "中国消费者协会发布25款儿童书包比较试验结果",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "复核25款样品比较试验及问题项目，发布于2026-11-26 18:38。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-26/10737967.shtml",
+          "title": "中消协发布25款儿童书包比较试验结果",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "复核增塑剂、缝合强度及提把问题与选购提示，发布于2026-11-26 10:35。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://jingji.cctv.com/2026/11/26/ARTIwdJNY17VmY88uL8Lhjpn261126.shtml",
+          "title": "中国消费者协会发布25款儿童书包比较试验结果",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "确认比较试验结果及护脊、反光条等消费指引，发布于2026-11-26 10:14。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-27-china-basketball-saudi",
+      "story_identity": "cn-china-basketball-saudi-2026-11-26",
+      "headline": "🏀中国男篮80比82惜败沙特，出线形势趋紧",
+      "summary": "新华社27日凌晨赛报显示，中国男篮在世界杯预选赛中以80比82不敌沙特阿拉伯队，全场三分球30投5中，最终两分惜败，后续出线压力增大。中国队将在余下预选赛继续争取出线机会，具体积分、排名和赛程安排以赛事官方最新信息为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 87,
+      "score_breakdown": {
+        "heat": 36,
+        "freshness": 20,
+        "everyday_relevance": 16,
+        "evidence": 15
+      },
+      "heat_rank": 7,
+      "occurred_at": "2026-11-27T01:06:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "积分、排名和出线形势随后续比赛变化，以赛事官方最新信息为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.news.cn/sports/20261127/fea199aa6ccf4b67b2927f61a2758553/c.html",
+          "title": "中国男篮世界杯预选赛不敌沙特队，出线形势严峻",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "确认80比82赛果、三分30投5中及出线形势，同稿转载时戳为2026-11-27 01:06。"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "网易转新华社",
+          "url": "https://www.163.com/dy/article/LCN1GUSR05346RC6.html",
+          "title": "中国男篮世界杯预选赛不敌沙特队",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "交叉复核完整赛报与比赛数据，发布于2026-11-27 01:06。"
+        },
+        {
+          "tier": "aggregator",
+          "outlet": "website-hot-hub",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/9762a44886/archives/douyin/2026-11-27.md",
+          "title": "抖音热榜2026-11-27固定提交",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "11月27日03:40固定归档中男篮话题位列第2，仅作热度佐证。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-27-film-new-year-slate",
+      "story_identity": "cn-film-new-year-slate-2026-11-26",
+      "headline": "🎬贺岁档片单来了，超50部影片定档",
+      "summary": "央视网报道，2026年贺岁档从11月27日持续至12月31日，共35天，已有超过50部中外影片定档，类型覆盖动画、悬疑、科幻和爱情等。多部作品将陆续公布排片，观众可结合年龄提示、口碑和影院场次选择观影，具体上映日期与排片以片方及影院信息为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "文化体育",
+      "score": 87,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 20,
+        "everyday_relevance": 18,
+        "evidence": 15
+      },
+      "heat_rank": 8,
+      "occurred_at": "2026-11-26T13:20:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "影片档期、片单和影院排片可能调整，观影前以片方及影院公告为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://tv.cctv.com/2026/11/26/VIDE6wVDrPJuG7MbFBXhMIzh261126.shtml",
+          "title": "贺岁档即将开启，超50部中外影片定档",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "确认档期11月27日至12月31日、超50部影片及类型分布，发布于2026-11-26 13:20。"
+        },
+        {
+          "tier": "aggregator",
+          "outlet": "website-hot-hub",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/9b11d001d6/archives/douyin/2026-11-26.md",
+          "title": "抖音热榜2026-11-26固定提交",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "11月26日17:36固定归档中贺岁档话题位列第32，仅作热度佐证。"
+        },
+        {
+          "tier": "aggregator",
+          "outlet": "website-hot-hub",
+          "url": "https://raw.githubusercontent.com/cxyfreedom/website-hot-hub/9762a44886/archives/douyin/2026-11-27.md",
+          "title": "抖音热榜2026-11-27固定提交",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "11月27日03:40固定归档显示贺岁档话题仍在榜，仅作持续热度佐证。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-27-hainan-island-rail-pass",
+      "story_identity": "cn-hainan-island-rail-pass-2026-11-26",
+      "headline": "🚄海南环岛高铁推随心行，25站不限次",
+      "summary": "海南环岛高铁26日推出“随心行”定期票，可在25座车站不限次数乘车，分为1日、3日和7日票，售价分别为139元、369元和669元，S字头列车除外。该产品面向环岛旅游和频繁往返旅客，购买前需核对适用车次、有效期及预约规则，以铁路12306页面为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "交通出行",
+      "score": 87,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 15
+      },
+      "heat_rank": 9,
+      "occurred_at": "2026-11-26T13:21:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "定期票适用车次、席位和预约规则以铁路12306最新说明为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738015.shtml",
+          "title": "海南环岛高铁推出“随心行”定期票：25座车站不限次数乘车",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "确认25站不限次、三档价格及S字头列车除外，发布于2026-11-26 13:21。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "央视网",
+          "url": "https://big5.cctv.com/gate/big5/tv.cctv.cn/2026/11/26/VIDE6U5KsdzEm7Iu7CKdnM8E261126.shtml",
+          "title": "海南环岛高铁今天推出“随心行”定期票",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "交叉复核26日推出定期票及旅游出行用途，发布于2026-11-26 14:36。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-27-legal-exam-results",
+      "story_identity": "cn-legal-exam-results-2026-11-27",
+      "headline": "🎓法考主观题成绩公布，全国线108分",
+      "summary": "司法部公告，2026年国家统一法律职业资格主观题考试成绩于27日零时公布，全国统一合格分数线为108分，放宽地区分数线分为85分、90分和95分。成绩合格人员可自12月1日起填报资格申请信息，查询入口、材料要求和受理安排以司法部及当地司法行政机关通知为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "教育考试",
+      "score": 86,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 20,
+        "everyday_relevance": 20,
+        "evidence": 15
+      },
+      "heat_rank": 10,
+      "occurred_at": "2026-11-27T00:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "成绩查询及资格申请安排以司法部和当地司法行政机关通知为准。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "司法部",
+          "url": "https://www.moj.gov.cn/pub/sfbgw/zwxxgk/fdzdgknr/fdzdgknrtzwj/202611/t20261126_542272.html",
+          "title": "2026年法考主观题成绩、合格分数线及资格申请公告",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "确认27日零时查分、全国线108分、放宽线及资格申请安排，页面发布于2026-11-26。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "人民网",
+          "url": "http://society.people.com.cn/n1/2026/1126/c1008-40841084.html",
+          "title": "2026年法考主观题成绩11月27日公布",
+          "captured_at": "2026-11-28T03:14:14+08:00",
+          "note": "交叉复核成绩公布日期、合格分数线与查询安排，发布于2026-11-26 15:49。"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
