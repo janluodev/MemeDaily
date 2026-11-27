@@ -1,0 +1,1309 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "v3-domestic-majority",
+  "rubric_version": "v3-domestic-majority",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T06:40:13+08:00",
+  "status": "published",
+  "run_report": {
+    "candidates_scanned": 50,
+    "published": 10,
+    "dropped_safety": {
+      "politics": 1,
+      "controversy": 1
+    },
+    "dropped_low_confidence": 34,
+    "dropped_capacity": 4,
+    "sources": [
+      "official",
+      "state_media",
+      "major_media"
+    ],
+    "evidence_summary": {
+      "candidates_with_urls": 48,
+      "official_sources": 3,
+      "state_media_sources": 9,
+      "major_media_sources": 1,
+      "aggregator_sources": 0,
+      "dropped_insufficient_evidence": 0
+    },
+    "selection": {
+      "tier": "strict_24h",
+      "qualified": {
+        "strict_24h": 14,
+        "relaxed_48h": 35,
+        "relaxed_72h": 45
+      },
+      "editorial_complete": true,
+      "research_passes": [
+        {
+          "pass": 1,
+          "candidates_added": 50,
+          "cumulative_unique_candidates": 50,
+          "source_scope": [
+            "中新网27日滚动新闻与固定热榜归档",
+            "中央气象台、中国天气网及地方预警信息",
+            "最高法、国家数据局等部委公开信息",
+            "新华社、央视新闻与地方公共服务机构",
+            "主流媒体报道及近7天去重复核"
+          ]
+        }
+      ],
+      "candidate_audit": [
+        {
+          "candidate_key": "2026-11-28-ebike-makers-regulatory-interview",
+          "story_identity": "cn-ebike-makers-regulatory-interview-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T18:01:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-28-ebike-makers-regulatory-interview",
+          "score": 93,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 24,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-28-nmc-wind-blue-warning",
+          "story_identity": "cn-nmc-wind-blue-warning-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T18:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-11-28-nmc-wind-blue-warning",
+          "score": 90,
+          "score_breakdown": {
+            "heat": 32,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-28-pboc-cd-min-100k",
+          "story_identity": "cn-pboc-cd-min-100k-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T18:48:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-28-pboc-cd-min-100k",
+          "score": 89,
+          "score_breakdown": {
+            "heat": 34,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-28-spc-wage-arrears-cases",
+          "story_identity": "cn-spc-wage-arrears-cases-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T15:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-28-spc-wage-arrears-cases",
+          "score": 88,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-28-national-warming-forecast",
+          "story_identity": "cn-national-warming-forecast-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T18:23:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-11-28-national-warming-forecast",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 18,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-28-jiangsu-cold-wave-blue",
+          "story_identity": "cn-jiangsu-cold-wave-blue-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T09:45:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "selected",
+          "item_id": "2026-11-28-jiangsu-cold-wave-blue",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 20,
+            "everyday_relevance": 22,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-28-market-ranking-rules-draft",
+          "story_identity": "cn-market-ranking-rules-draft-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T17:00:19+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-28-market-ranking-rules-draft",
+          "score": 84,
+          "score_breakdown": {
+            "heat": 30,
+            "freshness": 19,
+            "everyday_relevance": 21,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-28-digital-id-interop-rules",
+          "story_identity": "cn-digital-id-interop-rules-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T19:09:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "selected",
+          "item_id": "2026-11-28-digital-id-interop-rules",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 19,
+            "everyday_relevance": 20,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-28-info-accessibility-standard",
+          "story_identity": "cn-info-accessibility-standard-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T10:40:46+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "selected",
+          "item_id": "2026-11-28-info-accessibility-standard",
+          "score": 83,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 23,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-28-pboc-interest-rate-rules",
+          "story_identity": "cn-pboc-interest-rate-rules-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T18:45:02+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "selected",
+          "item_id": "2026-11-28-pboc-interest-rate-rules",
+          "score": 82,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 20,
+            "everyday_relevance": 19,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h"
+        },
+        {
+          "candidate_key": "2026-11-28-xulan-hsr-350-test",
+          "story_identity": "cn-xulan-hsr-350-test-disclosed-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T21:08:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_capacity",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 18,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格但总分排序未进入前10"
+        },
+        {
+          "candidate_key": "2026-11-28-qinghai-medical-insurance-cash-cases",
+          "story_identity": "cn-qinghai-medical-insurance-cash-cases-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T20:45:41+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_capacity",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 20,
+            "everyday_relevance": 20,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格但总分排序未进入前10"
+        },
+        {
+          "candidate_key": "2026-11-28-bicycle-national-standards",
+          "story_identity": "cn-bicycle-national-standards-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T11:20:53+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 19,
+            "everyday_relevance": 22,
+            "evidence": 14
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格但总分排序未进入前10"
+        },
+        {
+          "candidate_key": "2026-11-28-agri-wholesale-price-index",
+          "story_identity": "cn-agri-wholesale-price-index-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T14:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_capacity",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 20,
+            "everyday_relevance": 21,
+            "evidence": 15
+          },
+          "qualification_tier": "strict_24h",
+          "drop_reason": "strict_24h合格但总分排序未进入前10"
+        },
+        {
+          "candidate_key": "2026-11-28-anhui-three-hsr",
+          "story_identity": "cn-anhui-three-hsr-open-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 93,
+          "score_breakdown": {
+            "heat": 36,
+            "freshness": 18,
+            "everyday_relevance": 25,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-winter-guangxi-tourist-train",
+          "story_identity": "cn-winter-guangxi-tourist-train-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 17,
+            "everyday_relevance": 18,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-yabuli-ski-train",
+          "story_identity": "cn-yabuli-ski-train-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 17,
+            "everyday_relevance": 21,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-tetra-pak-antitrust",
+          "story_identity": "cn-tetra-pak-antitrust-judgment-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 29,
+            "freshness": 18,
+            "everyday_relevance": 17,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-hk-crossborder-ambulance",
+          "story_identity": "cn-hk-crossborder-ambulance-drill-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 75,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 18,
+            "everyday_relevance": 18,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-national-digital-literacy",
+          "story_identity": "cn-national-digital-literacy-report-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T18:21:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 22,
+            "freshness": 19,
+            "everyday_relevance": 18,
+            "evidence": 15
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-agri-model-tianji",
+          "story_identity": "cn-agri-model-tianji-disclosed-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T07:58:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 16,
+            "everyday_relevance": 18,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-space-computing-open-service",
+          "story_identity": "cn-space-computing-open-service-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "太空航天",
+          "outcome": "dropped_low_confidence",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 18,
+            "everyday_relevance": 17,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-short-track-shanghai",
+          "story_identity": "cn-short-track-shanghai-start-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 18,
+            "everyday_relevance": 20,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-australian-open-wildcard",
+          "story_identity": "cn-australian-open-wildcard-china-final-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 18,
+            "everyday_relevance": 18,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-guangdong-outdoor-classrooms",
+          "story_identity": "cn-guangdong-outdoor-classrooms-report-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T19:59:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 71,
+          "score_breakdown": {
+            "heat": 21,
+            "freshness": 15,
+            "everyday_relevance": 21,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-guobo-jade-exhibition",
+          "story_identity": "cn-guobo-jade-chengdu-exhibition-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 77,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 18,
+            "everyday_relevance": 19,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-zhou-qin-han-tang-exhibition",
+          "story_identity": "cn-zhou-qin-han-tang-nanning-exhibition-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 18,
+            "everyday_relevance": 20,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-tianjin-culture-commerce",
+          "story_identity": "cn-tianjin-culture-commerce-tourism-regulation-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 81,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 18,
+            "everyday_relevance": 22,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-ai-breast-cancer",
+          "story_identity": "cn-ai-breast-cancer-boundary-research-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 80,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 18,
+            "everyday_relevance": 20,
+            "evidence": 15
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-online-garbage-bags",
+          "story_identity": "cn-online-garbage-bags-shortcount-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "消费就业",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 17,
+            "everyday_relevance": 23,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-remote-sensing-launch",
+          "story_identity": "cn-remote-sensing-50-04-launch-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T21:05:00+08:00",
+          "scope": "domestic",
+          "topic": "太空航天",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 20,
+            "everyday_relevance": 15,
+            "evidence": 15
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-space-solar-base",
+          "story_identity": "cn-space-solar-experiment-base-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "太空航天",
+          "outcome": "dropped_low_confidence",
+          "score": 70,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 18,
+            "everyday_relevance": 15,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-sichuan-two-highways-tolls",
+          "story_identity": "cn-sichuan-two-highways-tolls-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 86,
+          "score_breakdown": {
+            "heat": 31,
+            "freshness": 18,
+            "everyday_relevance": 24,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-shenzhen-marathon",
+          "story_identity": "cn-shenzhen-marathon-announcement-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T21:24:41+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 72,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 17,
+            "everyday_relevance": 18,
+            "evidence": 13
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-technical-education-plan",
+          "story_identity": "cn-technical-education-five-year-plan-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T19:15:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 79,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 18,
+            "everyday_relevance": 21,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_48h",
+          "drop_reason": "仅达到relaxed_48h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-ai-data-rules-consultation",
+          "story_identity": "cn-ai-data-rules-consultation-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 27,
+            "freshness": 17,
+            "everyday_relevance": 17,
+            "evidence": 15
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅达到relaxed_72h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-ningbo-air-ambulance",
+          "story_identity": "cn-ningbo-air-ambulance-expansion-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 16,
+            "everyday_relevance": 22,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅达到relaxed_72h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-special-education-resource-center",
+          "story_identity": "cn-special-education-resource-center-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "教育考试",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 26,
+            "freshness": 16,
+            "everyday_relevance": 22,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅达到relaxed_72h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-eldercare-robots-expo",
+          "story_identity": "cn-eldercare-robots-expo-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "科技AI",
+          "outcome": "dropped_low_confidence",
+          "score": 76,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 16,
+            "everyday_relevance": 21,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅达到relaxed_72h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-u17-worldcup-knockout",
+          "story_identity": "cn-u17-worldcup-knockout-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 89,
+          "score_breakdown": {
+            "heat": 37,
+            "freshness": 18,
+            "everyday_relevance": 20,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅达到relaxed_72h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-baseball-qualifier-win",
+          "story_identity": "cn-baseball-qualifier-china-win-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "文化体育",
+          "outcome": "dropped_low_confidence",
+          "score": 78,
+          "score_breakdown": {
+            "heat": 28,
+            "freshness": 16,
+            "everyday_relevance": 20,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅达到relaxed_72h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-jiangxi-temporary-assistance",
+          "story_identity": "cn-jiangxi-temporary-assistance-data-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T17:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 18,
+            "freshness": 15,
+            "everyday_relevance": 21,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅达到relaxed_72h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-takeout-tableware-recycling",
+          "story_identity": "cn-takeout-tableware-recycling-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-11-27T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 68,
+          "score_breakdown": {
+            "heat": 20,
+            "freshness": 15,
+            "everyday_relevance": 19,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅达到relaxed_72h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-henan-inbound-service-center",
+          "story_identity": "cn-henan-inbound-service-center-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 25,
+            "freshness": 16,
+            "everyday_relevance": 19,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅达到relaxed_72h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-guangdong-international-medical",
+          "story_identity": "cn-guangdong-international-medical-guide-2026-11-26",
+          "research_pass": 1,
+          "occurred_at": "2026-11-26T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "健康医疗",
+          "outcome": "dropped_low_confidence",
+          "score": 73,
+          "score_breakdown": {
+            "heat": 23,
+            "freshness": 16,
+            "everyday_relevance": 20,
+            "evidence": 14
+          },
+          "qualification_tier": "relaxed_72h",
+          "drop_reason": "仅达到relaxed_72h，本期strict_24h合格候选已足量"
+        },
+        {
+          "candidate_key": "2026-11-28-el-nino",
+          "story_identity": "cn-el-nino-peak-analysis-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-09-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "自然灾害",
+          "outcome": "dropped_low_confidence",
+          "score": 74,
+          "score_breakdown": {
+            "heat": 33,
+            "freshness": 6,
+            "everyday_relevance": 21,
+            "evidence": 14
+          },
+          "drop_reason": "事件发生于2026年9月，超出72小时窗口"
+        },
+        {
+          "candidate_key": "2026-11-28-driving-license",
+          "story_identity": "cn-driving-license-expiry-explainer-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-06-01T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "交通出行",
+          "outcome": "dropped_low_confidence",
+          "score": 62,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 3,
+            "everyday_relevance": 22,
+            "evidence": 13
+          },
+          "drop_reason": "总分62低于65分合格线，且司法解释实施时间超出72小时窗口"
+        },
+        {
+          "candidate_key": "2026-11-28-jiangxi-accessibility",
+          "story_identity": "cn-jiangxi-accessibility-regulation-2026-11-27",
+          "research_pass": 1,
+          "occurred_at": "2026-09-23T00:00:00+08:00",
+          "scope": "domestic",
+          "topic": "民生服务",
+          "outcome": "dropped_low_confidence",
+          "score": 66,
+          "score_breakdown": {
+            "heat": 24,
+            "freshness": 5,
+            "everyday_relevance": 23,
+            "evidence": 14
+          },
+          "drop_reason": "条例于2026年9月23日通过，超出72小时窗口"
+        },
+        {
+          "candidate_key": "candidate-1",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "politics"
+        },
+        {
+          "candidate_key": "candidate-2",
+          "research_pass": 1,
+          "outcome": "dropped_safety",
+          "drop_reason": "controversy"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "2026-11-28-ebike-makers-regulatory-interview",
+      "story_identity": "cn-ebike-makers-regulatory-interview-2026-11-27",
+      "headline": "🛵15家电动自行车企业被约谈",
+      "summary": "市场监管总局等部门集中约谈15家电动自行车企业，通报飞行检查发现的认证及整车产品一致性问题，要求立即整改、完善售后服务，缺陷产品依法召回。消费者选购和使用时可核对车辆认证信息，已购车辆是否涉及召回以企业和监管部门后续公告为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 93,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 20,
+        "everyday_relevance": 24,
+        "evidence": 15
+      },
+      "heat_rank": 1,
+      "occurred_at": "2026-11-27T18:01:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "约谈后的整改、召回范围和进度以监管部门及企业正式公告为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-27/10738896.shtml",
+          "title": "中国官方集中约谈15家电动自行车企业",
+          "captured_at": "2026-11-28T06:40:13+08:00",
+          "note": "确认集中约谈15家企业、飞检问题及整改召回要求，发布于2026-11-27 18:01。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-28-nmc-wind-blue-warning",
+      "story_identity": "cn-nmc-wind-blue-warning-2026-11-27",
+      "headline": "🌬️大风蓝警持续，多海域阵风10级",
+      "summary": "中央气象台27日18时继续发布大风蓝色预警，北方多地有7至8级阵风，部分海域阵风可达9至10级。沿海作业、海上航运和陆上高空作业需防范瞬时大风，公众出行应远离临时搭建物，具体影响范围和时段以最新预警为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 90,
+      "score_breakdown": {
+        "heat": 32,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 15
+      },
+      "heat_rank": 2,
+      "occurred_at": "2026-11-27T18:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "大风影响范围和强度可能调整，出行与作业安排以当地最新预警为准。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "中央气象台",
+          "url": "https://www.nmc.cn/publish/country/warning/index.html",
+          "title": "大风预警",
+          "captured_at": "2026-11-28T06:40:13+08:00",
+          "note": "确认27日18时大风蓝色预警及陆地、海域阵风等级。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-27/10738917.shtml",
+          "title": "大风蓝色预警：甘肃内蒙古等6省区部分地区阵风可达7至8级",
+          "captured_at": "2026-11-28T06:40:13+08:00",
+          "note": "交叉复核北方多地7至8级阵风及部分海域9至10级阵风，发布于2026-11-27 18:28。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-28-pboc-cd-min-100k",
+      "story_identity": "cn-pboc-cd-min-100k-2026-11-27",
+      "headline": "💳大额存单个人门槛降至10万元",
+      "summary": "中国人民银行公布《大额存单管理办法》，个人投资人认购起点降至10万元，机构投资人认购起点降至500万元，并允许通过第三方平台和银行自有渠道转让。新规自2027年3月21日起施行，具体产品利率、期限和转让规则以各银行公示为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 89,
+      "score_breakdown": {
+        "heat": 34,
+        "freshness": 20,
+        "everyday_relevance": 20,
+        "evidence": 15
+      },
+      "heat_rank": 3,
+      "occurred_at": "2026-11-27T18:48:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "大额存单利率、期限、额度及转让条件以各银行正式产品说明为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华社",
+          "url": "https://www.news.cn/fortune/20261127/0add4fd26a5f4e99bf399aead904f73a/c.html",
+          "title": "大额存单个人认购起点下调至10万元",
+          "captured_at": "2026-11-28T06:40:13+08:00",
+          "note": "确认个人认购起点降至10万元、机构起点及转让安排，新华社2026-11-27电。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-27/10738941.shtml",
+          "title": "《大额存单管理办法》公布 个人投资人认购大额存单起点降为不低于10万元",
+          "captured_at": "2026-11-28T06:40:13+08:00",
+          "note": "确认《大额存单管理办法》公开及2027年3月21日施行，发布于2026-11-27 18:48。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-28-spc-wage-arrears-cases",
+      "story_identity": "cn-spc-wage-arrears-cases-2026-11-27",
+      "headline": "👷最高法发布6个治理欠薪案例",
+      "summary": "最高人民法院发布6个人民法院治理欠薪典型案例，明确农民工工资优先受偿、超龄劳动者最低工资保障及新就业形态欠薪责任。案例为劳动者依法维权和用人单位规范用工提供参考，具体工资认定、赔偿责任仍需结合劳动合同、实际用工和证据情况判断。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 88,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 15
+      },
+      "heat_rank": 4,
+      "occurred_at": "2026-11-27T15:00:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "典型案例不替代个案裁判，劳动者维权应结合实际用工关系和证据。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "最高人民法院",
+          "url": "https://www.court.gov.cn/zixun/xiangqing/518671.html",
+          "title": "全链条治理欠薪筑牢劳动者权益保障防线",
+          "captured_at": "2026-11-28T06:40:13+08:00",
+          "note": "确认发布6个治理欠薪典型案例及劳动者权益保障要点，发布于2026-11-27 15:00。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/gn/2026/11-27/10738746.shtml",
+          "title": "最高人民法院发布人民法院治理欠薪典型案例",
+          "captured_at": "2026-11-28T06:40:13+08:00",
+          "note": "交叉复核农民工工资优先受偿、超龄劳动者及新就业形态欠薪责任。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-28-national-warming-forecast",
+      "story_identity": "cn-national-warming-forecast-2026-11-27",
+      "headline": "🌡️南北方将回暖，局地或破纪录",
+      "summary": "中国天气网预报，南北方将迎来大范围回暖，多地累计升温6至10℃，局地约12℃，部分城市气温可能突破同期纪录。回暖过程中昼夜温差仍较明显，公众可根据当地逐日预报调整衣物；12月4日后或再迎降温，需留意后续天气变化。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 86,
+      "score_breakdown": {
+        "heat": 31,
+        "freshness": 18,
+        "everyday_relevance": 23,
+        "evidence": 14
+      },
+      "heat_rank": 5,
+      "occurred_at": "2026-11-27T18:23:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "升温幅度和破纪录可能性仍随预报调整，以当地最新气象信息为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国天气网（中新网转载）",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-27/10738914.shtml",
+          "title": "大范围回暖将席卷南北方 大城市升温日历看哪里会暖到破纪录",
+          "captured_at": "2026-11-28T06:40:13+08:00",
+          "note": "确认南北方回暖、累计升温幅度及12月4日后降温趋势，发布于2026-11-27 18:23。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-28-jiangsu-cold-wave-blue",
+      "story_identity": "cn-jiangsu-cold-wave-blue-2026-11-27",
+      "headline": "🥶江苏寒潮蓝警：降温8至9℃",
+      "summary": "江苏省气象台27日9时45分发布寒潮蓝色预警，预计苏北等地48小时最低气温下降8至9℃，并伴有5至7级偏北风。公众需注意添衣保暖，设施农业、户外作业和临时搭建物应提前防风，具体降温范围和防御提示以当地最新预警为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "自然灾害",
+      "score": 84,
+      "score_breakdown": {
+        "heat": 28,
+        "freshness": 20,
+        "everyday_relevance": 22,
+        "evidence": 14
+      },
+      "heat_rank": 6,
+      "occurred_at": "2026-11-27T09:45:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "寒潮预警可能随天气变化调整，防御安排以当地气象部门提示为准。"
+      },
+      "sources": [
+        {
+          "tier": "official",
+          "outlet": "中国天气网、国家预警信息发布中心",
+          "url": "http://www.weather.com.cn/alarm/newalarmcontent.shtml?file=10119-20261127094731-0401.html",
+          "title": "江苏省发布寒潮蓝色预警",
+          "captured_at": "2026-11-28T06:40:13+08:00",
+          "note": "确认27日9时45分寒潮蓝色预警、降温幅度及偏北风等级。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-28-market-ranking-rules-draft",
+      "story_identity": "cn-market-ranking-rules-draft-2026-11-27",
+      "headline": "📊买榜刷量算法黑箱拟被划红线",
+      "summary": "市场监管总局就榜单合规指引公开征求意见，围绕买榜、刷量、数据造假和算法黑箱等提出8方面33项负面清单，隐蔽商业合作也将纳入规范。指引关系平台榜单真实性和消费者判断，目前仍处征求意见阶段，具体规则及施行安排以正式文件为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 84,
+      "score_breakdown": {
+        "heat": 30,
+        "freshness": 19,
+        "everyday_relevance": 21,
+        "evidence": 14
+      },
+      "heat_rank": 7,
+      "occurred_at": "2026-11-27T17:00:19+08:00",
+      "risk": {
+        "level": "low",
+        "note": "指引仍在征求意见，最终规则、适用范围和施行时间以正式文件为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "法治日报（中新网转载）",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-27/10738839.shtml",
+          "title": "市场监管总局新规征意见：给买榜捆绑刷量造假算法黑箱划红线",
+          "captured_at": "2026-11-28T06:40:13+08:00",
+          "note": "确认榜单合规指引征求意见、8方面33项负面清单及主要治理对象。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-28-digital-id-interop-rules",
+      "story_identity": "cn-digital-id-interop-rules-2026-11-27",
+      "headline": "🪪数字身份互通规则公布",
+      "summary": "十一部门联合公布《分布式数字身份互通互认应用规定》，支持金融、税务、交通等场景跨平台互认，同时强调自愿使用、最小必要收集和个人信息保护。规定自2027年3月1日起施行，公众可自主选择是否使用相关服务，具体接入平台和办理流程以各机构公告为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "科技AI",
+      "score": 83,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 19,
+        "everyday_relevance": 20,
+        "evidence": 15
+      },
+      "heat_rank": 8,
+      "occurred_at": "2026-11-27T19:09:00+08:00",
+      "risk": {
+        "level": "low",
+        "note": "数字身份服务坚持自愿使用，具体功能、接入范围以各平台正式说明为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "新华网",
+          "url": "https://www.news.cn/politics/20261127/20f19f2654df44c790811bb46aed8019/c.html",
+          "title": "关于印发《分布式数字身份互通互认应用规定》的通知",
+          "captured_at": "2026-11-28T06:40:13+08:00",
+          "note": "确认规定全文、互通互认场景、自愿与最小化收集要求及施行日期。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/gn/2026/11-27/10738956.shtml",
+          "title": "十一部门联合公布《分布式数字身份互通互认应用规定》",
+          "captured_at": "2026-11-28T06:40:13+08:00",
+          "note": "交叉复核十一部门联合公布及2027年3月1日施行，发布于2026-11-27 19:09。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-28-info-accessibility-standard",
+      "story_identity": "cn-info-accessibility-standard-2026-11-27",
+      "headline": "♿互联网内容无障碍国标修订",
+      "summary": "信息无障碍国家标准完成修订并发布，覆盖网页和移动应用，新增或完善字幕、手语、键盘访问等要求，帮助老年人、残障人士等群体更便利地获取互联网内容。标准将于2027年2月1日起实施，各类网站和应用的改造范围、进度以标准文本及后续落实安排为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "民生服务",
+      "score": 83,
+      "score_breakdown": {
+        "heat": 25,
+        "freshness": 20,
+        "everyday_relevance": 23,
+        "evidence": 15
+      },
+      "heat_rank": 9,
+      "occurred_at": "2026-11-27T10:40:46+08:00",
+      "risk": {
+        "level": "low",
+        "note": "标准实施日期为2027年2月1日，具体改造要求以标准文本为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-27/10738594.shtml",
+          "title": "信息无障碍国家标准修订发布",
+          "captured_at": "2026-11-28T06:40:13+08:00",
+          "note": "确认标准修订发布、适用终端和无障碍功能要求，发布于2026-11-27 10:40:46。"
+        },
+        {
+          "tier": "major_media",
+          "outlet": "新京报",
+          "url": "https://www.bjnews.com.cn/detail/1795748564129046.html",
+          "title": "信息无障碍国家标准修订发布",
+          "captured_at": "2026-11-28T06:40:13+08:00",
+          "note": "交叉复核字幕、手语、键盘访问等要求及2027年2月1日实施。"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "2026-11-28-pboc-interest-rate-rules",
+      "story_identity": "cn-pboc-interest-rate-rules-2026-11-27",
+      "headline": "💰存贷款利率管理新规发布",
+      "summary": "中国人民银行发布《人民币存贷款利率管理规定》，明确电子渠道挂牌利率与线下渠道具有同等效力，罚息利率改为由借贷双方协商确定，预计总体水平下行。新规自2027年3月21日起施行，存贷款合同调整、实际利率和罚息计算以银行公示及合同约定为准。",
+      "category": "民生社会",
+      "scope": "domestic",
+      "topic": "消费就业",
+      "score": 82,
+      "score_breakdown": {
+        "heat": 29,
+        "freshness": 20,
+        "everyday_relevance": 19,
+        "evidence": 14
+      },
+      "heat_rank": 10,
+      "occurred_at": "2026-11-27T18:45:02+08:00",
+      "risk": {
+        "level": "low",
+        "note": "实际存贷款利率和罚息安排以银行公示及具体合同约定为准。"
+      },
+      "sources": [
+        {
+          "tier": "state_media",
+          "outlet": "央视新闻（中新网转载）",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-27/10738929.shtml",
+          "title": "《人民币存贷款利率管理规定》发布 2027年3月21日起施行",
+          "captured_at": "2026-11-28T06:40:13+08:00",
+          "note": "确认规定于2026-11-27 18:45:02公开及2027年3月21日施行。"
+        },
+        {
+          "tier": "state_media",
+          "outlet": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-27/10738946.shtml",
+          "title": "央行有关负责人就《人民币存贷款利率管理规定》答记者问",
+          "captured_at": "2026-11-28T06:40:13+08:00",
+          "note": "复核电子渠道挂牌利率效力、罚息协商确定及总体下行预期。"
+        }
+      ],
+      "published": true
+    }
+  ]
+}
